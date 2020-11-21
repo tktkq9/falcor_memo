@@ -1,4 +1,6 @@
 
+日本語エディターだと
+
 # Falcor
 
 ## Core/
@@ -9,5 +11,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDI2NDM4NCw4OTEwMTIwNDhdfQ==
+eyJoaXN0b3J5IjpbMjAzODMyODcxNCwtMTAwMjY0Mzg0LDg5MT
+AxMjA0OF19
 -->
