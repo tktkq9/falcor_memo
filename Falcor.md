@@ -1,6 +1,5 @@
 # Falcor
-日本語エディターだとビルドでC2220エラーがでるので以下のリンクに書いてある方法で対処する（自分は）
-
+場合によってはビルドでC2220エラーがでるので以下のリンクに書いてある方法で対処
 1.  プロジェクトのプロパティを開く
 2.  `構成プロパティ`  >  `C/C++`  >  `全般`を開く
 3.  `警告をエラーとして扱う`を`いいえ（/WX-）`に変更
@@ -15,6 +14,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTg0MzEzNiwtMTAwMjY0Mzg0LDg5MT
+eyJoaXN0b3J5IjpbLTcyNjcxMzExMSwtMTAwMjY0Mzg0LDg5MT
 AxMjA0OF19
 -->
