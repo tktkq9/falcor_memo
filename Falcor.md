@@ -1,4 +1,4 @@
-# Falcor
+# Falcorプロジェクト
 場合によってはビルドでC2220エラーがでるので以下の方法で対処
 1.  プロジェクトのプロパティを開く
 2.  `構成プロパティ`  >  `C/C++`  >  `全般`を開く
@@ -6,14 +6,14 @@
 
 参考 : https://qiita.com/ledsun/items/a3bd7691b86389073c7a
 
-## Core/
+# Core/
 
-### Sample
+## Sample
 
-#### a
+### a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NjUyMTkyMSwtMTUxOTMwNTkzNywtMT
-AwMjY0Mzg0LDg5MTAxMjA0OF19
+eyJoaXN0b3J5IjpbLTE2MTY0MDM5NzIsLTE1MTkzMDU5MzcsLT
+EwMDI2NDM4NCw4OTEwMTIwNDhdfQ==
 -->
