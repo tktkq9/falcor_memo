@@ -1,6 +1,6 @@
 # falcor_memo
 
-Falcorコードの自分用メモ
+Falcor4.2コードの自分用メモ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgxNDAxNzczXX0=
+eyJoaXN0b3J5IjpbNTEyODIxNjAxLDk4MTQwMTc3M119
 -->
