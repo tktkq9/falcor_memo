@@ -31,7 +31,7 @@ run() → runInternal()でいろいろ初期化し、最後にこの処理をし
         mpRenderer = nullptr;
 
 mpRendererが渡したIRenderer、mpWindow->msgLoop()は
-windowのwhileループとそこでのSample::renderFrame()  の実行（ここでmpRendererのそのほか関数が呼ばれている）
+windowのwhileループとそこでのSample::renderFrame()  の実行（ここでmpRendererの描画やキーイベントなどが呼ばれている）
 残りのpBar は描画する前に表示されるプログレスバー、mFrameRateはフレームレート管理、gpDevice->flushAndSync();は最後に残ったコマンドキューが終わるまで待つシャットダウン処理  
 IRendererだけを見るとonLoad()1回のみ → onFrameRender()ループ（とonGuiRender()の実行。そのほかイベント的なやつもここで処理？） → ループから抜けたらonShutdown()の流れ
 
@@ -59,11 +59,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5Nzc4NjU1OSwyOTAyMTA5MDcsMTc4OT
-UzMzA0MiwtMTkwMTAzNTM2OCwtMjA2NzQ4Mzg2MCwxNDAxNDE3
-NDkxLC0xNTc5OTQwNDQ2LDE0Mjc0MDM3NDUsMTI2MTM4MzEyLC
-01MTYxNzU1NjUsMTIzMzY5Njk2NSwtMTUyNDg5MTEzNywxMTEy
-MTE0MjQ0LDQyNDMzNjIxNCwtNDIwODQwOTMxLDI3OTk5NDE2NS
-wtMTA3NTQzNDMwMywtMTIzNzgxMjM2OCwyMjcwNzc3MzgsLTE1
-MTM3MzM3ODZdfQ==
+eyJoaXN0b3J5IjpbNDQ5ODkyMDI0LDI5MDIxMDkwNywxNzg5NT
+MzMDQyLC0xOTAxMDM1MzY4LC0yMDY3NDgzODYwLDE0MDE0MTc0
+OTEsLTE1Nzk5NDA0NDYsMTQyNzQwMzc0NSwxMjYxMzgzMTIsLT
+UxNjE3NTU2NSwxMjMzNjk2OTY1LC0xNTI0ODkxMTM3LDExMTIx
+MTQyNDQsNDI0MzM2MjE0LC00MjA4NDA5MzEsMjc5OTk0MTY1LC
+0xMDc1NDM0MzAzLC0xMjM3ODEyMzY4LDIyNzA3NzczOCwtMTUx
+MzczMzc4Nl19
 -->
