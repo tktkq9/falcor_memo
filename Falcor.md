@@ -37,13 +37,15 @@ cppの方はComparisonFuncに対するpybind11処理のみ
 ## ScriptBindings.h, cpp
 おそらくpybind11のヘルパー  
 見るのはぴぃちょんとぴぃびんど11を勉強した後で  
-pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/Docs/Usage/Render-Passes.md
+pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/Docs/Usage/Render-Passes.md  
+https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5ODU5OTY4LC0xNTc5OTQwNDQ2LDE0Mj
-c0MDM3NDUsMTI2MTM4MzEyLC01MTYxNzU1NjUsMTIzMzY5Njk2
-NSwtMTUyNDg5MTEzNywxMTEyMTE0MjQ0LDQyNDMzNjIxNCwtND
-IwODQwOTMxLDI3OTk5NDE2NSwtMTA3NTQzNDMwMywtMTIzNzgx
-MjM2OCwyMjcwNzc3MzgsLTE1MTM3MzM3ODYsLTE2MTY0MDM5Nz
-IsLTE1MTkzMDU5MzcsLTEwMDI2NDM4NCw4OTEwMTIwNDhdfQ==
+eyJoaXN0b3J5IjpbMTQwMTQxNzQ5MSwtMTU3OTk0MDQ0NiwxND
+I3NDAzNzQ1LDEyNjEzODMxMiwtNTE2MTc1NTY1LDEyMzM2OTY5
+NjUsLTE1MjQ4OTExMzcsMTExMjExNDI0NCw0MjQzMzYyMTQsLT
+QyMDg0MDkzMSwyNzk5OTQxNjUsLTEwNzU0MzQzMDMsLTEyMzc4
+MTIzNjgsMjI3MDc3NzM4LC0xNTEzNzMzNzg2LC0xNjE2NDAzOT
+cyLC0xNTE5MzA1OTM3LC0xMDAyNjQzODQsODkxMDEyMDQ4XX0=
 
 -->
