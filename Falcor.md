@@ -20,6 +20,8 @@ IRendererを継承したクラスとSampleConfigを生成し、Sample.h, cppで�
 描画処理のみを抽出したインターフェース（IRenderer）とそのデータやそれ以外の処理のインターフェース（IFramework）  
 サンプルプロジェクトにあるテンプレートはIRendererを継承し描画処理のみを実装し、そのほかの処理はIFrameworkを継承したSample.h, cppに任せてある  
 
+# サブ
+
 ## Framework.h, cpp
 Frameworkという名前だがIFrameworkがあるわけではない（Renderer.hにある）  
 シェーダー用（ほかでも使う？）のEnumがまとめられている  
@@ -27,16 +29,15 @@ Frameworkという名前だがIFrameworkがあるわけではない（Renderer.h
 cppのほうではComparisonFuncに対するpybind11処理のみ  
 https://github.com/NVIDIAGameWorks/Falcor/blob/master/Docs/Usage/Render-Passes.md
 
-# サブ
 
 ## ScriptBindings.h, cpp
 おそらくpybind11のヘルパー  
 あとでpythonとpybind11を調べてから見る  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTY4MzY1NDMsMTExMjExNDI0NCw0Mj
-QzMzYyMTQsLTQyMDg0MDkzMSwyNzk5OTQxNjUsLTEwNzU0MzQz
-MDMsLTEyMzc4MTIzNjgsMjI3MDc3NzM4LC0xNTEzNzMzNzg2LC
-0xNjE2NDAzOTcyLC0xNTE5MzA1OTM3LC0xMDAyNjQzODQsODkx
-MDEyMDQ4XX0=
+eyJoaXN0b3J5IjpbMTAwMTk2Mjk1OSwxMTEyMTE0MjQ0LDQyND
+MzNjIxNCwtNDIwODQwOTMxLDI3OTk5NDE2NSwtMTA3NTQzNDMw
+MywtMTIzNzgxMjM2OCwyMjcwNzc3MzgsLTE1MTM3MzM3ODYsLT
+E2MTY0MDM5NzIsLTE1MTkzMDU5MzcsLTEwMDI2NDM4NCw4OTEw
+MTIwNDhdfQ==
 -->
