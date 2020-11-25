@@ -6,7 +6,7 @@
 
 参考 : https://qiita.com/ledsun/items/a3bd7691b86389073c7a
 
-これ単体では動かず（dll作成用プロジェクト）、このdllを使い描画処理を実装しているっぽい  
+これ単体では動かず（dll作成用プロジェクト）、このdllを使い描画処理を実装している  
 サンプルフォルダのテンプレートを見ればわかるように、Renderer.hのIRendererインターフェースを継承したクラスを用意し、Winmain関数を作り、Sample.h, cppで実装してあるstatic run()関数を実行することにより描画できる  
 
 # メイン
@@ -38,10 +38,10 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 おそらくpybind11のヘルパー  
 見るのはぴぃちょんとぴぃびんど11を勉強した後で  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMjkwNjk1MSwtNTE2MTc1NTY1LDEyMz
-M2OTY5NjUsLTE1MjQ4OTExMzcsMTExMjExNDI0NCw0MjQzMzYy
-MTQsLTQyMDg0MDkzMSwyNzk5OTQxNjUsLTEwNzU0MzQzMDMsLT
-EyMzc4MTIzNjgsMjI3MDc3NzM4LC0xNTEzNzMzNzg2LC0xNjE2
-NDAzOTcyLC0xNTE5MzA1OTM3LC0xMDAyNjQzODQsODkxMDEyMD
-Q4XX0=
+eyJoaXN0b3J5IjpbLTExOTExOTYxNzMsLTUxNjE3NTU2NSwxMj
+MzNjk2OTY1LC0xNTI0ODkxMTM3LDExMTIxMTQyNDQsNDI0MzM2
+MjE0LC00MjA4NDA5MzEsMjc5OTk0MTY1LC0xMDc1NDM0MzAzLC
+0xMjM3ODEyMzY4LDIyNzA3NzczOCwtMTUxMzczMzc4NiwtMTYx
+NjQwMzk3MiwtMTUxOTMwNTkzNywtMTAwMjY0Mzg0LDg5MTAxMj
+A0OF19
 -->
