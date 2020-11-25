@@ -8,12 +8,13 @@
 
 # Core/
 
-## Sample
+## Sample.h, cpp
 
 ### a
 
-
+## Renderer.h
+描画処理のインターフェースとその構造のいんたーふぇー
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTY0MDM5NzIsLTE1MTkzMDU5MzcsLT
-EwMDI2NDM4NCw4OTEwMTIwNDhdfQ==
+eyJoaXN0b3J5IjpbNDg1NDI3Mjk1LC0xNjE2NDAzOTcyLC0xNT
+E5MzA1OTM3LC0xMDAyNjQzODQsODkxMDEyMDQ4XX0=
 -->
