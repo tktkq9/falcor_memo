@@ -16,13 +16,13 @@ IRendererを継承したクラスとSampleConfigを生成し、Sample.h, cppで�
 
 
 ## Renderer.h
-描画処理のインターフェース（IRenderer）とそのデータやそれ以外の処理のインターフェース（IFramework）  
+描画処理のみを抽出したインターフェース（IRenderer）とそのデータやそれ以外の処理のインターフェース（IFramework）  
 サンプルプロジェクトにあるテンプレートはIRendererを継承し描画処理のみを実装し、そのほかの処理はIFrameworkを継承したSample.h, cppに任せてある  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5OTk0MTY1LC0xMDc1NDM0MzAzLC0xMj
-M3ODEyMzY4LDIyNzA3NzczOCwtMTUxMzczMzc4NiwtMTYxNjQw
-Mzk3MiwtMTUxOTMwNTkzNywtMTAwMjY0Mzg0LDg5MTAxMjA0OF
-19
+eyJoaXN0b3J5IjpbMTkyMjk4MTczLDI3OTk5NDE2NSwtMTA3NT
+QzNDMwMywtMTIzNzgxMjM2OCwyMjcwNzc3MzgsLTE1MTM3MzM3
+ODYsLTE2MTY0MDM5NzIsLTE1MTkzMDU5MzcsLTEwMDI2NDM4NC
+w4OTEwMTIwNDhdfQ==
 -->
