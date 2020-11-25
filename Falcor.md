@@ -10,7 +10,7 @@
 
 ## Sample.h, cpp
 描画データと描画以外の処理データ構造のインターフェース（IFramework）を継承して一通りの描画以外の処理をできるようにするもの、またはそのサンプル実装
-IRendererを継承したクラスとSampleConfigを生成し、Sample.h, cppで実装してあるstatic run()関数に渡すことにより
+IRendererを継承したクラスとSampleConfigを生成し、Sample.h, cppで実装してあるstatic run()関数に渡すことにより描画処理を行っている
 
 
 ## Renderer.h
@@ -18,7 +18,7 @@ IRendererを継承したクラスとSampleConfigを生成し、Sample.h, cppで�
 サンプルプロジェクトにあるテンプレートはIRendererを継承し描画処理のみを実装し、そのほかの処理はIFrameworkを継承したSample.h, cppに任せてある
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTQ4MzAzNywtMTIzNzgxMjM2OCwyMj
-cwNzc3MzgsLTE1MTM3MzM3ODYsLTE2MTY0MDM5NzIsLTE1MTkz
-MDU5MzcsLTEwMDI2NDM4NCw4OTEwMTIwNDhdfQ==
+eyJoaXN0b3J5IjpbMTEyMzM1MTgxLC0xMjM3ODEyMzY4LDIyNz
+A3NzczOCwtMTUxMzczMzc4NiwtMTYxNjQwMzk3MiwtMTUxOTMw
+NTkzNywtMTAwMjY0Mzg0LDg5MTAxMjA0OF19
 -->
