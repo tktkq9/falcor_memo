@@ -23,7 +23,7 @@ IRendererを継承したクラスとSampleConfigを生成し、Sample.h, cppで�
 # サブ
 
 ## Framework.h, cpp
-Frameworkという名前だがIFrameworkがあるわけではない（IFrameworkはRenderer.hにある。なぜに）  
+Frameworkという名前だがIFrameworkがあるわけではない（IFrameworkはRenderer.hにある。なぞ）  
 シェーダー用（ほかでも使う？）のEnumがまとめられている  
 また、clampやalignmentなどのちょっとした汎用関数もある  
 cppのほうではComparisonFuncに対するpybind11処理のみ  
@@ -35,9 +35,9 @@ https://github.com/NVIDIAGameWorks/Falcor/blob/master/Docs/Usage/Render-Passes.m
 あとでpythonとpybind11を調べてから見る  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTUzODg0MzYsMTExMjExNDI0NCw0Mj
-QzMzYyMTQsLTQyMDg0MDkzMSwyNzk5OTQxNjUsLTEwNzU0MzQz
-MDMsLTEyMzc4MTIzNjgsMjI3MDc3NzM4LC0xNTEzNzMzNzg2LC
-0xNjE2NDAzOTcyLC0xNTE5MzA1OTM3LC0xMDAyNjQzODQsODkx
-MDEyMDQ4XX0=
+eyJoaXN0b3J5IjpbLTk1NDAxNzM5NSwxMTEyMTE0MjQ0LDQyND
+MzNjIxNCwtNDIwODQwOTMxLDI3OTk5NDE2NSwtMTA3NTQzNDMw
+MywtMTIzNzgxMjM2OCwyMjcwNzc3MzgsLTE1MTM3MzM3ODYsLT
+E2MTY0MDM5NzIsLTE1MTkzMDU5MzcsLTEwMDI2NDM4NCw4OTEw
+MTIwNDhdfQ==
 -->
