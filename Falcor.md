@@ -7,8 +7,8 @@
 参考 : https://qiita.com/ledsun/items/a3bd7691b86389073c7a
 
 これ単体では動かず（多分dll作成用プロジェクト）、このdllを使い描画処理を実装しているっぽい  
+サンプルフォルダのテンプレートを見ればわかるように、Renderer.hのIRendererインターフェースを継承したクラスを用意し、Winmain関数を作り、Sample.h, cppで実装してあるstatic run()関数を実行することにより描画できる
 
-# Core/
 
 ## Sample.h, cpp
 描画データと描画以外の処理データ構造のインターフェース（IFramework）を継承して一通りの描画以外の処理をできるようにするもの、またはそのサンプル実装
@@ -20,8 +20,8 @@ IRendererを継承したクラスとSampleConfigを生成し、Sample.h, cppで�
 サンプルプロジェクトにあるテンプレートはIRendererを継承し描画処理のみを実装し、そのほかの処理はIFrameworkを継承したSample.h, cppに任せてある
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzU0MzQzMDMsMTYzOTMwNTYyNiwtMT
-IzNzgxMjM2OCwyMjcwNzc3MzgsLTE1MTM3MzM3ODYsLTE2MTY0
-MDM5NzIsLTE1MTkzMDU5MzcsLTEwMDI2NDM4NCw4OTEwMTIwND
-hdfQ==
+eyJoaXN0b3J5IjpbLTE5NTIzOTA1ODUsLTEwNzU0MzQzMDMsLT
+EyMzc4MTIzNjgsMjI3MDc3NzM4LC0xNTEzNzMzNzg2LC0xNjE2
+NDAzOTcyLC0xNTE5MzA1OTM3LC0xMDAyNjQzODQsODkxMDEyMD
+Q4XX0=
 -->
