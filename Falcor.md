@@ -36,12 +36,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 
 ## ScriptBindings.h, cpp
 おそらくpybind11のヘルパー  
-あとでぴいちょんとぴいちょん11を調べてから見る  
-
+見るのはぴぃちょんとぴぃびんど11を調べてから  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDM0MjkyNjgsLTE1MjQ4OTExMzcsMT
-ExMjExNDI0NCw0MjQzMzYyMTQsLTQyMDg0MDkzMSwyNzk5OTQx
-NjUsLTEwNzU0MzQzMDMsLTEyMzc4MTIzNjgsMjI3MDc3NzM4LC
-0xNTEzNzMzNzg2LC0xNjE2NDAzOTcyLC0xNTE5MzA1OTM3LC0x
-MDAyNjQzODQsODkxMDEyMDQ4XX0=
+eyJoaXN0b3J5IjpbMjAwODc3NzI4NiwtMTUyNDg5MTEzNywxMT
+EyMTE0MjQ0LDQyNDMzNjIxNCwtNDIwODQwOTMxLDI3OTk5NDE2
+NSwtMTA3NTQzNDMwMywtMTIzNzgxMjM2OCwyMjcwNzc3MzgsLT
+E1MTM3MzM3ODYsLTE2MTY0MDM5NzIsLTE1MTkzMDU5MzcsLTEw
+MDI2NDM4NCw4OTEwMTIwNDhdfQ==
 -->
