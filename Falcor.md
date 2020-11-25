@@ -16,7 +16,8 @@
 IRendererを継承したクラスとSampleConfigを生成し、Sample.h, cppで実装してあるstatic run()関数に渡すことにより描画処理を行っている  
 run()実行時にグローバル変数gpFrameworkにこのインスタンスを格納、これを使ってrun()で作ったSampleインスタンスにアクセスでき、描画部分以外の処理ができる  
 
-### IRendererかんれ
+### IRenderer関連のコード
+
 
 ## Renderer.h
 描画処理のみを抽出したインターフェース（IRenderer）と、そのためのデータ管理やそれ以外の処理のインターフェース（IFramework）の2つが入っている  
@@ -42,11 +43,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjc0ODM4NjAsLTI3NjEwMzEwLDE0MD
-E0MTc0OTEsLTE1Nzk5NDA0NDYsMTQyNzQwMzc0NSwxMjYxMzgz
-MTIsLTUxNjE3NTU2NSwxMjMzNjk2OTY1LC0xNTI0ODkxMTM3LD
-ExMTIxMTQyNDQsNDI0MzM2MjE0LC00MjA4NDA5MzEsMjc5OTk0
-MTY1LC0xMDc1NDM0MzAzLC0xMjM3ODEyMzY4LDIyNzA3NzczOC
-wtMTUxMzczMzc4NiwtMTYxNjQwMzk3MiwtMTUxOTMwNTkzNywt
-MTAwMjY0Mzg0XX0=
+eyJoaXN0b3J5IjpbMTM0NDY1MzU1NywtMjA2NzQ4Mzg2MCwxND
+AxNDE3NDkxLC0xNTc5OTQwNDQ2LDE0Mjc0MDM3NDUsMTI2MTM4
+MzEyLC01MTYxNzU1NjUsMTIzMzY5Njk2NSwtMTUyNDg5MTEzNy
+wxMTEyMTE0MjQ0LDQyNDMzNjIxNCwtNDIwODQwOTMxLDI3OTk5
+NDE2NSwtMTA3NTQzNDMwMywtMTIzNzgxMjM2OCwyMjcwNzc3Mz
+gsLTE1MTM3MzM3ODYsLTE2MTY0MDM5NzIsLTE1MTkzMDU5Mzcs
+LTEwMDI2NDM4NF19
 -->
