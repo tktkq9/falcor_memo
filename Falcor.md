@@ -17,7 +17,7 @@ IRendererを継承したクラスとSampleConfigを生成し、Sample.h, cppで�
 run()実行時にグローバル変数gpFrameworkにこのインスタンスを格納、これを使ってrun()で作ったSampleインスタンスにアクセスでき、描画部分以外の処理ができる  
 
 ### IRenderer関連のコード
-run() → runInternal()でい
+run() → runInternal()でいろいろじ
     
         // Load and run
         mpRenderer->onLoad(getRenderContext());
@@ -55,11 +55,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwOTQ3ODM0NywtMjA2NzQ4Mzg2MCwxND
-AxNDE3NDkxLC0xNTc5OTQwNDQ2LDE0Mjc0MDM3NDUsMTI2MTM4
-MzEyLC01MTYxNzU1NjUsMTIzMzY5Njk2NSwtMTUyNDg5MTEzNy
-wxMTEyMTE0MjQ0LDQyNDMzNjIxNCwtNDIwODQwOTMxLDI3OTk5
-NDE2NSwtMTA3NTQzNDMwMywtMTIzNzgxMjM2OCwyMjcwNzc3Mz
-gsLTE1MTM3MzM3ODYsLTE2MTY0MDM5NzIsLTE1MTkzMDU5Mzcs
-LTEwMDI2NDM4NF19
+eyJoaXN0b3J5IjpbLTIxMDg2NDc2OTMsLTYwOTQ3ODM0NywtMj
+A2NzQ4Mzg2MCwxNDAxNDE3NDkxLC0xNTc5OTQwNDQ2LDE0Mjc0
+MDM3NDUsMTI2MTM4MzEyLC01MTYxNzU1NjUsMTIzMzY5Njk2NS
+wtMTUyNDg5MTEzNywxMTEyMTE0MjQ0LDQyNDMzNjIxNCwtNDIw
+ODQwOTMxLDI3OTk5NDE2NSwtMTA3NTQzNDMwMywtMTIzNzgxMj
+M2OCwyMjcwNzc3MzgsLTE1MTM3MzM3ODYsLTE2MTY0MDM5NzIs
+LTE1MTkzMDU5MzddfQ==
 -->
