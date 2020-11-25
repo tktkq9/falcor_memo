@@ -13,9 +13,10 @@
 ### a
 
 ## Renderer.h
-描画処理のインターフェースとその構造のインターフェースを
+描画処理のインターフェース（IRenderer）とその構造のインターフェース
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTM3MzM3ODYsNDg1NDI3Mjk1LC0xNj
-E2NDAzOTcyLC0xNTE5MzA1OTM3LC0xMDAyNjQzODQsODkxMDEy
-MDQ4XX0=
+eyJoaXN0b3J5IjpbLTM4MzQwNDY2MSwtMTUxMzczMzc4NiwtMT
+YxNjQwMzk3MiwtMTUxOTMwNTkzNywtMTAwMjY0Mzg0LDg5MTAx
+MjA0OF19
 -->
