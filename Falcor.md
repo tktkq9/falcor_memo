@@ -24,12 +24,13 @@ Frameworkという名前だがIFrameworkがあるわけではない（Renderer.h
 シェーダー用（ほかでも使う？）のEnumがまとめられている  
 また、clampやalignmentなどのちょっとした汎用関数もある  
 cppのほうではComparisonFuncに対するpybind11処理のみ  
+https://github.com/NVIDIAGameWorks/Falcor/blob/master/Docs/Usage/Render-Passes.md
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI0MzM2MjE0LC00MjA4NDA5MzEsMjc5OT
-k0MTY1LC0xMDc1NDM0MzAzLC0xMjM3ODEyMzY4LDIyNzA3Nzcz
-OCwtMTUxMzczMzc4NiwtMTYxNjQwMzk3MiwtMTUxOTMwNTkzNy
-wtMTAwMjY0Mzg0LDg5MTAxMjA0OF19
+eyJoaXN0b3J5IjpbLTcwMDYwNDA2MCw0MjQzMzYyMTQsLTQyMD
+g0MDkzMSwyNzk5OTQxNjUsLTEwNzU0MzQzMDMsLTEyMzc4MTIz
+NjgsMjI3MDc3NzM4LC0xNTEzNzMzNzg2LC0xNjE2NDAzOTcyLC
+0xNTE5MzA1OTM3LC0xMDAyNjQzODQsODkxMDEyMDQ4XX0=
 -->
