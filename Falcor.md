@@ -15,10 +15,11 @@ IRendererを継承したクラスとSampleConfigを生成し、static run()関�
 ### a
 
 ## Renderer.h
-描画処理のインターフェース（IRenderer）とそのデータ構造のインターフェース（IFramework）
+描画処理のインターフェース（IRenderer）と描画データ構造やそれ以外の処理のインターフェース（IFramework）  
+SampleプロジェクトにあるテンプレートはIRendererを継承し基本描画処理のみを
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDAzMjQ5OTcsMjI3MDc3NzM4LC0xNT
-EzNzMzNzg2LC0xNjE2NDAzOTcyLC0xNTE5MzA1OTM3LC0xMDAy
-NjQzODQsODkxMDEyMDQ4XX0=
+eyJoaXN0b3J5IjpbMTUzMTgwMjk5LDIyNzA3NzczOCwtMTUxMz
+czMzc4NiwtMTYxNjQwMzk3MiwtMTUxOTMwNTkzNywtMTAwMjY0
+Mzg0LDg5MTAxMjA0OF19
 -->
