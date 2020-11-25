@@ -27,10 +27,10 @@ cppのほうではComparisonFuncに対するpybind11処理のみ
 https://github.com/NVIDIAGameWorks/Falcor/blob/master/Docs/Usage/Render-Passes.md
 
 ## ScriptBindings.h, cpp
-おそらくpybind11のヘルパー
+おそらくpybind11のヘルパー  
 あとでpythonとpybind11を調べてから見る
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4OTA3MjY4LDExNTQ4OTkwNTcsNDI0Mz
+eyJoaXN0b3J5IjpbMTExMjExNDI0NCw3NTg5MDcyNjgsNDI0Mz
 M2MjE0LC00MjA4NDA5MzEsMjc5OTk0MTY1LC0xMDc1NDM0MzAz
 LC0xMjM3ODEyMzY4LDIyNzA3NzczOCwtMTUxMzczMzc4NiwtMT
 YxNjQwMzk3MiwtMTUxOTMwNTkzNywtMTAwMjY0Mzg0LDg5MTAx
