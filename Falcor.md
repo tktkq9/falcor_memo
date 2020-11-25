@@ -9,7 +9,8 @@
 # Core/
 
 ## Sample.h, cpp
-描画処理データ構造のインターフェース（IFramework）を継承して一通りの描画処理をできるようにする
+描画処理データ構造のインターフェース（IFramework）を継承して一通りの描画処理をできるようにするもの、またはそのサンプル実装
+IRendererを継承したクラスとSampleConfigを生成し、static run()関数に渡すことにより
 
 ### a
 
@@ -17,7 +18,7 @@
 描画処理のインターフェース（IRenderer）とそのデータ構造のインターフェース（IFramework）
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3MDc3NzM4LDM5OTA2MjAzOCwtMTUxMz
-czMzc4NiwtMTYxNjQwMzk3MiwtMTUxOTMwNTkzNywtMTAwMjY0
-Mzg0LDg5MTAxMjA0OF19
+eyJoaXN0b3J5IjpbLTE2MDAzMjQ5OTcsMjI3MDc3NzM4LC0xNT
+EzNzMzNzg2LC0xNjE2NDAzOTcyLC0xNTE5MzA1OTM3LC0xMDAy
+NjQzODQsODkxMDEyMDQ4XX0=
 -->
