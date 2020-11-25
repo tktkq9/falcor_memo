@@ -21,8 +21,8 @@ IRendererを継承したクラスとSampleConfigを生成し、Sample.h, cppで�
 サンプルプロジェクトにあるテンプレートはIRendererを継承し描画処理のみを実装し、そのほかの処理はIFrameworkを継承したSample.h, cppに任せてある  
 
 ## FalcorConfig.h
-ファルカーノコンフィグ
-プロファイルとログ出力のせっていの
+ファルカーノコンフィグ  
+プロファイルとログ出力の設定のみ  
 
 # サブ
 
@@ -39,9 +39,9 @@ https://github.com/NVIDIAGameWorks/Falcor/blob/master/Docs/Usage/Render-Passes.m
 あとでpythonとpybind11を調べてから見る  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQ4OTExMzcsMTk3Mzc3NjM2MywxMT
-EyMTE0MjQ0LDQyNDMzNjIxNCwtNDIwODQwOTMxLDI3OTk5NDE2
-NSwtMTA3NTQzNDMwMywtMTIzNzgxMjM2OCwyMjcwNzc3MzgsLT
-E1MTM3MzM3ODYsLTE2MTY0MDM5NzIsLTE1MTkzMDU5MzcsLTEw
-MDI2NDM4NCw4OTEwMTIwNDhdfQ==
+eyJoaXN0b3J5IjpbNjM1MzU0MzE3LC0xNTI0ODkxMTM3LDExMT
+IxMTQyNDQsNDI0MzM2MjE0LC00MjA4NDA5MzEsMjc5OTk0MTY1
+LC0xMDc1NDM0MzAzLC0xMjM3ODEyMzY4LDIyNzA3NzczOCwtMT
+UxMzczMzc4NiwtMTYxNjQwMzk3MiwtMTUxOTMwNTkzNywtMTAw
+MjY0Mzg0LDg5MTAxMjA0OF19
 -->
