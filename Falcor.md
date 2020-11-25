@@ -6,6 +6,8 @@
 
 参考 : https://qiita.com/ledsun/items/a3bd7691b86389073c7a
 
+これ単体では動かず（多分dll作成用プロジェクト）
+
 # Core/
 
 ## Sample.h, cpp
@@ -18,7 +20,7 @@ IRendererを継承したクラスとSampleConfigを生成し、Sample.h, cppで�
 サンプルプロジェクトにあるテンプレートはIRendererを継承し描画処理のみを実装し、そのほかの処理はIFrameworkを継承したSample.h, cppに任せてある
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzM1MTgxLC0xMjM3ODEyMzY4LDIyNz
-A3NzczOCwtMTUxMzczMzc4NiwtMTYxNjQwMzk3MiwtMTUxOTMw
-NTkzNywtMTAwMjY0Mzg0LDg5MTAxMjA0OF19
+eyJoaXN0b3J5IjpbLTEzMjU1NDUyODAsLTEyMzc4MTIzNjgsMj
+I3MDc3NzM4LC0xNTEzNzMzNzg2LC0xNjE2NDAzOTcyLC0xNTE5
+MzA1OTM3LC0xMDAyNjQzODQsODkxMDEyMDQ4XX0=
 -->
