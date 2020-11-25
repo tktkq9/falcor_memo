@@ -23,13 +23,13 @@ IRendererを継承したクラスとSampleConfigを生成し、Sample.h, cppで�
 Frameworkという名前だがIFrameworkがあるわけではない（Renderer.hにある）  
 シェーダー用（ほかでも使う？）のEnumがまとめられている  
 また、clampやalignmentなどのちょっとした汎用関数もある  
-
+cppのほうではComparisonFuncに対するpybind
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMDg0MDkzMSwxNTcxNTQxNTEsMjc5OT
-k0MTY1LC0xMDc1NDM0MzAzLC0xMjM3ODEyMzY4LDIyNzA3Nzcz
-OCwtMTUxMzczMzc4NiwtMTYxNjQwMzk3MiwtMTUxOTMwNTkzNy
-wtMTAwMjY0Mzg0LDg5MTAxMjA0OF19
+eyJoaXN0b3J5IjpbLTM3MDI3NDQyNSwtNDIwODQwOTMxLDI3OT
+k5NDE2NSwtMTA3NTQzNDMwMywtMTIzNzgxMjM2OCwyMjcwNzc3
+MzgsLTE1MTM3MzM3ODYsLTE2MTY0MDM5NzIsLTE1MTkzMDU5Mz
+csLTEwMDI2NDM4NCw4OTEwMTIwNDhdfQ==
 -->
