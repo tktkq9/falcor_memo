@@ -9,6 +9,7 @@
 # Core/
 
 ## Sample.h, cpp
+描画処理データ構造のインターフェース（IFramework）を継承して一通りの描画処理をでき
 
 ### a
 
@@ -16,7 +17,7 @@
 描画処理のインターフェース（IRenderer）とそのデータ構造のインターフェース（IFramework）
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzkxNzI3NDEsLTE1MTM3MzM3ODYsLT
-E2MTY0MDM5NzIsLTE1MTkzMDU5MzcsLTEwMDI2NDM4NCw4OTEw
-MTIwNDhdfQ==
+eyJoaXN0b3J5IjpbMzk5MDYyMDM4LC0xNTEzNzMzNzg2LC0xNj
+E2NDAzOTcyLC0xNTE5MzA1OTM3LC0xMDAyNjQzODQsODkxMDEy
+MDQ4XX0=
 -->
