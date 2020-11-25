@@ -32,17 +32,18 @@ Frameworkという名前だがIFrameworkがあるわけではない（IFramework
 シェーダー用（ほかでも使う？）のEnumがまとめられている  
 また、clampやalignmentなどのちょっとした汎用関数もある  
 cppの方はComparisonFuncに対するpybind11処理のみ  
-pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/Docs/Usage/Render-Passes.md
 
 
 ## ScriptBindings.h, cpp
 おそらくpybind11のヘルパー  
 見るのはぴぃちょんとぴぃびんど11を勉強した後で  
+pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/Docs/Usage/Render-Passes.md
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzk5NDA0NDYsMTQyNzQwMzc0NSwxMj
-YxMzgzMTIsLTUxNjE3NTU2NSwxMjMzNjk2OTY1LC0xNTI0ODkx
-MTM3LDExMTIxMTQyNDQsNDI0MzM2MjE0LC00MjA4NDA5MzEsMj
-c5OTk0MTY1LC0xMDc1NDM0MzAzLC0xMjM3ODEyMzY4LDIyNzA3
-NzczOCwtMTUxMzczMzc4NiwtMTYxNjQwMzk3MiwtMTUxOTMwNT
-kzNywtMTAwMjY0Mzg0LDg5MTAxMjA0OF19
+eyJoaXN0b3J5IjpbNjQ5ODU5OTY4LC0xNTc5OTQwNDQ2LDE0Mj
+c0MDM3NDUsMTI2MTM4MzEyLC01MTYxNzU1NjUsMTIzMzY5Njk2
+NSwtMTUyNDg5MTEzNywxMTEyMTE0MjQ0LDQyNDMzNjIxNCwtND
+IwODQwOTMxLDI3OTk5NDE2NSwtMTA3NTQzNDMwMywtMTIzNzgx
+MjM2OCwyMjcwNzc3MzgsLTE1MTM3MzM3ODYsLTE2MTY0MDM5Nz
+IsLTE1MTkzMDU5MzcsLTEwMDI2NDM4NCw4OTEwMTIwNDhdfQ==
+
 -->
