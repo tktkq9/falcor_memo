@@ -11,6 +11,11 @@
 
 # メイン
 
+
+## Renderer.h
+描画処理のみを抽出したインターフェース（IRenderer）と、そのためのデータ管理やそれ以外の処理のインターフェース（IFramework）の2つが入っている  
+サンプルプロジェクトにあるテンプレートはIRendererを継承し描画処理のみを実装し、そのほかの処理はIFrameworkを継承したSample.h, cppに任せてある  
+
 ## Sample.h, cpp
 描画データと描画以外の処理データ構造のインターフェース（IFramework）を継承して一通りの描画以外の処理をできるようにするもの、またはそのサンプル実装  
 IRendererを継承したクラスとSampleConfigを生成し、Sample.h, cppで実装してあるstatic run()関数に渡すことにより描画処理を行っている  
@@ -35,9 +40,6 @@ windowのwhileループとそこでのSample::renderFrame()  の実行（ここ�
 残りのpBar は描画する前に表示されるプログレスバー、mFrameRateはフレームレート管理、gpDevice->flushAndSync();は最後に残ったコマンドキューが終わるまで待つシャットダウン処理  
 IRendererだけを見るとonLoad()1回のみ → onFrameRender()ループ（とonGuiRender()の実行。そのほかイベント的なやつもここで処理？） → ループから抜けたらonShutdown()の流れ
 
-## Renderer.h
-描画処理のみを抽出したインターフェース（IRenderer）と、そのためのデータ管理やそれ以外の処理のインターフェース（IFramework）の2つが入っている  
-サンプルプロジェクトにあるテンプレートはIRendererを継承し描画処理のみを実装し、そのほかの処理はIFrameworkを継承したSample.h, cppに任せてある  
 
 ## FalcorConfig.h
 ファルカーノコンフィグ  
@@ -59,11 +61,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNzIwNzg0NiwyOTAyMTA5MDcsMTc4OT
-UzMzA0MiwtMTkwMTAzNTM2OCwtMjA2NzQ4Mzg2MCwxNDAxNDE3
-NDkxLC0xNTc5OTQwNDQ2LDE0Mjc0MDM3NDUsMTI2MTM4MzEyLC
-01MTYxNzU1NjUsMTIzMzY5Njk2NSwtMTUyNDg5MTEzNywxMTEy
-MTE0MjQ0LDQyNDMzNjIxNCwtNDIwODQwOTMxLDI3OTk5NDE2NS
-wtMTA3NTQzNDMwMywtMTIzNzgxMjM2OCwyMjcwNzc3MzgsLTE1
-MTM3MzM3ODZdfQ==
+eyJoaXN0b3J5IjpbLTY4OTU0MTkxOCwxNzE3MjA3ODQ2LDI5MD
+IxMDkwNywxNzg5NTMzMDQyLC0xOTAxMDM1MzY4LC0yMDY3NDgz
+ODYwLDE0MDE0MTc0OTEsLTE1Nzk5NDA0NDYsMTQyNzQwMzc0NS
+wxMjYxMzgzMTIsLTUxNjE3NTU2NSwxMjMzNjk2OTY1LC0xNTI0
+ODkxMTM3LDExMTIxMTQyNDQsNDI0MzM2MjE0LC00MjA4NDA5Mz
+EsMjc5OTk0MTY1LC0xMDc1NDM0MzAzLC0xMjM3ODEyMzY4LDIy
+NzA3NzczOF19
 -->
