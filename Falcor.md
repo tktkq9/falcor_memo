@@ -22,13 +22,14 @@ IRendererを継承したクラスとSampleConfigを生成し、Sample.h, cppで�
 ## Framework.h, cpp
 Frameworkという名前だがIFrameworkがあるわけではない（Renderer.hにある）  
 シェーダー用（ほかでも使う？）のEnumがまとめられている
+また、clampやalignmentなどのちょっとした汎用関数もある 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NzQ3MjQyNiwyNzk5OTQxNjUsLTEwNz
-U0MzQzMDMsLTEyMzc4MTIzNjgsMjI3MDc3NzM4LC0xNTEzNzMz
-Nzg2LC0xNjE2NDAzOTcyLC0xNTE5MzA1OTM3LC0xMDAyNjQzOD
-QsODkxMDEyMDQ4XX0=
+eyJoaXN0b3J5IjpbMTU3MTU0MTUxLDI3OTk5NDE2NSwtMTA3NT
+QzNDMwMywtMTIzNzgxMjM2OCwyMjcwNzc3MzgsLTE1MTM3MzM3
+ODYsLTE2MTY0MDM5NzIsLTE1MTkzMDU5MzcsLTEwMDI2NDM4NC
+w4OTEwMTIwNDhdfQ==
 -->
