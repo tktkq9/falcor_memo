@@ -18,7 +18,7 @@ run()実行時にグローバル変数gpFrameworkにこのインスタンスを�
 
 
 ## Renderer.h
-描画処理のみを抽出したインターフェース（IRenderer）と、そのためのデータ管理やそれ以外の処理のインターフェース（IFramework）  
+描画処理のみを抽出したインターフェース（IRenderer）と、そのためのデータ管理やそれ以外の処理のインターフェース（IFramework）の2つが入っている  
 サンプルプロジェクトにあるテンプレートはIRendererを継承し描画処理のみを実装し、そのほかの処理はIFrameworkを継承したSample.h, cppに任せてある  
 
 ## FalcorConfig.h
@@ -39,10 +39,10 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 おそらくpybind11のヘルパー  
 見るのはぴぃちょんとぴぃびんど11を勉強した後で  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MDQ1OTAwMywxNDI3NDAzNzQ1LDEyNj
-EzODMxMiwtNTE2MTc1NTY1LDEyMzM2OTY5NjUsLTE1MjQ4OTEx
-MzcsMTExMjExNDI0NCw0MjQzMzYyMTQsLTQyMDg0MDkzMSwyNz
-k5OTQxNjUsLTEwNzU0MzQzMDMsLTEyMzc4MTIzNjgsMjI3MDc3
-NzM4LC0xNTEzNzMzNzg2LC0xNjE2NDAzOTcyLC0xNTE5MzA1OT
-M3LC0xMDAyNjQzODQsODkxMDEyMDQ4XX0=
+eyJoaXN0b3J5IjpbLTE1Nzk5NDA0NDYsMTQyNzQwMzc0NSwxMj
+YxMzgzMTIsLTUxNjE3NTU2NSwxMjMzNjk2OTY1LC0xNTI0ODkx
+MTM3LDExMTIxMTQyNDQsNDI0MzM2MjE0LC00MjA4NDA5MzEsMj
+c5OTk0MTY1LC0xMDc1NDM0MzAzLC0xMjM3ODEyMzY4LDIyNzA3
+NzczOCwtMTUxMzczMzc4NiwtMTYxNjQwMzk3MiwtMTUxOTMwNT
+kzNywtMTAwMjY0Mzg0LDg5MTAxMjA0OF19
 -->
