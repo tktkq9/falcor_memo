@@ -20,6 +20,10 @@ IRendererを継承したクラスとSampleConfigを生成し、Sample.h, cppで�
 描画処理のみを抽出したインターフェース（IRenderer）とそのデータやそれ以外の処理のインターフェース（IFramework）  
 サンプルプロジェクトにあるテンプレートはIRendererを継承し描画処理のみを実装し、そのほかの処理はIFrameworkを継承したSample.h, cppに任せてある  
 
+## FalcorConfig.h
+ファルカーノコンフィグ
+プロファイルとログ出力の
+
 # サブ
 
 ## Framework.h, cpp
@@ -35,7 +39,7 @@ https://github.com/NVIDIAGameWorks/Falcor/blob/master/Docs/Usage/Render-Passes.m
 あとでpythonとpybind11を調べてから見る  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NDAxNzM5NSwxMTEyMTE0MjQ0LDQyND
+eyJoaXN0b3J5IjpbMTk3Mzc3NjM2MywxMTEyMTE0MjQ0LDQyND
 MzNjIxNCwtNDIwODQwOTMxLDI3OTk5NDE2NSwtMTA3NTQzNDMw
 MywtMTIzNzgxMjM2OCwyMjcwNzc3MzgsLTE1MTM3MzM3ODYsLT
 E2MTY0MDM5NzIsLTE1MTkzMDU5MzcsLTEwMDI2NDM4NCw4OTEw
