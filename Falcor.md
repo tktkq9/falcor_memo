@@ -14,6 +14,7 @@
 描画データと描画以外の処理データ構造のインターフェース（IFramework）を継承して一通りの描画以外の処理をできるようにするもの、またはそのサンプル実装  
 IRendererを継承したクラスとSampleConfigを生成し、Sample.h, cppで実装してあるstatic run()関数に渡すことにより描画処理を行っている  
 
+# メイン
 
 ## Renderer.h
 描画処理のみを抽出したインターフェース（IRenderer）とそのデータやそれ以外の処理のインターフェース（IFramework）  
@@ -26,12 +27,14 @@ Frameworkという名前だがIFrameworkがあるわけではない（Renderer.h
 cppのほうではComparisonFuncに対するpybind11処理のみ  
 https://github.com/NVIDIAGameWorks/Falcor/blob/master/Docs/Usage/Render-Passes.md
 
+# サブ
+
 ## ScriptBindings.h, cpp
 おそらくpybind11のヘルパー  
 あとでpythonとpybind11を調べてから見る  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTI5MjE3NCwxMTEyMTE0MjQ0LDQyND
+eyJoaXN0b3J5IjpbLTk3NTYxNTI4NywxMTEyMTE0MjQ0LDQyND
 MzNjIxNCwtNDIwODQwOTMxLDI3OTk5NDE2NSwtMTA3NTQzNDMw
 MywtMTIzNzgxMjM2OCwyMjcwNzc3MzgsLTE1MTM3MzM3ODYsLT
 E2MTY0MDM5NzIsLTE1MTkzMDU5MzcsLTEwMDI2NDM4NCw4OTEw
