@@ -14,7 +14,7 @@
 ## Sample.h, cpp
 描画データと描画以外の処理データ構造のインターフェース（IFramework）を継承して一通りの描画以外の処理をできるようにするもの、またはそのサンプル実装  
 IRendererを継承したクラスとSampleConfigを生成し、Sample.h, cppで実装してあるstatic run()関数に渡すことにより描画処理を行っている  
-run()実行時にgpFrameworkにこのインスタンスが
+run()実行時にグローバル変数gpFrameworkにこのインスタンスが格納され、これを使ってrun()で作ったSampleオブジェクトにアクセスする
 
 
 ## Renderer.h
@@ -39,10 +39,10 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 おそらくpybind11のヘルパー  
 見るのはぴぃちょんとぴぃびんど11を勉強した後で  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQ0NzI3MTIsMTI2MTM4MzEyLC01MT
-YxNzU1NjUsMTIzMzY5Njk2NSwtMTUyNDg5MTEzNywxMTEyMTE0
-MjQ0LDQyNDMzNjIxNCwtNDIwODQwOTMxLDI3OTk5NDE2NSwtMT
-A3NTQzNDMwMywtMTIzNzgxMjM2OCwyMjcwNzc3MzgsLTE1MTM3
-MzM3ODYsLTE2MTY0MDM5NzIsLTE1MTkzMDU5MzcsLTEwMDI2ND
-M4NCw4OTEwMTIwNDhdfQ==
+eyJoaXN0b3J5IjpbMTE2MzQ5MTkyLDEyNjEzODMxMiwtNTE2MT
+c1NTY1LDEyMzM2OTY5NjUsLTE1MjQ4OTExMzcsMTExMjExNDI0
+NCw0MjQzMzYyMTQsLTQyMDg0MDkzMSwyNzk5OTQxNjUsLTEwNz
+U0MzQzMDMsLTEyMzc4MTIzNjgsMjI3MDc3NzM4LC0xNTEzNzMz
+Nzg2LC0xNjE2NDAzOTcyLC0xNTE5MzA1OTM3LC0xMDAyNjQzOD
+QsODkxMDEyMDQ4XX0=
 -->
