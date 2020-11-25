@@ -16,6 +16,7 @@
 IRendererを継承したクラスとSampleConfigを生成し、Sample.h, cppで実装してあるstatic run()関数に渡すことにより描画処理を行っている  
 
 
+
 ## Renderer.h
 描画処理のみを抽出したインターフェース（IRenderer）とそのデータやそれ以外の処理のインターフェース（IFramework）  
 サンプルプロジェクトにあるテンプレートはIRendererを継承し描画処理のみを実装し、そのほかの処理はIFrameworkを継承したSample.h, cppに任せてある  
@@ -38,10 +39,10 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 おそらくpybind11のヘルパー  
 見るのはぴぃちょんとぴぃびんど11を勉強した後で  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MTM4MzEyLC01MTYxNzU1NjUsMTIzMz
-Y5Njk2NSwtMTUyNDg5MTEzNywxMTEyMTE0MjQ0LDQyNDMzNjIx
-NCwtNDIwODQwOTMxLDI3OTk5NDE2NSwtMTA3NTQzNDMwMywtMT
-IzNzgxMjM2OCwyMjcwNzc3MzgsLTE1MTM3MzM3ODYsLTE2MTY0
-MDM5NzIsLTE1MTkzMDU5MzcsLTEwMDI2NDM4NCw4OTEwMTIwND
-hdfQ==
+eyJoaXN0b3J5IjpbMTkzOTUyMzc2NiwxMjYxMzgzMTIsLTUxNj
+E3NTU2NSwxMjMzNjk2OTY1LC0xNTI0ODkxMTM3LDExMTIxMTQy
+NDQsNDI0MzM2MjE0LC00MjA4NDA5MzEsMjc5OTk0MTY1LC0xMD
+c1NDM0MzAzLC0xMjM3ODEyMzY4LDIyNzA3NzczOCwtMTUxMzcz
+Mzc4NiwtMTYxNjQwMzk3MiwtMTUxOTMwNTkzNywtMTAwMjY0Mz
+g0LDg5MTAxMjA0OF19
 -->
