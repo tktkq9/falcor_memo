@@ -1,5 +1,3 @@
-絶賛コード読み中。確実に間違った情報を書く自信がある
-
 # Falcorプロジェクト
 場合によってはビルドでC2220エラーがでるので以下の方法で対処
 1.  プロジェクトのプロパティを開く
@@ -41,9 +39,9 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 あとでpythonとpybind11を調べてから見る  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5Mjg0NzU1LC0xNTI0ODkxMTM3LDExMT
-IxMTQyNDQsNDI0MzM2MjE0LC00MjA4NDA5MzEsMjc5OTk0MTY1
-LC0xMDc1NDM0MzAzLC0xMjM3ODEyMzY4LDIyNzA3NzczOCwtMT
-UxMzczMzc4NiwtMTYxNjQwMzk3MiwtMTUxOTMwNTkzNywtMTAw
-MjY0Mzg0LDg5MTAxMjA0OF19
+eyJoaXN0b3J5IjpbMjA4NDQ2NjI4NCwtMTUyNDg5MTEzNywxMT
+EyMTE0MjQ0LDQyNDMzNjIxNCwtNDIwODQwOTMxLDI3OTk5NDE2
+NSwtMTA3NTQzNDMwMywtMTIzNzgxMjM2OCwyMjcwNzc3MzgsLT
+E1MTM3MzM3ODYsLTE2MTY0MDM5NzIsLTE1MTkzMDU5MzcsLTEw
+MDI2NDM4NCw4OTEwMTIwNDhdfQ==
 -->
