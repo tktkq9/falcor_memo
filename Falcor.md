@@ -30,7 +30,7 @@ run() → runInternal()でいろいろ初期化し、最後にこの処理をし
         if (gpDevice) gpDevice->flushAndSync();
         mpRenderer = nullptr;
 
-mpRendererが渡したIRenderer、pBar は描画する前に表示されるプログレスバー、mFrameRateはフレームレート管理、gpDevice->flushAndSync();は終わる前に現行のコマンドキューを終わらすシャットダウン処理
+mpRendererが渡したIRenderer、pBar は描画する前に表示されるプログレスバー、mFrameRateはフレームレート管理、gpDevice->flushAndSync();は最後に残ったコマンドキューが終わるまで待つシャットダウン処理
 
 ## Renderer.h
 描画処理のみを抽出したインターフェース（IRenderer）と、そのためのデータ管理やそれ以外の処理のインターフェース（IFramework）の2つが入っている  
@@ -56,7 +56,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjIzODMzNSwxNzg5NTMzMDQyLC0xOT
+eyJoaXN0b3J5IjpbLTE1NTUwMzk0NCwxNzg5NTMzMDQyLC0xOT
 AxMDM1MzY4LC0yMDY3NDgzODYwLDE0MDE0MTc0OTEsLTE1Nzk5
 NDA0NDYsMTQyNzQwMzc0NSwxMjYxMzgzMTIsLTUxNjE3NTU2NS
 wxMjMzNjk2OTY1LC0xNTI0ODkxMTM3LDExMTIxMTQyNDQsNDI0
