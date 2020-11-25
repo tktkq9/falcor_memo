@@ -28,10 +28,11 @@ https://github.com/NVIDIAGameWorks/Falcor/blob/master/Docs/Usage/Render-Passes.m
 
 ## ScriptBindings.h, cpp
 おそらくpybind11のヘルパー
-あとでpythonとpybind11をしらべてｋ
+あとでpythonとpybind11を調べてからみなお
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzODkwMTU2Niw0MjQzMzYyMTQsLTQyMD
-g0MDkzMSwyNzk5OTQxNjUsLTEwNzU0MzQzMDMsLTEyMzc4MTIz
-NjgsMjI3MDc3NzM4LC0xNTEzNzMzNzg2LC0xNjE2NDAzOTcyLC
-0xNTE5MzA1OTM3LC0xMDAyNjQzODQsODkxMDEyMDQ4XX0=
+eyJoaXN0b3J5IjpbMTE1NDg5OTA1NywtNDM4OTAxNTY2LDQyND
+MzNjIxNCwtNDIwODQwOTMxLDI3OTk5NDE2NSwtMTA3NTQzNDMw
+MywtMTIzNzgxMjM2OCwyMjcwNzc3MzgsLTE1MTM3MzM3ODYsLT
+E2MTY0MDM5NzIsLTE1MTkzMDU5MzcsLTEwMDI2NDM4NCw4OTEw
+MTIwNDhdfQ==
 -->
