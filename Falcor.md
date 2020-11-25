@@ -17,8 +17,20 @@ IRendererを継承したクラスとSampleConfigを生成し、Sample.h, cppで�
 run()実行時にグローバル変数gpFrameworkにこのインスタンスを格納、これを使ってrun()で作ったSampleインスタンスにアクセスでき、描画部分以外の処理ができる  
 
 ### IRenderer関連のコード
+run() → runInternal()でい
+    
+        // Load and run
+        mpRenderer->onLoad(getRenderContext());
+        pBar = nullptr;
 
+        mFrameRate.reset();
+        mpWindow->msgLoop();
 
+        mpRenderer->onShutdown();
+        if (gpDevice) gpDevice->flushAndSync();
+        mpRenderer = nullptr;
+
+あああ
 ## Renderer.h
 描画処理のみを抽出したインターフェース（IRenderer）と、そのためのデータ管理やそれ以外の処理のインターフェース（IFramework）の2つが入っている  
 サンプルプロジェクトにあるテンプレートはIRendererを継承し描画処理のみを実装し、そのほかの処理はIFrameworkを継承したSample.h, cppに任せてある  
@@ -43,7 +55,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NDY1MzU1NywtMjA2NzQ4Mzg2MCwxND
+eyJoaXN0b3J5IjpbLTYwOTQ3ODM0NywtMjA2NzQ4Mzg2MCwxND
 AxNDE3NDkxLC0xNTc5OTQwNDQ2LDE0Mjc0MDM3NDUsMTI2MTM4
 MzEyLC01MTYxNzU1NjUsMTIzMzY5Njk2NSwtMTUyNDg5MTEzNy
 wxMTEyMTE0MjQ0LDQyNDMzNjIxNCwtNDIwODQwOTMxLDI3OTk5
