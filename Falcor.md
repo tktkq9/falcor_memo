@@ -22,7 +22,7 @@ IRendererを継承したクラスとSampleConfigを生成し、Sample.h, cppで�
 
 ## FalcorConfig.h
 ファルカーノコンフィグ
-プロファイルとログ出力の
+プロファイルとログ出力のせっていの
 
 # サブ
 
@@ -39,9 +39,9 @@ https://github.com/NVIDIAGameWorks/Falcor/blob/master/Docs/Usage/Render-Passes.m
 あとでpythonとpybind11を調べてから見る  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3Mzc3NjM2MywxMTEyMTE0MjQ0LDQyND
-MzNjIxNCwtNDIwODQwOTMxLDI3OTk5NDE2NSwtMTA3NTQzNDMw
-MywtMTIzNzgxMjM2OCwyMjcwNzc3MzgsLTE1MTM3MzM3ODYsLT
-E2MTY0MDM5NzIsLTE1MTkzMDU5MzcsLTEwMDI2NDM4NCw4OTEw
-MTIwNDhdfQ==
+eyJoaXN0b3J5IjpbLTE1MjQ4OTExMzcsMTk3Mzc3NjM2MywxMT
+EyMTE0MjQ0LDQyNDMzNjIxNCwtNDIwODQwOTMxLDI3OTk5NDE2
+NSwtMTA3NTQzNDMwMywtMTIzNzgxMjM2OCwyMjcwNzc3MzgsLT
+E1MTM3MzM3ODYsLTE2MTY0MDM5NzIsLTE1MTkzMDU5MzcsLTEw
+MDI2NDM4NCw4OTEwMTIwNDhdfQ==
 -->
