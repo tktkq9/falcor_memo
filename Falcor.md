@@ -30,7 +30,7 @@ run() → runInternal()でいろいろ初期化し、最後にこの処理をし
         if (gpDevice) gpDevice->flushAndSync();
         mpRenderer = nullptr;
 
-mpRendererが渡したIRenderer、pBar は描画する前にｈｙ
+mpRendererが渡したIRenderer、pBar は描画する前に表示される
 
 ## Renderer.h
 描画処理のみを抽出したインターフェース（IRenderer）と、そのためのデータ管理やそれ以外の処理のインターフェース（IFramework）の2つが入っている  
@@ -56,7 +56,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjQxMTY5OTMsLTIxMDg2NDc2OTMsLT
+eyJoaXN0b3J5IjpbLTE5MDEwMzUzNjgsLTE2NjQxMTY5OTMsLT
 IwNjc0ODM4NjAsMTQwMTQxNzQ5MSwtMTU3OTk0MDQ0NiwxNDI3
 NDAzNzQ1LDEyNjEzODMxMiwtNTE2MTc1NTY1LDEyMzM2OTY5Nj
 UsLTE1MjQ4OTExMzcsMTExMjExNDI0NCw0MjQzMzYyMTQsLTQy
