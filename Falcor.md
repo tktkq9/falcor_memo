@@ -30,8 +30,8 @@ run() → runInternal()でいろいろ初期化し、最後にこの処理をし
         if (gpDevice) gpDevice->flushAndSync();
         mpRenderer = nullptr;
 
-mpRendererが渡したIRenderer、mpWindow->msgLoop()ha
-Sample::renderFrame()  
+mpRendererが渡したIRenderer、mpWindow->msgLoop()は
+（windowのwhileループとそこでのSample::renderFrame()  の実行による）
 残りのpBar は描画する前に表示されるプログレスバー、mFrameRateはフレームレート管理、gpDevice->flushAndSync();は最後に残ったコマンドキューが終わるまで待つシャットダウン処理  
 この順序で
 
@@ -59,11 +59,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNzYxNTIxNSwxNzg5NTMzMDQyLC0xOT
-AxMDM1MzY4LC0yMDY3NDgzODYwLDE0MDE0MTc0OTEsLTE1Nzk5
-NDA0NDYsMTQyNzQwMzc0NSwxMjYxMzgzMTIsLTUxNjE3NTU2NS
-wxMjMzNjk2OTY1LC0xNTI0ODkxMTM3LDExMTIxMTQyNDQsNDI0
-MzM2MjE0LC00MjA4NDA5MzEsMjc5OTk0MTY1LC0xMDc1NDM0Mz
-AzLC0xMjM3ODEyMzY4LDIyNzA3NzczOCwtMTUxMzczMzc4Niwt
-MTYxNjQwMzk3Ml19
+eyJoaXN0b3J5IjpbLTE3NjU0NTU1MjUsMTc4OTUzMzA0MiwtMT
+kwMTAzNTM2OCwtMjA2NzQ4Mzg2MCwxNDAxNDE3NDkxLC0xNTc5
+OTQwNDQ2LDE0Mjc0MDM3NDUsMTI2MTM4MzEyLC01MTYxNzU1Nj
+UsMTIzMzY5Njk2NSwtMTUyNDg5MTEzNywxMTEyMTE0MjQ0LDQy
+NDMzNjIxNCwtNDIwODQwOTMxLDI3OTk5NDE2NSwtMTA3NTQzND
+MwMywtMTIzNzgxMjM2OCwyMjcwNzc3MzgsLTE1MTM3MzM3ODYs
+LTE2MTY0MDM5NzJdfQ==
 -->
