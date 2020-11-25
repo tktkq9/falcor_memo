@@ -7,21 +7,22 @@
 参考 : https://qiita.com/ledsun/items/a3bd7691b86389073c7a
 
 これ単体では動かず（多分dll作成用プロジェクト）、このdllを使い描画処理を実装しているっぽい  
-サンプルフォルダのテンプレートを見ればわかるように、Renderer.hのIRendererインターフェースを継承したクラスを用意し、Winmain関数を作り、Sample.h, cppで実装してあるstatic run()関数を実行することにより描画できる
+サンプルフォルダのテンプレートを見ればわかるように、Renderer.hのIRendererインターフェースを継承したクラスを用意し、Winmain関数を作り、Sample.h, cppで実装してあるstatic run()関数を実行することにより描画できる  
 
 
 ## Sample.h, cpp
-描画データと描画以外の処理データ構造のインターフェース（IFramework）を継承して一通りの描画以外の処理をできるようにするもの、またはそのサンプル実装
-IRendererを継承したクラスとSampleConfigを生成し、Sample.h, cppで実装してあるstatic run()関数に渡すことにより描画処理を行っている
+描画データと描画以外の処理データ構造のインターフェース（IFramework）を継承して一通りの描画以外の処理をできるようにするもの、またはそのサンプル実装  
+IRendererを継承したクラスとSampleConfigを生成し、Sample.h, cppで実装してあるstatic run()関数に渡すことにより描画処理を行っている  
 
 
 ## Renderer.h
 描画処理のインターフェース（IRenderer）とそのデータやそれ以外の処理のインターフェース（IFramework）  
-サンプルプロジェクトにあるテンプレートはIRendererを継承し描画処理のみを実装し、そのほかの処理はIFrameworkを継承したSample.h, cppに任せてある
+サンプルプロジェクトにあるテンプレートはIRendererを継承し描画処理のみを実装し、そのほかの処理はIFrameworkを継承したSample.h, cppに任せてある  
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTIzOTA1ODUsLTEwNzU0MzQzMDMsLT
-EyMzc4MTIzNjgsMjI3MDc3NzM4LC0xNTEzNzMzNzg2LC0xNjE2
-NDAzOTcyLC0xNTE5MzA1OTM3LC0xMDAyNjQzODQsODkxMDEyMD
-Q4XX0=
+eyJoaXN0b3J5IjpbMjc5OTk0MTY1LC0xMDc1NDM0MzAzLC0xMj
+M3ODEyMzY4LDIyNzA3NzczOCwtMTUxMzczMzc4NiwtMTYxNjQw
+Mzk3MiwtMTUxOTMwNTkzNywtMTAwMjY0Mzg0LDg5MTAxMjA0OF
+19
 -->
