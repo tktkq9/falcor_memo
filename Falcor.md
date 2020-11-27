@@ -54,18 +54,18 @@ Frameworkという名前だがIFrameworkがあるわけではない（IFramework
 cppの方はComparisonFuncに対するpybind11処理のみ  
 
 
-## ScriptBindings.h, cpp
+## ScriptBindings.h, cpp, Scripting.h, cpp
 おそらくpybind11のヘルパー  
 見るのはぴぃちょんとぴぃびんど11を勉強した後で  
 pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/Docs/Usage/Render-Passes.md  
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4OTU0MTkxOCwxNzE3MjA3ODQ2LDI5MD
-IxMDkwNywxNzg5NTMzMDQyLC0xOTAxMDM1MzY4LC0yMDY3NDgz
-ODYwLDE0MDE0MTc0OTEsLTE1Nzk5NDA0NDYsMTQyNzQwMzc0NS
-wxMjYxMzgzMTIsLTUxNjE3NTU2NSwxMjMzNjk2OTY1LC0xNTI0
-ODkxMTM3LDExMTIxMTQyNDQsNDI0MzM2MjE0LC00MjA4NDA5Mz
-EsMjc5OTk0MTY1LC0xMDc1NDM0MzAzLC0xMjM3ODEyMzY4LDIy
-NzA3NzczOF19
+eyJoaXN0b3J5IjpbMTkwNjYxNDIyOCwtNjg5NTQxOTE4LDE3MT
+cyMDc4NDYsMjkwMjEwOTA3LDE3ODk1MzMwNDIsLTE5MDEwMzUz
+NjgsLTIwNjc0ODM4NjAsMTQwMTQxNzQ5MSwtMTU3OTk0MDQ0Ni
+wxNDI3NDAzNzQ1LDEyNjEzODMxMiwtNTE2MTc1NTY1LDEyMzM2
+OTY5NjUsLTE1MjQ4OTExMzcsMTExMjExNDI0NCw0MjQzMzYyMT
+QsLTQyMDg0MDkzMSwyNzk5OTQxNjUsLTEwNzU0MzQzMDMsLTEy
+Mzc4MTIzNjhdfQ==
 -->
