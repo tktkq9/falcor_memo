@@ -44,7 +44,7 @@ IRendererだけを見るとonLoad()1回のみ → onFrameRender()ループ（と
 ## Window.h, cpp
 window処理用  
 windowの作成には GLFW の API の中にある GLFWwindow で簡略化されている  
-これはOpenGL や Vulkan などの API だが、おそらくそれとは関係なく、window作成用に使われているっぽい、多分  
+これはOpenGL や Vulkan などの API だが、おそらくそれとは関係なくwindow作成のために使われているっぽい、多分（実際この window はDirectXでも使われている）  
 
 create()呼び出しの時にコールバックを mpCallbacks に割り当て、  
 主にキーやマウスやその他イベント処理のためのクラス ApiCallbacks で呼び出しを行っている  
@@ -70,11 +70,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjY0ODI1MDMsODUwNzIwMjAsLTE5NT
-kxOTY5NjEsMTIyOTM1OTE4OCwxNTIxNDk2NzA1LC0xNjg5MTcy
-NjE2LC02ODk1NDE5MTgsMTcxNzIwNzg0NiwyOTAyMTA5MDcsMT
-c4OTUzMzA0MiwtMTkwMTAzNTM2OCwtMjA2NzQ4Mzg2MCwxNDAx
-NDE3NDkxLC0xNTc5OTQwNDQ2LDE0Mjc0MDM3NDUsMTI2MTM4Mz
-EyLC01MTYxNzU1NjUsMTIzMzY5Njk2NSwtMTUyNDg5MTEzNywx
-MTEyMTE0MjQ0XX0=
+eyJoaXN0b3J5IjpbMjEzODUwNzAyNCw4NTA3MjAyMCwtMTk1OT
+E5Njk2MSwxMjI5MzU5MTg4LDE1MjE0OTY3MDUsLTE2ODkxNzI2
+MTYsLTY4OTU0MTkxOCwxNzE3MjA3ODQ2LDI5MDIxMDkwNywxNz
+g5NTMzMDQyLC0xOTAxMDM1MzY4LC0yMDY3NDgzODYwLDE0MDE0
+MTc0OTEsLTE1Nzk5NDA0NDYsMTQyNzQwMzc0NSwxMjYxMzgzMT
+IsLTUxNjE3NTU2NSwxMjMzNjk2OTY1LC0xNTI0ODkxMTM3LDEx
+MTIxMTQyNDRdfQ==
 -->
