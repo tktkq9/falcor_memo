@@ -42,7 +42,7 @@ IRendererだけを見るとonLoad()1回のみ → onFrameRender()ループ（と
 残りのイベント系列は Window.h, cpp 側のコールバック処理で呼ばれる
 
 ## Window.h, cpp
-window処理用  
+うぃｎ処理用  
 dx12 では HWND に対応
 windowの作成には GLFW API の GLFWwindow で簡略化されている  
 これはOpenGL や Vulkan などの API だが、
@@ -80,11 +80,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDUyNzIzNDQsMTY0NzUxMDI3NCwxOD
-I2NjQ5Njg4LDgwMzE0NjA0MSw3MDk1OTgzOTIsOTE1MDQyNjYx
-LDg1MDcyMDIwLC0xOTU5MTk2OTYxLDEyMjkzNTkxODgsMTUyMT
-Q5NjcwNSwtMTY4OTE3MjYxNiwtNjg5NTQxOTE4LDE3MTcyMDc4
-NDYsMjkwMjEwOTA3LDE3ODk1MzMwNDIsLTE5MDEwMzUzNjgsLT
-IwNjc0ODM4NjAsMTQwMTQxNzQ5MSwtMTU3OTk0MDQ0NiwxNDI3
-NDAzNzQ1XX0=
+eyJoaXN0b3J5IjpbLTc2NTQxNTgyOSwtMTQ0NTI3MjM0NCwxNj
+Q3NTEwMjc0LDE4MjY2NDk2ODgsODAzMTQ2MDQxLDcwOTU5ODM5
+Miw5MTUwNDI2NjEsODUwNzIwMjAsLTE5NTkxOTY5NjEsMTIyOT
+M1OTE4OCwxNTIxNDk2NzA1LC0xNjg5MTcyNjE2LC02ODk1NDE5
+MTgsMTcxNzIwNzg0NiwyOTAyMTA5MDcsMTc4OTUzMzA0MiwtMT
+kwMTAzNTM2OCwtMjA2NzQ4Mzg2MCwxNDAxNDE3NDkxLC0xNTc5
+OTQwNDQ2XX0=
 -->
