@@ -48,7 +48,7 @@ windowの作成には GLFW API の GLFWwindow で簡略化されている
 
 create()呼び出しの時にコールバックを mpCallbacks に割り当て、  
 主にキーやマウスやその他イベント処理のためのクラス ApiCallbacks で呼び出しを行っている  
-Window クラス自体は
+Window クラス自体はさくせ
 
 
 ## FalcorConfig.h
@@ -71,11 +71,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODA0OTIxMCw4NTA3MjAyMCwtMTk1OT
-E5Njk2MSwxMjI5MzU5MTg4LDE1MjE0OTY3MDUsLTE2ODkxNzI2
-MTYsLTY4OTU0MTkxOCwxNzE3MjA3ODQ2LDI5MDIxMDkwNywxNz
-g5NTMzMDQyLC0xOTAxMDM1MzY4LC0yMDY3NDgzODYwLDE0MDE0
-MTc0OTEsLTE1Nzk5NDA0NDYsMTQyNzQwMzc0NSwxMjYxMzgzMT
-IsLTUxNjE3NTU2NSwxMjMzNjk2OTY1LC0xNTI0ODkxMTM3LDEx
-MTIxMTQyNDRdfQ==
+eyJoaXN0b3J5IjpbMTgzNDE5NjgyMywtMTc4MDQ5MjEwLDg1MD
+cyMDIwLC0xOTU5MTk2OTYxLDEyMjkzNTkxODgsMTUyMTQ5Njcw
+NSwtMTY4OTE3MjYxNiwtNjg5NTQxOTE4LDE3MTcyMDc4NDYsMj
+kwMjEwOTA3LDE3ODk1MzMwNDIsLTE5MDEwMzUzNjgsLTIwNjc0
+ODM4NjAsMTQwMTQxNzQ5MSwtMTU3OTk0MDQ0NiwxNDI3NDAzNz
+Q1LDEyNjEzODMxMiwtNTE2MTc1NTY1LDEyMzM2OTY5NjUsLTE1
+MjQ4OTExMzddfQ==
 -->
