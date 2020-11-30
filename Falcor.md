@@ -40,6 +40,8 @@ windowのwhileループとそこでのSample::renderFrame()  の実行（ここ�
 残りのpBar は描画する前に表示されるプログレスバー、mFrameRateはフレームレート管理、gpDevice->flushAndSync();は最後に残ったコマンドキューが終わるまで待つシャットダウン処理  
 IRendererだけを見るとonLoad()1回のみ → onFrameRender()ループ（とonGuiRender()の実行。そのほかイベント的なやつもここで処理？） → ループから抜けたらonShutdown()の流れ
 
+## Window.h, cpp
+
 
 ## FalcorConfig.h
 ファルカーノコンフィグ  
@@ -61,11 +63,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODkxNzI2MTYsLTY4OTU0MTkxOCwxNz
-E3MjA3ODQ2LDI5MDIxMDkwNywxNzg5NTMzMDQyLC0xOTAxMDM1
-MzY4LC0yMDY3NDgzODYwLDE0MDE0MTc0OTEsLTE1Nzk5NDA0ND
-YsMTQyNzQwMzc0NSwxMjYxMzgzMTIsLTUxNjE3NTU2NSwxMjMz
-Njk2OTY1LC0xNTI0ODkxMTM3LDExMTIxMTQyNDQsNDI0MzM2Mj
-E0LC00MjA4NDA5MzEsMjc5OTk0MTY1LC0xMDc1NDM0MzAzLC0x
-MjM3ODEyMzY4XX0=
+eyJoaXN0b3J5IjpbMTUyMTQ5NjcwNSwtMTY4OTE3MjYxNiwtNj
+g5NTQxOTE4LDE3MTcyMDc4NDYsMjkwMjEwOTA3LDE3ODk1MzMw
+NDIsLTE5MDEwMzUzNjgsLTIwNjc0ODM4NjAsMTQwMTQxNzQ5MS
+wtMTU3OTk0MDQ0NiwxNDI3NDAzNzQ1LDEyNjEzODMxMiwtNTE2
+MTc1NTY1LDEyMzM2OTY5NjUsLTE1MjQ4OTExMzcsMTExMjExND
+I0NCw0MjQzMzYyMTQsLTQyMDg0MDkzMSwyNzk5OTQxNjUsLTEw
+NzU0MzQzMDNdfQ==
 -->
