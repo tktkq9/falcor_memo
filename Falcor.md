@@ -44,7 +44,8 @@ IRendererだけを見るとonLoad()1回のみ → onFrameRender()ループ（と
 ## Window.h, cpp
 window処理用  
 create()呼び出しの時にコールバックを mpCallbacks に割り当て、  
-キーイベント処理のためのクラス ApiCallbacks で呼び出しを行っている  
+キーやマウスやその他イベント処理のためのクラス ApiCallbacks で呼び出しを行っている  
+
 
 ## FalcorConfig.h
 ファルカーノコンフィグ  
@@ -66,11 +67,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzY5NDY0MTcsMTIyOTM1OTE4OCwxNT
-IxNDk2NzA1LC0xNjg5MTcyNjE2LC02ODk1NDE5MTgsMTcxNzIw
-Nzg0NiwyOTAyMTA5MDcsMTc4OTUzMzA0MiwtMTkwMTAzNTM2OC
-wtMjA2NzQ4Mzg2MCwxNDAxNDE3NDkxLC0xNTc5OTQwNDQ2LDE0
-Mjc0MDM3NDUsMTI2MTM4MzEyLC01MTYxNzU1NjUsMTIzMzY5Nj
-k2NSwtMTUyNDg5MTEzNywxMTEyMTE0MjQ0LDQyNDMzNjIxNCwt
-NDIwODQwOTMxXX0=
+eyJoaXN0b3J5IjpbMTY2Njg4NTkxLDEyMjkzNTkxODgsMTUyMT
+Q5NjcwNSwtMTY4OTE3MjYxNiwtNjg5NTQxOTE4LDE3MTcyMDc4
+NDYsMjkwMjEwOTA3LDE3ODk1MzMwNDIsLTE5MDEwMzUzNjgsLT
+IwNjc0ODM4NjAsMTQwMTQxNzQ5MSwtMTU3OTk0MDQ0NiwxNDI3
+NDAzNzQ1LDEyNjEzODMxMiwtNTE2MTc1NTY1LDEyMzM2OTY5Nj
+UsLTE1MjQ4OTExMzcsMTExMjExNDI0NCw0MjQzMzYyMTQsLTQy
+MDg0MDkzMV19
 -->
