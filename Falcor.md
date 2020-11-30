@@ -43,6 +43,7 @@ IRendererだけを見るとonLoad()1回のみ → onFrameRender()ループ（と
 
 ## Window.h, cpp
 window処理用  
+dx12 では HWND に対応
 windowの作成には GLFW API の GLFWwindow で簡略化されている  
 これはOpenGL や Vulkan などの API だが、
 
@@ -79,11 +80,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NzUxMDI3NCwxODI2NjQ5Njg4LDgwMz
-E0NjA0MSw3MDk1OTgzOTIsOTE1MDQyNjYxLDg1MDcyMDIwLC0x
-OTU5MTk2OTYxLDEyMjkzNTkxODgsMTUyMTQ5NjcwNSwtMTY4OT
-E3MjYxNiwtNjg5NTQxOTE4LDE3MTcyMDc4NDYsMjkwMjEwOTA3
-LDE3ODk1MzMwNDIsLTE5MDEwMzUzNjgsLTIwNjc0ODM4NjAsMT
-QwMTQxNzQ5MSwtMTU3OTk0MDQ0NiwxNDI3NDAzNzQ1LDEyNjEz
-ODMxMl19
+eyJoaXN0b3J5IjpbMTU2MjMwMjE1OSwxNjQ3NTEwMjc0LDE4Mj
+Y2NDk2ODgsODAzMTQ2MDQxLDcwOTU5ODM5Miw5MTUwNDI2NjEs
+ODUwNzIwMjAsLTE5NTkxOTY5NjEsMTIyOTM1OTE4OCwxNTIxND
+k2NzA1LC0xNjg5MTcyNjE2LC02ODk1NDE5MTgsMTcxNzIwNzg0
+NiwyOTAyMTA5MDcsMTc4OTUzMzA0MiwtMTkwMTAzNTM2OCwtMj
+A2NzQ4Mzg2MCwxNDAxNDE3NDkxLC0xNTc5OTQwNDQ2LDE0Mjc0
+MDM3NDVdfQ==
 -->
