@@ -56,7 +56,7 @@ Window クラス自体は作成（ここで ApiCallbacks の関数と GLFWwindow
 とあるように、おそらくそれとは関係なくウィンドウ作成のために使われているだけっぽい（実際このウィンドウ作成はDirectXでも行われている）  
 
 create()呼び出しの時にコールバックを mpCallbacks に割り当て、  
-主にキーやマウスやその他イベント処理のためのクラス ApiCallbacks で呼び出しを行っている  
+主にキーやマウスやその他イベント処理のための ApiCallbacks クラスで呼び出しを行っている  
 
 
 ## Device.h, cpp
@@ -82,11 +82,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDkwMDA1MCwtNTk1NzA5ODQ5LC0xNT
-Y3MzMzMzcxLC0xNDQ1MjcyMzQ0LDE2NDc1MTAyNzQsMTgyNjY0
-OTY4OCw4MDMxNDYwNDEsNzA5NTk4MzkyLDkxNTA0MjY2MSw4NT
-A3MjAyMCwtMTk1OTE5Njk2MSwxMjI5MzU5MTg4LDE1MjE0OTY3
-MDUsLTE2ODkxNzI2MTYsLTY4OTU0MTkxOCwxNzE3MjA3ODQ2LD
-I5MDIxMDkwNywxNzg5NTMzMDQyLC0xOTAxMDM1MzY4LC0yMDY3
-NDgzODYwXX0=
+eyJoaXN0b3J5IjpbLTIwNDk5NDIwMTAsLTU5NTcwOTg0OSwtMT
+U2NzMzMzM3MSwtMTQ0NTI3MjM0NCwxNjQ3NTEwMjc0LDE4MjY2
+NDk2ODgsODAzMTQ2MDQxLDcwOTU5ODM5Miw5MTUwNDI2NjEsOD
+UwNzIwMjAsLTE5NTkxOTY5NjEsMTIyOTM1OTE4OCwxNTIxNDk2
+NzA1LC0xNjg5MTcyNjE2LC02ODk1NDE5MTgsMTcxNzIwNzg0Ni
+wyOTAyMTA5MDcsMTc4OTUzMzA0MiwtMTkwMTAzNTM2OCwtMjA2
+NzQ4Mzg2MF19
 -->
