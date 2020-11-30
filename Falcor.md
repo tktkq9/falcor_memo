@@ -61,7 +61,8 @@ create()呼び出しの時にコールバックを mpCallbacks に割り当て�
 
 ## Device.h, cpp
 dx12 では ID3D12Device に対応
-デバイスのデバッグはここで DEFAULT_ENABLE_DEBUG_LAYER で定義している
+画面表示の各種設定をまとめている
+デバイスのデバッグは DEFAULT_ENABLE_DEBUG_LAYER で定義している
 
 
 
@@ -85,7 +86,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDg0NDY0NDcsLTIwNDk5NDIwMTAsLT
+eyJoaXN0b3J5IjpbLTE2NTMyMDc5MDQsLTIwNDk5NDIwMTAsLT
 U5NTcwOTg0OSwtMTU2NzMzMzM3MSwtMTQ0NTI3MjM0NCwxNjQ3
 NTEwMjc0LDE4MjY2NDk2ODgsODAzMTQ2MDQxLDcwOTU5ODM5Mi
 w5MTUwNDI2NjEsODUwNzIwMjAsLTE5NTkxOTY5NjEsMTIyOTM1
