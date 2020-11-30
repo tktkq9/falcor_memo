@@ -46,7 +46,7 @@ window処理用
 windowの作成には GLFW API の GLFWwindow で簡略化されている  
 これはOpenGL や Vulkan などの API だが、おそらくそれとは関係なくwindow作成のために使われているっぽい、多分（実際この window 作成はDirectXでも行われている）  
 
-// Don't include GL/GLES headers
+`// Don't include GL/GLES headers
 #define GLFW_INCLUDE_NONE`
 create()呼び出しの時にコールバックを mpCallbacks に割り当て、  
 主にキーやマウスやその他イベント処理のためのクラス ApiCallbacks で呼び出しを行っている  
@@ -75,11 +75,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2ODc1NTYzMywxODI2NjQ5Njg4LDcwOT
-U5ODM5Miw5MTUwNDI2NjEsODUwNzIwMjAsLTE5NTkxOTY5NjEs
-MTIyOTM1OTE4OCwxNTIxNDk2NzA1LC0xNjg5MTcyNjE2LC02OD
-k1NDE5MTgsMTcxNzIwNzg0NiwyOTAyMTA5MDcsMTc4OTUzMzA0
-MiwtMTkwMTAzNTM2OCwtMjA2NzQ4Mzg2MCwxNDAxNDE3NDkxLC
-0xNTc5OTQwNDQ2LDE0Mjc0MDM3NDUsMTI2MTM4MzEyLC01MTYx
-NzU1NjVdfQ==
+eyJoaXN0b3J5IjpbODAzMTQ2MDQxLC05Njg3NTU2MzMsMTgyNj
+Y0OTY4OCw3MDk1OTgzOTIsOTE1MDQyNjYxLDg1MDcyMDIwLC0x
+OTU5MTk2OTYxLDEyMjkzNTkxODgsMTUyMTQ5NjcwNSwtMTY4OT
+E3MjYxNiwtNjg5NTQxOTE4LDE3MTcyMDc4NDYsMjkwMjEwOTA3
+LDE3ODk1MzMwNDIsLTE5MDEwMzUzNjgsLTIwNjc0ODM4NjAsMT
+QwMTQxNzQ5MSwtMTU3OTk0MDQ0NiwxNDI3NDAzNzQ1LDEyNjEz
+ODMxMl19
 -->
