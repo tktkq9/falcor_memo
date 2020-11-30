@@ -47,7 +47,6 @@ create()呼び出しの時にコールバックを mpCallbacks に割り当て�
 主にキーやマウスやその他イベント処理のためのクラス ApiCallbacks で呼び出しを行っている  
 
 
-
 ## FalcorConfig.h
 ファルカーノコンフィグ  
 プロファイルとログ出力の設定のみ  
@@ -68,11 +67,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTU0NjQwMTUsMTIyOTM1OTE4OCwxNT
-IxNDk2NzA1LC0xNjg5MTcyNjE2LC02ODk1NDE5MTgsMTcxNzIw
-Nzg0NiwyOTAyMTA5MDcsMTc4OTUzMzA0MiwtMTkwMTAzNTM2OC
-wtMjA2NzQ4Mzg2MCwxNDAxNDE3NDkxLC0xNTc5OTQwNDQ2LDE0
-Mjc0MDM3NDUsMTI2MTM4MzEyLC01MTYxNzU1NjUsMTIzMzY5Nj
-k2NSwtMTUyNDg5MTEzNywxMTEyMTE0MjQ0LDQyNDMzNjIxNCwt
-NDIwODQwOTMxXX0=
+eyJoaXN0b3J5IjpbLTE5NTkxOTY5NjEsLTEzOTU0NjQwMTUsMT
+IyOTM1OTE4OCwxNTIxNDk2NzA1LC0xNjg5MTcyNjE2LC02ODk1
+NDE5MTgsMTcxNzIwNzg0NiwyOTAyMTA5MDcsMTc4OTUzMzA0Mi
+wtMTkwMTAzNTM2OCwtMjA2NzQ4Mzg2MCwxNDAxNDE3NDkxLC0x
+NTc5OTQwNDQ2LDE0Mjc0MDM3NDUsMTI2MTM4MzEyLC01MTYxNz
+U1NjUsMTIzMzY5Njk2NSwtMTUyNDg5MTEzNywxMTEyMTE0MjQ0
+LDQyNDMzNjIxNF19
 -->
