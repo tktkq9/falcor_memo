@@ -41,7 +41,7 @@ windowのwhileループとそこでのSample::renderFrame()  の実行（ここ�
 IRendererだけを見るとonLoad()1回のみ → onFrameRender()ループ（とonGuiRender()の実行。そのほかイベント的なやつもここで処理？） → ループから抜けたらonShutdown()の流れ
 
 ## Window.h, cpp
-win
+
 
 ## FalcorConfig.h
 ファルカーノコンフィグ  
@@ -63,11 +63,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDYwMjUwOSwxNTIxNDk2NzA1LC0xNj
-g5MTcyNjE2LC02ODk1NDE5MTgsMTcxNzIwNzg0NiwyOTAyMTA5
-MDcsMTc4OTUzMzA0MiwtMTkwMTAzNTM2OCwtMjA2NzQ4Mzg2MC
-wxNDAxNDE3NDkxLC0xNTc5OTQwNDQ2LDE0Mjc0MDM3NDUsMTI2
-MTM4MzEyLC01MTYxNzU1NjUsMTIzMzY5Njk2NSwtMTUyNDg5MT
-EzNywxMTEyMTE0MjQ0LDQyNDMzNjIxNCwtNDIwODQwOTMxLDI3
-OTk5NDE2NV19
+eyJoaXN0b3J5IjpbMTUyMTQ5NjcwNSwtNzAwNjAyNTA5LDE1Mj
+E0OTY3MDUsLTE2ODkxNzI2MTYsLTY4OTU0MTkxOCwxNzE3MjA3
+ODQ2LDI5MDIxMDkwNywxNzg5NTMzMDQyLC0xOTAxMDM1MzY4LC
+0yMDY3NDgzODYwLDE0MDE0MTc0OTEsLTE1Nzk5NDA0NDYsMTQy
+NzQwMzc0NSwxMjYxMzgzMTIsLTUxNjE3NTU2NSwxMjMzNjk2OT
+Y1LC0xNTI0ODkxMTM3LDExMTIxMTQyNDQsNDI0MzM2MjE0LC00
+MjA4NDA5MzFdfQ==
 -->
