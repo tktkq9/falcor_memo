@@ -64,6 +64,7 @@ dx12 では ID3D12Device に対応
 このクラスでは ID3D12Device の設定をまとめている  
 
 
+experimentalFeatures は現状使われてないっぽい
 
 ## FalcorConfig.h
 ファルカーノコンフィグ  
@@ -85,11 +86,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY0NDc1Njc0LDc0NjUyMTgzMiwxNjc5OT
-A5MDcwLC0yMDQ5OTQyMDEwLC01OTU3MDk4NDksLTE1NjczMzMz
-NzEsLTE0NDUyNzIzNDQsMTY0NzUxMDI3NCwxODI2NjQ5Njg4LD
-gwMzE0NjA0MSw3MDk1OTgzOTIsOTE1MDQyNjYxLDg1MDcyMDIw
-LC0xOTU5MTk2OTYxLDEyMjkzNTkxODgsMTUyMTQ5NjcwNSwtMT
-Y4OTE3MjYxNiwtNjg5NTQxOTE4LDE3MTcyMDc4NDYsMjkwMjEw
-OTA3XX0=
+eyJoaXN0b3J5IjpbMjEyNjgyMDQ1NCw1NjQ0NzU2NzQsNzQ2NT
+IxODMyLDE2Nzk5MDkwNzAsLTIwNDk5NDIwMTAsLTU5NTcwOTg0
+OSwtMTU2NzMzMzM3MSwtMTQ0NTI3MjM0NCwxNjQ3NTEwMjc0LD
+E4MjY2NDk2ODgsODAzMTQ2MDQxLDcwOTU5ODM5Miw5MTUwNDI2
+NjEsODUwNzIwMjAsLTE5NTkxOTY5NjEsMTIyOTM1OTE4OCwxNT
+IxNDk2NzA1LC0xNjg5MTcyNjE2LC02ODk1NDE5MTgsMTcxNzIw
+Nzg0Nl19
 -->
