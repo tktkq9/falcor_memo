@@ -43,6 +43,8 @@ IRendererだけを見るとonLoad()1回のみ → onFrameRender()ループ（と
 
 ## Window.h, cpp
 window処理用  
+
+
 create()呼び出しの時にコールバックを mpCallbacks に割り当て、  
 主にキーやマウスやその他イベント処理のためのクラス ApiCallbacks で呼び出しを行っている  
 
@@ -67,11 +69,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTkxOTY5NjEsLTEzOTU0NjQwMTUsMT
-IyOTM1OTE4OCwxNTIxNDk2NzA1LC0xNjg5MTcyNjE2LC02ODk1
-NDE5MTgsMTcxNzIwNzg0NiwyOTAyMTA5MDcsMTc4OTUzMzA0Mi
-wtMTkwMTAzNTM2OCwtMjA2NzQ4Mzg2MCwxNDAxNDE3NDkxLC0x
-NTc5OTQwNDQ2LDE0Mjc0MDM3NDUsMTI2MTM4MzEyLC01MTYxNz
-U1NjUsMTIzMzY5Njk2NSwtMTUyNDg5MTEzNywxMTEyMTE0MjQ0
-LDQyNDMzNjIxNF19
+eyJoaXN0b3J5IjpbMjA0NjMwMDA5MSwtMTk1OTE5Njk2MSwxMj
+I5MzU5MTg4LDE1MjE0OTY3MDUsLTE2ODkxNzI2MTYsLTY4OTU0
+MTkxOCwxNzE3MjA3ODQ2LDI5MDIxMDkwNywxNzg5NTMzMDQyLC
+0xOTAxMDM1MzY4LC0yMDY3NDgzODYwLDE0MDE0MTc0OTEsLTE1
+Nzk5NDA0NDYsMTQyNzQwMzc0NSwxMjYxMzgzMTIsLTUxNjE3NT
+U2NSwxMjMzNjk2OTY1LC0xNTI0ODkxMTM3LDExMTIxMTQyNDQs
+NDI0MzM2MjE0XX0=
 -->
