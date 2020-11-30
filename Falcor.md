@@ -61,7 +61,7 @@ create()呼び出しの時にコールバックを mpCallbacks に割り当て�
 
 ## Device.h, cpp
 dx12 では ID3D12Device に対応  
-このくらｓID3D12Device の設定をまとめている  
+このクラスでは ID3D12Device の設定をまとめている  
 
 
 
@@ -85,11 +85,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ2NTIxODMyLDE4MjAzNzc5NDcsMTY3OT
-kwOTA3MCwtMjA0OTk0MjAxMCwtNTk1NzA5ODQ5LC0xNTY3MzMz
-MzcxLC0xNDQ1MjcyMzQ0LDE2NDc1MTAyNzQsMTgyNjY0OTY4OC
-w4MDMxNDYwNDEsNzA5NTk4MzkyLDkxNTA0MjY2MSw4NTA3MjAy
-MCwtMTk1OTE5Njk2MSwxMjI5MzU5MTg4LDE1MjE0OTY3MDUsLT
-E2ODkxNzI2MTYsLTY4OTU0MTkxOCwxNzE3MjA3ODQ2LDI5MDIx
-MDkwN119
+eyJoaXN0b3J5IjpbNTY0NDc1Njc0LDc0NjUyMTgzMiwxNjc5OT
+A5MDcwLC0yMDQ5OTQyMDEwLC01OTU3MDk4NDksLTE1NjczMzMz
+NzEsLTE0NDUyNzIzNDQsMTY0NzUxMDI3NCwxODI2NjQ5Njg4LD
+gwMzE0NjA0MSw3MDk1OTgzOTIsOTE1MDQyNjYxLDg1MDcyMDIw
+LC0xOTU5MTk2OTYxLDEyMjkzNTkxODgsMTUyMTQ5NjcwNSwtMT
+Y4OTE3MjYxNiwtNjg5NTQxOTE4LDE3MTcyMDc4NDYsMjkwMjEw
+OTA3XX0=
 -->
