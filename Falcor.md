@@ -55,6 +55,7 @@ dx12 では HWND に対応
 
 create()呼び出しの時にコールバックを mpCallbacks に割り当て、  
 主にキーやマウスやその他イベント処理のためのクラス ApiCallbacks で呼び出しを行っている  
+
 Window クラス自体は作成（ここで ApiCallbacks の関数と GLFWwindow のイベントを関連付け）、解放処理と msgLoop()処理、その他ちょっとした関数のみ  
 
 ## Device.h, cpp
@@ -80,7 +81,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNzgyNTE2NCwtNTk1NzA5ODQ5LC0xNT
+eyJoaXN0b3J5IjpbMTMyODQ3NTcxOCwtNTk1NzA5ODQ5LC0xNT
 Y3MzMzMzcxLC0xNDQ1MjcyMzQ0LDE2NDc1MTAyNzQsMTgyNjY0
 OTY4OCw4MDMxNDYwNDEsNzA5NTk4MzkyLDkxNTA0MjY2MSw4NT
 A3MjAyMCwtMTk1OTE5Njk2MSwxMjI5MzU5MTg4LDE1MjE0OTY3
