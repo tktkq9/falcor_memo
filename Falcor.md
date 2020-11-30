@@ -58,7 +58,7 @@ create()呼び出しの時にコールバックを mpCallbacks に割り当て�
 Window クラス自体は作成（ここで ApiCallbacks の関数と GLFWwindow のイベントを関連付け）、解放処理と msgLoop()処理、その他ちょっとした関数のみ  
 
 ## Device.h, cpp
-
+dx12 では ID3D12Device に対応
 
 ## FalcorConfig.h
 ファルカーノコンフィグ  
@@ -80,11 +80,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MjMwMjE1OSwxNjQ3NTEwMjc0LDE4Mj
-Y2NDk2ODgsODAzMTQ2MDQxLDcwOTU5ODM5Miw5MTUwNDI2NjEs
-ODUwNzIwMjAsLTE5NTkxOTY5NjEsMTIyOTM1OTE4OCwxNTIxND
-k2NzA1LC0xNjg5MTcyNjE2LC02ODk1NDE5MTgsMTcxNzIwNzg0
-NiwyOTAyMTA5MDcsMTc4OTUzMzA0MiwtMTkwMTAzNTM2OCwtMj
-A2NzQ4Mzg2MCwxNDAxNDE3NDkxLC0xNTc5OTQwNDQ2LDE0Mjc0
-MDM3NDVdfQ==
+eyJoaXN0b3J5IjpbLTE0NDUyNzIzNDQsMTY0NzUxMDI3NCwxOD
+I2NjQ5Njg4LDgwMzE0NjA0MSw3MDk1OTgzOTIsOTE1MDQyNjYx
+LDg1MDcyMDIwLC0xOTU5MTk2OTYxLDEyMjkzNTkxODgsMTUyMT
+Q5NjcwNSwtMTY4OTE3MjYxNiwtNjg5NTQxOTE4LDE3MTcyMDc4
+NDYsMjkwMjEwOTA3LDE3ODk1MzMwNDIsLTE5MDEwMzUzNjgsLT
+IwNjc0ODM4NjAsMTQwMTQxNzQ5MSwtMTU3OTk0MDQ0NiwxNDI3
+NDAzNzQ1XX0=
 -->
