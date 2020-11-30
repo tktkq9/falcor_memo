@@ -50,7 +50,7 @@ windowの作成には GLFW API の GLFWwindow で簡略化されている
     #define GLFW_INCLUDE_NONE
    
 
-とあるように、おそらくそれとは関係なくwindow作成のために使われているっぽい（実際この window 作成はDirectXでも行われている）  
+とあるように、おそらくそれとは関係なくwindow作成のために使われているだけっぽい（実際この window 作成はDirectXでも行われている）  
 
 create()呼び出しの時にコールバックを mpCallbacks に割り当て、  
 主にキーやマウスやその他イベント処理のためのクラス ApiCallbacks で呼び出しを行っている  
@@ -79,7 +79,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NjQ4MTQ1NSwxODI2NjQ5Njg4LDgwMz
+eyJoaXN0b3J5IjpbMTY0NzUxMDI3NCwxODI2NjQ5Njg4LDgwMz
 E0NjA0MSw3MDk1OTgzOTIsOTE1MDQyNjYxLDg1MDcyMDIwLC0x
 OTU5MTk2OTYxLDEyMjkzNTkxODgsMTUyMTQ5NjcwNSwtMTY4OT
 E3MjYxNiwtNjg5NTQxOTE4LDE3MTcyMDc4NDYsMjkwMjEwOTA3
