@@ -51,7 +51,7 @@ dx12 では HWND に対応
     #define GLFW_INCLUDE_NONE
    
 
-とあるように、おそらくそれとは関係なくウィンドウ作成のために使われているだけっぽい（実際この window 作成はDirectXでも行われている）  
+とあるように、おそらくそれとは関係なくウィンドウ作成のために使われているだけっぽい（実際このウィンドウ作成はDirectXでも行われている）  
 
 create()呼び出しの時にコールバックを mpCallbacks に割り当て、  
 主にキーやマウスやその他イベント処理のためのクラス ApiCallbacks で呼び出しを行っている  
@@ -80,7 +80,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NTcwOTg0OSwxNTQ5MjA4ODY0LC0xNT
+eyJoaXN0b3J5IjpbLTgwNzgyNTE2NCwtNTk1NzA5ODQ5LC0xNT
 Y3MzMzMzcxLC0xNDQ1MjcyMzQ0LDE2NDc1MTAyNzQsMTgyNjY0
 OTY4OCw4MDMxNDYwNDEsNzA5NTk4MzkyLDkxNTA0MjY2MSw4NT
 A3MjAyMCwtMTk1OTE5Njk2MSwxMjI5MzU5MTg4LDE1MjE0OTY3
