@@ -74,8 +74,7 @@ experimentalFeatures は現状使われてないっぽい
 dx12ではID3D12DescriptorHeapに対応  
 
 ## QueryHeap.h, D3D12QueryHeap.cpp
-![enter image description here](https://www.dictionary.com/e/wp-content/uploads/2018/03/Thinking_Face_Emoji-Emoji-Island-300x300.png) 
-  ？？？？？？？？？？？？？？？？？？？？？？？？
+:thinking:？
   https://microsoft.github.io/DirectX-Specs/d3d/CountersAndQueries.html 
   あとで勉強する
 
@@ -99,8 +98,8 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDU0NDU3MzEsNzI5NDE5NjIwLDE2Mj
-gzNDA3MTYsNzI5NDE5NjIwLC0yMDYxODc2NzY3LDE2MjgzNDA3
-MTYsLTIxMzU4Nzc4NCw0MzIyNTAyMTAsLTU3MTIyOTIsLTYzND
-E0MTE4NSw3NTYwNzEzNzJdfQ==
+eyJoaXN0b3J5IjpbLTQ0MzAyNjU1NCw3Mjk0MTk2MjAsMTYyOD
+M0MDcxNiw3Mjk0MTk2MjAsLTIwNjE4NzY3NjcsMTYyODM0MDcx
+NiwtMjEzNTg3Nzg0LDQzMjI1MDIxMCwtNTcxMjI5MiwtNjM0MT
+QxMTg1LDc1NjA3MTM3Ml19
 -->
