@@ -79,10 +79,11 @@ experimentalFeatures は現状使われてないっぽい
 Deviceのdx12部分の実装  
 
 
-## RenderCintext.h, cpp
+## RenderContext.h, cpp
 ComputeContextのサブクラス（ComputeContextはCopyContextのサブクラス）  
 
-
+### D3D12RenderContext.cpp
+RenderContextのdx12部分の実装  
 
 ## DescriptorPool.h, cpp
 dx12ではID3D12DescriptorHeapに対応  
@@ -113,10 +114,10 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMDcxMzc5MiwtMTE1ODkxMDk3LDIxMT
-E5MjYxODMsLTkxMzA3Mzg3MywxOTQ3Mjc4MTk4LDEyNTEwOTc0
-OTgsNDgzNDY4NDI0LDE2NDc2MzY1ODAsMTIzMzg3MzI5Nyw3Mj
-k0MTk2MjAsMTYyODM0MDcxNiw3Mjk0MTk2MjAsLTIwNjE4NzY3
-NjcsMTYyODM0MDcxNiwtMjEzNTg3Nzg0LDQzMjI1MDIxMCwtNT
-cxMjI5MiwtNjM0MTQxMTg1LDc1NjA3MTM3Ml19
+eyJoaXN0b3J5IjpbLTIxMTc4MjYwNTcsLTExNTg5MTA5NywyMT
+ExOTI2MTgzLC05MTMwNzM4NzMsMTk0NzI3ODE5OCwxMjUxMDk3
+NDk4LDQ4MzQ2ODQyNCwxNjQ3NjM2NTgwLDEyMzM4NzMyOTcsNz
+I5NDE5NjIwLDE2MjgzNDA3MTYsNzI5NDE5NjIwLC0yMDYxODc2
+NzY3LDE2MjgzNDA3MTYsLTIxMzU4Nzc4NCw0MzIyNTAyMTAsLT
+U3MTIyOTIsLTYzNDE0MTE4NSw3NTYwNzEzNzJdfQ==
 -->
