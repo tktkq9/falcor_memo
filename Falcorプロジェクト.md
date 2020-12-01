@@ -51,8 +51,6 @@ Window クラス自体は作成（ここで ApiCallbacks の関数と GLFWwindow
 
     // Don't include GL/GLES headers
     #define GLFW_INCLUDE_NONE
-   
-
 とあるように、おそらくVulkanとは関係なくウィンドウ作成のために使われているだけっぽい（実際このウィンドウ作成はこのプロジェクトのdx12バージョンでもこれが使われている）  
 
 create()呼び出しの時にコールバックを mpCallbacks に割り当て、  
@@ -66,7 +64,7 @@ dx12ではID3D12Deviceに対応
 またDescriptorPoolによるディスクリプターヒープやクエリーヒープ？の管理も行っている  
 
     poolDesc.setDescCount(DescriptorPool::Type::TextureSrv, 1000000).setDescCount(DescriptorPool::Type::Sampler, 2048).setShaderVisible(true);
-アホみたいな量を一気に確保している
+アホみたいな量を一気に確保している  
 
 
 
@@ -102,8 +100,9 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NzYzNjU4MCwxMjMzODczMjk3LDcyOT
-QxOTYyMCwxNjI4MzQwNzE2LDcyOTQxOTYyMCwtMjA2MTg3Njc2
-NywxNjI4MzQwNzE2LC0yMTM1ODc3ODQsNDMyMjUwMjEwLC01Nz
-EyMjkyLC02MzQxNDExODUsNzU2MDcxMzcyXX0=
+eyJoaXN0b3J5IjpbNDgzNDY4NDI0LDE2NDc2MzY1ODAsMTIzMz
+g3MzI5Nyw3Mjk0MTk2MjAsMTYyODM0MDcxNiw3Mjk0MTk2MjAs
+LTIwNjE4NzY3NjcsMTYyODM0MDcxNiwtMjEzNTg3Nzg0LDQzMj
+I1MDIxMCwtNTcxMjI5MiwtNjM0MTQxMTg1LDc1NjA3MTM3Ml19
+
 -->
