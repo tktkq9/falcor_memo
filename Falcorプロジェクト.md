@@ -76,10 +76,11 @@ dx12ではID3D12Deviceに対応
 experimentalFeatures は現状使われてないっぽい  
 
 ### D3D12Device.cpp
+TODO  
 Deviceのdx12部分の実装  
 
-
 ## RenderContext.h, cpp
+TODO  
 ComputeContextのサブクラス（ComputeContextはCopyContextのサブクラス）  
 clearDsvやらdrawIndexedやらraytraceやらと、そこらへんをコマンドリストに入れてドローコールする部分を担当している  
 ここらへんはAPIによるので、dx12の場合はD3D12RenderContext.cppでほぼほぼ実装されている  
@@ -117,10 +118,10 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDYxMzM5NSwtMTE1ODkxMDk3LDIxMT
-E5MjYxODMsLTkxMzA3Mzg3MywxOTQ3Mjc4MTk4LDEyNTEwOTc0
-OTgsNDgzNDY4NDI0LDE2NDc2MzY1ODAsMTIzMzg3MzI5Nyw3Mj
-k0MTk2MjAsMTYyODM0MDcxNiw3Mjk0MTk2MjAsLTIwNjE4NzY3
-NjcsMTYyODM0MDcxNiwtMjEzNTg3Nzg0LDQzMjI1MDIxMCwtNT
-cxMjI5MiwtNjM0MTQxMTg1LDc1NjA3MTM3Ml19
+eyJoaXN0b3J5IjpbLTc3NTQwNDQzLC0xMTU4OTEwOTcsMjExMT
+kyNjE4MywtOTEzMDczODczLDE5NDcyNzgxOTgsMTI1MTA5NzQ5
+OCw0ODM0Njg0MjQsMTY0NzYzNjU4MCwxMjMzODczMjk3LDcyOT
+QxOTYyMCwxNjI4MzQwNzE2LDcyOTQxOTYyMCwtMjA2MTg3Njc2
+NywxNjI4MzQwNzE2LC0yMTM1ODc3ODQsNDMyMjUwMjEwLC01Nz
+EyMjkyLC02MzQxNDExODUsNzU2MDcxMzcyXX0=
 -->
