@@ -67,7 +67,10 @@ dx12ではID3D12Deviceに対応
 アホみたいな量を一気に確保している  
 
 また描画処理においてはフェンス部分を担当している  
-コマンドリストの格納とコマンドキューの実行についてはmpRenderContext->flush();RenderContextの方で行っている
+コマンドリストの格納とコマンドキューの実行については
+
+    mpRenderContext->flush();
+によってRenderContextの方で行っている
 
 ### その他
 experimentalFeatures は現状使われてないっぽい
@@ -101,9 +104,9 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODA5Mjc2MiwxMjUxMDk3NDk4LDQ4Mz
-Q2ODQyNCwxNjQ3NjM2NTgwLDEyMzM4NzMyOTcsNzI5NDE5NjIw
-LDE2MjgzNDA3MTYsNzI5NDE5NjIwLC0yMDYxODc2NzY3LDE2Mj
-gzNDA3MTYsLTIxMzU4Nzc4NCw0MzIyNTAyMTAsLTU3MTIyOTIs
-LTYzNDE0MTE4NSw3NTYwNzEzNzJdfQ==
+eyJoaXN0b3J5IjpbNjgzMDk2NTAwLDEyNTEwOTc0OTgsNDgzND
+Y4NDI0LDE2NDc2MzY1ODAsMTIzMzg3MzI5Nyw3Mjk0MTk2MjAs
+MTYyODM0MDcxNiw3Mjk0MTk2MjAsLTIwNjE4NzY3NjcsMTYyOD
+M0MDcxNiwtMjEzNTg3Nzg0LDQzMjI1MDIxMCwtNTcxMjI5Miwt
+NjM0MTQxMTg1LDc1NjA3MTM3Ml19
 -->
