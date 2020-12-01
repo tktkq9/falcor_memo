@@ -96,6 +96,7 @@ dx12ではID3D12DescriptorHeapに対応
 
 
 ## QueryHeap.h, D3D12QueryHeap.cpp
+TODO  
 ？？？？？？:thinking::thinking::thinking::thinking::thinking::thinking::thinking:？？？？？？？？  
   https://microsoft.github.io/DirectX-Specs/d3d/CountersAndQueries.html   
   あとで勉強する  
@@ -114,16 +115,17 @@ cppの方はComparisonFuncに対するpybind11処理のみ
 
 
 ## ScriptBindings.h, cpp, Scripting.h, cpp, Dictionary.h
+TODO  
 おそらくpybind11のヘルパー  
 見るのはぴぃちょんとぴぃびんど11を勉強した後で  
 pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/Docs/Usage/Render-Passes.md  
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMxNzQ1NzAxLC0xMTU4OTEwOTcsMjExMT
-kyNjE4MywtOTEzMDczODczLDE5NDcyNzgxOTgsMTI1MTA5NzQ5
-OCw0ODM0Njg0MjQsMTY0NzYzNjU4MCwxMjMzODczMjk3LDcyOT
-QxOTYyMCwxNjI4MzQwNzE2LDcyOTQxOTYyMCwtMjA2MTg3Njc2
-NywxNjI4MzQwNzE2LC0yMTM1ODc3ODQsNDMyMjUwMjEwLC01Nz
-EyMjkyLC02MzQxNDExODUsNzU2MDcxMzcyXX0=
+eyJoaXN0b3J5IjpbMjEyNTg1NjM0MSwtMTE1ODkxMDk3LDIxMT
+E5MjYxODMsLTkxMzA3Mzg3MywxOTQ3Mjc4MTk4LDEyNTEwOTc0
+OTgsNDgzNDY4NDI0LDE2NDc2MzY1ODAsMTIzMzg3MzI5Nyw3Mj
+k0MTk2MjAsMTYyODM0MDcxNiw3Mjk0MTk2MjAsLTIwNjE4NzY3
+NjcsMTYyODM0MDcxNiwtMjEzNTg3Nzg0LDQzMjI1MDIxMCwtNT
+cxMjI5MiwtNjM0MTQxMTg1LDc1NjA3MTM3Ml19
 -->
