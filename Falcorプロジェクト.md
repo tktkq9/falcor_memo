@@ -65,6 +65,7 @@ dx12ではID3D12Deviceに対応
 またディスクリプターヒープの管理も行っている  
 
 
+
 ### その他
 experimentalFeatures は現状使われてないっぽい
 
@@ -92,6 +93,6 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODQwMzc4OCwtNTcxMjI5MiwtNjM0MT
-QxMTg1LDc1NjA3MTM3Ml19
+eyJoaXN0b3J5IjpbNDMyMjUwMjEwLC01NzEyMjkyLC02MzQxND
+ExODUsNzU2MDcxMzcyXX0=
 -->
