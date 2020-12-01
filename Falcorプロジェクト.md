@@ -75,6 +75,10 @@ dx12ではID3D12Deviceに対応
 ### その他
 experimentalFeatures は現状使われてないっぽい
 
+## RenderCintext.h, cpp
+ComputeContextのサブクラス
+
+
 ## DescriptorPool.h, cpp
 dx12ではID3D12DescriptorHeapに対応  
 
@@ -104,9 +108,9 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA1MzI5NTEzLDE5NDcyNzgxOTgsMTI1MT
-A5NzQ5OCw0ODM0Njg0MjQsMTY0NzYzNjU4MCwxMjMzODczMjk3
-LDcyOTQxOTYyMCwxNjI4MzQwNzE2LDcyOTQxOTYyMCwtMjA2MT
-g3Njc2NywxNjI4MzQwNzE2LC0yMTM1ODc3ODQsNDMyMjUwMjEw
-LC01NzEyMjkyLC02MzQxNDExODUsNzU2MDcxMzcyXX0=
+eyJoaXN0b3J5IjpbMTI3MDc4MzQ3MSwxOTQ3Mjc4MTk4LDEyNT
+EwOTc0OTgsNDgzNDY4NDI0LDE2NDc2MzY1ODAsMTIzMzg3MzI5
+Nyw3Mjk0MTk2MjAsMTYyODM0MDcxNiw3Mjk0MTk2MjAsLTIwNj
+E4NzY3NjcsMTYyODM0MDcxNiwtMjEzNTg3Nzg0LDQzMjI1MDIx
+MCwtNTcxMjI5MiwtNjM0MTQxMTg1LDc1NjA3MTM3Ml19
 -->
