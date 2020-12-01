@@ -75,7 +75,7 @@ dx12ではID3D12DescriptorHeapに対応
 
 ## FalcorConfig.h
 ファルカーノコンフィグ  
-プロファイルとログ出力の設定のみ  
+プロファイルとログ出力の設定のためのDefineのみ  
 
 # サブ
 
@@ -93,6 +93,6 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMyMjUwMjEwLC01NzEyMjkyLC02MzQxND
-ExODUsNzU2MDcxMzcyXX0=
+eyJoaXN0b3J5IjpbMTY2MDA2NDc2Myw0MzIyNTAyMTAsLTU3MT
+IyOTIsLTYzNDE0MTE4NSw3NTYwNzEzNzJdfQ==
 -->
