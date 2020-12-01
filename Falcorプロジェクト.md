@@ -66,14 +66,14 @@ dx12ではID3D12Deviceに対応
     poolDesc.setDescCount(DescriptorPool::Type::TextureSrv, 1000000).setDescCount(DescriptorPool::Type::Sampler, 2048).setShaderVisible(true);
 アホみたいな量を一気に確保している  
 
-また描画においては、dx12のコマンド関連はRenderContextにほとんどを任せ、pSwapChain->Present()とそのフェンス処理による画面描画を担当
-コマンドリストの格納とコマンドキューの実行については
+また描画においては、dx12のコマンド関連はRenderContextにほとんどを任せ、pSwapChain->Present()とそのフェンス処理による画面描画を担当  
+コマンドリストの格納とコマンドキューの実行については  
 
     mpRenderContext->flush();
-でRenderContextの方で実行している？
+でRenderContextの方で実行している？  
 
 ### その他
-experimentalFeatures は現状使われてないっぽい
+experimentalFeatures は現状使われてないっぽい  
 
 ## RenderCintext.h, cpp
 ComputeContextのサブクラス（ComputeContextはCopyContextのサブクラス）  
@@ -85,9 +85,9 @@ dx12ではID3D12DescriptorHeapに対応
 
 
 ## QueryHeap.h, D3D12QueryHeap.cpp
-？？？？？？:thinking::thinking::thinking::thinking::thinking::thinking::thinking:？？？？？？？？
-  https://microsoft.github.io/DirectX-Specs/d3d/CountersAndQueries.html 
-  あとで勉強する
+？？？？？？:thinking::thinking::thinking::thinking::thinking::thinking::thinking:？？？？？？？？  
+  https://microsoft.github.io/DirectX-Specs/d3d/CountersAndQueries.html   
+  あとで勉強する  
 
 ## FalcorConfig.h
 ファルカーノコンフィグ  
@@ -109,10 +109,10 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMTkyNjE4MywtOTEzMDczODczLDE5ND
-cyNzgxOTgsMTI1MTA5NzQ5OCw0ODM0Njg0MjQsMTY0NzYzNjU4
-MCwxMjMzODczMjk3LDcyOTQxOTYyMCwxNjI4MzQwNzE2LDcyOT
-QxOTYyMCwtMjA2MTg3Njc2NywxNjI4MzQwNzE2LC0yMTM1ODc3
-ODQsNDMyMjUwMjEwLC01NzEyMjkyLC02MzQxNDExODUsNzU2MD
-cxMzcyXX0=
+eyJoaXN0b3J5IjpbLTExNTg5MTA5NywyMTExOTI2MTgzLC05MT
+MwNzM4NzMsMTk0NzI3ODE5OCwxMjUxMDk3NDk4LDQ4MzQ2ODQy
+NCwxNjQ3NjM2NTgwLDEyMzM4NzMyOTcsNzI5NDE5NjIwLDE2Mj
+gzNDA3MTYsNzI5NDE5NjIwLC0yMDYxODc2NzY3LDE2MjgzNDA3
+MTYsLTIxMzU4Nzc4NCw0MzIyNTAyMTAsLTU3MTIyOTIsLTYzND
+E0MTE4NSw3NTYwNzEzNzJdfQ==
 -->
