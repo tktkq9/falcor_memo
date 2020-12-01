@@ -78,7 +78,7 @@ dx12ではID3D12DescriptorHeapに対応
 
 
 ## QueryHeap.h, D3D12QueryHeap.cpp
-:thinking::thinking::thinking::thinking::thinking::thinking::thinking:？？？？？？？？？？？
+？？？？？？:thinking::thinking::thinking::thinking::thinking::thinking::thinking:？？？？？？？？
   https://microsoft.github.io/DirectX-Specs/d3d/CountersAndQueries.html 
   あとで勉強する
 
@@ -102,8 +102,8 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzk4MTA2MDksMTIzMzg3MzI5Nyw3Mj
-k0MTk2MjAsMTYyODM0MDcxNiw3Mjk0MTk2MjAsLTIwNjE4NzY3
-NjcsMTYyODM0MDcxNiwtMjEzNTg3Nzg0LDQzMjI1MDIxMCwtNT
-cxMjI5MiwtNjM0MTQxMTg1LDc1NjA3MTM3Ml19
+eyJoaXN0b3J5IjpbMTY0NzYzNjU4MCwxMjMzODczMjk3LDcyOT
+QxOTYyMCwxNjI4MzQwNzE2LDcyOTQxOTYyMCwtMjA2MTg3Njc2
+NywxNjI4MzQwNzE2LC0yMTM1ODc3ODQsNDMyMjUwMjEwLC01Nz
+EyMjkyLC02MzQxNDExODUsNzU2MDcxMzcyXX0=
 -->
