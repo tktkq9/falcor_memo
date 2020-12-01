@@ -53,7 +53,7 @@ Window クラス自体は作成（ここで ApiCallbacks の関数と GLFWwindow
     #define GLFW_INCLUDE_NONE
    
 
-とあるように、おそらくそれとは関係なくウィンドウ作成のために使われているだけっぽい（実際このウィンドウ作成はdx12でも行われている）  
+とあるように、おそらくそれとは関係なくウィンドウ作成のために使われているだけっぽい（実際このウィンドウ作成はこのプロジェクトのdx12バージョンでも行われている）  
 
 create()呼び出しの時にコールバックを mpCallbacks に割り当て、  
 主にキーやマウスやその他イベント処理のための ApiCallbacks クラスで呼び出しを行っている  
@@ -87,5 +87,5 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1MDAyMzI2LDc1NjA3MTM3Ml19
+eyJoaXN0b3J5IjpbLTEzNjA3NTc1MzksNzU2MDcxMzcyXX0=
 -->
