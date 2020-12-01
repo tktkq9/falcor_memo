@@ -68,7 +68,7 @@ dx12 では ID3D12Device に対応
 experimentalFeatures は現状使われてないっぽい
 
 ## DescriptorPool.h, cpp
-dx12 では DescriptorHeapに対応  
+dx12 では ID3D12DescriptorHeapに対応  
 
 
 ## FalcorConfig.h
@@ -91,6 +91,6 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzg4Mzk0NzYsLTYzNDE0MTE4NSw3NT
-YwNzEzNzJdfQ==
+eyJoaXN0b3J5IjpbMTg2NTQ1NjYzOSwtNjM0MTQxMTg1LDc1Nj
+A3MTM3Ml19
 -->
