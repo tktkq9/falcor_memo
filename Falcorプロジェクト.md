@@ -67,7 +67,7 @@ dx12ではID3D12Deviceに対応
 アホみたいな量を一気に確保している  
 
 また描画処理においてはフェンス部分を担当している  
-コマンドリストの格納についてはRenderContextの方で行っている
+コマンドキューの実行とコマンドリストの格納についてはRenderContextの方で行っている
 
 ### その他
 experimentalFeatures は現状使われてないっぽい
@@ -101,7 +101,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjY4NTI4MTUsMTI1MTA5NzQ5OCw0OD
+eyJoaXN0b3J5IjpbLTIwNTE2MTEyMzEsMTI1MTA5NzQ5OCw0OD
 M0Njg0MjQsMTY0NzYzNjU4MCwxMjMzODczMjk3LDcyOTQxOTYy
 MCwxNjI4MzQwNzE2LDcyOTQxOTYyMCwtMjA2MTg3Njc2NywxNj
 I4MzQwNzE2LC0yMTM1ODc3ODQsNDMyMjUwMjEwLC01NzEyMjky
