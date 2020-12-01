@@ -61,8 +61,8 @@ create()呼び出しの時にコールバックを mpCallbacks に割り当て�
 
 ## Device.h, cpp
 dx12ではID3D12Deviceに対応  
-このクラスではID3D12Deviceおよびその周りの作成と設定をまとめている（ファクトリー、スワップチェインとそのFBO、コマンドキュー、）  
-またディスクリプターヒープやなど、dx12のリソース管理も行っている  
+このクラスではID3D12Deviceおよびその周りの作成と設定をまとめている（ファクトリー、スワップチェインとそのFBO、コマンドキュー、RenderContext）  
+またディスクリプターヒープの管理も行っている  
 
 
 ### その他
@@ -92,6 +92,6 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzk0NzA5NCwtNTcxMjI5MiwtNjM0MT
-QxMTg1LDc1NjA3MTM3Ml19
+eyJoaXN0b3J5IjpbLTE2MDc2MTI5OTgsLTU3MTIyOTIsLTYzND
+E0MTE4NSw3NTYwNzEzNzJdfQ==
 -->
