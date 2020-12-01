@@ -87,9 +87,11 @@ clearDsvやらdrawIndexedやらraytraceやらと、そこらへんをコマン�
 
 
 ### D3D12RenderContext.cpp
+TODO  
 RenderContextのdx12部分の実装  
 
 ## DescriptorPool.h, cpp
+TODO  
 dx12ではID3D12DescriptorHeapに対応  
 
 
@@ -118,7 +120,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTQwNDQzLC0xMTU4OTEwOTcsMjExMT
+eyJoaXN0b3J5IjpbODMxNzQ1NzAxLC0xMTU4OTEwOTcsMjExMT
 kyNjE4MywtOTEzMDczODczLDE5NDcyNzgxOTgsMTI1MTA5NzQ5
 OCw0ODM0Njg0MjQsMTY0NzYzNjU4MCwxMjMzODczMjk3LDcyOT
 QxOTYyMCwxNjI4MzQwNzE2LDcyOTQxOTYyMCwtMjA2MTg3Njc2
