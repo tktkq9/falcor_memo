@@ -81,7 +81,9 @@ Deviceのdx12部分の実装
 
 ## RenderContext.h, cpp
 ComputeContextのサブクラス（ComputeContextはCopyContextのサブクラス）  
-clearDsvやらdrawIndexedやらraytraceやらと、どろーこ
+clearDsvやらdrawIndexedやらraytraceやらと、そこらへんをコマンドリストに入れてドローコールする部分を担当している  
+
+
 
 ### D3D12RenderContext.cpp
 RenderContextのdx12部分の実装  
@@ -115,10 +117,10 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1NzA4MzQsLTExNTg5MTA5NywyMTExOT
-I2MTgzLC05MTMwNzM4NzMsMTk0NzI3ODE5OCwxMjUxMDk3NDk4
-LDQ4MzQ2ODQyNCwxNjQ3NjM2NTgwLDEyMzM4NzMyOTcsNzI5ND
-E5NjIwLDE2MjgzNDA3MTYsNzI5NDE5NjIwLC0yMDYxODc2NzY3
-LDE2MjgzNDA3MTYsLTIxMzU4Nzc4NCw0MzIyNTAyMTAsLTU3MT
-IyOTIsLTYzNDE0MTE4NSw3NTYwNzEzNzJdfQ==
+eyJoaXN0b3J5IjpbLTE0NjY5Nzg2MDksLTExNTg5MTA5NywyMT
+ExOTI2MTgzLC05MTMwNzM4NzMsMTk0NzI3ODE5OCwxMjUxMDk3
+NDk4LDQ4MzQ2ODQyNCwxNjQ3NjM2NTgwLDEyMzM4NzMyOTcsNz
+I5NDE5NjIwLDE2MjgzNDA3MTYsNzI5NDE5NjIwLC0yMDYxODc2
+NzY3LDE2MjgzNDA3MTYsLTIxMzU4Nzc4NCw0MzIyNTAyMTAsLT
+U3MTIyOTIsLTYzNDE0MTE4NSw3NTYwNzEzNzJdfQ==
 -->
