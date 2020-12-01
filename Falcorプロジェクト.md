@@ -73,6 +73,9 @@ experimentalFeatures は現状使われてないっぽい
 ## DescriptorPool.h, cpp
 dx12ではID3D12DescriptorHeapに対応  
 
+## QueryHeap.h, D3D12QueryHeap.cpp
+  ？？？？？？？？？？？？？？
+  https://microsoft.github.io/DirectX-Specs/d3d/CountersAndQueries.html 
 
 ## FalcorConfig.h
 ファルカーノコンフィグ  
@@ -94,8 +97,8 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI5NDE5NjIwLDE2MjgzNDA3MTYsNzI5ND
-E5NjIwLC0yMDYxODc2NzY3LDE2MjgzNDA3MTYsLTIxMzU4Nzc4
-NCw0MzIyNTAyMTAsLTU3MTIyOTIsLTYzNDE0MTE4NSw3NTYwNz
-EzNzJdfQ==
+eyJoaXN0b3J5IjpbLTE3OTQ3Njk0ODgsNzI5NDE5NjIwLDE2Mj
+gzNDA3MTYsNzI5NDE5NjIwLC0yMDYxODc2NzY3LDE2MjgzNDA3
+MTYsLTIxMzU4Nzc4NCw0MzIyNTAyMTAsLTU3MTIyOTIsLTYzND
+E0MTE4NSw3NTYwNzEzNzJdfQ==
 -->
