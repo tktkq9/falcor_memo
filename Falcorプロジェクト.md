@@ -66,7 +66,7 @@ dx12ではID3D12Deviceに対応
     poolDesc.setDescCount(DescriptorPool::Type::TextureSrv, 1000000).setDescCount(DescriptorPool::Type::Sampler, 2048).setShaderVisible(true);
 アホみたいな量を一気に確保している  
 
-また描画処理においてはコマンドキューの実行とフェンス部分を担当している  
+また描画処理においてはフェンス部分を担当している  
 コマンドリストの格納についてはRenderContextの方で行っている
 
 ### その他
@@ -101,9 +101,9 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDU3ODY1MywxMjUxMDk3NDk4LDQ4Mz
-Q2ODQyNCwxNjQ3NjM2NTgwLDEyMzM4NzMyOTcsNzI5NDE5NjIw
-LDE2MjgzNDA3MTYsNzI5NDE5NjIwLC0yMDYxODc2NzY3LDE2Mj
-gzNDA3MTYsLTIxMzU4Nzc4NCw0MzIyNTAyMTAsLTU3MTIyOTIs
-LTYzNDE0MTE4NSw3NTYwNzEzNzJdfQ==
+eyJoaXN0b3J5IjpbLTE5MjY4NTI4MTUsMTI1MTA5NzQ5OCw0OD
+M0Njg0MjQsMTY0NzYzNjU4MCwxMjMzODczMjk3LDcyOTQxOTYy
+MCwxNjI4MzQwNzE2LDcyOTQxOTYyMCwtMjA2MTg3Njc2NywxNj
+I4MzQwNzE2LC0yMTM1ODc3ODQsNDMyMjUwMjEwLC01NzEyMjky
+LC02MzQxNDExODUsNzU2MDcxMzcyXX0=
 -->
