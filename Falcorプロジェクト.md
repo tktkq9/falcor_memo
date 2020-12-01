@@ -67,6 +67,10 @@ dx12 では ID3D12Device に対応
 ### その他
 experimentalFeatures は現状使われてないっぽい
 
+## DescriptorPool.h, cpp
+dx12 では DescriptorHeapに対応  
+
+
 ## FalcorConfig.h
 ファルカーノコンフィグ  
 プロファイルとログ出力の設定のみ  
@@ -87,5 +91,6 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDE0MTE4NSw3NTYwNzEzNzJdfQ==
+eyJoaXN0b3J5IjpbLTE0Mzg4Mzk0NzYsLTYzNDE0MTE4NSw3NT
+YwNzEzNzJdfQ==
 -->
