@@ -99,6 +99,7 @@ dx12ではID3D12DescriptorHeapに対応
 TODO  
 ？？？？？？:thinking::thinking::thinking::thinking::thinking::thinking::thinking:？？？？？？？？  
   https://microsoft.github.io/DirectX-Specs/d3d/CountersAndQueries.html   
+  https://docs.microsoft.com/ja-jp/windows/win32/direct3d12/performance-measurement  
   あとで勉強する  
 
 ## FalcorConfig.h
@@ -122,10 +123,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNTg1NjM0MSwtMTE1ODkxMDk3LDIxMT
-E5MjYxODMsLTkxMzA3Mzg3MywxOTQ3Mjc4MTk4LDEyNTEwOTc0
-OTgsNDgzNDY4NDI0LDE2NDc2MzY1ODAsMTIzMzg3MzI5Nyw3Mj
-k0MTk2MjAsMTYyODM0MDcxNiw3Mjk0MTk2MjAsLTIwNjE4NzY3
-NjcsMTYyODM0MDcxNiwtMjEzNTg3Nzg0LDQzMjI1MDIxMCwtNT
-cxMjI5MiwtNjM0MTQxMTg1LDc1NjA3MTM3Ml19
+eyJoaXN0b3J5IjpbLTE4MjMxMjIwMSwyMTI1ODU2MzQxLC0xMT
+U4OTEwOTcsMjExMTkyNjE4MywtOTEzMDczODczLDE5NDcyNzgx
+OTgsMTI1MTA5NzQ5OCw0ODM0Njg0MjQsMTY0NzYzNjU4MCwxMj
+MzODczMjk3LDcyOTQxOTYyMCwxNjI4MzQwNzE2LDcyOTQxOTYy
+MCwtMjA2MTg3Njc2NywxNjI4MzQwNzE2LC0yMTM1ODc3ODQsND
+MyMjUwMjEwLC01NzEyMjkyLC02MzQxNDExODUsNzU2MDcxMzcy
+XX0=
 -->
