@@ -113,7 +113,7 @@ CopyContextのdx12部分の実装
 
 ## LowLevelContextApiData.h, D3D12LowLevelContextData.cpp
 コマンドリストとアロケーターの作成、コマンドリストとキューとアロケーターの管理、キューの実行を担当  
-flush()でExecuteCommandLists()され、キューに新しいアロケーターが設定される  
+flush()でExecuteCommandLists()され、コマンドリストに新しいアロケーターが設定される  
 
 
 
@@ -151,11 +151,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDc2OTI0MTgsNTgxODU1NDk0LDE1Mj
-E0ODMyNjUsLTEzMjE5MzQ4OTMsLTg5Mzg0NzMyMiwxMjU2Njk4
-ODk5LDY0ODEzMjIzMiwtMTgyMzEyMjAxLDIxMjU4NTYzNDEsLT
-ExNTg5MTA5NywyMTExOTI2MTgzLC05MTMwNzM4NzMsMTk0NzI3
-ODE5OCwxMjUxMDk3NDk4LDQ4MzQ2ODQyNCwxNjQ3NjM2NTgwLD
-EyMzM4NzMyOTcsNzI5NDE5NjIwLDE2MjgzNDA3MTYsNzI5NDE5
-NjIwXX0=
+eyJoaXN0b3J5IjpbMTg5OTA5OTA5MCw1ODE4NTU0OTQsMTUyMT
+Q4MzI2NSwtMTMyMTkzNDg5MywtODkzODQ3MzIyLDEyNTY2OTg4
+OTksNjQ4MTMyMjMyLC0xODIzMTIyMDEsMjEyNTg1NjM0MSwtMT
+E1ODkxMDk3LDIxMTE5MjYxODMsLTkxMzA3Mzg3MywxOTQ3Mjc4
+MTk4LDEyNTEwOTc0OTgsNDgzNDY4NDI0LDE2NDc2MzY1ODAsMT
+IzMzg3MzI5Nyw3Mjk0MTk2MjAsMTYyODM0MDcxNiw3Mjk0MTk2
+MjBdfQ==
 -->
