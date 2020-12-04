@@ -122,7 +122,9 @@ TODO
 FencedPoolを適用したコマンドアロケーターのラッパー  
 それだけ  
 
-### 
+### FencedPool.h
+コマンドアロケーターでのみ使用されている  
+
 
 
 ## DescriptorPool.h, cpp
@@ -158,7 +160,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3ODUxNjI1LDE2NjY3MzYyNCw1ODE4NT
+eyJoaXN0b3J5IjpbMTUxODQ1NTk5LDE2NjY3MzYyNCw1ODE4NT
 U0OTQsMTUyMTQ4MzI2NSwtMTMyMTkzNDg5MywtODkzODQ3MzIy
 LDEyNTY2OTg4OTksNjQ4MTMyMjMyLC0xODIzMTIyMDEsMjEyNT
 g1NjM0MSwtMTE1ODkxMDk3LDIxMTE5MjYxODMsLTkxMzA3Mzg3
