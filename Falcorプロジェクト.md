@@ -102,6 +102,8 @@ ComputeContextはCopyContextのサブクラス
 コンピュートシェーダー周りのコマンドリスト設定とそのDispatch()を担当している  
 だいたいの処理はAPIに依存するので、dx12の場合、だいたいの関数はD3D12ComputeContext.cppの方で実装されている  
 
+コマンドの実行はflush()で、LowLevelContextApiDataにより行われる  
+
 ### D3D12ComputeContext.cpp
 TODO   読む  
 
@@ -182,11 +184,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NDE2MDU3MywtNjEzMDYxNDUzLC04OD
-kzODAyNjksLTIwMDUzMDUyMiwtMjgxOTk2NzExLDE1MTg0NTU5
-OSwxNjY2NzM2MjQsNTgxODU1NDk0LDE1MjE0ODMyNjUsLTEzMj
-E5MzQ4OTMsLTg5Mzg0NzMyMiwxMjU2Njk4ODk5LDY0ODEzMjIz
-MiwtMTgyMzEyMjAxLDIxMjU4NTYzNDEsLTExNTg5MTA5NywyMT
-ExOTI2MTgzLC05MTMwNzM4NzMsMTk0NzI3ODE5OCwxMjUxMDk3
-NDk4XX0=
+eyJoaXN0b3J5IjpbLTE4NDc5MDUzMTksLTYxMzA2MTQ1MywtOD
+g5MzgwMjY5LC0yMDA1MzA1MjIsLTI4MTk5NjcxMSwxNTE4NDU1
+OTksMTY2NjczNjI0LDU4MTg1NTQ5NCwxNTIxNDgzMjY1LC0xMz
+IxOTM0ODkzLC04OTM4NDczMjIsMTI1NjY5ODg5OSw2NDgxMzIy
+MzIsLTE4MjMxMjIwMSwyMTI1ODU2MzQxLC0xMTU4OTEwOTcsMj
+ExMTkyNjE4MywtOTEzMDczODczLDE5NDcyNzgxOTgsMTI1MTA5
+NzQ5OF19
 -->
