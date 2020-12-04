@@ -125,7 +125,8 @@ TODO
 ### FencedPool.h
 コマンドアロケーターでのみ使用されている  
 
-#
+## GpuFence,h, D3D12GpuFence.cpp
+
 
 ## DescriptorPool.h, cpp
 TODO  
@@ -160,7 +161,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MzgzODk4MCwtMjgxOTk2NzExLDE1MT
+eyJoaXN0b3J5IjpbLTIwMDUzMDUyMiwtMjgxOTk2NzExLDE1MT
 g0NTU5OSwxNjY2NzM2MjQsNTgxODU1NDk0LDE1MjE0ODMyNjUs
 LTEzMjE5MzQ4OTMsLTg5Mzg0NzMyMiwxMjU2Njk4ODk5LDY0OD
 EzMjIzMiwtMTgyMzEyMjAxLDIxMjU4NTYzNDEsLTExNTg5MTA5
