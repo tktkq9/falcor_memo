@@ -119,7 +119,7 @@ TODO
 フェンス処理はまだちょっとよくわからない
 
 ### D3D12ApiData.h
-FencedPoolを適用したコマンドアロケーターのラッパー  
+コマンドアロケーターのFencedPoolのラッパークラス  
 それだけ  
 
 ### FencedPool.h
@@ -160,11 +160,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxODQ1NTk5LDE2NjY3MzYyNCw1ODE4NT
-U0OTQsMTUyMTQ4MzI2NSwtMTMyMTkzNDg5MywtODkzODQ3MzIy
-LDEyNTY2OTg4OTksNjQ4MTMyMjMyLC0xODIzMTIyMDEsMjEyNT
-g1NjM0MSwtMTE1ODkxMDk3LDIxMTE5MjYxODMsLTkxMzA3Mzg3
-MywxOTQ3Mjc4MTk4LDEyNTEwOTc0OTgsNDgzNDY4NDI0LDE2ND
-c2MzY1ODAsMTIzMzg3MzI5Nyw3Mjk0MTk2MjAsMTYyODM0MDcx
-Nl19
+eyJoaXN0b3J5IjpbMTUwMzMyMzYzNSwxNTE4NDU1OTksMTY2Nj
+czNjI0LDU4MTg1NTQ5NCwxNTIxNDgzMjY1LC0xMzIxOTM0ODkz
+LC04OTM4NDczMjIsMTI1NjY5ODg5OSw2NDgxMzIyMzIsLTE4Mj
+MxMjIwMSwyMTI1ODU2MzQxLC0xMTU4OTEwOTcsMjExMTkyNjE4
+MywtOTEzMDczODczLDE5NDcyNzgxOTgsMTI1MTA5NzQ5OCw0OD
+M0Njg0MjQsMTY0NzYzNjU4MCwxMjMzODczMjk3LDcyOTQxOTYy
+MF19
 -->
