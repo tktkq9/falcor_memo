@@ -117,7 +117,8 @@ flush()でExecuteCommandLists()され、コマンドリストに新しいアロ�
 
 ExecuteCommandLists()によるウェイトはここでは行わず、実行したものはFencedPoolにひたすら積まれていく  
 ただし、すでに実行が終わっているアロケーターは再利用される  
-そのため、cpu側 or gpu側でウェイトしたい場合はFencedPoolに渡したmpFenceでsyncCpu() or syncGpu()を呼ぶ必要がある  
+
+このようにExecuteCommandLists()ごとに同期はしない設計になっているので、cpu側 or gpu側でウェイトしたい場合はFencedPoolに渡したmpFenceでsyncCpu() or syncGpu()を呼ぶ必要がある  
 
 ### D3D12ApiData.h
 コマンドアロケーターFencedPoolのラッパークラス  
@@ -169,7 +170,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDIxNTE5MTksLTg4OTM4MDI2OSwtMj
+eyJoaXN0b3J5IjpbLTE1MzA2OTI0ODksLTg4OTM4MDI2OSwtMj
 AwNTMwNTIyLC0yODE5OTY3MTEsMTUxODQ1NTk5LDE2NjY3MzYy
 NCw1ODE4NTU0OTQsMTUyMTQ4MzI2NSwtMTMyMTkzNDg5MywtOD
 kzODQ3MzIyLDEyNTY2OTg4OTksNjQ4MTMyMjMyLC0xODIzMTIy
