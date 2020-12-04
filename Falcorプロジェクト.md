@@ -115,6 +115,8 @@ CopyContextのdx12部分の実装
 コマンドリストとアロケーターの作成、コマンドリストとキューとアロケーターの管理、キューの実行を担当  
 flush()でExecuteCommandLists()され、コマンドリストに新しいアロケーターが設定される  
 
+TODO
+フェンス処理はまだちょっとよくわからない
 
 
 
@@ -151,11 +153,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTA5OTA5MCw1ODE4NTU0OTQsMTUyMT
-Q4MzI2NSwtMTMyMTkzNDg5MywtODkzODQ3MzIyLDEyNTY2OTg4
-OTksNjQ4MTMyMjMyLC0xODIzMTIyMDEsMjEyNTg1NjM0MSwtMT
-E1ODkxMDk3LDIxMTE5MjYxODMsLTkxMzA3Mzg3MywxOTQ3Mjc4
-MTk4LDEyNTEwOTc0OTgsNDgzNDY4NDI0LDE2NDc2MzY1ODAsMT
-IzMzg3MzI5Nyw3Mjk0MTk2MjAsMTYyODM0MDcxNiw3Mjk0MTk2
-MjBdfQ==
+eyJoaXN0b3J5IjpbMTc0NDg5NjI0LDU4MTg1NTQ5NCwxNTIxND
+gzMjY1LC0xMzIxOTM0ODkzLC04OTM4NDczMjIsMTI1NjY5ODg5
+OSw2NDgxMzIyMzIsLTE4MjMxMjIwMSwyMTI1ODU2MzQxLC0xMT
+U4OTEwOTcsMjExMTkyNjE4MywtOTEzMDczODczLDE5NDcyNzgx
+OTgsMTI1MTA5NzQ5OCw0ODM0Njg0MjQsMTY0NzYzNjU4MCwxMj
+MzODczMjk3LDcyOTQxOTYyMCwxNjI4MzQwNzE2LDcyOTQxOTYy
+MF19
 -->
