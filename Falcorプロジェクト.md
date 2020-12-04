@@ -125,7 +125,7 @@ ExecuteCommandLists()によるウェイトはここでは行わず、実行し�
 それだけ  
 
 ### FencedPool.h
-GpuFenceのシグナル値をもとに、すでに終わっているテンプレートオブジェクトは再利用し、そうでなければ新たに作成する（作成しっぱなし）  
+GpuFenceのシグナル値をもとに、すでにそのシグナル値に対応するテンプレートオブジェクトが終わっていれば再利用し、そうでなければ新たに作成する（作成しっぱなし）  
 新たなオブジェクトを作成する場合は、プール作成時に渡されたNewObjectFuncType newFuncの実行により作成される  
 
 今のところこのプールはコマンドアロケーターでのみ使用されている  
@@ -173,11 +173,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMzEyNzc3MiwtODg5MzgwMjY5LC0yMD
-A1MzA1MjIsLTI4MTk5NjcxMSwxNTE4NDU1OTksMTY2NjczNjI0
-LDU4MTg1NTQ5NCwxNTIxNDgzMjY1LC0xMzIxOTM0ODkzLC04OT
-M4NDczMjIsMTI1NjY5ODg5OSw2NDgxMzIyMzIsLTE4MjMxMjIw
-MSwyMTI1ODU2MzQxLC0xMTU4OTEwOTcsMjExMTkyNjE4MywtOT
-EzMDczODczLDE5NDcyNzgxOTgsMTI1MTA5NzQ5OCw0ODM0Njg0
-MjRdfQ==
+eyJoaXN0b3J5IjpbLTE0NjE5NDE0MzAsLTg4OTM4MDI2OSwtMj
+AwNTMwNTIyLC0yODE5OTY3MTEsMTUxODQ1NTk5LDE2NjY3MzYy
+NCw1ODE4NTU0OTQsMTUyMTQ4MzI2NSwtMTMyMTkzNDg5MywtOD
+kzODQ3MzIyLDEyNTY2OTg4OTksNjQ4MTMyMjMyLC0xODIzMTIy
+MDEsMjEyNTg1NjM0MSwtMTE1ODkxMDk3LDIxMTE5MjYxODMsLT
+kxMzA3Mzg3MywxOTQ3Mjc4MTk4LDEyNTEwOTc0OTgsNDgzNDY4
+NDI0XX0=
 -->
