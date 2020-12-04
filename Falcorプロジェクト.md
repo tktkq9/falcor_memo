@@ -140,6 +140,7 @@ GpuFenceの現在のシグナル値を参考に、テンプレートオブジェ
 
 ## GpuFence,h, D3D12GpuFence.cpp
 フェンスの作成と値管理、フェンス値によるCPUとGPUの同期処理を担当  
+基本API依存なので、dx12の場合、関数はD3D12GpuFence.cppに定義されている  
 
 TODO  
 描画のためのコマンドキューに対するフェンス値はLowLevelContextApiDataで作成されたフェンスによって管理されていると思うが、ほかでもGpuFence::create()が呼ばれているので違いを後で調べる
@@ -181,7 +182,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzYyNDYyNDcsLTg4OTM4MDI2OSwtMj
+eyJoaXN0b3J5IjpbLTIwODMwOTg3NDcsLTg4OTM4MDI2OSwtMj
 AwNTMwNTIyLC0yODE5OTY3MTEsMTUxODQ1NTk5LDE2NjY3MzYy
 NCw1ODE4NTU0OTQsMTUyMTQ4MzI2NSwtMTMyMTkzNDg5MywtOD
 kzODQ3MzIyLDEyNTY2OTg4OTksNjQ4MTMyMjMyLC0xODIzMTIy
