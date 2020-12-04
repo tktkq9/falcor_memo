@@ -83,7 +83,7 @@ Deviceのdx12部分の実装
 TODO  
 ComputeContextのサブクラス（ComputeContextはCopyContextのサブクラス）  
 clearDsvやらdrawIndexedやらraytraceやらと、描画シェーダー周りのコマンドリスト設定とそのDispatch()を担当している  
-だいたいの処理はAPIに依存するので、dx12の場合、D3D12RenderContext.cppに実装されている  
+だいたいの処理はAPIに依存するので、dx12の場合RenderContext.hのだいたいの関数はD3D12RenderContext.cppの方で実装されている  
 
 
 ### D3D12RenderContext.cpp
@@ -94,7 +94,7 @@ RenderContextのdx12部分の実装
 TODO  
 ComputeContextはCopyContextのサブクラス  
 コンピュートシェーダー周りのコマンドリスト設定とそのDispatch()を担当している  
-大体の処理はAPIに依存するので、dx12の場合はD3D12ComputeContext.cppで実装されている  
+だいたいの処理はAPIに依存するので、dx12の場合ComputeContext.hのだいたいの関数はD3D12ComputeContext.cppの方で実装されている  
 
 ### D3D12ComputeContext.cpp
 TODO  
@@ -134,11 +134,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDczMTA2LDEyNTY2OTg4OTksNjQ4MT
-MyMjMyLC0xODIzMTIyMDEsMjEyNTg1NjM0MSwtMTE1ODkxMDk3
-LDIxMTE5MjYxODMsLTkxMzA3Mzg3MywxOTQ3Mjc4MTk4LDEyNT
-EwOTc0OTgsNDgzNDY4NDI0LDE2NDc2MzY1ODAsMTIzMzg3MzI5
-Nyw3Mjk0MTk2MjAsMTYyODM0MDcxNiw3Mjk0MTk2MjAsLTIwNj
-E4NzY3NjcsMTYyODM0MDcxNiwtMjEzNTg3Nzg0LDQzMjI1MDIx
-MF19
+eyJoaXN0b3J5IjpbLTgzMDYyNTU5MiwxMjU2Njk4ODk5LDY0OD
+EzMjIzMiwtMTgyMzEyMjAxLDIxMjU4NTYzNDEsLTExNTg5MTA5
+NywyMTExOTI2MTgzLC05MTMwNzM4NzMsMTk0NzI3ODE5OCwxMj
+UxMDk3NDk4LDQ4MzQ2ODQyNCwxNjQ3NjM2NTgwLDEyMzM4NzMy
+OTcsNzI5NDE5NjIwLDE2MjgzNDA3MTYsNzI5NDE5NjIwLC0yMD
+YxODc2NzY3LDE2MjgzNDA3MTYsLTIxMzU4Nzc4NCw0MzIyNTAy
+MTBdfQ==
 -->
