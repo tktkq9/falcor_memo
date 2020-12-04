@@ -153,11 +153,11 @@ dx12ではID3D12DescriptorHeapに対応
 
 
 ## QueryHeap.h, D3D12QueryHeap.cpp
-TODO  
+TODO    あとで勉強する  
 ？？？？？？:thinking::thinking::thinking::thinking::thinking::thinking::thinking:？？？？？？？？  
   https://microsoft.github.io/DirectX-Specs/d3d/CountersAndQueries.html   
   https://docs.microsoft.com/ja-jp/windows/win32/direct3d12/performance-measurement  
-  あとで勉強する  
+
 
 ## FalcorConfig.h
 ファルカーノコンフィグ  
@@ -180,11 +180,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODg1ODU1LC04ODkzODAyNjksLTIwMD
-UzMDUyMiwtMjgxOTk2NzExLDE1MTg0NTU5OSwxNjY2NzM2MjQs
-NTgxODU1NDk0LDE1MjE0ODMyNjUsLTEzMjE5MzQ4OTMsLTg5Mz
-g0NzMyMiwxMjU2Njk4ODk5LDY0ODEzMjIzMiwtMTgyMzEyMjAx
-LDIxMjU4NTYzNDEsLTExNTg5MTA5NywyMTExOTI2MTgzLC05MT
-MwNzM4NzMsMTk0NzI3ODE5OCwxMjUxMDk3NDk4LDQ4MzQ2ODQy
-NF19
+eyJoaXN0b3J5IjpbLTE4MjQ1NTc3NjUsLTg4OTM4MDI2OSwtMj
+AwNTMwNTIyLC0yODE5OTY3MTEsMTUxODQ1NTk5LDE2NjY3MzYy
+NCw1ODE4NTU0OTQsMTUyMTQ4MzI2NSwtMTMyMTkzNDg5MywtOD
+kzODQ3MzIyLDEyNTY2OTg4OTksNjQ4MTMyMjMyLC0xODIzMTIy
+MDEsMjEyNTg1NjM0MSwtMTE1ODkxMDk3LDIxMTE5MjYxODMsLT
+kxMzA3Mzg3MywxOTQ3Mjc4MTk4LDEyNTEwOTc0OTgsNDgzNDY4
+NDI0XX0=
 -->
