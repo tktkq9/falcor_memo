@@ -118,6 +118,11 @@ flush()でExecuteCommandLists()され、コマンドリストに新しいアロ�
 TODO  
 フェンス処理はまだちょっとよくわからない
 
+### D3D12ApiData.h
+FencedPoolを適用したコマンドアロケーターのラッパー  
+それだけ  
+
+### 
 
 
 ## DescriptorPool.h, cpp
@@ -153,11 +158,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NjczNjI0LDU4MTg1NTQ5NCwxNTIxND
-gzMjY1LC0xMzIxOTM0ODkzLC04OTM4NDczMjIsMTI1NjY5ODg5
-OSw2NDgxMzIyMzIsLTE4MjMxMjIwMSwyMTI1ODU2MzQxLC0xMT
-U4OTEwOTcsMjExMTkyNjE4MywtOTEzMDczODczLDE5NDcyNzgx
-OTgsMTI1MTA5NzQ5OCw0ODM0Njg0MjQsMTY0NzYzNjU4MCwxMj
-MzODczMjk3LDcyOTQxOTYyMCwxNjI4MzQwNzE2LDcyOTQxOTYy
-MF19
+eyJoaXN0b3J5IjpbMjc3ODUxNjI1LDE2NjY3MzYyNCw1ODE4NT
+U0OTQsMTUyMTQ4MzI2NSwtMTMyMTkzNDg5MywtODkzODQ3MzIy
+LDEyNTY2OTg4OTksNjQ4MTMyMjMyLC0xODIzMTIyMDEsMjEyNT
+g1NjM0MSwtMTE1ODkxMDk3LDIxMTE5MjYxODMsLTkxMzA3Mzg3
+MywxOTQ3Mjc4MTk4LDEyNTEwOTc0OTgsNDgzNDY4NDI0LDE2ND
+c2MzY1ODAsMTIzMzg3MzI5Nyw3Mjk0MTk2MjAsMTYyODM0MDcx
+Nl19
 -->
