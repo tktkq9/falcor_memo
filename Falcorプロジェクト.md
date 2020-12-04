@@ -103,7 +103,7 @@ ComputeContextのdx12部分の実装
 
 ## CopyContext.h, cpp
 TODO  
-リソース間のコピーだけではなく、リソースのバリアのコマンドリスト設定を行う  
+リソース間のコピーだけではなく、リソースのバリアのコマンドリスト設定も行う  
 だいたいの処理はAPIに依存するので、dx12の場合、だいたいの関数はD3D12CopyContext.cppの方で実装されている  
 
 ### D3D12CopyContext.cpp
@@ -144,7 +144,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MzkzMjc4MywtMTMyMTkzNDg5MywtOD
+eyJoaXN0b3J5IjpbMTUyMTQ4MzI2NSwtMTMyMTkzNDg5MywtOD
 kzODQ3MzIyLDEyNTY2OTg4OTksNjQ4MTMyMjMyLC0xODIzMTIy
 MDEsMjEyNTg1NjM0MSwtMTE1ODkxMDk3LDIxMTE5MjYxODMsLT
 kxMzA3Mzg3MywxOTQ3Mjc4MTk4LDEyNTEwOTc0OTgsNDgzNDY4
