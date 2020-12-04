@@ -143,7 +143,7 @@ GpuFenceの現在のシグナル値を参考に、テンプレートオブジェ
 基本API依存の処理なので、dx12の場合、関数はD3D12GpuFence.cppに定義されている  
 
 TODO  
-描画のためのコマンドキューに対するフェンス値はLowLevelContextApiDataで作成されたフェンスによって管理されていると思われるが、ほかでもGpuFence::create()が呼ばれているので違いを後で調べる
+描画のためのコマンドキューに対するフェンス値はLowLevelContextApiDataで作成されたフェンスによって管理されていると思われるが、ほかでもGpuFence::create()が呼ばれているので違いを後で調べる（おそらく初期化時の処理だけだと思う多分）  
 
 
 
@@ -182,11 +182,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjE4MDY4MDUsLTYxMzA2MTQ1MywtOD
-g5MzgwMjY5LC0yMDA1MzA1MjIsLTI4MTk5NjcxMSwxNTE4NDU1
-OTksMTY2NjczNjI0LDU4MTg1NTQ5NCwxNTIxNDgzMjY1LC0xMz
-IxOTM0ODkzLC04OTM4NDczMjIsMTI1NjY5ODg5OSw2NDgxMzIy
-MzIsLTE4MjMxMjIwMSwyMTI1ODU2MzQxLC0xMTU4OTEwOTcsMj
-ExMTkyNjE4MywtOTEzMDczODczLDE5NDcyNzgxOTgsMTI1MTA5
-NzQ5OF19
+eyJoaXN0b3J5IjpbMTY2NDQ4ODUyMSwtNjEzMDYxNDUzLC04OD
+kzODAyNjksLTIwMDUzMDUyMiwtMjgxOTk2NzExLDE1MTg0NTU5
+OSwxNjY2NzM2MjQsNTgxODU1NDk0LDE1MjE0ODMyNjUsLTEzMj
+E5MzQ4OTMsLTg5Mzg0NzMyMiwxMjU2Njk4ODk5LDY0ODEzMjIz
+MiwtMTgyMzEyMjAxLDIxMjU4NTYzNDEsLTExNTg5MTA5NywyMT
+ExOTI2MTgzLC05MTMwNzM4NzMsMTk0NzI3ODE5OCwxMjUxMDk3
+NDk4XX0=
 -->
