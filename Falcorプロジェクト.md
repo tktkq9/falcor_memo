@@ -90,6 +90,10 @@ clearDsvやらdrawIndexedやらraytraceやらと、そこらへんをコマン�
 TODO  
 RenderContextのdx12部分の実装  
 
+## ComputeContext.h, cpp
+
+
+
 ## DescriptorPool.h, cpp
 TODO  
 dx12ではID3D12DescriptorHeapに対応  
@@ -123,11 +127,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ4MTMyMjMyLC0xODIzMTIyMDEsMjEyNT
-g1NjM0MSwtMTE1ODkxMDk3LDIxMTE5MjYxODMsLTkxMzA3Mzg3
-MywxOTQ3Mjc4MTk4LDEyNTEwOTc0OTgsNDgzNDY4NDI0LDE2ND
-c2MzY1ODAsMTIzMzg3MzI5Nyw3Mjk0MTk2MjAsMTYyODM0MDcx
-Niw3Mjk0MTk2MjAsLTIwNjE4NzY3NjcsMTYyODM0MDcxNiwtMj
-EzNTg3Nzg0LDQzMjI1MDIxMCwtNTcxMjI5MiwtNjM0MTQxMTg1
+eyJoaXN0b3J5IjpbMTA3MjYwMjk0Nyw2NDgxMzIyMzIsLTE4Mj
+MxMjIwMSwyMTI1ODU2MzQxLC0xMTU4OTEwOTcsMjExMTkyNjE4
+MywtOTEzMDczODczLDE5NDcyNzgxOTgsMTI1MTA5NzQ5OCw0OD
+M0Njg0MjQsMTY0NzYzNjU4MCwxMjMzODczMjk3LDcyOTQxOTYy
+MCwxNjI4MzQwNzE2LDcyOTQxOTYyMCwtMjA2MTg3Njc2NywxNj
+I4MzQwNzE2LC0yMTM1ODc3ODQsNDMyMjUwMjEwLC01NzEyMjky
 XX0=
 -->
