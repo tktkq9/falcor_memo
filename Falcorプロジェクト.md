@@ -116,7 +116,8 @@ CopyContextのdx12部分の実装
 flush()でExecuteCommandLists()され、コマンドリストに新しいアロケーターが設定される  
 
 ExecuteCommandLists()によるウェイトはここでは行わず、実行したものはFencedPoolにひたすら積まれていく  
-
+ただし、すでに実行が終わっているものは再利用される  
+そのため、FencedPoolに渡したmpFenceでsyncCpu
 
 ### D3D12ApiData.h
 コマンドアロケーターFencedPoolのラッパークラス  
@@ -167,11 +168,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUwMzQxNTU0LC0yMDA1MzA1MjIsLTI4MT
-k5NjcxMSwxNTE4NDU1OTksMTY2NjczNjI0LDU4MTg1NTQ5NCwx
-NTIxNDgzMjY1LC0xMzIxOTM0ODkzLC04OTM4NDczMjIsMTI1Nj
-Y5ODg5OSw2NDgxMzIyMzIsLTE4MjMxMjIwMSwyMTI1ODU2MzQx
-LC0xMTU4OTEwOTcsMjExMTkyNjE4MywtOTEzMDczODczLDE5ND
-cyNzgxOTgsMTI1MTA5NzQ5OCw0ODM0Njg0MjQsMTY0NzYzNjU4
-MF19
+eyJoaXN0b3J5IjpbLTEyMTE5MjM5MTYsLTIwMDUzMDUyMiwtMj
+gxOTk2NzExLDE1MTg0NTU5OSwxNjY2NzM2MjQsNTgxODU1NDk0
+LDE1MjE0ODMyNjUsLTEzMjE5MzQ4OTMsLTg5Mzg0NzMyMiwxMj
+U2Njk4ODk5LDY0ODEzMjIzMiwtMTgyMzEyMjAxLDIxMjU4NTYz
+NDEsLTExNTg5MTA5NywyMTExOTI2MTgzLC05MTMwNzM4NzMsMT
+k0NzI3ODE5OCwxMjUxMDk3NDk4LDQ4MzQ2ODQyNCwxNjQ3NjM2
+NTgwXX0=
 -->
