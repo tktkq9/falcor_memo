@@ -117,7 +117,7 @@ flush()でExecuteCommandLists()され、コマンドリストに新しいアロ�
 
 ExecuteCommandLists()によるウェイトはここでは行わず、実行したものはFencedPoolにひたすら積まれていく  
 ただし、すでに実行が終わっているものは再利用される  
-そのため、FencedPoolに渡したmpFenceでsyncCpu()
+そのため、cpu側 or gpu側でウェイトしたい場合はFencedPoolに渡したmpFenceでsyncCpu() or syncGpu()を呼ぶ必要がある  
 
 ### D3D12ApiData.h
 コマンドアロケーターFencedPoolのラッパークラス  
@@ -168,11 +168,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4OTM4MDI2OSwtMjAwNTMwNTIyLC0yOD
-E5OTY3MTEsMTUxODQ1NTk5LDE2NjY3MzYyNCw1ODE4NTU0OTQs
-MTUyMTQ4MzI2NSwtMTMyMTkzNDg5MywtODkzODQ3MzIyLDEyNT
-Y2OTg4OTksNjQ4MTMyMjMyLC0xODIzMTIyMDEsMjEyNTg1NjM0
-MSwtMTE1ODkxMDk3LDIxMTE5MjYxODMsLTkxMzA3Mzg3MywxOT
-Q3Mjc4MTk4LDEyNTEwOTc0OTgsNDgzNDY4NDI0LDE2NDc2MzY1
-ODBdfQ==
+eyJoaXN0b3J5IjpbLTExODI4NDM5OTMsLTg4OTM4MDI2OSwtMj
+AwNTMwNTIyLC0yODE5OTY3MTEsMTUxODQ1NTk5LDE2NjY3MzYy
+NCw1ODE4NTU0OTQsMTUyMTQ4MzI2NSwtMTMyMTkzNDg5MywtOD
+kzODQ3MzIyLDEyNTY2OTg4OTksNjQ4MTMyMjMyLC0xODIzMTIy
+MDEsMjEyNTg1NjM0MSwtMTE1ODkxMDk3LDIxMTE5MjYxODMsLT
+kxMzA3Mzg3MywxOTQ3Mjc4MTk4LDEyNTEwOTc0OTgsNDgzNDY4
+NDI0XX0=
 -->
