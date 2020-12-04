@@ -126,6 +126,9 @@ TODO
 コマンドアロケーターでのみ使用されている  
 
 ## GpuFence,h, D3D12GpuFence.cpp
+フェンスの作成と値管理、フェンス値によるCPUとGPUの同期し
+
+
 
 
 ## DescriptorPool.h, cpp
@@ -161,11 +164,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDUzMDUyMiwtMjgxOTk2NzExLDE1MT
-g0NTU5OSwxNjY2NzM2MjQsNTgxODU1NDk0LDE1MjE0ODMyNjUs
-LTEzMjE5MzQ4OTMsLTg5Mzg0NzMyMiwxMjU2Njk4ODk5LDY0OD
-EzMjIzMiwtMTgyMzEyMjAxLDIxMjU4NTYzNDEsLTExNTg5MTA5
-NywyMTExOTI2MTgzLC05MTMwNzM4NzMsMTk0NzI3ODE5OCwxMj
-UxMDk3NDk4LDQ4MzQ2ODQyNCwxNjQ3NjM2NTgwLDEyMzM4NzMy
-OTddfQ==
+eyJoaXN0b3J5IjpbLTE2NTcyNjg3ODgsLTIwMDUzMDUyMiwtMj
+gxOTk2NzExLDE1MTg0NTU5OSwxNjY2NzM2MjQsNTgxODU1NDk0
+LDE1MjE0ODMyNjUsLTEzMjE5MzQ4OTMsLTg5Mzg0NzMyMiwxMj
+U2Njk4ODk5LDY0ODEzMjIzMiwtMTgyMzEyMjAxLDIxMjU4NTYz
+NDEsLTExNTg5MTA5NywyMTExOTI2MTgzLC05MTMwNzM4NzMsMT
+k0NzI3ODE5OCwxMjUxMDk3NDk4LDQ4MzQ2ODQyNCwxNjQ3NjM2
+NTgwXX0=
 -->
