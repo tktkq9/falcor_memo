@@ -115,8 +115,8 @@ CopyContextのdx12部分の実装
 コマンドリストとアロケーターの作成、コマンドリストとキューとアロケーターの管理、キューの実行を担当  
 flush()でExecuteCommandLists()され、コマンドリストに新しいアロケーターが設定される  
 
-TODO  
-フェンス処理はまだちょっとよくわからない
+ExecuteCommandLists()によるウェイトはここでは行わず、実行したものはFencedPoolにひたすら積まれていく  
+
 
 ### D3D12ApiData.h
 コマンドアロケーターFencedPoolのラッパークラス  
@@ -167,7 +167,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE5NzQzNDQxLC0yMDA1MzA1MjIsLTI4MT
+eyJoaXN0b3J5IjpbODUwMzQxNTU0LC0yMDA1MzA1MjIsLTI4MT
 k5NjcxMSwxNTE4NDU1OTksMTY2NjczNjI0LDU4MTg1NTQ5NCwx
 NTIxNDgzMjY1LC0xMzIxOTM0ODkzLC04OTM4NDczMjIsMTI1Nj
 Y5ODg5OSw2NDgxMzIyMzIsLTE4MjMxMjIwMSwyMTI1ODU2MzQx
