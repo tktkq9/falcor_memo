@@ -101,6 +101,16 @@ TODO
 ComputeContextのdx12部分の実装  
 
 
+## CopyContext.h, cpp
+TODO  
+コンピュートシェーダー周りのコマンドリスト設定とそのDispatch()を担当している  
+だいたいの処理はAPIに依存するので、dx12の場合CopyContext.hのだいたいの関数はD3D12CopyContext.cppの方で実装されている  
+
+### D3D12ComputeContext.cpp
+TODO  
+ComputeContextのdx12部分の実装  
+
+
 ## DescriptorPool.h, cpp
 TODO  
 dx12ではID3D12DescriptorHeapに対応  
@@ -134,11 +144,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5Mzg0NzMyMiwxMjU2Njk4ODk5LDY0OD
-EzMjIzMiwtMTgyMzEyMjAxLDIxMjU4NTYzNDEsLTExNTg5MTA5
-NywyMTExOTI2MTgzLC05MTMwNzM4NzMsMTk0NzI3ODE5OCwxMj
-UxMDk3NDk4LDQ4MzQ2ODQyNCwxNjQ3NjM2NTgwLDEyMzM4NzMy
-OTcsNzI5NDE5NjIwLDE2MjgzNDA3MTYsNzI5NDE5NjIwLC0yMD
-YxODc2NzY3LDE2MjgzNDA3MTYsLTIxMzU4Nzc4NCw0MzIyNTAy
-MTBdfQ==
+eyJoaXN0b3J5IjpbLTEwNjY0OTU4MzYsLTg5Mzg0NzMyMiwxMj
+U2Njk4ODk5LDY0ODEzMjIzMiwtMTgyMzEyMjAxLDIxMjU4NTYz
+NDEsLTExNTg5MTA5NywyMTExOTI2MTgzLC05MTMwNzM4NzMsMT
+k0NzI3ODE5OCwxMjUxMDk3NDk4LDQ4MzQ2ODQyNCwxNjQ3NjM2
+NTgwLDEyMzM4NzMyOTcsNzI5NDE5NjIwLDE2MjgzNDA3MTYsNz
+I5NDE5NjIwLC0yMDYxODc2NzY3LDE2MjgzNDA3MTYsLTIxMzU4
+Nzc4NF19
 -->
