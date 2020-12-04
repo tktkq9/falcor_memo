@@ -94,6 +94,7 @@ RenderContextのdx12部分の実装
 TODO  
 ComputeContextはCopyContextのサブクラス  
 コンピュートシェーダー周りのコマンドリスト設定とそのDispatch()を担当している  
+大体の処理はAPIに依存するので、dx12の場合はD3D12ComputeContext.cppでほぼほぼ実装されている  
 
 ### D3D12ComputeContext.cpp
 TODO  
@@ -133,7 +134,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTA0NTg3NTYsMTI1NjY5ODg5OSw2ND
+eyJoaXN0b3J5IjpbLTE3NzM2MjkxNTksMTI1NjY5ODg5OSw2ND
 gxMzIyMzIsLTE4MjMxMjIwMSwyMTI1ODU2MzQxLC0xMTU4OTEw
 OTcsMjExMTkyNjE4MywtOTEzMDczODczLDE5NDcyNzgxOTgsMT
 I1MTA5NzQ5OCw0ODM0Njg0MjQsMTY0NzYzNjU4MCwxMjMzODcz
