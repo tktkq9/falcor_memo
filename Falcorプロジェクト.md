@@ -93,7 +93,7 @@ RenderContextのdx12部分の実装
 ## ComputeContext.h, cpp
 TODO  
 ComputeContextはCopyContextのサブクラス  
-コンピュートシェーダー周りの処理を
+コンピュートシェーダー周りのコマンドリスト設定とそのDispatch()を担当している  
 
 ### D3D12ComputeContext.cpp
 TODO  
@@ -133,7 +133,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTE0ODI2NDksMTI1NjY5ODg5OSw2ND
+eyJoaXN0b3J5IjpbLTExNTA0NTg3NTYsMTI1NjY5ODg5OSw2ND
 gxMzIyMzIsLTE4MjMxMjIwMSwyMTI1ODU2MzQxLC0xMTU4OTEw
 OTcsMjExMTkyNjE4MywtOTEzMDczODczLDE5NDcyNzgxOTgsMT
 I1MTA5NzQ5OCw0ODM0Njg0MjQsMTY0NzYzNjU4MCwxMjMzODcz
