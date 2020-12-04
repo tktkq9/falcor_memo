@@ -127,6 +127,7 @@ TODO
 
 ## GpuFence,h, D3D12GpuFence.cpp
 フェンスの作成と値管理、フェンス値によるCPUとGPUの同期処理を担当  
+
 TODO  
 描画のためのコマンドキューに対するフェンス値はLowLevelContextApiDataで作成されたフェンスによって管理されていると思うが、ほかでもGpuFence::create()が呼ばれているので違いを後で調べる
 
@@ -166,11 +167,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQ4OTI4MSwtMjAwNTMwNTIyLC0yOD
-E5OTY3MTEsMTUxODQ1NTk5LDE2NjY3MzYyNCw1ODE4NTU0OTQs
-MTUyMTQ4MzI2NSwtMTMyMTkzNDg5MywtODkzODQ3MzIyLDEyNT
-Y2OTg4OTksNjQ4MTMyMjMyLC0xODIzMTIyMDEsMjEyNTg1NjM0
-MSwtMTE1ODkxMDk3LDIxMTE5MjYxODMsLTkxMzA3Mzg3MywxOT
-Q3Mjc4MTk4LDEyNTEwOTc0OTgsNDgzNDY4NDI0LDE2NDc2MzY1
-ODBdfQ==
+eyJoaXN0b3J5IjpbODE5NzQzNDQxLC0yMDA1MzA1MjIsLTI4MT
+k5NjcxMSwxNTE4NDU1OTksMTY2NjczNjI0LDU4MTg1NTQ5NCwx
+NTIxNDgzMjY1LC0xMzIxOTM0ODkzLC04OTM4NDczMjIsMTI1Nj
+Y5ODg5OSw2NDgxMzIyMzIsLTE4MjMxMjIwMSwyMTI1ODU2MzQx
+LC0xMTU4OTEwOTcsMjExMTkyNjE4MywtOTEzMDczODczLDE5ND
+cyNzgxOTgsMTI1MTA5NzQ5OCw0ODM0Njg0MjQsMTY0NzYzNjU4
+MF19
 -->
