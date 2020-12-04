@@ -105,10 +105,14 @@ ComputeContextのdx12部分の実装
 TODO  
 リソース間のコピーだけではなく、リソースのバリアのコマンドリスト設定も行う  
 だいたいの処理はAPIに依存するので、dx12の場合、だいたいの関数はD3D12CopyContext.cppの方で実装されている  
+ここでLowLevelContextApiDataが作成される  
 
 ### D3D12CopyContext.cpp
 TODO  
 CopyContextのdx12部分の実装  
+
+## LowLevelContextApiData.h, D3D12LowLevelContextData.cpp
+
 
 
 ## DescriptorPool.h, cpp
@@ -144,11 +148,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMTQ4MzI2NSwtMTMyMTkzNDg5MywtOD
-kzODQ3MzIyLDEyNTY2OTg4OTksNjQ4MTMyMjMyLC0xODIzMTIy
-MDEsMjEyNTg1NjM0MSwtMTE1ODkxMDk3LDIxMTE5MjYxODMsLT
-kxMzA3Mzg3MywxOTQ3Mjc4MTk4LDEyNTEwOTc0OTgsNDgzNDY4
-NDI0LDE2NDc2MzY1ODAsMTIzMzg3MzI5Nyw3Mjk0MTk2MjAsMT
-YyODM0MDcxNiw3Mjk0MTk2MjAsLTIwNjE4NzY3NjcsMTYyODM0
-MDcxNl19
+eyJoaXN0b3J5IjpbNTgxODU1NDk0LDE1MjE0ODMyNjUsLTEzMj
+E5MzQ4OTMsLTg5Mzg0NzMyMiwxMjU2Njk4ODk5LDY0ODEzMjIz
+MiwtMTgyMzEyMjAxLDIxMjU4NTYzNDEsLTExNTg5MTA5NywyMT
+ExOTI2MTgzLC05MTMwNzM4NzMsMTk0NzI3ODE5OCwxMjUxMDk3
+NDk4LDQ4MzQ2ODQyNCwxNjQ3NjM2NTgwLDEyMzM4NzMyOTcsNz
+I5NDE5NjIwLDE2MjgzNDA3MTYsNzI5NDE5NjIwLC0yMDYxODc2
+NzY3XX0=
 -->
