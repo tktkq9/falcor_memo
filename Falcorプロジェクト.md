@@ -125,7 +125,7 @@ ExecuteCommandLists()によるウェイトはここでは行わず、実行し�
 それだけ  
 
 ### FencedPool.h
-GpuFenceのシグナル値をもとに、すでにそのシグナル値に対応するテンプレートオブジェクトが終わっていれば再利用し、そうでなければ新たに作成する  
+GpuFenceのげんｚシグナル値を参考に、テンプレートオブジェクトの実行が終わっていれば再利用し、そうでなければ新たに作成する  
 新たなオブジェクトを作成する場合は、プール作成時に渡されたNewObjectFuncType newFuncの実行により作成される  
 
 今のところこのプールはコマンドアロケーターでのみ使用されている  
@@ -173,7 +173,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODMyNjUzNywtODg5MzgwMjY5LC0yMD
+eyJoaXN0b3J5IjpbMjA2NTYxMzQ5MywtODg5MzgwMjY5LC0yMD
 A1MzA1MjIsLTI4MTk5NjcxMSwxNTE4NDU1OTksMTY2NjczNjI0
 LDU4MTg1NTQ5NCwxNTIxNDgzMjY1LC0xMzIxOTM0ODkzLC04OT
 M4NDczMjIsMTI1NjY5ODg5OSw2NDgxMzIyMzIsLTE4MjMxMjIw
