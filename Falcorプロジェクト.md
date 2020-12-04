@@ -146,8 +146,6 @@ TODO
 描画のためのコマンドキューに対するフェンス値はLowLevelContextApiDataで作成されたフェンスによって管理されていると思われるが、ほかでもGpuFence::create()が呼ばれているので違いを後で調べる（おそらく初期化時の処理用だけだと思う多分）  
 
 
-
-
 ## DescriptorPool.h, cpp
 TODO  読む    
 dx12ではID3D12DescriptorHeapに対応  
@@ -182,11 +180,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM4MzA1NjYxLC02MTMwNjE0NTMsLTg4OT
-M4MDI2OSwtMjAwNTMwNTIyLC0yODE5OTY3MTEsMTUxODQ1NTk5
-LDE2NjY3MzYyNCw1ODE4NTU0OTQsMTUyMTQ4MzI2NSwtMTMyMT
-kzNDg5MywtODkzODQ3MzIyLDEyNTY2OTg4OTksNjQ4MTMyMjMy
-LC0xODIzMTIyMDEsMjEyNTg1NjM0MSwtMTE1ODkxMDk3LDIxMT
-E5MjYxODMsLTkxMzA3Mzg3MywxOTQ3Mjc4MTk4LDEyNTEwOTc0
-OThdfQ==
+eyJoaXN0b3J5IjpbLTEwODIyOTQxODMsLTYxMzA2MTQ1MywtOD
+g5MzgwMjY5LC0yMDA1MzA1MjIsLTI4MTk5NjcxMSwxNTE4NDU1
+OTksMTY2NjczNjI0LDU4MTg1NTQ5NCwxNTIxNDgzMjY1LC0xMz
+IxOTM0ODkzLC04OTM4NDczMjIsMTI1NjY5ODg5OSw2NDgxMzIy
+MzIsLTE4MjMxMjIwMSwyMTI1ODU2MzQxLC0xMTU4OTEwOTcsMj
+ExMTkyNjE4MywtOTEzMDczODczLDE5NDcyNzgxOTgsMTI1MTA5
+NzQ5OF19
 -->
