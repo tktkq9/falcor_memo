@@ -13,7 +13,9 @@ TODO   読む
 おそらくRenderContextを通してシェーダー用パラメーターの名前と値を設定する用クラス  
 実際の保存先とレジスター番号の管理はShaderVar.h, cpp、レジスター番号処理のクラスはProgramReflection.h, cppかな？  
 
- ## ShaderVar.h, cpp
+## ShaderVar.h, cpp
+ 
+## ProgramReflection.h, cpp
  
  
 
@@ -34,6 +36,6 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyOTE1MDUwLC0yMzQzNDM4MzYsMTY1ND
+eyJoaXN0b3J5IjpbMzUzNzQ2ODI2LC0yMzQzNDM4MzYsMTY1ND
 UyMjYwNF19
 -->
