@@ -10,7 +10,8 @@ TODO    D3D12RenderContextを読む
 TODO   読む  
 
 ## ParameterBlock.h, cpp
-RenderContext作成の際に
+おそらくRenderContextを通してシェーダー用パラメーターの名前と値を設定する用クラス  
+実際のシェーダーへの繁栄は
 
 ## ComputeContext.h, cpp
 TODO    D3D12ComputeContextを読む  
@@ -29,5 +30,5 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NDUyMjYwNCwtMjAzNTI0ODg2OF19
+eyJoaXN0b3J5IjpbLTE5ODg3NDUxMzIsMTY1NDUyMjYwNF19
 -->
