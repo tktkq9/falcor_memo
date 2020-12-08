@@ -1,6 +1,6 @@
 # RenderContext詳細
 
-RenderContext.h, cppとその関連するクラスが膨大なのでFalcorプロジェクトのメモとは分けてまとめる  
+RenderContext.h, cppと関連するクラスが膨大なのでFalcorプロジェクトのメモとは分けてまとめる  
 
 ## RenderContext.h, cpp
 TODO    D3D12RenderContextを読む  
@@ -37,6 +37,6 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE4MTE2NDE4LC0yMzQzNDM4MzYsMTY1ND
+eyJoaXN0b3J5IjpbOTA3NzgyODY3LC0yMzQzNDM4MzYsMTY1ND
 UyMjYwNF19
 -->
