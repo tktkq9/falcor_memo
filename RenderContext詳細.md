@@ -11,7 +11,8 @@ TODO   読む
 
 ## ParameterBlock.h, cpp
 おそらくRenderContextを通してシェーダー用パラメーターの名前と値を設定する用クラス  
-名前と値は
+実際の保存先とレジスター番号の管理はShaderVar.h, cpp、
+
 
 ## ComputeContext.h, cpp
 TODO    D3D12ComputeContextを読む  
@@ -30,6 +31,6 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzYyNTcyOSwtMjM0MzQzODM2LDE2NT
-Q1MjI2MDRdfQ==
+eyJoaXN0b3J5IjpbLTExODIxNTkzOTgsLTIzNDM0MzgzNiwxNj
+U0NTIyNjA0XX0=
 -->
