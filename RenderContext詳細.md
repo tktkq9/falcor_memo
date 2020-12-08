@@ -10,7 +10,7 @@ TODO    D3D12RenderContextを読む
 TODO   読む  
 
 ## ParameterBlock.h, cpp
-RenderContext作成の
+RenderContext作成の際に
 
 ## ComputeContext.h, cpp
 TODO    D3D12ComputeContextを読む  
@@ -29,5 +29,5 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzUyNDg4NjhdfQ==
+eyJoaXN0b3J5IjpbMTY1NDUyMjYwNCwtMjAzNTI0ODg2OF19
 -->
