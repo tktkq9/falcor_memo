@@ -11,7 +11,7 @@ TODO   読む
 
 ## ParameterBlock.h, cpp
 おそらくRenderContextを通してシェーダー用パラメーターの名前と値を設定する用クラス  
-実際のシェーダーへの反映は
+名前と値は
 
 ## ComputeContext.h, cpp
 TODO    D3D12ComputeContextを読む  
@@ -30,5 +30,6 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNDM0MzgzNiwxNjU0NTIyNjA0XX0=
+eyJoaXN0b3J5IjpbMTQ2MzYyNTcyOSwtMjM0MzQzODM2LDE2NT
+Q1MjI2MDRdfQ==
 -->
