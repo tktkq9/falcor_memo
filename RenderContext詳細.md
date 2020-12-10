@@ -18,7 +18,7 @@ TODO   読む
  
 ## ProgramReflection.h, cpp
 UniformShaderVarOffsetはコンスタントバッファー用
- uniform shader variable は dx12でいうところのコンスタントバッファー  
+ uniform shader variableはOpenGLシェーダーのuniformのことで、dx12でいうところのコンスタントバッファー  
 
 
 
@@ -42,6 +42,6 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MzM5OTE2LDkwNzc4Mjg2NywtMjM0Mz
-QzODM2LDE2NTQ1MjI2MDRdfQ==
+eyJoaXN0b3J5IjpbLTg0MTkwNTc4NCw5MDc3ODI4NjcsLTIzND
+M0MzgzNiwxNjU0NTIyNjA0XX0=
 -->
