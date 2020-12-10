@@ -22,6 +22,7 @@ UniformShaderVarOffsetはコンスタントバッファー用のバイトオフ�
 
 ResourceShaderVarOffsetはシェーダーリソース用のバイトオフセットクラス  
 実装はUniformShaderVarOffsetとほぼ変わらず  
+mRangeIndexとmArrayIndexの
 
  参照：# GLSL-to-HLSL reference  
  https://docs.microsoft.com/ja-jp/windows/uwp/gaming/glsl-to-hlsl-reference
@@ -43,6 +44,6 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2MjY0NzMyLDkwNzc4Mjg2NywtMjM0Mz
-QzODM2LDE2NTQ1MjI2MDRdfQ==
+eyJoaXN0b3J5IjpbLTEyOTM4OTk0OTIsOTE2MjY0NzMyLDkwNz
+c4Mjg2NywtMjM0MzQzODM2LDE2NTQ1MjI2MDRdfQ==
 -->
