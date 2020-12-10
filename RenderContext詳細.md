@@ -33,6 +33,8 @@ UniformShaderVarOffsetとResourceShaderVarOffsetが合わさったもの
 ShaderVarOffsetと後述するReflectionTypeが合わさったもの  
 
 
+### ReflectionType
+
 
  参照：# GLSL-to-HLSL reference  
  https://docs.microsoft.com/ja-jp/windows/uwp/gaming/glsl-to-hlsl-reference
@@ -54,7 +56,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3ODU0MjE4LDE2MDM1NjYwNzQsNjczND
+eyJoaXN0b3J5IjpbLTc5MzQ2ODIwLDE2MDM1NjYwNzQsNjczND
 E1MDgyLDE1MDU1ODU4NTUsLTU0MTUzOTQyMCw2MDUyMTU3NTks
 OTE2MjY0NzMyLDkwNzc4Mjg2NywtMjM0MzQzODM2LDE2NTQ1Mj
 I2MDRdfQ==
