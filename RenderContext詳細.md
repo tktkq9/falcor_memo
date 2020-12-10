@@ -27,7 +27,9 @@ TODO   読む
 mRangeIndexとmArrayIndexの二つのメンバ変数があるが、ヘッダーにも書いてある通り、レジスターなどと対応関係があるわけではないらしいのでこの値を直接操作してはいけない  
 
 ### ShaderVarOffset
-UniformShaderVarOffsetとResourceShaderVarOffsetのどちらの特性も持つもの  
+コンスタントバッファー、シェーダーリソースのどちらも保有するもの  
+UniformShaderVarOffsetとResourceShaderVarOffsetが合わさったようなやつ  
+  
 
 
  参照：# GLSL-to-HLSL reference  
@@ -50,7 +52,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0OTQ3NTM3MiwxNTA1NTg1ODU1LC01ND
+eyJoaXN0b3J5IjpbMTIzMjk1MzE3MiwxNTA1NTg1ODU1LC01ND
 E1Mzk0MjAsNjA1MjE1NzU5LDkxNjI2NDczMiw5MDc3ODI4Njcs
 LTIzNDM0MzgzNiwxNjU0NTIyNjA0XX0=
 -->
