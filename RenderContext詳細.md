@@ -17,7 +17,8 @@ TODO   読む
 ## ShaderVar.h, cpp
  
 ## ProgramReflection.h, cpp
-### UniformShaderVarOffsetコンスタントバッファー用のバイトオフセットクラス  
+### UniformShaderVarOffset
+コンスタントバッファー用のバイトオフセットクラス  
  uniform shader variableはOpenGLシェーダーのuniformのことで、dx12ではコンスタントバッファーに対応する  
 
 ResourceShaderVarOffsetはシェーダーリソース用のバイトオフセットクラス  
@@ -46,7 +47,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNzAwMDcyMywtNTQxNTM5NDIwLDYwNT
-IxNTc1OSw5MTYyNjQ3MzIsOTA3NzgyODY3LC0yMzQzNDM4MzYs
-MTY1NDUyMjYwNF19
+eyJoaXN0b3J5IjpbMTUwNTU4NTg1NSwtNjM3MDAwNzIzLC01ND
+E1Mzk0MjAsNjA1MjE1NzU5LDkxNjI2NDczMiw5MDc3ODI4Njcs
+LTIzNDM0MzgzNiwxNjU0NTIyNjA0XX0=
 -->
