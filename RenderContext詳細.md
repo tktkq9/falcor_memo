@@ -17,8 +17,12 @@ TODO   読む
 ## ShaderVar.h, cpp
  
 ## ProgramReflection.h, cpp
- 
- 
+UniformShaderVarOffsetはコンスタントバッファー用
+ uniform shader variable は dx12でいうところのコンスタントバッファー  
+
+
+ 参照：# GLSL-to-HLSL reference  
+ https://docs.microsoft.com/ja-jp/windows/uwp/gaming/glsl-to-hlsl-reference
 
 ## ComputeContext.h, cpp
 TODO    D3D12ComputeContextを読む  
@@ -37,6 +41,6 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA3NzgyODY3LC0yMzQzNDM4MzYsMTY1ND
-UyMjYwNF19
+eyJoaXN0b3J5IjpbMTg1ODQ1MDQyNiw5MDc3ODI4NjcsLTIzND
+M0MzgzNiwxNjU0NTIyNjA0XX0=
 -->
