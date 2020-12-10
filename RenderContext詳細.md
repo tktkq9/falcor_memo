@@ -35,16 +35,13 @@ ShaderVarOffsetと後述するReflectionTypeが合わさったもの
     TypedShaderVarOffset lightOffset = pSomeType["light"]; // get type and offset of texture `light` inside `pSomeType`
     TypedShaderVarOffset materialOffset = pBlock["material"]; // get type and offset of sampler `material` inside block
 
- In addition, a `TypedShaderVarOffset` can be used to look up offsets for
-    sub-fields/-elements of shader variables with structure or array types:
+ In addition, a `TypedShaderVarOffset` can be used to look up offsets for sub-fields/-elements of shader variables with structure or array types:
     
     UniformShaderVarOffset lightPosOffset = lightOffset["position"];
     ResourceShaderVarOffset diffuseMapOffset = materialOffset["diffuseMap"];
         
  Such offsets are always relative to the root type or block where lookup started.
-    For example, in the above code `lightPosOffset` would be the offset of the
-    field `light.position` relative to the enclosing type `pSomeType` and *not*
-    the offset of the `position` field relative to the immediately enclosing `light` field.
+    For example, in the above code `lightPosOffset` would be the offset of the  field `light.position` relative to the enclosing type `pSomeType` and *not*  the offset of the `position` field relative to the immediately enclosing `light` field.
 
 ### ReflectionType
 
@@ -69,8 +66,8 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzM3NDc2MDcsLTc5MzQ2ODIwLDE2MD
-M1NjYwNzQsNjczNDE1MDgyLDE1MDU1ODU4NTUsLTU0MTUzOTQy
-MCw2MDUyMTU3NTksOTE2MjY0NzMyLDkwNzc4Mjg2NywtMjM0Mz
-QzODM2LDE2NTQ1MjI2MDRdfQ==
+eyJoaXN0b3J5IjpbLTUwMzEwMzUwOSwtNzkzNDY4MjAsMTYwMz
+U2NjA3NCw2NzM0MTUwODIsMTUwNTU4NTg1NSwtNTQxNTM5NDIw
+LDYwNTIxNTc1OSw5MTYyNjQ3MzIsOTA3NzgyODY3LC0yMzQzND
+M4MzYsMTY1NDUyMjYwNF19
 -->
