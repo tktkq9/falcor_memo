@@ -30,7 +30,8 @@ mRangeIndexとmArrayIndexの二つのメンバ変数があるが、ヘッダー�
 UniformShaderVarOffsetとResourceShaderVarOffsetが合わさったもの  
 
 ### TypedShaderVarOffset
-ShaderVarOffsetと後述するReflectionType
+ShaderVarOffsetと後述するReflectionTypeが合わさったもの  
+
 
 
  参照：# GLSL-to-HLSL reference  
@@ -53,7 +54,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMzU2NjA3NCw2NzY1ODU0MjksNjczND
+eyJoaXN0b3J5IjpbLTg3ODU0MjE4LDE2MDM1NjYwNzQsNjczND
 E1MDgyLDE1MDU1ODU4NTUsLTU0MTUzOTQyMCw2MDUyMTU3NTks
 OTE2MjY0NzMyLDkwNzc4Mjg2NywtMjM0MzQzODM2LDE2NTQ1Mj
 I2MDRdfQ==
