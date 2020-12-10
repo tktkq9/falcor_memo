@@ -22,13 +22,15 @@ TODO   読む
  uniform shader variableはOpenGLシェーダーのuniformのことで、dx12ではコンスタントバッファーに対応する  
 
 ### ResourceShaderVarOffset
-シェーダーリソース用のバイトオフセットクラス  
+シェーダーリソース用のオフセットクラス  
 実装はUniformShaderVarOffsetとほぼ変わらず  
 mRangeIndexとmArrayIndexの二つのメンバ変数があるが、ヘッダーにも書いてある通り、レジスターなどと対応関係があるわけではないらしいのでこの値を直接操作してはいけない  
 
 ### ShaderVarOffset
 UniformShaderVarOffsetとResourceShaderVarOffsetが合わさったもの  
-  
+
+### TypedShaderVarOffset
+
 
 
  参照：# GLSL-to-HLSL reference  
@@ -51,7 +53,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjYxMDAxMzYsMTUwNTU4NTg1NSwtNT
-QxNTM5NDIwLDYwNTIxNTc1OSw5MTYyNjQ3MzIsOTA3NzgyODY3
-LC0yMzQzNDM4MzYsMTY1NDUyMjYwNF19
+eyJoaXN0b3J5IjpbNjczNDE1MDgyLDE1MDU1ODU4NTUsLTU0MT
+UzOTQyMCw2MDUyMTU3NTksOTE2MjY0NzMyLDkwNzc4Mjg2Nywt
+MjM0MzQzODM2LDE2NTQ1MjI2MDRdfQ==
 -->
