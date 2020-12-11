@@ -46,7 +46,7 @@ ShaderVarOffsetと後述するReflectionTypeが合わさったもの
 ### ReflectionType
 KindはGLSL準拠  
 https://www.khronos.org/opengl/wiki/Data_Type_(GLSL)  
-
+Kindに対応する
 
  参照：# GLSL-to-HLSL reference  
  https://docs.microsoft.com/ja-jp/windows/uwp/gaming/glsl-to-hlsl-reference
@@ -68,9 +68,9 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTMxMDA1MSwtMTAzNzA4MTg2OSwtNT
-AzMTAzNTA5LC03OTM0NjgyMCwxNjAzNTY2MDc0LDY3MzQxNTA4
-MiwxNTA1NTg1ODU1LC01NDE1Mzk0MjAsNjA1MjE1NzU5LDkxNj
-I2NDczMiw5MDc3ODI4NjcsLTIzNDM0MzgzNiwxNjU0NTIyNjA0
-XX0=
+eyJoaXN0b3J5IjpbLTEzODkxNDk1MTgsMjAyNTMxMDA1MSwtMT
+AzNzA4MTg2OSwtNTAzMTAzNTA5LC03OTM0NjgyMCwxNjAzNTY2
+MDc0LDY3MzQxNTA4MiwxNTA1NTg1ODU1LC01NDE1Mzk0MjAsNj
+A1MjE1NzU5LDkxNjI2NDczMiw5MDc3ODI4NjcsLTIzNDM0Mzgz
+NiwxNjU0NTIyNjA0XX0=
 -->
