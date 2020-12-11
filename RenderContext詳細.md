@@ -46,9 +46,13 @@ ShaderVarOffsetと後述するReflectionTypeが合わさったもの
 ### ReflectionType
 KindはGLSL準拠  
 https://www.khronos.org/opengl/wiki/Data_Type_(GLSL)  
-Kindに対応する、（このあと示す）Typeクラスのベースクラスであり、それぞれのTypeクラスを取得する関数が実装されている  
+Kindに対応する、Typeクラス（このあと示す）のベースクラスであり、それぞれのTypeクラスを取得する関数が実装されている  
 
-### 
+### ReflectionArrayType
+### ReflectionBasicType
+### ReflectionStructType
+### ReflectionResourceType
+### ReflectionInterfaceType
 
  参照：# GLSL-to-HLSL reference  
  https://docs.microsoft.com/ja-jp/windows/uwp/gaming/glsl-to-hlsl-reference
@@ -70,9 +74,9 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDcxNjA4MTYsMTU4MTM5OTE3MSwyMD
-I1MzEwMDUxLC0xMDM3MDgxODY5LC01MDMxMDM1MDksLTc5MzQ2
-ODIwLDE2MDM1NjYwNzQsNjczNDE1MDgyLDE1MDU1ODU4NTUsLT
-U0MTUzOTQyMCw2MDUyMTU3NTksOTE2MjY0NzMyLDkwNzc4Mjg2
-NywtMjM0MzQzODM2LDE2NTQ1MjI2MDRdfQ==
+eyJoaXN0b3J5IjpbNzczOTkxMzk2LDE1ODEzOTkxNzEsMjAyNT
+MxMDA1MSwtMTAzNzA4MTg2OSwtNTAzMTAzNTA5LC03OTM0Njgy
+MCwxNjAzNTY2MDc0LDY3MzQxNTA4MiwxNTA1NTg1ODU1LC01ND
+E1Mzk0MjAsNjA1MjE1NzU5LDkxNjI2NDczMiw5MDc3ODI4Njcs
+LTIzNDM0MzgzNiwxNjU0NTIyNjA0XX0=
 -->
