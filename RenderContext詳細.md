@@ -47,7 +47,9 @@ ShaderVarOffsetと後述するReflectionTypeが合わさったもの
 KindはGLSL準拠  
 https://www.khronos.org/opengl/wiki/Data_Type_(GLSL)  
 Kindに対応する、Typeクラス（このあと示す）のベースクラスであり、それぞれのTypeクラスとそのサイズを取得する関数が実装されている  
-またResourceRangeというstructがあり、各々のタイプのディスクリプターとその大きさが格納されているようだが、ヘッダーコメントにもあるように、この情報はParameterBlockから取得したほうがいいらしい  
+あと
+
+またResourceRangeというstructがあり、各々のタイプのディスクリプターとその大きさが格納されているようだが、ヘッダーコメントにもあるように、その情報はParameterBlockから取得したほうがいいらしい  
 
 
 ### ReflectionArrayType
@@ -76,9 +78,9 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTA0NzI3MDcsNjQxODYwMDg2LDE1OD
-EzOTkxNzEsMjAyNTMxMDA1MSwtMTAzNzA4MTg2OSwtNTAzMTAz
-NTA5LC03OTM0NjgyMCwxNjAzNTY2MDc0LDY3MzQxNTA4MiwxNT
-A1NTg1ODU1LC01NDE1Mzk0MjAsNjA1MjE1NzU5LDkxNjI2NDcz
-Miw5MDc3ODI4NjcsLTIzNDM0MzgzNiwxNjU0NTIyNjA0XX0=
+eyJoaXN0b3J5IjpbLTIzNzE5MTIzNSw2NDE4NjAwODYsMTU4MT
+M5OTE3MSwyMDI1MzEwMDUxLC0xMDM3MDgxODY5LC01MDMxMDM1
+MDksLTc5MzQ2ODIwLDE2MDM1NjYwNzQsNjczNDE1MDgyLDE1MD
+U1ODU4NTUsLTU0MTUzOTQyMCw2MDUyMTU3NTksOTE2MjY0NzMy
+LDkwNzc4Mjg2NywtMjM0MzQzODM2LDE2NTQ1MjI2MDRdfQ==
 -->
