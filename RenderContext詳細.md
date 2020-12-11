@@ -17,6 +17,11 @@ TODO   読む
 ## ShaderVar.h, cpp
  
 ## ProgramReflection.h, cpp
+
+各クラスやその変数名などはGLSL準拠になっている  
+ 参照：# GLSL-to-HLSL reference  
+ https://docs.microsoft.com/ja-jp/windows/uwp/gaming/glsl-to-hlsl-reference
+
 ### UniformShaderVarOffset
 コンスタントバッファー用のバイトオフセット値管理クラス  
  uniform shader variableはOpenGLシェーダーのuniformのことで、dx12ではコンスタントバッファーに対応する  
@@ -58,8 +63,6 @@ Kindに対応する、Typeクラス（このあと示す）のベースクラス
 ### ReflectionResourceType
 ### ReflectionInterfaceType
 
- 参照：# GLSL-to-HLSL reference  
- https://docs.microsoft.com/ja-jp/windows/uwp/gaming/glsl-to-hlsl-reference
 
 ## ComputeContext.h, cpp
 TODO    D3D12ComputeContextを読む  
@@ -78,7 +81,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEzMjQ5NDMzLDY0MTg2MDA4NiwxNTgxMz
+eyJoaXN0b3J5IjpbNDUyMzcyNDg4LDY0MTg2MDA4NiwxNTgxMz
 k5MTcxLDIwMjUzMTAwNTEsLTEwMzcwODE4NjksLTUwMzEwMzUw
 OSwtNzkzNDY4MjAsMTYwMzU2NjA3NCw2NzM0MTUwODIsMTUwNT
 U4NTg1NSwtNTQxNTM5NDIwLDYwNTIxNTc1OSw5MTYyNjQ3MzIs
