@@ -59,8 +59,10 @@ Kindに対応する、Typeクラス（このあと示す）のベースクラス
 ReflectionTypeのサブクラスの配列タイプ  
 配列のサイズやストライドを保持する  
 
-### ReflectionBasicType
 ### ReflectionStructType
+
+### ReflectionBasicType
+
 ### ReflectionResourceType
 ### ReflectionInterfaceType
 
@@ -82,7 +84,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODc5NTQyNzksNDAyMzgxNDY2LC0xMT
+eyJoaXN0b3J5IjpbLTEwNDE5MjE2MjUsNDAyMzgxNDY2LC0xMT
 M0NzY5NjUyLDQ1MjM3MjQ4OCw2NDE4NjAwODYsMTU4MTM5OTE3
 MSwyMDI1MzEwMDUxLC0xMDM3MDgxODY5LC01MDMxMDM1MDksLT
 c5MzQ2ODIwLDE2MDM1NjYwNzQsNjczNDE1MDgyLDE1MDU1ODU4
