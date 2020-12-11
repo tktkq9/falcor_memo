@@ -56,7 +56,8 @@ Kindに対応する、Typeクラス（このあと示す）のベースクラス
 またResourceRangeというstructがあり、各々のタイプに対するリソースの大きさが格納されているようだが、ヘッダーコメントにもあるように、その情報はParameterBlockから取得したほうがいいらしい  
 
 ### ReflectionArrayType
-い
+ReflectionTypeのサブクラスの配列タイプ  
+配列のサイズやストライドを保持する  
 
 ### ReflectionBasicType
 ### ReflectionStructType
@@ -81,10 +82,10 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAyMzgxNDY2LDU2MTYxOTUxNCwtMTEzND
-c2OTY1Miw0NTIzNzI0ODgsNjQxODYwMDg2LDE1ODEzOTkxNzEs
-MjAyNTMxMDA1MSwtMTAzNzA4MTg2OSwtNTAzMTAzNTA5LC03OT
-M0NjgyMCwxNjAzNTY2MDc0LDY3MzQxNTA4MiwxNTA1NTg1ODU1
-LC01NDE1Mzk0MjAsNjA1MjE1NzU5LDkxNjI2NDczMiw5MDc3OD
-I4NjcsLTIzNDM0MzgzNiwxNjU0NTIyNjA0XX0=
+eyJoaXN0b3J5IjpbLTExODc5NTQyNzksNDAyMzgxNDY2LC0xMT
+M0NzY5NjUyLDQ1MjM3MjQ4OCw2NDE4NjAwODYsMTU4MTM5OTE3
+MSwyMDI1MzEwMDUxLC0xMDM3MDgxODY5LC01MDMxMDM1MDksLT
+c5MzQ2ODIwLDE2MDM1NjYwNzQsNjczNDE1MDgyLDE1MDU1ODU4
+NTUsLTU0MTUzOTQyMCw2MDUyMTU3NTksOTE2MjY0NzMyLDkwNz
+c4Mjg2NywtMjM0MzQzODM2LDE2NTQ1MjI2MDRdfQ==
 -->
