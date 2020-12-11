@@ -44,7 +44,9 @@ ShaderVarOffsetと後述するReflectionTypeが合わさったもの
     For example, in the above code `lightPosOffset` would be the offset of the  field `light.position` relative to the enclosing type `pSomeType` and *not*  the offset of the `position` field relative to the immediately enclosing `light` field.
 
 ### ReflectionType
-Kin
+KindはGLSL準拠  
+https://www.khronos.org/opengl/wiki/Data_Type_(GLSL)  
+
 
  参照：# GLSL-to-HLSL reference  
  https://docs.microsoft.com/ja-jp/windows/uwp/gaming/glsl-to-hlsl-reference
@@ -66,8 +68,9 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzcwODE4NjksLTUwMzEwMzUwOSwtNz
-kzNDY4MjAsMTYwMzU2NjA3NCw2NzM0MTUwODIsMTUwNTU4NTg1
-NSwtNTQxNTM5NDIwLDYwNTIxNTc1OSw5MTYyNjQ3MzIsOTA3Nz
-gyODY3LC0yMzQzNDM4MzYsMTY1NDUyMjYwNF19
+eyJoaXN0b3J5IjpbMjAyNTMxMDA1MSwtMTAzNzA4MTg2OSwtNT
+AzMTAzNTA5LC03OTM0NjgyMCwxNjAzNTY2MDc0LDY3MzQxNTA4
+MiwxNTA1NTg1ODU1LC01NDE1Mzk0MjAsNjA1MjE1NzU5LDkxNj
+I2NDczMiw5MDc3ODI4NjcsLTIzNDM0MzgzNiwxNjU0NTIyNjA0
+XX0=
 -->
