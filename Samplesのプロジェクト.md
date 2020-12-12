@@ -27,7 +27,7 @@ Sampleクラスが用意した、描画に関するリソースやらコマン�
 
     pRenderContext->clearFbo(pTargetFbo.get(), clearColor, 1.0f, 0, FboAttachmentType::All);
     
-   によってレンダーターゲットをクリアしている
+   によってレンダーターゲットをクリアしているだけ  
 
 ## ShaderToy
 
@@ -37,7 +37,8 @@ Sampleクラスが用意した、描画に関するリソースやらコマン�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxODQzNDUwOCwxMDYwMzM2MDk5LC0xND
-c0NzAwMjIsLTE2NDQ1NDcwNTgsLTE1ODY2OTQ0NDksMTc3ODkx
-OTU5NywzMDIyMDU4ODcsOTQ2NDc4MjkzLDc1NjU3Mjc4OV19
+eyJoaXN0b3J5IjpbODI0NTcwMTczLDEwMTg0MzQ1MDgsMTA2MD
+MzNjA5OSwtMTQ3NDcwMDIyLC0xNjQ0NTQ3MDU4LC0xNTg2Njk0
+NDQ5LDE3Nzg5MTk1OTcsMzAyMjA1ODg3LDk0NjQ3ODI5Myw3NT
+Y1NzI3ODldfQ==
 -->
