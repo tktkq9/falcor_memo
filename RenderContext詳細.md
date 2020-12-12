@@ -104,6 +104,8 @@ Defineを追加、削除、設定し、更新処理も行う
 DXRのシェーダーのDefineを管理するクラス  
 Programを継承している  
 
+## Shader.h, cpp
+シェーダー本体  
 
 ## ComputeContext.h, cpp
 TODO    D3D12ComputeContextを読む  
@@ -122,7 +124,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDczMzQyNDA1LDE1ODUxMDQ1NzAsLTE0ND
+eyJoaXN0b3J5IjpbNzEwNjYzODcyLDE1ODUxMDQ1NzAsLTE0ND
 A3NjU2MjUsNDI1MzQ4NDU5LC0xMzIxNjY4NTk2LDMxMzY2MDIz
 NSwtMTEwNjM2Nzc0NSwxOTk3OTc1MTQ3LC0yMTA3OTE5ODk2LC
 04MTg1MDE5NTgsLTExMTgwMTMxMDMsOTk1MDY0MTA5LDIwNjI0
