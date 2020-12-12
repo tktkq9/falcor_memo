@@ -65,9 +65,10 @@ ReflectionVar（名前を持ったReflectionTypeとShaderVarOffsetのセット�
 
 ### ReflectionBasicType
 bool, int, floatとそのベクターに関するタイプ  
-
+RowMajorかどうかの情報も設定できる  
 
 ### ReflectionResourceType
+
 ### ReflectionInterfaceType
 
 ### ReflectionVar
@@ -93,11 +94,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYyMDEyMzYyLC03NTE1NTc1ODIsMTk1Mz
-c1MjEyNCw5Nzc2NTU0NzcsMTA0ODg5NTQ4MCwtMTA0MTkyMTYy
-NSw0MDIzODE0NjYsLTExMzQ3Njk2NTIsNDUyMzcyNDg4LDY0MT
-g2MDA4NiwxNTgxMzk5MTcxLDIwMjUzMTAwNTEsLTEwMzcwODE4
-NjksLTUwMzEwMzUwOSwtNzkzNDY4MjAsMTYwMzU2NjA3NCw2Nz
-M0MTUwODIsMTUwNTU4NTg1NSwtNTQxNTM5NDIwLDYwNTIxNTc1
-OV19
+eyJoaXN0b3J5IjpbMTQyMjk4OTgwNiwtNzUxNTU3NTgyLDE5NT
+M3NTIxMjQsOTc3NjU1NDc3LDEwNDg4OTU0ODAsLTEwNDE5MjE2
+MjUsNDAyMzgxNDY2LC0xMTM0NzY5NjUyLDQ1MjM3MjQ4OCw2ND
+E4NjAwODYsMTU4MTM5OTE3MSwyMDI1MzEwMDUxLC0xMDM3MDgx
+ODY5LC01MDMxMDM1MDksLTc5MzQ2ODIwLDE2MDM1NjYwNzQsNj
+czNDE1MDgyLDE1MDU1ODU4NTUsLTU0MTUzOTQyMCw2MDUyMTU3
+NTldfQ==
 -->
