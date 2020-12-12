@@ -22,7 +22,12 @@ ProjectTemplateを作成し、Sample;;run()に渡してSampleクラスを作成
 終了処理も全部やってくれる  
 
 onFrameRender()はmsgloop()で呼ばれる描画関数  
-Sampleクラスが用意した描画に関するリソースやらコマンドリスト実行やらを管理するRenderContextクラス
+Sampleクラスが用意した、描画に関するリソースやらコマンドリスト実行やらを管理するRenderContextクラスが渡されるので、これに実行したコマンドなどを入れて描画設定を行う  
+このプロジェクトでは
+
+    pRenderContext->clearFbo(pTargetFbo.get(), clearColor, 1.0f, 0, FboAttachmentType::All);
+    
+   によってレンダーターゲットをクリアしている
 
 ## ShaderToy
 
@@ -32,7 +37,7 @@ Sampleクラスが用意した描画に関するリソースやらコマンド�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NTIwMzQwMywxMDYwMzM2MDk5LC0xND
+eyJoaXN0b3J5IjpbMTAxODQzNDUwOCwxMDYwMzM2MDk5LC0xND
 c0NzAwMjIsLTE2NDQ1NDcwNTgsLTE1ODY2OTQ0NDksMTc3ODkx
 OTU5NywzMDIyMDU4ODcsOTQ2NDc4MjkzLDc1NjU3Mjc4OV19
 -->
