@@ -57,7 +57,7 @@ Kindに対応する、Typeクラス（このあと示す）のベースクラス
 
 ### ReflectionArrayType
 ReflectionTypeのサブクラスの配列タイプ  
-ReflectionTypeの配列と、サイズやストライドを保持する  
+ReflectionTypeの配列とサイズやストライドを保持する  
 
 ### ReflectionStructType
 ReflectionTypeのサブクラスのstructタイプ  
@@ -108,11 +108,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQ3Njk0OTUsLTExMTgwMTMxMDMsOT
-k1MDY0MTA5LDIwNjI0OTE3NTAsLTk2MjIwNzQ4OCwtNzUxNTU3
-NTgyLDE5NTM3NTIxMjQsOTc3NjU1NDc3LDEwNDg4OTU0ODAsLT
-EwNDE5MjE2MjUsNDAyMzgxNDY2LC0xMTM0NzY5NjUyLDQ1MjM3
-MjQ4OCw2NDE4NjAwODYsMTU4MTM5OTE3MSwyMDI1MzEwMDUxLC
-0xMDM3MDgxODY5LC01MDMxMDM1MDksLTc5MzQ2ODIwLDE2MDM1
-NjYwNzRdfQ==
+eyJoaXN0b3J5IjpbLTgxODUwMTk1OCwtMTExODAxMzEwMyw5OT
+UwNjQxMDksMjA2MjQ5MTc1MCwtOTYyMjA3NDg4LC03NTE1NTc1
+ODIsMTk1Mzc1MjEyNCw5Nzc2NTU0NzcsMTA0ODg5NTQ4MCwtMT
+A0MTkyMTYyNSw0MDIzODE0NjYsLTExMzQ3Njk2NTIsNDUyMzcy
+NDg4LDY0MTg2MDA4NiwxNTgxMzk5MTcxLDIwMjUzMTAwNTEsLT
+EwMzcwODE4NjksLTUwMzEwMzUwOSwtNzkzNDY4MjAsMTYwMzU2
+NjA3NF19
 -->
