@@ -61,7 +61,7 @@ ReflectionTypeのサブクラスの配列タイプ
 
 ### ReflectionStructType
 ReflectionTypeのサブクラスのstructタイプ  
-ReflectionVar（名前を持ったReflectionTypeとShaderVarOffsetのセット）による名前付きのstructを形成する  
+ReflectionVar（名前を持ったReflectionTypeとShaderVarOffsetのセット）をメンバ変数にもつ名前付きstructを形成する  
 
 ### ReflectionBasicType
 
@@ -90,11 +90,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc3NjU1NDc3LDEwNDg4OTU0ODAsLTEwND
-E5MjE2MjUsNDAyMzgxNDY2LC0xMTM0NzY5NjUyLDQ1MjM3MjQ4
-OCw2NDE4NjAwODYsMTU4MTM5OTE3MSwyMDI1MzEwMDUxLC0xMD
-M3MDgxODY5LC01MDMxMDM1MDksLTc5MzQ2ODIwLDE2MDM1NjYw
-NzQsNjczNDE1MDgyLDE1MDU1ODU4NTUsLTU0MTUzOTQyMCw2MD
-UyMTU3NTksOTE2MjY0NzMyLDkwNzc4Mjg2NywtMjM0MzQzODM2
-XX0=
+eyJoaXN0b3J5IjpbLTExMjIxNDk5NTEsOTc3NjU1NDc3LDEwND
+g4OTU0ODAsLTEwNDE5MjE2MjUsNDAyMzgxNDY2LC0xMTM0NzY5
+NjUyLDQ1MjM3MjQ4OCw2NDE4NjAwODYsMTU4MTM5OTE3MSwyMD
+I1MzEwMDUxLC0xMDM3MDgxODY5LC01MDMxMDM1MDksLTc5MzQ2
+ODIwLDE2MDM1NjYwNzQsNjczNDE1MDgyLDE1MDU1ODU4NTUsLT
+U0MTUzOTQyMCw2MDUyMTU3NTksOTE2MjY0NzMyLDkwNzc4Mjg2
+N119
 -->
