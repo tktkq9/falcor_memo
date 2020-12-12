@@ -65,7 +65,7 @@ ReflectionVar（名前を持ったReflectionTypeとShaderVarOffsetのセット�
 
 ### ReflectionBasicType
 bool, int, floatとそのベクターに関するタイプ  
-RowMajorかどうかの情報も設定できる  
+RowMajorかどうかも設定できる  
 
 ### ReflectionResourceType
 
@@ -95,7 +95,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MjIwNzQ4OCwxNDIyOTg5ODA2LC03NT
+eyJoaXN0b3J5IjpbMjA2MjQ5MTc1MCwtOTYyMjA3NDg4LC03NT
 E1NTc1ODIsMTk1Mzc1MjEyNCw5Nzc2NTU0NzcsMTA0ODg5NTQ4
 MCwtMTA0MTkyMTYyNSw0MDIzODE0NjYsLTExMzQ3Njk2NTIsND
 UyMzcyNDg4LDY0MTg2MDA4NiwxNTgxMzk5MTcxLDIwMjUzMTAw
