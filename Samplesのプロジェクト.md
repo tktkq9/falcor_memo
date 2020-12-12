@@ -13,6 +13,10 @@ IRendererを継承したクラス（と使うシェーダー）のみを作成�
 参考文献：[NVIDIA Falcor を使ってみる](https://shikihuiku.github.io/post/falcor_getting_started/  )
 
 ## ProjectTemplate
+クリアしたレンダーターゲットを描画するだけ  
+WinMain()とonFrameRender()の実装のみ  
+
+WinMain()はこのプロジェクトのエントリー関数  
 
 
 ## ShaderToy
@@ -23,7 +27,7 @@ IRendererを継承したクラス（と使うシェーダー）のみを作成�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzQ3MDAyMiwtMTY0NDU0NzA1OCwtMT
-U4NjY5NDQ0OSwxNzc4OTE5NTk3LDMwMjIwNTg4Nyw5NDY0Nzgy
-OTMsNzU2NTcyNzg5XX0=
+eyJoaXN0b3J5IjpbLTM2MzU3OTc2MiwtMTQ3NDcwMDIyLC0xNj
+Q0NTQ3MDU4LC0xNTg2Njk0NDQ5LDE3Nzg5MTk1OTcsMzAyMjA1
+ODg3LDk0NjQ3ODI5Myw3NTY1NzI3ODldfQ==
 -->
