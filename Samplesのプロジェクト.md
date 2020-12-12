@@ -39,7 +39,8 @@ WinMain()とonLoad()とonFrameRender()の実装のみ
 その他にも実装されているように見えるが実際は何もやってないに等しいので無視していい（はず）  
 
 onLoad()はmsgLoop()前の初期化中に呼ばれる  
-RasterizerState, DepthStencilState, BlendState, Samplerを作成しているが
+RasterizerState, DepthStencilState, BlendState, Samplerを作成しているがこれも意味なし（消しても動いた。おそらくこれをもとに拡張するときに必要なら使う用）  
+
 
 
 
@@ -50,9 +51,9 @@ RasterizerState, DepthStencilState, BlendState, Samplerを作成しているが
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjIzMDcyMTIsLTEwOTU1NTYzMDMsLT
-EwMTc5OTI5MzksLTEyOTc4MjY3Myw4MjQ1NzAxNzMsMTA2MDMz
-NjA5OSwtMTQ3NDcwMDIyLC0xNjQ0NTQ3MDU4LC0xNTg2Njk0ND
-Q5LDE3Nzg5MTk1OTcsMzAyMjA1ODg3LDk0NjQ3ODI5Myw3NTY1
-NzI3ODldfQ==
+eyJoaXN0b3J5IjpbLTc1MTQyNTg2NSwtMTA5NTU1NjMwMywtMT
+AxNzk5MjkzOSwtMTI5NzgyNjczLDgyNDU3MDE3MywxMDYwMzM2
+MDk5LC0xNDc0NzAwMjIsLTE2NDQ1NDcwNTgsLTE1ODY2OTQ0ND
+ksMTc3ODkxOTU5NywzMDIyMDU4ODcsOTQ2NDc4MjkzLDc1NjU3
+Mjc4OV19
 -->
