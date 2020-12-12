@@ -51,7 +51,7 @@ onFrameRender()ではmpMainPassを使って描画
         float iGlobalTime;
     };
 設定したあとmpMainPass->execute(pRenderContext, pTargetFbo);によって描画処理  
-内部ではmpMainPassで設定した内容をpRenderContextに渡して、pRenderContextでコマンドリストの設定と実行を行っている  
+（内部ではmpMainPassで設定した内容をpRenderContextに渡して、pRenderContextでコマンドリストの設定と実行を行っている）  
 
 ### Toy.ps.slang
 ShaderToyプロジェクトのピクセルシェーダー  
@@ -69,9 +69,9 @@ TODO : slangのお勉強
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NjQ4MTEwNCwtMzY1MTkyMiwtMTA5NT
-U1NjMwMywtMTAxNzk5MjkzOSwtMTI5NzgyNjczLDgyNDU3MDE3
-MywxMDYwMzM2MDk5LC0xNDc0NzAwMjIsLTE2NDQ1NDcwNTgsLT
-E1ODY2OTQ0NDksMTc3ODkxOTU5NywzMDIyMDU4ODcsOTQ2NDc4
-MjkzLDc1NjU3Mjc4OV19
+eyJoaXN0b3J5IjpbLTE3MTAyOTQyNzEsLTM2NTE5MjIsLTEwOT
+U1NTYzMDMsLTEwMTc5OTI5MzksLTEyOTc4MjY3Myw4MjQ1NzAx
+NzMsMTA2MDMzNjA5OSwtMTQ3NDcwMDIyLC0xNjQ0NTQ3MDU4LC
+0xNTg2Njk0NDQ5LDE3Nzg5MTk1OTcsMzAyMjA1ODg3LDk0NjQ3
+ODI5Myw3NTY1NzI3ODldfQ==
 -->
