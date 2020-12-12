@@ -18,7 +18,7 @@ WinMain()とonFrameRender()の実装のみ
 
 WinMain()はこのプロジェクトのエントリー関数  
 ProjectTemplateを作成し、Sample;;run()に渡してSampleクラスを作成  
-これだけでSampleクラスが描画に必要なdx12系初期化やその他初期化をして、msgloop()によってon...()を実行し続けながら
+これだけでSampleクラスが描画に必要なdx12系初期化やその他初期化をして、msgloop()によってon...()を実行し続け
 
 ## ShaderToy
 
@@ -28,7 +28,7 @@ ProjectTemplateを作成し、Sample;;run()に渡してSampleクラスを作成
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE4Nzg0NTU3LC0xNDc0NzAwMjIsLTE2ND
-Q1NDcwNTgsLTE1ODY2OTQ0NDksMTc3ODkxOTU5NywzMDIyMDU4
-ODcsOTQ2NDc4MjkzLDc1NjU3Mjc4OV19
+eyJoaXN0b3J5IjpbLTE0NzQ1NjQ4ODIsMjE4Nzg0NTU3LC0xND
+c0NzAwMjIsLTE2NDQ1NDcwNTgsLTE1ODY2OTQ0NDksMTc3ODkx
+OTU5NywzMDIyMDU4ODcsOTQ2NDc4MjkzLDc1NjU3Mjc4OV19
 -->
