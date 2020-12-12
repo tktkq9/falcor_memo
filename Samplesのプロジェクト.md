@@ -43,6 +43,13 @@ FullScreenPassという多分ピクセルシェーダーだけ表示する用レ
 RasterizerState, DepthStencilState, BlendState, Samplerを作成しているがこれは意味なし（消しても動いた。おそらくこれをもとに拡張するときに必要なら使う用）  
 
 onFrameRender()ではmpMainPassを使って描画  
+コードにあるようにシェーダーに対応する構造体と変数をstingで指定することによってシェーダー変数を設定できる  
+
+    cbuffer ToyCB
+    {
+        float2 iResolution;
+        float iGlobalTime;
+    };
 
 
 ### Toy.ps.slang
@@ -61,9 +68,9 @@ TODO : slangのお勉強
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzkxNDk1ODEsLTM2NTE5MjIsLTEwOT
-U1NTYzMDMsLTEwMTc5OTI5MzksLTEyOTc4MjY3Myw4MjQ1NzAx
-NzMsMTA2MDMzNjA5OSwtMTQ3NDcwMDIyLC0xNjQ0NTQ3MDU4LC
-0xNTg2Njk0NDQ5LDE3Nzg5MTk1OTcsMzAyMjA1ODg3LDk0NjQ3
-ODI5Myw3NTY1NzI3ODldfQ==
+eyJoaXN0b3J5IjpbNTk3OTEyODA4LC0zNjUxOTIyLC0xMDk1NT
+U2MzAzLC0xMDE3OTkyOTM5LC0xMjk3ODI2NzMsODI0NTcwMTcz
+LDEwNjAzMzYwOTksLTE0NzQ3MDAyMiwtMTY0NDU0NzA1OCwtMT
+U4NjY5NDQ0OSwxNzc4OTE5NTk3LDMwMjIwNTg4Nyw5NDY0Nzgy
+OTMsNzU2NTcyNzg5XX0=
 -->
