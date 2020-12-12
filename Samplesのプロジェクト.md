@@ -42,6 +42,8 @@ onLoad()はmsgLoop()前の初期化中に呼ばれる
 
 RasterizerState, DepthStencilState, BlendState, Samplerを作成しているがこれは意味なし（消しても動いた。おそらくこれをもとに拡張するときに必要なら使う用）  
 
+### Toy.ps.slang
+ShaderToyプロジェクトのピクセルシェーダー  
 
 
 ### FullScreenPass.h, cpp
@@ -54,7 +56,7 @@ RasterizerState, DepthStencilState, BlendState, Samplerを作成しているが�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTA2MDU4MzYsLTEwOTU1NTYzMDMsLT
+eyJoaXN0b3J5IjpbLTE2OTQ1OTM5MjUsLTEwOTU1NTYzMDMsLT
 EwMTc5OTI5MzksLTEyOTc4MjY3Myw4MjQ1NzAxNzMsMTA2MDMz
 NjA5OSwtMTQ3NDcwMDIyLC0xNjQ0NTQ3MDU4LC0xNTg2Njk0ND
 Q5LDE3Nzg5MTk1OTcsMzAyMjA1ODg3LDk0NjQ3ODI5Myw3NTY1
