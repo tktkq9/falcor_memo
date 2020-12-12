@@ -7,6 +7,9 @@ IRendererを継承したクラス（と使うシェーダー）のみを作成�
 
 参考文献：[NVIDIA Falcor を使ってみる](https://shikihuiku.github.io/post/falcor_getting_started/  )
 
+あと、このテンプレート実装をもとにした、DXRチュートリアルがあるのでそちらも参考になるかも  
+
+
 ## ProjectTemplate
 
 
@@ -16,6 +19,6 @@ IRendererを継承したクラス（と使うシェーダー）のみを作成�
 
 ## HelloDXR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3ODkxOTU5NywzMDIyMDU4ODcsOTQ2ND
-c4MjkzLDc1NjU3Mjc4OV19
+eyJoaXN0b3J5IjpbNjc1MTAzMzIzLDE3Nzg5MTk1OTcsMzAyMj
+A1ODg3LDk0NjQ3ODI5Myw3NTY1NzI3ODldfQ==
 -->
