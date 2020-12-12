@@ -55,6 +55,7 @@ onFrameRender()ではmpMainPassを使って描画
 
 ### Toy.ps.slang
 ShaderToyプロジェクトのピクセルシェーダー  
+
 slangは [HLSL ベースの新しいシェーダ言語](http://masafumi.cocolog-nifty.com/masafumis_diary/2018/11/hlsl-slang-8752.html)  
 TODO : slangのお勉強  
 
@@ -69,9 +70,9 @@ TODO : slangのお勉強
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODUwMjI3NywtMzY1MTkyMiwtMTA5NT
-U1NjMwMywtMTAxNzk5MjkzOSwtMTI5NzgyNjczLDgyNDU3MDE3
-MywxMDYwMzM2MDk5LC0xNDc0NzAwMjIsLTE2NDQ1NDcwNTgsLT
-E1ODY2OTQ0NDksMTc3ODkxOTU5NywzMDIyMDU4ODcsOTQ2NDc4
-MjkzLDc1NjU3Mjc4OV19
+eyJoaXN0b3J5IjpbLTE4NTc3MzMxNzEsLTgzODUwMjI3NywtMz
+Y1MTkyMiwtMTA5NTU1NjMwMywtMTAxNzk5MjkzOSwtMTI5Nzgy
+NjczLDgyNDU3MDE3MywxMDYwMzM2MDk5LC0xNDc0NzAwMjIsLT
+E2NDQ1NDcwNTgsLTE1ODY2OTQ0NDksMTc3ODkxOTU5NywzMDIy
+MDU4ODcsOTQ2NDc4MjkzLDc1NjU3Mjc4OV19
 -->
