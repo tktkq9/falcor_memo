@@ -17,7 +17,7 @@ IRendererを継承したクラス（と使うシェーダー）のみを作成�
 WinMain()とonFrameRender()とonGuiRender()の実装のみ  
 
 WinMain()はこのSamples系プロジェクトのエントリー関数  
-ProjectTemplateを作成し、Sample;;run()に渡してSampleクラスを作成  
+ProjectTemplateとSampleConfig（）を作成し、Sample;;run()に渡してSampleクラスを作成  
 これだけでSampleクラスが描画に必要なdx12系初期化やその他初期化をして、msgloop()によってon...()を実行し続けるようになる  
 終了処理も全部やってくれる  
 
@@ -44,8 +44,8 @@ imguiによって実装されており、渡されてくるGuiクラスはimgui�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzgxMzQ2MCw4MjQ1NzAxNzMsMTA2MD
-MzNjA5OSwtMTQ3NDcwMDIyLC0xNjQ0NTQ3MDU4LC0xNTg2Njk0
-NDQ5LDE3Nzg5MTk1OTcsMzAyMjA1ODg3LDk0NjQ3ODI5Myw3NT
-Y1NzI3ODldfQ==
+eyJoaXN0b3J5IjpbNzgxMzkxMzkzLDgyNDU3MDE3MywxMDYwMz
+M2MDk5LC0xNDc0NzAwMjIsLTE2NDQ1NDcwNTgsLTE1ODY2OTQ0
+NDksMTc3ODkxOTU5NywzMDIyMDU4ODcsOTQ2NDc4MjkzLDc1Nj
+U3Mjc4OV19
 -->
