@@ -38,7 +38,9 @@ imguiによって実装されており、渡されてくるGuiクラスはimgui�
 WinMain()とonLoad()とonFrameRender()の実装のみ  
 その他にも実装されているように見えるが実際は何もやってないに等しい（はず）  
 
-WinMain()は
+onLoad()はmsgLoop()前の初期化中に呼ばれる  
+
+
 
 
 
@@ -48,8 +50,8 @@ WinMain()は
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTc5OTI5MzksMTczNjM4NzU4MCwtMT
-I5NzgyNjczLDgyNDU3MDE3MywxMDYwMzM2MDk5LC0xNDc0NzAw
-MjIsLTE2NDQ1NDcwNTgsLTE1ODY2OTQ0NDksMTc3ODkxOTU5Ny
-wzMDIyMDU4ODcsOTQ2NDc4MjkzLDc1NjU3Mjc4OV19
+eyJoaXN0b3J5IjpbLTEwOTU1NTYzMDMsLTEwMTc5OTI5MzksLT
+EyOTc4MjY3Myw4MjQ1NzAxNzMsMTA2MDMzNjA5OSwtMTQ3NDcw
+MDIyLC0xNjQ0NTQ3MDU4LC0xNTg2Njk0NDQ5LDE3Nzg5MTk1OT
+csMzAyMjA1ODg3LDk0NjQ3ODI5Myw3NTY1NzI3ODldfQ==
 -->
