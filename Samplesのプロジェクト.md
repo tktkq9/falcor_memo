@@ -32,7 +32,7 @@ FboはFrameBuffaerObject。この名前はOpenGLで使われている名前で�
 
 onGuiRender()は実行すると左上にでるやつ  
 imguiのやつ  
-
+gpFramework->renderGlobalUI(pGui);が実行したときの「Click Here」の部分  
 
 ## ShaderToy
 
@@ -44,7 +44,7 @@ imguiのやつ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjE1OTYwMSw4MjQ1NzAxNzMsMTA2MD
+eyJoaXN0b3J5IjpbMTM4OTAyNzY4NCw4MjQ1NzAxNzMsMTA2MD
 MzNjA5OSwtMTQ3NDcwMDIyLC0xNjQ0NTQ3MDU4LC0xNTg2Njk0
 NDQ5LDE3Nzg5MTk1OTcsMzAyMjA1ODg3LDk0NjQ3ODI5Myw3NT
 Y1NzI3ODldfQ==
