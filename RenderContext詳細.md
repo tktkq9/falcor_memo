@@ -70,6 +70,7 @@ ReflectionVar（名前を持ったReflectionTypeとShaderVarOffsetのセット�
 
 ### ReflectionVar
 名前を持ったReflectionTypeとShaderVarOffsetのセット  
+だが、似たようなクラスTypedShaderVarOffsetを継承しているわけではない  
 TODO : TypedShaderVarOffsetとの使い分けはどうしているのか  
 
 
@@ -90,7 +91,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjIxNDk5NTEsOTc3NjU1NDc3LDEwND
+eyJoaXN0b3J5IjpbLTE2ODAwNzAxNTcsOTc3NjU1NDc3LDEwND
 g4OTU0ODAsLTEwNDE5MjE2MjUsNDAyMzgxNDY2LC0xMTM0NzY5
 NjUyLDQ1MjM3MjQ4OCw2NDE4NjAwODYsMTU4MTM5OTE3MSwyMD
 I1MzEwMDUxLC0xMDM3MDgxODY5LC01MDMxMDM1MDksLTc5MzQ2
