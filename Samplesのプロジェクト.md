@@ -45,7 +45,7 @@ RasterizerState, DepthStencilState, BlendState, Samplerを作成しているが�
 ### Toy.ps.slang
 ShaderToyプロジェクトのピクセルシェーダー  
 slangは [HLSL ベースの新しいシェーダ言語](http://masafumi.cocolog-nifty.com/masafumis_diary/2018/11/hlsl-slang-8752.html)  
-TODO : slangのお勉強
+TODO : slangのお勉強  
 
 
 ### FullScreenPass.h, cpp
@@ -58,9 +58,9 @@ TODO : slangのお勉強
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODMzMTMyOTgsLTE0MzA5MzUzMDEsLT
-EwOTU1NTYzMDMsLTEwMTc5OTI5MzksLTEyOTc4MjY3Myw4MjQ1
-NzAxNzMsMTA2MDMzNjA5OSwtMTQ3NDcwMDIyLC0xNjQ0NTQ3MD
-U4LC0xNTg2Njk0NDQ5LDE3Nzg5MTk1OTcsMzAyMjA1ODg3LDk0
-NjQ3ODI5Myw3NTY1NzI3ODldfQ==
+eyJoaXN0b3J5IjpbLTM2NTE5MjIsLTE3ODMzMTMyOTgsLTEwOT
+U1NTYzMDMsLTEwMTc5OTI5MzksLTEyOTc4MjY3Myw4MjQ1NzAx
+NzMsMTA2MDMzNjA5OSwtMTQ3NDcwMDIyLC0xNjQ0NTQ3MDU4LC
+0xNTg2Njk0NDQ5LDE3Nzg5MTk1OTcsMzAyMjA1ODg3LDk0NjQ3
+ODI5Myw3NTY1NzI3ODldfQ==
 -->
