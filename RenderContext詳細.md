@@ -96,12 +96,12 @@ TODO : TypedShaderVarOffsetとの使い分けはどうしているのか
 
 
 ## Program.h, cpp
-DXR以外のシェーダーのDefineを管理するクラス  
-Defineを追加、削除、設定し、更新処理も行う  
+DXR以外のシェーダーのマクロを管理するクラス  
+Define（マクロ）を追加、削除、設定し、更新処理も行う  
 また、Descからシェーダーの情報も取得できる  
 
 ## RtProgram.h, cpp
-DXRのシェーダーのDefineを管理するクラス  
+DXRのシェーダーのマクロを管理するクラス  
 Programを継承している  
 
 ## Shader.h, cpp
@@ -124,11 +124,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEwNjYzODcyLDE1ODUxMDQ1NzAsLTE0ND
-A3NjU2MjUsNDI1MzQ4NDU5LC0xMzIxNjY4NTk2LDMxMzY2MDIz
-NSwtMTEwNjM2Nzc0NSwxOTk3OTc1MTQ3LC0yMTA3OTE5ODk2LC
-04MTg1MDE5NTgsLTExMTgwMTMxMDMsOTk1MDY0MTA5LDIwNjI0
-OTE3NTAsLTk2MjIwNzQ4OCwtNzUxNTU3NTgyLDE5NTM3NTIxMj
-QsOTc3NjU1NDc3LDEwNDg4OTU0ODAsLTEwNDE5MjE2MjUsNDAy
-MzgxNDY2XX0=
+eyJoaXN0b3J5IjpbLTE5MTE5NjU5MDMsMTU4NTEwNDU3MCwtMT
+Q0MDc2NTYyNSw0MjUzNDg0NTksLTEzMjE2Njg1OTYsMzEzNjYw
+MjM1LC0xMTA2MzY3NzQ1LDE5OTc5NzUxNDcsLTIxMDc5MTk4OT
+YsLTgxODUwMTk1OCwtMTExODAxMzEwMyw5OTUwNjQxMDksMjA2
+MjQ5MTc1MCwtOTYyMjA3NDg4LC03NTE1NTc1ODIsMTk1Mzc1Mj
+EyNCw5Nzc2NTU0NzcsMTA0ODg5NTQ4MCwtMTA0MTkyMTYyNSw0
+MDIzODE0NjZdfQ==
 -->
