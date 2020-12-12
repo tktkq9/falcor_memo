@@ -70,7 +70,7 @@ ReflectionVar（名前を持ったReflectionTypeとShaderVarOffsetのセット�
 
 ### ReflectionVar
 名前を持ったReflectionTypeとShaderVarOffsetのセット  
-似たようなクラスTypedShaderVarOffsetを継承しているわけではない  
+似たようなクラスとしてTypedShaderVarOffsetがあるが、これを継承しているわけではない  
 TODO : TypedShaderVarOffsetとの使い分けはどうしているのか  
 
 
@@ -91,11 +91,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1Mzc1MjEyNCwtMTY4MDA3MDE1Nyw5Nz
-c2NTU0NzcsMTA0ODg5NTQ4MCwtMTA0MTkyMTYyNSw0MDIzODE0
-NjYsLTExMzQ3Njk2NTIsNDUyMzcyNDg4LDY0MTg2MDA4NiwxNT
-gxMzk5MTcxLDIwMjUzMTAwNTEsLTEwMzcwODE4NjksLTUwMzEw
-MzUwOSwtNzkzNDY4MjAsMTYwMzU2NjA3NCw2NzM0MTUwODIsMT
-UwNTU4NTg1NSwtNTQxNTM5NDIwLDYwNTIxNTc1OSw5MTYyNjQ3
-MzJdfQ==
+eyJoaXN0b3J5IjpbLTc1MTU1NzU4MiwxOTUzNzUyMTI0LDk3Nz
+Y1NTQ3NywxMDQ4ODk1NDgwLC0xMDQxOTIxNjI1LDQwMjM4MTQ2
+NiwtMTEzNDc2OTY1Miw0NTIzNzI0ODgsNjQxODYwMDg2LDE1OD
+EzOTkxNzEsMjAyNTMxMDA1MSwtMTAzNzA4MTg2OSwtNTAzMTAz
+NTA5LC03OTM0NjgyMCwxNjAzNTY2MDc0LDY3MzQxNTA4MiwxNT
+A1NTg1ODU1LC01NDE1Mzk0MjAsNjA1MjE1NzU5LDkxNjI2NDcz
+Ml19
 -->
