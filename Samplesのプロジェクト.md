@@ -31,6 +31,7 @@ Sampleクラスが用意した、描画に関するリソースやらコマン�
 FboはFrameBuffaerObject。この名前はOpenGLで使われている名前で、dx12ではスワップチェインに設定しているレンダーターゲットバッファー的なやつに対応  
 
 onGuiRender()は実行すると左上にでるやつ  
+imguiのやつ  
 
 
 ## ShaderToy
@@ -43,8 +44,8 @@ onGuiRender()は実行すると左上にでるやつ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODE3NTE4NjQsODI0NTcwMTczLDEwNj
-AzMzYwOTksLTE0NzQ3MDAyMiwtMTY0NDU0NzA1OCwtMTU4NjY5
-NDQ0OSwxNzc4OTE5NTk3LDMwMjIwNTg4Nyw5NDY0NzgyOTMsNz
-U2NTcyNzg5XX0=
+eyJoaXN0b3J5IjpbMTIxMjE1OTYwMSw4MjQ1NzAxNzMsMTA2MD
+MzNjA5OSwtMTQ3NDcwMDIyLC0xNjQ0NTQ3MDU4LC0xNTg2Njk0
+NDQ5LDE3Nzg5MTk1OTcsMzAyMjA1ODg3LDk0NjQ3ODI5Myw3NT
+Y1NzI3ODldfQ==
 -->
