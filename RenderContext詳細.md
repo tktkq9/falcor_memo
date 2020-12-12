@@ -96,8 +96,9 @@ TODO : TypedShaderVarOffsetとの使い分けはどうしているのか
 
 
 ## Program.h, cpp
-DXR以外のシェーダーとそのDefineを管理するクラス  
+DXR以外のシェーダーのDefineを管理するクラス  
 Defineを追加、削除、設定し、更新処理も行う  
+また、Descからシェーダーの情報も取得できる  
 
 ## RtProgram.h, cpp
 DXRのシェーダーとそのDefineを管理するクラス  
@@ -122,7 +123,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3Nzc4NTc5NywtMTQ0MDc2NTYyNSw0Mj
+eyJoaXN0b3J5IjpbMTIzMTc1NTgzOSwtMTQ0MDc2NTYyNSw0Mj
 UzNDg0NTksLTEzMjE2Njg1OTYsMzEzNjYwMjM1LC0xMTA2MzY3
 NzQ1LDE5OTc5NzUxNDcsLTIxMDc5MTk4OTYsLTgxODUwMTk1OC
 wtMTExODAxMzEwMyw5OTUwNjQxMDksMjA2MjQ5MTc1MCwtOTYy
