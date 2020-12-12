@@ -39,7 +39,7 @@ WinMain()とonLoad()とonFrameRender()の実装のみ
 その他にも実装されているように見えるが実際は何もやってないに等しいので無視していい（はず）  
 
 onLoad()はmsgLoop()前の初期化中に呼ばれる  
-
+FullScreenPassという多分ピクセルシェーダーだけ表示する用レンダーパスにシェーダーファイルを渡して、
 RasterizerState, DepthStencilState, BlendState, Samplerを作成しているがこれは意味なし（消しても動いた。おそらくこれをもとに拡張するときに必要なら使う用）  
 
 ### Toy.ps.slang
@@ -58,7 +58,7 @@ TODO : slangのお勉強
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NTE5MjIsLTE3ODMzMTMyOTgsLTEwOT
+eyJoaXN0b3J5IjpbLTE0NDM3NTUxMzAsLTM2NTE5MjIsLTEwOT
 U1NTYzMDMsLTEwMTc5OTI5MzksLTEyOTc4MjY3Myw4MjQ1NzAx
 NzMsMTA2MDMzNjA5OSwtMTQ3NDcwMDIyLC0xNjQ0NTQ3MDU4LC
 0xNTg2Njk0NDQ5LDE3Nzg5MTk1OTcsMzAyMjA1ODg3LDk0NjQ3
