@@ -64,6 +64,8 @@ ReflectionTypeのサブクラスのstructタイプ
 ReflectionVar（名前を持ったReflectionTypeとShaderVarOffsetのセット）をメンバ変数にもつ名前付きstructを形成する  
 
 ### ReflectionBasicType
+bool, int, floatとそのベクターに関するタイプ  
+
 
 ### ReflectionResourceType
 ### ReflectionInterfaceType
@@ -91,11 +93,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTU1NzU4MiwxOTUzNzUyMTI0LDk3Nz
-Y1NTQ3NywxMDQ4ODk1NDgwLC0xMDQxOTIxNjI1LDQwMjM4MTQ2
-NiwtMTEzNDc2OTY1Miw0NTIzNzI0ODgsNjQxODYwMDg2LDE1OD
-EzOTkxNzEsMjAyNTMxMDA1MSwtMTAzNzA4MTg2OSwtNTAzMTAz
-NTA5LC03OTM0NjgyMCwxNjAzNTY2MDc0LDY3MzQxNTA4MiwxNT
-A1NTg1ODU1LC01NDE1Mzk0MjAsNjA1MjE1NzU5LDkxNjI2NDcz
-Ml19
+eyJoaXN0b3J5IjpbNzYyMDEyMzYyLC03NTE1NTc1ODIsMTk1Mz
+c1MjEyNCw5Nzc2NTU0NzcsMTA0ODg5NTQ4MCwtMTA0MTkyMTYy
+NSw0MDIzODE0NjYsLTExMzQ3Njk2NTIsNDUyMzcyNDg4LDY0MT
+g2MDA4NiwxNTgxMzk5MTcxLDIwMjUzMTAwNTEsLTEwMzcwODE4
+NjksLTUwMzEwMzUwOSwtNzkzNDY4MjAsMTYwMzU2NjA3NCw2Nz
+M0MTUwODIsMTUwNTU4NTg1NSwtNTQxNTM5NDIwLDYwNTIxNTc1
+OV19
 -->
