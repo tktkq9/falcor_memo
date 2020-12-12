@@ -14,7 +14,7 @@ IRendererを継承したクラス（と使うシェーダー）のみを作成�
 
 ## ProjectTemplate
 単色でクリアしたレンダーターゲットを描画するだけ  
-WinMain()とonFrameRender()の実装のみ  
+WinMain()とonFrameRender()とonGuiRender()の実装のみ  
 
 WinMain()はこのSamples系プロジェクトのエントリー関数  
 ProjectTemplateを作成し、Sample;;run()に渡してSampleクラスを作成  
@@ -30,6 +30,9 @@ Sampleクラスが用意した、描画に関するリソースやらコマン�
 によってレンダーターゲットをクリアしているだけ  
 FboはFrameBuffaerObject。この名前はOpenGLで使われている名前で、dx12ではスワップチェインに設定しているレンダーターゲットバッファー的なやつに対応  
 
+onGuiRender()は実行すると左上にでるやつ  
+
+
 ## ShaderToy
 
 
@@ -40,8 +43,8 @@ FboはFrameBuffaerObject。この名前はOpenGLで使われている名前で�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NTI5OTA2Myw4MjQ1NzAxNzMsMTA2MD
-MzNjA5OSwtMTQ3NDcwMDIyLC0xNjQ0NTQ3MDU4LC0xNTg2Njk0
-NDQ5LDE3Nzg5MTk1OTcsMzAyMjA1ODg3LDk0NjQ3ODI5Myw3NT
-Y1NzI3ODldfQ==
+eyJoaXN0b3J5IjpbLTIwODE3NTE4NjQsODI0NTcwMTczLDEwNj
+AzMzYwOTksLTE0NzQ3MDAyMiwtMTY0NDU0NzA1OCwtMTU4NjY5
+NDQ0OSwxNzc4OTE5NTk3LDMwMjIwNTg4Nyw5NDY0NzgyOTMsNz
+U2NTcyNzg5XX0=
 -->
