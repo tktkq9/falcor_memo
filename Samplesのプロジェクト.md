@@ -13,7 +13,7 @@ IRendererを継承したクラス（と使うシェーダー）のみを作成�
 参考文献：[NVIDIA Falcor を使ってみる](https://shikihuiku.github.io/post/falcor_getting_started/  )
 
 ## ProjectTemplate
-クリアしたレンダーターゲットを描画するだけ  
+単色でクリアしたレンダーターゲットを描画するだけ  
 WinMain()とonFrameRender()の実装のみ  
 
 WinMain()はこのSamples系プロジェクトのエントリー関数  
@@ -32,13 +32,15 @@ FboはFrameBuffaerObject。この名前はOpenGLで使われている名前で�
 
 ## ShaderToy
 
+
+
 ## ModelViewer
 
 ## HelloDXR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwOTgyMjYxNCw4MjQ1NzAxNzMsMTA2MD
+eyJoaXN0b3J5IjpbLTcyNzI3Mzk3Nyw4MjQ1NzAxNzMsMTA2MD
 MzNjA5OSwtMTQ3NDcwMDIyLC0xNjQ0NTQ3MDU4LC0xNTg2Njk0
 NDQ5LDE3Nzg5MTk1OTcsMzAyMjA1ODg3LDk0NjQ3ODI5Myw3NT
 Y1NzI3ODldfQ==
