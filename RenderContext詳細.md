@@ -68,7 +68,8 @@ ReflectionTypeのサブクラスの配列タイプ
 
 ### ReflectionVar
 名前を持ったReflectionTypeとShaderVarOffsetのセット  
-TypedShaderVarOffsetとの違いは
+TODO : TypedShaderVarOffsetとの使い分けはどうしているのか  
+
 
 ## ComputeContext.h, cpp
 TODO    D3D12ComputeContextを読む  
@@ -87,7 +88,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0ODg5NTQ4MCwtNTM4ODg4MDI0LC0xMD
+eyJoaXN0b3J5IjpbMTExMDM0ODU4NSwxMDQ4ODk1NDgwLC0xMD
 QxOTIxNjI1LDQwMjM4MTQ2NiwtMTEzNDc2OTY1Miw0NTIzNzI0
 ODgsNjQxODYwMDg2LDE1ODEzOTkxNzEsMjAyNTMxMDA1MSwtMT
 AzNzA4MTg2OSwtNTAzMTAzNTA5LC03OTM0NjgyMCwxNjAzNTY2
