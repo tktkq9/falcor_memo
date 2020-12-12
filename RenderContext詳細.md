@@ -68,7 +68,18 @@ bool, int, floatとそのベクターに関するタイプ
 RowMajorかどうかも設定できる  
 
 ### ReflectionResourceType
-様々なバッファーに関するタイプ（SRV, UAV, Sa,）  
+様々なバッファーに関するタイプ  
+
+    enum class Type
+        {
+            Texture,
+            StructuredBuffer,
+            RawBuffer,
+            TypedBuffer,
+            Sampler,
+            ConstantBuffer
+        };
+          
 そのテクスチャーに関する設定（ShaderAccess、 各要素のタイプ、Dimensions、）
 
 ### ReflectionInterfaceType
@@ -96,11 +107,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk1MDY0MTA5LDExNDMxMjYwMTgsMjA2Mj
-Q5MTc1MCwtOTYyMjA3NDg4LC03NTE1NTc1ODIsMTk1Mzc1MjEy
-NCw5Nzc2NTU0NzcsMTA0ODg5NTQ4MCwtMTA0MTkyMTYyNSw0MD
-IzODE0NjYsLTExMzQ3Njk2NTIsNDUyMzcyNDg4LDY0MTg2MDA4
-NiwxNTgxMzk5MTcxLDIwMjUzMTAwNTEsLTEwMzcwODE4NjksLT
-UwMzEwMzUwOSwtNzkzNDY4MjAsMTYwMzU2NjA3NCw2NzM0MTUw
-ODJdfQ==
+eyJoaXN0b3J5IjpbLTEzNzkyMTM2NjMsOTk1MDY0MTA5LDIwNj
+I0OTE3NTAsLTk2MjIwNzQ4OCwtNzUxNTU3NTgyLDE5NTM3NTIx
+MjQsOTc3NjU1NDc3LDEwNDg4OTU0ODAsLTEwNDE5MjE2MjUsND
+AyMzgxNDY2LC0xMTM0NzY5NjUyLDQ1MjM3MjQ4OCw2NDE4NjAw
+ODYsMTU4MTM5OTE3MSwyMDI1MzEwMDUxLC0xMDM3MDgxODY5LC
+01MDMxMDM1MDksLTc5MzQ2ODIwLDE2MDM1NjYwNzQsNjczNDE1
+MDgyXX0=
 -->
