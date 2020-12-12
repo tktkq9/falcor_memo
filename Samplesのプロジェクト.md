@@ -7,7 +7,7 @@ IRendererを継承したクラス（と使うシェーダー）のみを作成�
 
 参考文献：[NVIDIA Falcor を使ってみる](https://shikihuiku.github.io/post/falcor_getting_started/  )
 
-また、このテンプレート実装をもとにした（IRendererをラップｓされている）、DXRチュートリアルもある  
+また、この実装をもとにした（IRendererを少し使いやすくしたラップクラスによって実装されている）、DXRチュートリアルもある  
 [A Gentle Introduction To DirectX Raytracing](http://cwyman.org/code/dxrTutors/dxr_tutors.md.html)  
 [github](https://github.com/NVIDIAGameWorks/GettingStartedWithRTXRayTracing)  
 
@@ -20,7 +20,7 @@ IRendererを継承したクラス（と使うシェーダー）のみを作成�
 
 ## HelloDXR
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODY2OTQ0NDksMTI0MTE5NjQ3NCwxNz
-c4OTE5NTk3LDMwMjIwNTg4Nyw5NDY0NzgyOTMsNzU2NTcyNzg5
-XX0=
+eyJoaXN0b3J5IjpbLTE2NDQ1NDcwNTgsLTE1ODY2OTQ0NDksMT
+c3ODkxOTU5NywzMDIyMDU4ODcsOTQ2NDc4MjkzLDc1NjU3Mjc4
+OV19
 -->
