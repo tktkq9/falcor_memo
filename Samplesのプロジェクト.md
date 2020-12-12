@@ -44,7 +44,7 @@ RasterizerState, DepthStencilState, BlendState, Samplerを作成しているが�
 
 ### Toy.ps.slang
 ShaderToyプロジェクトのピクセルシェーダー  
-
+ｓぁ
 
 ### FullScreenPass.h, cpp
 
@@ -56,7 +56,7 @@ ShaderToyプロジェクトのピクセルシェーダー
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTQ1OTM5MjUsLTEwOTU1NTYzMDMsLT
+eyJoaXN0b3J5IjpbLTE3ODAzNjAyMTEsLTEwOTU1NTYzMDMsLT
 EwMTc5OTI5MzksLTEyOTc4MjY3Myw4MjQ1NzAxNzMsMTA2MDMz
 NjA5OSwtMTQ3NDcwMDIyLC0xNjQ0NTQ3MDU4LC0xNTg2Njk0ND
 Q5LDE3Nzg5MTk1OTcsMzAyMjA1ODg3LDk0NjQ3ODI5Myw3NTY1
