@@ -38,7 +38,7 @@ imguiによって実装されており、渡されてくるGuiクラスはimgui�
 WinMain()とonLoad()とonFrameRender()の実装のみ  
 その他にも実装されているように見えるが実際は何もやってないに等しい（はず）  
 
-WinMain()
+WinMain()は
 
 
 
@@ -48,8 +48,8 @@ WinMain()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNjM4NzU4MCwtMTI5NzgyNjczLDgyND
-U3MDE3MywxMDYwMzM2MDk5LC0xNDc0NzAwMjIsLTE2NDQ1NDcw
-NTgsLTE1ODY2OTQ0NDksMTc3ODkxOTU5NywzMDIyMDU4ODcsOT
-Q2NDc4MjkzLDc1NjU3Mjc4OV19
+eyJoaXN0b3J5IjpbLTEwMTc5OTI5MzksMTczNjM4NzU4MCwtMT
+I5NzgyNjczLDgyNDU3MDE3MywxMDYwMzM2MDk5LC0xNDc0NzAw
+MjIsLTE2NDQ1NDcwNTgsLTE1ODY2OTQ0NDksMTc3ODkxOTU5Ny
+wzMDIyMDU4ODcsOTQ2NDc4MjkzLDc1NjU3Mjc4OV19
 -->
