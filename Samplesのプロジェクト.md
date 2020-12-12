@@ -17,7 +17,8 @@ IRendererを継承したクラス（と使うシェーダー）のみを作成�
 WinMain()とonFrameRender()の実装のみ  
 
 WinMain()はこのプロジェクトのエントリー関数  
-
+ProjectTemplateを作成し、Sample;;run()に渡してSampleクラスを作成  
+これだけでSampleクラスが一通り
 
 ## ShaderToy
 
@@ -27,7 +28,7 @@ WinMain()はこのプロジェクトのエントリー関数
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MzU3OTc2MiwtMTQ3NDcwMDIyLC0xNj
+eyJoaXN0b3J5IjpbMTgxNjc4NDc1MSwtMTQ3NDcwMDIyLC0xNj
 Q0NTQ3MDU4LC0xNTg2Njk0NDQ5LDE3Nzg5MTk1OTcsMzAyMjA1
 ODg3LDk0NjQ3ODI5Myw3NTY1NzI3ODldfQ==
 -->
