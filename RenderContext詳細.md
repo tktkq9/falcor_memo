@@ -101,6 +101,7 @@ Defineを追加、削除、設定し、更新処理も行う
 
 ## RtProgram.h, cpp
 DXRのシェーダーとそのDefineを管理するクラス  
+Defineを追加、削除、設定し、更新処理も行う  
 Programを継承している  
 
 
@@ -121,7 +122,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTI4NjU5MiwtMTQ0MDc2NTYyNSw0Mj
+eyJoaXN0b3J5IjpbMjA3Nzc4NTc5NywtMTQ0MDc2NTYyNSw0Mj
 UzNDg0NTksLTEzMjE2Njg1OTYsMzEzNjYwMjM1LC0xMTA2MzY3
 NzQ1LDE5OTc5NzUxNDcsLTIxMDc5MTk4OTYsLTgxODUwMTk1OC
 wtMTExODAxMzEwMyw5OTUwNjQxMDksMjA2MjQ5MTc1MCwtOTYy
