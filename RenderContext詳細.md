@@ -61,7 +61,7 @@ ReflectionTypeの配列とサイズやストライドを保持する
 
 ### ReflectionStructType
 ReflectionTypeのサブクラスのstructタイプ  
-ReflectionVar（名前を持ったReflectionTypeとShaderVarOffsetのセット）をメンバ変数にもつ名前付きstructを形成する  
+ReflectionVar（名前を持ったReflectionTypeとShaderVarOffsetのセット）をメンバ変数にもつクラス名付きstructを形成する  
 
 ### ReflectionBasicType
 bool, int, floatとそのベクターに関するタイプ  
@@ -108,11 +108,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODUwMTk1OCwtMTExODAxMzEwMyw5OT
-UwNjQxMDksMjA2MjQ5MTc1MCwtOTYyMjA3NDg4LC03NTE1NTc1
-ODIsMTk1Mzc1MjEyNCw5Nzc2NTU0NzcsMTA0ODg5NTQ4MCwtMT
-A0MTkyMTYyNSw0MDIzODE0NjYsLTExMzQ3Njk2NTIsNDUyMzcy
-NDg4LDY0MTg2MDA4NiwxNTgxMzk5MTcxLDIwMjUzMTAwNTEsLT
-EwMzcwODE4NjksLTUwMzEwMzUwOSwtNzkzNDY4MjAsMTYwMzU2
-NjA3NF19
+eyJoaXN0b3J5IjpbLTEyMjcyNjY0MjAsLTgxODUwMTk1OCwtMT
+ExODAxMzEwMyw5OTUwNjQxMDksMjA2MjQ5MTc1MCwtOTYyMjA3
+NDg4LC03NTE1NTc1ODIsMTk1Mzc1MjEyNCw5Nzc2NTU0NzcsMT
+A0ODg5NTQ4MCwtMTA0MTkyMTYyNSw0MDIzODE0NjYsLTExMzQ3
+Njk2NTIsNDUyMzcyNDg4LDY0MTg2MDA4NiwxNTgxMzk5MTcxLD
+IwMjUzMTAwNTEsLTEwMzcwODE4NjksLTUwMzEwMzUwOSwtNzkz
+NDY4MjBdfQ==
 -->
