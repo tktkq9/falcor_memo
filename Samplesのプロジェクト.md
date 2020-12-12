@@ -20,6 +20,7 @@ WinMain()はこのSamples系プロジェクトのエントリー関数
 ProjectTemplateとSampleConfig（ウィンドウとデバイスの設定）を作成し、Sample;;run()に渡してSampleクラスを作成  
 これだけでSampleクラスが描画に必要なdx12系初期化やその他初期化をして、ゲームやリアルタイム描画でよく使われているmsgloop()をおこないマイフレーム描画をし続けるようになる  
 ある程度のキー操作も準備されており（左上にでるサブウィンドウにヘルプがある）、終了処理もやってくれる  
+ちなみにIRendererのon...()関数はSampleクラスで呼ばれているon...()関数
 
 onFrameRender()はmsgloop()で呼ばれる描画関数  
 Sampleクラスが用意した、描画に関するリソースやらコマンドリスト実行やらを管理するRenderContextクラスが渡されるので、これに実行したコマンドなどを入れて描画設定を行う  
@@ -44,8 +45,8 @@ imguiによって実装されており、渡されてくるGuiクラスはimgui�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTc4MjY3Myw4MjQ1NzAxNzMsMTA2MD
-MzNjA5OSwtMTQ3NDcwMDIyLC0xNjQ0NTQ3MDU4LC0xNTg2Njk0
-NDQ5LDE3Nzg5MTk1OTcsMzAyMjA1ODg3LDk0NjQ3ODI5Myw3NT
-Y1NzI3ODldfQ==
+eyJoaXN0b3J5IjpbLTE5MTkzNzI1MzYsLTEyOTc4MjY3Myw4Mj
+Q1NzAxNzMsMTA2MDMzNjA5OSwtMTQ3NDcwMDIyLC0xNjQ0NTQ3
+MDU4LC0xNTg2Njk0NDQ5LDE3Nzg5MTk1OTcsMzAyMjA1ODg3LD
+k0NjQ3ODI5Myw3NTY1NzI3ODldfQ==
 -->
