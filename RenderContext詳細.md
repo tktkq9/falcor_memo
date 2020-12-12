@@ -60,8 +60,8 @@ ReflectionTypeのサブクラスの配列タイプ
 配列のサイズやストライドを保持する  
 
 ### ReflectionStructType
-ReflectionVar（名前を持ったReflectionTypeとShaderVarOffsetのセット）によるstructのタイプ  
-
+ReflectionTypeのサブクラスのstructタイプ  
+ReflectionVar（名前を持ったReflectionTypeとShaderVarOffsetのセット）による名前付きのstructを形成する  
 
 ### ReflectionBasicType
 
@@ -90,11 +90,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzMwMjczMjIsMTA0ODg5NTQ4MCwtMT
-A0MTkyMTYyNSw0MDIzODE0NjYsLTExMzQ3Njk2NTIsNDUyMzcy
-NDg4LDY0MTg2MDA4NiwxNTgxMzk5MTcxLDIwMjUzMTAwNTEsLT
-EwMzcwODE4NjksLTUwMzEwMzUwOSwtNzkzNDY4MjAsMTYwMzU2
-NjA3NCw2NzM0MTUwODIsMTUwNTU4NTg1NSwtNTQxNTM5NDIwLD
-YwNTIxNTc1OSw5MTYyNjQ3MzIsOTA3NzgyODY3LC0yMzQzNDM4
-MzZdfQ==
+eyJoaXN0b3J5IjpbOTc3NjU1NDc3LDEwNDg4OTU0ODAsLTEwND
+E5MjE2MjUsNDAyMzgxNDY2LC0xMTM0NzY5NjUyLDQ1MjM3MjQ4
+OCw2NDE4NjAwODYsMTU4MTM5OTE3MSwyMDI1MzEwMDUxLC0xMD
+M3MDgxODY5LC01MDMxMDM1MDksLTc5MzQ2ODIwLDE2MDM1NjYw
+NzQsNjczNDE1MDgyLDE1MDU1ODU4NTUsLTU0MTUzOTQyMCw2MD
+UyMTU3NTksOTE2MjY0NzMyLDkwNzc4Mjg2NywtMjM0MzQzODM2
+XX0=
 -->
