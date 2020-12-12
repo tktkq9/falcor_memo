@@ -28,7 +28,7 @@ Sampleクラスが用意した、描画に関するリソースやらコマン�
     pRenderContext->clearFbo(pTargetFbo.get(), clearColor, 1.0f, 0, FboAttachmentType::All);
     
 によってレンダーターゲットをクリアしているだけ  
-FboはFrameBuffaerObject。この名前はOpenGLで使われている名前で、dx12ではスワップチェインに設定しているレンダーターゲットバッファー的なやつに対応するもの  
+FboはFrameBuffaerObject。この名前はOpenGLで使われている名前で、dx12ではスワップチェインに設定しているレンダーターゲットバッファー的なやつに対応  
 
 ## ShaderToy
 
@@ -40,7 +40,7 @@ FboはFrameBuffaerObject。この名前はOpenGLで使われている名前で�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNzI3Mzk3Nyw4MjQ1NzAxNzMsMTA2MD
+eyJoaXN0b3J5IjpbLTI0NTI5OTA2Myw4MjQ1NzAxNzMsMTA2MD
 MzNjA5OSwtMTQ3NDcwMDIyLC0xNjQ0NTQ3MDU4LC0xNTg2Njk0
 NDQ5LDE3Nzg5MTk1OTcsMzAyMjA1ODg3LDk0NjQ3ODI5Myw3NT
 Y1NzI3ODldfQ==
