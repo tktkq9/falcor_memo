@@ -70,7 +70,7 @@ RowMajorかどうかも設定できる
 ### ReflectionResourceType
 様々なバッファーに関するタイプ  
 
-    enum class Type
+        enum class Type
         {
             Texture,
             StructuredBuffer,
@@ -80,7 +80,8 @@ RowMajorかどうかも設定できる
             ConstantBuffer
         };
           
-そのテクスチャーに関する設定（ShaderAccess、 各要素のタイプ、Dimensions、）
+そのテクスチャーに関する設定（ShaderAccess、 各要素のタイプ、Dimensions、StructuredType（CounterやConsumeなど））の情報が入っている  
+
 
 ### ReflectionInterfaceType
 
@@ -107,7 +108,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzkyMTM2NjMsOTk1MDY0MTA5LDIwNj
+eyJoaXN0b3J5IjpbLTExMTgwMTMxMDMsOTk1MDY0MTA5LDIwNj
 I0OTE3NTAsLTk2MjIwNzQ4OCwtNzUxNTU3NTgyLDE5NTM3NTIx
 MjQsOTc3NjU1NDc3LDEwNDg4OTU0ODAsLTEwNDE5MjE2MjUsND
 AyMzgxNDY2LC0xMTM0NzY5NjUyLDQ1MjM3MjQ4OCw2NDE4NjAw
