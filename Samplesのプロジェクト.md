@@ -35,7 +35,7 @@ imguiによって実装されており、渡されてくるGuiクラスはimgui�
 実装内容としてはgpFramework->renderGlobalUI(pGui);が実行したときの「Click Here」のより上の部分で、あとのコードは「Click Here」の実装のみ  
 
 ## ShaderToy
-
+onLoad()と
 
 
 ## ModelViewer
@@ -44,8 +44,8 @@ imguiによって実装されており、渡されてくるGuiクラスはimgui�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTc4MjY3MywtMTI5NzgyNjczLDgyND
-U3MDE3MywxMDYwMzM2MDk5LC0xNDc0NzAwMjIsLTE2NDQ1NDcw
-NTgsLTE1ODY2OTQ0NDksMTc3ODkxOTU5NywzMDIyMDU4ODcsOT
-Q2NDc4MjkzLDc1NjU3Mjc4OV19
+eyJoaXN0b3J5IjpbMzIwNTE1ODI1LC0xMjk3ODI2NzMsODI0NT
+cwMTczLDEwNjAzMzYwOTksLTE0NzQ3MDAyMiwtMTY0NDU0NzA1
+OCwtMTU4NjY5NDQ0OSwxNzc4OTE5NTk3LDMwMjIwNTg4Nyw5ND
+Y0NzgyOTMsNzU2NTcyNzg5XX0=
 -->
