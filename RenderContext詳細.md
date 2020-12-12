@@ -85,6 +85,8 @@ RowMajorかどうかも設定できる
 
 ### ReflectionInterfaceType
 
+
+
 ### ReflectionVar
 名前を持ったReflectionTypeとShaderVarOffsetのセット  
 似たようなクラスとしてTypedShaderVarOffsetがあるが、これを継承しているわけではない  
@@ -108,7 +110,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjcyNjY0MjAsLTgxODUwMTk1OCwtMT
+eyJoaXN0b3J5IjpbLTIxMDc5MTk4OTYsLTgxODUwMTk1OCwtMT
 ExODAxMzEwMyw5OTUwNjQxMDksMjA2MjQ5MTc1MCwtOTYyMjA3
 NDg4LC03NTE1NTc1ODIsMTk1Mzc1MjEyNCw5Nzc2NTU0NzcsMT
 A0ODg5NTQ4MCwtMTA0MTkyMTYyNSw0MDIzODE0NjYsLTExMzQ3
