@@ -21,7 +21,8 @@ ProjectTemplateを作成し、Sample;;run()に渡してSampleクラスを作成
 これだけでSampleクラスが描画に必要なdx12系初期化やその他初期化をして、msgloop()によってon...()を実行し続けるようになる  
 終了処理も全部やってくれる  
 
-onFrameRender()はmsgloop
+onFrameRender()はmsgloop()で呼ばれる描画関数  
+Sampleクラスが用意した描画に関するリソースやらコマンドリスト実行やらを管理するRenderContextクラス
 
 ## ShaderToy
 
@@ -31,7 +32,7 @@ onFrameRender()はmsgloop
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MDMzNjA5OSwxMTk3NzU2NjczLC0xND
+eyJoaXN0b3J5IjpbMTc4NTIwMzQwMywxMDYwMzM2MDk5LC0xND
 c0NzAwMjIsLTE2NDQ1NDcwNTgsLTE1ODY2OTQ0NDksMTc3ODkx
 OTU5NywzMDIyMDU4ODcsOTQ2NDc4MjkzLDc1NjU3Mjc4OV19
 -->
