@@ -13,7 +13,7 @@ IRendererを継承したクラス（と使うシェーダー）のみを作成�
 
 ## ModelViewer
 
-## ProjectTemplate
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ2NDc4MjkzLDc1NjU3Mjc4OV19
+eyJoaXN0b3J5IjpbLTEyOTgzODg1ODIsOTQ2NDc4MjkzLDc1Nj
+U3Mjc4OV19
 -->
