@@ -170,7 +170,7 @@ FalcorD3D12.hで定義されているように、各リソースのハンドル�
     using UavHandle = std::shared_ptr<DescriptorSet>;
     using CbvHandle = std::shared_ptr<DescriptorSet>;  
 
-ハンドル
+ハンドルとあるようにディスクリプターヒープのCPI, GPUハンドルはこのクラスから取得できるようになっている  
 
 ## QueryHeap.h, D3D12QueryHeap.cpp
 
@@ -201,11 +201,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NDcxMjI5MiwxMDAzNjAwMDYxLC02MT
-MwNjE0NTMsLTg4OTM4MDI2OSwtMjAwNTMwNTIyLC0yODE5OTY3
-MTEsMTUxODQ1NTk5LDE2NjY3MzYyNCw1ODE4NTU0OTQsMTUyMT
-Q4MzI2NSwtMTMyMTkzNDg5MywtODkzODQ3MzIyLDEyNTY2OTg4
-OTksNjQ4MTMyMjMyLC0xODIzMTIyMDEsMjEyNTg1NjM0MSwtMT
-E1ODkxMDk3LDIxMTE5MjYxODMsLTkxMzA3Mzg3MywxOTQ3Mjc4
-MTk4XX0=
+eyJoaXN0b3J5IjpbODkyNDgwMTY5LDEwMDM2MDAwNjEsLTYxMz
+A2MTQ1MywtODg5MzgwMjY5LC0yMDA1MzA1MjIsLTI4MTk5Njcx
+MSwxNTE4NDU1OTksMTY2NjczNjI0LDU4MTg1NTQ5NCwxNTIxND
+gzMjY1LC0xMzIxOTM0ODkzLC04OTM4NDczMjIsMTI1NjY5ODg5
+OSw2NDgxMzIyMzIsLTE4MjMxMjIwMSwyMTI1ODU2MzQxLC0xMT
+U4OTEwOTcsMjExMTkyNjE4MywtOTEzMDczODczLDE5NDcyNzgx
+OThdfQ==
 -->
