@@ -4,6 +4,7 @@
 
 ## BaseGraphicsPass
 これ自体はGraphicsVarsとGraphicsStateを保持し、間接的にこれらのメンバ変数を実行するだけのクラス  これらに処理を渡すだけ  
+（サブクラスで）ParameterBlockSharedPtrによってにアクセスできるようgetRootVar()が実装されている  
 drawやdispatch処理さえないので、完全にサブクラス作成前提のインターフェース的な役割  
 
 
@@ -23,7 +24,7 @@ drawやdispatch処理さえないので、完全にサブクラス作成前提�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk0NTY2MDk5LDMyODc2ODA2NSwxMzEwMD
-A0MDI4LDE5MzQxODM1ODEsLTIwMDA2MzQ5MzEsMTY4Nzc5Njc5
-MiwtMjA5MTgwMjM2OV19
+eyJoaXN0b3J5IjpbLTY0NDQ2MjQ4OSwzMjg3NjgwNjUsMTMxMD
+AwNDAyOCwxOTM0MTgzNTgxLC0yMDAwNjM0OTMxLDE2ODc3OTY3
+OTIsLTIwOTE4MDIzNjldfQ==
 -->
