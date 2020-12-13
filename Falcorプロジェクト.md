@@ -175,7 +175,10 @@ FalcorD3D12.hで定義されているように、各リソースのハンドル�
 また、setCpuHandle()によってCopyDescriptorsSimple()を行いほかの場所で作ったDescriptorSetに対応するリソースをコピーすることもできる  
 
 また、このハンドルに対するシェーダーでのレジスターやスペースの利用範囲、各シェーダーからのVisibility情報としてLayoutも保持している  
-TODO : createUavDescriptor()とかのように、layout.addRange(DescriptorSet::Type::TextureUav, 0, 1);とbaseRegIndex = 0で必ず実装される。これは範囲であり、
+
+TODO : createUavDescriptor()とかのように、layout.addRange(DescriptorSet::Type::TextureUav, 0, 1);とbaseRegIndex = 0で必ず実装される。あくまでこれは範囲であり、シェーダーで実際に設定するレジスター番号とは違うもの？要確認  
+
+
 ## ResourceView.h, cpp, D3D12ResourceViews.cpp
 ResourceViewベースクラスとそのサブクラスがまとめられている  
 またテンプレートクラスはApiHandleTypeとあるように、各リソースに対応するDescriptorSet、つまり...Handleが設定されている  
@@ -214,11 +217,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE4MDYxMzA0LDE4MzExNzM3MTQsLTk0OD
-cyNjQzNSwtMTE3Nzc1MzMzMCwxMjQ5MjQ5NiwtODE3MTYxMDAx
-LDEwMDM2MDAwNjEsLTYxMzA2MTQ1MywtODg5MzgwMjY5LC0yMD
-A1MzA1MjIsLTI4MTk5NjcxMSwxNTE4NDU1OTksMTY2NjczNjI0
-LDU4MTg1NTQ5NCwxNTIxNDgzMjY1LC0xMzIxOTM0ODkzLC04OT
-M4NDczMjIsMTI1NjY5ODg5OSw2NDgxMzIyMzIsLTE4MjMxMjIw
-MV19
+eyJoaXN0b3J5IjpbLTc5NjI0MjIxOSwxODMxMTczNzE0LC05ND
+g3MjY0MzUsLTExNzc3NTMzMzAsMTI0OTI0OTYsLTgxNzE2MTAw
+MSwxMDAzNjAwMDYxLC02MTMwNjE0NTMsLTg4OTM4MDI2OSwtMj
+AwNTMwNTIyLC0yODE5OTY3MTEsMTUxODQ1NTk5LDE2NjY3MzYy
+NCw1ODE4NTU0OTQsMTUyMTQ4MzI2NSwtMTMyMTkzNDg5MywtOD
+kzODQ3MzIyLDEyNTY2OTg4OTksNjQ4MTMyMjMyLC0xODIzMTIy
+MDFdfQ==
 -->
