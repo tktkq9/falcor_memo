@@ -12,6 +12,7 @@ drawやdispatch処理さえないので、完全にサブクラス作成前提�
 
 ## GraphicsState
 
+## ShaderVar
 
 
 # BaseGraphicsPassのサブクラス
@@ -27,7 +28,7 @@ drawやdispatch処理さえないので、完全にサブクラス作成前提�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY4MTQ1NTQyLDE2MzI5MjkxMjIsMzI4Nz
+eyJoaXN0b3J5IjpbMjE5NDI5MTE0LDE2MzI5MjkxMjIsMzI4Nz
 Y4MDY1LDEzMTAwMDQwMjgsMTkzNDE4MzU4MSwtMjAwMDYzNDkz
 MSwxNjg3Nzk2NzkyLC0yMDkxODAyMzY5XX0=
 -->
