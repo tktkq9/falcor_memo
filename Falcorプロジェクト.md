@@ -171,7 +171,7 @@ FalcorD3D12.hで定義されているように、各リソースのハンドル�
     using UavHandle = std::shared_ptr<DescriptorSet>;
     using CbvHandle = std::shared_ptr<DescriptorSet>;  
 
-ハンドルとあるようにディスクリプターヒープのCPI, GPUハンドルはこのクラスから取得できるようになっている  
+ハンドルとあるようにディスクリプターヒープのCPU, GPUハンドルはこのクラスから取得できるようになっている  
 また、setCpuHandle()によってCopyDescriptorsSimple()を行いほかの場所で作ったDescriptorSetに対応するリソースをコピーすることもできる  
 
 ## QueryHeap.h, D3D12QueryHeap.cpp
@@ -203,7 +203,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTY1NDQ4NzAsMTI0OTI0OTYsLTgxNz
+eyJoaXN0b3J5IjpbLTExNzc3NTMzMzAsMTI0OTI0OTYsLTgxNz
 E2MTAwMSwxMDAzNjAwMDYxLC02MTMwNjE0NTMsLTg4OTM4MDI2
 OSwtMjAwNTMwNTIyLC0yODE5OTY3MTEsMTUxODQ1NTk5LDE2Nj
 Y3MzYyNCw1ODE4NTU0OTQsMTUyMTQ4MzI2NSwtMTMyMTkzNDg5
