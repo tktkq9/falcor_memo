@@ -3,7 +3,7 @@
 ## BaseGraphicsPassおよび関連するクラス
 
 ## BaseGraphicsPass
-これ自体はGraphicsVarsとGraphicsStateを保持し、間接的にこれらのメンバ変数を実行するだけのクラス    
+これ自体はGraphicsVarsとGraphicsStateを保持し、間接的にこれらのメンバ変数を実行するだけのクラス  これらに処理を渡すだけ  
 
 
 ## GraphicsProgram
@@ -16,6 +16,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDA2MzQ5MzEsMTY4Nzc5Njc5MiwtMj
-A5MTgwMjM2OV19
+eyJoaXN0b3J5IjpbMTkzNDE4MzU4MSwtMjAwMDYzNDkzMSwxNj
+g3Nzk2NzkyLC0yMDkxODAyMzY5XX0=
 -->
