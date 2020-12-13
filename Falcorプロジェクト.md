@@ -178,7 +178,8 @@ FalcorD3D12.hで定義されているように、各リソースのハンドル�
 ResourceViewベースクラスとそのサブクラスがまとめられている  
 またテンプレートクラスはApiHandleTypeとあるように、各リソースに対応するDescriptorSet、つまり...Handleが設定されている  
 create()でリソースとその情報を渡し、DESC を生成、gpDeviceからハンドル生成、Create...View()によりハンドルとリソースの対応付けを行う  
-また、これによって生成されたハンドルクラスDescriptorSetを保持し、そのラップクラスとしてハンドル管理
+また、これによって生成されたハンドルクラスDescriptorSetを保持し、そのラップクラスとしてハンドルを管理する  
+
 
 
 ## QueryHeap.h, D3D12QueryHeap.cpp
@@ -210,11 +211,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc2MjgyOTcwLC05NDg3MjY0MzUsLTExNz
-c3NTMzMzAsMTI0OTI0OTYsLTgxNzE2MTAwMSwxMDAzNjAwMDYx
-LC02MTMwNjE0NTMsLTg4OTM4MDI2OSwtMjAwNTMwNTIyLC0yOD
-E5OTY3MTEsMTUxODQ1NTk5LDE2NjY3MzYyNCw1ODE4NTU0OTQs
-MTUyMTQ4MzI2NSwtMTMyMTkzNDg5MywtODkzODQ3MzIyLDEyNT
-Y2OTg4OTksNjQ4MTMyMjMyLC0xODIzMTIyMDEsMjEyNTg1NjM0
-MV19
+eyJoaXN0b3J5IjpbLTc2MTI3NTE2NCwtOTQ4NzI2NDM1LC0xMT
+c3NzUzMzMwLDEyNDkyNDk2LC04MTcxNjEwMDEsMTAwMzYwMDA2
+MSwtNjEzMDYxNDUzLC04ODkzODAyNjksLTIwMDUzMDUyMiwtMj
+gxOTk2NzExLDE1MTg0NTU5OSwxNjY2NzM2MjQsNTgxODU1NDk0
+LDE1MjE0ODMyNjUsLTEzMjE5MzQ4OTMsLTg5Mzg0NzMyMiwxMj
+U2Njk4ODk5LDY0ODEzMjIzMiwtMTgyMzEyMjAxLDIxMjU4NTYz
+NDFdfQ==
 -->
