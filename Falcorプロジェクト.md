@@ -177,8 +177,8 @@ FalcorD3D12.hで定義されているように、各リソースのハンドル�
 ## ResourceView.h, cpp, D3D12ResourceViews.cpp
 ResourceViewベースクラスとそのサブクラスがまとめられている  
 またテンプレートクラスはApiHandleTypeとあるように、各リソースに対応するDescriptorSet、つまり...Handleが設定されている  
-それぞれのリソースに対して、ハンドルを生成しDescriptorSetによって間接的に管理
-、create()で渡されたリソースと設定をもとにディスクリプターを作成し、
+create()でリソースとその情報を渡し、でぅハンドル生成
+、で渡されたリソースと設定をもとにディスクリプターを作成し、
 
 ## QueryHeap.h, D3D12QueryHeap.cpp
 
@@ -209,7 +209,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0OTczNDI2LC05NDg3MjY0MzUsLTExNz
+eyJoaXN0b3J5IjpbMTA5OTEyNTIxLC05NDg3MjY0MzUsLTExNz
 c3NTMzMzAsMTI0OTI0OTYsLTgxNzE2MTAwMSwxMDAzNjAwMDYx
 LC02MTMwNjE0NTMsLTg4OTM4MDI2OSwtMjAwNTMwNTIyLC0yOD
 E5OTY3MTEsMTUxODQ1NTk5LDE2NjY3MzYyNCw1ODE4NTU0OTQs
