@@ -182,6 +182,7 @@ create()でリソースとその情報を渡し、DESC を生成、gpDeviceか�
 
 
 
+
 ## QueryHeap.h, D3D12QueryHeap.cpp
 
 ？？？？？？:thinking::thinking::thinking::thinking::thinking::thinking::thinking:？？？？？？？？  
@@ -211,7 +212,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MTI3NTE2NCwtOTQ4NzI2NDM1LC0xMT
+eyJoaXN0b3J5IjpbMTgzMTE3MzcxNCwtOTQ4NzI2NDM1LC0xMT
 c3NzUzMzMwLDEyNDkyNDk2LC04MTcxNjEwMDEsMTAwMzYwMDA2
 MSwtNjEzMDYxNDUzLC04ODkzODAyNjksLTIwMDUzMDUyMiwtMj
 gxOTk2NzExLDE1MTg0NTU5OSwxNjY2NzM2MjQsNTgxODU1NDk0
