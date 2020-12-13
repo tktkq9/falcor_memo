@@ -174,7 +174,7 @@ FalcorD3D12.hで定義されているように、各リソースのハンドル�
 ハンドルとあるようにディスクリプターヒープのCPU, GPUハンドルはこのクラスから取得できるようになっている  
 また、setCpuHandle()によってCopyDescriptorsSimple()を行いほかの場所で作ったDescriptorSetに対応するリソースをコピーすることもできる  
 
-また、このハンドルに対するシェーダーでのレジスターやスペースの利用範囲情報、各シェーダーからのVisibility情報としてLayoutも保持している  
+また、このハンドルに対するシェーダーでのレジスターやスペースの利用範囲、各シェーダーからのVisibility情報としてLayoutも保持している  
 
 ## ResourceView.h, cpp, D3D12ResourceViews.cpp
 ResourceViewベースクラスとそのサブクラスがまとめられている  
@@ -214,7 +214,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDcyMjU5OTgsMTgzMTE3MzcxNCwtOT
+eyJoaXN0b3J5IjpbLTEyOTA3NTI3MzAsMTgzMTE3MzcxNCwtOT
 Q4NzI2NDM1LC0xMTc3NzUzMzMwLDEyNDkyNDk2LC04MTcxNjEw
 MDEsMTAwMzYwMDA2MSwtNjEzMDYxNDUzLC04ODkzODAyNjksLT
 IwMDUzMDUyMiwtMjgxOTk2NzExLDE1MTg0NTU5OSwxNjY2NzM2
