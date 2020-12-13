@@ -25,13 +25,12 @@ drawやdispatch処理さえないので、完全にサブクラス作成前提�
 
     mpMainPass["ToyCB"]["iResolution"] = float2(width, height);
     mpMainPass["ToyCB"]["iGlobalTime"] = (float)gpFramework->getGlobalClock().getTime();  
-のように設定できる  
-
+のように設定できるようになっている    
 
 頂点シェーダー（とviewportMaskの立っているビットの数だけ描画するためのジオメトリシェーダー）と画面に描画するための頂点バッファーなどはFullScreenPassのコンストラクタ側で作成される  
 複数回呼ばれるのを想定して、頂点バッファーはgFullScreenDataによって再利用される  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNjY1NzY2OCwyMTk0MjkxMTQsMTYzMj
+eyJoaXN0b3J5IjpbMTMwNjI3NDQyNSwyMTk0MjkxMTQsMTYzMj
 kyOTEyMiwzMjg3NjgwNjUsMTMxMDAwNDAyOCwxOTM0MTgzNTgx
 LC0yMDAwNjM0OTMxLDE2ODc3OTY3OTIsLTIwOTE4MDIzNjldfQ
 ==
