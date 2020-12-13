@@ -32,10 +32,12 @@ drawやdispatch処理さえないので、完全にサブクラス作成前提�
 
 頂点とジオメトリシェーダーはFullScreenPass.vs.slangとFullScreenPass.gs.slang  
 頂点シェーダーは頂点とuvをそのまま流すだけ  
-ジオメトリシェーダーはviewportMaskの立っているビット分のレンダーターゲット用四角形を作成、レンダーターゲットを複数
+ジオメトリシェーダーはviewportMaskの立っているビット分のレンダーターゲットを作成（参考文献：[ジオメトリシェーダを使用した複数画面描画](https://sites.google.com/site/monshonosuana/directxno-hanashi-1/directx-107)）  
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ1ODk0NzIyLDU0MTU2NDgxNiwyMTk0Mj
-kxMTQsMTYzMjkyOTEyMiwzMjg3NjgwNjUsMTMxMDAwNDAyOCwx
-OTM0MTgzNTgxLC0yMDAwNjM0OTMxLDE2ODc3OTY3OTIsLTIwOT
-E4MDIzNjldfQ==
+eyJoaXN0b3J5IjpbLTExMzAzODEzMDgsNTQxNTY0ODE2LDIxOT
+QyOTExNCwxNjMyOTI5MTIyLDMyODc2ODA2NSwxMzEwMDA0MDI4
+LDE5MzQxODM1ODEsLTIwMDA2MzQ5MzEsMTY4Nzc5Njc5MiwtMj
+A5MTgwMjM2OV19
 -->
