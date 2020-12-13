@@ -4,7 +4,7 @@
 
 ## BaseGraphicsPass
 これ自体はGraphicsVarsとGraphicsStateを保持し、間接的にこれらのメンバ変数を実行するだけのクラス  これらに処理を渡すだけ  
-drawやdispatchさえないので、完全にサブクラス作成前提のインターフェース的な役割  
+drawやdispatch処理さえないので、完全にサブクラス作成前提のインターフェース的な役割  
 
 
 ## GraphicsProgram
@@ -17,6 +17,6 @@ drawやdispatchさえないので、完全にサブクラス作成前提のイ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NjM2OTUwMCwxOTM0MTgzNTgxLC0yMD
+eyJoaXN0b3J5IjpbMTMxMDAwNDAyOCwxOTM0MTgzNTgxLC0yMD
 AwNjM0OTMxLDE2ODc3OTY3OTIsLTIwOTE4MDIzNjldfQ==
 -->
