@@ -30,14 +30,14 @@ drawやdispatch処理さえないので、完全にサブクラス作成前提�
 頂点シェーダー（とviewportMaskの立っているビットの数だけ描画するためのジオメトリシェーダー）とその頂点バッファーなどはFullScreenPassのコンストラクタ側で作成される  
 複数回呼ばれるのを想定して、頂点バッファーはgFullScreenDataによって再利用されている  
 
-これ用にすでに用意されているシェーダーは頂点とジオメトリシェーダー
+これ用にすでに用意されているシェーダーは頂点とジオメトリシェーダーのみ  
 頂点シェーダー（FullScreenPass.vs.slang）は頂点とuvをそのまま流すだけ  
-ジオメトリシェーダーはviewportMaskの立っているビット分のレンダーターゲットを作成するためのもの（参考文献：[ジオメトリシェーダを使用した複数画面描画](https://sites.google.com/site/monshonosuana/directxno-hanashi-1/directx-107)）  
+ジオメトリシェーダー（FullScreenPass.gs.slang）はviewportMaskの立っているビット分のレンダーターゲットを作成するためのもの（参考文献：[ジオメトリシェーダを使用した複数画面描画](https://sites.google.com/site/monshonosuana/directxno-hanashi-1/directx-107)）  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE4MzU4ODE4LDU0MTU2NDgxNiwyMTk0Mj
-kxMTQsMTYzMjkyOTEyMiwzMjg3NjgwNjUsMTMxMDAwNDAyOCwx
-OTM0MTgzNTgxLC0yMDAwNjM0OTMxLDE2ODc3OTY3OTIsLTIwOT
-E4MDIzNjldfQ==
+eyJoaXN0b3J5IjpbLTEzNTM4ODU2NTUsNTQxNTY0ODE2LDIxOT
+QyOTExNCwxNjMyOTI5MTIyLDMyODc2ODA2NSwxMzEwMDA0MDI4
+LDE5MzQxODM1ODEsLTIwMDA2MzQ5MzEsMTY4Nzc5Njc5MiwtMj
+A5MTgwMjM2OV19
 -->
