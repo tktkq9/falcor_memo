@@ -3,7 +3,8 @@
 ## BaseGraphicsPassおよび関連するクラス
 
 ## BaseGraphicsPass
-k
+これ自体はGraphicsVarsとGraphicsStateを保持し、これらに処理を渡すだけ  
+
 
 ## GraphicsProgram
 
@@ -15,6 +16,6 @@ k
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4MDQyODQxLDE2ODc3OTY3OTIsLTIwOT
-E4MDIzNjldfQ==
+eyJoaXN0b3J5IjpbLTIwODU4ODI3NTAsMTY4Nzc5Njc5MiwtMj
+A5MTgwMjM2OV19
 -->
