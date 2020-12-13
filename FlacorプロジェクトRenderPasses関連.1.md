@@ -26,9 +26,10 @@ drawやdispatch処理さえないので、完全にサブクラス作成前提�
     mpMainPass["ToyCB"]["iResolution"] = float2(width, height);
     mpMainPass["ToyCB"]["iGlobalTime"] = (float)gpFramework->getGlobalClock().getTime();
 
-
+頂点シェーダー（とviewportMaskの立っているビットの数だけ描画するためのジオメトリシェーダー）と画面に描画するための頂点などは
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE5NDI5MTE0LDE2MzI5MjkxMjIsMzI4Nz
-Y4MDY1LDEzMTAwMDQwMjgsMTkzNDE4MzU4MSwtMjAwMDYzNDkz
-MSwxNjg3Nzk2NzkyLC0yMDkxODAyMzY5XX0=
+eyJoaXN0b3J5IjpbMjA5NDYzNDgzMCwyMTk0MjkxMTQsMTYzMj
+kyOTEyMiwzMjg3NjgwNjUsMTMxMDAwNDAyOCwxOTM0MTgzNTgx
+LC0yMDAwNjM0OTMxLDE2ODc3OTY3OTIsLTIwOTE4MDIzNjldfQ
+==
 -->
