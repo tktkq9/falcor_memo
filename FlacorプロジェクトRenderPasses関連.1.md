@@ -32,12 +32,12 @@ drawやdispatch処理さえないので、完全にサブクラス作成前提�
 
 故に頂点とジオメトリシェーダーはすでに用意されている  
 頂点シェーダー（FullScreenPass.vs.slang）は頂点とuvをそのまま流すだけ  
-ジオメトリシェーダー（FullScreenPass.gs.slang）はviewportMaskの立っているビット分のレンダーターゲットを作成するためのもの（参考文献：[ジオメトリシェーダを使用した複数画面描画](https://sites.google.com/site/monshonosuana/directxno-hanashi-1/directx-107)）  
+ジオメトリシェーダー（FullScreenPass.gs.slang）はviewportMaskの立っているビット分のレンダーターゲットを作成するためのもの（参考文献：[ジオメトリシェーダを使用した複数画面描画](https://sites.google.com/site/monshonosuana/directxno-hanashi-1/directx-107)、[DirectX12 でシングルパスキューブマップ描画](https://blog.techlab-xe.net/directx12-render-cubemap-singlepass/)）  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NjQwMjMyOSw1NDE1NjQ4MTYsMjE5ND
-I5MTE0LDE2MzI5MjkxMjIsMzI4NzY4MDY1LDEzMTAwMDQwMjgs
-MTkzNDE4MzU4MSwtMjAwMDYzNDkzMSwxNjg3Nzk2NzkyLC0yMD
-kxODAyMzY5XX0=
+eyJoaXN0b3J5IjpbLTE1MjA0MTMwNzcsLTM0NjQwMjMyOSw1ND
+E1NjQ4MTYsMjE5NDI5MTE0LDE2MzI5MjkxMjIsMzI4NzY4MDY1
+LDEzMTAwMDQwMjgsMTkzNDE4MzU4MSwtMjAwMDYzNDkzMSwxNj
+g3Nzk2NzkyLC0yMDkxODAyMzY5XX0=
 -->
