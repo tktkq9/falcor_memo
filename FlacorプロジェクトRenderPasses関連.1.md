@@ -11,7 +11,9 @@
 
 # BaseGraphicsPassのサブクラス
 
+## FullScreenPass
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNjY3MTcxN119
+eyJoaXN0b3J5IjpbLTIwOTE4MDIzNjldfQ==
 -->
