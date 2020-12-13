@@ -176,7 +176,8 @@ FalcorD3D12.hで定義されているように、各リソースのハンドル�
 
 ## ResourceView.h, cpp, D3D12ResourceViews.cpp
 ResourceViewベースクラスとそのサブクラスがまとめられている  
-またテンプレートクラスは各リソースに対応するDescriptorSet
+またテンプレートクラスはApiHandleTypeとあるように、各リソースに対応するDescriptorSet、つまり...Handleが設定されている  
+
 
 ## QueryHeap.h, D3D12QueryHeap.cpp
 
@@ -207,11 +208,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjg0MTIyLC0xMTc3NzUzMzMwLDEyND
-kyNDk2LC04MTcxNjEwMDEsMTAwMzYwMDA2MSwtNjEzMDYxNDUz
-LC04ODkzODAyNjksLTIwMDUzMDUyMiwtMjgxOTk2NzExLDE1MT
-g0NTU5OSwxNjY2NzM2MjQsNTgxODU1NDk0LDE1MjE0ODMyNjUs
-LTEzMjE5MzQ4OTMsLTg5Mzg0NzMyMiwxMjU2Njk4ODk5LDY0OD
-EzMjIzMiwtMTgyMzEyMjAxLDIxMjU4NTYzNDEsLTExNTg5MTA5
-N119
+eyJoaXN0b3J5IjpbLTk0ODcyNjQzNSwtMTE3Nzc1MzMzMCwxMj
+Q5MjQ5NiwtODE3MTYxMDAxLDEwMDM2MDAwNjEsLTYxMzA2MTQ1
+MywtODg5MzgwMjY5LC0yMDA1MzA1MjIsLTI4MTk5NjcxMSwxNT
+E4NDU1OTksMTY2NjczNjI0LDU4MTg1NTQ5NCwxNTIxNDgzMjY1
+LC0xMzIxOTM0ODkzLC04OTM4NDczMjIsMTI1NjY5ODg5OSw2ND
+gxMzIyMzIsLTE4MjMxMjIwMSwyMTI1ODU2MzQxLC0xMTU4OTEw
+OTddfQ==
 -->
