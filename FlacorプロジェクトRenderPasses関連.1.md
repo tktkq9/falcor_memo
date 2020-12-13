@@ -14,7 +14,8 @@ drawやdispatch処理さえないので、完全にサブクラス作成前提�
 # BaseGraphicsPassのサブクラス
 
 ## FullScreenPass
-ピクセルシェーダーのみあうかう
+ピクセルシェーダーのみ扱う場合のパス  
+
     using SharedPtr = ParameterBlockSharedPtr<FullScreenPass>;
 によって以下のようにシェーダーの変数を設定できるようにしている  
 
@@ -23,7 +24,7 @@ drawやdispatch処理さえないので、完全にサブクラス作成前提�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MzgzNDU4OSwxMzEwMDA0MDI4LDE5Mz
-QxODM1ODEsLTIwMDA2MzQ5MzEsMTY4Nzc5Njc5MiwtMjA5MTgw
-MjM2OV19
+eyJoaXN0b3J5IjpbMzI4NzY4MDY1LDEzMTAwMDQwMjgsMTkzND
+E4MzU4MSwtMjAwMDYzNDkzMSwxNjg3Nzk2NzkyLC0yMDkxODAy
+MzY5XX0=
 -->
