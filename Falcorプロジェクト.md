@@ -189,7 +189,7 @@ ResourceViewベースクラスとそのサブクラスがまとめられてい�
 create()でリソースとその情報を渡し、DESC を生成、gpDeviceからハンドル生成、Create...View()によりハンドルとリソースの対応付けを行う  
 また、これによって生成されたハンドルクラスDescriptorSetを保持し、そのラップクラスとしてハンドルを管理する  
 
-また、リソースに関する情報もResourceViewInfoクラスによるメンバ変数によって
+また、リソースに関する情報もResourceViewInfoクラスとしてcreate()時に作成され、メンバ変数に保持されている  
 
 
 ## QueryHeap.h, D3D12QueryHeap.cpp
@@ -221,7 +221,7 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTkwMTcyMjMsMTgyNTI3NDczMywtNz
+eyJoaXN0b3J5IjpbLTExMzQyNTY4MDUsMTgyNTI3NDczMywtNz
 k2MjQyMjE5LDE4MzExNzM3MTQsLTk0ODcyNjQzNSwtMTE3Nzc1
 MzMzMCwxMjQ5MjQ5NiwtODE3MTYxMDAxLDEwMDM2MDAwNjEsLT
 YxMzA2MTQ1MywtODg5MzgwMjY5LC0yMDA1MzA1MjIsLTI4MTk5
