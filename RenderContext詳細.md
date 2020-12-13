@@ -19,8 +19,7 @@ TODO   読む
 ## ProgramReflection.h, cpp
 
 各クラスやその変数名などはGLSL準拠になっている  
- 参照：# GLSL-to-HLSL reference  
- https://docs.microsoft.com/ja-jp/windows/uwp/gaming/glsl-to-hlsl-reference
+ 参照：[GLSL-to-HLSL reference]( https://docs.microsoft.com/ja-jp/windows/uwp/gaming/glsl-to-hlsl-reference)
 
 ### UniformShaderVarOffset
 コンスタントバッファー用のバイトオフセット値管理クラス  
@@ -124,11 +123,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTE5NjU5MDMsMTU4NTEwNDU3MCwtMT
-Q0MDc2NTYyNSw0MjUzNDg0NTksLTEzMjE2Njg1OTYsMzEzNjYw
-MjM1LC0xMTA2MzY3NzQ1LDE5OTc5NzUxNDcsLTIxMDc5MTk4OT
-YsLTgxODUwMTk1OCwtMTExODAxMzEwMyw5OTUwNjQxMDksMjA2
-MjQ5MTc1MCwtOTYyMjA3NDg4LC03NTE1NTc1ODIsMTk1Mzc1Mj
-EyNCw5Nzc2NTU0NzcsMTA0ODg5NTQ4MCwtMTA0MTkyMTYyNSw0
-MDIzODE0NjZdfQ==
+eyJoaXN0b3J5IjpbLTE0MjA3NzQxMjMsLTE5MTE5NjU5MDMsMT
+U4NTEwNDU3MCwtMTQ0MDc2NTYyNSw0MjUzNDg0NTksLTEzMjE2
+Njg1OTYsMzEzNjYwMjM1LC0xMTA2MzY3NzQ1LDE5OTc5NzUxND
+csLTIxMDc5MTk4OTYsLTgxODUwMTk1OCwtMTExODAxMzEwMyw5
+OTUwNjQxMDksMjA2MjQ5MTc1MCwtOTYyMjA3NDg4LC03NTE1NT
+c1ODIsMTk1Mzc1MjEyNCw5Nzc2NTU0NzcsMTA0ODg5NTQ4MCwt
+MTA0MTkyMTYyNV19
 -->
