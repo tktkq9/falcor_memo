@@ -154,6 +154,7 @@ TODO
 
 ## DescriptorPool.h, cpp
 TODO  より詳しく読む    
+
 dx12ではID3D12DescriptorHeapに対応  
 Deviceで作成される  
 DescriptorSetに渡されて、リソースとの紐づけが行われる  
@@ -180,8 +181,11 @@ TODO : createUavDescriptor()とかのように、layout.addRange(DescriptorSet::
 
 
 ## ResourceView.h, cpp, D3D12ResourceViews.cpp
+TODO  より詳しく読む    
+
 ResourceViewベースクラスとそのサブクラスがまとめられている  
 またテンプレートクラスはApiHandleTypeとあるように、各リソースに対応するDescriptorSet、つまり...Handleが設定されている  
+
 create()でリソースとその情報を渡し、DESC を生成、gpDeviceからハンドル生成、Create...View()によりハンドルとリソースの対応付けを行う  
 また、これによって生成されたハンドルクラスDescriptorSetを保持し、そのラップクラスとしてハンドルを管理する  
 
@@ -217,11 +221,11 @@ pybind11周りの説明 : https://github.com/NVIDIAGameWorks/Falcor/blob/master/
 https://buildersbox.corp-sansan.com/entry/2019/12/09/110000  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NjI0MjIxOSwxODMxMTczNzE0LC05ND
-g3MjY0MzUsLTExNzc3NTMzMzAsMTI0OTI0OTYsLTgxNzE2MTAw
-MSwxMDAzNjAwMDYxLC02MTMwNjE0NTMsLTg4OTM4MDI2OSwtMj
-AwNTMwNTIyLC0yODE5OTY3MTEsMTUxODQ1NTk5LDE2NjY3MzYy
-NCw1ODE4NTU0OTQsMTUyMTQ4MzI2NSwtMTMyMTkzNDg5MywtOD
-kzODQ3MzIyLDEyNTY2OTg4OTksNjQ4MTMyMjMyLC0xODIzMTIy
-MDFdfQ==
+eyJoaXN0b3J5IjpbMTgyNTI3NDczMywtNzk2MjQyMjE5LDE4Mz
+ExNzM3MTQsLTk0ODcyNjQzNSwtMTE3Nzc1MzMzMCwxMjQ5MjQ5
+NiwtODE3MTYxMDAxLDEwMDM2MDAwNjEsLTYxMzA2MTQ1MywtOD
+g5MzgwMjY5LC0yMDA1MzA1MjIsLTI4MTk5NjcxMSwxNTE4NDU1
+OTksMTY2NjczNjI0LDU4MTg1NTQ5NCwxNTIxNDgzMjY1LC0xMz
+IxOTM0ODkzLC04OTM4NDczMjIsMTI1NjY5ODg5OSw2NDgxMzIy
+MzJdfQ==
 -->
