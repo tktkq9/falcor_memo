@@ -39,11 +39,11 @@ WinMain()とonLoad()とonFrameRender()の実装のみ
 その他にも実装されているように見えるが実際は何もやってないに等しいので無視していい（はず）  
 
 onLoad()はmsgLoop()前の初期化中に呼ばれる  
-FullScreenPassという多分ピクセルシェーダーだけ表示する用レンダーパスにシェーダーファイルを渡して、mpMainPassレンダーパス作成。これを使ってonFrameRender()で描画処理を行う  
+FullScreenPassというピクセルシェーダーだけ表示する用レンダーパスにシェーダーファイルを渡して、mpMainPassレンダーパス作成。これを使ってonFrameRender()で描画処理を行う  
 RasterizerState, DepthStencilState, BlendState, Samplerを作成しているがこれは意味なし（消しても動いた。おそらくこれをもとに拡張するときに必要なら使う用）  
 
 onFrameRender()ではmpMainPassを使って描画  
-コードにあるようにシェーダーに対応する構造体と変数をstringで指定することによってシェーダー変数を設定できる（この記述はFullScreenPass::SharedPtrがParameterBlockSharedPtr<>により可能となっている）  
+コードにあるようにシェーダーに対応する構造体と変数をstringで指定することによってシェーダー変数を設定できる（この記述はFullScreenPass::SharedPtrがParameterBlockSharedPtr<>になっていることにより可能となっている）  
 
     cbuffer ToyCB
     {
@@ -53,6 +53,7 @@ onFrameRender()ではmpMainPassを使って描画
 設定したあとmpMainPass->execute(pRenderContext, pTargetFbo);によって描画処理  
 （内部ではmpMainPassで設定したGraphicsStateをpRenderContextに渡して、pRenderContextでコマンドリストによるDrawInstanced()を行っている）  
 
+FullScreenPassは
 
 ## ModelViewer
 
@@ -60,7 +61,7 @@ onFrameRender()ではmpMainPassを使って描画
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMTc3MjA4OSwxMzM4ODkwMDUwLDIwNz
+eyJoaXN0b3J5IjpbMTA5MzYyOTc3NCwxMzM4ODkwMDUwLDIwNz
 M4MjAxNTEsLTE1MjczNDI5NzMsLTgzODUwMjI3NywtMzY1MTky
 MiwtMTA5NTU1NjMwMywtMTAxNzk5MjkzOSwtMTI5NzgyNjczLD
 gyNDU3MDE3MywxMDYwMzM2MDk5LC0xNDc0NzAwMjIsLTE2NDQ1
