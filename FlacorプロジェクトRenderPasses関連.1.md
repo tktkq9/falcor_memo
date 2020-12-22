@@ -11,6 +11,7 @@ drawやdispatch処理さえないので、完全にサブクラス作成前提�
 ## GraphicsProgram
 
 ## GraphicsState
+TODO : 詳しく読む
 ルートシグネチャー、モデルのリソース、パイプラインなどを管理  
 RenderContextのdrawInstancedに渡されるもの  
 
@@ -41,9 +42,9 @@ RenderContextのdrawInstancedに渡されるもの
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTE2ODM1MTMsMzkwOTA3ODAzLC0xNT
-IwNDEzMDc3LC0zNDY0MDIzMjksNTQxNTY0ODE2LDIxOTQyOTEx
-NCwxNjMyOTI5MTIyLDMyODc2ODA2NSwxMzEwMDA0MDI4LDE5Mz
-QxODM1ODEsLTIwMDA2MzQ5MzEsMTY4Nzc5Njc5MiwtMjA5MTgw
-MjM2OV19
+eyJoaXN0b3J5IjpbNTgxODIzMSwzOTA5MDc4MDMsLTE1MjA0MT
+MwNzcsLTM0NjQwMjMyOSw1NDE1NjQ4MTYsMjE5NDI5MTE0LDE2
+MzI5MjkxMjIsMzI4NzY4MDY1LDEzMTAwMDQwMjgsMTkzNDE4Mz
+U4MSwtMjAwMDYzNDkzMSwxNjg3Nzk2NzkyLC0yMDkxODAyMzY5
+XX0=
 -->
