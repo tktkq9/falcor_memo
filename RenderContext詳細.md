@@ -12,7 +12,9 @@ TODO   読む
 ## ParameterBlock.h, cpp
 TODO   読む  
 おそらくRenderContextを通してシェーダー用パラメーターの名前と値を設定する用クラス  
-実際の保存先とレジスター番号に関するクラスの管理はShaderVar.h, cpp、レジスター番号管理のクラスはProgramReflection.h, cppかな？  
+実際の保存先とレジスター番号に関するクラスの管理はShaderVar.h, cpp、レジスター番号管理のクラスはProgramReflection.h, cppかな？微妙  
+
+ParameterBlockはslangの機能なので多分これとか
 
 ## ShaderVar.h, cpp
  
@@ -123,11 +125,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjA3NzQxMjMsLTE5MTE5NjU5MDMsMT
-U4NTEwNDU3MCwtMTQ0MDc2NTYyNSw0MjUzNDg0NTksLTEzMjE2
-Njg1OTYsMzEzNjYwMjM1LC0xMTA2MzY3NzQ1LDE5OTc5NzUxND
-csLTIxMDc5MTk4OTYsLTgxODUwMTk1OCwtMTExODAxMzEwMyw5
-OTUwNjQxMDksMjA2MjQ5MTc1MCwtOTYyMjA3NDg4LC03NTE1NT
-c1ODIsMTk1Mzc1MjEyNCw5Nzc2NTU0NzcsMTA0ODg5NTQ4MCwt
-MTA0MTkyMTYyNV19
+eyJoaXN0b3J5IjpbMjAwOTAyNTM2OSwtMTkxMTk2NTkwMywxNT
+g1MTA0NTcwLC0xNDQwNzY1NjI1LDQyNTM0ODQ1OSwtMTMyMTY2
+ODU5NiwzMTM2NjAyMzUsLTExMDYzNjc3NDUsMTk5Nzk3NTE0Ny
+wtMjEwNzkxOTg5NiwtODE4NTAxOTU4LC0xMTE4MDEzMTAzLDk5
+NTA2NDEwOSwyMDYyNDkxNzUwLC05NjIyMDc0ODgsLTc1MTU1Nz
+U4MiwxOTUzNzUyMTI0LDk3NzY1NTQ3NywxMDQ4ODk1NDgwLC0x
+MDQxOTIxNjI1XX0=
 -->
