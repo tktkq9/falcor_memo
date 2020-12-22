@@ -40,7 +40,7 @@ WinMain()とonLoad()とonFrameRender()の実装のみ
 
 onLoad()はmsgLoop()前の初期化中に呼ばれる  
 というを生成に作成  
-onFrameRender()で描画処理を行うmpMainPassには、画面に三角形を表示し、ピクセルシェーダーだけ変更する用レンダーパスFullScreenPassを
+onFrameRender()で描画処理を行うmpMainPassには、画面に三角形を表示し、ピクセルシェーダーだけ変更する用レンダーパスFullScreenPassを作成
 RasterizerState, DepthStencilState, BlendState, Samplerを作成しているがこれは意味なし（消しても動いた。おそらくこれをもとに拡張するときに必要なら使う用）  
 
 onFrameRender()ではmpMainPassを使って描画  
@@ -62,10 +62,10 @@ FullScreenPassは
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MDY3NzMyMCwxMzM4ODkwMDUwLDIwNz
-M4MjAxNTEsLTE1MjczNDI5NzMsLTgzODUwMjI3NywtMzY1MTky
-MiwtMTA5NTU1NjMwMywtMTAxNzk5MjkzOSwtMTI5NzgyNjczLD
-gyNDU3MDE3MywxMDYwMzM2MDk5LC0xNDc0NzAwMjIsLTE2NDQ1
-NDcwNTgsLTE1ODY2OTQ0NDksMTc3ODkxOTU5NywzMDIyMDU4OD
-csOTQ2NDc4MjkzLDc1NjU3Mjc4OV19
+eyJoaXN0b3J5IjpbMTM0NjQwODMxNiwyMTQwNjc3MzIwLDEzMz
+g4OTAwNTAsMjA3MzgyMDE1MSwtMTUyNzM0Mjk3MywtODM4NTAy
+Mjc3LC0zNjUxOTIyLC0xMDk1NTU2MzAzLC0xMDE3OTkyOTM5LC
+0xMjk3ODI2NzMsODI0NTcwMTczLDEwNjAzMzYwOTksLTE0NzQ3
+MDAyMiwtMTY0NDU0NzA1OCwtMTU4NjY5NDQ0OSwxNzc4OTE5NT
+k3LDMwMjIwNTg4Nyw5NDY0NzgyOTMsNzU2NTcyNzg5XX0=
 -->
