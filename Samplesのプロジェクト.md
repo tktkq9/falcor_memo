@@ -53,13 +53,6 @@ onFrameRender()ではmpMainPassを使って描画
 設定したあとmpMainPass->execute(pRenderContext, pTargetFbo);によって描画処理  
 （内部ではmpMainPassで設定したGraphicsStateをpRenderContextに渡して、pRenderContextでコマンドリストによるDrawInstanced()を行っている）  
 
-### Toy.ps.slang
-ShaderToyプロジェクトのピクセルシェーダー  
-
-
-### FullScreenPass.h, cpp
-
-
 
 ## ModelViewer
 
@@ -67,10 +60,10 @@ ShaderToyプロジェクトのピクセルシェーダー
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzODg5MDA1MCwyMDczODIwMTUxLC0xNT
-I3MzQyOTczLC04Mzg1MDIyNzcsLTM2NTE5MjIsLTEwOTU1NTYz
-MDMsLTEwMTc5OTI5MzksLTEyOTc4MjY3Myw4MjQ1NzAxNzMsMT
-A2MDMzNjA5OSwtMTQ3NDcwMDIyLC0xNjQ0NTQ3MDU4LC0xNTg2
-Njk0NDQ5LDE3Nzg5MTk1OTcsMzAyMjA1ODg3LDk0NjQ3ODI5My
-w3NTY1NzI3ODldfQ==
+eyJoaXN0b3J5IjpbLTcyMTc3MjA4OSwxMzM4ODkwMDUwLDIwNz
+M4MjAxNTEsLTE1MjczNDI5NzMsLTgzODUwMjI3NywtMzY1MTky
+MiwtMTA5NTU1NjMwMywtMTAxNzk5MjkzOSwtMTI5NzgyNjczLD
+gyNDU3MDE3MywxMDYwMzM2MDk5LC0xNDc0NzAwMjIsLTE2NDQ1
+NDcwNTgsLTE1ODY2OTQ0NDksMTc3ODkxOTU5NywzMDIyMDU4OD
+csOTQ2NDc4MjkzLDc1NjU3Mjc4OV19
 -->
