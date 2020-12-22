@@ -12,10 +12,13 @@ drawやdispatch処理さえないので、完全にサブクラス作成前提�
 
 ## GraphicsState
 TODO : 詳しく読む
-ルートシグネチャー、モデルのリソース、パイプラインなどを管理  
-RenderContextのdrawInstancedに渡されるもの  
+ルートシグネチャー、モデルのリソース、パイプラインなどGraphicsVars以外のものを管理  
+RenderContextのdrawInstancedなどに渡される2つのうちの1つ  
 
 ## GraphicsVars
+TODO : 詳しく読む
+シェーダーに渡す変数、バッファーなどを管理、
+RenderContextのdrawInstancedなどに渡される2つのうちの1つ  
 
 
 ## ShaderVar
@@ -42,9 +45,9 @@ RenderContextのdrawInstancedに渡されるもの
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgxODIzMSwzOTA5MDc4MDMsLTE1MjA0MT
-MwNzcsLTM0NjQwMjMyOSw1NDE1NjQ4MTYsMjE5NDI5MTE0LDE2
-MzI5MjkxMjIsMzI4NzY4MDY1LDEzMTAwMDQwMjgsMTkzNDE4Mz
-U4MSwtMjAwMDYzNDkzMSwxNjg3Nzk2NzkyLC0yMDkxODAyMzY5
-XX0=
+eyJoaXN0b3J5IjpbLTE2MDg2ODM3MCw1ODE4MjMxLDM5MDkwNz
+gwMywtMTUyMDQxMzA3NywtMzQ2NDAyMzI5LDU0MTU2NDgxNiwy
+MTk0MjkxMTQsMTYzMjkyOTEyMiwzMjg3NjgwNjUsMTMxMDAwND
+AyOCwxOTM0MTgzNTgxLC0yMDAwNjM0OTMxLDE2ODc3OTY3OTIs
+LTIwOTE4MDIzNjldfQ==
 -->
