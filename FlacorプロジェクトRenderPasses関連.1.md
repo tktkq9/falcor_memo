@@ -11,7 +11,11 @@ drawやdispatch処理さえないので、完全にサブクラス作成前提�
 ## GraphicsProgram
 
 ## GraphicsState
-ルートシグネチャー、モデルのリソース、ぱいぷらいｎ
+ルートシグネチャー、モデルのリソース、パイプラインなどを管理  
+RenderContextのdrawInstancedに渡されるもの  
+
+## GraphicsVars
+
 
 ## ShaderVar
 
@@ -37,9 +41,9 @@ drawやdispatch処理さえないので、完全にサブクラス作成前提�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDc0MjEwNywzOTA5MDc4MDMsLTE1Mj
-A0MTMwNzcsLTM0NjQwMjMyOSw1NDE1NjQ4MTYsMjE5NDI5MTE0
-LDE2MzI5MjkxMjIsMzI4NzY4MDY1LDEzMTAwMDQwMjgsMTkzND
-E4MzU4MSwtMjAwMDYzNDkzMSwxNjg3Nzk2NzkyLC0yMDkxODAy
-MzY5XX0=
+eyJoaXN0b3J5IjpbLTE3MTE2ODM1MTMsMzkwOTA3ODAzLC0xNT
+IwNDEzMDc3LC0zNDY0MDIzMjksNTQxNTY0ODE2LDIxOTQyOTEx
+NCwxNjMyOTI5MTIyLDMyODc2ODA2NSwxMzEwMDA0MDI4LDE5Mz
+QxODM1ODEsLTIwMDA2MzQ5MzEsMTY4Nzc5Njc5MiwtMjA5MTgw
+MjM2OV19
 -->
