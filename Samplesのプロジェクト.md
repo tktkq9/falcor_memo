@@ -39,8 +39,8 @@ WinMain()とonLoad()とonFrameRender()の実装のみ
 その他にも実装されているように見えるが実際は何もやってないに等しいので無視していい（はず）  
 
 onLoad()はmsgLoop()前の初期化中に呼ばれる  
-というを生成に作成  
-onFrameRender()で描画処理を行うmpMainPassには、画面に三角形を表示し、ピクセルシェーダーだけ変更する用レンダーパスFullScreenPassを作成
+onFrameRender()で描画処理を行うmpMainPassには、画面に三角形を表示し、ピクセルシェーダーだけ変更する用レンダーパスFullScreenPassを作成  
+作成時に描画したいピクセルシェーダーを指定でき、Samples/ShaderToy/Toy.ps.slangが設定されている  
 RasterizerState, DepthStencilState, BlendState, Samplerを作成しているがこれは意味なし（消しても動いた。おそらくこれをもとに拡張するときに必要なら使う用）  
 
 onFrameRender()ではmpMainPassを使って描画  
@@ -54,18 +54,17 @@ onFrameRender()ではmpMainPassを使って描画
 設定したあとmpMainPass->execute(pRenderContext, pTargetFbo);によって描画処理  
 （内部ではmpMainPassで設定したGraphicsStateをpRenderContextに渡して、pRenderContextでコマンドリストによるDrawInstanced()を行っている）  
 
-FullScreenPassは
-
 ## ModelViewer
+
 
 ## HelloDXR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NjQwODMxNiwyMTQwNjc3MzIwLDEzMz
-g4OTAwNTAsMjA3MzgyMDE1MSwtMTUyNzM0Mjk3MywtODM4NTAy
-Mjc3LC0zNjUxOTIyLC0xMDk1NTU2MzAzLC0xMDE3OTkyOTM5LC
-0xMjk3ODI2NzMsODI0NTcwMTczLDEwNjAzMzYwOTksLTE0NzQ3
-MDAyMiwtMTY0NDU0NzA1OCwtMTU4NjY5NDQ0OSwxNzc4OTE5NT
-k3LDMwMjIwNTg4Nyw5NDY0NzgyOTMsNzU2NTcyNzg5XX0=
+eyJoaXN0b3J5IjpbLTIwNjk3NTEwNTIsMTM0NjQwODMxNiwxMz
+M4ODkwMDUwLDIwNzM4MjAxNTEsLTE1MjczNDI5NzMsLTgzODUw
+MjI3NywtMzY1MTkyMiwtMTA5NTU1NjMwMywtMTAxNzk5MjkzOS
+wtMTI5NzgyNjczLDgyNDU3MDE3MywxMDYwMzM2MDk5LC0xNDc0
+NzAwMjIsLTE2NDQ1NDcwNTgsLTE1ODY2OTQ0NDksMTc3ODkxOT
+U5NywzMDIyMDU4ODcsOTQ2NDc4MjkzLDc1NjU3Mjc4OV19
 -->
