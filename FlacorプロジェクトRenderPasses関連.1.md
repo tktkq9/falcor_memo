@@ -17,7 +17,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 ## GraphicsVars
 TODO : 詳しく読む
-シェーダーに渡す変数、バッファーなどを管理、
+シェーダーに渡す変数、バッファーなどを管理  
 RenderContextのdrawInstancedなどに渡される2つのうちの1つ  
 
 
@@ -45,9 +45,9 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDg2ODM3MCw1ODE4MjMxLDM5MDkwNz
-gwMywtMTUyMDQxMzA3NywtMzQ2NDAyMzI5LDU0MTU2NDgxNiwy
-MTk0MjkxMTQsMTYzMjkyOTEyMiwzMjg3NjgwNjUsMTMxMDAwND
-AyOCwxOTM0MTgzNTgxLC0yMDAwNjM0OTMxLDE2ODc3OTY3OTIs
-LTIwOTE4MDIzNjldfQ==
+eyJoaXN0b3J5IjpbLTE1ODgxNzM4MDMsNTgxODIzMSwzOTA5MD
+c4MDMsLTE1MjA0MTMwNzcsLTM0NjQwMjMyOSw1NDE1NjQ4MTYs
+MjE5NDI5MTE0LDE2MzI5MjkxMjIsMzI4NzY4MDY1LDEzMTAwMD
+QwMjgsMTkzNDE4MzU4MSwtMjAwMDYzNDkzMSwxNjg3Nzk2Nzky
+LC0yMDkxODAyMzY5XX0=
 -->
