@@ -55,8 +55,6 @@ onFrameRender()ではmpMainPassを使って描画
 
 ### Toy.ps.slang
 ShaderToyプロジェクトのピクセルシェーダー  
-slangという [HLSL ベースの新しいシェーダ言語](http://masafumi.cocolog-nifty.com/masafumis_diary/2018/11/hlsl-slang-8752.html)で書かれている  
-TODO : slangのお勉強  
 
 
 ### FullScreenPass.h, cpp
@@ -69,10 +67,10 @@ TODO : slangのお勉強
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MzgyMDE1MSwtMTUyNzM0Mjk3MywtOD
-M4NTAyMjc3LC0zNjUxOTIyLC0xMDk1NTU2MzAzLC0xMDE3OTky
-OTM5LC0xMjk3ODI2NzMsODI0NTcwMTczLDEwNjAzMzYwOTksLT
-E0NzQ3MDAyMiwtMTY0NDU0NzA1OCwtMTU4NjY5NDQ0OSwxNzc4
-OTE5NTk3LDMwMjIwNTg4Nyw5NDY0NzgyOTMsNzU2NTcyNzg5XX
-0=
+eyJoaXN0b3J5IjpbMTMzODg5MDA1MCwyMDczODIwMTUxLC0xNT
+I3MzQyOTczLC04Mzg1MDIyNzcsLTM2NTE5MjIsLTEwOTU1NTYz
+MDMsLTEwMTc5OTI5MzksLTEyOTc4MjY3Myw4MjQ1NzAxNzMsMT
+A2MDMzNjA5OSwtMTQ3NDcwMDIyLC0xNjQ0NTQ3MDU4LC0xNTg2
+Njk0NDQ5LDE3Nzg5MTk1OTcsMzAyMjA1ODg3LDk0NjQ3ODI5My
+w3NTY1NzI3ODldfQ==
 -->
