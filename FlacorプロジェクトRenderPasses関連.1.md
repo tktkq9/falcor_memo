@@ -3,7 +3,8 @@
 ## BaseGraphicsPassおよび関連するクラス
 
 ## BaseGraphicsPass
-これ自体はGraphicsVarsとGraphicsStateを保持し、間接的にこれらのメンバ変数を実行するだけのクラス  
+これ自体はGraphicsVars、GraphicsState、GraphicsProgramを生成と保持し、間接的にこれらのメンバ変数を実行するだけのクラス  
+
 （サブクラスで利用されている）ParameterBlockSharedPtrによってShaderVarにアクセスできるようgetRootVar()が実装されている  
 drawやdispatch処理さえないので、完全にサブクラス作成前提のインターフェース的な役割  
 
@@ -45,9 +46,9 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODgxNzM4MDMsNTgxODIzMSwzOTA5MD
-c4MDMsLTE1MjA0MTMwNzcsLTM0NjQwMjMyOSw1NDE1NjQ4MTYs
-MjE5NDI5MTE0LDE2MzI5MjkxMjIsMzI4NzY4MDY1LDEzMTAwMD
-QwMjgsMTkzNDE4MzU4MSwtMjAwMDYzNDkzMSwxNjg3Nzk2Nzky
-LC0yMDkxODAyMzY5XX0=
+eyJoaXN0b3J5IjpbLTczMjA1NzY3MywtMTU4ODE3MzgwMyw1OD
+E4MjMxLDM5MDkwNzgwMywtMTUyMDQxMzA3NywtMzQ2NDAyMzI5
+LDU0MTU2NDgxNiwyMTk0MjkxMTQsMTYzMjkyOTEyMiwzMjg3Nj
+gwNjUsMTMxMDAwNDAyOCwxOTM0MTgzNTgxLC0yMDAwNjM0OTMx
+LDE2ODc3OTY3OTIsLTIwOTE4MDIzNjldfQ==
 -->
