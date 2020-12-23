@@ -8,12 +8,13 @@
 drawやdispatch処理さえないので、完全にサブクラス作成前提のインターフェース的な役割  
 
 
-## GraphicsProgram
-
 ## GraphicsState
 TODO : 詳しく読む
 ルートシグネチャー、モデルのリソース、パイプラインなどGraphicsVars以外のものを管理  
 RenderContextのdrawInstancedなどに渡される2つのうちの1つ  
+
+## GraphicsProgram
+
 
 ## GraphicsVars
 TODO : 詳しく読む
@@ -45,9 +46,10 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxODE3NzY1NSwtMTU4ODE3MzgwMyw1OD
-E4MjMxLDM5MDkwNzgwMywtMTUyMDQxMzA3NywtMzQ2NDAyMzI5
-LDU0MTU2NDgxNiwyMTk0MjkxMTQsMTYzMjkyOTEyMiwzMjg3Nj
-gwNjUsMTMxMDAwNDAyOCwxOTM0MTgzNTgxLC0yMDAwNjM0OTMx
-LDE2ODc3OTY3OTIsLTIwOTE4MDIzNjldfQ==
+eyJoaXN0b3J5IjpbLTE1MTM1ODIzNDcsLTQxODE3NzY1NSwtMT
+U4ODE3MzgwMyw1ODE4MjMxLDM5MDkwNzgwMywtMTUyMDQxMzA3
+NywtMzQ2NDAyMzI5LDU0MTU2NDgxNiwyMTk0MjkxMTQsMTYzMj
+kyOTEyMiwzMjg3NjgwNjUsMTMxMDAwNDAyOCwxOTM0MTgzNTgx
+LC0yMDAwNjM0OTMxLDE2ODc3OTY3OTIsLTIwOTE4MDIzNjldfQ
+==
 -->
