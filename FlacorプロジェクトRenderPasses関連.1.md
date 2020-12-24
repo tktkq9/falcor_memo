@@ -18,6 +18,10 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つでパイ�
 大体は直接このクラスを通して設定するが、ProgramKernelsとRootSignatureはgetGSO()によってGraphicsVarsからもらってくる  
 
 ### GraphicsStateObject
+パイプラインステートオブジェクトのラッパークラス  
+作成に必要なデータも一通りDescに格納される  
+
+
 
 ### StateGraph
 その名の通り汎用的に使える状態遷移図  
@@ -61,7 +65,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMTExMjM4MywtNzgwNTM1ODk2LDE1OD
+eyJoaXN0b3J5IjpbMTcyNTAwNDQxMCwtNzgwNTM1ODk2LDE1OD
 Y4NTIzNzgsNDQ1MzI0MjUwLC0xMzQ5ODE4NzM2LDc4ODY3NzA0
 MSwtNjQxNTExNDUsLTE3NjYyNTIwODMsLTQxMDk2MDY3NCwxND
 kwMzEyNDAzLC0xNTEzNTgyMzQ3LC00MTgxNzc2NTUsLTE1ODgx
