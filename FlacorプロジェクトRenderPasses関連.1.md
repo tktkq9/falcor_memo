@@ -13,7 +13,10 @@ TODO : 詳しく読む
 RenderContextのdrawInstancedなどに渡される2つのうちの1つ  
 ルートシグネチャー、モデルのリソース、パイプライン、複数のビューポート、シザー、FBOなどGraphicsVars以外のものを設定、管理  
 また、ブレンドやデプスステンシルやカリングなどの設定管理はGraphicsStateObjectの方に押し付けている  
+
 大体は直接このクラスを通して設定するが、ProgramKernelsとRootSignatureはgetGSO()によってGraphicsVarsからもらってくる  
+これらの設定をもとにGraphicsStateObjectを作成する  
+ただしすでに同じ設定のものがあるかmpGsoGraphをもとに検索され再利用される  
 
 ## StateGraph
 その名の通り汎用的に使える状態遷移図  
@@ -23,8 +26,6 @@ GraphicsState、ComputeState、RtProgramでの使われ方としては、NodeTyp
 描画に必要なデータ（例えばルートシグネチャーやFBOなど）をもとに各状態をwalk()を使って検索、なければ作成し、
 同じ状態を持つ場合は状態に設定したdataに割り当てたNodeType（例えばGraphicsStateではGraphicsStateObject）をgetCurrentNode()によって取得するために使われている  
 
-これらの設定をもとにGraphicsStateObjectを作成する  
-ただしすでに同じ設定のものがあるかmpGsoGraphをもとに検索され再利用される
 
 ## GraphicsProgram
 
@@ -59,11 +60,11 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzE0NDAwNzgsLTEzNDk4MTg3MzYsNz
-g4Njc3MDQxLC02NDE1MTE0NSwtMTc2NjI1MjA4MywtNDEwOTYw
-Njc0LDE0OTAzMTI0MDMsLTE1MTM1ODIzNDcsLTQxODE3NzY1NS
-wtMTU4ODE3MzgwMyw1ODE4MjMxLDM5MDkwNzgwMywtMTUyMDQx
-MzA3NywtMzQ2NDAyMzI5LDU0MTU2NDgxNiwyMTk0MjkxMTQsMT
-YzMjkyOTEyMiwzMjg3NjgwNjUsMTMxMDAwNDAyOCwxOTM0MTgz
-NTgxXX0=
+eyJoaXN0b3J5IjpbNDQ1MzI0MjUwLC0xMzQ5ODE4NzM2LDc4OD
+Y3NzA0MSwtNjQxNTExNDUsLTE3NjYyNTIwODMsLTQxMDk2MDY3
+NCwxNDkwMzEyNDAzLC0xNTEzNTgyMzQ3LC00MTgxNzc2NTUsLT
+E1ODgxNzM4MDMsNTgxODIzMSwzOTA5MDc4MDMsLTE1MjA0MTMw
+NzcsLTM0NjQwMjMyOSw1NDE1NjQ4MTYsMjE5NDI5MTE0LDE2Mz
+I5MjkxMjIsMzI4NzY4MDY1LDEzMTAwMDQwMjgsMTkzNDE4MzU4
+MV19
 -->
