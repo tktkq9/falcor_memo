@@ -15,6 +15,8 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 また、ブレンドやデプスステンシルやカリングなどの設定管理はGraphicsStateObjectの方に押し付けている  
 大体は直接このクラスを通して設定するが、ProgramKernelsとRootSignatureはgetGSO()によってGraphicsVarsからもらってくる  
 
+## StateGraph
+その名の通り 状態遷移図
 
 ## GraphicsProgram
 
@@ -49,11 +51,11 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDk4MTg3MzYsNzg4Njc3MDQxLC02ND
-E1MTE0NSwtMTM0OTgxODczNiwtMTc2NjI1MjA4MywtNDEwOTYw
-Njc0LDE0OTAzMTI0MDMsLTE1MTM1ODIzNDcsLTQxODE3NzY1NS
-wtMTU4ODE3MzgwMyw1ODE4MjMxLDM5MDkwNzgwMywtMTUyMDQx
-MzA3NywtMzQ2NDAyMzI5LDU0MTU2NDgxNiwyMTk0MjkxMTQsMT
-YzMjkyOTEyMiwzMjg3NjgwNjUsMTMxMDAwNDAyOCwxOTM0MTgz
-NTgxXX0=
+eyJoaXN0b3J5IjpbMjA3OTE2NzI4MywtMTM0OTgxODczNiw3OD
+g2NzcwNDEsLTY0MTUxMTQ1LC0xNzY2MjUyMDgzLC00MTA5NjA2
+NzQsMTQ5MDMxMjQwMywtMTUxMzU4MjM0NywtNDE4MTc3NjU1LC
+0xNTg4MTczODAzLDU4MTgyMzEsMzkwOTA3ODAzLC0xNTIwNDEz
+MDc3LC0zNDY0MDIzMjksNTQxNTY0ODE2LDIxOTQyOTExNCwxNj
+MyOTI5MTIyLDMyODc2ODA2NSwxMzEwMDA0MDI4LDE5MzQxODM1
+ODFdfQ==
 -->
