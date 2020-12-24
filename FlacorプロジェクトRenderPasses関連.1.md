@@ -17,7 +17,9 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つでパイ�
 
 大体は直接このクラスを通して設定するが、ProgramKernelsとRootSignatureはgetGSO()によってGraphicsVarsからもらってくる  
 
-## StateGraph
+### GraphicsStateObject
+
+### StateGraph
 その名の通り汎用的に使える状態遷移図  
 ただし、GraphicsState、ComputeState、RtProgramでしか使われていない  
 
@@ -59,11 +61,11 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MDUzNTg5NiwxNTg2ODUyMzc4LDQ0NT
-MyNDI1MCwtMTM0OTgxODczNiw3ODg2NzcwNDEsLTY0MTUxMTQ1
-LC0xNzY2MjUyMDgzLC00MTA5NjA2NzQsMTQ5MDMxMjQwMywtMT
-UxMzU4MjM0NywtNDE4MTc3NjU1LC0xNTg4MTczODAzLDU4MTgy
-MzEsMzkwOTA3ODAzLC0xNTIwNDEzMDc3LC0zNDY0MDIzMjksNT
-QxNTY0ODE2LDIxOTQyOTExNCwxNjMyOTI5MTIyLDMyODc2ODA2
-NV19
+eyJoaXN0b3J5IjpbMTQzMTExMjM4MywtNzgwNTM1ODk2LDE1OD
+Y4NTIzNzgsNDQ1MzI0MjUwLC0xMzQ5ODE4NzM2LDc4ODY3NzA0
+MSwtNjQxNTExNDUsLTE3NjYyNTIwODMsLTQxMDk2MDY3NCwxND
+kwMzEyNDAzLC0xNTEzNTgyMzQ3LC00MTgxNzc2NTUsLTE1ODgx
+NzM4MDMsNTgxODIzMSwzOTA5MDc4MDMsLTE1MjA0MTMwNzcsLT
+M0NjQwMjMyOSw1NDE1NjQ4MTYsMjE5NDI5MTE0LDE2MzI5Mjkx
+MjJdfQ==
 -->
