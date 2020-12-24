@@ -16,7 +16,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 大体は直接このクラスを通して設定するが、ProgramKernelsとRootSignatureはgetGSO()によってGraphicsVarsからもらってくる  
 
 ## StateGraph
-
+walk()は前にwalk()で
 
 ## GraphicsProgram
 
@@ -51,11 +51,11 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MTUxMTQ1LC0xMzQ5ODE4NzM2LC0xNz
-Y2MjUyMDgzLC00MTA5NjA2NzQsMTQ5MDMxMjQwMywtMTUxMzU4
-MjM0NywtNDE4MTc3NjU1LC0xNTg4MTczODAzLDU4MTgyMzEsMz
-kwOTA3ODAzLC0xNTIwNDEzMDc3LC0zNDY0MDIzMjksNTQxNTY0
-ODE2LDIxOTQyOTExNCwxNjMyOTI5MTIyLDMyODc2ODA2NSwxMz
-EwMDA0MDI4LDE5MzQxODM1ODEsLTIwMDA2MzQ5MzEsMTY4Nzc5
-Njc5Ml19
+eyJoaXN0b3J5IjpbNzg4Njc3MDQxLC02NDE1MTE0NSwtMTM0OT
+gxODczNiwtMTc2NjI1MjA4MywtNDEwOTYwNjc0LDE0OTAzMTI0
+MDMsLTE1MTM1ODIzNDcsLTQxODE3NzY1NSwtMTU4ODE3MzgwMy
+w1ODE4MjMxLDM5MDkwNzgwMywtMTUyMDQxMzA3NywtMzQ2NDAy
+MzI5LDU0MTU2NDgxNiwyMTk0MjkxMTQsMTYzMjkyOTEyMiwzMj
+g3NjgwNjUsMTMxMDAwNDAyOCwxOTM0MTgzNTgxLC0yMDAwNjM0
+OTMxXX0=
 -->
