@@ -10,9 +10,9 @@ drawやdispatch処理さえないので、完全にサブクラス作成前提�
 
 ## GraphicsState
 TODO : 詳しく読む
-ビューポート、シザー、ルートシグネチャー、モデルのリソース、パイプライン、複数のFBOなどGraphicsVars以外のものを設定、管理  
+ルートシグネチャー、モデルのリソース、パイプライン、複数のビューポート、シザー、FBOなどGraphicsVars以外のものを設定、管理  
 RenderContextのdrawInstancedなどに渡される2つのうちの1つ  
-
+ビューポート、シザー、VAO、FBO、ブレンドステート、ラスタライズステート、
 
 
 ## GraphicsProgram
@@ -48,10 +48,10 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDk2MDY3NCwxNDkwMzEyNDAzLC0xNT
-EzNTgyMzQ3LC00MTgxNzc2NTUsLTE1ODgxNzM4MDMsNTgxODIz
-MSwzOTA5MDc4MDMsLTE1MjA0MTMwNzcsLTM0NjQwMjMyOSw1ND
-E1NjQ4MTYsMjE5NDI5MTE0LDE2MzI5MjkxMjIsMzI4NzY4MDY1
-LDEzMTAwMDQwMjgsMTkzNDE4MzU4MSwtMjAwMDYzNDkzMSwxNj
-g3Nzk2NzkyLC0yMDkxODAyMzY5XX0=
+eyJoaXN0b3J5IjpbMTkyNzk1MDYwMywtNDEwOTYwNjc0LDE0OT
+AzMTI0MDMsLTE1MTM1ODIzNDcsLTQxODE3NzY1NSwtMTU4ODE3
+MzgwMyw1ODE4MjMxLDM5MDkwNzgwMywtMTUyMDQxMzA3NywtMz
+Q2NDAyMzI5LDU0MTU2NDgxNiwyMTk0MjkxMTQsMTYzMjkyOTEy
+MiwzMjg3NjgwNjUsMTMxMDAwNDAyOCwxOTM0MTgzNTgxLC0yMD
+AwNjM0OTMxLDE2ODc3OTY3OTIsLTIwOTE4MDIzNjldfQ==
 -->
