@@ -19,7 +19,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 その名の通り汎用的に使える状態遷移図  
 ただし、GraphicsState、ComputeState、RtProgramでしか使われていない  
 
-GraphicsState、ComputeState、RtProgramでの使われ方としては、NodeTypeの再利用をもくてきとし  
+GraphicsState、ComputeState、RtProgramでの使われ方としては、NodeTypeの格納、検索、再利用である  
 描画に必要なデータ（例えばルートシグネチャーやFBOなど）をもとに各状態をwalk()を使って検索、なければ作成し、
 同じ状態を持つ場合は状態に設定したdataに割り当てたNodeType（例えばGraphicsStateではGraphicsStateObject）をgetCurrentNode()によって取得するために使われている  
 
@@ -56,11 +56,11 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyODI5MTI3OSwtMTM0OTgxODczNiw3OD
-g2NzcwNDEsLTY0MTUxMTQ1LC0xNzY2MjUyMDgzLC00MTA5NjA2
-NzQsMTQ5MDMxMjQwMywtMTUxMzU4MjM0NywtNDE4MTc3NjU1LC
-0xNTg4MTczODAzLDU4MTgyMzEsMzkwOTA3ODAzLC0xNTIwNDEz
-MDc3LC0zNDY0MDIzMjksNTQxNTY0ODE2LDIxOTQyOTExNCwxNj
-MyOTI5MTIyLDMyODc2ODA2NSwxMzEwMDA0MDI4LDE5MzQxODM1
-ODFdfQ==
+eyJoaXN0b3J5IjpbODI0NjQyNjEzLC0xMzQ5ODE4NzM2LDc4OD
+Y3NzA0MSwtNjQxNTExNDUsLTE3NjYyNTIwODMsLTQxMDk2MDY3
+NCwxNDkwMzEyNDAzLC0xNTEzNTgyMzQ3LC00MTgxNzc2NTUsLT
+E1ODgxNzM4MDMsNTgxODIzMSwzOTA5MDc4MDMsLTE1MjA0MTMw
+NzcsLTM0NjQwMjMyOSw1NDE1NjQ4MTYsMjE5NDI5MTE0LDE2Mz
+I5MjkxMjIsMzI4NzY4MDY1LDEzMTAwMDQwMjgsMTkzNDE4MzU4
+MV19
 -->
