@@ -19,9 +19,9 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 その名の通り汎用的に使える状態遷移図  
 ただし、GraphicsState、ComputeState、RtProgramでしか使われていない  
 
-GraphicsState、ComputeState、RtProgramでの使われ方としては、  
-描画に必要なデータ（例えばルートシグネチャーや）をもとに各状態をwalk()を使って検索、なければ作成し、
-同じ状態を持つ場合は状態に設定したdataに割り当てたNodeType（例えばGraphicsStateでは）
+GraphicsState、ComputeState、RtProgramでの使われ方としては、NodeTypeの再利用をもくてきとし  
+描画に必要なデータ（例えばルートシグネチャーやFBOなど）をもとに各状態をwalk()を使って検索、なければ作成し、
+同じ状態を持つ場合は状態に設定したdataに割り当てたNodeType（例えばGraphicsStateではGraphicsStateObject）をgetCurrentNode()によって取得するために使われている  
 
 ## GraphicsProgram
 
@@ -56,7 +56,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjY4NzEyMiwtMTM0OTgxODczNiw3OD
+eyJoaXN0b3J5IjpbMTIyODI5MTI3OSwtMTM0OTgxODczNiw3OD
 g2NzcwNDEsLTY0MTUxMTQ1LC0xNzY2MjUyMDgzLC00MTA5NjA2
 NzQsMTQ5MDMxMjQwMywtMTUxMzU4MjM0NywtNDE4MTc3NjU1LC
 0xNTg4MTczODAzLDU4MTgyMzEsMzkwOTA3ODAzLC0xNTIwNDEz
