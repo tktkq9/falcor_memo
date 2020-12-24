@@ -12,7 +12,7 @@ drawやdispatch処理さえないので、完全にサブクラス作成前提�
 TODO : 詳しく読む
 ルートシグネチャー、モデルのリソース、パイプライン、複数のビューポート、シザー、FBOなどGraphicsVars以外のものを設定、管理  
 RenderContextのdrawInstancedなどに渡される2つのうちの1つ  
-ビューポート、シザー、VAO、FBO、ブレンドステート、ラスタライズステート、
+ProgramKernelsとRootSignature
 
 
 ## GraphicsProgram
@@ -48,7 +48,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNzk1MDYwMywtNDEwOTYwNjc0LDE0OT
+eyJoaXN0b3J5IjpbMTMxMjY5MDE5MiwtNDEwOTYwNjc0LDE0OT
 AzMTI0MDMsLTE1MTM1ODIzNDcsLTQxODE3NzY1NSwtMTU4ODE3
 MzgwMyw1ODE4MjMxLDM5MDkwNzgwMywtMTUyMDQxMzA3NywtMz
 Q2NDAyMzI5LDU0MTU2NDgxNiwyMTk0MjkxMTQsMTYzMjkyOTEy
