@@ -13,7 +13,7 @@ TODO : 詳しく読む
 RenderContextのdrawInstancedなどに渡される2つのうちの1つ  
 ルートシグネチャー、モデルのリソース、パイプライン、複数のビューポート、シザー、FBOなどGraphicsVars以外のものを設定、管理  
 また、ブレンドやデプスステンシルやカリングなどの設定管理はGraphicsStateObjectの方に押し付けている  
-また、パイプラインの作成も）担当しており、
+また、パイプラインオブジェクトの作成も（GraphicsStateObjectが実際は行うが）担当しており、mpGsoGraphをもとにパイプラインオブジェクトの再作成を判定し、getGSO()により
 
 大体は直接このクラスを通して設定するが、ProgramKernelsとRootSignatureはgetGSO()によってGraphicsVarsからもらってくる  
 これらの設定をもとにGraphicsStateObjectを作成する  
@@ -61,7 +61,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MDQwMzMxNSw0NDUzMjQyNTAsLTEzND
+eyJoaXN0b3J5IjpbMTc5NzM1MjkxOCw0NDUzMjQyNTAsLTEzND
 k4MTg3MzYsNzg4Njc3MDQxLC02NDE1MTE0NSwtMTc2NjI1MjA4
 MywtNDEwOTYwNjc0LDE0OTAzMTI0MDMsLTE1MTM1ODIzNDcsLT
 QxODE3NzY1NSwtMTU4ODE3MzgwMyw1ODE4MjMxLDM5MDkwNzgw
