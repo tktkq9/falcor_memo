@@ -10,9 +10,10 @@ drawやdispatch処理さえないので、完全にサブクラス作成前提�
 
 ## GraphicsState
 TODO : 詳しく読む
-ルートシグネチャー、モデルのリソース、パイプライン、複数のビューポート、シザー、FBOなどGraphicsVars以外のものを設定、管理  
 RenderContextのdrawInstancedなどに渡される2つのうちの1つ  
-ProgramKernelsとRootSignature
+ルートシグネチャー、モデルのリソース、パイプライン、複数のビューポート、シザー、FBOなどGraphicsVars以外のものを設定、管理  
+また、ブレンドやデプスステンシルやカリングなどの設定管理はGraphicsStateObjectの方に押し付けている  
+大体は直接このクラスを通して設定するが、ProgramKernelsとRootSignatureは
 
 
 ## GraphicsProgram
@@ -48,10 +49,10 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMjY5MDE5MiwtNDEwOTYwNjc0LDE0OT
-AzMTI0MDMsLTE1MTM1ODIzNDcsLTQxODE3NzY1NSwtMTU4ODE3
-MzgwMyw1ODE4MjMxLDM5MDkwNzgwMywtMTUyMDQxMzA3NywtMz
-Q2NDAyMzI5LDU0MTU2NDgxNiwyMTk0MjkxMTQsMTYzMjkyOTEy
-MiwzMjg3NjgwNjUsMTMxMDAwNDAyOCwxOTM0MTgzNTgxLC0yMD
-AwNjM0OTMxLDE2ODc3OTY3OTIsLTIwOTE4MDIzNjldfQ==
+eyJoaXN0b3J5IjpbNTE4NjE0NzI3LC00MTA5NjA2NzQsMTQ5MD
+MxMjQwMywtMTUxMzU4MjM0NywtNDE4MTc3NjU1LC0xNTg4MTcz
+ODAzLDU4MTgyMzEsMzkwOTA3ODAzLC0xNTIwNDEzMDc3LC0zND
+Y0MDIzMjksNTQxNTY0ODE2LDIxOTQyOTExNCwxNjMyOTI5MTIy
+LDMyODc2ODA2NSwxMzEwMDA0MDI4LDE5MzQxODM1ODEsLTIwMD
+A2MzQ5MzEsMTY4Nzc5Njc5MiwtMjA5MTgwMjM2OV19
 -->
