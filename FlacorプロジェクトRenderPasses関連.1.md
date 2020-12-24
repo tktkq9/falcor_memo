@@ -12,7 +12,7 @@ drawやdispatch処理さえないので、完全にサブクラス作成前提�
 TODO : 詳しく読む
 ビューポート、シザー、ルートシグネチャー、モデルのリソース、パイプライン、複数のFBOなどGraphicsVars以外のものを設定、管理  
 RenderContextのdrawInstancedなどに渡される2つのうちの1つ  
-パスごとにこれを持っていて、この情報をもとにパスの実行が行われる  
+
 
 
 ## GraphicsProgram
@@ -48,10 +48,10 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzk0NTQyMTYsMTQ5MDMxMjQwMywtMT
-UxMzU4MjM0NywtNDE4MTc3NjU1LC0xNTg4MTczODAzLDU4MTgy
-MzEsMzkwOTA3ODAzLC0xNTIwNDEzMDc3LC0zNDY0MDIzMjksNT
-QxNTY0ODE2LDIxOTQyOTExNCwxNjMyOTI5MTIyLDMyODc2ODA2
-NSwxMzEwMDA0MDI4LDE5MzQxODM1ODEsLTIwMDA2MzQ5MzEsMT
-Y4Nzc5Njc5MiwtMjA5MTgwMjM2OV19
+eyJoaXN0b3J5IjpbLTQxMDk2MDY3NCwxNDkwMzEyNDAzLC0xNT
+EzNTgyMzQ3LC00MTgxNzc2NTUsLTE1ODgxNzM4MDMsNTgxODIz
+MSwzOTA5MDc4MDMsLTE1MjA0MTMwNzcsLTM0NjQwMjMyOSw1ND
+E1NjQ4MTYsMjE5NDI5MTE0LDE2MzI5MjkxMjIsMzI4NzY4MDY1
+LDEzMTAwMDQwMjgsMTkzNDE4MzU4MSwtMjAwMDYzNDkzMSwxNj
+g3Nzk2NzkyLC0yMDkxODAyMzY5XX0=
 -->
