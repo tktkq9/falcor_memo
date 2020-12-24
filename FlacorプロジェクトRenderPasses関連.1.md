@@ -20,8 +20,8 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 ただし、GraphicsState、ComputeState、RtProgramでしか使われていない  
 
 GraphicsState、ComputeState、RtProgramでの使われ方としては、  
-描画に必要なデータをもとに各状態を作成し、
-
+描画に必要なデータ（例えばルートシグネチャーや）をもとに各状態をwalk()を使って検索、なければ作成し、
+同じ状態を持つ場合は状態に設定したdataに割り当てたNodeType（例えばGraphicsStateでは）
 
 ## GraphicsProgram
 
@@ -56,11 +56,11 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzY1MzA2MDAsLTEzNDk4MTg3MzYsNz
-g4Njc3MDQxLC02NDE1MTE0NSwtMTc2NjI1MjA4MywtNDEwOTYw
-Njc0LDE0OTAzMTI0MDMsLTE1MTM1ODIzNDcsLTQxODE3NzY1NS
-wtMTU4ODE3MzgwMyw1ODE4MjMxLDM5MDkwNzgwMywtMTUyMDQx
-MzA3NywtMzQ2NDAyMzI5LDU0MTU2NDgxNiwyMTk0MjkxMTQsMT
-YzMjkyOTEyMiwzMjg3NjgwNjUsMTMxMDAwNDAyOCwxOTM0MTgz
-NTgxXX0=
+eyJoaXN0b3J5IjpbLTEzNjY4NzEyMiwtMTM0OTgxODczNiw3OD
+g2NzcwNDEsLTY0MTUxMTQ1LC0xNzY2MjUyMDgzLC00MTA5NjA2
+NzQsMTQ5MDMxMjQwMywtMTUxMzU4MjM0NywtNDE4MTc3NjU1LC
+0xNTg4MTczODAzLDU4MTgyMzEsMzkwOTA3ODAzLC0xNTIwNDEz
+MDc3LC0zNDY0MDIzMjksNTQxNTY0ODE2LDIxOTQyOTExNCwxNj
+MyOTI5MTIyLDMyODc2ODA2NSwxMzEwMDA0MDI4LDE5MzQxODM1
+ODFdfQ==
 -->
