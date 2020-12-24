@@ -19,6 +19,8 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 その名の通り汎用的に使える状態遷移図  
 ただし、GraphicsState、ComputeState、RtProgramでしか使われていない  
 
+GraphicsState、ComputeState、RtProgramでの使われ方としては、  
+描画に必要なデータをもとに各状態を作成し、
 
 
 ## GraphicsProgram
@@ -54,11 +56,11 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyNzMyODM0LC0xMzQ5ODE4NzM2LDc4OD
-Y3NzA0MSwtNjQxNTExNDUsLTE3NjYyNTIwODMsLTQxMDk2MDY3
-NCwxNDkwMzEyNDAzLC0xNTEzNTgyMzQ3LC00MTgxNzc2NTUsLT
-E1ODgxNzM4MDMsNTgxODIzMSwzOTA5MDc4MDMsLTE1MjA0MTMw
-NzcsLTM0NjQwMjMyOSw1NDE1NjQ4MTYsMjE5NDI5MTE0LDE2Mz
-I5MjkxMjIsMzI4NzY4MDY1LDEzMTAwMDQwMjgsMTkzNDE4MzU4
-MV19
+eyJoaXN0b3J5IjpbLTE2NzY1MzA2MDAsLTEzNDk4MTg3MzYsNz
+g4Njc3MDQxLC02NDE1MTE0NSwtMTc2NjI1MjA4MywtNDEwOTYw
+Njc0LDE0OTAzMTI0MDMsLTE1MTM1ODIzNDcsLTQxODE3NzY1NS
+wtMTU4ODE3MzgwMyw1ODE4MjMxLDM5MDkwNzgwMywtMTUyMDQx
+MzA3NywtMzQ2NDAyMzI5LDU0MTU2NDgxNiwyMTk0MjkxMTQsMT
+YzMjkyOTEyMiwzMjg3NjgwNjUsMTMxMDAwNDAyOCwxOTM0MTgz
+NTgxXX0=
 -->
