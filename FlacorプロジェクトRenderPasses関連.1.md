@@ -10,7 +10,7 @@ drawやdispatch処理さえないので、完全にサブクラス作成前提�
 
 ## GraphicsState
 TODO : 詳しく読む
-ビューポート、シザー、ルートシグネチャー、モデルのリソース、パイプラインなどGraphicsVars以外のものを管理  
+ビューポート、シザー、ルートシグネチャー、モデルのリソース、パイプライン、複数のFBOなどGraphicsVars以外のものを管理  
 RenderContextのdrawInstancedなどに渡される2つのうちの1つ  
 
 ## GraphicsProgram
@@ -46,10 +46,10 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MDMxMjQwMywtMTUxMzU4MjM0NywtND
-E4MTc3NjU1LC0xNTg4MTczODAzLDU4MTgyMzEsMzkwOTA3ODAz
-LC0xNTIwNDEzMDc3LC0zNDY0MDIzMjksNTQxNTY0ODE2LDIxOT
-QyOTExNCwxNjMyOTI5MTIyLDMyODc2ODA2NSwxMzEwMDA0MDI4
-LDE5MzQxODM1ODEsLTIwMDA2MzQ5MzEsMTY4Nzc5Njc5MiwtMj
-A5MTgwMjM2OV19
+eyJoaXN0b3J5IjpbLTE2MjYwMzUzMzYsMTQ5MDMxMjQwMywtMT
+UxMzU4MjM0NywtNDE4MTc3NjU1LC0xNTg4MTczODAzLDU4MTgy
+MzEsMzkwOTA3ODAzLC0xNTIwNDEzMDc3LC0zNDY0MDIzMjksNT
+QxNTY0ODE2LDIxOTQyOTExNCwxNjMyOTI5MTIyLDMyODc2ODA2
+NSwxMzEwMDA0MDI4LDE5MzQxODM1ODEsLTIwMDA2MzQ5MzEsMT
+Y4Nzc5Njc5MiwtMjA5MTgwMjM2OV19
 -->
