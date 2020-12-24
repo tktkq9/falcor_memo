@@ -9,9 +9,10 @@ drawやdispatch処理さえないので、完全にサブクラス作成前提�
 
 
 ## GraphicsState
-RenderContextのdrawInstancedなどに渡される2つのうちの1つ  
+RenderContextのdrawInstancedなどに渡される2つのうちの1つでパイプラインステートオブジェクトのようなもの  
 ルートシグネチャー、モデルのリソース、パイプライン、複数のビューポート、シザー、FBOなどGraphicsVars以外のものを設定、管理  
-また、ブレンドやデプスステンシルやカリングなどの設定管理はGraphicsStateObjectの方に押し付けている  
+ブレンドやデプスステンシルやカリングなどの設定管理はGraphicsStateObjectの方に押し付けている  
+
 また、パイプラインステートオブジェクトのラッパークラスであるGraphicsStateObjecの作成も担当しており、mpGsoGraphによる設定変更確認をもとにパイプラインオブジェクトの作成or再利用判定も行っている  
 
 大体は直接このクラスを通して設定するが、ProgramKernelsとRootSignatureはgetGSO()によってGraphicsVarsからもらってくる  
@@ -60,7 +61,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDcyMzE0MjMsMTU4Njg1MjM3OCw0ND
+eyJoaXN0b3J5IjpbLTE5NjMxOTcyODcsMTU4Njg1MjM3OCw0ND
 UzMjQyNTAsLTEzNDk4MTg3MzYsNzg4Njc3MDQxLC02NDE1MTE0
 NSwtMTc2NjI1MjA4MywtNDEwOTYwNjc0LDE0OTAzMTI0MDMsLT
 E1MTM1ODIzNDcsLTQxODE3NzY1NSwtMTU4ODE3MzgwMyw1ODE4
