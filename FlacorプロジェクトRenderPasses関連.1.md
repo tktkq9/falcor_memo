@@ -15,6 +15,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 また、ブレンドやデプスステンシルやカリングなどの設定管理はGraphicsStateObjectの方に押し付けている  
 大体は直接このクラスを通して設定するが、ProgramKernelsとRootSignatureはgetGSO()によってGraphicsVarsからもらってくる  
 
+StateGraph::SharedPtr mpGsoGraph;はおそらくMogwai用の情報かな？
 
 ## GraphicsProgram
 
@@ -49,7 +50,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDk4MTg3MzYsLTQxMDk2MDY3NCwxND
+eyJoaXN0b3J5IjpbLTE3NjYyNTIwODMsLTQxMDk2MDY3NCwxND
 kwMzEyNDAzLC0xNTEzNTgyMzQ3LC00MTgxNzc2NTUsLTE1ODgx
 NzM4MDMsNTgxODIzMSwzOTA5MDc4MDMsLTE1MjA0MTMwNzcsLT
 M0NjQwMjMyOSw1NDE1NjQ4MTYsMjE5NDI5MTE0LDE2MzI5Mjkx
