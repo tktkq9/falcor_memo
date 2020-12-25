@@ -27,7 +27,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つでパイ�
 その名の通り状態遷移図  
 汎用的に使えるが、GraphicsState、ComputeState、RtProgramといったパイプラインステートオブジェクト系でしか使われていない  
 
-GraphicsState、ComputeState、RtProgramでの使われ方としては、NodeType（パイプラインステートオブジェクトが割り当てられる）の格納、検索、再利用  
+GraphicsState、ComputeState、RtProgramでの使われ方としては、NodeType（パイプラインステートオブジェクトのクラスが割り当てられる）の格納、検索、再利用  
 描画に必要なデータ（例えばルートシグネチャーやFBOなど）をもとに各状態をwalk()を使って検索、なければ作成し、
 同じ状態を持つ場合は状態に設定したdataに割り当てたNodeType（例えばGraphicsStateではGraphicsStateObject）をgetCurrentNode()によって取得するために使われている  
 
@@ -65,7 +65,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDM0NTA0OSwxNzI1MDA0NDEwLC03OD
+eyJoaXN0b3J5IjpbLTE1NDg3MjY5NiwxNzI1MDA0NDEwLC03OD
 A1MzU4OTYsMTU4Njg1MjM3OCw0NDUzMjQyNTAsLTEzNDk4MTg3
 MzYsNzg4Njc3MDQxLC02NDE1MTE0NSwtMTc2NjI1MjA4MywtND
 EwOTYwNjc0LDE0OTAzMTI0MDMsLTE1MTM1ODIzNDcsLTQxODE3
