@@ -21,7 +21,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つでパイ�
 パイプラインステートオブジェクトのラッパークラス  
 作成に必要なデータがこのクラスのDescにすべて格納され、このデータによりパイプラインステートオブジェクトがapiInit()により作成される（このコードはD3D12GraphicsStateObject.cppの方で定義されている）  
 ちなみにapiInit()中に作成されているnvApi...はNVAPI用の処理  
-
+TODO : NVAPIの理解
 
 ### StateGraph
 その名の通り状態遷移図  
@@ -64,7 +64,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIyMTI3ODA2LC0yMTM1NjQzOTg1LDE2NT
+eyJoaXN0b3J5IjpbOTk4MDg0MTU3LC0yMTM1NjQzOTg1LDE2NT
 E1MDYwOTgsLTE1NDg3MjY5NiwxNzI1MDA0NDEwLC03ODA1MzU4
 OTYsMTU4Njg1MjM3OCw0NDUzMjQyNTAsLTEzNDk4MTg3MzYsNz
 g4Njc3MDQxLC02NDE1MTE0NSwtMTc2NjI1MjA4MywtNDEwOTYw
