@@ -19,7 +19,9 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つでパイ�
 
 ### GraphicsStateObject
 パイプラインステートオブジェクトのラッパークラス  
-作成に必要なデータも一通り格納される  
+作成に必要なデータが一通り格納され、このデータによりパイプラインステートオブジェクトがapiInit()により作成される（このコードはD3D12GraphicsStateObject.cppの方で定義されている）  
+
+  
 
 
 
@@ -64,11 +66,11 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTU1NjE1MzIsMTY1MTUwNjA5OCwtMT
-U0ODcyNjk2LDE3MjUwMDQ0MTAsLTc4MDUzNTg5NiwxNTg2ODUy
-Mzc4LDQ0NTMyNDI1MCwtMTM0OTgxODczNiw3ODg2NzcwNDEsLT
-Y0MTUxMTQ1LC0xNzY2MjUyMDgzLC00MTA5NjA2NzQsMTQ5MDMx
-MjQwMywtMTUxMzU4MjM0NywtNDE4MTc3NjU1LC0xNTg4MTczOD
-AzLDU4MTgyMzEsMzkwOTA3ODAzLC0xNTIwNDEzMDc3LC0zNDY0
-MDIzMjldfQ==
+eyJoaXN0b3J5IjpbLTI0MTkzNjE1OSwxNjUxNTA2MDk4LC0xNT
+Q4NzI2OTYsMTcyNTAwNDQxMCwtNzgwNTM1ODk2LDE1ODY4NTIz
+NzgsNDQ1MzI0MjUwLC0xMzQ5ODE4NzM2LDc4ODY3NzA0MSwtNj
+QxNTExNDUsLTE3NjYyNTIwODMsLTQxMDk2MDY3NCwxNDkwMzEy
+NDAzLC0xNTEzNTgyMzQ3LC00MTgxNzc2NTUsLTE1ODgxNzM4MD
+MsNTgxODIzMSwzOTA5MDc4MDMsLTE1MjA0MTMwNzcsLTM0NjQw
+MjMyOV19
 -->
