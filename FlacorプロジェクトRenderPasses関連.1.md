@@ -31,7 +31,6 @@ GraphicsState、ComputeState、RtProgramでの使われ方としては、NodeTyp
 描画に必要なデータ（例えばルートシグネチャーやFBOなど）をもとに各データに対応する状態遷移をwalk()を使って検索、なければ作成  
 そして同じデータ割り当てに対応する状態遷移を見つけた場合は、設定したNodeTypeオブジェクト（例えばGraphicsStateではGraphicsStateObject）をgetCurrentNode()によって取得、つまりNodeTypeオブジェクトの再利用を行えるようにするために使われている  
 
-
 ## GraphicsProgram
 
 
@@ -65,11 +64,11 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyMTU5NjIwLC0xNTQ4NzI2OTYsMTcyNT
-AwNDQxMCwtNzgwNTM1ODk2LDE1ODY4NTIzNzgsNDQ1MzI0MjUw
-LC0xMzQ5ODE4NzM2LDc4ODY3NzA0MSwtNjQxNTExNDUsLTE3Nj
-YyNTIwODMsLTQxMDk2MDY3NCwxNDkwMzEyNDAzLC0xNTEzNTgy
-MzQ3LC00MTgxNzc2NTUsLTE1ODgxNzM4MDMsNTgxODIzMSwzOT
-A5MDc4MDMsLTE1MjA0MTMwNzcsLTM0NjQwMjMyOSw1NDE1NjQ4
-MTZdfQ==
+eyJoaXN0b3J5IjpbMTY1MTUwNjA5OCwtMTU0ODcyNjk2LDE3Mj
+UwMDQ0MTAsLTc4MDUzNTg5NiwxNTg2ODUyMzc4LDQ0NTMyNDI1
+MCwtMTM0OTgxODczNiw3ODg2NzcwNDEsLTY0MTUxMTQ1LC0xNz
+Y2MjUyMDgzLC00MTA5NjA2NzQsMTQ5MDMxMjQwMywtMTUxMzU4
+MjM0NywtNDE4MTc3NjU1LC0xNTg4MTczODAzLDU4MTgyMzEsMz
+kwOTA3ODAzLC0xNTIwNDEzMDc3LC0zNDY0MDIzMjksNTQxNTY0
+ODE2XX0=
 -->
