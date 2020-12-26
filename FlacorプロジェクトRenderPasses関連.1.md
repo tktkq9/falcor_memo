@@ -40,7 +40,7 @@ GraphicsState、ComputeState、RtProgramでの使われ方としては、NodeTyp
 またその特性から、RootSignatureを作成する情報もすべてあるので、ここででシェーダーに対するRootSignatureが作成、保有される  
 
 ### ProgramVersionクラス
-Slangのコンパイルに必要な情報を一通り渡され保有し、この情報によってProgramのかんすうslangのコンパイルをし、対応するProgramKernelsの作成を行うためのクラス  
+Slangのコンパイルに必要な情報を一通り渡され保有し、この情報によってProgramの関数によりslangのコンパイルをし、対応するProgramKernelsの作成を行うためのクラス  
 
 コンパイルと作成はgetKernels(ProgramVars const* pVars)で行われ、今まで作成したProgramKernelsは配列として保持し再利用できるようになっている  
 
@@ -52,6 +52,7 @@ slangシェーダーファイルとその中身の情報の保持、管理用ク
 DefineListが変更されたかどうかも監視し、再コンパイルが必要かどうかの情報も管理する  
 
 ProgramKernelsに対してこちらはシェーダー寄りのクラス  
+そのためslangのためのSessionやらProfileやらコンパイルやらの実行のための処理もこちらで一通り実装されている  
 
 
 ## GraphicsProgram
@@ -87,7 +88,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyODk2NjgxMSwtMTk0Njg5MjYxNCwxND
+eyJoaXN0b3J5IjpbMTYwMTI1ODkzNCwtMTk0Njg5MjYxNCwxND
 AxNTUyMTE0LC0xODI2OTUwMTM1LC04OTQyNTUyOTAsLTQyMTcy
 MTczMiwxMzM1OTUyMTM2LC0xODAzNTIwMDA5LC0xMjcyMzE0Mj
 QxLDIxMDc4NDA2ODUsLTIxMzU2NDM5ODUsMTY1MTUwNjA5OCwt
