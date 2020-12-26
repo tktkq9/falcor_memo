@@ -63,7 +63,7 @@ Slangのコンパイルに必要な情報を一通り渡され保持し、この
 slangシェーダー（Program）のインターフェースなどをProgramVarsのspecializationArgsによってシェーダーが変わったかどうか判定し、ProgramKernelsを（Version）管理するためのクラスであることからProgramVersionと名付けられているのだろうか  
 ちなみにこれはProgramクラスで作成、管理されているので、最新バージョンのProgramってだけかもしれない（多分こっち）  
 
-### Programクラス
+### Programファイル
 slangシェーダーファイルとその中身の情報の保持、コンパイル処理、管理用クラス  
 エントリーポイントやシェーダーバージョン、シェーダーファイル、そしてこのシェーダーに設定したDefineListを管理する  
 DefineListが変更されたかどうかも監視し、再コンパイルが必要かどうかの情報も管理する  
@@ -76,7 +76,8 @@ ProgramKernelsに対してこちらはslangシェーダー寄りのクラス
 
 TODO : Programのslang処理の理解  
 
-### Shade
+### Shaderファイル、クラス
+
 
 # BaseGraphicsPassのサブクラス
 
@@ -99,11 +100,11 @@ TODO : Programのslang処理の理解
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQzOTM1ODUsLTQzMTAzMDM0MCwtMT
-UzOTg2Mjk3MCwtMTI4ODc2NTc4NCwtOTUzMjUxNTkwLDQ2OTQ3
-MjIwMywtNDU5OTE0Mzk0LDM0NzEzOTU4OSwxMzEyNjE4NTU5LC
-0xOTQ2ODkyNjE0LDE0MDE1NTIxMTQsLTE4MjY5NTAxMzUsLTg5
-NDI1NTI5MCwtNDIxNzIxNzMyLDEzMzU5NTIxMzYsLTE4MDM1Mj
-AwMDksLTEyNzIzMTQyNDEsMjEwNzg0MDY4NSwtMjEzNTY0Mzk4
-NSwxNjUxNTA2MDk4XX0=
+eyJoaXN0b3J5IjpbMTAzMTc1NzI3MCwtNDMxMDMwMzQwLC0xNT
+M5ODYyOTcwLC0xMjg4NzY1Nzg0LC05NTMyNTE1OTAsNDY5NDcy
+MjAzLC00NTk5MTQzOTQsMzQ3MTM5NTg5LDEzMTI2MTg1NTksLT
+E5NDY4OTI2MTQsMTQwMTU1MjExNCwtMTgyNjk1MDEzNSwtODk0
+MjU1MjkwLC00MjE3MjE3MzIsMTMzNTk1MjEzNiwtMTgwMzUyMD
+AwOSwtMTI3MjMxNDI0MSwyMTA3ODQwNjg1LC0yMTM1NjQzOTg1
+LDE2NTE1MDYwOThdfQ==
 -->
