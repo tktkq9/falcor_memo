@@ -58,7 +58,6 @@ Slangのコンパイルに必要な情報を一通り渡され保持し、この
 コンパイルと作成はgetKernels(ProgramVars const* pVars)で行われ、今まで作成したProgramKernelsは配列として保持し再利用できるようになっている  
 
 slangシェーダー（Program）のインターフェースなどをProgramVarsのspecializationArgsによってシェーダーが変わったかどうか判定し、ProgramKernelsを（Version）管理するためのクラスであることからProgramVersionと名付けられているのだろうか  
-
 ちなみにこれはProgramクラスで作成、管理されているので、最新バージョンのProgramってだけかもしれない（多分こっち）  
 
 ### Programクラス
@@ -97,7 +96,7 @@ TODO : Programのslang処理の理解
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIzMTQ0ODkyLC0xMjg4NzY1Nzg0LC05NT
+eyJoaXN0b3J5IjpbMjEzMTQ2ODU4LC0xMjg4NzY1Nzg0LC05NT
 MyNTE1OTAsNDY5NDcyMjAzLC00NTk5MTQzOTQsMzQ3MTM5NTg5
 LDEzMTI2MTg1NTksLTE5NDY4OTI2MTQsMTQwMTU1MjExNCwtMT
 gyNjk1MDEzNSwtODk0MjU1MjkwLC00MjE3MjE3MzIsMTMzNTk1
