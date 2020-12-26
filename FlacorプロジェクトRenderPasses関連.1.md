@@ -36,10 +36,10 @@ GraphicsState、ComputeState、RtProgramでの使われ方としては、NodeTyp
 ## ProgramVersion
 
 ### ProgramKernelsクラス
+slangでのシェーダーを作成する場所であることから、RootSignatureを作成する情報もすべてあるので
 
 ### ProgramVersionクラス
 必要な情報を渡し、Slangのコンパイルを行いそのslangコンポーネントとアクセスの代行を行うためのクラス  
-
 
 
 ## GraphicsProgram
@@ -75,11 +75,11 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDM1MjAwMDksLTEyNzIzMTQyNDEsMj
-EwNzg0MDY4NSwtMjEzNTY0Mzk4NSwxNjUxNTA2MDk4LC0xNTQ4
-NzI2OTYsMTcyNTAwNDQxMCwtNzgwNTM1ODk2LDE1ODY4NTIzNz
-gsNDQ1MzI0MjUwLC0xMzQ5ODE4NzM2LDc4ODY3NzA0MSwtNjQx
-NTExNDUsLTE3NjYyNTIwODMsLTQxMDk2MDY3NCwxNDkwMzEyND
-AzLC0xNTEzNTgyMzQ3LC00MTgxNzc2NTUsLTE1ODgxNzM4MDMs
-NTgxODIzMV19
+eyJoaXN0b3J5IjpbLTcyMzc0MjMyNywtMTgwMzUyMDAwOSwtMT
+I3MjMxNDI0MSwyMTA3ODQwNjg1LC0yMTM1NjQzOTg1LDE2NTE1
+MDYwOTgsLTE1NDg3MjY5NiwxNzI1MDA0NDEwLC03ODA1MzU4OT
+YsMTU4Njg1MjM3OCw0NDUzMjQyNTAsLTEzNDk4MTg3MzYsNzg4
+Njc3MDQxLC02NDE1MTE0NSwtMTc2NjI1MjA4MywtNDEwOTYwNj
+c0LDE0OTAzMTI0MDMsLTE1MTM1ODIzNDcsLTQxODE3NzY1NSwt
+MTU4ODE3MzgwM119
 -->
