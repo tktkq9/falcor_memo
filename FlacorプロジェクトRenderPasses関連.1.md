@@ -46,6 +46,10 @@ Slangのコンパイルに必要な情報を一通り渡され保有し、この
 
 slangシェーダー（Program）のインターフェースなどをProgramVarsのspecializationArgsによってシェーダーが変わったかどうか判定し、ProgramKernelsを（Version）管理するためのクラスであることからProgramVersionと名付けられているのだろうか  
 
+### Program
+slangシェーダーの中身の情報  
+slangじゃないならここでコンパイルしたものを
+
 ## GraphicsProgram
 
 
@@ -79,11 +83,11 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI2MDA4NiwtMTgyNjk1MDEzNSwtODk0Mj
-U1MjkwLC00MjE3MjE3MzIsMTMzNTk1MjEzNiwtMTgwMzUyMDAw
-OSwtMTI3MjMxNDI0MSwyMTA3ODQwNjg1LC0yMTM1NjQzOTg1LD
-E2NTE1MDYwOTgsLTE1NDg3MjY5NiwxNzI1MDA0NDEwLC03ODA1
-MzU4OTYsMTU4Njg1MjM3OCw0NDUzMjQyNTAsLTEzNDk4MTg3Mz
-YsNzg4Njc3MDQxLC02NDE1MTE0NSwtMTc2NjI1MjA4MywtNDEw
-OTYwNjc0XX0=
+eyJoaXN0b3J5IjpbLTIxNDMwMzc2MDgsLTE4MjY5NTAxMzUsLT
+g5NDI1NTI5MCwtNDIxNzIxNzMyLDEzMzU5NTIxMzYsLTE4MDM1
+MjAwMDksLTEyNzIzMTQyNDEsMjEwNzg0MDY4NSwtMjEzNTY0Mz
+k4NSwxNjUxNTA2MDk4LC0xNTQ4NzI2OTYsMTcyNTAwNDQxMCwt
+NzgwNTM1ODk2LDE1ODY4NTIzNzgsNDQ1MzI0MjUwLC0xMzQ5OD
+E4NzM2LDc4ODY3NzA0MSwtNjQxNTExNDUsLTE3NjYyNTIwODMs
+LTQxMDk2MDY3NF19
 -->
