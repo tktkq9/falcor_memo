@@ -49,7 +49,8 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 ### ProgramKernelsクラス
 一つのslangシェーダーのコンパイルされたものと、それをdx12側で扱うための情報を保持するためのクラス  
-情報は各エントリーポイントのブロブ（Shaderクラス）の配列とかProgramReflectionとか
+情報は各エントリーポイントのブロブ（Shaderクラス）の配列とかProgramReflectionとか  
+
 またその特性から、RootSignatureを作成する情報もすべてあるので、ここででシェーダーブロブに対するRootSignatureが作成、保持される  
 
 ちなみにこれはProgramクラスで作成、ProgramVersionで管理されている  
@@ -106,11 +107,11 @@ Program
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU0ODA5MzU5LC00MzEwMzAzNDAsLTE1Mz
-k4NjI5NzAsLTEyODg3NjU3ODQsLTk1MzI1MTU5MCw0Njk0NzIy
-MDMsLTQ1OTkxNDM5NCwzNDcxMzk1ODksMTMxMjYxODU1OSwtMT
-k0Njg5MjYxNCwxNDAxNTUyMTE0LC0xODI2OTUwMTM1LC04OTQy
-NTUyOTAsLTQyMTcyMTczMiwxMzM1OTUyMTM2LC0xODAzNTIwMD
-A5LC0xMjcyMzE0MjQxLDIxMDc4NDA2ODUsLTIxMzU2NDM5ODUs
-MTY1MTUwNjA5OF19
+eyJoaXN0b3J5IjpbMTUyMDMzMTE2OSwtNDMxMDMwMzQwLC0xNT
+M5ODYyOTcwLC0xMjg4NzY1Nzg0LC05NTMyNTE1OTAsNDY5NDcy
+MjAzLC00NTk5MTQzOTQsMzQ3MTM5NTg5LDEzMTI2MTg1NTksLT
+E5NDY4OTI2MTQsMTQwMTU1MjExNCwtMTgyNjk1MDEzNSwtODk0
+MjU1MjkwLC00MjE3MjE3MzIsMTMzNTk1MjEzNiwtMTgwMzUyMD
+AwOSwtMTI3MjMxNDI0MSwyMTA3ODQwNjg1LC0yMTM1NjQzOTg1
+LDE2NTE1MDYwOThdfQ==
 -->
