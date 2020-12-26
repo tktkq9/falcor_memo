@@ -38,7 +38,8 @@ GraphicsState、ComputeState、RtProgramでの使われ方としては、NodeTyp
 ### ProgramKernelsクラス
 
 ### ProgramVersionクラス
-SlangのAPIを用いて
+必要な情報を渡し、Slangのコンパイルを行いそのslangコンポーネントとアクセスの代行を行うためのクラス  
+
 
 
 ## GraphicsProgram
@@ -74,7 +75,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjU1OTU3MDgsLTEyNzIzMTQyNDEsMj
+eyJoaXN0b3J5IjpbLTE4MDM1MjAwMDksLTEyNzIzMTQyNDEsMj
 EwNzg0MDY4NSwtMjEzNTY0Mzk4NSwxNjUxNTA2MDk4LC0xNTQ4
 NzI2OTYsMTcyNTAwNDQxMCwtNzgwNTM1ODk2LDE1ODY4NTIzNz
 gsNDQ1MzI0MjUwLC0xMzQ5ODE4NzM2LDc4ODY3NzA0MSwtNjQx
