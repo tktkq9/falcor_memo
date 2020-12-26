@@ -34,7 +34,7 @@ GraphicsState、ComputeState、RtProgramでの使われ方としては、NodeTyp
 描画に必要なデータ（例えばルートシグネチャーやFBOなど）をもとに各データに対応する状態遷移をwalk()を使って検索、なければ作成  
 そして同じデータ割り当てに対応する状態遷移を見つけた場合は、設定したNodeTypeオブジェクト（例えばGraphicsStateではGraphicsStateObject）をgetCurrentNode()によって取得、つまりNodeTypeオブジェクトの再利用を行えるようにするために使われている  
 
-## ProgramVersion
+## ProgramVersion, Programファイル関連
 
 ### ProgramKernelsクラス
 一つのslangシェーダーのコンパイルされたものと、それをdx12側で扱うための情報を保持するためのクラス  
@@ -48,7 +48,7 @@ Slangのコンパイルに必要な情報を一通り渡され保持し、この
 
 slangシェーダー（Program）のインターフェースなどをProgramVarsのspecializationArgsによってシェーダーが変わったかどうか判定し、ProgramKernelsを（Version）管理するためのクラスであることからProgramVersionと名付けられているのだろうか  
 
-## Program
+### Programクラス
 slangシェーダーファイルとその中身の情報の保持、コンパイル処理、管理用クラス  
 エントリーポイントやシェーダーバージョン、シェーダーファイル、そしてこのシェーダーに設定したDefineListを管理する  
 DefineListが変更されたかどうかも監視し、再コンパイルが必要かどうかの情報も管理する  
@@ -94,7 +94,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MjI4MzkyNSwtNDU5OTE0Mzk0LDM0Nz
+eyJoaXN0b3J5IjpbLTU5ODU1MDc5MSwtNDU5OTE0Mzk0LDM0Nz
 EzOTU4OSwxMzEyNjE4NTU5LC0xOTQ2ODkyNjE0LDE0MDE1NTIx
 MTQsLTE4MjY5NTAxMzUsLTg5NDI1NTI5MCwtNDIxNzIxNzMyLD
 EzMzU5NTIxMzYsLTE4MDM1MjAwMDksLTEyNzIzMTQyNDEsMjEw
