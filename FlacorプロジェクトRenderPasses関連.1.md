@@ -36,7 +36,7 @@ GraphicsState、ComputeState、RtProgramでの使われ方としては、NodeTyp
 
 ## GraphicsProgram
 GraphicsState用のProgramクラスのサブクラス  
-といってもcreate
+中身はそのままProgramクラスを作るためのラッパー関数とpybind11のやつのみ
 
 ざっくりProgramクラスを説明すると、シェーダーを管理し、そこからシェーダーブロブやルートシグネチャーを保持するProgramKernelsを取得するためのクラス  
 詳しくは[ProgramVersion, Program, Shaderファイル関連 （TODO : リンク）](https://github.com/tktkq9/falcor_memo/tree/main)  
@@ -117,7 +117,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MTUzMTQxOCwxMDEzOTI5NzY4LC05OT
+eyJoaXN0b3J5IjpbLTY2OTMwMDM1OSwxMDEzOTI5NzY4LC05OT
 EzMzg3NDIsLTIxMjk0Mzg5NjEsLTQzMTAzMDM0MCwtMTUzOTg2
 Mjk3MCwtMTI4ODc2NTc4NCwtOTUzMjUxNTkwLDQ2OTQ3MjIwMy
 wtNDU5OTE0Mzk0LDM0NzEzOTU4OSwxMzEyNjE4NTU5LC0xOTQ2
