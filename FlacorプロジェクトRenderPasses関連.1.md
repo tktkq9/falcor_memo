@@ -51,7 +51,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 一つのslangシェーダーのコンパイルされたものと、それをdx12側で扱うための情報を保持するためのクラス  
 情報は各エントリーポイントのブロブ（Shaderクラス）の配列とかProgramReflectionとか  
 
-またその特性からRootSignatureを作成する情報もすべてあるので、ここででシェーダーブロブに対するRootSignatureが作成、保持される  
+またその特性からRootSignatureを作成する情報もすべてあるので、ここでシェーダーブロブに対するRootSignatureが作成、保持される  
 
 ちなみにこれはProgramクラスで作成、ProgramVersionで管理されている  
 そのためProgramReflection以外の大体の情報はProgramVersionとProgramから作成され渡される  
@@ -107,7 +107,7 @@ Program
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzE0NjE2MDIsLTQzMTAzMDM0MCwtMT
+eyJoaXN0b3J5IjpbLTIxMjk0Mzg5NjEsLTQzMTAzMDM0MCwtMT
 UzOTg2Mjk3MCwtMTI4ODc2NTc4NCwtOTUzMjUxNTkwLDQ2OTQ3
 MjIwMywtNDU5OTE0Mzk0LDM0NzEzOTU4OSwxMzEyNjE4NTU5LC
 0xOTQ2ODkyNjE0LDE0MDE1NTIxMTQsLTE4MjY5NTAxMzUsLTg5
