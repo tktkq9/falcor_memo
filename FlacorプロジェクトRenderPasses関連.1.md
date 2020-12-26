@@ -45,10 +45,11 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 ## ShaderVar
 
-## ProgramVersion, Programファイル関連
+## ProgramVersion, Program, Shaderファイル関連
 
 ### ProgramKernelsクラス
 一つのslangシェーダーのコンパイルされたものと、それをdx12側で扱うための情報を保持するためのクラス  
+エントリーポイントとか
 またその特性から、RootSignatureを作成する情報もすべてあるので、ここででシェーダーブロブに対するRootSignatureが作成、保持される  
 
 ちなみにこれはProgramクラスで作成、ProgramVersionで管理されている  
@@ -75,7 +76,7 @@ ProgramKernelsに対してこちらはslangシェーダー寄りのクラス
 
 TODO : Programのslang処理の理解  
 
-
+### 
 
 # BaseGraphicsPassのサブクラス
 
@@ -98,11 +99,11 @@ TODO : Programのslang処理の理解
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDIyMDUzOCwtMTUzOTg2Mjk3MCwtMT
-I4ODc2NTc4NCwtOTUzMjUxNTkwLDQ2OTQ3MjIwMywtNDU5OTE0
-Mzk0LDM0NzEzOTU4OSwxMzEyNjE4NTU5LC0xOTQ2ODkyNjE0LD
-E0MDE1NTIxMTQsLTE4MjY5NTAxMzUsLTg5NDI1NTI5MCwtNDIx
-NzIxNzMyLDEzMzU5NTIxMzYsLTE4MDM1MjAwMDksLTEyNzIzMT
-QyNDEsMjEwNzg0MDY4NSwtMjEzNTY0Mzk4NSwxNjUxNTA2MDk4
-LC0xNTQ4NzI2OTZdfQ==
+eyJoaXN0b3J5IjpbOTA2NTQ2Mjc0LC0xNTM5ODYyOTcwLC0xMj
+g4NzY1Nzg0LC05NTMyNTE1OTAsNDY5NDcyMjAzLC00NTk5MTQz
+OTQsMzQ3MTM5NTg5LDEzMTI2MTg1NTksLTE5NDY4OTI2MTQsMT
+QwMTU1MjExNCwtMTgyNjk1MDEzNSwtODk0MjU1MjkwLC00MjE3
+MjE3MzIsMTMzNTk1MjEzNiwtMTgwMzUyMDAwOSwtMTI3MjMxND
+I0MSwyMTA3ODQwNjg1LC0yMTM1NjQzOTg1LDE2NTE1MDYwOTgs
+LTE1NDg3MjY5Nl19
 -->
