@@ -51,7 +51,7 @@ slangシェーダーファイルとその中身の情報の保持、管理用ク
 エントリーポイントやシェーダーバージョン、シェーダーファイル、そしてこのシェーダーに設定したDefineListを管理する  
 DefineListが変更されたかどうかも監視し、再コンパイルが必要かどうかの情報も管理する  
 
-ProgramKernelsに対してこちらはシェーダー寄りのクラス  
+ProgramKernelsに対してこちらはslangシェーダー寄りのクラス  
 そのためslangのためのSessionやらProfileやらコンパイルやらの実行のための処理もこちらで一通り実装されている  
 
 
@@ -88,7 +88,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMTI1ODkzNCwtMTk0Njg5MjYxNCwxND
+eyJoaXN0b3J5IjpbMTMxMjYxODU1OSwtMTk0Njg5MjYxNCwxND
 AxNTUyMTE0LC0xODI2OTUwMTM1LC04OTQyNTUyOTAsLTQyMTcy
 MTczMiwxMzM1OTUyMTM2LC0xODAzNTIwMDA5LC0xMjcyMzE0Mj
 QxLDIxMDc4NDA2ODUsLTIxMzU2NDM5ODUsMTY1MTUwNjA5OCwt
