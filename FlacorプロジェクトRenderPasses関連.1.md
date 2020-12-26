@@ -85,7 +85,7 @@ Program
 
 ちなみにDefineListもこのクラス内に定義されているが直接このクラスで使われることはない。なぜここに作った  
 
-あとShaderファイルにはComPtrテンプレートクラスもあるが、これも特別シェーダーのみのためのものではなくどちらかというとProgramクラスでよく使われている。こいつら全員Programに統合された方がいいと思う  
+あとShaderファイルにはComPtrテンプレートクラスもあるが、これも特別シェーダーのみのためのものではなくどちらかというとProgramクラスでよく使われている。こいつら全員Programファイルに吸収された方がいいと思う  
 
 
 # BaseGraphicsPassのサブクラス
@@ -109,7 +109,7 @@ Program
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcwNDYwOTc4LC0yMTI5NDM4OTYxLC00Mz
+eyJoaXN0b3J5IjpbMzMxNzAyNTI2LC0yMTI5NDM4OTYxLC00Mz
 EwMzAzNDAsLTE1Mzk4NjI5NzAsLTEyODg3NjU3ODQsLTk1MzI1
 MTU5MCw0Njk0NzIyMDMsLTQ1OTkxNDM5NCwzNDcxMzk1ODksMT
 MxMjYxODU1OSwtMTk0Njg5MjYxNCwxNDAxNTUyMTE0LC0xODI2
