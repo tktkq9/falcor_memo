@@ -86,9 +86,8 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 あとShaderファイルにはComPtrテンプレートクラスもあるが、これも特別シェーダーのみのためのものではなくどちらかというとProgramクラスでよく使われている  
 
-もしかしたらSlang適合時の残留物であるのだろうか（SlangはFalcorができた後に作成され、それなりに後のバージョンで統合され）  
+もしかしたらこれらはSlang適用時の残留物であろうか（SlangはFalcorができた後に作成され、それなりに後のバージョンで適用された）  
 こいつら全員Programファイルに吸収された方がいいと思う  
-
 
 # BaseGraphicsPassのサブクラス
 
@@ -111,7 +110,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MTA3ODIxMSwtOTkxMzM4NzQyLC0yMT
+eyJoaXN0b3J5IjpbMTQ5NDgyNjI0NCwtOTkxMzM4NzQyLC0yMT
 I5NDM4OTYxLC00MzEwMzAzNDAsLTE1Mzk4NjI5NzAsLTEyODg3
 NjU3ODQsLTk1MzI1MTU5MCw0Njk0NzIyMDMsLTQ1OTkxNDM5NC
 wzNDcxMzk1ODksMTMxMjYxODU1OSwtMTk0Njg5MjYxNCwxNDAx
