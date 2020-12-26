@@ -35,7 +35,8 @@ GraphicsState、ComputeState、RtProgramでの使われ方としては、NodeTyp
 そして同じデータ割り当てに対応する状態遷移を見つけた場合は、設定したNodeTypeオブジェクト（例えばGraphicsStateではGraphicsStateObject）をgetCurrentNode()によって取得、つまりNodeTypeオブジェクトの再利用を行えるようにするために使われている  
 
 ## GraphicsProgram
-
+Programクラスのサブクラス  
+Programクラス自体は[ProgramVersion, Program, Shaderファイル関連 TODO : リンク]()
 
 ## GraphicsVars
 TODO : 詳しく読む
@@ -111,11 +112,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMzkyOTc2OCwtOTkxMzM4NzQyLC0yMT
-I5NDM4OTYxLC00MzEwMzAzNDAsLTE1Mzk4NjI5NzAsLTEyODg3
-NjU3ODQsLTk1MzI1MTU5MCw0Njk0NzIyMDMsLTQ1OTkxNDM5NC
-wzNDcxMzk1ODksMTMxMjYxODU1OSwtMTk0Njg5MjYxNCwxNDAx
-NTUyMTE0LC0xODI2OTUwMTM1LC04OTQyNTUyOTAsLTQyMTcyMT
-czMiwxMzM1OTUyMTM2LC0xODAzNTIwMDA5LC0xMjcyMzE0MjQx
-LDIxMDc4NDA2ODVdfQ==
+eyJoaXN0b3J5IjpbOTY3MjMyNzc0LDEwMTM5Mjk3NjgsLTk5MT
+MzODc0MiwtMjEyOTQzODk2MSwtNDMxMDMwMzQwLC0xNTM5ODYy
+OTcwLC0xMjg4NzY1Nzg0LC05NTMyNTE1OTAsNDY5NDcyMjAzLC
+00NTk5MTQzOTQsMzQ3MTM5NTg5LDEzMTI2MTg1NTksLTE5NDY4
+OTI2MTQsMTQwMTU1MjExNCwtMTgyNjk1MDEzNSwtODk0MjU1Mj
+kwLC00MjE3MjE3MzIsMTMzNTk1MjEzNiwtMTgwMzUyMDAwOSwt
+MTI3MjMxNDI0MV19
 -->
