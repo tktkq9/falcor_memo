@@ -76,7 +76,9 @@ ProgramKernelsに対してこちらはslangシェーダー寄りのクラス
 
 TODO : Programのslang処理の理解  
 
-### Shaderファイル、クラス
+### Shaderクラス
+Shaderという名を持つが、どちらかというとエントリーポイントのブロブクラス  
+
 
 
 # BaseGraphicsPassのサブクラス
@@ -100,7 +102,7 @@ TODO : Programのslang処理の理解
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTc1NzI3MCwtNDMxMDMwMzQwLC0xNT
+eyJoaXN0b3J5IjpbLTI5NDc3NTUxNywtNDMxMDMwMzQwLC0xNT
 M5ODYyOTcwLC0xMjg4NzY1Nzg0LC05NTMyNTE1OTAsNDY5NDcy
 MjAzLC00NTk5MTQzOTQsMzQ3MTM5NTg5LDEzMTI2MTg1NTksLT
 E5NDY4OTI2MTQsMTQwMTU1MjExNCwtMTgyNjk1MDEzNSwtODk0
