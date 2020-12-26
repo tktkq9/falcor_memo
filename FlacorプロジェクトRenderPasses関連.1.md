@@ -48,7 +48,7 @@ slangシェーダー（Program）のインターフェースなどをProgramVars
 
 ### Program
 slangシェーダーファイルとその中身の情報の保持、管理用クラス  
-エントリーポイントやシェーダーバージョン、シェーダーファイル、
+エントリーポイントやシェーダーバージョン、シェーダーファイル、で
 
 slangじゃないならここでコンパイルしたものを保持すればいいのだろうけれども、slangはインターフェースなどによる実行中に変更できる要素があるので、おそらくその中間言語も保持していると思われる  
 
@@ -86,11 +86,11 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMTU1MjExNCwtMTgyNjk1MDEzNSwtOD
-k0MjU1MjkwLC00MjE3MjE3MzIsMTMzNTk1MjEzNiwtMTgwMzUy
-MDAwOSwtMTI3MjMxNDI0MSwyMTA3ODQwNjg1LC0yMTM1NjQzOT
-g1LDE2NTE1MDYwOTgsLTE1NDg3MjY5NiwxNzI1MDA0NDEwLC03
-ODA1MzU4OTYsMTU4Njg1MjM3OCw0NDUzMjQyNTAsLTEzNDk4MT
-g3MzYsNzg4Njc3MDQxLC02NDE1MTE0NSwtMTc2NjI1MjA4Mywt
-NDEwOTYwNjc0XX0=
+eyJoaXN0b3J5IjpbMTY4OTE4ODAyNSwxNDAxNTUyMTE0LC0xOD
+I2OTUwMTM1LC04OTQyNTUyOTAsLTQyMTcyMTczMiwxMzM1OTUy
+MTM2LC0xODAzNTIwMDA5LC0xMjcyMzE0MjQxLDIxMDc4NDA2OD
+UsLTIxMzU2NDM5ODUsMTY1MTUwNjA5OCwtMTU0ODcyNjk2LDE3
+MjUwMDQ0MTAsLTc4MDUzNTg5NiwxNTg2ODUyMzc4LDQ0NTMyND
+I1MCwtMTM0OTgxODczNiw3ODg2NzcwNDEsLTY0MTUxMTQ1LC0x
+NzY2MjUyMDgzXX0=
 -->
