@@ -34,6 +34,17 @@ GraphicsState、ComputeState、RtProgramでの使われ方としては、NodeTyp
 描画に必要なデータ（例えばルートシグネチャーやFBOなど）をもとに各データに対応する状態遷移をwalk()を使って検索、なければ作成  
 そして同じデータ割り当てに対応する状態遷移を見つけた場合は、設定したNodeTypeオブジェクト（例えばGraphicsStateではGraphicsStateObject）をgetCurrentNode()によって取得、つまりNodeTypeオブジェクトの再利用を行えるようにするために使われている  
 
+## GraphicsProgram
+
+
+## GraphicsVars
+TODO : 詳しく読む
+シェーダーに渡す変数、バッファーなどを管理  
+RenderContextのdrawInstancedなどに渡される2つのうちの1つ  
+
+
+## ShaderVar
+
 ## ProgramVersion, Programファイル関連
 
 ### ProgramKernelsクラス
@@ -61,16 +72,6 @@ ProgramKernelsに対してこちらはslangシェーダー寄りのクラス
 
 TODO : Programのslang処理の理解  
 
-## GraphicsProgram
-
-
-## GraphicsVars
-TODO : 詳しく読む
-シェーダーに渡す変数、バッファーなどを管理  
-RenderContextのdrawInstancedなどに渡される2つのうちの1つ  
-
-
-## ShaderVar
 
 
 # BaseGraphicsPassのサブクラス
@@ -94,11 +95,11 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODU1MDc5MSwtNDU5OTE0Mzk0LDM0Nz
-EzOTU4OSwxMzEyNjE4NTU5LC0xOTQ2ODkyNjE0LDE0MDE1NTIx
-MTQsLTE4MjY5NTAxMzUsLTg5NDI1NTI5MCwtNDIxNzIxNzMyLD
-EzMzU5NTIxMzYsLTE4MDM1MjAwMDksLTEyNzIzMTQyNDEsMjEw
-Nzg0MDY4NSwtMjEzNTY0Mzk4NSwxNjUxNTA2MDk4LC0xNTQ4Nz
-I2OTYsMTcyNTAwNDQxMCwtNzgwNTM1ODk2LDE1ODY4NTIzNzgs
-NDQ1MzI0MjUwXX0=
+eyJoaXN0b3J5IjpbNDY5NDcyMjAzLC00NTk5MTQzOTQsMzQ3MT
+M5NTg5LDEzMTI2MTg1NTksLTE5NDY4OTI2MTQsMTQwMTU1MjEx
+NCwtMTgyNjk1MDEzNSwtODk0MjU1MjkwLC00MjE3MjE3MzIsMT
+MzNTk1MjEzNiwtMTgwMzUyMDAwOSwtMTI3MjMxNDI0MSwyMTA3
+ODQwNjg1LC0yMTM1NjQzOTg1LDE2NTE1MDYwOTgsLTE1NDg3Mj
+Y5NiwxNzI1MDA0NDEwLC03ODA1MzU4OTYsMTU4Njg1MjM3OCw0
+NDUzMjQyNTBdfQ==
 -->
