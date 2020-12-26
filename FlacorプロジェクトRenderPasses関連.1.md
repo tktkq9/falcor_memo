@@ -81,7 +81,6 @@ TODO : Programのslang処理の理解
 
 ### Shaderクラス
 Shaderという名を持つが、シェーダー本体はProgramクラスの方であり、こちらはどちらかというとエントリーポイントのブロブクラス  
-Program
 
 ちなみにDefineListもこのクラス内に定義されているが主にProgramのコンパイルとかで使われ、さらにこのクラスでは使われることはない。なぜここに作った  
 
@@ -109,11 +108,11 @@ Program
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTMzODc0MiwtMjEyOTQzODk2MSwtND
-MxMDMwMzQwLC0xNTM5ODYyOTcwLC0xMjg4NzY1Nzg0LC05NTMy
-NTE1OTAsNDY5NDcyMjAzLC00NTk5MTQzOTQsMzQ3MTM5NTg5LD
-EzMTI2MTg1NTksLTE5NDY4OTI2MTQsMTQwMTU1MjExNCwtMTgy
-Njk1MDEzNSwtODk0MjU1MjkwLC00MjE3MjE3MzIsMTMzNTk1Mj
-EzNiwtMTgwMzUyMDAwOSwtMTI3MjMxNDI0MSwyMTA3ODQwNjg1
-LC0yMTM1NjQzOTg1XX0=
+eyJoaXN0b3J5IjpbLTEwOTU3NDg1MDIsLTk5MTMzODc0MiwtMj
+EyOTQzODk2MSwtNDMxMDMwMzQwLC0xNTM5ODYyOTcwLC0xMjg4
+NzY1Nzg0LC05NTMyNTE1OTAsNDY5NDcyMjAzLC00NTk5MTQzOT
+QsMzQ3MTM5NTg5LDEzMTI2MTg1NTksLTE5NDY4OTI2MTQsMTQw
+MTU1MjExNCwtMTgyNjk1MDEzNSwtODk0MjU1MjkwLC00MjE3Mj
+E3MzIsMTMzNTk1MjEzNiwtMTgwMzUyMDAwOSwtMTI3MjMxNDI0
+MSwyMTA3ODQwNjg1XX0=
 -->
