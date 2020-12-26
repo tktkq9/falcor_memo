@@ -41,7 +41,7 @@ GraphicsState、ComputeState、RtProgramでの使われ方としては、NodeTyp
 
 ### ProgramVersionクラス
 Slangのコンパイルに必要な情報を一通り渡され保有し、この情報によってslangのコンパイルをし、対応するProgramKernelsの作成を行うためのクラス  
-コンパイルと作成はgetKernels()の時に行われ、今まで作成したProgramKernelsは配列として保持し再利用できるようになっている  
+コンパイルと作成はgetKernels(ProgramVars const* pVars)の時に行われ、今まで作成したProgramKernelsは配列として保持し再利用できるようになっている  
 
 
 ## GraphicsProgram
@@ -77,11 +77,11 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NDI1NTI5MCwtNDIxNzIxNzMyLDEzMz
-U5NTIxMzYsLTE4MDM1MjAwMDksLTEyNzIzMTQyNDEsMjEwNzg0
-MDY4NSwtMjEzNTY0Mzk4NSwxNjUxNTA2MDk4LC0xNTQ4NzI2OT
-YsMTcyNTAwNDQxMCwtNzgwNTM1ODk2LDE1ODY4NTIzNzgsNDQ1
-MzI0MjUwLC0xMzQ5ODE4NzM2LDc4ODY3NzA0MSwtNjQxNTExND
-UsLTE3NjYyNTIwODMsLTQxMDk2MDY3NCwxNDkwMzEyNDAzLC0x
-NTEzNTgyMzQ3XX0=
+eyJoaXN0b3J5IjpbLTI0MzU0MTE5MSwtODk0MjU1MjkwLC00Mj
+E3MjE3MzIsMTMzNTk1MjEzNiwtMTgwMzUyMDAwOSwtMTI3MjMx
+NDI0MSwyMTA3ODQwNjg1LC0yMTM1NjQzOTg1LDE2NTE1MDYwOT
+gsLTE1NDg3MjY5NiwxNzI1MDA0NDEwLC03ODA1MzU4OTYsMTU4
+Njg1MjM3OCw0NDUzMjQyNTAsLTEzNDk4MTg3MzYsNzg4Njc3MD
+QxLC02NDE1MTE0NSwtMTc2NjI1MjA4MywtNDEwOTYwNjc0LDE0
+OTAzMTI0MDNdfQ==
 -->
