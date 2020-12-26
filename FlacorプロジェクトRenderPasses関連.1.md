@@ -49,7 +49,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 シェーダーの中身とそれをdx12用のシェーダーブロブやルートシグネチャーにするためのなんやかんや  
 こいつらにProgramVarsとProgramReflectionを渡すことによりシェーダーブロブやルートシグネチャーが作成されProgramKernelsに保持される  
 
-このProgramKernelsを使うことによって、GraphicsStateとかでパイプラインステートオブジェクトが作成されるんですよー  
+このProgramKernelsを使い、GraphicsStateとかでパイプラインステートオブジェクトが作成されるんやで  
 
 ### ProgramKernelsクラス
 一つのslangシェーダーのコンパイルされたものと、それをdx12側で扱うための情報を保持するためのクラス  
@@ -112,7 +112,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NjA0OTA3MywtOTkxMzM4NzQyLC0yMT
+eyJoaXN0b3J5IjpbMTQxMDgwMDg0MSwtOTkxMzM4NzQyLC0yMT
 I5NDM4OTYxLC00MzEwMzAzNDAsLTE1Mzk4NjI5NzAsLTEyODg3
 NjU3ODQsLTk1MzI1MTU5MCw0Njk0NzIyMDMsLTQ1OTkxNDM5NC
 wzNDcxMzk1ODksMTMxMjYxODU1OSwtMTk0Njg5MjYxNCwxNDAx
