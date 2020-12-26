@@ -50,7 +50,8 @@ slangシェーダー（Program）のインターフェースなどをProgramVars
 slangシェーダーファイルとその中身の情報の保持、管理用クラス  
 エントリーポイントやシェーダーバージョン、シェーダーファイル、そしてこのシェーダーに設定したDefineListを管理する  
 DefineListが変更されたかどうかも監視し、再コンパイルが必要かどうかの情報も管理する  
-ProgramKernelsよりはシェーダーよりの情報クラス  
+
+ProgramKernelsよりはシェーダー寄りの情報クラス  
 
 
 ## GraphicsProgram
@@ -86,7 +87,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNDk3OTUzMywxNDAxNTUyMTE0LC0xOD
+eyJoaXN0b3J5IjpbLTk1NjcxNzc4OSwxNDAxNTUyMTE0LC0xOD
 I2OTUwMTM1LC04OTQyNTUyOTAsLTQyMTcyMTczMiwxMzM1OTUy
 MTM2LC0xODAzNTIwMDA5LC0xMjcyMzE0MjQxLDIxMDc4NDA2OD
 UsLTIxMzU2NDM5ODUsMTY1MTUwNjA5OCwtMTU0ODcyNjk2LDE3
