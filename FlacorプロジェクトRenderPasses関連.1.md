@@ -54,7 +54,7 @@ DefineListが変更されたかどうかも監視し、再コンパイルが必�
 ProgramKernelsに対してこちらはslangシェーダー寄りのクラス  
 そのためslangヘッダーを用いたSlangに関するSession作成やらProfile設定やらコンパイルやらのための処理もこちらで一通り実装されている  
 
-ちなみにSlangプロジェクトのサンプルでもコンパイルしたりする部分はProgramという構造体で実装されているので、多分それと対応したクラスだと思われる
+ちなみにSlangプロジェクトのサンプルでもコンパイルしたりする部分はProgramという構造体で実装されているので、多分そこからこの名前になったのだと思われる  
 
 ## GraphicsProgram
 
@@ -89,7 +89,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MzczNDYyOSwxMzEyNjE4NTU5LC0xOT
+eyJoaXN0b3J5IjpbMTU3OTIwMzU3OSwxMzEyNjE4NTU5LC0xOT
 Q2ODkyNjE0LDE0MDE1NTIxMTQsLTE4MjY5NTAxMzUsLTg5NDI1
 NTI5MCwtNDIxNzIxNzMyLDEzMzU5NTIxMzYsLTE4MDM1MjAwMD
 ksLTEyNzIzMTQyNDEsMjEwNzg0MDY4NSwtMjEzNTY0Mzk4NSwx
