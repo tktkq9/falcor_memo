@@ -49,6 +49,10 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 ## ShaderVar
 
+## ProgramVars
+
+## ProgramReflection
+
 ## ProgramVersion, Program, Shaderファイル関連
 シェーダーの中身とそれをdx12用のシェーダーブロブやルートシグネチャーにするためのなんやかんや  
 
@@ -115,11 +119,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTI4MzQ1NSwxMTA2NzI1MSwxMDEzOT
-I5NzY4LC05OTEzMzg3NDIsLTIxMjk0Mzg5NjEsLTQzMTAzMDM0
-MCwtMTUzOTg2Mjk3MCwtMTI4ODc2NTc4NCwtOTUzMjUxNTkwLD
-Q2OTQ3MjIwMywtNDU5OTE0Mzk0LDM0NzEzOTU4OSwxMzEyNjE4
-NTU5LC0xOTQ2ODkyNjE0LDE0MDE1NTIxMTQsLTE4MjY5NTAxMz
-UsLTg5NDI1NTI5MCwtNDIxNzIxNzMyLDEzMzU5NTIxMzYsLTE4
-MDM1MjAwMDldfQ==
+eyJoaXN0b3J5IjpbLTE0MzUxNTExOTQsMTEwNjcyNTEsMTAxMz
+kyOTc2OCwtOTkxMzM4NzQyLC0yMTI5NDM4OTYxLC00MzEwMzAz
+NDAsLTE1Mzk4NjI5NzAsLTEyODg3NjU3ODQsLTk1MzI1MTU5MC
+w0Njk0NzIyMDMsLTQ1OTkxNDM5NCwzNDcxMzk1ODksMTMxMjYx
+ODU1OSwtMTk0Njg5MjYxNCwxNDAxNTUyMTE0LC0xODI2OTUwMT
+M1LC04OTQyNTUyOTAsLTQyMTcyMTczMiwxMzM1OTUyMTM2LC0x
+ODAzNTIwMDA5XX0=
 -->
