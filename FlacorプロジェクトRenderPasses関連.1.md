@@ -1,6 +1,6 @@
 # FlacorプロジェクトRenderPasses関連
 TODO : NVAPIの理解　GraphicsStateObject
-
+TODO : Programのslang処理の理解  Program
 ## BaseGraphicsPassおよび関連するクラス
 
 ## BaseGraphicsPass
@@ -56,6 +56,8 @@ ProgramKernelsに対してこちらはslangシェーダー寄りのクラス
 
 ちなみにSlangプロジェクトのサンプルでもコンパイルしたりその作成されたものを取得したりする部分はProgramという構造体でカプセル化されているので、多分そこからこのクラス名になったのだと思われる  
 
+TODO : このコードでのslang処理の理解  
+
 ## GraphicsProgram
 
 
@@ -89,11 +91,11 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzk4NDg3NzcsMTMxMjYxODU1OSwtMT
-k0Njg5MjYxNCwxNDAxNTUyMTE0LC0xODI2OTUwMTM1LC04OTQy
-NTUyOTAsLTQyMTcyMTczMiwxMzM1OTUyMTM2LC0xODAzNTIwMD
-A5LC0xMjcyMzE0MjQxLDIxMDc4NDA2ODUsLTIxMzU2NDM5ODUs
-MTY1MTUwNjA5OCwtMTU0ODcyNjk2LDE3MjUwMDQ0MTAsLTc4MD
-UzNTg5NiwxNTg2ODUyMzc4LDQ0NTMyNDI1MCwtMTM0OTgxODcz
-Niw3ODg2NzcwNDFdfQ==
+eyJoaXN0b3J5IjpbLTE0NTc5ODE3NSwxMzEyNjE4NTU5LC0xOT
+Q2ODkyNjE0LDE0MDE1NTIxMTQsLTE4MjY5NTAxMzUsLTg5NDI1
+NTI5MCwtNDIxNzIxNzMyLDEzMzU5NTIxMzYsLTE4MDM1MjAwMD
+ksLTEyNzIzMTQyNDEsMjEwNzg0MDY4NSwtMjEzNTY0Mzk4NSwx
+NjUxNTA2MDk4LC0xNTQ4NzI2OTYsMTcyNTAwNDQxMCwtNzgwNT
+M1ODk2LDE1ODY4NTIzNzgsNDQ1MzI0MjUwLC0xMzQ5ODE4NzM2
+LDc4ODY3NzA0MV19
 -->
