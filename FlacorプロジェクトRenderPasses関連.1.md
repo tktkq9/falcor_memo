@@ -43,7 +43,7 @@ GraphicsState、ComputeState、RtProgramでの使われ方としては、NodeTyp
 Slangのコンパイルに必要な情報を一通り渡され保有し、この情報によってslangのコンパイルをし、対応するProgramKernelsの作成を行うためのクラス  
 コンパイルと作成はgetKernels(ProgramVars const* pVars)で行われ、今まで作成したProgramKernelsは配列として保持し再利用できるようになっている  
 
-slangシェーダー（Program）のインターフェースなどの変数情報（ProgramVars）うぃ確定させたを
+slangシェーダー（Program）のインターフェースなどの変数情報（ProgramVars）を確定させたもの（ProgramKernels）を、ProgramVarsから作られるspecializationArgsによってシェーダーが変わったかどうか（）
 
 ## GraphicsProgram
 
@@ -78,7 +78,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkwMTk0NTE1LC0xODI2OTUwMTM1LC04OT
+eyJoaXN0b3J5IjpbLTM2MDgwODI0LC0xODI2OTUwMTM1LC04OT
 QyNTUyOTAsLTQyMTcyMTczMiwxMzM1OTUyMTM2LC0xODAzNTIw
 MDA5LC0xMjcyMzE0MjQxLDIxMDc4NDA2ODUsLTIxMzU2NDM5OD
 UsMTY1MTUwNjA5OCwtMTU0ODcyNjk2LDE3MjUwMDQ0MTAsLTc4
