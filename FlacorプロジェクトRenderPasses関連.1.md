@@ -49,7 +49,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 ### ProgramKernelsクラス
 一つのslangシェーダーのコンパイルされたものと、それをdx12側で扱うための情報を保持するためのクラス  
-情報は各エントリーポイントのブロブ（Shaderクラス）の配列とかProgramReflectionとか（あとProgramVersionとそこからProgramも取り出せるのでぶっちゃけじょう）
+情報は各エントリーポイントのブロブ（Shaderクラス）の配列とかProgramReflectionとか
 またその特性から、RootSignatureを作成する情報もすべてあるので、ここででシェーダーブロブに対するRootSignatureが作成、保持される  
 
 ちなみにこれはProgramクラスで作成、ProgramVersionで管理されている  
@@ -106,7 +106,7 @@ Program
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODQ0NDY4LC00MzEwMzAzNDAsLTE1Mz
+eyJoaXN0b3J5IjpbODU0ODA5MzU5LC00MzEwMzAzNDAsLTE1Mz
 k4NjI5NzAsLTEyODg3NjU3ODQsLTk1MzI1MTU5MCw0Njk0NzIy
 MDMsLTQ1OTkxNDM5NCwzNDcxMzk1ODksMTMxMjYxODU1OSwtMT
 k0Njg5MjYxNCwxNDAxNTUyMTE0LC0xODI2OTUwMTM1LC04OTQy
