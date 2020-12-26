@@ -46,8 +46,8 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 ## ShaderVar
 
 ## ProgramVersion, Program, Shaderファイル関連
-シェーダーの中身とそれをdx12のデータにするためのなんやかんや  
-
+シェーダーの中身とそれをdx12用のシェーダーブロブとぐネチャーにするためのなんやかんや  
+ここで作られたものをもとにGraphicsStateとかでパイプラインステートオブジェクトが作成される  
 
 ### ProgramKernelsクラス
 一つのslangシェーダーのコンパイルされたものと、それをdx12側で扱うための情報を保持するためのクラス  
@@ -109,11 +109,11 @@ Program
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0Njc4ODk3OSwtMjEyOTQzODk2MSwtND
-MxMDMwMzQwLC0xNTM5ODYyOTcwLC0xMjg4NzY1Nzg0LC05NTMy
-NTE1OTAsNDY5NDcyMjAzLC00NTk5MTQzOTQsMzQ3MTM5NTg5LD
-EzMTI2MTg1NTksLTE5NDY4OTI2MTQsMTQwMTU1MjExNCwtMTgy
-Njk1MDEzNSwtODk0MjU1MjkwLC00MjE3MjE3MzIsMTMzNTk1Mj
-EzNiwtMTgwMzUyMDAwOSwtMTI3MjMxNDI0MSwyMTA3ODQwNjg1
-LC0yMTM1NjQzOTg1XX0=
+eyJoaXN0b3J5IjpbOTIxMTQ1MDU0LC0yMTI5NDM4OTYxLC00Mz
+EwMzAzNDAsLTE1Mzk4NjI5NzAsLTEyODg3NjU3ODQsLTk1MzI1
+MTU5MCw0Njk0NzIyMDMsLTQ1OTkxNDM5NCwzNDcxMzk1ODksMT
+MxMjYxODU1OSwtMTk0Njg5MjYxNCwxNDAxNTUyMTE0LC0xODI2
+OTUwMTM1LC04OTQyNTUyOTAsLTQyMTcyMTczMiwxMzM1OTUyMT
+M2LC0xODAzNTIwMDA5LC0xMjcyMzE0MjQxLDIxMDc4NDA2ODUs
+LTIxMzU2NDM5ODVdfQ==
 -->
