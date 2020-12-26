@@ -37,7 +37,7 @@ GraphicsState、ComputeState、RtProgramでの使われ方としては、NodeTyp
 ## GraphicsProgram
 GraphicsState用のProgramクラスのサブクラス  
 
-ざっくりProgramクラスを説明すると、シェーダー
+ざっくりProgramクラスを説明すると、シェーダーを管理し、そこからシェーダーブロブやルートシグネチャーを取得するためのクラス  
 詳しくは[ProgramVersion, Program, Shaderファイル関連 （TODO : リンク）](https://github.com/tktkq9/falcor_memo/tree/main)  
 
 
@@ -116,11 +116,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTQ2NjY1NzYsMTAxMzkyOTc2OCwtOT
-kxMzM4NzQyLC0yMTI5NDM4OTYxLC00MzEwMzAzNDAsLTE1Mzk4
-NjI5NzAsLTEyODg3NjU3ODQsLTk1MzI1MTU5MCw0Njk0NzIyMD
-MsLTQ1OTkxNDM5NCwzNDcxMzk1ODksMTMxMjYxODU1OSwtMTk0
-Njg5MjYxNCwxNDAxNTUyMTE0LC0xODI2OTUwMTM1LC04OTQyNT
-UyOTAsLTQyMTcyMTczMiwxMzM1OTUyMTM2LC0xODAzNTIwMDA5
-LC0xMjcyMzE0MjQxXX0=
+eyJoaXN0b3J5IjpbLTgxMjY0NzQyMSwxMDEzOTI5NzY4LC05OT
+EzMzg3NDIsLTIxMjk0Mzg5NjEsLTQzMTAzMDM0MCwtMTUzOTg2
+Mjk3MCwtMTI4ODc2NTc4NCwtOTUzMjUxNTkwLDQ2OTQ3MjIwMy
+wtNDU5OTE0Mzk0LDM0NzEzOTU4OSwxMzEyNjE4NTU5LC0xOTQ2
+ODkyNjE0LDE0MDE1NTIxMTQsLTE4MjY5NTAxMzUsLTg5NDI1NT
+I5MCwtNDIxNzIxNzMyLDEzMzU5NTIxMzYsLTE4MDM1MjAwMDks
+LTEyNzIzMTQyNDFdfQ==
 -->
