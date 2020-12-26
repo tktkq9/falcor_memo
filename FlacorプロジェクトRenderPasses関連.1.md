@@ -48,7 +48,10 @@ slangシェーダー（Program）のインターフェースなどをProgramVars
 
 ### Program
 slangシェーダーの中身の情報  
-slangじゃないならここでコンパイルしたものを
+エントリーポイントやシェーダーバージョン、
+
+slangじゃないならここでコンパイルしたものを保持すればいいのだろうけれども、slangはインターフェースなどによる実行中に変更できる要素があるので、おそらくその中間言語も保持していると思われる  
+
 
 ## GraphicsProgram
 
@@ -83,11 +86,11 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDMwMzc2MDgsLTE4MjY5NTAxMzUsLT
-g5NDI1NTI5MCwtNDIxNzIxNzMyLDEzMzU5NTIxMzYsLTE4MDM1
-MjAwMDksLTEyNzIzMTQyNDEsMjEwNzg0MDY4NSwtMjEzNTY0Mz
-k4NSwxNjUxNTA2MDk4LC0xNTQ4NzI2OTYsMTcyNTAwNDQxMCwt
-NzgwNTM1ODk2LDE1ODY4NTIzNzgsNDQ1MzI0MjUwLC0xMzQ5OD
-E4NzM2LDc4ODY3NzA0MSwtNjQxNTExNDUsLTE3NjYyNTIwODMs
-LTQxMDk2MDY3NF19
+eyJoaXN0b3J5IjpbMjExMTAxNjk1OSwtMTgyNjk1MDEzNSwtOD
+k0MjU1MjkwLC00MjE3MjE3MzIsMTMzNTk1MjEzNiwtMTgwMzUy
+MDAwOSwtMTI3MjMxNDI0MSwyMTA3ODQwNjg1LC0yMTM1NjQzOT
+g1LDE2NTE1MDYwOTgsLTE1NDg3MjY5NiwxNzI1MDA0NDEwLC03
+ODA1MzU4OTYsMTU4Njg1MjM3OCw0NDUzMjQyNTAsLTEzNDk4MT
+g3MzYsNzg4Njc3MDQxLC02NDE1MTE0NSwtMTc2NjI1MjA4Mywt
+NDEwOTYwNjc0XX0=
 -->
