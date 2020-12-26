@@ -47,8 +47,8 @@ Slangのコンパイルに必要な情報を一通り渡され保有し、この
 slangシェーダー（Program）のインターフェースなどをProgramVarsのspecializationArgsによってシェーダーが変わったかどうか判定し、ProgramKernelsを（Version）管理するためのクラスであることからProgramVersionと名付けられているのだろうか  
 
 ### Program
-slangシェーダーの中身の情報  
-エントリーポイントやシェーダーバージョン、
+複数のslangシェーダーファイルとその「中身の情報  
+エントリーポイントやシェーダーバージョン、シェーダーファイル、
 
 slangじゃないならここでコンパイルしたものを保持すればいいのだろうけれども、slangはインターフェースなどによる実行中に変更できる要素があるので、おそらくその中間言語も保持していると思われる  
 
@@ -86,7 +86,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMTAxNjk1OSwtMTgyNjk1MDEzNSwtOD
+eyJoaXN0b3J5IjpbLTU5MTA5NjA0OCwtMTgyNjk1MDEzNSwtOD
 k0MjU1MjkwLC00MjE3MjE3MzIsMTMzNTk1MjEzNiwtMTgwMzUy
 MDAwOSwtMTI3MjMxNDI0MSwyMTA3ODQwNjg1LC0yMTM1NjQzOT
 g1LDE2NTE1MDYwOTgsLTE1NDg3MjY5NiwxNzI1MDA0NDEwLC03
