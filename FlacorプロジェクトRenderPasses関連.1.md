@@ -66,7 +66,7 @@ Slangのコンパイルに必要な情報を一通り渡され保持し、この
 slangシェーダー（Program）のインターフェースなどをProgramVarsのspecializationArgsによってシェーダーが変わったかどうか判定し、ProgramKernelsを（Version）管理するためのクラスであることからProgramVersionと名付けられているのだろうか  
 ちなみにこれはProgramクラスで作成、管理されているので、最新バージョンのProgramってだけかもしれない（多分こっち）  
 
-### Programファイル
+### Programクラス
 slangシェーダーファイルとその中身の情報の保持、コンパイル処理、管理用クラス  
 エントリーポイントやシェーダーバージョン、シェーダーファイル、そしてこのシェーダーに設定したDefineListを管理する  
 DefineListが変更されたかどうかも監視し、再コンパイルが必要かどうかの情報も管理する  
@@ -85,7 +85,7 @@ Program
 
 ちなみにDefineListもこのクラス内に定義されているが直接このクラスで使われることはない。なぜここに作った  
 
-あとShaderファイルにはComPtrテンプレートクラスもあるが、これも特別シェーダーのみのためのものではなくいろんなところで
+あとShaderファイルにはComPtrテンプレートクラスもあるが、これも特別シェーダーのみのためのものではなくどちらかというとProgramクラスでよく使われている。こ  
 
 
 # BaseGraphicsPassのサブクラス
@@ -109,7 +109,7 @@ Program
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjQwNjc2MiwtMjEyOTQzODk2MSwtND
+eyJoaXN0b3J5IjpbMTYwODg1ODg2MCwtMjEyOTQzODk2MSwtND
 MxMDMwMzQwLC0xNTM5ODYyOTcwLC0xMjg4NzY1Nzg0LC05NTMy
 NTE1OTAsNDY5NDcyMjAzLC00NTk5MTQzOTQsMzQ3MTM5NTg5LD
 EzMTI2MTg1NTksLTE5NDY4OTI2MTQsMTQwMTU1MjExNCwtMTgy
