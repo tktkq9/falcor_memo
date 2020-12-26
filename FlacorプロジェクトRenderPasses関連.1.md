@@ -47,9 +47,10 @@ TODO : 詳しく読む
 RenderContextのdrawInstancedなどに渡される2つのうちの1つ  
 
 
-## ShaderVar
 
 ## ProgramVars
+
+### ShaderVar
 
 ## ProgramReflection
 
@@ -119,11 +120,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzUxNTExOTQsMTEwNjcyNTEsMTAxMz
-kyOTc2OCwtOTkxMzM4NzQyLC0yMTI5NDM4OTYxLC00MzEwMzAz
-NDAsLTE1Mzk4NjI5NzAsLTEyODg3NjU3ODQsLTk1MzI1MTU5MC
-w0Njk0NzIyMDMsLTQ1OTkxNDM5NCwzNDcxMzk1ODksMTMxMjYx
-ODU1OSwtMTk0Njg5MjYxNCwxNDAxNTUyMTE0LC0xODI2OTUwMT
-M1LC04OTQyNTUyOTAsLTQyMTcyMTczMiwxMzM1OTUyMTM2LC0x
-ODAzNTIwMDA5XX0=
+eyJoaXN0b3J5IjpbNjE5Mzk4MDAzLC0xNDM1MTUxMTk0LDExMD
+Y3MjUxLDEwMTM5Mjk3NjgsLTk5MTMzODc0MiwtMjEyOTQzODk2
+MSwtNDMxMDMwMzQwLC0xNTM5ODYyOTcwLC0xMjg4NzY1Nzg0LC
+05NTMyNTE1OTAsNDY5NDcyMjAzLC00NTk5MTQzOTQsMzQ3MTM5
+NTg5LDEzMTI2MTg1NTksLTE5NDY4OTI2MTQsMTQwMTU1MjExNC
+wtMTgyNjk1MDEzNSwtODk0MjU1MjkwLC00MjE3MjE3MzIsMTMz
+NTk1MjEzNl19
 -->
