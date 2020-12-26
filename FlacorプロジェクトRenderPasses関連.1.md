@@ -77,7 +77,11 @@ ProgramKernelsに対してこちらはslangシェーダー寄りのクラス
 TODO : Programのslang処理の理解  
 
 ### Shaderクラス
-Shaderという名を持つが、どちらかというとエントリーポイントのブロブクラス  
+Shaderという名を持つが、シェーダー本体はProgramクラスの方であり、こちらはどちらかというとエントリーポイントのブロブクラス  
+Program
+
+ちなみにDefineListもこのクラス内に定義されているが直接このクラスで使われることはない。なぜここに作った  
+
 
 
 
@@ -102,11 +106,11 @@ Shaderという名を持つが、どちらかというとエントリーポイ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NDc3NTUxNywtNDMxMDMwMzQwLC0xNT
-M5ODYyOTcwLC0xMjg4NzY1Nzg0LC05NTMyNTE1OTAsNDY5NDcy
-MjAzLC00NTk5MTQzOTQsMzQ3MTM5NTg5LDEzMTI2MTg1NTksLT
-E5NDY4OTI2MTQsMTQwMTU1MjExNCwtMTgyNjk1MDEzNSwtODk0
-MjU1MjkwLC00MjE3MjE3MzIsMTMzNTk1MjEzNiwtMTgwMzUyMD
-AwOSwtMTI3MjMxNDI0MSwyMTA3ODQwNjg1LC0yMTM1NjQzOTg1
-LDE2NTE1MDYwOThdfQ==
+eyJoaXN0b3J5IjpbNTQ3Mzk4NDgwLC00MzEwMzAzNDAsLTE1Mz
+k4NjI5NzAsLTEyODg3NjU3ODQsLTk1MzI1MTU5MCw0Njk0NzIy
+MDMsLTQ1OTkxNDM5NCwzNDcxMzk1ODksMTMxMjYxODU1OSwtMT
+k0Njg5MjYxNCwxNDAxNTUyMTE0LC0xODI2OTUwMTM1LC04OTQy
+NTUyOTAsLTQyMTcyMTczMiwxMzM1OTUyMTM2LC0xODAzNTIwMD
+A5LC0xMjcyMzE0MjQxLDIxMDc4NDA2ODUsLTIxMzU2NDM5ODUs
+MTY1MTUwNjA5OF19
 -->
