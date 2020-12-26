@@ -41,7 +41,7 @@ slagnシェーダーに関する情報を保有するクラス
 
 
 ### ProgramVersionクラス
-必要な情報を渡し、Slangのコンパイルを行いそのslangコンポーネントを保有するクラス  
+必要な情報を渡し、Slangのコンパイルを行い、これによるslangコンポーネントを保有するためのクラス  
 
 
 ## GraphicsProgram
@@ -77,7 +77,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzA1MzM2MCwtMTgwMzUyMDAwOSwtMT
+eyJoaXN0b3J5IjpbLTMxODMzNjQ5OSwtMTgwMzUyMDAwOSwtMT
 I3MjMxNDI0MSwyMTA3ODQwNjg1LC0yMTM1NjQzOTg1LDE2NTE1
 MDYwOTgsLTE1NDg3MjY5NiwxNzI1MDA0NDEwLC03ODA1MzU4OT
 YsMTU4Njg1MjM3OCw0NDUzMjQyNTAsLTEzNDk4MTg3MzYsNzg4
