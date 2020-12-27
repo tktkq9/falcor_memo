@@ -55,7 +55,7 @@ ParameterBlockのサブクラス
 ほぼほぼParameterBlockのラッパークラス  
 ParameterBlockに対応するProgramReflectionとEntryPointGroupVars（これもまたParameterBlockのサブクラス）の配列を持つParameterBlockのようなもの  
 
-これのサブクラスがGraphicsVarsやComputeVarsであり、これらサブクラスもまたラッパーcreate()関数と、ルートシグネチャーをコマンドリストに適用するapply()関数のみを持つ機能を持ったParameterBlockラッパークラスみたいなものとなっている  
+これのサブクラスがGraphicsVarsやComputeVarsであり、これらはラッパーcreate()関数（と、ルートシグネチャーをコマンドリストに適用するapply()関数）のみのParameterBlockラッパークラスみたいなものとなっている  
 （ルートシグネチャーかコマンドリストもってるコンテキストクラスにこれを渡すapply()関数を作るのではなく、こっちに作っちゃうんだーって感じ）  
 
 ### ParameterBlock
@@ -131,7 +131,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MzQ3NjcxNiw2MTA0MjIyODAsMTUzND
+eyJoaXN0b3J5IjpbMTY4NzM1OTU5Nyw2MTA0MjIyODAsMTUzND
 M3MjY2Nyw2MTkzOTgwMDMsLTE0MzUxNTExOTQsMTEwNjcyNTEs
 MTAxMzkyOTc2OCwtOTkxMzM4NzQyLC0yMTI5NDM4OTYxLC00Mz
 EwMzAzNDAsLTE1Mzk4NjI5NzAsLTEyODg3NjU3ODQsLTk1MzI1
