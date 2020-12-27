@@ -34,14 +34,14 @@ GraphicsState、ComputeState、RtProgramでの使われ方としては、NodeTyp
 描画に必要なデータ（例えばルートシグネチャーやFBOなど）をもとに各データに対応する状態遷移をwalk()を使って検索、なければ作成  
 そして同じデータ割り当てに対応する状態遷移を見つけた場合は、設定したNodeTypeオブジェクト（例えばGraphicsStateではGraphicsStateObject）をgetCurrentNode()によって取得、つまりNodeTypeオブジェクトの再利用を行えるようにするために使われている  
 
-## GraphicsProgram
+### GraphicsProgram
 GraphicsState用のProgramクラスのサブクラス  
 中身はそのままProgramクラスを作るためのラッパーcreate関数系とpybind11のやつのみ  
 
 ざっくりProgramクラスを説明すると、シェーダーを管理し、そこからシェーダーブロブやルートシグネチャーを保持するProgramKernelsを取得するためのもの  
 詳しくは[ProgramVersion, Program, Shaderファイル関連 （TODO : リンク）](https://github.com/tktkq9/falcor_memo/tree/main)  
 
-## GraphicsVars
+### GraphicsVars
 TODO : 詳しく読む
 シェーダーに渡す変数、バッファーなどを管理  
 RenderContextのdrawInstancedなどに渡される2つのうちの1つ  
@@ -120,11 +120,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE5Mzk4MDAzLC0xNDM1MTUxMTk0LDExMD
-Y3MjUxLDEwMTM5Mjk3NjgsLTk5MTMzODc0MiwtMjEyOTQzODk2
-MSwtNDMxMDMwMzQwLC0xNTM5ODYyOTcwLC0xMjg4NzY1Nzg0LC
-05NTMyNTE1OTAsNDY5NDcyMjAzLC00NTk5MTQzOTQsMzQ3MTM5
-NTg5LDEzMTI2MTg1NTksLTE5NDY4OTI2MTQsMTQwMTU1MjExNC
-wtMTgyNjk1MDEzNSwtODk0MjU1MjkwLC00MjE3MjE3MzIsMTMz
-NTk1MjEzNl19
+eyJoaXN0b3J5IjpbMTUzNDM3MjY2Nyw2MTkzOTgwMDMsLTE0Mz
+UxNTExOTQsMTEwNjcyNTEsMTAxMzkyOTc2OCwtOTkxMzM4NzQy
+LC0yMTI5NDM4OTYxLC00MzEwMzAzNDAsLTE1Mzk4NjI5NzAsLT
+EyODg3NjU3ODQsLTk1MzI1MTU5MCw0Njk0NzIyMDMsLTQ1OTkx
+NDM5NCwzNDcxMzk1ODksMTMxMjYxODU1OSwtMTk0Njg5MjYxNC
+wxNDAxNTUyMTE0LC0xODI2OTUwMTM1LC04OTQyNTUyOTAsLTQy
+MTcyMTczMl19
 -->
