@@ -54,7 +54,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 ParameterBlockのサブクラス  
 ParameterBlockに対応するProgramReflectionとEntryPointGroupVars（これもまたParameterBlockのサブクラス）の配列を持つParameterBlockのようなもの  
 
-これを
+これのサブクラスがGraphicsVarsやComputeVarsであり、これら
 
 ### ShaderVar
 
@@ -126,11 +126,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjc2ODU4NDgsMTUzNDM3MjY2Nyw2MT
-kzOTgwMDMsLTE0MzUxNTExOTQsMTEwNjcyNTEsMTAxMzkyOTc2
-OCwtOTkxMzM4NzQyLC0yMTI5NDM4OTYxLC00MzEwMzAzNDAsLT
-E1Mzk4NjI5NzAsLTEyODg3NjU3ODQsLTk1MzI1MTU5MCw0Njk0
-NzIyMDMsLTQ1OTkxNDM5NCwzNDcxMzk1ODksMTMxMjYxODU1OS
-wtMTk0Njg5MjYxNCwxNDAxNTUyMTE0LC0xODI2OTUwMTM1LC04
-OTQyNTUyOTBdfQ==
+eyJoaXN0b3J5IjpbMTEzNTYxMTIzMiwxNTM0MzcyNjY3LDYxOT
+M5ODAwMywtMTQzNTE1MTE5NCwxMTA2NzI1MSwxMDEzOTI5NzY4
+LC05OTEzMzg3NDIsLTIxMjk0Mzg5NjEsLTQzMTAzMDM0MCwtMT
+UzOTg2Mjk3MCwtMTI4ODc2NTc4NCwtOTUzMjUxNTkwLDQ2OTQ3
+MjIwMywtNDU5OTE0Mzk0LDM0NzEzOTU4OSwxMzEyNjE4NTU5LC
+0xOTQ2ODkyNjE0LDE0MDE1NTIxMTQsLTE4MjY5NTAxMzUsLTg5
+NDI1NTI5MF19
 -->
