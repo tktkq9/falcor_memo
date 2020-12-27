@@ -56,7 +56,7 @@ ParameterBlockのサブクラス
 ParameterBlockに対応するProgramReflectionとEntryPointGroupVars（これもまたParameterBlockのサブクラス）の配列を持つParameterBlockのようなもの  
 
 これのサブクラスがGraphicsVarsやComputeVarsであり、これらサブクラスもまたラッパーcreate()関数と、ルートシグネチャーをコマンドリストに適用するapply()関数のみを持つ機能を持ったParameterBlockラッパークラスみたいなものとなっている  
-  
+ルートシグネチャーかコンテキストにこれを渡すapply()関数を作るのではなく、こっちに作っちゃうんだーって感じ    
 
 ### ParameterBlock
 
@@ -131,11 +131,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjY4OTk0MjgsNjEwNDIyMjgwLDE1Mz
-QzNzI2NjcsNjE5Mzk4MDAzLC0xNDM1MTUxMTk0LDExMDY3MjUx
-LDEwMTM5Mjk3NjgsLTk5MTMzODc0MiwtMjEyOTQzODk2MSwtND
-MxMDMwMzQwLC0xNTM5ODYyOTcwLC0xMjg4NzY1Nzg0LC05NTMy
-NTE1OTAsNDY5NDcyMjAzLC00NTk5MTQzOTQsMzQ3MTM5NTg5LD
-EzMTI2MTg1NTksLTE5NDY4OTI2MTQsMTQwMTU1MjExNCwtMTgy
-Njk1MDEzNV19
+eyJoaXN0b3J5IjpbNzIwMjgwOTI4LDYxMDQyMjI4MCwxNTM0Mz
+cyNjY3LDYxOTM5ODAwMywtMTQzNTE1MTE5NCwxMTA2NzI1MSwx
+MDEzOTI5NzY4LC05OTEzMzg3NDIsLTIxMjk0Mzg5NjEsLTQzMT
+AzMDM0MCwtMTUzOTg2Mjk3MCwtMTI4ODc2NTc4NCwtOTUzMjUx
+NTkwLDQ2OTQ3MjIwMywtNDU5OTE0Mzk0LDM0NzEzOTU4OSwxMz
+EyNjE4NTU5LC0xOTQ2ODkyNjE0LDE0MDE1NTIxMTQsLTE4MjY5
+NTAxMzVdfQ==
 -->
