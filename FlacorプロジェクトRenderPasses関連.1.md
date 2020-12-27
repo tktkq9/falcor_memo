@@ -57,7 +57,7 @@ ParameterBlockに対応するProgramReflectionとEntryPointGroupVars（これも
 
 これのサブクラスがGraphicsVarsやComputeVarsであり、これらはほぼほぼProgramVarsを作るためのcreate()関数を持つProgramVarsラッパークラスみたいなものとなっている  
 ただしProgramVarsと違い特徴的なものとして、ルートシグネチャーと設定したシェーダー変数をコマンドリストに適用するapply()関数も実装されている  
-<font color="#010101">（ルートシグネチャーかコンテキストクラスにこれを渡すapply()関数を作るんじゃなく、こっちに作っちゃうんだーって感じ）</font>  
+<font color=#cfcfcf>（ルートシグネチャーかコンテキストクラスにこれを渡すapply()関数を作るんじゃなく、こっちに作っちゃうんだーって感じ）</font>  
 
 ### ParameterBlock
 
@@ -132,7 +132,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDEwMTg3MCwtNzY0MDM0NjIxLDYxMD
+eyJoaXN0b3J5IjpbMTMzMjc2OTY1NiwtNzY0MDM0NjIxLDYxMD
 QyMjI4MCwxNTM0MzcyNjY3LDYxOTM5ODAwMywtMTQzNTE1MTE5
 NCwxMTA2NzI1MSwxMDEzOTI5NzY4LC05OTEzMzg3NDIsLTIxMj
 k0Mzg5NjEsLTQzMTAzMDM0MCwtMTUzOTg2Mjk3MCwtMTI4ODc2
