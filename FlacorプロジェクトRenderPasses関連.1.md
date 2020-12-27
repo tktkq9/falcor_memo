@@ -57,7 +57,7 @@ ParameterBlockに対応するProgramReflectionとEntryPointGroupVars（これも
 
 これのサブクラスがGraphicsVarsやComputeVarsであり、これらサブクラスもまたラッパーcreate()関数のみを持つParameterBlockラッパークラスみたいなものとなっている  
 
-本体はParameterBlockの方  
+### ParameterBlock
 
 ### ShaderVar
 
@@ -129,7 +129,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTk3MzYyMCwxNTM0MzcyNjY3LDYxOT
+eyJoaXN0b3J5IjpbMTkwMDc2NDY5OCwxNTM0MzcyNjY3LDYxOT
 M5ODAwMywtMTQzNTE1MTE5NCwxMTA2NzI1MSwxMDEzOTI5NzY4
 LC05OTEzMzg3NDIsLTIxMjk0Mzg5NjEsLTQzMTAzMDM0MCwtMT
 UzOTg2Mjk3MCwtMTI4ODc2NTc4NCwtOTUzMjUxNTkwLDQ2OTQ3
