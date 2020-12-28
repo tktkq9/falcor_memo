@@ -91,8 +91,10 @@ ParameterBlockの変数アクセスのためのオフセット
 
 #### TypedShaderVarOffset
 ReflectionTypeを持ったShaderVarOffsetのサブクラス  
+ShaderVarで
 
-ReflectionTypeはSlangで定義されているクラスで、Slangシェーダーで定義されたへｎ
+ReflectionTypeはSlangで定義されているクラスで、Slangシェーダーで定義された変数の様々な情報を取得できるもの  
+
 
 ### ParameterBlockSharedPtrクラス
 ParameterBlockとShaderVarを通して、シェーダー変数の設定を辞書形式で行えるようにするためのクラス  
@@ -198,7 +200,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NjkxNjQ3MSwxNDk0MjgwMDkyLDE0Mz
+eyJoaXN0b3J5IjpbMjA5NDMyNDY0NCwxNDk0MjgwMDkyLDE0Mz
 AwMjY1MCwxOTA0ODg0OTEwLC0yNTQzNTI0ODIsMTY4OTYzNTcx
 OSw4Njg2OTY2MzIsLTE2ODg1MDc1MjYsMTgyMTQxNTgzOCw4Nz
 cyMDk0MTYsMTQ2NjUwMTg4OSwxOTIxNDQzODcsMTQyOTg4NTcz
