@@ -64,7 +64,8 @@ ParameterBlockに対応するProgramReflectionとEntryPointGroupVars（これも
 ParameterBlockReflectionから設定されているディスクリプターセットの数だけここでディスクリプターヒープと対応付け、つまりDescriptorSet::create()を行う    
 ディスクリプターセットの変数構造はParameterBlockReflectionが持っているLayoutから  
 
-### DescriptorSet
+#### DescriptorSet
+
 
 
 ### ShaderVar
@@ -137,11 +138,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMxNjM1MjcwLC0xNDE0Njk5Mzk1LC02NT
-c4NzIzNywxMzMyNzY5NjU2LC03NjQwMzQ2MjEsNjEwNDIyMjgw
-LDE1MzQzNzI2NjcsNjE5Mzk4MDAzLC0xNDM1MTUxMTk0LDExMD
-Y3MjUxLDEwMTM5Mjk3NjgsLTk5MTMzODc0MiwtMjEyOTQzODk2
-MSwtNDMxMDMwMzQwLC0xNTM5ODYyOTcwLC0xMjg4NzY1Nzg0LC
-05NTMyNTE1OTAsNDY5NDcyMjAzLC00NTk5MTQzOTQsMzQ3MTM5
-NTg5XX0=
+eyJoaXN0b3J5IjpbLTQ3ODIyOTc5MSwzMzE2MzUyNzAsLTE0MT
+Q2OTkzOTUsLTY1Nzg3MjM3LDEzMzI3Njk2NTYsLTc2NDAzNDYy
+MSw2MTA0MjIyODAsMTUzNDM3MjY2Nyw2MTkzOTgwMDMsLTE0Mz
+UxNTExOTQsMTEwNjcyNTEsMTAxMzkyOTc2OCwtOTkxMzM4NzQy
+LC0yMTI5NDM4OTYxLC00MzEwMzAzNDAsLTE1Mzk4NjI5NzAsLT
+EyODg3NjU3ODQsLTk1MzI1MTU5MCw0Njk0NzIyMDMsLTQ1OTkx
+NDM5NF19
 -->
