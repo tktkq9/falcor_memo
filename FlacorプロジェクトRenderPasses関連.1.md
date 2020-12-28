@@ -92,7 +92,7 @@ ParameterBlockの変数アクセスのためのオフセット
 #### TypedShaderVarOffset
 ReflectionTypeを持ったShaderVarOffsetのサブクラス  
 
-
+ReflectionTypeはSlangで定義されているクラスで、Slangシェーダーで定義されたへｎ
 
 ### ParameterBlockSharedPtrクラス
 ParameterBlockとShaderVarを通して、シェーダー変数の設定を辞書形式で行えるようにするためのクラス  
@@ -198,11 +198,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcyNjk1MjkyLDE0OTQyODAwOTIsMTQzMD
-AyNjUwLDE5MDQ4ODQ5MTAsLTI1NDM1MjQ4MiwxNjg5NjM1NzE5
-LDg2ODY5NjYzMiwtMTY4ODUwNzUyNiwxODIxNDE1ODM4LDg3Nz
-IwOTQxNiwxNDY2NTAxODg5LDE5MjE0NDM4NywxNDI5ODg1NzMz
-LDkzNzU5NzM5MSwtMjkxMDY5NTEzLC0xMDE1NTY2MDUyLDE2NT
-M2NDM4OCwtNTYxOTY2NTY0LDMzMTYzNTI3MCwtMTQxNDY5OTM5
-NV19
+eyJoaXN0b3J5IjpbLTM2NjkxNjQ3MSwxNDk0MjgwMDkyLDE0Mz
+AwMjY1MCwxOTA0ODg0OTEwLC0yNTQzNTI0ODIsMTY4OTYzNTcx
+OSw4Njg2OTY2MzIsLTE2ODg1MDc1MjYsMTgyMTQxNTgzOCw4Nz
+cyMDk0MTYsMTQ2NjUwMTg4OSwxOTIxNDQzODcsMTQyOTg4NTcz
+Myw5Mzc1OTczOTEsLTI5MTA2OTUxMywtMTAxNTU2NjA1MiwxNj
+UzNjQzODgsLTU2MTk2NjU2NCwzMzE2MzUyNzAsLTE0MTQ2OTkz
+OTVdfQ==
 -->
