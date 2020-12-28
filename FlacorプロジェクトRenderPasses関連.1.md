@@ -75,7 +75,7 @@ bindParameterBlockSets()はそれ以外のセット
 ### ParameterBlock
 
 #### ParameterBlockSharedPtrクラス
-ParameterBlockに配列形式でアクセスできるようにするためのクラス  
+ParameterBlockに辞書形式でアクセスできるようにするためのクラス  
 例えばFullScreenPassでは
 
     using SharedPtr = ParameterBlockSharedPtr<FullScreenPass>;
@@ -179,11 +179,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY4Njk2NjMyLC0xNjg4NTA3NTI2LDE4Mj
-E0MTU4MzgsODc3MjA5NDE2LDE0NjY1MDE4ODksMTkyMTQ0Mzg3
-LDE0Mjk4ODU3MzMsOTM3NTk3MzkxLC0yOTEwNjk1MTMsLTEwMT
-U1NjYwNTIsMTY1MzY0Mzg4LC01NjE5NjY1NjQsMzMxNjM1Mjcw
-LC0xNDE0Njk5Mzk1LC02NTc4NzIzNywxMzMyNzY5NjU2LC03Nj
-QwMzQ2MjEsNjEwNDIyMjgwLDE1MzQzNzI2NjcsNjE5Mzk4MDAz
-XX0=
+eyJoaXN0b3J5IjpbLTIyNTcyNzYwOCw4Njg2OTY2MzIsLTE2OD
+g1MDc1MjYsMTgyMTQxNTgzOCw4NzcyMDk0MTYsMTQ2NjUwMTg4
+OSwxOTIxNDQzODcsMTQyOTg4NTczMyw5Mzc1OTczOTEsLTI5MT
+A2OTUxMywtMTAxNTU2NjA1MiwxNjUzNjQzODgsLTU2MTk2NjU2
+NCwzMzE2MzUyNzAsLTE0MTQ2OTkzOTUsLTY1Nzg3MjM3LDEzMz
+I3Njk2NTYsLTc2NDAzNDYyMSw2MTA0MjIyODAsMTUzNDM3MjY2
+N119
 -->
