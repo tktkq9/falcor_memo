@@ -64,7 +64,8 @@ applyProgramVarsCommon()でコマンドリストにルートシグネチャー�
 
 bindRootSetsCommon(()ではpVars->prepareDescriptorSets(pContext)にParameterBlockに割り当てた変数構造に対応するリソースのバリアーや確保、ディスクリプターハンドルとの対応付けを行う  
 そのディスクリプターハンドルの情報がParameterBlockが持つDescriptorSetの配列mSetsに確保される  
-そしてbindParameterBlockSets()、bindParameterBlockRootDescs()に移り、コマンドリストへ
+そしてbindParameterBlockSets()、bindParameterBlockRootDescs()に移り、コマンドリストに対してSetGraphicsRootShaderResourceView()などのレジスターとハンドルの対応付けを行っていく  
+
 
 ### ParameterBlock
 #### prepareDescriptorSets()関数
@@ -158,11 +159,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMTQ0Mzg3LDE0Mjk4ODU3MzMsOTM3NT
-k3MzkxLC0yOTEwNjk1MTMsLTEwMTU1NjYwNTIsMTY1MzY0Mzg4
-LC01NjE5NjY1NjQsMzMxNjM1MjcwLC0xNDE0Njk5Mzk1LC02NT
-c4NzIzNywxMzMyNzY5NjU2LC03NjQwMzQ2MjEsNjEwNDIyMjgw
-LDE1MzQzNzI2NjcsNjE5Mzk4MDAzLC0xNDM1MTUxMTk0LDExMD
-Y3MjUxLDEwMTM5Mjk3NjgsLTk5MTMzODc0MiwtMjEyOTQzODk2
-MV19
+eyJoaXN0b3J5IjpbMTgzMjc4NDkwNSwxOTIxNDQzODcsMTQyOT
+g4NTczMyw5Mzc1OTczOTEsLTI5MTA2OTUxMywtMTAxNTU2NjA1
+MiwxNjUzNjQzODgsLTU2MTk2NjU2NCwzMzE2MzUyNzAsLTE0MT
+Q2OTkzOTUsLTY1Nzg3MjM3LDEzMzI3Njk2NTYsLTc2NDAzNDYy
+MSw2MTA0MjIyODAsMTUzNDM3MjY2Nyw2MTkzOTgwMDMsLTE0Mz
+UxNTExOTQsMTEwNjcyNTEsMTAxMzkyOTc2OCwtOTkxMzM4NzQy
+XX0=
 -->
