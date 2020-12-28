@@ -60,7 +60,10 @@ ParameterBlockに対応するProgramReflectionとEntryPointGroupVars（これも
 <font color=#bfbfbf>ルートシグネチャーかコンテキストクラスにこれを渡すapply()関数を作るんじゃなく、こっちに作るのってどうなの</font>  
 
 #### apply()関数
-applyProgramVarsCommon()でコマンドリストにルートシグネチャーをセットし、bindRootSetsCommon()に移る  
+コマンドリストにルートシグネチャーとParameterBlockの変数に対応するハンドルを設定するための関数  
+以下はそのぜんたいてきな
+
+まず、applyProgramVarsCommon()でコマンドリストにルートシグネチャーをセットし、bindRootSetsCommon()に移る  
 
 bindRootSetsCommon(()ではpVars->prepareDescriptorSets(pContext)にParameterBlockに割り当てた変数構造に対応するリソースのバリアーや確保、ディスクリプターハンドルとの対応付けを行う  
 そのディスクリプターハンドルの情報がParameterBlockが持つDescriptorSetの配列mSetsに確保される  
@@ -187,11 +190,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDg4NDkxMCwtMjU0MzUyNDgyLDE2OD
-k2MzU3MTksODY4Njk2NjMyLC0xNjg4NTA3NTI2LDE4MjE0MTU4
-MzgsODc3MjA5NDE2LDE0NjY1MDE4ODksMTkyMTQ0Mzg3LDE0Mj
-k4ODU3MzMsOTM3NTk3MzkxLC0yOTEwNjk1MTMsLTEwMTU1NjYw
-NTIsMTY1MzY0Mzg4LC01NjE5NjY1NjQsMzMxNjM1MjcwLC0xND
-E0Njk5Mzk1LC02NTc4NzIzNywxMzMyNzY5NjU2LC03NjQwMzQ2
-MjFdfQ==
+eyJoaXN0b3J5IjpbLTQwMjM3MDU5MywxOTA0ODg0OTEwLC0yNT
+QzNTI0ODIsMTY4OTYzNTcxOSw4Njg2OTY2MzIsLTE2ODg1MDc1
+MjYsMTgyMTQxNTgzOCw4NzcyMDk0MTYsMTQ2NjUwMTg4OSwxOT
+IxNDQzODcsMTQyOTg4NTczMyw5Mzc1OTczOTEsLTI5MTA2OTUx
+MywtMTAxNTU2NjA1MiwxNjUzNjQzODgsLTU2MTk2NjU2NCwzMz
+E2MzUyNzAsLTE0MTQ2OTkzOTUsLTY1Nzg3MjM3LDEzMzI3Njk2
+NTZdfQ==
 -->
