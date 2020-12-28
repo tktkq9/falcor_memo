@@ -60,7 +60,8 @@ ParameterBlockに対応するProgramReflectionとEntryPointGroupVars（これも
 <font color=#bfbfbf>ルートシグネチャーかコンテキストクラスにこれを渡すapply()関数を作るんじゃなく、こっちに作っちゃうんだーって感がある</font>  
 
 ### ParameterBlock
-
+#### prepareDescriptorSets
+ParameterBlockReflectionからディスクリプターセットのディスクリプターのためのレイアウトをもらってきて、
 
 ### ShaderVar
 
@@ -132,11 +133,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTQ2OTkzOTUsLTY1Nzg3MjM3LDEzMz
-I3Njk2NTYsLTc2NDAzNDYyMSw2MTA0MjIyODAsMTUzNDM3MjY2
-Nyw2MTkzOTgwMDMsLTE0MzUxNTExOTQsMTEwNjcyNTEsMTAxMz
-kyOTc2OCwtOTkxMzM4NzQyLC0yMTI5NDM4OTYxLC00MzEwMzAz
-NDAsLTE1Mzk4NjI5NzAsLTEyODg3NjU3ODQsLTk1MzI1MTU5MC
-w0Njk0NzIyMDMsLTQ1OTkxNDM5NCwzNDcxMzk1ODksMTMxMjYx
-ODU1OV19
+eyJoaXN0b3J5IjpbMTA4OTk3MDA0MywtMTQxNDY5OTM5NSwtNj
+U3ODcyMzcsMTMzMjc2OTY1NiwtNzY0MDM0NjIxLDYxMDQyMjI4
+MCwxNTM0MzcyNjY3LDYxOTM5ODAwMywtMTQzNTE1MTE5NCwxMT
+A2NzI1MSwxMDEzOTI5NzY4LC05OTEzMzg3NDIsLTIxMjk0Mzg5
+NjEsLTQzMTAzMDM0MCwtMTUzOTg2Mjk3MCwtMTI4ODc2NTc4NC
+wtOTUzMjUxNTkwLDQ2OTQ3MjIwMywtNDU5OTE0Mzk0LDM0NzEz
+OTU4OV19
 -->
