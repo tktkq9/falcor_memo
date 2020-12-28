@@ -68,7 +68,7 @@ ParameterBlockReflectionに設定されているDescriptorSetInfoの数だけデ
 
 bindIntoDescriptorSet()はDefaultConstantBufferのView、つまりバッファーとハンドルの対応付け情報をなければ作成し、作ったDescriptorSetに設定する  
 そのバッファーとハンドルの対応付けの際、現在の変数構造情報の更新とそのバッファーサイズ取得をupdateSpecialization()でSlangAPIを用いて行い、（サイズが足りていないか）バッファーがない場合はバッファーの（再）作成も行われる  
-ただし、こ
+ただし、ここでのbindIntoDescriptorSet()ではすでにprepareDescriptorSets()で
 
 #### DescriptorSet
 渡されたLayoutにディスクリプターヒープのハンドル  
@@ -144,11 +144,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzk2NDE1NDIsOTM3NTk3MzkxLC0yOT
-EwNjk1MTMsLTEwMTU1NjYwNTIsMTY1MzY0Mzg4LC01NjE5NjY1
-NjQsMzMxNjM1MjcwLC0xNDE0Njk5Mzk1LC02NTc4NzIzNywxMz
-MyNzY5NjU2LC03NjQwMzQ2MjEsNjEwNDIyMjgwLDE1MzQzNzI2
-NjcsNjE5Mzk4MDAzLC0xNDM1MTUxMTk0LDExMDY3MjUxLDEwMT
-M5Mjk3NjgsLTk5MTMzODc0MiwtMjEyOTQzODk2MSwtNDMxMDMw
-MzQwXX0=
+eyJoaXN0b3J5IjpbMTQyOTg4NTczMyw5Mzc1OTczOTEsLTI5MT
+A2OTUxMywtMTAxNTU2NjA1MiwxNjUzNjQzODgsLTU2MTk2NjU2
+NCwzMzE2MzUyNzAsLTE0MTQ2OTkzOTUsLTY1Nzg3MjM3LDEzMz
+I3Njk2NTYsLTc2NDAzNDYyMSw2MTA0MjIyODAsMTUzNDM3MjY2
+Nyw2MTkzOTgwMDMsLTE0MzUxNTExOTQsMTEwNjcyNTEsMTAxMz
+kyOTc2OCwtOTkxMzM4NzQyLC0yMTI5NDM4OTYxLC00MzEwMzAz
+NDBdfQ==
 -->
