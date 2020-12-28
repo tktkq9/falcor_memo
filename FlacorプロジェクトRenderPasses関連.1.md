@@ -83,7 +83,10 @@ BindLocationによる変数参照はParameterBlockで行うが、
 正確にはShaderVarを一時的に作成してそちらで対応するBindLocationを取得したのち、それをParameterBlockの方に戻して変数割り当てを行う  
 
 ### ShaderVar
-外部用ParameterBlockクラス
+外部用ParameterBlockクラス  
+ParameterBlockSharedPtrで  
+
+
 
 詳細としては、  
 ParameterBlockの変数アクセスのためのオフセット  
@@ -206,11 +209,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMDIzMDE2LC0xODUwMDI0MDI3LC0yMD
-c1NjA4NDU2LDE2MzUwMTc1MTYsMTQ5NDI4MDA5MiwxNDMwMDI2
-NTAsMTkwNDg4NDkxMCwtMjU0MzUyNDgyLDE2ODk2MzU3MTksOD
-Y4Njk2NjMyLC0xNjg4NTA3NTI2LDE4MjE0MTU4MzgsODc3MjA5
-NDE2LDE0NjY1MDE4ODksMTkyMTQ0Mzg3LDE0Mjk4ODU3MzMsOT
-M3NTk3MzkxLC0yOTEwNjk1MTMsLTEwMTU1NjYwNTIsMTY1MzY0
-Mzg4XX0=
+eyJoaXN0b3J5IjpbLTEyMzM2NTI2NzIsMTIyMDIzMDE2LC0xOD
+UwMDI0MDI3LC0yMDc1NjA4NDU2LDE2MzUwMTc1MTYsMTQ5NDI4
+MDA5MiwxNDMwMDI2NTAsMTkwNDg4NDkxMCwtMjU0MzUyNDgyLD
+E2ODk2MzU3MTksODY4Njk2NjMyLC0xNjg4NTA3NTI2LDE4MjE0
+MTU4MzgsODc3MjA5NDE2LDE0NjY1MDE4ODksMTkyMTQ0Mzg3LD
+E0Mjk4ODU3MzMsOTM3NTk3MzkxLC0yOTEwNjk1MTMsLTEwMTU1
+NjYwNTJdfQ==
 -->
