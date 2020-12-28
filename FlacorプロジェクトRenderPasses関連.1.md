@@ -61,6 +61,7 @@ ParameterBlockに対応するProgramReflectionとEntryPointGroupVars（これも
 
 #### apply()関数
 
+
 ### ParameterBlock
 #### prepareDescriptorSets()関数
 最初にupdateSpecialization()でParameterBlockReflectionのSlang情報を更新  
@@ -153,11 +154,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjUxNjEzMTksMTQyOTg4NTczMyw5Mz
-c1OTczOTEsLTI5MTA2OTUxMywtMTAxNTU2NjA1MiwxNjUzNjQz
-ODgsLTU2MTk2NjU2NCwzMzE2MzUyNzAsLTE0MTQ2OTkzOTUsLT
-Y1Nzg3MjM3LDEzMzI3Njk2NTYsLTc2NDAzNDYyMSw2MTA0MjIy
-ODAsMTUzNDM3MjY2Nyw2MTkzOTgwMDMsLTE0MzUxNTExOTQsMT
-EwNjcyNTEsMTAxMzkyOTc2OCwtOTkxMzM4NzQyLC0yMTI5NDM4
-OTYxXX0=
+eyJoaXN0b3J5IjpbLTIwNjUwODA4OSwxNDI5ODg1NzMzLDkzNz
+U5NzM5MSwtMjkxMDY5NTEzLC0xMDE1NTY2MDUyLDE2NTM2NDM4
+OCwtNTYxOTY2NTY0LDMzMTYzNTI3MCwtMTQxNDY5OTM5NSwtNj
+U3ODcyMzcsMTMzMjc2OTY1NiwtNzY0MDM0NjIxLDYxMDQyMjI4
+MCwxNTM0MzcyNjY3LDYxOTM5ODAwMywtMTQzNTE1MTE5NCwxMT
+A2NzI1MSwxMDEzOTI5NzY4LC05OTEzMzg3NDIsLTIxMjk0Mzg5
+NjFdfQ==
 -->
