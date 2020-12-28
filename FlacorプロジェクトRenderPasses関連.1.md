@@ -66,7 +66,7 @@ bindRootSetsCommon(()ではpVars->prepareDescriptorSets(pContext)にParameterBlo
 そのディスクリプターハンドルの情報がParameterBlockが持つDescriptorSetの配列mSetsに確保される  
 そしてbindParameterBlockSets()、bindParameterBlockRootDescs()に移り、コマンドリストに対してSetGraphicsRootShaderResourceView()などのレジスターとハンドルの対応付けが行われる  
 
-また、bindParameterBlockRootDescs()は
+またbindParameterBlockRootDescs()の方では、ParameterBlockの中に複数のサブParameterBlockことから再帰的に呼ばれていき、ParameterBlock
 
 ### ParameterBlock
 #### prepareDescriptorSets()関数
@@ -160,7 +160,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1NDY3ODE0LDE0NjY1MDE4ODksMTkyMT
+eyJoaXN0b3J5IjpbNzU3MDMwMDA1LDE0NjY1MDE4ODksMTkyMT
 Q0Mzg3LDE0Mjk4ODU3MzMsOTM3NTk3MzkxLC0yOTEwNjk1MTMs
 LTEwMTU1NjYwNTIsMTY1MzY0Mzg4LC01NjE5NjY1NjQsMzMxNj
 M1MjcwLC0xNDE0Njk5Mzk1LC02NTc4NzIzNywxMzMyNzY5NjU2
