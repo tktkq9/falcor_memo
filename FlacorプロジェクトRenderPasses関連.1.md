@@ -77,7 +77,7 @@ bindParameterBlockSets()はそれ以外のセット
 
 BindLocationによる変数参照はParameterBlockで行うが、
 それ以外の、例えば変数名によって参照する場合はShaderVarクラスで対応する  
-正確にはShaderVarを一時的に作成してそちらで対応するBindLocationを取得したのちそれをParameterBlockの方に戻して変数割り当てを行う  
+正確にはShaderVarを一時的に作成してそちらで対応するBindLocationを取得したのち、それをParameterBlockの方に戻して変数割り当てを行う  
 
 
 #### ParameterBlockSharedPtrクラス
@@ -185,7 +185,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNDYzMjcyOSwxNjg5NjM1NzE5LDg2OD
+eyJoaXN0b3J5IjpbLTI1NDM1MjQ4MiwxNjg5NjM1NzE5LDg2OD
 Y5NjYzMiwtMTY4ODUwNzUyNiwxODIxNDE1ODM4LDg3NzIwOTQx
 NiwxNDY2NTAxODg5LDE5MjE0NDM4NywxNDI5ODg1NzMzLDkzNz
 U5NzM5MSwtMjkxMDY5NTEzLC0xMDE1NTY2MDUyLDE2NTM2NDM4
