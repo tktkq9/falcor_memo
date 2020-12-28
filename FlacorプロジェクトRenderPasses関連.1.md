@@ -76,7 +76,7 @@ bindParameterBlockSets()はそれ以外のセット
 となっている  
 
 ### ParameterBlock
-変数に割り当てる値を保持しておくためのクラス  
+シェーダーに割り当てる値を保持しておくためのクラス  
 
 BindLocationによる変数参照はParameterBlockで行うが、
 変数名によって参照する場合はShaderVarクラスで対応する  
@@ -91,7 +91,7 @@ ParameterBlockSharedPtrで
 と書けるようoperator実装がされている  
 
 詳細としては、  
-ParameterBlockの変数アクセスのためのオフセット  
+ParameterBlockの変数にアクセスのためのオフセット  
 
     BindLocation =  ParameterBlockReflection::BindLocation ＝ ParameterBlockReflection::TypedShaderVarOffset
 を変数名から取得し、そのBindLocationを用いてParameterBlockの対応する変数にアクセスする処理を担っている  
@@ -211,11 +211,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3ODg3NzcsMTIyMDIzMDE2LC0xODUwMD
-I0MDI3LC0yMDc1NjA4NDU2LDE2MzUwMTc1MTYsMTQ5NDI4MDA5
-MiwxNDMwMDI2NTAsMTkwNDg4NDkxMCwtMjU0MzUyNDgyLDE2OD
-k2MzU3MTksODY4Njk2NjMyLC0xNjg4NTA3NTI2LDE4MjE0MTU4
-MzgsODc3MjA5NDE2LDE0NjY1MDE4ODksMTkyMTQ0Mzg3LDE0Mj
-k4ODU3MzMsOTM3NTk3MzkxLC0yOTEwNjk1MTMsLTEwMTU1NjYw
-NTJdfQ==
+eyJoaXN0b3J5IjpbMTI0NjAyMTcyMywxMjIwMjMwMTYsLTE4NT
+AwMjQwMjcsLTIwNzU2MDg0NTYsMTYzNTAxNzUxNiwxNDk0Mjgw
+MDkyLDE0MzAwMjY1MCwxOTA0ODg0OTEwLC0yNTQzNTI0ODIsMT
+Y4OTYzNTcxOSw4Njg2OTY2MzIsLTE2ODg1MDc1MjYsMTgyMTQx
+NTgzOCw4NzcyMDk0MTYsMTQ2NjUwMTg4OSwxOTIxNDQzODcsMT
+QyOTg4NTczMyw5Mzc1OTczOTEsLTI5MTA2OTUxMywtMTAxNTU2
+NjA1Ml19
 -->
