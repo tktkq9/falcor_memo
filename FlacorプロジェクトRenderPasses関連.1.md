@@ -146,12 +146,9 @@ TypedShaderVarOffset作成時に渡されるReflectionTypeからの情報によ�
 ParameterBlockが持っているシェーダー変数の宣言部分の情報（例えば構造体などの名前、サイズ、その中身に関する情報）をまとめておくためのクラス  
 ParameterBlockが持っているParameterBlockReflectionから取得される  
 
+### ProgramReflection
 
 
-
-
-
-## ProgramReflection
 
 ## ProgramVersion, Program, Shaderファイル関連
 シェーダーの中身とそれをdx12用のシェーダーブロブやルートシグネチャーにするためのなんやかんや  
@@ -219,7 +216,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDMwOTM1NzcsLTE4NzIxMTY4NzYsLT
+eyJoaXN0b3J5IjpbLTIwODg0OTY3NjIsLTE4NzIxMTY4NzYsLT
 E5MDM3MTAxLC0xNTU4NjAyMzgwLC05Mzc4MTU1MzgsMTIyMDIz
 MDE2LC0xODUwMDI0MDI3LC0yMDc1NjA4NDU2LDE2MzUwMTc1MT
 YsMTQ5NDI4MDA5MiwxNDMwMDI2NTAsMTkwNDg4NDkxMCwtMjU0
