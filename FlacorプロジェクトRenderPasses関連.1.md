@@ -66,8 +66,7 @@ ParameterBlockReflectionから設定されているディスクリプターセ�
 
 #### DescriptorSet
 渡されたLayoutにディスクリプターヒープのハンドル  
-create()の時にディスクリプターヒープにLayoutに沿ってハンドルを割り当て、そのハンドル情報を保存する  
-
+create()の時にディスクリプターヒープにLayoutに沿ってハンドルとそのrangeを割り当て、そのハンドル情報を保存する  
 
 ### ShaderVar
 
@@ -139,11 +138,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMzczODcsMzMxNjM1MjcwLC0xNDE0Nj
-k5Mzk1LC02NTc4NzIzNywxMzMyNzY5NjU2LC03NjQwMzQ2MjEs
-NjEwNDIyMjgwLDE1MzQzNzI2NjcsNjE5Mzk4MDAzLC0xNDM1MT
-UxMTk0LDExMDY3MjUxLDEwMTM5Mjk3NjgsLTk5MTMzODc0Miwt
-MjEyOTQzODk2MSwtNDMxMDMwMzQwLC0xNTM5ODYyOTcwLC0xMj
-g4NzY1Nzg0LC05NTMyNTE1OTAsNDY5NDcyMjAzLC00NTk5MTQz
-OTRdfQ==
+eyJoaXN0b3J5IjpbLTEyODQxMjYzMjUsMzMxNjM1MjcwLC0xND
+E0Njk5Mzk1LC02NTc4NzIzNywxMzMyNzY5NjU2LC03NjQwMzQ2
+MjEsNjEwNDIyMjgwLDE1MzQzNzI2NjcsNjE5Mzk4MDAzLC0xND
+M1MTUxMTk0LDExMDY3MjUxLDEwMTM5Mjk3NjgsLTk5MTMzODc0
+MiwtMjEyOTQzODk2MSwtNDMxMDMwMzQwLC0xNTM5ODYyOTcwLC
+0xMjg4NzY1Nzg0LC05NTMyNTE1OTAsNDY5NDcyMjAzLC00NTk5
+MTQzOTRdfQ==
 -->
