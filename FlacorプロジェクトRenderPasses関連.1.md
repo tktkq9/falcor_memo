@@ -75,7 +75,7 @@ bindParameterBlockSets()はそれ以外のセット
 ### ParameterBlock
 
 #### ParameterBlockSharedPtrクラス
-ParameterBlockに辞書形式でアクセスできるようにするためのクラス  
+ParameterBlockとShaderVarを通して、シェーダー変数の設定を辞書形式で行えるようにするためのクラス  
 例えばFullScreenPassでは
 
     using SharedPtr = ParameterBlockSharedPtr<FullScreenPass>;
@@ -179,7 +179,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNTcyNzYwOCw4Njg2OTY2MzIsLTE2OD
+eyJoaXN0b3J5IjpbMTI3OTA0Njg5Niw4Njg2OTY2MzIsLTE2OD
 g1MDc1MjYsMTgyMTQxNTgzOCw4NzcyMDk0MTYsMTQ2NjUwMTg4
 OSwxOTIxNDQzODcsMTQyOTg4NTczMyw5Mzc1OTczOTEsLTI5MT
 A2OTUxMywtMTAxNTU2NjA1MiwxNjUzNjQzODgsLTU2MTk2NjU2
