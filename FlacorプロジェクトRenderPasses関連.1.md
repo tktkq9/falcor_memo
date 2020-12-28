@@ -89,6 +89,9 @@ ParameterBlockの変数アクセスのためのオフセット
 を変数名から取得し、そのBindLocationを用いてParameterBlockの対応する変数にアクセスするためのクラス  
 ようするに直感的には扱えないBindLocationを外部（ParameterBlockSharedPtr）から隠すためのクラス  
 
+#### TypedShaderVarOffset
+
+
 ### ParameterBlockSharedPtrクラス
 ParameterBlockとShaderVarを通して、シェーダー変数の設定を辞書形式で行えるようにするためのクラス  
 例えばFullScreenPassでは
@@ -193,11 +196,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NDI4MDA5MiwxNDMwMDI2NTAsMTkwND
-g4NDkxMCwtMjU0MzUyNDgyLDE2ODk2MzU3MTksODY4Njk2NjMy
-LC0xNjg4NTA3NTI2LDE4MjE0MTU4MzgsODc3MjA5NDE2LDE0Nj
-Y1MDE4ODksMTkyMTQ0Mzg3LDE0Mjk4ODU3MzMsOTM3NTk3Mzkx
-LC0yOTEwNjk1MTMsLTEwMTU1NjYwNTIsMTY1MzY0Mzg4LC01Nj
-E5NjY1NjQsMzMxNjM1MjcwLC0xNDE0Njk5Mzk1LC02NTc4NzIz
-N119
+eyJoaXN0b3J5IjpbMTA4NDkyNTc2MSwxNDk0MjgwMDkyLDE0Mz
+AwMjY1MCwxOTA0ODg0OTEwLC0yNTQzNTI0ODIsMTY4OTYzNTcx
+OSw4Njg2OTY2MzIsLTE2ODg1MDc1MjYsMTgyMTQxNTgzOCw4Nz
+cyMDk0MTYsMTQ2NjUwMTg4OSwxOTIxNDQzODcsMTQyOTg4NTcz
+Myw5Mzc1OTczOTEsLTI5MTA2OTUxMywtMTAxNTU2NjA1MiwxNj
+UzNjQzODgsLTU2MTk2NjU2NCwzMzE2MzUyNzAsLTE0MTQ2OTkz
+OTVdfQ==
 -->
