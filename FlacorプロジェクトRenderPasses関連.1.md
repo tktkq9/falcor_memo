@@ -108,7 +108,6 @@ TypedShaderVarOffset作成時に渡されるReflectionTypeからの情報によ�
 
 #### ReflectionType
 ParameterBlockが持っているシェーダー変数の宣言部分の情報（例えば構造体などの名前、サイズ、その中身に関する情報）をまとめておくためのクラス  
-設定する値は外部クラスですべて計算されるのでどちらかというと構造体的役割  
 ParameterBlockが持っているParameterBlockReflectionから取得される  
 
 
@@ -218,11 +217,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM4NjU3OTEzLC0xOTAzNzEwMSwtMTU1OD
-YwMjM4MCwtOTM3ODE1NTM4LDEyMjAyMzAxNiwtMTg1MDAyNDAy
-NywtMjA3NTYwODQ1NiwxNjM1MDE3NTE2LDE0OTQyODAwOTIsMT
-QzMDAyNjUwLDE5MDQ4ODQ5MTAsLTI1NDM1MjQ4MiwxNjg5NjM1
-NzE5LDg2ODY5NjYzMiwtMTY4ODUwNzUyNiwxODIxNDE1ODM4LD
-g3NzIwOTQxNiwxNDY2NTAxODg5LDE5MjE0NDM4NywxNDI5ODg1
-NzMzXX0=
+eyJoaXN0b3J5IjpbLTE4NzIxMTY4NzYsLTE5MDM3MTAxLC0xNT
+U4NjAyMzgwLC05Mzc4MTU1MzgsMTIyMDIzMDE2LC0xODUwMDI0
+MDI3LC0yMDc1NjA4NDU2LDE2MzUwMTc1MTYsMTQ5NDI4MDA5Mi
+wxNDMwMDI2NTAsMTkwNDg4NDkxMCwtMjU0MzUyNDgyLDE2ODk2
+MzU3MTksODY4Njk2NjMyLC0xNjg4NTA3NTI2LDE4MjE0MTU4Mz
+gsODc3MjA5NDE2LDE0NjY1MDE4ODksMTkyMTQ0Mzg3LDE0Mjk4
+ODU3MzNdfQ==
 -->
