@@ -74,6 +74,7 @@ bindRootSetsCommon(()ではpVars->prepareDescriptorSets(pContext)にParameterBlo
 bindParameterBlockRootDescs()はUAV, SRVのセット  
 bindParameterBlockSets()はそれ以外のセット  
 となっている  
+
 ### ParameterBlockSharedPtrクラス
 ParameterBlockとShaderVarを通して、シェーダー変数の設定を辞書形式で行えるようにするためのクラス  
 例えばFullScreenPassでは
@@ -97,6 +98,27 @@ BindLocationによる変数参照はParameterBlockで行うが、
 
 わざわざShaderVarを介する理由は、以下でもまとめてあるが、BindLocationによる変数取得処理を外部から隠すためである  
 
+
+#### prepareDescriptorSets()関数
+最初にupdateSpecialization()でParameterBlockReflectionのSlang情報を更新  
+そして以下のprepareDescriptorSets()に移る  
+
+まずはcheckForIndirectChanges()でParameterBlockReflectionの中にある複数のサブParameterBlockReflectionに対し、更新が必要かチェック、必要ならその印をつけてあとで更新させるようにする  
+
+次に、prepareResources()によってParameterBlockReflectionに対応するリソースそれぞれの処理、つまりバリアー処理が必要ならそれを、バッファーの大きさチェックと確保が必要ならそれを行う  
+また、サブParameterBlockReflectionの更新もここで行う  
+ただし、サブではないメインParameterBlockReflectionのDefaultConstantBufferは例外で、後で実行されるbindIntoDescriptorSet()でバッファー更新を行うので、ここでは更新が必要かチェックを入れるのみ  
+
+また場合によってはParameterBlockReflectionの中に
+ParameterBlockReflectionに設定されているDescriptorSetInfoの数だけディスクリプターヒープと対応付け、つまりDescriptorSetの配列mSetsの中身の作成DescriptorSet::create()を行い、それがDefaultConstantBufferに対応する場合はbindIntoDescriptorSet()も行われる  
+
+bindIntoDescriptorSet()はDefaultConstantBufferのView、つまりバッファーとハンドルの対応付け情報をなければ作成し、作ったDescriptorSetに設定する  
+そのバッファーとハンドルの対応付けの際、現在の変数構造情報の更新とそのバッファーサイズ取得をupdateSpecialization()でSlangAPIを用いて行い、（サイズが足りていないか）バッファーがない場合はバッファーの（再）作成も行われる  
+ただし、ここでのbindIntoDescriptorSet()ではすでにprepareDescriptorSets()で
+
+#### DescriptorSet
+渡されたLayoutにディスクリプターヒープのハンドル  
+create()の時にディスクリプターヒープにLayoutに沿ってハンドルとそのrangeを割り当て、そのハンドル情報を保存する  
 ### ShaderVar
 外部用ParameterBlockクラス  
 ParameterBlockSharedPtrで  
@@ -126,27 +148,6 @@ ParameterBlockが持っているParameterBlockReflectionから取得される
 
 
 
-
-#### prepareDescriptorSets()関数
-最初にupdateSpecialization()でParameterBlockReflectionのSlang情報を更新  
-そして以下のprepareDescriptorSets()に移る  
-
-まずはcheckForIndirectChanges()でParameterBlockReflectionの中にある複数のサブParameterBlockReflectionに対し、更新が必要かチェック、必要ならその印をつけてあとで更新させるようにする  
-
-次に、prepareResources()によってParameterBlockReflectionに対応するリソースそれぞれの処理、つまりバリアー処理が必要ならそれを、バッファーの大きさチェックと確保が必要ならそれを行う  
-また、サブParameterBlockReflectionの更新もここで行う  
-ただし、サブではないメインParameterBlockReflectionのDefaultConstantBufferは例外で、後で実行されるbindIntoDescriptorSet()でバッファー更新を行うので、ここでは更新が必要かチェックを入れるのみ  
-
-また場合によってはParameterBlockReflectionの中に
-ParameterBlockReflectionに設定されているDescriptorSetInfoの数だけディスクリプターヒープと対応付け、つまりDescriptorSetの配列mSetsの中身の作成DescriptorSet::create()を行い、それがDefaultConstantBufferに対応する場合はbindIntoDescriptorSet()も行われる  
-
-bindIntoDescriptorSet()はDefaultConstantBufferのView、つまりバッファーとハンドルの対応付け情報をなければ作成し、作ったDescriptorSetに設定する  
-そのバッファーとハンドルの対応付けの際、現在の変数構造情報の更新とそのバッファーサイズ取得をupdateSpecialization()でSlangAPIを用いて行い、（サイズが足りていないか）バッファーがない場合はバッファーの（再）作成も行われる  
-ただし、ここでのbindIntoDescriptorSet()ではすでにprepareDescriptorSets()で
-
-#### DescriptorSet
-渡されたLayoutにディスクリプターヒープのハンドル  
-create()の時にディスクリプターヒープにLayoutに沿ってハンドルとそのrangeを割り当て、そのハンドル情報を保存する  
 
 
 ## ProgramReflection
@@ -217,7 +218,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU4MTU4OTEyLC0xODcyMTE2ODc2LC0xOT
+eyJoaXN0b3J5IjpbNzk0OTQ4NzA4LC0xODcyMTE2ODc2LC0xOT
 AzNzEwMSwtMTU1ODYwMjM4MCwtOTM3ODE1NTM4LDEyMjAyMzAx
 NiwtMTg1MDAyNDAyNywtMjA3NTYwODQ1NiwxNjM1MDE3NTE2LD
 E0OTQyODAwOTIsMTQzMDAyNjUwLDE5MDQ4ODQ5MTAsLTI1NDM1
