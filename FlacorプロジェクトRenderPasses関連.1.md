@@ -61,8 +61,6 @@ ParameterBlockに対応するProgramReflectionとEntryPointGroupVars（これも
 
 ### ParameterBlock
 #### prepareDescriptorSets
-
-
 最初にupdateSpecialization()でParameterBlockReflectionのSlang情報を更新  
 そして以下のprepareDescriptorSets()に移る  
 
@@ -153,7 +151,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkyMTM1NzQ5LDE0Mjk4ODU3MzMsOTM3NT
+eyJoaXN0b3J5IjpbNDQ4Mzg5MzUzLDE0Mjk4ODU3MzMsOTM3NT
 k3MzkxLC0yOTEwNjk1MTMsLTEwMTU1NjYwNTIsMTY1MzY0Mzg4
 LC01NjE5NjY1NjQsMzMxNjM1MjcwLC0xNDE0Njk5Mzk1LC02NT
 c4NzIzNywxMzMyNzY5NjU2LC03NjQwMzQ2MjEsNjEwNDIyMjgw
