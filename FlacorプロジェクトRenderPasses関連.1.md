@@ -59,8 +59,10 @@ ParameterBlockに対応するProgramReflectionとEntryPointGroupVars（これも
 ただしProgramVarsと違い特徴的なものとして、ルートシグネチャーと設定したシェーダー変数をコマンドリストに適用するapply()関数も実装されている  
 <font color=#bfbfbf>ルートシグネチャーかコンテキストクラスにこれを渡すapply()関数を作るんじゃなく、こっちに作っちゃうんだーって感がある</font>  
 
+#### apply()関数
+
 ### ParameterBlock
-#### prepareDescriptorSets
+#### prepareDescriptorSets()関数
 最初にupdateSpecialization()でParameterBlockReflectionのSlang情報を更新  
 そして以下のprepareDescriptorSets()に移る  
 
@@ -151,11 +153,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ4Mzg5MzUzLDE0Mjk4ODU3MzMsOTM3NT
-k3MzkxLC0yOTEwNjk1MTMsLTEwMTU1NjYwNTIsMTY1MzY0Mzg4
-LC01NjE5NjY1NjQsMzMxNjM1MjcwLC0xNDE0Njk5Mzk1LC02NT
-c4NzIzNywxMzMyNzY5NjU2LC03NjQwMzQ2MjEsNjEwNDIyMjgw
-LDE1MzQzNzI2NjcsNjE5Mzk4MDAzLC0xNDM1MTUxMTk0LDExMD
-Y3MjUxLDEwMTM5Mjk3NjgsLTk5MTMzODc0MiwtMjEyOTQzODk2
-MV19
+eyJoaXN0b3J5IjpbLTE0MjUxNjEzMTksMTQyOTg4NTczMyw5Mz
+c1OTczOTEsLTI5MTA2OTUxMywtMTAxNTU2NjA1MiwxNjUzNjQz
+ODgsLTU2MTk2NjU2NCwzMzE2MzUyNzAsLTE0MTQ2OTkzOTUsLT
+Y1Nzg3MjM3LDEzMzI3Njk2NTYsLTc2NDAzNDYyMSw2MTA0MjIy
+ODAsMTUzNDM3MjY2Nyw2MTkzOTgwMDMsLTE0MzUxNTExOTQsMT
+EwNjcyNTEsMTAxMzkyOTc2OCwtOTkxMzM4NzQyLC0yMTI5NDM4
+OTYxXX0=
 -->
