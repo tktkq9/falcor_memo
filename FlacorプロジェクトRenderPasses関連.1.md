@@ -61,7 +61,8 @@ ParameterBlockに対応するProgramReflectionとEntryPointGroupVars（これも
 
 ### ParameterBlock
 #### prepareDescriptorSets
-まずはprepareResources()によってParameterBlockReflectionに対応するリソースのバリアーしょり
+まずはprepareResources()によってParameterBlockReflectionに対応するリソースそれぞれの処理、つまりバリアー処理が必要ならそれを、バッファーの大きさチェックと確保が必要ならそれを行う  
+また
 
 ParameterBlockReflectionに設定されているDescriptorSetInfoの数だけディスクリプターヒープと対応付け、つまりDescriptorSetの配列mSetsの中身の作成DescriptorSet::create()を行い、それがDefaultConstantBufferに対応する場合はbindIntoDescriptorSet()も行われる  
 
@@ -142,7 +143,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NzM2OTQzNyw5Mzc1OTczOTEsLTI5MT
+eyJoaXN0b3J5IjpbMTQxMzc3ODgxMCw5Mzc1OTczOTEsLTI5MT
 A2OTUxMywtMTAxNTU2NjA1MiwxNjUzNjQzODgsLTU2MTk2NjU2
 NCwzMzE2MzUyNzAsLTE0MTQ2OTkzOTUsLTY1Nzg3MjM3LDEzMz
 I3Njk2NTYsLTc2NDAzNDYyMSw2MTA0MjIyODAsMTUzNDM3MjY2
