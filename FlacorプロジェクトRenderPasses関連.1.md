@@ -86,7 +86,7 @@ ParameterBlockとShaderVarを通して、シェーダー変数の設定を辞書
 
     mpMainPass["ToyCB"]["iResolution"] = float2(width, height);
     mpMainPass["ToyCB"]["iGlobalTime"] = (float)gpFramework->getGlobalClock().getTime();  
-のように扱うことができるようになる  
+のように設定できるようになる  
 
 #### prepareDescriptorSets()関数
 最初にupdateSpecialization()でParameterBlockReflectionのSlang情報を更新  
@@ -179,7 +179,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3OTA0Njg5Niw4Njg2OTY2MzIsLTE2OD
+eyJoaXN0b3J5IjpbMTY4OTYzNTcxOSw4Njg2OTY2MzIsLTE2OD
 g1MDc1MjYsMTgyMTQxNTgzOCw4NzcyMDk0MTYsMTQ2NjUwMTg4
 OSwxOTIxNDQzODcsMTQyOTg4NTczMyw5Mzc1OTczOTEsLTI5MT
 A2OTUxMywtMTAxNTU2NjA1MiwxNjUzNjQzODgsLTU2MTk2NjU2
