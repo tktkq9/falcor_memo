@@ -92,8 +92,9 @@ ParameterBlockの変数アクセスのためのオフセット
 #### TypedShaderVarOffset
 ReflectionTypeを持ったShaderVarOffsetのサブクラス  
 
+##### ReflectionType
 TypeLayoutReflectionはSlangで定義されているクラスで、Slangシェーダーで定義された変数の様々な情報を取得できるもの  
-このReflectionTypeからは変数名を指定することにより、
+このTypeLayoutReflectionに対し、変数名を指定することにより、
 
 
 ### ParameterBlockSharedPtrクラス
@@ -200,11 +201,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMzAxNzExOCwxNjM1MDE3NTE2LDE0OT
-QyODAwOTIsMTQzMDAyNjUwLDE5MDQ4ODQ5MTAsLTI1NDM1MjQ4
-MiwxNjg5NjM1NzE5LDg2ODY5NjYzMiwtMTY4ODUwNzUyNiwxOD
-IxNDE1ODM4LDg3NzIwOTQxNiwxNDY2NTAxODg5LDE5MjE0NDM4
-NywxNDI5ODg1NzMzLDkzNzU5NzM5MSwtMjkxMDY5NTEzLC0xMD
-E1NTY2MDUyLDE2NTM2NDM4OCwtNTYxOTY2NTY0LDMzMTYzNTI3
-MF19
+eyJoaXN0b3J5IjpbLTIwNzU2MDg0NTYsMTYzNTAxNzUxNiwxND
+k0MjgwMDkyLDE0MzAwMjY1MCwxOTA0ODg0OTEwLC0yNTQzNTI0
+ODIsMTY4OTYzNTcxOSw4Njg2OTY2MzIsLTE2ODg1MDc1MjYsMT
+gyMTQxNTgzOCw4NzcyMDk0MTYsMTQ2NjUwMTg4OSwxOTIxNDQz
+ODcsMTQyOTg4NTczMyw5Mzc1OTczOTEsLTI5MTA2OTUxMywtMT
+AxNTU2NjA1MiwxNjUzNjQzODgsLTU2MTk2NjU2NCwzMzE2MzUy
+NzBdfQ==
 -->
