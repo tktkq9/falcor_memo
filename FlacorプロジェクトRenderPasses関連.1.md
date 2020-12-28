@@ -74,6 +74,9 @@ bindParameterBlockSets()はそれ以外のセット
 
 ### ParameterBlock
 
+#### ParameterBlockSharedPtrクラス
+ParameterBlockに配列形式でアクセスできるようにするためのクラス  
+例えば
 
 #### prepareDescriptorSets()関数
 最初にupdateSpecialization()でParameterBlockReflectionのSlang情報を更新  
@@ -166,11 +169,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODg1MDc1MjYsMTgyMTQxNTgzOCw4Nz
-cyMDk0MTYsMTQ2NjUwMTg4OSwxOTIxNDQzODcsMTQyOTg4NTcz
-Myw5Mzc1OTczOTEsLTI5MTA2OTUxMywtMTAxNTU2NjA1MiwxNj
-UzNjQzODgsLTU2MTk2NjU2NCwzMzE2MzUyNzAsLTE0MTQ2OTkz
-OTUsLTY1Nzg3MjM3LDEzMzI3Njk2NTYsLTc2NDAzNDYyMSw2MT
-A0MjIyODAsMTUzNDM3MjY2Nyw2MTkzOTgwMDMsLTE0MzUxNTEx
-OTRdfQ==
+eyJoaXN0b3J5IjpbLTE1ODIyMTEwMCwtMTY4ODUwNzUyNiwxOD
+IxNDE1ODM4LDg3NzIwOTQxNiwxNDY2NTAxODg5LDE5MjE0NDM4
+NywxNDI5ODg1NzMzLDkzNzU5NzM5MSwtMjkxMDY5NTEzLC0xMD
+E1NTY2MDUyLDE2NTM2NDM4OCwtNTYxOTY2NTY0LDMzMTYzNTI3
+MCwtMTQxNDY5OTM5NSwtNjU3ODcyMzcsMTMzMjc2OTY1NiwtNz
+Y0MDM0NjIxLDYxMDQyMjI4MCwxNTM0MzcyNjY3LDYxOTM5ODAw
+M119
 -->
