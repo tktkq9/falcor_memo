@@ -76,7 +76,14 @@ bindParameterBlockSets()はそれ以外のセット
 
 #### ParameterBlockSharedPtrクラス
 ParameterBlockに配列形式でアクセスできるようにするためのクラス  
-例えば
+例えばFullScreenPassでは
+
+    using SharedPtr = ParameterBlockSharedPtr<FullScreenPass>;
+と記述することにより
+
+    mpMainPass["ToyCB"]["iResolution"] = float2(width, height);
+    mpMainPass["ToyCB"]["iGlobalTime"] = (float)gpFramework->getGlobalClock().getTime();  
+  のように
 
 #### prepareDescriptorSets()関数
 最初にupdateSpecialization()でParameterBlockReflectionのSlang情報を更新  
@@ -169,7 +176,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODIyMTEwMCwtMTY4ODUwNzUyNiwxOD
+eyJoaXN0b3J5IjpbLTMwOTYwNzAyNCwtMTY4ODUwNzUyNiwxOD
 IxNDE1ODM4LDg3NzIwOTQxNiwxNDY2NTAxODg5LDE5MjE0NDM4
 NywxNDI5ODg1NzMzLDkzNzU5NzM5MSwtMjkxMDY5NTEzLC0xMD
 E1NTY2MDUyLDE2NTM2NDM4OCwtNTYxOTY2NTY0LDMzMTYzNTI3
