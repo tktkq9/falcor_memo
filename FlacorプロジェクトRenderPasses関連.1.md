@@ -73,6 +73,8 @@ bindParameterBlockSets()はそれ以外のセット
 となっている  
 
 ### ParameterBlock
+
+
 #### prepareDescriptorSets()関数
 最初にupdateSpecialization()でParameterBlockReflectionのSlang情報を更新  
 そして以下のprepareDescriptorSets()に移る  
@@ -164,11 +166,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMTQxNTgzOCw4NzcyMDk0MTYsMTQ2Nj
-UwMTg4OSwxOTIxNDQzODcsMTQyOTg4NTczMyw5Mzc1OTczOTEs
-LTI5MTA2OTUxMywtMTAxNTU2NjA1MiwxNjUzNjQzODgsLTU2MT
-k2NjU2NCwzMzE2MzUyNzAsLTE0MTQ2OTkzOTUsLTY1Nzg3MjM3
-LDEzMzI3Njk2NTYsLTc2NDAzNDYyMSw2MTA0MjIyODAsMTUzND
-M3MjY2Nyw2MTkzOTgwMDMsLTE0MzUxNTExOTQsMTEwNjcyNTFd
-fQ==
+eyJoaXN0b3J5IjpbLTE2ODg1MDc1MjYsMTgyMTQxNTgzOCw4Nz
+cyMDk0MTYsMTQ2NjUwMTg4OSwxOTIxNDQzODcsMTQyOTg4NTcz
+Myw5Mzc1OTczOTEsLTI5MTA2OTUxMywtMTAxNTU2NjA1MiwxNj
+UzNjQzODgsLTU2MTk2NjU2NCwzMzE2MzUyNzAsLTE0MTQ2OTkz
+OTUsLTY1Nzg3MjM3LDEzMzI3Njk2NTYsLTc2NDAzNDYyMSw2MT
+A0MjIyODAsMTUzNDM3MjY2Nyw2MTkzOTgwMDMsLTE0MzUxNTEx
+OTRdfQ==
 -->
