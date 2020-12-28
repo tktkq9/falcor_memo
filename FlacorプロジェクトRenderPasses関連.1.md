@@ -82,6 +82,8 @@ BindLocationによる変数参照はParameterBlockで行うが、
 変数名によって参照する場合はShaderVarクラスで対応する  
 正確には変数にアクセスしようとするたびShaderVarを一時的に作成し、ShaderVarで対応するBindLocationを取得し、そのBindLocationをParameterBlockに戻して変数割り当てを行う  
 
+わざわざShaderVarを介する理由は以下でShaderVarについて説明しているように、BindLocationによる変数取得処理を外部から隠すためである  
+
 ### ShaderVar
 外部用ParameterBlockクラス  
 ParameterBlockSharedPtrで  
@@ -211,7 +213,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTEzNDM3MTMsMTIyMDIzMDE2LC0xOD
+eyJoaXN0b3J5IjpbLTE0MTA4MDExNDMsMTIyMDIzMDE2LC0xOD
 UwMDI0MDI3LC0yMDc1NjA4NDU2LDE2MzUwMTc1MTYsMTQ5NDI4
 MDA5MiwxNDMwMDI2NTAsMTkwNDg4NDkxMCwtMjU0MzUyNDgyLD
 E2ODk2MzU3MTksODY4Njk2NjMyLC0xNjg4NTA3NTI2LDE4MjE0
