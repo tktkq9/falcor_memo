@@ -61,7 +61,7 @@ ParameterBlockに対応するProgramReflectionとEntryPointGroupVars（これも
 
 ### ParameterBlock
 #### prepareDescriptorSets
-まずcheckForIndirectChanges()でParameterBlockReflectionの中にある複数のサブParameterBlockReflectionに対し、更新が必要かチェック、必要ならその印をつけてあとで更新させるようにする  
+ずcheckForIndirectChanges()でParameterBlockReflectionの中にある複数のサブParameterBlockReflectionに対し、更新が必要かチェック、必要ならその印をつけてあとで更新させるようにする  
 
 次に、prepareResources()によってParameterBlockReflectionに対応するリソースそれぞれの処理、つまりバリアー処理が必要ならそれを、バッファーの大きさチェックと確保が必要ならそれを行う  
 また、サブParameterBlockReflectionの更新もここで行う  
@@ -148,7 +148,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxOTA0ODI4OSwxNDI5ODg1NzMzLDkzNz
+eyJoaXN0b3J5IjpbMjEwOTQzMDIwNywxNDI5ODg1NzMzLDkzNz
 U5NzM5MSwtMjkxMDY5NTEzLC0xMDE1NTY2MDUyLDE2NTM2NDM4
 OCwtNTYxOTY2NTY0LDMzMTYzNTI3MCwtMTQxNDY5OTM5NSwtNj
 U3ODcyMzcsMTMzMjc2OTY1NiwtNzY0MDM0NjIxLDYxMDQyMjI4
