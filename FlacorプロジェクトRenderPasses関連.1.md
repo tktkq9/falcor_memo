@@ -107,11 +107,11 @@ ShaderVarで変数にアクセスするために作られるオフセットク�
 TypedShaderVarOffset作成時に渡されるReflectionTypeからの情報によりオフセットが取得、計算される  
 
 #### ReflectionType
-ParameterBlockが持っているシェーダー変数の宣言部分の情報（例えば構造体などの名前、サイズ、その中身に関する情報）を設定、保持しているクラス    
-ParameterBlockが持っているParameterBlockReflectionから取得される    
+ParameterBlockが持っているシェーダー変数の宣言部分の情報（例えば構造体などの名前、サイズ、その中身に関する情報）をまとめておくためのクラス  
+設定する値は外部クラスですべて計算されるのでどちらかというと構造体的役割  
+ParameterBlockが持っているParameterBlockReflectionから取得される  
 
-このクラスのメンバ変数の一つであるTypeLayoutReflectionはSlangで定義されているクラスで、Slangシェーダーで定義された変数の様々な情報を取得できるもの  
-このTypeLayoutReflectionに対し、変数名を指定することにより、
+
 
 
 ### ParameterBlockSharedPtrクラス
@@ -218,11 +218,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDM3MTAxLC0xNTU4NjAyMzgwLC05Mz
-c4MTU1MzgsMTIyMDIzMDE2LC0xODUwMDI0MDI3LC0yMDc1NjA4
-NDU2LDE2MzUwMTc1MTYsMTQ5NDI4MDA5MiwxNDMwMDI2NTAsMT
-kwNDg4NDkxMCwtMjU0MzUyNDgyLDE2ODk2MzU3MTksODY4Njk2
-NjMyLC0xNjg4NTA3NTI2LDE4MjE0MTU4MzgsODc3MjA5NDE2LD
-E0NjY1MDE4ODksMTkyMTQ0Mzg3LDE0Mjk4ODU3MzMsOTM3NTk3
-MzkxXX0=
+eyJoaXN0b3J5IjpbMjM4NjU3OTEzLC0xOTAzNzEwMSwtMTU1OD
+YwMjM4MCwtOTM3ODE1NTM4LDEyMjAyMzAxNiwtMTg1MDAyNDAy
+NywtMjA3NTYwODQ1NiwxNjM1MDE3NTE2LDE0OTQyODAwOTIsMT
+QzMDAyNjUwLDE5MDQ4ODQ5MTAsLTI1NDM1MjQ4MiwxNjg5NjM1
+NzE5LDg2ODY5NjYzMiwtMTY4ODUwNzUyNiwxODIxNDE1ODM4LD
+g3NzIwOTQxNiwxNDY2NTAxODg5LDE5MjE0NDM4NywxNDI5ODg1
+NzMzXX0=
 -->
