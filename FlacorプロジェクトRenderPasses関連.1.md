@@ -63,7 +63,8 @@ ParameterBlockに対応するProgramReflectionとEntryPointGroupVars（これも
 #### prepareDescriptorSets
 ParameterBlockReflectionに設定されているDescriptorSetInfoの数だけディスクリプターヒープと対応付け、つまりDescriptorSetの配列mSetsの中身の作成DescriptorSet::create()を行う  
 
-bindIntoDescriptorSet()はDefaultConstantBufferをなければ作成し、
+bindIntoDescriptorSet()はDefaultConstantBufferView、つまりバッファーとハンドルの対応付け情報をなければ作成し、作ったDescriptorSetに設定する  
+そのバッファーとハンドルの対応付けの際、
 
 #### DescriptorSet
 渡されたLayoutにディスクリプターヒープのハンドル  
@@ -139,7 +140,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYwMjY2MTA4LC01NjE5NjY1NjQsMzMxNj
+eyJoaXN0b3J5IjpbMTY1MzY0Mzg4LC01NjE5NjY1NjQsMzMxNj
 M1MjcwLC0xNDE0Njk5Mzk1LC02NTc4NzIzNywxMzMyNzY5NjU2
 LC03NjQwMzQ2MjEsNjEwNDIyMjgwLDE1MzQzNzI2NjcsNjE5Mz
 k4MDAzLC0xNDM1MTUxMTk0LDExMDY3MjUxLDEwMTM5Mjk3Njgs
