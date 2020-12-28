@@ -79,7 +79,7 @@ ParameterBlockに配列形式でアクセスできるようにするためのク
 例えばFullScreenPassでは
 
     using SharedPtr = ParameterBlockSharedPtr<FullScreenPass>;
-で宣言されほかのクラスで
+で宣言され（FullScreenPass側でgetRootVar()の実装が必要）、ほかのクラスで
 
     FullScreenPass::SharedPtr       mpMainPass;
 と定義することにより
@@ -179,7 +179,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MTA4Mzc2NiwtMTY4ODUwNzUyNiwxOD
+eyJoaXN0b3J5IjpbLTQ2ODQxMDYzMSwtMTY4ODUwNzUyNiwxOD
 IxNDE1ODM4LDg3NzIwOTQxNiwxNDY2NTAxODg5LDE5MjE0NDM4
 NywxNDI5ODg1NzMzLDkzNzU5NzM5MSwtMjkxMDY5NTEzLC0xMD
 E1NTY2MDUyLDE2NTM2NDM4OCwtNTYxOTY2NTY0LDMzMTYzNTI3
