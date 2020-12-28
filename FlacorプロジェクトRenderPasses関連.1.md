@@ -83,7 +83,7 @@ BindLocationによる変数参照はParameterBlockで行うが、
 ParameterBlockで使うBindLocation =  ParameterBlockReflection::BindLocation ＝TypedShaderVarOffsetを変数名から取得し、そのBindLocationを用いてParameterBlockの対応する変数にアクセスするためのクラス  
 ようするに直感的には扱えないBindLocationを外部（ParameterBlockSharedPtr）から隠すためのクラス  
 
-#### ParameterBlockSharedPtrクラス
+### ParameterBlockSharedPtrクラス
 ParameterBlockとShaderVarを通して、シェーダー変数の設定を辞書形式で行えるようにするためのクラス  
 例えばFullScreenPassでは
 
@@ -187,11 +187,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTc5Mjc4OTEsLTI1NDM1MjQ4MiwxNj
-g5NjM1NzE5LDg2ODY5NjYzMiwtMTY4ODUwNzUyNiwxODIxNDE1
-ODM4LDg3NzIwOTQxNiwxNDY2NTAxODg5LDE5MjE0NDM4NywxND
-I5ODg1NzMzLDkzNzU5NzM5MSwtMjkxMDY5NTEzLC0xMDE1NTY2
-MDUyLDE2NTM2NDM4OCwtNTYxOTY2NTY0LDMzMTYzNTI3MCwtMT
-QxNDY5OTM5NSwtNjU3ODcyMzcsMTMzMjc2OTY1NiwtNzY0MDM0
-NjIxXX0=
+eyJoaXN0b3J5IjpbMTkwNDg4NDkxMCwtMjU0MzUyNDgyLDE2OD
+k2MzU3MTksODY4Njk2NjMyLC0xNjg4NTA3NTI2LDE4MjE0MTU4
+MzgsODc3MjA5NDE2LDE0NjY1MDE4ODksMTkyMTQ0Mzg3LDE0Mj
+k4ODU3MzMsOTM3NTk3MzkxLC0yOTEwNjk1MTMsLTEwMTU1NjYw
+NTIsMTY1MzY0Mzg4LC01NjE5NjY1NjQsMzMxNjM1MjcwLC0xND
+E0Njk5Mzk1LC02NTc4NzIzNywxMzMyNzY5NjU2LC03NjQwMzQ2
+MjFdfQ==
 -->
