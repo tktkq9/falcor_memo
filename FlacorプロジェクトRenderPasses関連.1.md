@@ -73,6 +73,10 @@ bindParameterBlockSets()はそれ以外のセット
 となっている  
 
 ### ParameterBlock
+変数に割り当てる値を保持しておくためのクラス  
+
+BindLocationによる変数さｎ
+変数名を名前参照する機能は
 
 
 #### ParameterBlockSharedPtrクラス
@@ -180,7 +184,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MjI5MDYzNSwxNjg5NjM1NzE5LDg2OD
+eyJoaXN0b3J5IjpbLTQ3NTUyODE4MiwxNjg5NjM1NzE5LDg2OD
 Y5NjYzMiwtMTY4ODUwNzUyNiwxODIxNDE1ODM4LDg3NzIwOTQx
 NiwxNDY2NTAxODg5LDE5MjE0NDM4NywxNDI5ODg1NzMzLDkzNz
 U5NzM5MSwtMjkxMDY5NTEzLC0xMDE1NTY2MDUyLDE2NTM2NDM4
