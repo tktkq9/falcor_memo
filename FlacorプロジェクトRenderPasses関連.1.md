@@ -61,10 +61,10 @@ ParameterBlockに対応するProgramReflectionとEntryPointGroupVars（これも
 
 ### ParameterBlock
 #### prepareDescriptorSets
-ParameterBlockReflectionに設定されているDescriptorSetInfoの数だけディスクリプターヒープと対応付け、つまりDescriptorSetの配列mSetsの中身の作成DescriptorSet::create()を行う  
+ParameterBlockReflectionに設定されているDescriptorSetInfoの数だけディスクリプターヒープと対応付け、つまりDescriptorSetの配列mSetsの中身の作成DescriptorSet::create()を行い、それがに対応する場合はbindIntoDescriptorSet()もおこｎ  
 
-bindIntoDescriptorSet()はDefaultConstantBufferのView、つまりバッファーとハンドルの対応付け情報をなければ作成し、作ったDescriptorSetに設定する  
-そのバッファーとハンドルの対応付けの際、SlangAPIより現在の変数構造の更新とサイズ取得を行い、必要なバッファーサイズ
+また、bindIntoDescriptorSet()はDefaultConstantBufferのView、つまりバッファーとハンドルの対応付け情報をなければ作成し、作ったDescriptorSetに設定する  
+そのバッファーとハンドルの対応付けの際、SlangAPIより現在の変数構造の更新とサイズ取得をupdateSpecialization()で行い、バッファーがないかサイズが足りていない場合はバッファーの（再）作成も行われる  
 
 #### DescriptorSet
 渡されたLayoutにディスクリプターヒープのハンドル  
@@ -140,7 +140,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczOTYxOTkyLC0xMDE1NTY2MDUyLDE2NT
+eyJoaXN0b3J5IjpbMjcwMzA2ODkwLC0xMDE1NTY2MDUyLDE2NT
 M2NDM4OCwtNTYxOTY2NTY0LDMzMTYzNTI3MCwtMTQxNDY5OTM5
 NSwtNjU3ODcyMzcsMTMzMjc2OTY1NiwtNzY0MDM0NjIxLDYxMD
 QyMjI4MCwxNTM0MzcyNjY3LDYxOTM5ODAwMywtMTQzNTE1MTE5
