@@ -89,6 +89,8 @@ ParameterBlockの変数アクセスのためのオフセット
 を変数名から取得し、そのBindLocationを用いてParameterBlockの対応する変数にアクセスするためのクラス  
 ようするに直感的には扱えないBindLocationを外部（ParameterBlockSharedPtr）から隠すためのクラス  
 
+あと、ParameterBlock
+
 #### TypedShaderVarOffset
 ReflectionTypeを持ったShaderVarOffsetのサブクラス  
 
@@ -201,11 +203,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzU2MDg0NTYsMTYzNTAxNzUxNiwxND
-k0MjgwMDkyLDE0MzAwMjY1MCwxOTA0ODg0OTEwLC0yNTQzNTI0
-ODIsMTY4OTYzNTcxOSw4Njg2OTY2MzIsLTE2ODg1MDc1MjYsMT
-gyMTQxNTgzOCw4NzcyMDk0MTYsMTQ2NjUwMTg4OSwxOTIxNDQz
-ODcsMTQyOTg4NTczMyw5Mzc1OTczOTEsLTI5MTA2OTUxMywtMT
-AxNTU2NjA1MiwxNjUzNjQzODgsLTU2MTk2NjU2NCwzMzE2MzUy
-NzBdfQ==
+eyJoaXN0b3J5IjpbMTIyMzczMzk3MywtMjA3NTYwODQ1NiwxNj
+M1MDE3NTE2LDE0OTQyODAwOTIsMTQzMDAyNjUwLDE5MDQ4ODQ5
+MTAsLTI1NDM1MjQ4MiwxNjg5NjM1NzE5LDg2ODY5NjYzMiwtMT
+Y4ODUwNzUyNiwxODIxNDE1ODM4LDg3NzIwOTQxNiwxNDY2NTAx
+ODg5LDE5MjE0NDM4NywxNDI5ODg1NzMzLDkzNzU5NzM5MSwtMj
+kxMDY5NTEzLC0xMDE1NTY2MDUyLDE2NTM2NDM4OCwtNTYxOTY2
+NTY0XX0=
 -->
