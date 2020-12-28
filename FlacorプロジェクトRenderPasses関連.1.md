@@ -86,6 +86,9 @@ BindLocationによる変数参照はParameterBlockで行うが、
 外部用ParameterBlockクラス  
 ParameterBlockSharedPtrで  
 
+    mpMainPass["ToyCB"]["iResolution"] = float2(width, height);
+    mpMainPass["ToyCB"]["iGlobalTime"] = (float)gpFramework->getGlobalClock().getTime();  
+と書けるよう
 
 
 詳細としては、  
@@ -93,7 +96,7 @@ ParameterBlockの変数アクセスのためのオフセット
 
     BindLocation =  ParameterBlockReflection::BindLocation ＝ ParameterBlockReflection::TypedShaderVarOffset
 を変数名から取得し、そのBindLocationを用いてParameterBlockの対応する変数にアクセスするためのクラス  
-ようするに直感的には扱えないBindLocationを外部（ParameterBlockSharedPtr）から隠すためのクラス  
+ようするに直感的には扱えないBindLocationを外部（ParameterBlockSharedPtr）から隠すためのクラスでもある  
 
 また、外部用ParameterBlockとして機能するために、オフセットが絡まない関数に対するラッパー関数も一通り実装されている  
 
@@ -209,11 +212,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzM2NTI2NzIsMTIyMDIzMDE2LC0xOD
-UwMDI0MDI3LC0yMDc1NjA4NDU2LDE2MzUwMTc1MTYsMTQ5NDI4
-MDA5MiwxNDMwMDI2NTAsMTkwNDg4NDkxMCwtMjU0MzUyNDgyLD
-E2ODk2MzU3MTksODY4Njk2NjMyLC0xNjg4NTA3NTI2LDE4MjE0
-MTU4MzgsODc3MjA5NDE2LDE0NjY1MDE4ODksMTkyMTQ0Mzg3LD
-E0Mjk4ODU3MzMsOTM3NTk3MzkxLC0yOTEwNjk1MTMsLTEwMTU1
-NjYwNTJdfQ==
+eyJoaXN0b3J5IjpbLTYxNDM0NTQ5LDEyMjAyMzAxNiwtMTg1MD
+AyNDAyNywtMjA3NTYwODQ1NiwxNjM1MDE3NTE2LDE0OTQyODAw
+OTIsMTQzMDAyNjUwLDE5MDQ4ODQ5MTAsLTI1NDM1MjQ4MiwxNj
+g5NjM1NzE5LDg2ODY5NjYzMiwtMTY4ODUwNzUyNiwxODIxNDE1
+ODM4LDg3NzIwOTQxNiwxNDY2NTAxODg5LDE5MjE0NDM4NywxND
+I5ODg1NzMzLDkzNzU5NzM5MSwtMjkxMDY5NTEzLC0xMDE1NTY2
+MDUyXX0=
 -->
