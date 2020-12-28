@@ -107,7 +107,7 @@ ShaderVarで変数にアクセスするために作られるオフセットク�
 TypedShaderVarOffset作成時に渡されるReflectionTypeからの情報によりオフセットが取得、計算される  
 
 #### ReflectionType
-ParameterBlockが持っているシェーダー変数の種類やサイズ、その中身に関する情報  
+ParameterBlockが持っているシェーダー変数の宣言部分の情報（例えば構造体などの名前、サイズ、その中身に関する情報）を  
 
 ParameterBlockが持っているParameterBlockReflectionから取得される    
 
@@ -220,11 +220,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NTE1NzQ0NCwtMTU1ODYwMjM4MCwtOT
-M3ODE1NTM4LDEyMjAyMzAxNiwtMTg1MDAyNDAyNywtMjA3NTYw
-ODQ1NiwxNjM1MDE3NTE2LDE0OTQyODAwOTIsMTQzMDAyNjUwLD
-E5MDQ4ODQ5MTAsLTI1NDM1MjQ4MiwxNjg5NjM1NzE5LDg2ODY5
-NjYzMiwtMTY4ODUwNzUyNiwxODIxNDE1ODM4LDg3NzIwOTQxNi
-wxNDY2NTAxODg5LDE5MjE0NDM4NywxNDI5ODg1NzMzLDkzNzU5
-NzM5MV19
+eyJoaXN0b3J5IjpbLTE3NTYxNjU1MzUsLTE1NTg2MDIzODAsLT
+kzNzgxNTUzOCwxMjIwMjMwMTYsLTE4NTAwMjQwMjcsLTIwNzU2
+MDg0NTYsMTYzNTAxNzUxNiwxNDk0MjgwMDkyLDE0MzAwMjY1MC
+wxOTA0ODg0OTEwLC0yNTQzNTI0ODIsMTY4OTYzNTcxOSw4Njg2
+OTY2MzIsLTE2ODg1MDc1MjYsMTgyMTQxNTgzOCw4NzcyMDk0MT
+YsMTQ2NjUwMTg4OSwxOTIxNDQzODcsMTQyOTg4NTczMyw5Mzc1
+OTczOTFdfQ==
 -->
