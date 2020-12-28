@@ -61,8 +61,8 @@ ParameterBlockに対応するProgramReflectionとEntryPointGroupVars（これも
 
 ### ParameterBlock
 #### prepareDescriptorSets
-ParameterBlockReflectionから設定されているディスクリプターセットの数だけここでディスクリプターヒープと対応付け、つまりDescriptorSet::create()を行う    
-ディスクリプターセットの変数構造はParameterBlockReflectionが持っているLayoutから  
+ParameterBlockReflectionに設定されているDescriptorSet数だけここでディスクリプターヒープと対応付け、つまりDescriptorSet::create()を行い  
+
 
 #### DescriptorSet
 渡されたLayoutにディスクリプターヒープのハンドル  
@@ -138,7 +138,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODQxMjYzMjUsMzMxNjM1MjcwLC0xND
+eyJoaXN0b3J5IjpbLTE0OTMzNTkyMDYsMzMxNjM1MjcwLC0xND
 E0Njk5Mzk1LC02NTc4NzIzNywxMzMyNzY5NjU2LC03NjQwMzQ2
 MjEsNjEwNDIyMjgwLDE1MzQzNzI2NjcsNjE5Mzk4MDAzLC0xND
 M1MTUxMTk0LDExMDY3MjUxLDEwMTM5Mjk3NjgsLTk5MTMzODc0
