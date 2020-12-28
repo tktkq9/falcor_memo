@@ -74,6 +74,19 @@ bindRootSetsCommon(()ではpVars->prepareDescriptorSets(pContext)にParameterBlo
 bindParameterBlockRootDescs()はUAV, SRVのセット  
 bindParameterBlockSets()はそれ以外のセット  
 となっている  
+### ParameterBlockSharedPtrクラス
+ParameterBlockとShaderVarを通して、シェーダー変数の設定を辞書形式で行えるようにするためのクラス  
+例えばFullScreenPassでは
+
+    using SharedPtr = ParameterBlockSharedPtr<FullScreenPass>;
+で宣言され（getRootVar()の実装が必要）、ほかのクラスで
+
+    FullScreenPass::SharedPtr       mpMainPass;
+と定義することにより
+
+    mpMainPass["ToyCB"]["iResolution"] = float2(width, height);
+    mpMainPass["ToyCB"]["iGlobalTime"] = (float)gpFramework->getGlobalClock().getTime();  
+のように設定できるようになる  
 
 ### ParameterBlock
 シェーダーに割り当てるための変数を設定、保持しておくためのクラス  
@@ -113,19 +126,6 @@ ParameterBlockが持っているParameterBlockReflectionから取得される
 
 
 
-### ParameterBlockSharedPtrクラス
-ParameterBlockとShaderVarを通して、シェーダー変数の設定を辞書形式で行えるようにするためのクラス  
-例えばFullScreenPassでは
-
-    using SharedPtr = ParameterBlockSharedPtr<FullScreenPass>;
-で宣言され（getRootVar()の実装が必要）、ほかのクラスで
-
-    FullScreenPass::SharedPtr       mpMainPass;
-と定義することにより
-
-    mpMainPass["ToyCB"]["iResolution"] = float2(width, height);
-    mpMainPass["ToyCB"]["iGlobalTime"] = (float)gpFramework->getGlobalClock().getTime();  
-のように設定できるようになる  
 
 #### prepareDescriptorSets()関数
 最初にupdateSpecialization()でParameterBlockReflectionのSlang情報を更新  
@@ -217,11 +217,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzIxMTY4NzYsLTE5MDM3MTAxLC0xNT
-U4NjAyMzgwLC05Mzc4MTU1MzgsMTIyMDIzMDE2LC0xODUwMDI0
-MDI3LC0yMDc1NjA4NDU2LDE2MzUwMTc1MTYsMTQ5NDI4MDA5Mi
-wxNDMwMDI2NTAsMTkwNDg4NDkxMCwtMjU0MzUyNDgyLDE2ODk2
-MzU3MTksODY4Njk2NjMyLC0xNjg4NTA3NTI2LDE4MjE0MTU4Mz
-gsODc3MjA5NDE2LDE0NjY1MDE4ODksMTkyMTQ0Mzg3LDE0Mjk4
-ODU3MzNdfQ==
+eyJoaXN0b3J5IjpbODU4MTU4OTEyLC0xODcyMTE2ODc2LC0xOT
+AzNzEwMSwtMTU1ODYwMjM4MCwtOTM3ODE1NTM4LDEyMjAyMzAx
+NiwtMTg1MDAyNDAyNywtMjA3NTYwODQ1NiwxNjM1MDE3NTE2LD
+E0OTQyODAwOTIsMTQzMDAyNjUwLDE5MDQ4ODQ5MTAsLTI1NDM1
+MjQ4MiwxNjg5NjM1NzE5LDg2ODY5NjYzMiwtMTY4ODUwNzUyNi
+wxODIxNDE1ODM4LDg3NzIwOTQxNiwxNDY2NTAxODg5LDE5MjE0
+NDM4N119
 -->
