@@ -60,7 +60,9 @@ ParameterBlockに対応するProgramReflectionとEntryPointGroupVars（これも
 <font color=#bfbfbf>ルートシグネチャーかコンテキストクラスにこれを渡すapply()関数を作るんじゃなく、こっちに作っちゃうんだーって感がある</font>  
 
 #### apply()関数
+applyProgramVarsCommon()でコマンドリストにルートシグネチャーをセットし、bindRootSetsCommon()に移る  
 
+bindRootSetsCommon(()ではpVars->prepareDescriptorSets(pContext)によりリソース更新や
 
 ### ParameterBlock
 #### prepareDescriptorSets()関数
@@ -154,7 +156,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjUwODA4OSwxNDI5ODg1NzMzLDkzNz
+eyJoaXN0b3J5IjpbMTY5MTE4NjU2NCwxNDI5ODg1NzMzLDkzNz
 U5NzM5MSwtMjkxMDY5NTEzLC0xMDE1NTY2MDUyLDE2NTM2NDM4
 OCwtNTYxOTY2NTY0LDMzMTYzNTI3MCwtMTQxNDY5OTM5NSwtNj
 U3ODcyMzcsMTMzMjc2OTY1NiwtNzY0MDM0NjIxLDYxMDQyMjI4
