@@ -86,7 +86,7 @@ ParameterBlockに配列形式でアクセスできるようにするためのク
 
     mpMainPass["ToyCB"]["iResolution"] = float2(width, height);
     mpMainPass["ToyCB"]["iGlobalTime"] = (float)gpFramework->getGlobalClock().getTime();  
-  のように
+のように扱うことができるようになる
 
 #### prepareDescriptorSets()関数
 最初にupdateSpecialization()でParameterBlockReflectionのSlang情報を更新  
@@ -179,7 +179,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MDAzMzIwNywtMTY4ODUwNzUyNiwxOD
+eyJoaXN0b3J5IjpbLTEyOTUyNDIzNCwtMTY4ODUwNzUyNiwxOD
 IxNDE1ODM4LDg3NzIwOTQxNiwxNDY2NTAxODg5LDE5MjE0NDM4
 NywxNDI5ODg1NzMzLDkzNzU5NzM5MSwtMjkxMDY5NTEzLC0xMD
 E1NTY2MDUyLDE2NTM2NDM4OCwtNTYxOTY2NTY0LDMzMTYzNTI3
