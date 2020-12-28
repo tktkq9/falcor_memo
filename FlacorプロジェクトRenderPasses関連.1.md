@@ -79,6 +79,8 @@ BindLocationによる変数参照はParameterBlockで行うが、
 それ以外の、例えば変数名によって参照する場合はShaderVarクラスで対応する  
 正確にはShaderVarを一時的に作成してそちらで対応するBindLocationを取得したのち、それをParameterBlockの方に戻して変数割り当てを行う  
 
+### ShaderVar
+
 
 #### ParameterBlockSharedPtrクラス
 ParameterBlockとShaderVarを通して、シェーダー変数の設定を辞書形式で行えるようにするためのクラス  
@@ -115,7 +117,6 @@ bindIntoDescriptorSet()はDefaultConstantBufferのView、つまりバッファ�
 渡されたLayoutにディスクリプターヒープのハンドル  
 create()の時にディスクリプターヒープにLayoutに沿ってハンドルとそのrangeを割り当て、そのハンドル情報を保存する  
 
-### ShaderVar
 
 ## ProgramReflection
 
@@ -185,11 +186,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NDM1MjQ4MiwxNjg5NjM1NzE5LDg2OD
-Y5NjYzMiwtMTY4ODUwNzUyNiwxODIxNDE1ODM4LDg3NzIwOTQx
-NiwxNDY2NTAxODg5LDE5MjE0NDM4NywxNDI5ODg1NzMzLDkzNz
-U5NzM5MSwtMjkxMDY5NTEzLC0xMDE1NTY2MDUyLDE2NTM2NDM4
-OCwtNTYxOTY2NTY0LDMzMTYzNTI3MCwtMTQxNDY5OTM5NSwtNj
-U3ODcyMzcsMTMzMjc2OTY1NiwtNzY0MDM0NjIxLDYxMDQyMjI4
-MF19
+eyJoaXN0b3J5IjpbMTI5NTAxMjU4OCwtMjU0MzUyNDgyLDE2OD
+k2MzU3MTksODY4Njk2NjMyLC0xNjg4NTA3NTI2LDE4MjE0MTU4
+MzgsODc3MjA5NDE2LDE0NjY1MDE4ODksMTkyMTQ0Mzg3LDE0Mj
+k4ODU3MzMsOTM3NTk3MzkxLC0yOTEwNjk1MTMsLTEwMTU1NjYw
+NTIsMTY1MzY0Mzg4LC01NjE5NjY1NjQsMzMxNjM1MjcwLC0xND
+E0Njk5Mzk1LC02NTc4NzIzNywxMzMyNzY5NjU2LC03NjQwMzQ2
+MjFdfQ==
 -->
