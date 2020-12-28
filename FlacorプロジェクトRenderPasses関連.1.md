@@ -67,6 +67,7 @@ bindRootSetsCommon(()ではpVars->prepareDescriptorSets(pContext)にParameterBlo
 そしてbindParameterBlockSets()、bindParameterBlockRootDescs()に移り、コマンドリストに対してSetGraphicsRootShaderResourceView()などのレジスターとハンドルの対応付けが行われる  
 また、ParameterBlockの中に複数のサブParameterBlockことから再帰的に呼ばれていき、ParameterBlockがなくなるまでハンドルが割り当てられていく  
 
+
 ### ParameterBlock
 #### prepareDescriptorSets()関数
 最初にupdateSpecialization()でParameterBlockReflectionのSlang情報を更新  
@@ -159,11 +160,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NTgyMTg2MiwxNDY2NTAxODg5LDE5Mj
-E0NDM4NywxNDI5ODg1NzMzLDkzNzU5NzM5MSwtMjkxMDY5NTEz
-LC0xMDE1NTY2MDUyLDE2NTM2NDM4OCwtNTYxOTY2NTY0LDMzMT
-YzNTI3MCwtMTQxNDY5OTM5NSwtNjU3ODcyMzcsMTMzMjc2OTY1
-NiwtNzY0MDM0NjIxLDYxMDQyMjI4MCwxNTM0MzcyNjY3LDYxOT
-M5ODAwMywtMTQzNTE1MTE5NCwxMTA2NzI1MSwxMDEzOTI5NzY4
-XX0=
+eyJoaXN0b3J5IjpbODc3MjA5NDE2LDE0NjY1MDE4ODksMTkyMT
+Q0Mzg3LDE0Mjk4ODU3MzMsOTM3NTk3MzkxLC0yOTEwNjk1MTMs
+LTEwMTU1NjYwNTIsMTY1MzY0Mzg4LC01NjE5NjY1NjQsMzMxNj
+M1MjcwLC0xNDE0Njk5Mzk1LC02NTc4NzIzNywxMzMyNzY5NjU2
+LC03NjQwMzQ2MjEsNjEwNDIyMjgwLDE1MzQzNzI2NjcsNjE5Mz
+k4MDAzLC0xNDM1MTUxMTk0LDExMDY3MjUxLDEwMTM5Mjk3Njhd
+fQ==
 -->
