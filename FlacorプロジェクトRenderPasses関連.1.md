@@ -103,7 +103,8 @@ ParameterBlockの変数にアクセスのためのオフセット
 
 #### TypedShaderVarOffset
 ReflectionTypeを持ったShaderVarOffsetのサブクラス  
-ShaderVarで変数にアクセスするために作られる一時クラス  
+ShaderVarで変数にアクセスするために作られるオフセットクラス  
+TypedShaderVarOffset作成時に渡されるReflectionTypeからの情報によりオフセットが取得、計算される  
 
 
 ##### ReflectionType
@@ -215,11 +216,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MzI4MTkwNCwtOTM3ODE1NTM4LDEyMj
-AyMzAxNiwtMTg1MDAyNDAyNywtMjA3NTYwODQ1NiwxNjM1MDE3
-NTE2LDE0OTQyODAwOTIsMTQzMDAyNjUwLDE5MDQ4ODQ5MTAsLT
-I1NDM1MjQ4MiwxNjg5NjM1NzE5LDg2ODY5NjYzMiwtMTY4ODUw
-NzUyNiwxODIxNDE1ODM4LDg3NzIwOTQxNiwxNDY2NTAxODg5LD
-E5MjE0NDM4NywxNDI5ODg1NzMzLDkzNzU5NzM5MSwtMjkxMDY5
-NTEzXX0=
+eyJoaXN0b3J5IjpbLTE1NTg2MDIzODAsLTkzNzgxNTUzOCwxMj
+IwMjMwMTYsLTE4NTAwMjQwMjcsLTIwNzU2MDg0NTYsMTYzNTAx
+NzUxNiwxNDk0MjgwMDkyLDE0MzAwMjY1MCwxOTA0ODg0OTEwLC
+0yNTQzNTI0ODIsMTY4OTYzNTcxOSw4Njg2OTY2MzIsLTE2ODg1
+MDc1MjYsMTgyMTQxNTgzOCw4NzcyMDk0MTYsMTQ2NjUwMTg4OS
+wxOTIxNDQzODcsMTQyOTg4NTczMyw5Mzc1OTczOTEsLTI5MTA2
+OTUxM119
 -->
