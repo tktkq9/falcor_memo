@@ -61,7 +61,7 @@ ParameterBlockに対応するProgramReflectionとEntryPointGroupVars（これも
 
 #### apply()関数
 コマンドリストにルートシグネチャーとParameterBlockの変数に対応するハンドルを設定するための関数  
-以下はそのぜんたいてきな
+以下はその全体的な流れ  
 
 まず、applyProgramVarsCommon()でコマンドリストにルートシグネチャーをセットし、bindRootSetsCommon()に移る  
 
@@ -190,11 +190,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMjM3MDU5MywxOTA0ODg0OTEwLC0yNT
-QzNTI0ODIsMTY4OTYzNTcxOSw4Njg2OTY2MzIsLTE2ODg1MDc1
-MjYsMTgyMTQxNTgzOCw4NzcyMDk0MTYsMTQ2NjUwMTg4OSwxOT
-IxNDQzODcsMTQyOTg4NTczMyw5Mzc1OTczOTEsLTI5MTA2OTUx
-MywtMTAxNTU2NjA1MiwxNjUzNjQzODgsLTU2MTk2NjU2NCwzMz
-E2MzUyNzAsLTE0MTQ2OTkzOTUsLTY1Nzg3MjM3LDEzMzI3Njk2
-NTZdfQ==
+eyJoaXN0b3J5IjpbMTQzMDAyNjUwLDE5MDQ4ODQ5MTAsLTI1ND
+M1MjQ4MiwxNjg5NjM1NzE5LDg2ODY5NjYzMiwtMTY4ODUwNzUy
+NiwxODIxNDE1ODM4LDg3NzIwOTQxNiwxNDY2NTAxODg5LDE5Mj
+E0NDM4NywxNDI5ODg1NzMzLDkzNzU5NzM5MSwtMjkxMDY5NTEz
+LC0xMDE1NTY2MDUyLDE2NTM2NDM4OCwtNTYxOTY2NTY0LDMzMT
+YzNTI3MCwtMTQxNDY5OTM5NSwtNjU3ODcyMzcsMTMzMjc2OTY1
+Nl19
 -->
