@@ -148,15 +148,15 @@ ParameterBlockの変数にアクセスのためのオフセット
 UniformShaderVarOffset : Uniform変数（GLSL用語、HLSLではcbufferに対応）のtype/buffer/block用オフセット（TODO : type/buffer/blockとはなにか）  
 ResourceShaderVarOffset : リソース用オフセット  
 ShaderVarOffset : UniformShaderVarOffsetとResourceShaderVarOffsetをまとめたもの  
-TypedShaderVarOffset : ShaderVarOffsetとReflectionTypeをまとめたもの  
-
-#### ReflectionTypeまとめ
-ReflectionType : 
+TypedShaderVarOffset : ShaderVarOffsetとReflectionTypeをまとめたもの。以下詳細  
 
 #### TypedShaderVarOffset
 ReflectionTypeを持ったShaderVarOffsetのサブクラス  
 ShaderVarで変数にアクセスするために作られるオフセットクラス  
 TypedShaderVarOffset作成時に渡されるReflectionTypeからの情報によりオフセットが取得、計算される  
+
+#### ReflectionTypeまとめ
+ReflectionType : 
 
 #### ReflectionType
 ParameterBlockが持っているシェーダー変数の宣言部分の情報（例えば構造体などの名前、サイズ、その中身に関する情報）をまとめておくためのクラス  
@@ -229,11 +229,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjU2OTExNzksLTE1MTkwNTY5OTMsOD
-E4NTMwMTIsMTE5NjUxOTc2NCw2NzIxNDIwNzksMTg3Nzg2NTA3
-OCwzOTY4NjczOTQsLTIwODg0OTY3NjIsLTE4NzIxMTY4NzYsLT
-E5MDM3MTAxLC0xNTU4NjAyMzgwLC05Mzc4MTU1MzgsMTIyMDIz
-MDE2LC0xODUwMDI0MDI3LC0yMDc1NjA4NDU2LDE2MzUwMTc1MT
-YsMTQ5NDI4MDA5MiwxNDMwMDI2NTAsMTkwNDg4NDkxMCwtMjU0
-MzUyNDgyXX0=
+eyJoaXN0b3J5IjpbMTA3MDA0ODE4LC0xNTE5MDU2OTkzLDgxOD
+UzMDEyLDExOTY1MTk3NjQsNjcyMTQyMDc5LDE4Nzc4NjUwNzgs
+Mzk2ODY3Mzk0LC0yMDg4NDk2NzYyLC0xODcyMTE2ODc2LC0xOT
+AzNzEwMSwtMTU1ODYwMjM4MCwtOTM3ODE1NTM4LDEyMjAyMzAx
+NiwtMTg1MDAyNDAyNywtMjA3NTYwODQ1NiwxNjM1MDE3NTE2LD
+E0OTQyODAwOTIsMTQzMDAyNjUwLDE5MDQ4ODQ5MTAsLTI1NDM1
+MjQ4Ml19
 -->
