@@ -146,7 +146,7 @@ ParameterBlockとShaderVarの橋渡しを行うためのクラス群
 UniformShaderVarOffset : Uniform変数（GLSL用語、HLSLではcbufferに対応）のtype/buffer/block用オフセット（TODO : type/buffer/blockとはなにか）  
 ResourceShaderVarOffset : リソース用オフセット  
 ShaderVarOffset : UniformShaderVarOffsetとResourceShaderVarOffsetをまとめたもの  
-
+TypedShaderVarOffset : ShaderVarOffsetとReflectionTypeをまとめたもの  
 
 #### TypedShaderVarOffset
 ReflectionTypeを持ったShaderVarOffsetのサブクラス  
@@ -224,11 +224,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjkxNTU2NDcsMTE5NjUxOTc2NCw2Nz
-IxNDIwNzksMTg3Nzg2NTA3OCwzOTY4NjczOTQsLTIwODg0OTY3
-NjIsLTE4NzIxMTY4NzYsLTE5MDM3MTAxLC0xNTU4NjAyMzgwLC
-05Mzc4MTU1MzgsMTIyMDIzMDE2LC0xODUwMDI0MDI3LC0yMDc1
-NjA4NDU2LDE2MzUwMTc1MTYsMTQ5NDI4MDA5MiwxNDMwMDI2NT
-AsMTkwNDg4NDkxMCwtMjU0MzUyNDgyLDE2ODk2MzU3MTksODY4
-Njk2NjMyXX0=
+eyJoaXN0b3J5IjpbODE4NTMwMTIsMTE5NjUxOTc2NCw2NzIxND
+IwNzksMTg3Nzg2NTA3OCwzOTY4NjczOTQsLTIwODg0OTY3NjIs
+LTE4NzIxMTY4NzYsLTE5MDM3MTAxLC0xNTU4NjAyMzgwLC05Mz
+c4MTU1MzgsMTIyMDIzMDE2LC0xODUwMDI0MDI3LC0yMDc1NjA4
+NDU2LDE2MzUwMTc1MTYsMTQ5NDI4MDA5MiwxNDMwMDI2NTAsMT
+kwNDg4NDkxMCwtMjU0MzUyNDgyLDE2ODk2MzU3MTksODY4Njk2
+NjMyXX0=
 -->
