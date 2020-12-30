@@ -143,6 +143,7 @@ ParameterBlockとShaderVarの橋渡しを行うためのクラス群
 また、シェーダーで定義した変数のレイアウト情報などもProgramReflectionから取得できる  
 
 #### ShaderVarOffsetまとめ
+UniformShaderVarOffset : type/buffer/block用オフセット （TODO : type/buffer/blockとはなにか）  
 ResourceShaderVarOffset : リソース用オフセット  
 ShaderVarOffset : UniformShaderVarOffsetとResourceShaderVarOffsetをまとめたもの  
 
@@ -223,11 +224,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcyMTQyMDc5LDE4Nzc4NjUwNzgsMzk2OD
-Y3Mzk0LC0yMDg4NDk2NzYyLC0xODcyMTE2ODc2LC0xOTAzNzEw
-MSwtMTU1ODYwMjM4MCwtOTM3ODE1NTM4LDEyMjAyMzAxNiwtMT
-g1MDAyNDAyNywtMjA3NTYwODQ1NiwxNjM1MDE3NTE2LDE0OTQy
-ODAwOTIsMTQzMDAyNjUwLDE5MDQ4ODQ5MTAsLTI1NDM1MjQ4Mi
-wxNjg5NjM1NzE5LDg2ODY5NjYzMiwtMTY4ODUwNzUyNiwxODIx
-NDE1ODM4XX0=
+eyJoaXN0b3J5IjpbLTE0Mjg0NDQyMDcsNjcyMTQyMDc5LDE4Nz
+c4NjUwNzgsMzk2ODY3Mzk0LC0yMDg4NDk2NzYyLC0xODcyMTE2
+ODc2LC0xOTAzNzEwMSwtMTU1ODYwMjM4MCwtOTM3ODE1NTM4LD
+EyMjAyMzAxNiwtMTg1MDAyNDAyNywtMjA3NTYwODQ1NiwxNjM1
+MDE3NTE2LDE0OTQyODAwOTIsMTQzMDAyNjUwLDE5MDQ4ODQ5MT
+AsLTI1NDM1MjQ4MiwxNjg5NjM1NzE5LDg2ODY5NjYzMiwtMTY4
+ODUwNzUyNl19
 -->
