@@ -181,13 +181,13 @@ ReflectionType :
 シェーダー変数の宣言部分の情報（例えば構造体などの名前、サイズ、その中身に関する情報）をまとめておくためのクラス  
 ParameterBlockが持っているParameterBlockReflectionから取得される  
 
-TypeLayoutReflectionはSlangAPIの構造体の一つであり、これからシェーダー側で「宣言」したStruct、ParameterBlock, などの情報のうちの一つを取得できる  
-構造体の場合はその中にある変数のVariableLayoutReflectionも得ることができる  
+TypeLayoutReflectionはSlangAPIの構造体の一つであり、これからシェーダー側で「宣言」したStruct、ParameterBlock, ConstantBufferなどの情報を取得できる  
+また、その中にある変数のVariableLayoutReflectionもそれぞれ取得することができる  
 
 #### ReflectionVar
 シェーダーの変数定義部分の情報をまとめておくためのクラス  
 
-VariableLayoutReflectionはSlangAPIの構造体の一つであり、これからシェーダー側での「定義」された指定したスコープ内の全ての変数のうちの一つの情報を取得できる  
+VariableLayoutReflectionはSlangAPIの構造体の一つであり、これからシェーダーでの指定したスコープ内での「定義」された全ての変数のうちの一つの情報を取得できる  
 例えばShaderReflectionというシェーダー本体情報からはグローバルな変数を、TypeLayoutReflectionのStruct
 この情報からはその変数に対応するTypeLayoutReflectionも得ることができる  
 
@@ -257,7 +257,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2OTQyOTY0LC0zNDA3MzM3NTYsLTE1MT
+eyJoaXN0b3J5IjpbOTMxNDI1MzE1LC0zNDA3MzM3NTYsLTE1MT
 c0ODUyNTUsLTc5ODYyODAwMSwxODI4NDE4MTAsLTE5NTQzMDQz
 MzcsMTExODI4Mjg4NSwtMzg3OTEwMjg0LC0xMjU5MTI0NDU3LD
 IwNjc1Mzk1MzcsMTA3MDA0ODE4LC0xNTE5MDU2OTkzLDgxODUz
