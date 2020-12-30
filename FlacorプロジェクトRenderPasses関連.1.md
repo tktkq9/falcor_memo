@@ -138,9 +138,9 @@ ParameterBlockの変数にアクセスのためのオフセット
 また、外部用ParameterBlockとして機能するために、オフセットが絡まない関数に対するラッパー関数も一通り実装されている  
 
 
-### ProgramReflectionファイルのクラス群
+### ProgramReflectionファイル
 変数名からオフセットを取得する際に利用されるクラス群  
-要するに、ParameterBlockとShaderVarの橋渡しを行うためのもの  
+要するに、ShaderVarとParameterBlockの橋渡しを行うためのもの  
 
 また、シェーダーで定義した変数のレイアウト情報などもProgramReflectionから取得できる  
 
@@ -229,11 +229,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ0MDMyOTIsLTE1MTkwNTY5OTMsODE4NT
-MwMTIsMTE5NjUxOTc2NCw2NzIxNDIwNzksMTg3Nzg2NTA3OCwz
-OTY4NjczOTQsLTIwODg0OTY3NjIsLTE4NzIxMTY4NzYsLTE5MD
-M3MTAxLC0xNTU4NjAyMzgwLC05Mzc4MTU1MzgsMTIyMDIzMDE2
-LC0xODUwMDI0MDI3LC0yMDc1NjA4NDU2LDE2MzUwMTc1MTYsMT
-Q5NDI4MDA5MiwxNDMwMDI2NTAsMTkwNDg4NDkxMCwtMjU0MzUy
-NDgyXX0=
+eyJoaXN0b3J5IjpbLTEwMjU2OTExNzksLTE1MTkwNTY5OTMsOD
+E4NTMwMTIsMTE5NjUxOTc2NCw2NzIxNDIwNzksMTg3Nzg2NTA3
+OCwzOTY4NjczOTQsLTIwODg0OTY3NjIsLTE4NzIxMTY4NzYsLT
+E5MDM3MTAxLC0xNTU4NjAyMzgwLC05Mzc4MTU1MzgsMTIyMDIz
+MDE2LC0xODUwMDI0MDI3LC0yMDc1NjA4NDU2LDE2MzUwMTc1MT
+YsMTQ5NDI4MDA5MiwxNDMwMDI2NTAsMTkwNDg4NDkxMCwtMjU0
+MzUyNDgyXX0=
 -->
