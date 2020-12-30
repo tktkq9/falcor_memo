@@ -157,6 +157,11 @@ ReflectionTypeを持ったShaderVarOffsetのサブクラス
 ShaderVarで変数にアクセスするために作られるオフセットクラス  
 TypedShaderVarOffset作成時に渡されるReflectionTypeからの情報によりオフセットが取得、計算される  
 
+オフセットの取得は
+
+    operator[](const std::string& name)
+  によって取得され、ReflectionTypeがReflectionStructTypeの時のみ機能する
+
 #### ReflectionTypeまとめ
 ReflectionType : 
 
@@ -231,11 +236,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTkxMjQ0NTcsMjA2NzUzOTUzNywxMD
-cwMDQ4MTgsLTE1MTkwNTY5OTMsODE4NTMwMTIsMTE5NjUxOTc2
-NCw2NzIxNDIwNzksMTg3Nzg2NTA3OCwzOTY4NjczOTQsLTIwOD
-g0OTY3NjIsLTE4NzIxMTY4NzYsLTE5MDM3MTAxLC0xNTU4NjAy
-MzgwLC05Mzc4MTU1MzgsMTIyMDIzMDE2LC0xODUwMDI0MDI3LC
-0yMDc1NjA4NDU2LDE2MzUwMTc1MTYsMTQ5NDI4MDA5MiwxNDMw
-MDI2NTBdfQ==
+eyJoaXN0b3J5IjpbLTU3NzI4ODk2MiwtMTI1OTEyNDQ1NywyMD
+Y3NTM5NTM3LDEwNzAwNDgxOCwtMTUxOTA1Njk5Myw4MTg1MzAx
+MiwxMTk2NTE5NzY0LDY3MjE0MjA3OSwxODc3ODY1MDc4LDM5Nj
+g2NzM5NCwtMjA4ODQ5Njc2MiwtMTg3MjExNjg3NiwtMTkwMzcx
+MDEsLTE1NTg2MDIzODAsLTkzNzgxNTUzOCwxMjIwMjMwMTYsLT
+E4NTAwMjQwMjcsLTIwNzU2MDg0NTYsMTYzNTAxNzUxNiwxNDk0
+MjgwMDkyXX0=
 -->
