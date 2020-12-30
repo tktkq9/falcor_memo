@@ -147,7 +147,7 @@ TypedShaderVarOffsetが名前からオフセットを取得するためのクラ
 また、シェーダーで定義した変数のレイアウト情報などもProgramReflectionから取得できる  
 
 #### ShaderVarOffsetまとめ
-基本的に外部で扱われるのはTypedShaderVarOffset  
+基本的に外部で扱われるのはTypedShaderVarOffsetであり、これが  
 その他のクラスはTypedShaderVarOffsetを構成するためのものであるっぽい  
 
 - UniformShaderVarOffset
@@ -172,6 +172,9 @@ TypedShaderVarOffset作成時に渡されるReflectionTypeからの情報によ�
 変数名に対応する変数情報はReflectionTypeが持っており、TypedShaderVarOffsetでは、このReflectionTypeからもらってきた変数情報をオフセットに加工する役割を果たしている  
 
 #### ReflectionTypeまとめ
+各タイプに対する変数名に対応する変数情報が格納されたもの  
+ReflectionTypeがインターフェース的役割を果たしており、
+
 ReflectionType : 
 
 #### ReflectionType
@@ -245,11 +248,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTM0ODU2MjIsLTM4NzkxMDI4NCwtMT
-I1OTEyNDQ1NywyMDY3NTM5NTM3LDEwNzAwNDgxOCwtMTUxOTA1
-Njk5Myw4MTg1MzAxMiwxMTk2NTE5NzY0LDY3MjE0MjA3OSwxOD
-c3ODY1MDc4LDM5Njg2NzM5NCwtMjA4ODQ5Njc2MiwtMTg3MjEx
-Njg3NiwtMTkwMzcxMDEsLTE1NTg2MDIzODAsLTkzNzgxNTUzOC
-wxMjIwMjMwMTYsLTE4NTAwMjQwMjcsLTIwNzU2MDg0NTYsMTYz
-NTAxNzUxNl19
+eyJoaXN0b3J5IjpbMTExODI4Mjg4NSwtMzg3OTEwMjg0LC0xMj
+U5MTI0NDU3LDIwNjc1Mzk1MzcsMTA3MDA0ODE4LC0xNTE5MDU2
+OTkzLDgxODUzMDEyLDExOTY1MTk3NjQsNjcyMTQyMDc5LDE4Nz
+c4NjUwNzgsMzk2ODY3Mzk0LC0yMDg4NDk2NzYyLC0xODcyMTE2
+ODc2LC0xOTAzNzEwMSwtMTU1ODYwMjM4MCwtOTM3ODE1NTM4LD
+EyMjAyMzAxNiwtMTg1MDAyNDAyNywtMjA3NTYwODQ1NiwxNjM1
+MDE3NTE2XX0=
 -->
