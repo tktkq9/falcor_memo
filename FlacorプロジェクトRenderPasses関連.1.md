@@ -169,7 +169,7 @@ TypedShaderVarOffset作成時に渡されるReflectionTypeからの情報によ�
     operator[](const std::string& name)
   によって取得され、ReflectionTypeがReflectionStructTypeの時のみ機能する  
 （つまり、変数名によるオフセット取得は構造体タイプに対してのみ行われ、ShaderVarは構造体のみしかアクセスできないようになっている？）  
-実際は、変数名に対応する変数情報はReflectionTypeが持っており、TypedShaderVarOffsetはこのReflectionTypeからもらってきた変数情報をオフセットに
+実際は、変数名に対応する変数情報はReflectionTypeが持っており、TypedShaderVarOffset側で行っていることは、このReflectionTypeからもらってきた変数情報をオフセットに加工する役割を果たしている  
 
 #### ReflectionTypeまとめ
 ReflectionType : 
@@ -245,7 +245,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NzQyNjYwNywtMzg3OTEwMjg0LC0xMj
+eyJoaXN0b3J5IjpbMjEzMzcyMTI4NywtMzg3OTEwMjg0LC0xMj
 U5MTI0NDU3LDIwNjc1Mzk1MzcsMTA3MDA0ODE4LC0xNTE5MDU2
 OTkzLDgxODUzMDEyLDExOTY1MTk3NjQsNjcyMTQyMDc5LDE4Nz
 c4NjUwNzgsMzk2ODY3Mzk0LC0yMDg4NDk2NzYyLC0xODcyMTE2
