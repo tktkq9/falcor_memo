@@ -48,7 +48,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 
-## ProgramVars, ParameterBlock
+## ProgramVars, ParameterBlock, ProgramReflection関連
 
 ### ProgramVars
 ParameterBlockのサブクラス  
@@ -216,11 +216,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODg0OTY3NjIsLTE4NzIxMTY4NzYsLT
-E5MDM3MTAxLC0xNTU4NjAyMzgwLC05Mzc4MTU1MzgsMTIyMDIz
-MDE2LC0xODUwMDI0MDI3LC0yMDc1NjA4NDU2LDE2MzUwMTc1MT
-YsMTQ5NDI4MDA5MiwxNDMwMDI2NTAsMTkwNDg4NDkxMCwtMjU0
-MzUyNDgyLDE2ODk2MzU3MTksODY4Njk2NjMyLC0xNjg4NTA3NT
-I2LDE4MjE0MTU4MzgsODc3MjA5NDE2LDE0NjY1MDE4ODksMTky
-MTQ0Mzg3XX0=
+eyJoaXN0b3J5IjpbMzk2ODY3Mzk0LC0yMDg4NDk2NzYyLC0xOD
+cyMTE2ODc2LC0xOTAzNzEwMSwtMTU1ODYwMjM4MCwtOTM3ODE1
+NTM4LDEyMjAyMzAxNiwtMTg1MDAyNDAyNywtMjA3NTYwODQ1Ni
+wxNjM1MDE3NTE2LDE0OTQyODAwOTIsMTQzMDAyNjUwLDE5MDQ4
+ODQ5MTAsLTI1NDM1MjQ4MiwxNjg5NjM1NzE5LDg2ODY5NjYzMi
+wtMTY4ODUwNzUyNiwxODIxNDE1ODM4LDg3NzIwOTQxNiwxNDY2
+NTAxODg5XX0=
 -->
