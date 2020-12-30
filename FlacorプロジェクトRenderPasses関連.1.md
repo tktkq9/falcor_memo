@@ -143,7 +143,7 @@ ParameterBlockとShaderVarの橋渡しを行うためのクラス群
 また、シェーダーで定義した変数のレイアウト情報などもProgramReflectionから取得できる  
 
 #### ShaderVarOffsetまとめ
-UniformShaderVarOffset : type/buffer/block用オフセット（TODO : type/buffer/blockとはなにか）  
+UniformShaderVarOffset : Uniform変数（GLSL用語、HLSLではグローバルコンスタントバッファーに対応）のtype/buffer/block用オフセット（TODO : type/buffer/blockとはなにか）  
 ResourceShaderVarOffset : リソース用オフセット  
 ShaderVarOffset : UniformShaderVarOffsetとResourceShaderVarOffsetをまとめたもの  
 
@@ -224,7 +224,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5ODI3NzQ2MSw2NzIxNDIwNzksMTg3Nz
+eyJoaXN0b3J5IjpbMTE5NjUxOTc2NCw2NzIxNDIwNzksMTg3Nz
 g2NTA3OCwzOTY4NjczOTQsLTIwODg0OTY3NjIsLTE4NzIxMTY4
 NzYsLTE5MDM3MTAxLC0xNTU4NjAyMzgwLC05Mzc4MTU1MzgsMT
 IyMDIzMDE2LC0xODUwMDI0MDI3LC0yMDc1NjA4NDU2LDE2MzUw
