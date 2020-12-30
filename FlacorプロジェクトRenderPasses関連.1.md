@@ -149,7 +149,7 @@ ShaderVarOffset : UniformShaderVarOffsetとResourceShaderVarOffsetをまとめ�
 TypedShaderVarOffset : ShaderVarOffsetとReflectionTypeをまとめたもの  
 
 #### ReflectionTypeまとめ
-
+ReflectionType : 
 
 #### TypedShaderVarOffset
 ReflectionTypeを持ったShaderVarOffsetのサブクラス  
@@ -227,7 +227,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDY4ODY2NjAsODE4NTMwMTIsMTE5Nj
+eyJoaXN0b3J5IjpbLTE1MTkwNTY5OTMsODE4NTMwMTIsMTE5Nj
 UxOTc2NCw2NzIxNDIwNzksMTg3Nzg2NTA3OCwzOTY4NjczOTQs
 LTIwODg0OTY3NjIsLTE4NzIxMTY4NzYsLTE5MDM3MTAxLC0xNT
 U4NjAyMzgwLC05Mzc4MTU1MzgsMTIyMDIzMDE2LC0xODUwMDI0
