@@ -186,7 +186,6 @@ TypeLayoutReflectionはSlangAPIの構造体の一つであり、これからシ�
 #### ReflectionVar
 シェーダーの変数定義部分の情報  
 
-
 VariableLayoutReflectionはSlangAPIの構造体の一つであり、この構造体からシェーダー側での「定義」された全ての変数のうちの一つの情報を取得できる  
 この情報からはその変数に対応するTypeLayoutReflectionも得ることができる  
 
@@ -256,7 +255,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTI2MDA4MCwtNzk4NjI4MDAxLDE4Mj
+eyJoaXN0b3J5IjpbMTUwNjk1MjMyMiwtNzk4NjI4MDAxLDE4Mj
 g0MTgxMCwtMTk1NDMwNDMzNywxMTE4MjgyODg1LC0zODc5MTAy
 ODQsLTEyNTkxMjQ0NTcsMjA2NzUzOTUzNywxMDcwMDQ4MTgsLT
 E1MTkwNTY5OTMsODE4NTMwMTIsMTE5NjUxOTc2NCw2NzIxNDIw
