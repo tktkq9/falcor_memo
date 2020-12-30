@@ -184,7 +184,7 @@ ParameterBlockが持っているParameterBlockReflectionから取得される
 TypeLayoutReflectionはSlangAPIの構造体の一つであり、これからシェーダー側での「宣言」した構造体などのすべての情報のうちの一つを取得できる  
 
 #### ReflectionVar
-シェーダーの変数定義部分の情報をまとめておくためのクラス   
+シェーダーの変数定義部分の情報をまとめておくためのクラス  
 
 VariableLayoutReflectionはSlangAPIの構造体の一つであり、この構造体からシェーダー側での「定義」された全ての変数のうちの一つの情報を取得できる  
 この情報からはその変数に対応するTypeLayoutReflectionも得ることができる  
@@ -255,7 +255,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODMzNzc5NTcsLTc5ODYyODAwMSwxOD
+eyJoaXN0b3J5IjpbLTE1MTc0ODUyNTUsLTc5ODYyODAwMSwxOD
 I4NDE4MTAsLTE5NTQzMDQzMzcsMTExODI4Mjg4NSwtMzg3OTEw
 Mjg0LC0xMjU5MTI0NDU3LDIwNjc1Mzk1MzcsMTA3MDA0ODE4LC
 0xNTE5MDU2OTkzLDgxODUzMDEyLDExOTY1MTk3NjQsNjcyMTQy
