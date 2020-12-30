@@ -148,7 +148,7 @@ TypedShaderVarOffsetが名前からオフセットを取得するためのクラ
 
 #### ShaderVarOffsetまとめ
 基本的に外部で扱われるのはTypedShaderVarOffset  
-その他のクラスはTypedShaderVarOffsetを構成するためのクラスであるっぽい  
+その他のクラスはTypedShaderVarOffsetを構成するためのものであるっぽい  
 
 - UniformShaderVarOffset
   - Uniform変数（GLSL用語、HLSLではコンスタントバッファーに対応）のtype/buffer/block用オフセット（TODO : type/buffer/blockとはなにか）  
@@ -244,7 +244,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc4MTIyNTA0LC0zODc5MTAyODQsLTEyNT
+eyJoaXN0b3J5IjpbMTY3NTQyNjI3LC0zODc5MTAyODQsLTEyNT
 kxMjQ0NTcsMjA2NzUzOTUzNywxMDcwMDQ4MTgsLTE1MTkwNTY5
 OTMsODE4NTMwMTIsMTE5NjUxOTc2NCw2NzIxNDIwNzksMTg3Nz
 g2NTA3OCwzOTY4NjczOTQsLTIwODg0OTY3NjIsLTE4NzIxMTY4
