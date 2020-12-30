@@ -142,6 +142,8 @@ ParameterBlockの変数にアクセスのためのオフセット
 変数名からオフセットを取得する際に利用されるクラス群  
 要するに、ShaderVarとParameterBlockの橋渡しを行うためのもの  
 
+TypedShaderVarOffsetが名前からオフセットを取得するためのクラス  
+
 また、シェーダーで定義した変数のレイアウト情報などもProgramReflectionから取得できる  
 
 #### ShaderVarOffsetまとめ
@@ -229,11 +231,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NzUzOTUzNywxMDcwMDQ4MTgsLTE1MT
-kwNTY5OTMsODE4NTMwMTIsMTE5NjUxOTc2NCw2NzIxNDIwNzks
-MTg3Nzg2NTA3OCwzOTY4NjczOTQsLTIwODg0OTY3NjIsLTE4Nz
-IxMTY4NzYsLTE5MDM3MTAxLC0xNTU4NjAyMzgwLC05Mzc4MTU1
-MzgsMTIyMDIzMDE2LC0xODUwMDI0MDI3LC0yMDc1NjA4NDU2LD
-E2MzUwMTc1MTYsMTQ5NDI4MDA5MiwxNDMwMDI2NTAsMTkwNDg4
-NDkxMF19
+eyJoaXN0b3J5IjpbLTEyNTkxMjQ0NTcsMjA2NzUzOTUzNywxMD
+cwMDQ4MTgsLTE1MTkwNTY5OTMsODE4NTMwMTIsMTE5NjUxOTc2
+NCw2NzIxNDIwNzksMTg3Nzg2NTA3OCwzOTY4NjczOTQsLTIwOD
+g0OTY3NjIsLTE4NzIxMTY4NzYsLTE5MDM3MTAxLC0xNTU4NjAy
+MzgwLC05Mzc4MTU1MzgsMTIyMDIzMDE2LC0xODUwMDI0MDI3LC
+0yMDc1NjA4NDU2LDE2MzUwMTc1MTYsMTQ5NDI4MDA5MiwxNDMw
+MDI2NTBdfQ==
 -->
