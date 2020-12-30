@@ -181,13 +181,14 @@ ReflectionType :
 ParameterBlockが持っているシェーダー変数の宣言部分の情報（例えば構造体などの名前、サイズ、その中身に関する情報）をまとめておくためのクラス  
 ParameterBlockが持っているParameterBlockReflectionから取得される  
 
-TypeLayoutReflectionはSlangAPIの構造体の一つであり、この構造体からシェーダー側での「宣言」した構造体などの情報を取得できる
+TypeLayoutReflectionはSlangAPIの構造体の一つであり、この構造体からシェーダー側での「宣言」した構造体などの情報を取得できる  
 
 #### ReflectionVar
 シェーダーの変数定義部分の情報
 
 
-VariableLayoutReflectionはSlangAPIの構造体の一つであり、この構造体からシェーダー側での定義され変数宣言情報を取得できる
+VariableLayoutReflectionはSlangAPIの構造体の一つであり、この構造体からシェーダー側での「定義」された変数情報を取得できる  
+この情報からはTypeLayoutReflectionも得ることができる  
 
 ## ProgramVersion, Program, Shaderファイル関連
 シェーダーの中身とそれをdx12用のシェーダーブロブやルートシグネチャーにするためのなんやかんや  
@@ -255,11 +256,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMDM2MDAxMiwtMTk1NDMwNDMzNywxMT
-E4MjgyODg1LC0zODc5MTAyODQsLTEyNTkxMjQ0NTcsMjA2NzUz
-OTUzNywxMDcwMDQ4MTgsLTE1MTkwNTY5OTMsODE4NTMwMTIsMT
-E5NjUxOTc2NCw2NzIxNDIwNzksMTg3Nzg2NTA3OCwzOTY4Njcz
-OTQsLTIwODg0OTY3NjIsLTE4NzIxMTY4NzYsLTE5MDM3MTAxLC
-0xNTU4NjAyMzgwLC05Mzc4MTU1MzgsMTIyMDIzMDE2LC0xODUw
-MDI0MDI3XX0=
+eyJoaXN0b3J5IjpbMTgyODQxODEwLC0xOTU0MzA0MzM3LDExMT
+gyODI4ODUsLTM4NzkxMDI4NCwtMTI1OTEyNDQ1NywyMDY3NTM5
+NTM3LDEwNzAwNDgxOCwtMTUxOTA1Njk5Myw4MTg1MzAxMiwxMT
+k2NTE5NzY0LDY3MjE0MjA3OSwxODc3ODY1MDc4LDM5Njg2NzM5
+NCwtMjA4ODQ5Njc2MiwtMTg3MjExNjg3NiwtMTkwMzcxMDEsLT
+E1NTg2MDIzODAsLTkzNzgxNTUzOCwxMjIwMjMwMTYsLTE4NTAw
+MjQwMjddfQ==
 -->
