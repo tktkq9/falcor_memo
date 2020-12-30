@@ -148,7 +148,8 @@ ResourceShaderVarOffset : リソース用オフセット
 ShaderVarOffset : UniformShaderVarOffsetとResourceShaderVarOffsetをまとめたもの  
 TypedShaderVarOffset : ShaderVarOffsetとReflectionTypeをまとめたもの  
 
-#### ReflectionType
+#### ReflectionTypeまとめ
+
 
 #### TypedShaderVarOffset
 ReflectionTypeを持ったShaderVarOffsetのサブクラス  
@@ -226,11 +227,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMzI4NTUxLDgxODUzMDEyLDExOTY1MT
-k3NjQsNjcyMTQyMDc5LDE4Nzc4NjUwNzgsMzk2ODY3Mzk0LC0y
-MDg4NDk2NzYyLC0xODcyMTE2ODc2LC0xOTAzNzEwMSwtMTU1OD
-YwMjM4MCwtOTM3ODE1NTM4LDEyMjAyMzAxNiwtMTg1MDAyNDAy
-NywtMjA3NTYwODQ1NiwxNjM1MDE3NTE2LDE0OTQyODAwOTIsMT
-QzMDAyNjUwLDE5MDQ4ODQ5MTAsLTI1NDM1MjQ4MiwxNjg5NjM1
-NzE5XX0=
+eyJoaXN0b3J5IjpbLTE5MDY4ODY2NjAsODE4NTMwMTIsMTE5Nj
+UxOTc2NCw2NzIxNDIwNzksMTg3Nzg2NTA3OCwzOTY4NjczOTQs
+LTIwODg0OTY3NjIsLTE4NzIxMTY4NzYsLTE5MDM3MTAxLC0xNT
+U4NjAyMzgwLC05Mzc4MTU1MzgsMTIyMDIzMDE2LC0xODUwMDI0
+MDI3LC0yMDc1NjA4NDU2LDE2MzUwMTc1MTYsMTQ5NDI4MDA5Mi
+wxNDMwMDI2NTAsMTkwNDg4NDkxMCwtMjU0MzUyNDgyLDE2ODk2
+MzU3MTldfQ==
 -->
