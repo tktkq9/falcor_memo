@@ -178,13 +178,13 @@ ReflectionTypeがインターフェース的役割を果たしており、外部
 ReflectionType : 
 
 #### ReflectionType
-ParameterBlockが持っているシェーダー変数の宣言部分の情報（例えば構造体などの名前、サイズ、その中身に関する情報）をまとめておくためのクラス  
+シェーダー変数の宣言部分の情報（例えば構造体などの名前、サイズ、その中身に関する情報）をまとめておくためのクラス  
 ParameterBlockが持っているParameterBlockReflectionから取得される  
 
 TypeLayoutReflectionはSlangAPIの構造体の一つであり、これからシェーダー側での「宣言」した構造体などのすべての情報のうちの一つを取得できる  
 
 #### ReflectionVar
-シェーダーの変数定義部分の情報
+シェーダーの変数定義部分の情報  
 
 
 VariableLayoutReflectionはSlangAPIの構造体の一つであり、この構造体からシェーダー側での「定義」された全ての変数のうちの一つの情報を取得できる  
@@ -256,7 +256,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2ODA0NTYxMywtNzk4NjI4MDAxLDE4Mj
+eyJoaXN0b3J5IjpbMTg4NTI2MDA4MCwtNzk4NjI4MDAxLDE4Mj
 g0MTgxMCwtMTk1NDMwNDMzNywxMTE4MjgyODg1LC0zODc5MTAy
 ODQsLTEyNTkxMjQ0NTcsMjA2NzUzOTUzNywxMDcwMDQ4MTgsLT
 E1MTkwNTY5OTMsODE4NTMwMTIsMTE5NjUxOTc2NCw2NzIxNDIw
