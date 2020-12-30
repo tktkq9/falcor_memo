@@ -140,7 +140,7 @@ ParameterBlockの変数にアクセスのためのオフセット
 
 ### ProgramReflection
 ParameterBlockとShaderVarの橋渡しを行うためのクラス  
-また、しぇーだー
+また、シェーダーで定義した変数のレイアウト情報などもko
 
 #### TypedShaderVarOffset
 ReflectionTypeを持ったShaderVarOffsetのサブクラス  
@@ -218,11 +218,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQ5OTg5MTgsMzk2ODY3Mzk0LC0yMD
-g4NDk2NzYyLC0xODcyMTE2ODc2LC0xOTAzNzEwMSwtMTU1ODYw
-MjM4MCwtOTM3ODE1NTM4LDEyMjAyMzAxNiwtMTg1MDAyNDAyNy
-wtMjA3NTYwODQ1NiwxNjM1MDE3NTE2LDE0OTQyODAwOTIsMTQz
-MDAyNjUwLDE5MDQ4ODQ5MTAsLTI1NDM1MjQ4MiwxNjg5NjM1Nz
-E5LDg2ODY5NjYzMiwtMTY4ODUwNzUyNiwxODIxNDE1ODM4LDg3
-NzIwOTQxNl19
+eyJoaXN0b3J5IjpbMTAxMjYyMzg2LDM5Njg2NzM5NCwtMjA4OD
+Q5Njc2MiwtMTg3MjExNjg3NiwtMTkwMzcxMDEsLTE1NTg2MDIz
+ODAsLTkzNzgxNTUzOCwxMjIwMjMwMTYsLTE4NTAwMjQwMjcsLT
+IwNzU2MDg0NTYsMTYzNTAxNzUxNiwxNDk0MjgwMDkyLDE0MzAw
+MjY1MCwxOTA0ODg0OTEwLC0yNTQzNTI0ODIsMTY4OTYzNTcxOS
+w4Njg2OTY2MzIsLTE2ODg1MDc1MjYsMTgyMTQxNTgzOCw4Nzcy
+MDk0MTZdfQ==
 -->
