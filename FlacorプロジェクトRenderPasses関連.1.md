@@ -177,7 +177,7 @@ ReflectionTypeがインターフェース的役割を果たしており、外部
 
 ReflectionType系クラスの中に複数のReflectionType系クラスがある再帰的な構造  
 例えばReflectionStructTypeのなかに基本型（Intとかfloat3x4とか）に対応するReflectionBasicTypeが複数入っているとかそんな感じ  
-これを、reflectVariablel系関数で再帰的に作成する  
+これを、reflectVariable系関数で再帰的に作成する  
 
 ReflectionType : 
 
@@ -273,7 +273,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNTAwMjAzMywxNDc2NjYyMjY3LC0xNj
+eyJoaXN0b3J5IjpbMTA4NTgyODY3MSwxNDc2NjYyMjY3LC0xNj
 QzMDA4MDMxLDk0NzAyMzc3NCwtMzQwNzMzNzU2LC0xNTE3NDg1
 MjU1LC03OTg2MjgwMDEsMTgyODQxODEwLC0xOTU0MzA0MzM3LD
 ExMTgyODI4ODUsLTM4NzkxMDI4NCwtMTI1OTEyNDQ1NywyMDY3
