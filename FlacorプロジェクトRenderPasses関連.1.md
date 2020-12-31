@@ -196,7 +196,7 @@ ReflectionType系クラスの中に複数のReflectionType系クラスがある�
 
 
 #### ReflectionStructType
-addMember()で新しいメンバ変数が追加され、addMemberIgnoringNameConflicts()でメンバ変数の順序を計算する  
+addMember()で新しいメンバ変数がmNameToIndexに追加され、addMemberIgnoringNameConflicts()でメンバ変数の場所と範囲であるfieldRangeを計算しmResourceRangesに追加する  
 
 #### reflectVariable系関数
 ReflectionReflection.cppの方で宣言定義されており、ReflectionTypeを作るための関数  
@@ -282,7 +282,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNDE1Njg5NywtMzM5NzM1NDI5LC0xND
+eyJoaXN0b3J5IjpbLTQzODY2NzU0MywtMzM5NzM1NDI5LC0xND
 gzNTMwNDg1LC0xMzMwNTA5NTYxLC0yMDE1MjE1MTIzLDEwODU4
 Mjg2NzEsMTQ3NjY2MjI2NywtMTY0MzAwODAzMSw5NDcwMjM3Nz
 QsLTM0MDczMzc1NiwtMTUxNzQ4NTI1NSwtNzk4NjI4MDAxLDE4
