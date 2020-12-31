@@ -178,7 +178,8 @@ ReflectionTypeがインターフェース的役割を果たしており、外部
 ReflectionTypeの中に複数のReflectionTypeがある再帰的な構造  
 例えばReflectionStructTypeのなかに基本型（Intとかfloat3x4とか）に対応するReflectionBasicTypeが複数入っているとかそんな感じ  
 
-
+cppの方で定義されているreflectVariable系関数で再帰的に作られる  
+ちなみにその時ParameterBlockReflection* pBlockも渡しているが、これはpBlock->addResourceRange(bindingInfo)するため
 
 ReflectionType : 
 
@@ -262,11 +263,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTExMDMwNDMsLTE2NDMwMDgwMzEsOT
-Q3MDIzNzc0LC0zNDA3MzM3NTYsLTE1MTc0ODUyNTUsLTc5ODYy
-ODAwMSwxODI4NDE4MTAsLTE5NTQzMDQzMzcsMTExODI4Mjg4NS
-wtMzg3OTEwMjg0LC0xMjU5MTI0NDU3LDIwNjc1Mzk1MzcsMTA3
-MDA0ODE4LC0xNTE5MDU2OTkzLDgxODUzMDEyLDExOTY1MTk3Nj
-QsNjcyMTQyMDc5LDE4Nzc4NjUwNzgsMzk2ODY3Mzk0LC0yMDg4
-NDk2NzYyXX0=
+eyJoaXN0b3J5IjpbMTgyODM3OTMyNiwtMTY0MzAwODAzMSw5ND
+cwMjM3NzQsLTM0MDczMzc1NiwtMTUxNzQ4NTI1NSwtNzk4NjI4
+MDAxLDE4Mjg0MTgxMCwtMTk1NDMwNDMzNywxMTE4MjgyODg1LC
+0zODc5MTAyODQsLTEyNTkxMjQ0NTcsMjA2NzUzOTUzNywxMDcw
+MDQ4MTgsLTE1MTkwNTY5OTMsODE4NTMwMTIsMTE5NjUxOTc2NC
+w2NzIxNDIwNzksMTg3Nzg2NTA3OCwzOTY4NjczOTQsLTIwODg0
+OTY3NjJdfQ==
 -->
