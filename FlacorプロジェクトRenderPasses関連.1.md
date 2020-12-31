@@ -191,7 +191,7 @@ ReflectionType系クラスの中に複数のReflectionType系クラスがある�
   - Structに対応するReflectionType。struct内部の変数やオフセットなど様々な情報の管理を行う（詳細はこの後の別の場所で）
 - ReflectionBasicType
   - intやFloat3x4など標準型に対応するReflectionType。その特性から、ReflectionBasicTypeが子ReflectionTypeを持つことはない
-- ReflectionType
+- ReflectionResourceType
   - a
 - ReflectionType
   - a
@@ -293,7 +293,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTMzNDQ0OSwxNjU1NTA0MDI2LC0xOT
+eyJoaXN0b3J5IjpbLTc1MTQ5MTEwMywxNjU1NTA0MDI2LC0xOT
 EyODg5MTE5LC0xNTE2MjM4NzU0LC0zMzk3MzU0MjksLTE0ODM1
 MzA0ODUsLTEzMzA1MDk1NjEsLTIwMTUyMTUxMjMsMTA4NTgyOD
 Y3MSwxNDc2NjYyMjY3LC0xNjQzMDA4MDMxLDk0NzAyMzc3NCwt
