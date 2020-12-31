@@ -175,7 +175,7 @@ TypedShaderVarOffset作成時に渡されるReflectionTypeからの情報によ�
 各タイプに対する変数名に対応する変数情報が格納されたもの  
 ReflectionTypeがインターフェース的役割を果たしており、外部とのやりとりはReflectionTypeを通して行われる  
 
-ReflectionTypeの中に複数のReflectionTypeがある再帰的な構造  
+ReflectionType系クラスの中に複数のReflectionType系クラスがある再帰的な構造  
 例えばReflectionStructTypeのなかに基本型（Intとかfloat3x4とか）に対応するReflectionBasicTypeが複数入っているとかそんな感じ  
 これを、reflectVariablel系列の関数で再帰的に作成する  
 
@@ -272,7 +272,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODkyMTAwNzksLTE2NDMwMDgwMzEsOT
+eyJoaXN0b3J5IjpbLTIxMDA4MjE3MTksLTE2NDMwMDgwMzEsOT
 Q3MDIzNzc0LC0zNDA3MzM3NTYsLTE1MTc0ODUyNTUsLTc5ODYy
 ODAwMSwxODI4NDE4MTAsLTE5NTQzMDQzMzcsMTExODI4Mjg4NS
 wtMzg3OTEwMjg0LC0xMjU5MTI0NDU3LDIwNjc1Mzk1MzcsMTA3
