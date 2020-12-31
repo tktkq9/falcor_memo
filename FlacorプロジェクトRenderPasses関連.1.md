@@ -183,8 +183,12 @@ ReflectionType系クラスの中に複数のReflectionType系クラスがある�
   - 以下のタイプのインターフェース。reflectType()の中身や、create()がないことからわかるように、このクラス自体が作られることはない  
 - ReflectionType
   - 
-
-
+- ReflectionType
+  - 
+- ReflectionType
+  - 
+- ReflectionType
+  - 
 
 #### ReflectionType
 シェーダー変数の宣言部分の情報（例えば構造体などの名前、サイズ、その中身に関する情報）をまとめておくためのクラス  
@@ -276,11 +280,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDQ0MzY5NjYsLTEzMzA1MDk1NjEsLT
-IwMTUyMTUxMjMsMTA4NTgyODY3MSwxNDc2NjYyMjY3LC0xNjQz
-MDA4MDMxLDk0NzAyMzc3NCwtMzQwNzMzNzU2LC0xNTE3NDg1Mj
-U1LC03OTg2MjgwMDEsMTgyODQxODEwLC0xOTU0MzA0MzM3LDEx
-MTgyODI4ODUsLTM4NzkxMDI4NCwtMTI1OTEyNDQ1NywyMDY3NT
-M5NTM3LDEwNzAwNDgxOCwtMTUxOTA1Njk5Myw4MTg1MzAxMiwx
-MTk2NTE5NzY0XX0=
+eyJoaXN0b3J5IjpbMTYwOTQwNjA5NywtMTMzMDUwOTU2MSwtMj
+AxNTIxNTEyMywxMDg1ODI4NjcxLDE0NzY2NjIyNjcsLTE2NDMw
+MDgwMzEsOTQ3MDIzNzc0LC0zNDA3MzM3NTYsLTE1MTc0ODUyNT
+UsLTc5ODYyODAwMSwxODI4NDE4MTAsLTE5NTQzMDQzMzcsMTEx
+ODI4Mjg4NSwtMzg3OTEwMjg0LC0xMjU5MTI0NDU3LDIwNjc1Mz
+k1MzcsMTA3MDA0ODE4LC0xNTE5MDU2OTkzLDgxODUzMDEyLDEx
+OTY1MTk3NjRdfQ==
 -->
