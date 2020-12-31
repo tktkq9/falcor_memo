@@ -177,10 +177,9 @@ ReflectionTypeがインターフェース的役割を果たしており、外部
 
 ReflectionTypeの中に複数のReflectionTypeがある再帰的な構造  
 例えばReflectionStructTypeのなかに基本型（Intとかfloat3x4とか）に対応するReflectionBasicTypeが複数入っているとかそんな感じ  
-これを、reflectVariable系の関数で再帰的に作成する  
+これを、reflectVariablel系列の関数で再帰的に作成する  
 
-
-##### reflectVariable系関数
+##### reflectVariable系列の関数
 ReflectionReflection.cppの方で宣言定義されており、ReflectionTypeを作るための関数  
 渡される引数の一つであるTypeLayoutReflectionからReflectionTypeがなんのタイプか決定される  
 
@@ -271,7 +270,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MTQ2NTI2NSwtMTY0MzAwODAzMSw5ND
+eyJoaXN0b3J5IjpbMTA5NTYzOTYxMywtMTY0MzAwODAzMSw5ND
 cwMjM3NzQsLTM0MDczMzc1NiwtMTUxNzQ4NTI1NSwtNzk4NjI4
 MDAxLDE4Mjg0MTgxMCwtMTk1NDMwNDMzNywxMTE4MjgyODg1LC
 0zODc5MTAyODQsLTEyNTkxMjQ0NTcsMjA2NzUzOTUzNywxMDcw
