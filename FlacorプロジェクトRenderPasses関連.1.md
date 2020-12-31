@@ -181,9 +181,11 @@ ReflectionTypeの中に複数のReflectionTypeがある再帰的な構造
 ##### reflectVariable系関数
 ReflectionReflection.cppの方で宣言定義されており、ReflectionTypeを作るための関数  
 渡される引数の一つであるTypeLayoutReflectionからReflectionTypeがなんのタイプかを決定し、  
-ほかの引数であるReflectionPathからResourceRangeBindingInfoのregIndex、regSpaceが計算される
+ほかの引数であるReflectionPathからResourceRangeBindingInfoのregIndex、regSpaceが計算される  
 （ちなみにその時ParameterBlockReflection* pBlockも渡しているが、これはpBlock->addResourceRange(bindingInfo)する以外では使われない）  
-ReflectionPath
+
+ReflectionPathはParameterBlockReflectionの変数構造を親のみをもつツリーにしたもの  
+これを
 
 ReflectionType : 
 
@@ -267,7 +269,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQyNzMxNTQ0LC0xNjQzMDA4MDMxLDk0Nz
+eyJoaXN0b3J5IjpbNzc5NTMwMjQ3LC0xNjQzMDA4MDMxLDk0Nz
 AyMzc3NCwtMzQwNzMzNzU2LC0xNTE3NDg1MjU1LC03OTg2Mjgw
 MDEsMTgyODQxODEwLC0xOTU0MzA0MzM3LDExMTgyODI4ODUsLT
 M4NzkxMDI4NCwtMTI1OTEyNDQ1NywyMDY3NTM5NTM3LDEwNzAw
