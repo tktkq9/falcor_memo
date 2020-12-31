@@ -180,12 +180,13 @@ ReflectionTypeの中に複数のReflectionTypeがある再帰的な構造
 
 ##### reflectVariable系関数
 ReflectionReflection.cppの方で宣言定義されており、ReflectionTypeを作るための関数  
-渡される引数の一つであるTypeLayoutReflectionからReflectionTypeがなんのタイプかを決定し、  
-ほかの引数であるReflectionPathからResourceRangeBindingInfoのregIndex、regSpaceが計算される  
-（ちなみにその時ParameterBlockReflection* pBlockも渡しているが、これはpBlock->addResourceRange(bindingInfo)する以外では使われない）  
 
-ReflectionPathはParameterBlockReflectionの変数構造を親のみをもつツリーにしたものを作る時ののー  
-これのツリーをReflectionType作成の時に作っていき、ReflectionTypeの作成がリーフに達したときに
+渡される引数の一つであるTypeLayoutReflectionからReflectionTypeがなんのタイプかを決定  
+
+ほかの引数であるReflectionPathはResourceRangeBindingInfoのregIndex、regSpaceの計算のためのもの  
+ParameterBlockReflectionの変数構造を親のみをもつツリーにしたものを作る時のノードに対応するもの    
+これのツリーをReflectionTypeの再帰作成の時に作っていき、ReflectionTypeの作成がリーフに達したときにResourceRangeBindingInfoの情報が計算され、
+（ちなみにその時ParameterBlockReflection* pBlockも渡しているが、これはpBlock->addResourceRange(bindingInfo)する以外では使われない）  
 
 ReflectionType : 
 
@@ -269,7 +270,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzU0ODM2MjIsLTE2NDMwMDgwMzEsOT
+eyJoaXN0b3J5IjpbLTE4ODcyOTU3NDYsLTE2NDMwMDgwMzEsOT
 Q3MDIzNzc0LC0zNDA3MzM3NTYsLTE1MTc0ODUyNTUsLTc5ODYy
 ODAwMSwxODI4NDE4MTAsLTE5NTQzMDQzMzcsMTExODI4Mjg4NS
 wtMzg3OTEwMjg0LC0xMjU5MTI0NDU3LDIwNjc1Mzk1MzcsMTA3
