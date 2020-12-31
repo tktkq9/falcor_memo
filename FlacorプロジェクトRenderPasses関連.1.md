@@ -192,7 +192,7 @@ ReflectionType系クラスの中に複数のReflectionType系クラスがある�
 - ReflectionBasicType
   - intやFloat3x4など標準型に対応するReflectionType。その特性から、ReflectionBasicTypeが子ReflectionTypeを持つことはない
 - ReflectionResourceType
-  - Texture、Sampler、様々なBufferに対応するReflectionType。特にStructuredBufferの場合はその中身のReflectionStructTypeも再帰的に作成してmpStructTypeに保持される
+  - Texture、Sampler、様々なBufferに対応するReflectionType。StructuredBuffer以外はこれが終端となるが、StructuredBufferの場合はその中身のReflectionStructTypeも再帰的に作成してmpStructTypeに保持される
 - ReflectionType
   - a
 
@@ -293,11 +293,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NDI5NzIyLC0xNTkyMTQ0MjIsMTY1NT
-UwNDAyNiwtMTkxMjg4OTExOSwtMTUxNjIzODc1NCwtMzM5NzM1
-NDI5LC0xNDgzNTMwNDg1LC0xMzMwNTA5NTYxLC0yMDE1MjE1MT
-IzLDEwODU4Mjg2NzEsMTQ3NjY2MjI2NywtMTY0MzAwODAzMSw5
-NDcwMjM3NzQsLTM0MDczMzc1NiwtMTUxNzQ4NTI1NSwtNzk4Nj
-I4MDAxLDE4Mjg0MTgxMCwtMTk1NDMwNDMzNywxMTE4MjgyODg1
-LC0zODc5MTAyODRdfQ==
+eyJoaXN0b3J5IjpbMTExNzU1MDU0MSwtMTU5MjE0NDIyLDE2NT
+U1MDQwMjYsLTE5MTI4ODkxMTksLTE1MTYyMzg3NTQsLTMzOTcz
+NTQyOSwtMTQ4MzUzMDQ4NSwtMTMzMDUwOTU2MSwtMjAxNTIxNT
+EyMywxMDg1ODI4NjcxLDE0NzY2NjIyNjcsLTE2NDMwMDgwMzEs
+OTQ3MDIzNzc0LC0zNDA3MzM3NTYsLTE1MTc0ODUyNTUsLTc5OD
+YyODAwMSwxODI4NDE4MTAsLTE5NTQzMDQzMzcsMTExODI4Mjg4
+NSwtMzg3OTEwMjg0XX0=
 -->
