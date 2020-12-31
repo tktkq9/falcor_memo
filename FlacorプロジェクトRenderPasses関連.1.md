@@ -175,7 +175,7 @@ TypedShaderVarOffset作成時に渡されるReflectionTypeからの情報によ�
 各タイプに対する変数名に対応する変数情報が格納されたもの  
 ParameterBlockが持っているParameterBlockReflectionから取得される  
 
-メンバ変数の一つであるTypeLayoutReflectionはSlangAPIの構造体の一つであり、これからシェーダー側で「宣言」したStruct、ParameterBlock, ConstantBufferなどの情報を取得することができる  
+メンバ変数の一つであるTypeLayoutReflectionはSlangAPIの構造体であり、これからシェーダー側で「宣言」したStruct、ParameterBlock, ConstantBufferなどの情報を取得することができる  
 また、その中にある変数のVariableLayoutReflectionもそれぞれ取得することができる  
 
 ReflectionTypeがインターフェース的役割を果たしており、外部とのやりとりはReflectionTypeを通して行われる  
@@ -284,7 +284,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjMyMDU3MSwtMzM5NzM1NDI5LC0xND
+eyJoaXN0b3J5IjpbLTQxODQ3MTUwMSwtMzM5NzM1NDI5LC0xND
 gzNTMwNDg1LC0xMzMwNTA5NTYxLC0yMDE1MjE1MTIzLDEwODU4
 Mjg2NzEsMTQ3NjY2MjI2NywtMTY0MzAwODAzMSw5NDcwMjM3Nz
 QsLTM0MDczMzc1NiwtMTUxNzQ4NTI1NSwtNzk4NjI4MDAxLDE4
