@@ -171,7 +171,7 @@ TypedShaderVarOffset作成時に渡されるReflectionTypeからの情報によ�
 （つまり、変数名によるオフセット取得は構造体タイプに対してのみ行われ、ShaderVarは構造体のみしかアクセスできないようになっている？）  
 変数名に対応する変数情報はReflectionTypeが持っており、TypedShaderVarOffsetでは、このReflectionTypeからもらってきた変数情報をオフセットに加工する役割を果たしている  
 
-#### ReflectionTypeまとめ
+#### ReflectionType系まとめ
 各タイプに対する変数名に対応する変数情報が格納されたもの  
 ReflectionTypeがインターフェース的役割を果たしており、外部とのやりとりはReflectionTypeを通して行われる  
 
@@ -272,11 +272,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NjY2MjI2NywtMTY0MzAwODAzMSw5ND
-cwMjM3NzQsLTM0MDczMzc1NiwtMTUxNzQ4NTI1NSwtNzk4NjI4
-MDAxLDE4Mjg0MTgxMCwtMTk1NDMwNDMzNywxMTE4MjgyODg1LC
-0zODc5MTAyODQsLTEyNTkxMjQ0NTcsMjA2NzUzOTUzNywxMDcw
-MDQ4MTgsLTE1MTkwNTY5OTMsODE4NTMwMTIsMTE5NjUxOTc2NC
-w2NzIxNDIwNzksMTg3Nzg2NTA3OCwzOTY4NjczOTQsLTIwODg0
-OTY3NjJdfQ==
+eyJoaXN0b3J5IjpbNDM2MDAyNjA4LDE0NzY2NjIyNjcsLTE2ND
+MwMDgwMzEsOTQ3MDIzNzc0LC0zNDA3MzM3NTYsLTE1MTc0ODUy
+NTUsLTc5ODYyODAwMSwxODI4NDE4MTAsLTE5NTQzMDQzMzcsMT
+ExODI4Mjg4NSwtMzg3OTEwMjg0LC0xMjU5MTI0NDU3LDIwNjc1
+Mzk1MzcsMTA3MDA0ODE4LC0xNTE5MDU2OTkzLDgxODUzMDEyLD
+ExOTY1MTk3NjQsNjcyMTQyMDc5LDE4Nzc4NjUwNzgsMzk2ODY3
+Mzk0XX0=
 -->
