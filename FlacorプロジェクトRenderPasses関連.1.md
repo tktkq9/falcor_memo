@@ -181,7 +181,7 @@ ReflectionType系クラスの中に複数のReflectionType系クラスがある�
 
 以下概要
 - ReflectionType
-  - 以下のクラスのインターフェース。reflectType()の中身や、create()がないことからわかるように、このクラス自体のインスタンスが作られることはない  
+  - 以下のクラスのインターフェース。reflectType()の中身や、create()がないことからわかるように、このクラス自体のインスタンスが作られることはなくKindに関連するクラスのみが作られる
 - ReflectionType
   - a
 - ReflectionType
@@ -281,7 +281,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTU5MTE1MTAsLTEzMzA1MDk1NjEsLT
+eyJoaXN0b3J5IjpbLTE0ODM1MzA0ODUsLTEzMzA1MDk1NjEsLT
 IwMTUyMTUxMjMsMTA4NTgyODY3MSwxNDc2NjYyMjY3LC0xNjQz
 MDA4MDMxLDk0NzAyMzc3NCwtMzQwNzMzNzU2LC0xNTE3NDg1Mj
 U1LC03OTg2MjgwMDEsMTgyODQxODEwLC0xOTU0MzA0MzM3LDEx
