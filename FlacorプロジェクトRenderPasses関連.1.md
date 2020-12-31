@@ -2,15 +2,15 @@
 TODO : NVAPIの理解　GraphicsStateObject
 TODO : Programのslang処理の理解  Program  
 
-## BaseGraphicsPassおよび関連するクラス
+# BaseGraphicsPassおよび関連するクラス
 
-## BaseGraphicsPass
+# BaseGraphicsPass
 これ自体はGraphicsVars、GraphicsState、GraphicsProgramを生成と保持し、間接的にこれらのメンバ変数を実行するだけのクラス  
 （サブクラスで利用されている）ParameterBlockSharedPtrによってShaderVarにアクセスできるようgetRootVar()が実装されている  
 drawやdispatch処理さえないので、完全にサブクラス作成前提のインターフェース的な役割  
 
 
-## GraphicsState
+# GraphicsState
 RenderContextのdrawInstancedなどに渡される2つのうちの1つでパイプラインステートオブジェクトのようなもの  
 ルートシグネチャー、モデルのリソース、パイプライン、複数のビューポート、シザー、FBOなどGraphicsVars以外のものを設定、管理  
 ブレンドやデプスステンシルやカリングなどの設定管理はGraphicsStateObjectの方に押し付けている  
@@ -19,14 +19,14 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つでパイ�
 
 大体は直接このクラスを通して設定するが、ProgramKernelsとRootSignatureはgetGSO()によってGraphicsVarsからもらってくる  
 
-### GraphicsStateObject
+## GraphicsStateObject
 パイプラインステートオブジェクトのラッパークラス  
 作成に必要なデータがこのクラスのDescにすべて格納され、このデータによりパイプラインステートオブジェクトがapiInit()により作成される（このコードはD3D12GraphicsStateObject.cppの方で定義されている）  
 
 ちなみにapiInit()中に作成されているnvApi...はNVAPI用の処理  
 TODO: NVAPIの理解  
 
-### StateGraph
+## StateGraph
 その名の通り状態遷移図  
 汎用的に使えるが、GraphicsState、ComputeState、RtProgramといったパイプラインステートオブジェクト系でしか使われていない  
 
@@ -34,23 +34,23 @@ GraphicsState、ComputeState、RtProgramでの使われ方としては、NodeTyp
 描画に必要なデータ（例えばルートシグネチャーやFBOなど）をもとに各データに対応する状態遷移をwalk()を使って検索、なければ作成  
 そして同じデータ割り当てに対応する状態遷移を見つけた場合は、設定したNodeTypeオブジェクト（例えばGraphicsStateではGraphicsStateObject）をgetCurrentNode()によって取得、つまりNodeTypeオブジェクトの再利用を行えるようにするために使われている  
 
-### GraphicsProgram
+## GraphicsProgram
 GraphicsState用のProgramクラスのサブクラス  
 中身はそのままProgramクラスを作るためのラッパーcreate関数系とpybind11のやつのみ  
 
 ざっくりProgramクラスを説明すると、シェーダーを管理し、そこからシェーダーブロブやルートシグネチャーを保持するProgramKernelsを取得するためのもの  
 詳しくは[ProgramVersion, Program, Shaderファイル関連 （TODO : リンク）](https://github.com/tktkq9/falcor_memo/tree/main)  
 
-### GraphicsVars
+## GraphicsVars
 TODO : 詳しく読む
 シェーダーに渡す変数、バッファーなどを管理  
 RenderContextのdrawInstancedなどに渡される2つのうちの1つ  
 
 
 
-## ProgramVars, ParameterBlock, ProgramReflection関連
+# ProgramVars, ParameterBlock, ProgramReflection関連
 
-### ProgramVars
+## ProgramVars
 ParameterBlockのサブクラス  
 ほぼほぼParameterBlockのラッパークラス  
 ParameterBlockに対応するProgramReflectionとEntryPointGroupVars（これもまたParameterBlockのサブクラス）の配列を持つParameterBlockのようなもの  
@@ -59,7 +59,7 @@ ParameterBlockに対応するProgramReflectionとEntryPointGroupVars（これも
 ただしProgramVarsと違い特徴的なものとして、ルートシグネチャーと設定したシェーダー変数をコマンドリストに適用するapply()関数も実装されている  
 <font color=#bfbfbf>ルートシグネチャーかコンテキストクラスにこれを渡すapply()関数を作るんじゃなく、こっちに作るのってどうなの</font>  
 
-#### apply()関数
+### apply()関数
 コマンドリストにルートシグネチャーとParameterBlockの変数に対応するハンドルを設定するための関数  
 以下はその全体的な流れ  
 
@@ -75,7 +75,7 @@ bindParameterBlockRootDescs()はUAV, SRVのセット
 bindParameterBlockSets()はそれ以外のセット  
 となっている  
 
-### ParameterBlockSharedPtrクラス
+## ParameterBlockSharedPtrクラス
 ParameterBlockとShaderVarを通して、シェーダー変数の設定を辞書形式で行えるようにするためのクラス  
 例えばFullScreenPassでは
 
@@ -89,7 +89,7 @@ ParameterBlockとShaderVarを通して、シェーダー変数の設定を辞書
     mpMainPass["ToyCB"]["iGlobalTime"] = (float)gpFramework->getGlobalClock().getTime();  
 のように設定できるようになる  
 
-### ParameterBlock
+## ParameterBlock
 シェーダーに割り当てるための変数を設定、保持しておくためのクラス  
 
 BindLocationによる変数参照はParameterBlockで行うが、
@@ -99,7 +99,7 @@ BindLocationによる変数参照はParameterBlockで行うが、
 わざわざShaderVarを介する理由は、以下でもまとめてあるが、BindLocationによる変数取得処理を外部から隠すためである  
 
 
-#### prepareDescriptorSets()関数
+### prepareDescriptorSets()関数
 最初にupdateSpecialization()でParameterBlockReflectionのSlang情報を更新  
 そして以下のprepareDescriptorSets()に移る  
 
@@ -116,11 +116,11 @@ bindIntoDescriptorSet()はDefaultConstantBufferのView、つまりバッファ�
 そのバッファーとハンドルの対応付けの際、現在の変数構造情報の更新とそのバッファーサイズ取得をupdateSpecialization()でSlangAPIを用いて行い、（サイズが足りていないか）バッファーがない場合はバッファーの（再）作成も行われる  
 ただし、ここでのbindIntoDescriptorSet()ではすでにprepareDescriptorSets()で
 
-##### DescriptorSet
+#### DescriptorSet
 渡されたLayoutにディスクリプターヒープのハンドル  
 create()の時にディスクリプターヒープにLayoutに沿ってハンドルとそのrangeを割り当て、そのハンドル情報を保存する  
 
-### ShaderVar
+## ShaderVar
 外部用ParameterBlockクラス  
 ParameterBlockSharedPtrで  
 
@@ -138,7 +138,7 @@ ParameterBlockの変数にアクセスのためのオフセット
 また、外部用ParameterBlockとして機能するために、オフセットが絡まない関数に対するラッパー関数も一通り実装されている  
 
 
-### ProgramReflectionファイル
+## ProgramReflectionファイル
 変数名からオフセットを取得する際に利用されるクラス群  
 要するに、ShaderVarとParameterBlockの橋渡しを行うためのもの  
 
@@ -146,7 +146,7 @@ TypedShaderVarOffsetが名前からオフセットを取得するためのクラ
 
 また、シェーダーで定義した変数のレイアウト情報などもProgramReflectionから取得できる  
 
-#### ShaderVarOffsetまとめ
+### ShaderVarOffsetまとめ
 基本的に外部で扱われるのはTypedShaderVarOffset  
 その他のクラスはTypedShaderVarOffsetを構成するためのものとなっている  
 
@@ -159,7 +159,7 @@ TypedShaderVarOffsetが名前からオフセットを取得するためのクラ
 - TypedShaderVarOffset 
   - ShaderVarOffsetとReflectionTypeをまとめたもの。以下詳細  
 
-##### TypedShaderVarOffset
+#### TypedShaderVarOffset
 ReflectionTypeを持ったShaderVarOffsetのサブクラス  
 ShaderVarで変数にアクセスするために作られるオフセットクラス  
 TypedShaderVarOffset作成時に渡されるReflectionTypeからの情報によりオフセットが取得、計算される  
@@ -171,7 +171,7 @@ TypedShaderVarOffset作成時に渡されるReflectionTypeからの情報によ�
 （つまり、変数名によるオフセット取得は構造体タイプに対してのみ行われ、ShaderVarは構造体のみしかアクセスできないようになっている？）  
 変数名に対応する変数情報はReflectionTypeが持っており、TypedShaderVarOffsetでは、このReflectionTypeからもらってきた変数情報をオフセットに加工する役割を果たしている  
 
-#### ReflectionType系まとめ
+### ReflectionType系まとめ
 各タイプに対する変数名に対応する変数情報が格納されたもの  
 ReflectionTypeがインターフェース的役割を果たしており、外部とのやりとりはReflectionTypeを通して行われる  
 
@@ -184,14 +184,14 @@ ReflectionType :
 
 
 
-##### ReflectionType
+#### ReflectionType
 シェーダー変数の宣言部分の情報（例えば構造体などの名前、サイズ、その中身に関する情報）をまとめておくためのクラス  
 ParameterBlockが持っているParameterBlockReflectionから取得される  
 
 TypeLayoutReflectionはSlangAPIの構造体の一つであり、これからシェーダー側で「宣言」したStruct、ParameterBlock, ConstantBufferなどの情報を取得することができる  
 また、その中にある変数のVariableLayoutReflectionもそれぞれ取得することができる  
 
-##### reflectVariable系関数
+#### reflectVariable系関数
 ReflectionReflection.cppの方で宣言定義されており、ReflectionTypeを作るための関数  
 渡される引数の一つであるTypeLayoutReflectionからReflectionTypeがなんのタイプか決定される  
 
@@ -200,19 +200,19 @@ ParameterBlockReflectionの変数構造を親のみをもつツリーにした�
 これのツリーをReflectionTypeの再帰作成の時に作っていき、ReflectionTypeの作成がリーフに達したときにResourceRangeBindingInfoの情報が計算され、引数の一つであるpBlockに追加される  
 （ちなみにpBlockはそのpBlock->addResourceRange(bindingInfo)する以外では使われない）  
 
-#### ReflectionVar
+### ReflectionVar
 シェーダーの変数定義部分の情報をまとめておくためのクラス  
 
 VariableLayoutReflectionはSlangAPIの構造体の一つであり、これからシェーダーでのあるスコープ内での「定義」された全ての変数のうちの一つの情報を取得することができる    
 例えばShaderReflectionというシェーダー本体情報からはグローバルな変数を、StructのTypeLayoutReflectionからはそのStructで定義した変数をそれぞれお取得できる  
 この情報からはその変数に対応するTypeLayoutReflectionも得ることができる  
 
-## ProgramVersion, Program, Shaderファイル関連
+# ProgramVersion, Program, Shaderファイル関連
 シェーダーの中身とそれをdx12用のシェーダーブロブやルートシグネチャーにするためのなんやかんや  
 
 いろんなところで保持されているProgramにDefineしていって、ProgramVarsとProgramReflectionを渡すことによってシェーダーブロブやルートシグネチャーが作成され、それを保持したProgramKernels返され、このProgramKernelsを使って、GraphicsStateとかでパイプラインステートオブジェクトが作成されるという感じ  
 
-### ProgramKernelsクラス
+## ProgramKernelsクラス
 一つのslangシェーダーのコンパイルされたものと、それをdx12側で扱うための情報を保持するためのクラス  
 情報は各エントリーポイントのブロブ（Shaderクラス）の配列とかProgramReflectionとか  
 
@@ -221,7 +221,7 @@ VariableLayoutReflectionはSlangAPIの構造体の一つであり、これから
 ちなみにこれはProgramクラスで作成、ProgramVersionで管理されている  
 そのためProgramReflection以外の大体の情報はProgramVersionとProgramから作成され渡される  
 
-### ProgramVersionクラス
+## ProgramVersionクラス
 Slangのコンパイルに必要な情報を一通り渡され保持し、この情報によってコンパイルされたものをProgramから取得し、対応するProgramKernelsの作成を行うためのクラス  
 
 コンパイルと作成はgetKernels(ProgramVars const* pVars)で行われ、今まで作成したProgramKernelsは配列として保持し再利用できるようになっている  
@@ -229,7 +229,7 @@ Slangのコンパイルに必要な情報を一通り渡され保持し、この
 slangシェーダー（Program）のインターフェースなどをProgramVarsのspecializationArgsによってシェーダーが変わったかどうか判定し、ProgramKernelsを（Version）管理するためのクラスであることからProgramVersionと名付けられているのだろうか  
 ちなみにこれはProgramクラスで作成、管理されているので、最新バージョンのProgramってだけかもしれない（多分こっち）  
 
-### Programクラス
+## Programクラス
 slangシェーダーファイルとその中身の情報の保持、コンパイル処理、管理用クラス  
 エントリーポイントやシェーダーバージョン、シェーダーファイル、そしてこのシェーダーに設定したDefineListを管理する  
 DefineListが変更されたかどうかも監視し、再コンパイルが必要かどうかの情報も管理する  
@@ -242,7 +242,7 @@ ProgramKernelsに対してこちらはslangシェーダー寄りのクラス
 
 TODO : Programのslang処理の理解  
 
-### Shaderクラス
+## Shaderクラス
 Shaderという名を持つが、シェーダー本体はProgramクラスの方であり、こちらはどちらかというとエントリーポイントのブロブクラス  
 
 ちなみにDefineListもこのクラス内に定義されているが、これは主にProgramのコンパイルで使われ、さらにShaderクラスでは使われてない。なぜここにあるのか  
@@ -273,7 +273,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMDg4NDc1NCwxNDc2NjYyMjY3LC0xNj
+eyJoaXN0b3J5IjpbLTQxNTAwMjAzMywxNDc2NjYyMjY3LC0xNj
 QzMDA4MDMxLDk0NzAyMzc3NCwtMzQwNzMzNzU2LC0xNTE3NDg1
 MjU1LC03OTg2MjgwMDEsMTgyODQxODEwLC0xOTU0MzA0MzM3LD
 ExMTgyODI4ODUsLTM4NzkxMDI4NCwtMTI1OTEyNDQ1NywyMDY3
