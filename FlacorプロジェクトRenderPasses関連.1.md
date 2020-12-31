@@ -185,7 +185,7 @@ ReflectionReflection.cppの方で宣言定義されており、ReflectionTypeを
 （ちなみにその時ParameterBlockReflection* pBlockも渡しているが、これはpBlock->addResourceRange(bindingInfo)する以外では使われない）  
 
 ReflectionPathはParameterBlockReflectionの変数構造を親のみをもつツリーにしたもの  
-これを
+このリーフノードと対応する
 
 ReflectionType : 
 
@@ -269,11 +269,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc5NTMwMjQ3LC0xNjQzMDA4MDMxLDk0Nz
-AyMzc3NCwtMzQwNzMzNzU2LC0xNTE3NDg1MjU1LC03OTg2Mjgw
-MDEsMTgyODQxODEwLC0xOTU0MzA0MzM3LDExMTgyODI4ODUsLT
-M4NzkxMDI4NCwtMTI1OTEyNDQ1NywyMDY3NTM5NTM3LDEwNzAw
-NDgxOCwtMTUxOTA1Njk5Myw4MTg1MzAxMiwxMTk2NTE5NzY0LD
-Y3MjE0MjA3OSwxODc3ODY1MDc4LDM5Njg2NzM5NCwtMjA4ODQ5
-Njc2Ml19
+eyJoaXN0b3J5IjpbMTYyNzk4NjUyMywtMTY0MzAwODAzMSw5ND
+cwMjM3NzQsLTM0MDczMzc1NiwtMTUxNzQ4NTI1NSwtNzk4NjI4
+MDAxLDE4Mjg0MTgxMCwtMTk1NDMwNDMzNywxMTE4MjgyODg1LC
+0zODc5MTAyODQsLTEyNTkxMjQ0NTcsMjA2NzUzOTUzNywxMDcw
+MDQ4MTgsLTE1MTkwNTY5OTMsODE4NTMwMTIsMTE5NjUxOTc2NC
+w2NzIxNDIwNzksMTg3Nzg2NTA3OCwzOTY4NjczOTQsLTIwODg0
+OTY3NjJdfQ==
 -->
