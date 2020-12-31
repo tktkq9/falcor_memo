@@ -173,6 +173,12 @@ TypedShaderVarOffset作成時に渡されるReflectionTypeからの情報によ�
 
 ### ReflectionType系まとめ
 各タイプに対する変数名に対応する変数情報が格納されたもの  
+ParameterBlockが持っているParameterBlockReflectionから取得される  
+TypeLayoutReflection
+
+TypeLayoutReflectionはSlangAPIの構造体の一つであり、これからシェーダー側で「宣言」したStruct、ParameterBlock, ConstantBufferなどの情報を取得することができる  
+また、その中にある変数のVariableLayoutReflectionもそれぞれ取得することができる  
+
 ReflectionTypeがインターフェース的役割を果たしており、外部とのやりとりはReflectionTypeを通して行われる  
 
 ReflectionType系クラスの中に複数のReflectionType系クラスがある再帰的な構造  
@@ -191,12 +197,6 @@ ReflectionType系クラスの中に複数のReflectionType系クラスがある�
 - ReflectionType
   - a
 
-#### ReflectionType
-シェーダー変数の宣言部分の情報（例えば構造体などの名前、サイズ、その中身に関する情報）をまとめておくためのクラス  
-ParameterBlockが持っているParameterBlockReflectionから取得される  
-
-TypeLayoutReflectionはSlangAPIの構造体の一つであり、これからシェーダー側で「宣言」したStruct、ParameterBlock, ConstantBufferなどの情報を取得することができる  
-また、その中にある変数のVariableLayoutReflectionもそれぞれ取得することができる  
 
 #### ReflectionStructType
 addMember()で新しいメンバ変数が追加され、addMemberIgnoringNameConflicts()でメンバ変数の
@@ -285,11 +285,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDE3NDU3NTIsLTMzOTczNTQyOSwtMT
-Q4MzUzMDQ4NSwtMTMzMDUwOTU2MSwtMjAxNTIxNTEyMywxMDg1
-ODI4NjcxLDE0NzY2NjIyNjcsLTE2NDMwMDgwMzEsOTQ3MDIzNz
-c0LC0zNDA3MzM3NTYsLTE1MTc0ODUyNTUsLTc5ODYyODAwMSwx
-ODI4NDE4MTAsLTE5NTQzMDQzMzcsMTExODI4Mjg4NSwtMzg3OT
-EwMjg0LC0xMjU5MTI0NDU3LDIwNjc1Mzk1MzcsMTA3MDA0ODE4
-LC0xNTE5MDU2OTkzXX0=
+eyJoaXN0b3J5IjpbNjkyMzAxMTAzLC0zMzk3MzU0MjksLTE0OD
+M1MzA0ODUsLTEzMzA1MDk1NjEsLTIwMTUyMTUxMjMsMTA4NTgy
+ODY3MSwxNDc2NjYyMjY3LC0xNjQzMDA4MDMxLDk0NzAyMzc3NC
+wtMzQwNzMzNzU2LC0xNTE3NDg1MjU1LC03OTg2MjgwMDEsMTgy
+ODQxODEwLC0xOTU0MzA0MzM3LDExMTgyODI4ODUsLTM4NzkxMD
+I4NCwtMTI1OTEyNDQ1NywyMDY3NTM5NTM3LDEwNzAwNDgxOCwt
+MTUxOTA1Njk5M119
 -->
