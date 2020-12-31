@@ -200,7 +200,7 @@ ReflectionType系クラスの中に複数のReflectionType系クラスがある�
 構造体なので、様々なReflectionTypeがこのクラスに格納される  
 
 そのため変数の追加も可能であり、  
-addMember()で新しいメンバ変数ReflectionVarがmNameToIndexに追加され、  
+addMember()で新しいメンバ変数の名前とインデックスのペアがmNameToIndexに、  
 addMemberIgnoringNameConflicts()でメンバ変数の場所と範囲であるfieldRangeを計算しmResourceRangesに追加する  
 
 
@@ -289,11 +289,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTkwNTE1NSwtMzM5NzM1NDI5LC0xND
-gzNTMwNDg1LC0xMzMwNTA5NTYxLC0yMDE1MjE1MTIzLDEwODU4
-Mjg2NzEsMTQ3NjY2MjI2NywtMTY0MzAwODAzMSw5NDcwMjM3Nz
-QsLTM0MDczMzc1NiwtMTUxNzQ4NTI1NSwtNzk4NjI4MDAxLDE4
-Mjg0MTgxMCwtMTk1NDMwNDMzNywxMTE4MjgyODg1LC0zODc5MT
-AyODQsLTEyNTkxMjQ0NTcsMjA2NzUzOTUzNywxMDcwMDQ4MTgs
-LTE1MTkwNTY5OTNdfQ==
+eyJoaXN0b3J5IjpbLTExNjIxNzMwNjgsLTMzOTczNTQyOSwtMT
+Q4MzUzMDQ4NSwtMTMzMDUwOTU2MSwtMjAxNTIxNTEyMywxMDg1
+ODI4NjcxLDE0NzY2NjIyNjcsLTE2NDMwMDgwMzEsOTQ3MDIzNz
+c0LC0zNDA3MzM3NTYsLTE1MTc0ODUyNTUsLTc5ODYyODAwMSwx
+ODI4NDE4MTAsLTE5NTQzMDQzMzcsMTExODI4Mjg4NSwtMzg3OT
+EwMjg0LC0xMjU5MTI0NDU3LDIwNjc1Mzk1MzcsMTA3MDA0ODE4
+LC0xNTE5MDU2OTkzXX0=
 -->
