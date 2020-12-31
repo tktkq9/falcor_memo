@@ -175,6 +175,9 @@ TypedShaderVarOffset作成時に渡されるReflectionTypeからの情報によ�
 各タイプに対する変数名に対応する変数情報が格納されたもの  
 ReflectionTypeがインターフェース的役割を果たしており、外部とのやりとりはReflectionTypeを通して行われる  
 
+ReflectionTypeの中にReflectionTypeがある再帰的な構造  
+例えばReflectionStructTypeのなかに基本型（Intとかfloat3x4とか）ｎ
+
 ReflectionType : 
 
 #### ReflectionType
@@ -257,11 +260,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3MDIzNzc0LC0zNDA3MzM3NTYsLTE1MT
-c0ODUyNTUsLTc5ODYyODAwMSwxODI4NDE4MTAsLTE5NTQzMDQz
-MzcsMTExODI4Mjg4NSwtMzg3OTEwMjg0LC0xMjU5MTI0NDU3LD
-IwNjc1Mzk1MzcsMTA3MDA0ODE4LC0xNTE5MDU2OTkzLDgxODUz
-MDEyLDExOTY1MTk3NjQsNjcyMTQyMDc5LDE4Nzc4NjUwNzgsMz
-k2ODY3Mzk0LC0yMDg4NDk2NzYyLC0xODcyMTE2ODc2LC0xOTAz
-NzEwMV19
+eyJoaXN0b3J5IjpbMTA1OTkwNjYwNCw5NDcwMjM3NzQsLTM0MD
+czMzc1NiwtMTUxNzQ4NTI1NSwtNzk4NjI4MDAxLDE4Mjg0MTgx
+MCwtMTk1NDMwNDMzNywxMTE4MjgyODg1LC0zODc5MTAyODQsLT
+EyNTkxMjQ0NTcsMjA2NzUzOTUzNywxMDcwMDQ4MTgsLTE1MTkw
+NTY5OTMsODE4NTMwMTIsMTE5NjUxOTc2NCw2NzIxNDIwNzksMT
+g3Nzg2NTA3OCwzOTY4NjczOTQsLTIwODg0OTY3NjIsLTE4NzIx
+MTY4NzZdfQ==
 -->
