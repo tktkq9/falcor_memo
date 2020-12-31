@@ -178,6 +178,8 @@ ReflectionTypeがインターフェース的役割を果たしており、外部
 ReflectionTypeの中に複数のReflectionTypeがある再帰的な構造  
 例えばReflectionStructTypeのなかに基本型（Intとかfloat3x4とか）に対応するReflectionBasicTypeが複数入っているとかそんな感じ  
 
+
+
 ReflectionType : 
 
 #### ReflectionType
@@ -260,11 +262,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDMwMDgwMzEsOTQ3MDIzNzc0LC0zND
-A3MzM3NTYsLTE1MTc0ODUyNTUsLTc5ODYyODAwMSwxODI4NDE4
-MTAsLTE5NTQzMDQzMzcsMTExODI4Mjg4NSwtMzg3OTEwMjg0LC
-0xMjU5MTI0NDU3LDIwNjc1Mzk1MzcsMTA3MDA0ODE4LC0xNTE5
-MDU2OTkzLDgxODUzMDEyLDExOTY1MTk3NjQsNjcyMTQyMDc5LD
-E4Nzc4NjUwNzgsMzk2ODY3Mzk0LC0yMDg4NDk2NzYyLC0xODcy
-MTE2ODc2XX0=
+eyJoaXN0b3J5IjpbLTE5NTExMDMwNDMsLTE2NDMwMDgwMzEsOT
+Q3MDIzNzc0LC0zNDA3MzM3NTYsLTE1MTc0ODUyNTUsLTc5ODYy
+ODAwMSwxODI4NDE4MTAsLTE5NTQzMDQzMzcsMTExODI4Mjg4NS
+wtMzg3OTEwMjg0LC0xMjU5MTI0NDU3LDIwNjc1Mzk1MzcsMTA3
+MDA0ODE4LC0xNTE5MDU2OTkzLDgxODUzMDEyLDExOTY1MTk3Nj
+QsNjcyMTQyMDc5LDE4Nzc4NjUwNzgsMzk2ODY3Mzk0LC0yMDg4
+NDk2NzYyXX0=
 -->
