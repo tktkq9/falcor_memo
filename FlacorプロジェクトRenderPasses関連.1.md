@@ -159,7 +159,7 @@ TypedShaderVarOffsetが名前からオフセットを取得するためのクラ
 - TypedShaderVarOffset 
   - ShaderVarOffsetとReflectionTypeをまとめたもの。以下詳細  
 
-#### TypedShaderVarOffset
+##### TypedShaderVarOffset
 ReflectionTypeを持ったShaderVarOffsetのサブクラス  
 ShaderVarで変数にアクセスするために作られるオフセットクラス  
 TypedShaderVarOffset作成時に渡されるReflectionTypeからの情報によりオフセットが取得、計算される  
@@ -184,7 +184,7 @@ ReflectionType :
 
 
 
-#### ReflectionType
+##### ReflectionType
 シェーダー変数の宣言部分の情報（例えば構造体などの名前、サイズ、その中身に関する情報）をまとめておくためのクラス  
 ParameterBlockが持っているParameterBlockReflectionから取得される  
 
@@ -273,11 +273,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYzMDc4MDMyLDE0NzY2NjIyNjcsLTE2ND
-MwMDgwMzEsOTQ3MDIzNzc0LC0zNDA3MzM3NTYsLTE1MTc0ODUy
-NTUsLTc5ODYyODAwMSwxODI4NDE4MTAsLTE5NTQzMDQzMzcsMT
-ExODI4Mjg4NSwtMzg3OTEwMjg0LC0xMjU5MTI0NDU3LDIwNjc1
-Mzk1MzcsMTA3MDA0ODE4LC0xNTE5MDU2OTkzLDgxODUzMDEyLD
-ExOTY1MTk3NjQsNjcyMTQyMDc5LDE4Nzc4NjUwNzgsMzk2ODY3
-Mzk0XX0=
+eyJoaXN0b3J5IjpbMTEyMDg4NDc1NCwxNDc2NjYyMjY3LC0xNj
+QzMDA4MDMxLDk0NzAyMzc3NCwtMzQwNzMzNzU2LC0xNTE3NDg1
+MjU1LC03OTg2MjgwMDEsMTgyODQxODEwLC0xOTU0MzA0MzM3LD
+ExMTgyODI4ODUsLTM4NzkxMDI4NCwtMTI1OTEyNDQ1NywyMDY3
+NTM5NTM3LDEwNzAwNDgxOCwtMTUxOTA1Njk5Myw4MTg1MzAxMi
+wxMTk2NTE5NzY0LDY3MjE0MjA3OSwxODc3ODY1MDc4LDM5Njg2
+NzM5NF19
 -->
