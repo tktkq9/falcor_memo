@@ -179,7 +179,8 @@ ReflectionType系クラスの中に複数のReflectionType系クラスがある�
 例えばReflectionStructTypeのなかに基本型（Intとかfloat3x4とか）に対応するReflectionBasicTypeが複数入っているとかそんな感じ  
 これを、reflectVariable系関数で再帰的に作成する  
 
-ReflectionType : 
+- ReflectionType
+  - 以下のタイプのインターフェース。reflectType()を見るとわかるように、
 
 
 
@@ -274,11 +275,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzA1MDk1NjEsLTIwMTUyMTUxMjMsMT
-A4NTgyODY3MSwxNDc2NjYyMjY3LC0xNjQzMDA4MDMxLDk0NzAy
-Mzc3NCwtMzQwNzMzNzU2LC0xNTE3NDg1MjU1LC03OTg2MjgwMD
-EsMTgyODQxODEwLC0xOTU0MzA0MzM3LDExMTgyODI4ODUsLTM4
-NzkxMDI4NCwtMTI1OTEyNDQ1NywyMDY3NTM5NTM3LDEwNzAwND
-gxOCwtMTUxOTA1Njk5Myw4MTg1MzAxMiwxMTk2NTE5NzY0LDY3
-MjE0MjA3OV19
+eyJoaXN0b3J5IjpbLTQ0MTg2NTI5MywtMTMzMDUwOTU2MSwtMj
+AxNTIxNTEyMywxMDg1ODI4NjcxLDE0NzY2NjIyNjcsLTE2NDMw
+MDgwMzEsOTQ3MDIzNzc0LC0zNDA3MzM3NTYsLTE1MTc0ODUyNT
+UsLTc5ODYyODAwMSwxODI4NDE4MTAsLTE5NTQzMDQzMzcsMTEx
+ODI4Mjg4NSwtMzg3OTEwMjg0LC0xMjU5MTI0NDU3LDIwNjc1Mz
+k1MzcsMTA3MDA0ODE4LC0xNTE5MDU2OTkzLDgxODUzMDEyLDEx
+OTY1MTk3NjRdfQ==
 -->
