@@ -198,6 +198,7 @@ ReflectionType系クラスの中に複数のReflectionType系クラスがある�
 #### ReflectionStructType
 シェーダーのStructに対応するタイプ  
 
+
 構造体であることから、変数の追加が可能であり、  
 addMember()で新しいメンバ変数がmNameToIndexに追加され、  
 addMemberIgnoringNameConflicts()でメンバ変数の場所と範囲であるfieldRangeを計算しmResourceRangesに追加する  
@@ -288,7 +289,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEwMTY3MDY1LC0zMzk3MzU0MjksLTE0OD
+eyJoaXN0b3J5IjpbNTQzNzE4NDcxLC0zMzk3MzU0MjksLTE0OD
 M1MzA0ODUsLTEzMzA1MDk1NjEsLTIwMTUyMTUxMjMsMTA4NTgy
 ODY3MSwxNDc2NjYyMjY3LC0xNjQzMDA4MDMxLDk0NzAyMzc3NC
 wtMzQwNzMzNzU2LC0xNTE3NDg1MjU1LC03OTg2MjgwMDEsMTgy
