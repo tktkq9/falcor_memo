@@ -193,7 +193,7 @@ TypeLayoutReflectionはSlangAPIの構造体の一つであり、これからシ�
 
 #### reflectVariable系関数
 ReflectionReflection.cppの方で宣言定義されており、ReflectionTypeを作るための関数  
-渡される引数の一つであるTypeLayoutReflectionからReflectionTypeがなんのタイプか、さらに再帰的に作成する子要素があるかが決定される  
+渡される引数の一つであるTypeLayoutReflectionからReflectionTypeがなんのタイプか、サイズはどのくらいか、再帰的に作成する子要素があるかなどが決定される  
 
 ほかの引数であるReflectionPathはResourceRangeBindingInfoのregIndex、regSpaceの計算のためのもの  
 ParameterBlockReflectionの変数構造を親のみをもつツリーにしたものを作る時のノードに対応するもの    
@@ -273,7 +273,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQ0NDYzNTYsMTA4NTgyODY3MSwxND
+eyJoaXN0b3J5IjpbLTIwMTUyMTUxMjMsMTA4NTgyODY3MSwxND
 c2NjYyMjY3LC0xNjQzMDA4MDMxLDk0NzAyMzc3NCwtMzQwNzMz
 NzU2LC0xNTE3NDg1MjU1LC03OTg2MjgwMDEsMTgyODQxODEwLC
 0xOTU0MzA0MzM3LDExMTgyODI4ODUsLTM4NzkxMDI4NCwtMTI1
