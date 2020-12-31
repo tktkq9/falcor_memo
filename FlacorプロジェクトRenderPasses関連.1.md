@@ -190,7 +190,7 @@ ReflectionType系クラスの中に複数のReflectionType系クラスがある�
 - ReflectionStructType
   - Structに対応するReflectionType。struct内部の変数やオフセットなど様々な情報の管理を行う（詳細はこの後の別の場所で）
 - ReflectionBasicType
-  - intやFloat3x4などシェーダー標準型に対応するReflectionType。その特性から、ReflectionBasicType自体が違う子ReflectionTypeを持つことはない
+  - intやFloat3x4などシェーダー標準型に対応するReflectionType。その特性から、ReflectionBasicTypeが子ReflectionTypeを持つことはない
 - ReflectionType
   - a
 - ReflectionType
@@ -293,11 +293,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzMyMzk5OTcsMTY1NTUwNDAyNiwtMT
-kxMjg4OTExOSwtMTUxNjIzODc1NCwtMzM5NzM1NDI5LC0xNDgz
-NTMwNDg1LC0xMzMwNTA5NTYxLC0yMDE1MjE1MTIzLDEwODU4Mj
-g2NzEsMTQ3NjY2MjI2NywtMTY0MzAwODAzMSw5NDcwMjM3NzQs
-LTM0MDczMzc1NiwtMTUxNzQ4NTI1NSwtNzk4NjI4MDAxLDE4Mj
-g0MTgxMCwtMTk1NDMwNDMzNywxMTE4MjgyODg1LC0zODc5MTAy
-ODQsLTEyNTkxMjQ0NTddfQ==
+eyJoaXN0b3J5IjpbLTE2MDM2MTYwNSwxNjU1NTA0MDI2LC0xOT
+EyODg5MTE5LC0xNTE2MjM4NzU0LC0zMzk3MzU0MjksLTE0ODM1
+MzA0ODUsLTEzMzA1MDk1NjEsLTIwMTUyMTUxMjMsMTA4NTgyOD
+Y3MSwxNDc2NjYyMjY3LC0xNjQzMDA4MDMxLDk0NzAyMzc3NCwt
+MzQwNzMzNzU2LC0xNTE3NDg1MjU1LC03OTg2MjgwMDEsMTgyOD
+QxODEwLC0xOTU0MzA0MzM3LDExMTgyODI4ODUsLTM4NzkxMDI4
+NCwtMTI1OTEyNDQ1N119
 -->
