@@ -179,6 +179,9 @@ ReflectionTypeの中に複数のReflectionTypeがある再帰的な構造
 例えばReflectionStructTypeのなかに基本型（Intとかfloat3x4とか）に対応するReflectionBasicTypeが複数入っているとかそんな感じ  
 これを、reflectVariablel系列の関数で再帰的に作成する  
 
+ReflectionType : 
+
+
 ##### reflectVariable系列の関数
 ReflectionReflection.cppの方で宣言定義されており、ReflectionTypeを作るための関数  
 渡される引数の一つであるTypeLayoutReflectionからReflectionTypeがなんのタイプか決定される  
@@ -188,7 +191,6 @@ ParameterBlockReflectionの変数構造を親のみをもつツリーにした�
 これのツリーをReflectionTypeの再帰作成の時に作っていき、ReflectionTypeの作成がリーフに達したときにResourceRangeBindingInfoの情報が計算され、引数の一つであるpBlockに追加される  
 （ちなみにpBlockはそのpBlock->addResourceRange(bindingInfo)する以外では使われない）  
 
-ReflectionType : 
 
 #### ReflectionType
 シェーダー変数の宣言部分の情報（例えば構造体などの名前、サイズ、その中身に関する情報）をまとめておくためのクラス  
@@ -270,11 +272,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NTYzOTYxMywtMTY0MzAwODAzMSw5ND
-cwMjM3NzQsLTM0MDczMzc1NiwtMTUxNzQ4NTI1NSwtNzk4NjI4
-MDAxLDE4Mjg0MTgxMCwtMTk1NDMwNDMzNywxMTE4MjgyODg1LC
-0zODc5MTAyODQsLTEyNTkxMjQ0NTcsMjA2NzUzOTUzNywxMDcw
-MDQ4MTgsLTE1MTkwNTY5OTMsODE4NTMwMTIsMTE5NjUxOTc2NC
-w2NzIxNDIwNzksMTg3Nzg2NTA3OCwzOTY4NjczOTQsLTIwODg0
-OTY3NjJdfQ==
+eyJoaXN0b3J5IjpbLTExODkyMTAwNzksLTE2NDMwMDgwMzEsOT
+Q3MDIzNzc0LC0zNDA3MzM3NTYsLTE1MTc0ODUyNTUsLTc5ODYy
+ODAwMSwxODI4NDE4MTAsLTE5NTQzMDQzMzcsMTExODI4Mjg4NS
+wtMzg3OTEwMjg0LC0xMjU5MTI0NDU3LDIwNjc1Mzk1MzcsMTA3
+MDA0ODE4LC0xNTE5MDU2OTkzLDgxODUzMDEyLDExOTY1MTk3Nj
+QsNjcyMTQyMDc5LDE4Nzc4NjUwNzgsMzk2ODY3Mzk0LC0yMDg4
+NDk2NzYyXX0=
 -->
