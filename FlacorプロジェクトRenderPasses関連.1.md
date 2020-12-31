@@ -194,7 +194,7 @@ ReflectionType系クラスの中に複数のReflectionType系クラスがある�
 - ReflectionResourceType
   - Texture、Sampler、様々なBufferに対応するReflectionType。StructuredBufferとConstantBuffer以外はこれが終端となるが、StructuredBufferの場合はその中身のReflectionTypeも再帰的に作成と保持、ConstantBufferの場合はさらに対応するParameterBlockReflectionも再帰的に作成して保持している
 - ReflectionInterfaceType
-  - a
+  - slangのgeneric
 
 
 #### ReflectionStructType
@@ -293,11 +293,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY0MTUwNjg0LC05NjEyODg5MzEsLTE4Nz
-c2MTQ5OTEsLTE1OTIxNDQyMiwxNjU1NTA0MDI2LC0xOTEyODg5
-MTE5LC0xNTE2MjM4NzU0LC0zMzk3MzU0MjksLTE0ODM1MzA0OD
-UsLTEzMzA1MDk1NjEsLTIwMTUyMTUxMjMsMTA4NTgyODY3MSwx
-NDc2NjYyMjY3LC0xNjQzMDA4MDMxLDk0NzAyMzc3NCwtMzQwNz
-MzNzU2LC0xNTE3NDg1MjU1LC03OTg2MjgwMDEsMTgyODQxODEw
-LC0xOTU0MzA0MzM3XX0=
+eyJoaXN0b3J5IjpbMTQzNjIzNTA5MSwtOTYxMjg4OTMxLC0xOD
+c3NjE0OTkxLC0xNTkyMTQ0MjIsMTY1NTUwNDAyNiwtMTkxMjg4
+OTExOSwtMTUxNjIzODc1NCwtMzM5NzM1NDI5LC0xNDgzNTMwND
+g1LC0xMzMwNTA5NTYxLC0yMDE1MjE1MTIzLDEwODU4Mjg2NzEs
+MTQ3NjY2MjI2NywtMTY0MzAwODAzMSw5NDcwMjM3NzQsLTM0MD
+czMzc1NiwtMTUxNzQ4NTI1NSwtNzk4NjI4MDAxLDE4Mjg0MTgx
+MCwtMTk1NDMwNDMzN119
 -->
