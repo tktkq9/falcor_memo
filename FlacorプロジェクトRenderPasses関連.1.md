@@ -185,8 +185,8 @@ ReflectionType系クラスの中に複数のReflectionType系クラスがある�
 以下概要
 - ReflectionType
   - 以下のクラスのインターフェース。reflectType()の中身や、create()がないことからわかるように、このクラス自体のインスタンスが作られることはなくKindに関連するクラスのみが作られる
-- ReflectionType
-  - a
+- ReflectionArrayType
+  - 配列に対応するReflectionType。配列の要素のReflectionTypeはmpElementType
 - ReflectionType
   - a
 - ReflectionType
@@ -291,11 +291,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NTUwNDAyNiwtMTkxMjg4OTExOSwtMT
-UxNjIzODc1NCwtMzM5NzM1NDI5LC0xNDgzNTMwNDg1LC0xMzMw
-NTA5NTYxLC0yMDE1MjE1MTIzLDEwODU4Mjg2NzEsMTQ3NjY2Mj
-I2NywtMTY0MzAwODAzMSw5NDcwMjM3NzQsLTM0MDczMzc1Niwt
-MTUxNzQ4NTI1NSwtNzk4NjI4MDAxLDE4Mjg0MTgxMCwtMTk1ND
-MwNDMzNywxMTE4MjgyODg1LC0zODc5MTAyODQsLTEyNTkxMjQ0
-NTcsMjA2NzUzOTUzN119
+eyJoaXN0b3J5IjpbMTExMDQxNjQ2NCwxNjU1NTA0MDI2LC0xOT
+EyODg5MTE5LC0xNTE2MjM4NzU0LC0zMzk3MzU0MjksLTE0ODM1
+MzA0ODUsLTEzMzA1MDk1NjEsLTIwMTUyMTUxMjMsMTA4NTgyOD
+Y3MSwxNDc2NjYyMjY3LC0xNjQzMDA4MDMxLDk0NzAyMzc3NCwt
+MzQwNzMzNzU2LC0xNTE3NDg1MjU1LC03OTg2MjgwMDEsMTgyOD
+QxODEwLC0xOTU0MzA0MzM3LDExMTgyODI4ODUsLTM4NzkxMDI4
+NCwtMTI1OTEyNDQ1N119
 -->
