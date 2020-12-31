@@ -196,9 +196,12 @@ ReflectionType系クラスの中に複数のReflectionType系クラスがある�
 
 
 #### ReflectionStructType
-構造体に関するタイプ  
-kou、変数の追加が可能であり、  
-addMember()で新しいメンバ変数がmNameToIndexに追加され、addMemberIgnoringNameConflicts()でメンバ変数の場所と範囲であるfieldRangeを計算しmResourceRangesに追加する  
+シェーダーのStructに対応するタイプ  
+構造体であることから、変数の追加が可能であり、  
+addMember()で新しいメンバ変数がmNameToIndexに追加され、  
+addMemberIgnoringNameConflicts()でメンバ変数の場所と範囲であるfieldRangeを計算しmResourceRangesに追加する  
+
+
 
 #### reflectVariable系関数
 ReflectionReflection.cppの方で宣言定義されており、ReflectionTypeを作るための関数  
@@ -284,11 +287,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk2NjYxMDk4LC0zMzk3MzU0MjksLTE0OD
-M1MzA0ODUsLTEzMzA1MDk1NjEsLTIwMTUyMTUxMjMsMTA4NTgy
-ODY3MSwxNDc2NjYyMjY3LC0xNjQzMDA4MDMxLDk0NzAyMzc3NC
-wtMzQwNzMzNzU2LC0xNTE3NDg1MjU1LC03OTg2MjgwMDEsMTgy
-ODQxODEwLC0xOTU0MzA0MzM3LDExMTgyODI4ODUsLTM4NzkxMD
-I4NCwtMTI1OTEyNDQ1NywyMDY3NTM5NTM3LDEwNzAwNDgxOCwt
-MTUxOTA1Njk5M119
+eyJoaXN0b3J5IjpbMjA1MjkzODg1OSwtMzM5NzM1NDI5LC0xND
+gzNTMwNDg1LC0xMzMwNTA5NTYxLC0yMDE1MjE1MTIzLDEwODU4
+Mjg2NzEsMTQ3NjY2MjI2NywtMTY0MzAwODAzMSw5NDcwMjM3Nz
+QsLTM0MDczMzc1NiwtMTUxNzQ4NTI1NSwtNzk4NjI4MDAxLDE4
+Mjg0MTgxMCwtMTk1NDMwNDMzNywxMTE4MjgyODg1LC0zODc5MT
+AyODQsLTEyNTkxMjQ0NTcsMjA2NzUzOTUzNywxMDcwMDQ4MTgs
+LTE1MTkwNTY5OTNdfQ==
 -->
