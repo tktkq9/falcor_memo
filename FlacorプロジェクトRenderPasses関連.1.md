@@ -203,7 +203,9 @@ ReflectionType系クラスの中に複数のReflectionType系クラスがある�
 addMember()で新しいメンバ変数の名前と対応するインデックスのペアがmNameToIndexに追加され、  
 addMemberIgnoringNameConflicts()でmMembersにReflectionVarの追加と、メンバ変数の場所と範囲であるfieldRangeを計算しmResourceRangesに追加する  
 
-findMemberByOffsetmMembers
+findMemberByOffset()で登録しておいたmMembersからoffsetに対応するメンバ変数を検索し、その変数のTypedShaderVarOffsetを返す  
+
+
 
 #### reflectVariable系関数
 ReflectionReflection.cppの方で宣言定義されており、ReflectionTypeを作るための関数  
@@ -289,7 +291,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MzMyMTcwNiwtMTkxMjg4OTExOSwtMT
+eyJoaXN0b3J5IjpbMTY1NTUwNDAyNiwtMTkxMjg4OTExOSwtMT
 UxNjIzODc1NCwtMzM5NzM1NDI5LC0xNDgzNTMwNDg1LC0xMzMw
 NTA5NTYxLC0yMDE1MjE1MTIzLDEwODU4Mjg2NzEsMTQ3NjY2Mj
 I2NywtMTY0MzAwODAzMSw5NDcwMjM3NzQsLTM0MDczMzc1Niwt
