@@ -199,6 +199,7 @@ ReflectionReflection.cppの方で宣言定義されており、ReflectionTypeを
 ParameterBlockReflectionの変数構造を親のみをもつツリーにしたものを作る時のノードに対応するもの    
 これのツリーをReflectionTypeの再帰作成の時に作っていき、ReflectionTypeの作成がリーフに達したときにResourceRangeBindingInfoの情報が計算され、引数の一つであるpBlockに追加される  
 （ちなみにpBlockはそのpBlock->addResourceRange(bindingInfo)する以外では使われない）  
+
 #### ReflectionVar
 シェーダーの変数定義部分の情報をまとめておくためのクラス  
 
@@ -272,7 +273,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY1NDg4NjEwLDE0NzY2NjIyNjcsLTE2ND
+eyJoaXN0b3J5IjpbMjYzMDc4MDMyLDE0NzY2NjIyNjcsLTE2ND
 MwMDgwMzEsOTQ3MDIzNzc0LC0zNDA3MzM3NTYsLTE1MTc0ODUy
 NTUsLTc5ODYyODAwMSwxODI4NDE4MTAsLTE5NTQzMDQzMzcsMT
 ExODI4Mjg4NSwtMzg3OTEwMjg0LC0xMjU5MTI0NDU3LDIwNjc1
