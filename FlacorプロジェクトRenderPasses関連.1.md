@@ -220,7 +220,7 @@ ParameterBlockReflectionの変数構造を親のみをもつツリーにした�
 ### ReflectionVar
 シェーダーの変数定義部分の情報をまとめておくためのクラス  
 この変数に対するShaderVarOffsetとReflectionTypeのみ  
-ReflectionStructTypeかでのみ管理され、おている  
+ReflectionStructTypeかでのみ管理され、ReflectionStructTypeからのオフセット取得の時に利用される  
 
 reflectVariable()により作成され、渡される[VariableLayoutReflection](https://github.com/shader-slang/slang/blob/master/docs/api-users-guide.md#variable-layouts)を用いてオフセットなどのシェーダー情報を取得し格納する    
 VariableLayoutReflectionはSlangAPIの構造体の一つであり、これからシェーダーでのあるスコープ内での「定義」された変数のうちの一つの情報を取得することができる    
@@ -301,11 +301,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzE4MTMxMTEsLTczNTc4MjM5OSwtMj
-E0MzI1MTgxOCwxOTkxNzE2NjE2LDMwOTI1NjI5OSwxNjg3NzYz
-MzIwLC0xMjk3MzMyNTU0LDQxMjE1ODcwNSwtMTQ4MDI3MzM0Ny
-wtOTYxMjg4OTMxLC0xODc3NjE0OTkxLC0xNTkyMTQ0MjIsMTY1
-NTUwNDAyNiwtMTkxMjg4OTExOSwtMTUxNjIzODc1NCwtMzM5Nz
-M1NDI5LC0xNDgzNTMwNDg1LC0xMzMwNTA5NTYxLC0yMDE1MjE1
-MTIzLDEwODU4Mjg2NzFdfQ==
+eyJoaXN0b3J5IjpbMjEyMTk2OTgyOCwtNzM1NzgyMzk5LC0yMT
+QzMjUxODE4LDE5OTE3MTY2MTYsMzA5MjU2Mjk5LDE2ODc3NjMz
+MjAsLTEyOTczMzI1NTQsNDEyMTU4NzA1LC0xNDgwMjczMzQ3LC
+05NjEyODg5MzEsLTE4Nzc2MTQ5OTEsLTE1OTIxNDQyMiwxNjU1
+NTA0MDI2LC0xOTEyODg5MTE5LC0xNTE2MjM4NzU0LC0zMzk3Mz
+U0MjksLTE0ODM1MzA0ODUsLTEzMzA1MDk1NjEsLTIwMTUyMTUx
+MjMsMTA4NTgyODY3MV19
 -->
