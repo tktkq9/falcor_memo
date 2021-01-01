@@ -251,7 +251,7 @@ ParameterBlockReflectionのサブクラスでcreate()とコンストラクタが
 グローバルスコープで定義した変数の集まりはグローバルStructのようなものなので、ReflectionStructTypeのタイプとして扱っている  
 これと対応するParameterBlockReflectionを作ってmpDefaultBlockに保持している  
 
-また、それとは
+また、それとは別にエントリーポイントグループごとのEntryPointGroupReflectionも作成され、mEntryPointGroupsに格納される  
 
 ProgramVersionに対応する[ShaderReflection](https://github.com/shader-slang/slang/blob/master/docs/api-users-guide.md#reflection-information)によってグローバルなシェーダー変数を取得し作成していく  
 このShaderReflectionはSlangAPIの構造体であり、ここからシェーダーのグローバル変数やエントリーポイントなどが取得できる  
@@ -323,7 +323,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTU5Mjg5OTQsLTE5MDY5NjQ2NDAsMT
+eyJoaXN0b3J5IjpbLTIxMTg4Mjk2NTYsLTE5MDY5NjQ2NDAsMT
 gzMTc3MzU4NSwtMTg1NjMzNDAyNiw5NTg3NDczOTUsMjY4MDA3
 NDMxLC0xODAxMDg5ODM0LDc3MzQ0OTY5LDIwMTUwMzg4NzMsLT
 EwMTA1NTUzODMsMjA3OTA4MjQ1OCwtMTMzMzEwMzg0NCw5ODEw
