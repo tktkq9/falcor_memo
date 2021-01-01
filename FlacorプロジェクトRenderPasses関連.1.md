@@ -222,7 +222,7 @@ ParameterBlockReflectionの変数構造を親のみをもつツリーにした�
 この変数に対するShaderVarOffsetとReflectionTypeのみ  
 ReflectionStructTypeかProgramReflectionでのみ管理されている  
 
-reflectVariable()により作成され、渡されるVariableLayoutReflectionを用いてオフセットなどの情報を取得し格納する    
+reflectVariable()により作成され、渡されるVariableLayoutReflectionを用いてオフセットなどの変数情報を取得し格納する    
 VariableLayoutReflectionはSlangAPIの構造体の一つであり、これからシェーダーでのあるスコープ内での「定義」された変数のうちの一つの情報を取得することができる    
 例えばShaderReflectionというシェーダー本体情報からはグローバルな変数を、StructのTypeLayoutReflectionからはそのStructで定義した変数をそれぞれお取得できる  
 この情報からはその変数に対応するTypeLayoutReflectionも得ることができる 
@@ -294,7 +294,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MzQ0OTU3NSwxNjg3NzYzMzIwLC0xMj
+eyJoaXN0b3J5IjpbMTcyOTAzMjM2NiwxNjg3NzYzMzIwLC0xMj
 k3MzMyNTU0LDQxMjE1ODcwNSwtMTQ4MDI3MzM0NywtOTYxMjg4
 OTMxLC0xODc3NjE0OTkxLC0xNTkyMTQ0MjIsMTY1NTUwNDAyNi
 wtMTkxMjg4OTExOSwtMTUxNjIzODc1NCwtMzM5NzM1NDI5LC0x
