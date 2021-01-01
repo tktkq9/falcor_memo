@@ -206,7 +206,7 @@ ReflectionVarの格納はaddMember()で行われ、
 
 findMemberByOffset()で登録しておいたmMembersからoffsetに対応するメンバ変数を検索し、その変数のTypedShaderVarOffsetを返す  
 
-#### reflectVariable系関数
+#### reflectType系関数
 ReflectionReflection.cppの方で宣言定義されており、ReflectionTypeを作るための関数  
 渡される引数の一つであるTypeLayoutReflectionからReflectionTypeがなんのタイプか、サイズはどのくらいか、再帰的に作成する子要素があるかなどが決定される  
 
@@ -294,11 +294,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTkzNTc2NTgsMTY4Nzc2MzMyMCwtMT
-I5NzMzMjU1NCw0MTIxNTg3MDUsLTE0ODAyNzMzNDcsLTk2MTI4
-ODkzMSwtMTg3NzYxNDk5MSwtMTU5MjE0NDIyLDE2NTU1MDQwMj
-YsLTE5MTI4ODkxMTksLTE1MTYyMzg3NTQsLTMzOTczNTQyOSwt
-MTQ4MzUzMDQ4NSwtMTMzMDUwOTU2MSwtMjAxNTIxNTEyMywxMD
-g1ODI4NjcxLDE0NzY2NjIyNjcsLTE2NDMwMDgwMzEsOTQ3MDIz
-Nzc0LC0zNDA3MzM3NTZdfQ==
+eyJoaXN0b3J5IjpbLTE4NDQxNjg4LDE2ODc3NjMzMjAsLTEyOT
+czMzI1NTQsNDEyMTU4NzA1LC0xNDgwMjczMzQ3LC05NjEyODg5
+MzEsLTE4Nzc2MTQ5OTEsLTE1OTIxNDQyMiwxNjU1NTA0MDI2LC
+0xOTEyODg5MTE5LC0xNTE2MjM4NzU0LC0zMzk3MzU0MjksLTE0
+ODM1MzA0ODUsLTEzMzA1MDk1NjEsLTIwMTUyMTUxMjMsMTA4NT
+gyODY3MSwxNDc2NjYyMjY3LC0xNjQzMDA4MDMxLDk0NzAyMzc3
+NCwtMzQwNzMzNzU2XX0=
 -->
