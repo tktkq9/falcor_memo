@@ -244,6 +244,10 @@ ParameterBlockReflectionのサブクラスでcreate()とコンストラクタが
 エントリーポイントが使う変数はすべて同じものをもっているか、またはすべての変数をもっているエントリーポイントが少なくとも一つは存在している前提で実装されているらしいので、  
 一番UniformParameterCount多いエントリーポイントのやつを選んで、それのParameterBlockReflectionを作成している  
 
+#### ParameterBlockReflectionFinalizer
+
+
+
 ### ProgramReflection
 シェーダーグローバルスコープ変数とエントリーポイント、その入出力変数など、シェーダー全体に対応するクラス  
 ファイル名にもなっているように、ProgramReflectionファイルの他のクラスの大本  
@@ -329,11 +333,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNzI2OTkwMSwxNDg2MTY3MDcxLC0yMT
-I3MjM3MTMyLC0xOTA2OTY0NjQwLDE4MzE3NzM1ODUsLTE4NTYz
-MzQwMjYsOTU4NzQ3Mzk1LDI2ODAwNzQzMSwtMTgwMTA4OTgzNC
-w3NzM0NDk2OSwyMDE1MDM4ODczLC0xMDEwNTU1MzgzLDIwNzkw
-ODI0NTgsLTEzMzMxMDM4NDQsOTgxMDQwMTczLDIxMjE5Njk4Mj
-gsLTczNTc4MjM5OSwtMjE0MzI1MTgxOCwxOTkxNzE2NjE2LDMw
-OTI1NjI5OV19
+eyJoaXN0b3J5IjpbLTE0ODU4NTcwMjQsMTQ4NjE2NzA3MSwtMj
+EyNzIzNzEzMiwtMTkwNjk2NDY0MCwxODMxNzczNTg1LC0xODU2
+MzM0MDI2LDk1ODc0NzM5NSwyNjgwMDc0MzEsLTE4MDEwODk4Mz
+QsNzczNDQ5NjksMjAxNTAzODg3MywtMTAxMDU1NTM4MywyMDc5
+MDgyNDU4LC0xMzMzMTAzODQ0LDk4MTA0MDE3MywyMTIxOTY5OD
+I4LC03MzU3ODIzOTksLTIxNDMyNTE4MTgsMTk5MTcxNjYxNiwz
+MDkyNTYyOTldfQ==
 -->
