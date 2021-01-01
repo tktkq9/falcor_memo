@@ -258,8 +258,7 @@ ParameterBlockReflectionのサブクラスでcreate()とコンストラクタが
 さらに全てのエントリーポイントで使われているすべての入出力変数の情報も作成され、mPsOut、mVertAttr、mVertAttrBySemanticに格納される  
 これにより、入出力変数の情報も名前検索できるようになる  
 
-
-ProgramVersionに対応する[ShaderReflection](https://github.com/shader-slang/slang/blob/master/docs/api-users-guide.md#reflection-information)によってグローバルなシェーダー変数を取得し作成していく  
+このクラスはcreate()関数によって作成され、ProgramVersionに対応する[ShaderReflection](https://github.com/shader-slang/slang/blob/master/docs/api-users-guide.md#reflection-information)によってグローバルなシェーダー変数を取得し作成していく  
 このShaderReflectionはSlangAPIの構造体であり、ここからシェーダーのグローバル変数やエントリーポイントなどが取得できる  
 
 
@@ -329,11 +328,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQxMTM0NzcwLC0yMTI3MjM3MTMyLC0xOT
-A2OTY0NjQwLDE4MzE3NzM1ODUsLTE4NTYzMzQwMjYsOTU4NzQ3
-Mzk1LDI2ODAwNzQzMSwtMTgwMTA4OTgzNCw3NzM0NDk2OSwyMD
-E1MDM4ODczLC0xMDEwNTU1MzgzLDIwNzkwODI0NTgsLTEzMzMx
-MDM4NDQsOTgxMDQwMTczLDIxMjE5Njk4MjgsLTczNTc4MjM5OS
-wtMjE0MzI1MTgxOCwxOTkxNzE2NjE2LDMwOTI1NjI5OSwxNjg3
-NzYzMzIwXX0=
+eyJoaXN0b3J5IjpbLTE3ODA5MTAwNjgsLTIxMjcyMzcxMzIsLT
+E5MDY5NjQ2NDAsMTgzMTc3MzU4NSwtMTg1NjMzNDAyNiw5NTg3
+NDczOTUsMjY4MDA3NDMxLC0xODAxMDg5ODM0LDc3MzQ0OTY5LD
+IwMTUwMzg4NzMsLTEwMTA1NTUzODMsMjA3OTA4MjQ1OCwtMTMz
+MzEwMzg0NCw5ODEwNDAxNzMsMjEyMTk2OTgyOCwtNzM1NzgyMz
+k5LC0yMTQzMjUxODE4LDE5OTE3MTY2MTYsMzA5MjU2Mjk5LDE2
+ODc3NjMzMjBdfQ==
 -->
