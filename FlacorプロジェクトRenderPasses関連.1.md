@@ -117,7 +117,7 @@ bindIntoDescriptorSet()はDefaultConstantBufferのView、つまりバッファ�
 ただし、ここでのbindIntoDescriptorSet()ではすでにprepareDescriptorSets()で
 
 #### DescriptorSet
-渡されたLayoutに対応するディスクリプターヒープのハンドル  
+渡されたLayoutに対応するディスクリプターヒープのハンドル作成管理クラス  
 create()でLayoutに沿ってディスクリプターヒープにrange分のハンドルを割り当て、そのハンドル情報を保持する  
 
 ## ShaderVar
@@ -301,7 +301,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODkxODI1ODIsOTgxMDQwMTczLDIxMj
+eyJoaXN0b3J5IjpbLTEzMzMxMDM4NDQsOTgxMDQwMTczLDIxMj
 E5Njk4MjgsLTczNTc4MjM5OSwtMjE0MzI1MTgxOCwxOTkxNzE2
 NjE2LDMwOTI1NjI5OSwxNjg3NzYzMzIwLC0xMjk3MzMyNTU0LD
 QxMjE1ODcwNSwtMTQ4MDI3MzM0NywtOTYxMjg4OTMxLC0xODc3
