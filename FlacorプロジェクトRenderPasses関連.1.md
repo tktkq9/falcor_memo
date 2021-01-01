@@ -208,6 +208,15 @@ findMemberByOffset()で登録しておいたmMembersからoffsetに対応する�
 
 
 
+### ReflectionVar
+シェーダーの変数定義部分の情報をまとめておくためのクラス  
+この変数に対するShaderVarOffsetとReflectionTypeのみ
+VariableLayoutReflectionの情報を用いて作成される  
+
+VariableLayoutReflectionはSlangAPIの構造体の一つであり、これからシェーダーでのあるスコープ内での「定義」された変数のうちの一つの情報を取得することができる    
+例えばShaderReflectionというシェーダー本体情報からはグローバルな変数を、StructのTypeLayoutReflectionからはそのStructで定義した変数をそれぞれお取得できる  
+この情報からはその変数に対応するTypeLayoutReflectionも得ることができる 
+
 #### reflectVariable系関数
 ReflectionReflection.cppの方で宣言定義されており、ReflectionTypeを作るための関数  
 渡される引数の一つであるTypeLayoutReflectionからReflectionTypeがなんのタイプか、サイズはどのくらいか、再帰的に作成する子要素があるかなどが決定される  
@@ -217,15 +226,7 @@ ParameterBlockReflectionの変数構造を親のみをもつツリーにした�
 これのツリーをReflectionTypeの再帰作成の時に作っていき、ReflectionTypeの作成がリーフに達したときにResourceRangeBindingInfoの情報が計算され、引数の一つであるpBlockに追加される  
 （pBlockはそのpBlock->addResourceRange(bindingInfo)する以外では使われない）  
 ちなみにpDeferredはslangのspecialization用、つまり何のレジスタータイプが使われるかはspecializationされるまでわからないことからpPrimaryが終わった後に評価するためのもので、reflectSpecializedType()で用意され、reflectInterfaceType()で評価される  
-
-### ReflectionVar
-シェーダーの変数定義部分の情報をまとめておくためのクラス  
-この変数に対するShaderVarOffsetとReflectionTypeのみ
-VariableLayoutReflectionの情報を用いて作成される  
-
-VariableLayoutReflectionはSlangAPIの構造体の一つであり、これからシェーダーでのあるスコープ内での「定義」された変数のうちの一つの情報を取得することができる    
-例えばShaderReflectionというシェーダー本体情報からはグローバルな変数を、StructのTypeLayoutReflectionからはそのStructで定義した変数をそれぞれお取得できる  
-この情報からはその変数に対応するTypeLayoutReflectionも得ることができる  
+ 
 
 # ProgramVersion, Program, Shaderファイル関連
 シェーダーの中身とそれをdx12用のシェーダーブロブやルートシグネチャーにするためのなんやかんや  
@@ -293,7 +294,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODUwODYwMjksLTEyOTczMzI1NTQsND
+eyJoaXN0b3J5IjpbLTE3NTk1NTYzNDEsLTEyOTczMzI1NTQsND
 EyMTU4NzA1LC0xNDgwMjczMzQ3LC05NjEyODg5MzEsLTE4Nzc2
 MTQ5OTEsLTE1OTIxNDQyMiwxNjU1NTA0MDI2LC0xOTEyODg5MT
 E5LC0xNTE2MjM4NzU0LC0zMzk3MzU0MjksLTE0ODM1MzA0ODUs
