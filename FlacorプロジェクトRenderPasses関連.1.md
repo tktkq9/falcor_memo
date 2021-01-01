@@ -206,16 +206,6 @@ ReflectionVarの格納はaddMember()で行われ、
 
 findMemberByOffset()で登録しておいたmMembersからoffsetに対応するメンバ変数を検索し、その変数のTypedShaderVarOffsetを返す  
 
-### ReflectionVar
-シェーダーの変数定義部分の情報をまとめておくためのクラス  
-この変数に対するShaderVarOffsetとReflectionTypeのみ  
-ReflectionStructTypeかProgramReflectionでのみ管理されている  
-
-VariableLayoutReflectionの情報を用いて作成される  
-VariableLayoutReflectionはSlangAPIの構造体の一つであり、これからシェーダーでのあるスコープ内での「定義」された変数のうちの一つの情報を取得することができる    
-例えばShaderReflectionというシェーダー本体情報からはグローバルな変数を、StructのTypeLayoutReflectionからはそのStructで定義した変数をそれぞれお取得できる  
-この情報からはその変数に対応するTypeLayoutReflectionも得ることができる 
-
 #### reflectVariable系関数
 ReflectionReflection.cppの方で宣言定義されており、ReflectionTypeを作るための関数  
 渡される引数の一つであるTypeLayoutReflectionからReflectionTypeがなんのタイプか、サイズはどのくらいか、再帰的に作成する子要素があるかなどが決定される  
@@ -226,6 +216,17 @@ ParameterBlockReflectionの変数構造を親のみをもつツリーにした�
 （pBlockはそのpBlock->addResourceRange(bindingInfo)する以外では使われない）  
 ちなみにpDeferredはslangのspecialization用、つまり何のレジスタータイプが使われるかはspecializationされるまでわからないことからpPrimaryが終わった後に評価するためのもので、reflectSpecializedType()で用意され、reflectInterfaceType()で評価される  
  
+
+### ReflectionVar
+シェーダーの変数定義部分の情報をまとめておくためのクラス  
+この変数に対するShaderVarOffsetとReflectionTypeのみ  
+ReflectionStructTypeかProgramReflectionでのみ管理されている  
+
+VariableLayoutReflectionの情報を用いて作成される  
+VariableLayoutReflectionはSlangAPIの構造体の一つであり、これからシェーダーでのあるスコープ内での「定義」された変数のうちの一つの情報を取得することができる    
+例えばShaderReflectionというシェーダー本体情報からはグローバルな変数を、StructのTypeLayoutReflectionからはそのStructで定義した変数をそれぞれお取得できる  
+この情報からはその変数に対応するTypeLayoutReflectionも得ることができる 
+
 
 # ProgramVersion, Program, Shaderファイル関連
 シェーダーの中身とそれをdx12用のシェーダーブロブやルートシグネチャーにするためのなんやかんや  
@@ -293,11 +294,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4Nzc2MzMyMCwtMTI5NzMzMjU1NCw0MT
-IxNTg3MDUsLTE0ODAyNzMzNDcsLTk2MTI4ODkzMSwtMTg3NzYx
-NDk5MSwtMTU5MjE0NDIyLDE2NTU1MDQwMjYsLTE5MTI4ODkxMT
-ksLTE1MTYyMzg3NTQsLTMzOTczNTQyOSwtMTQ4MzUzMDQ4NSwt
-MTMzMDUwOTU2MSwtMjAxNTIxNTEyMywxMDg1ODI4NjcxLDE0Nz
-Y2NjIyNjcsLTE2NDMwMDgwMzEsOTQ3MDIzNzc0LC0zNDA3MzM3
-NTYsLTE1MTc0ODUyNTVdfQ==
+eyJoaXN0b3J5IjpbLTE5NTkzNTc2NTgsMTY4Nzc2MzMyMCwtMT
+I5NzMzMjU1NCw0MTIxNTg3MDUsLTE0ODAyNzMzNDcsLTk2MTI4
+ODkzMSwtMTg3NzYxNDk5MSwtMTU5MjE0NDIyLDE2NTU1MDQwMj
+YsLTE5MTI4ODkxMTksLTE1MTYyMzg3NTQsLTMzOTczNTQyOSwt
+MTQ4MzUzMDQ4NSwtMTMzMDUwOTU2MSwtMjAxNTIxNTEyMywxMD
+g1ODI4NjcxLDE0NzY2NjIyNjcsLTE2NDMwMDgwMzEsOTQ3MDIz
+Nzc0LC0zNDA3MzM3NTZdfQ==
 -->
