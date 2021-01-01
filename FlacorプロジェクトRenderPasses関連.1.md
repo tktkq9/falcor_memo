@@ -231,9 +231,9 @@ VariableLayoutReflectionはSlangAPIの構造体の一つであり、これから
 リソースとコンスタントバッファーとParameterBlockの  
 レジスター番号、スペース番号、コマンドリストにセットするディスクリプターの番号、ルートシグネチャーの番号の入れ物クラス  
 
-TypeLayoutReflectionからParameterBlockReflectionに入れていくパターン、  
+ProgramReflectionを作るときに上の情報も一緒に計算し、ParameterBlockReflectionに入れていくパターン、  
 ReflectionTypeから作るパターン  
-
+TypeLayoutReflectionから
 
 ### ProgramReflection
 シェーダーグローバルスコープ変数に対応するクラス  
@@ -309,11 +309,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzc2NjM0MjgsLTE4MDEwODk4MzQsNz
-czNDQ5NjksMjAxNTAzODg3MywtMTAxMDU1NTM4MywyMDc5MDgy
-NDU4LC0xMzMzMTAzODQ0LDk4MTA0MDE3MywyMTIxOTY5ODI4LC
-03MzU3ODIzOTksLTIxNDMyNTE4MTgsMTk5MTcxNjYxNiwzMDky
-NTYyOTksMTY4Nzc2MzMyMCwtMTI5NzMzMjU1NCw0MTIxNTg3MD
-UsLTE0ODAyNzMzNDcsLTk2MTI4ODkzMSwtMTg3NzYxNDk5MSwt
-MTU5MjE0NDIyXX0=
+eyJoaXN0b3J5IjpbNDAxODA0MTQwLC0xODAxMDg5ODM0LDc3Mz
+Q0OTY5LDIwMTUwMzg4NzMsLTEwMTA1NTUzODMsMjA3OTA4MjQ1
+OCwtMTMzMzEwMzg0NCw5ODEwNDAxNzMsMjEyMTk2OTgyOCwtNz
+M1NzgyMzk5LC0yMTQzMjUxODE4LDE5OTE3MTY2MTYsMzA5MjU2
+Mjk5LDE2ODc3NjMzMjAsLTEyOTczMzI1NTQsNDEyMTU4NzA1LC
+0xNDgwMjczMzQ3LC05NjEyODg5MzEsLTE4Nzc2MTQ5OTEsLTE1
+OTIxNDQyMl19
 -->
