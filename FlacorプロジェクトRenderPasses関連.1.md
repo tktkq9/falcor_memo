@@ -245,7 +245,8 @@ ParameterBlockReflectionのサブクラスでcreate()とコンストラクタが
 一番UniformParameterCount多いエントリーポイントのやつを選んで、それのParameterBlockReflectionを作成している  
 
 #### ParameterBlockReflectionFinalizer
-ParameterBlockReflectionが
+ParameterBlockReflectionが持っているmDescriptorSetsを作成するための構造体  
+
 
 
 ### ProgramReflection
@@ -333,7 +334,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMzE2NTc5NywtNjA4MjY2NTA4LC0xND
+eyJoaXN0b3J5IjpbMTIwODQ4ODM3NSwtNjA4MjY2NTA4LC0xND
 g1ODU3MDI0LDE0ODYxNjcwNzEsLTIxMjcyMzcxMzIsLTE5MDY5
 NjQ2NDAsMTgzMTc3MzU4NSwtMTg1NjMzNDAyNiw5NTg3NDczOT
 UsMjY4MDA3NDMxLC0xODAxMDg5ODM0LDc3MzQ0OTY5LDIwMTUw
