@@ -240,7 +240,7 @@ TypeLayoutReflectionからReflectionTypeと一緒に作っていくパターン
 ParameterBlockReflectionのサブクラスでcreate()とコンストラクタが違うのみ  
 エントリーポイントで使われているグローバル変数に対するParameterBlockReflection情報  
 
-よくわからんが、一番多く
+よくわからんが、一番UniformParameterCount多いエントリーポイントのやつを選んで、それのParameterBlockReflectionを作成している  
 
 ### ProgramReflection
 シェーダーグローバルスコープ変数に対応するクラス  
@@ -316,7 +316,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4NTg3OTAwLDI2ODAwNzQzMSwtMTgwMT
+eyJoaXN0b3J5IjpbOTU4NzQ3Mzk1LDI2ODAwNzQzMSwtMTgwMT
 A4OTgzNCw3NzM0NDk2OSwyMDE1MDM4ODczLC0xMDEwNTU1Mzgz
 LDIwNzkwODI0NTgsLTEzMzMxMDM4NDQsOTgxMDQwMTczLDIxMj
 E5Njk4MjgsLTczNTc4MjM5OSwtMjE0MzI1MTgxOCwxOTkxNzE2
