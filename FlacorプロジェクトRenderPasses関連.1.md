@@ -245,7 +245,7 @@ ParameterBlockReflectionのサブクラスでcreate()とコンストラクタが
 一番UniformParameterCount多いエントリーポイントのやつを選んで、それのParameterBlockReflectionを作成している  
 
 #### ParameterBlockReflectionFinalizer
-
+ParameterBlockReflectionが
 
 
 ### ProgramReflection
@@ -333,11 +333,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwODI2NjUwOCwtMTQ4NTg1NzAyNCwxND
-g2MTY3MDcxLC0yMTI3MjM3MTMyLC0xOTA2OTY0NjQwLDE4MzE3
-NzM1ODUsLTE4NTYzMzQwMjYsOTU4NzQ3Mzk1LDI2ODAwNzQzMS
-wtMTgwMTA4OTgzNCw3NzM0NDk2OSwyMDE1MDM4ODczLC0xMDEw
-NTU1MzgzLDIwNzkwODI0NTgsLTEzMzMxMDM4NDQsOTgxMDQwMT
-czLDIxMjE5Njk4MjgsLTczNTc4MjM5OSwtMjE0MzI1MTgxOCwx
-OTkxNzE2NjE2XX0=
+eyJoaXN0b3J5IjpbLTcyMzE2NTc5NywtNjA4MjY2NTA4LC0xND
+g1ODU3MDI0LDE0ODYxNjcwNzEsLTIxMjcyMzcxMzIsLTE5MDY5
+NjQ2NDAsMTgzMTc3MzU4NSwtMTg1NjMzNDAyNiw5NTg3NDczOT
+UsMjY4MDA3NDMxLC0xODAxMDg5ODM0LDc3MzQ0OTY5LDIwMTUw
+Mzg4NzMsLTEwMTA1NTUzODMsMjA3OTA4MjQ1OCwtMTMzMzEwMz
+g0NCw5ODEwNDAxNzMsMjEyMTk2OTgyOCwtNzM1NzgyMzk5LC0y
+MTQzMjUxODE4XX0=
 -->
