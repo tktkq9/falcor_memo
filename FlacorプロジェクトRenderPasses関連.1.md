@@ -229,7 +229,7 @@ VariableLayoutReflectionはSlangAPIの構造体の一つであり、これから
 
 ### ParameterBlockReflection
 リソースとコンスタントバッファーとParameterBlockの  
-レジスター、スペース番号、コマンドリストにセットするディスクリプターの番号、ルートシグネチャーの番号の入れ物クラス  
+レジスター番号、スペース番号、コマンドリストにセットするディスクリプターの番号、ルートシグネチャーの番号の入れ物クラス  
 
 ProgramReflectionを作るときに上の情報も一緒に計算し、ParameterBlockReflectionに入れていく  
 
@@ -307,11 +307,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzczNDQ5NjksMjAxNTAzODg3MywtMTAxMD
-U1NTM4MywyMDc5MDgyNDU4LC0xMzMzMTAzODQ0LDk4MTA0MDE3
-MywyMTIxOTY5ODI4LC03MzU3ODIzOTksLTIxNDMyNTE4MTgsMT
-k5MTcxNjYxNiwzMDkyNTYyOTksMTY4Nzc2MzMyMCwtMTI5NzMz
-MjU1NCw0MTIxNTg3MDUsLTE0ODAyNzMzNDcsLTk2MTI4ODkzMS
-wtMTg3NzYxNDk5MSwtMTU5MjE0NDIyLDE2NTU1MDQwMjYsLTE5
-MTI4ODkxMTldfQ==
+eyJoaXN0b3J5IjpbLTE4MDEwODk4MzQsNzczNDQ5NjksMjAxNT
+AzODg3MywtMTAxMDU1NTM4MywyMDc5MDgyNDU4LC0xMzMzMTAz
+ODQ0LDk4MTA0MDE3MywyMTIxOTY5ODI4LC03MzU3ODIzOTksLT
+IxNDMyNTE4MTgsMTk5MTcxNjYxNiwzMDkyNTYyOTksMTY4Nzc2
+MzMyMCwtMTI5NzMzMjU1NCw0MTIxNTg3MDUsLTE0ODAyNzMzND
+csLTk2MTI4ODkzMSwtMTg3NzYxNDk5MSwtMTU5MjE0NDIyLDE2
+NTU1MDQwMjZdfQ==
 -->
