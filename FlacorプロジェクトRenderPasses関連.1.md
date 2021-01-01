@@ -118,7 +118,7 @@ bindIntoDescriptorSet()はDefaultConstantBufferのView、つまりバッファ�
 
 #### DescriptorSet
 渡されたLayoutに対応するディスクリプターヒープのハンドル  
-create()でLayoutに沿ってディスクリプターヒープとrange分のハンドルを割り当て、そのハンドル情報を保存する  
+create()でLayoutに沿ってディスクリプターヒープとrange分のハンドルを割り当て、そのハンドル情報を保持する  
 
 ## ShaderVar
 外部用ParameterBlockクラス  
@@ -301,11 +301,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MTkwNTM1NCwyMTIxOTY5ODI4LC03Mz
-U3ODIzOTksLTIxNDMyNTE4MTgsMTk5MTcxNjYxNiwzMDkyNTYy
-OTksMTY4Nzc2MzMyMCwtMTI5NzMzMjU1NCw0MTIxNTg3MDUsLT
-E0ODAyNzMzNDcsLTk2MTI4ODkzMSwtMTg3NzYxNDk5MSwtMTU5
-MjE0NDIyLDE2NTU1MDQwMjYsLTE5MTI4ODkxMTksLTE1MTYyMz
-g3NTQsLTMzOTczNTQyOSwtMTQ4MzUzMDQ4NSwtMTMzMDUwOTU2
-MSwtMjAxNTIxNTEyM119
+eyJoaXN0b3J5IjpbOTgxMDQwMTczLDIxMjE5Njk4MjgsLTczNT
+c4MjM5OSwtMjE0MzI1MTgxOCwxOTkxNzE2NjE2LDMwOTI1NjI5
+OSwxNjg3NzYzMzIwLC0xMjk3MzMyNTU0LDQxMjE1ODcwNSwtMT
+Q4MDI3MzM0NywtOTYxMjg4OTMxLC0xODc3NjE0OTkxLC0xNTky
+MTQ0MjIsMTY1NTUwNDAyNiwtMTkxMjg4OTExOSwtMTUxNjIzOD
+c1NCwtMzM5NzM1NDI5LC0xNDgzNTMwNDg1LC0xMzMwNTA5NTYx
+LC0yMDE1MjE1MTIzXX0=
 -->
