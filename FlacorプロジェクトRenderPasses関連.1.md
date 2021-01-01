@@ -231,7 +231,7 @@ VariableLayoutReflectionはSlangAPIの構造体の一つであり、これから
 シェーダーグローバルスコープ変数に対応するクラス  
 グローバルスコープで定義した変数の集まりはStructと同じなので、ReflectionStructTypeのタイプとして扱っている  
 
-ShaderReflectionによってグローバルなシェーダー変数を取得し作成していく  
+[ShaderReflection](https://github.com/shader-slang/slang/blob/master/docs/api-users-guide.md#reflection-information)によってグローバルなシェーダー変数を取得し作成していく  
 このShaderReflectionはSlangAPIの構造体であり、ここからシェーダーのグローバル変数やエントリーポイントなどが取得できる  
 
 
@@ -301,11 +301,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNTc4MjM5OSwtMjE0MzI1MTgxOCwxOT
-kxNzE2NjE2LDMwOTI1NjI5OSwxNjg3NzYzMzIwLC0xMjk3MzMy
-NTU0LDQxMjE1ODcwNSwtMTQ4MDI3MzM0NywtOTYxMjg4OTMxLC
-0xODc3NjE0OTkxLC0xNTkyMTQ0MjIsMTY1NTUwNDAyNiwtMTkx
-Mjg4OTExOSwtMTUxNjIzODc1NCwtMzM5NzM1NDI5LC0xNDgzNT
-MwNDg1LC0xMzMwNTA5NTYxLC0yMDE1MjE1MTIzLDEwODU4Mjg2
-NzEsMTQ3NjY2MjI2N119
+eyJoaXN0b3J5IjpbLTE3NDIwMjAzOTMsLTczNTc4MjM5OSwtMj
+E0MzI1MTgxOCwxOTkxNzE2NjE2LDMwOTI1NjI5OSwxNjg3NzYz
+MzIwLC0xMjk3MzMyNTU0LDQxMjE1ODcwNSwtMTQ4MDI3MzM0Ny
+wtOTYxMjg4OTMxLC0xODc3NjE0OTkxLC0xNTkyMTQ0MjIsMTY1
+NTUwNDAyNiwtMTkxMjg4OTExOSwtMTUxNjIzODc1NCwtMzM5Nz
+M1NDI5LC0xNDgzNTMwNDg1LC0xMzMwNTA5NTYxLC0yMDE1MjE1
+MTIzLDEwODU4Mjg2NzFdfQ==
 -->
