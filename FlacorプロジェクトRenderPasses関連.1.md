@@ -249,7 +249,7 @@ ParameterBlockReflectionが持っているmDescriptorSets（DescriptorSetInfoの
 事前に計算しておいたDefaultConstantBufferBindingInfo、ResourceRangeBindingInfo、ResourceRangeを使って作成していく  
 ParameterBlockReflectionやProgramReflectionで一通りParameterBlockReflectionの作成や初期化が終わったタイミングでこの構造体のfinalize()関数が呼ばれる  
 
-DescriptorSetInfo
+DescriptorSetInfoは
 
 
 
@@ -339,11 +339,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTkwNzY3NTEsMTQ3Nzc4OTI2NSwxMz
-EzMjIwMjE3LC0xNTQxMzI0MTIyLC05NTMyODE0MTQsLTYwODI2
-NjUwOCwtMTQ4NTg1NzAyNCwxNDg2MTY3MDcxLC0yMTI3MjM3MT
-MyLC0xOTA2OTY0NjQwLDE4MzE3NzM1ODUsLTE4NTYzMzQwMjYs
-OTU4NzQ3Mzk1LDI2ODAwNzQzMSwtMTgwMTA4OTgzNCw3NzM0ND
-k2OSwyMDE1MDM4ODczLC0xMDEwNTU1MzgzLDIwNzkwODI0NTgs
-LTEzMzMxMDM4NDRdfQ==
+eyJoaXN0b3J5IjpbLTEyMzU5Njk1MDAsLTE3OTkwNzY3NTEsMT
+Q3Nzc4OTI2NSwxMzEzMjIwMjE3LC0xNTQxMzI0MTIyLC05NTMy
+ODE0MTQsLTYwODI2NjUwOCwtMTQ4NTg1NzAyNCwxNDg2MTY3MD
+cxLC0yMTI3MjM3MTMyLC0xOTA2OTY0NjQwLDE4MzE3NzM1ODUs
+LTE4NTYzMzQwMjYsOTU4NzQ3Mzk1LDI2ODAwNzQzMSwtMTgwMT
+A4OTgzNCw3NzM0NDk2OSwyMDE1MDM4ODczLC0xMDEwNTU1Mzgz
+LDIwNzkwODI0NThdfQ==
 -->
