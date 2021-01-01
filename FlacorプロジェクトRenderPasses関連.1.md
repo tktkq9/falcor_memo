@@ -188,7 +188,7 @@ ReflectionType系クラスの中に複数のReflectionType系クラスがある�
 - ReflectionArrayType
   - 配列に対応するReflectionType。配列の要素数、配列の要素間のサイズ（アラインメントを考慮したサイズで、必ずしも要素のサイズではない）、要素のReflectionType情報を持つ
 - ReflectionStructType
-  - Structに対応するReflectionType。struct内部の変数やそのReflectionType、オフセットなど様々な情報の管理を行う（詳細はこの後の別の場所で）
+  - Structに対応するReflectionType。struct内部の変数やそのReflectionType、オフセットなど様々な情報の管理を行う（詳細は後で）
 - ReflectionBasicType
   - intやFloat3x4など標準型に対応するReflectionType。その特性から、ReflectionBasicTypeが子ReflectionTypeを持つことはない
 - ReflectionResourceType
@@ -226,6 +226,8 @@ reflectVariable()により作成され、渡されるVariableLayoutReflectionを
 VariableLayoutReflectionはSlangAPIの構造体の一つであり、これからシェーダーでのあるスコープ内での「定義」された変数のうちの一つの情報を取得することができる    
 例えばShaderReflectionというシェーダー本体情報からはグローバルな変数を、StructのTypeLayoutReflectionからはそのStructで定義した変数をそれぞれお取得できる  
 この情報からはその変数に対応するTypeLayoutReflectionも得ることができる 
+
+### ProgramReflection
 
 
 # ProgramVersion, Program, Shaderファイル関連
@@ -294,11 +296,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA5MjU2Mjk5LDE2ODc3NjMzMjAsLTEyOT
-czMzI1NTQsNDEyMTU4NzA1LC0xNDgwMjczMzQ3LC05NjEyODg5
-MzEsLTE4Nzc2MTQ5OTEsLTE1OTIxNDQyMiwxNjU1NTA0MDI2LC
-0xOTEyODg5MTE5LC0xNTE2MjM4NzU0LC0zMzk3MzU0MjksLTE0
-ODM1MzA0ODUsLTEzMzA1MDk1NjEsLTIwMTUyMTUxMjMsMTA4NT
-gyODY3MSwxNDc2NjYyMjY3LC0xNjQzMDA4MDMxLDk0NzAyMzc3
-NCwtMzQwNzMzNzU2XX0=
+eyJoaXN0b3J5IjpbLTE5NTMzMTU3ODksMzA5MjU2Mjk5LDE2OD
+c3NjMzMjAsLTEyOTczMzI1NTQsNDEyMTU4NzA1LC0xNDgwMjcz
+MzQ3LC05NjEyODg5MzEsLTE4Nzc2MTQ5OTEsLTE1OTIxNDQyMi
+wxNjU1NTA0MDI2LC0xOTEyODg5MTE5LC0xNTE2MjM4NzU0LC0z
+Mzk3MzU0MjksLTE0ODM1MzA0ODUsLTEzMzA1MDk1NjEsLTIwMT
+UyMTUxMjMsMTA4NTgyODY3MSwxNDc2NjYyMjY3LC0xNjQzMDA4
+MDMxLDk0NzAyMzc3NF19
 -->
