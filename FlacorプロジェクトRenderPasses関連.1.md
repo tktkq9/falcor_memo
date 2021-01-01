@@ -206,9 +206,8 @@ ReflectionVarの格納はaddMember()で行われ、
 
 findMemberByOffset()で登録しておいたmMembersからoffsetに対応するメンバ変数を検索し、その変数のTypedShaderVarOffsetを返す  
 
-
-
-### ReflectionVar
+##### ReflectionVar
+ReflectionStructTypeで管理されるシェーダー変数定義部分のクラス  
 シェーダーの変数定義部分の情報をまとめておくためのクラス  
 この変数に対するShaderVarOffsetとReflectionTypeのみ
 VariableLayoutReflectionの情報を用いて作成される  
@@ -294,11 +293,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTk1NTYzNDEsLTEyOTczMzI1NTQsND
-EyMTU4NzA1LC0xNDgwMjczMzQ3LC05NjEyODg5MzEsLTE4Nzc2
-MTQ5OTEsLTE1OTIxNDQyMiwxNjU1NTA0MDI2LC0xOTEyODg5MT
-E5LC0xNTE2MjM4NzU0LC0zMzk3MzU0MjksLTE0ODM1MzA0ODUs
-LTEzMzA1MDk1NjEsLTIwMTUyMTUxMjMsMTA4NTgyODY3MSwxND
-c2NjYyMjY3LC0xNjQzMDA4MDMxLDk0NzAyMzc3NCwtMzQwNzMz
-NzU2LC0xNTE3NDg1MjU1XX0=
+eyJoaXN0b3J5IjpbLTMyMzEyMzM4LC0xMjk3MzMyNTU0LDQxMj
+E1ODcwNSwtMTQ4MDI3MzM0NywtOTYxMjg4OTMxLC0xODc3NjE0
+OTkxLC0xNTkyMTQ0MjIsMTY1NTUwNDAyNiwtMTkxMjg4OTExOS
+wtMTUxNjIzODc1NCwtMzM5NzM1NDI5LC0xNDgzNTMwNDg1LC0x
+MzMwNTA5NTYxLC0yMDE1MjE1MTIzLDEwODU4Mjg2NzEsMTQ3Nj
+Y2MjI2NywtMTY0MzAwODAzMSw5NDcwMjM3NzQsLTM0MDczMzc1
+NiwtMTUxNzQ4NTI1NV19
 -->
