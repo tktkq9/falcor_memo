@@ -188,7 +188,7 @@ ReflectionType系クラスの中に複数のReflectionType系クラスがある�
 - ReflectionArrayType
   - 配列に対応するReflectionType。配列の要素数、配列の要素間のサイズ（アラインメントを考慮したサイズで、必ずしも要素のサイズではない）、要素のReflectionType情報を持つ
 - ReflectionStructType
-  - Structに対応するReflectionType。struct内部の変数やそのReflectionType、オフセットなど様々な情報の管理を行う（詳細を下の方で）
+  - Structに対応するReflectionType。struct内部の変数やそのReflectionType、オフセットなど様々な情報の管理を行う（詳細は後の方で）
 - ReflectionBasicType
   - intやFloat3x4など標準型に対応するReflectionType。その特性から、ReflectionBasicTypeが子ReflectionTypeを持つことはない
 - ReflectionResourceType
@@ -296,7 +296,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NjA5MjEwOCwzMDkyNTYyOTksMTY4Nz
+eyJoaXN0b3J5IjpbMTk5MTcxNjYxNiwzMDkyNTYyOTksMTY4Nz
 c2MzMyMCwtMTI5NzMzMjU1NCw0MTIxNTg3MDUsLTE0ODAyNzMz
 NDcsLTk2MTI4ODkzMSwtMTg3NzYxNDk5MSwtMTU5MjE0NDIyLD
 E2NTU1MDQwMjYsLTE5MTI4ODkxMTksLTE1MTYyMzg3NTQsLTMz
