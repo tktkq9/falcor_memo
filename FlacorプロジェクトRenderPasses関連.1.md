@@ -228,7 +228,7 @@ VariableLayoutReflectionはSlangAPIの構造体の一つであり、これから
 この情報からはその変数に対応するTypeLayoutReflectionも得ることができる 
 
 ### ParameterBlockReflection
-レジスター番号と
+レジスター、スペース番号の管理、
 
 ### ProgramReflection
 シェーダーグローバルスコープ変数に対応するクラス  
@@ -304,11 +304,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTA1NTUzODMsMjA3OTA4MjQ1OCwtMT
-MzMzEwMzg0NCw5ODEwNDAxNzMsMjEyMTk2OTgyOCwtNzM1Nzgy
-Mzk5LC0yMTQzMjUxODE4LDE5OTE3MTY2MTYsMzA5MjU2Mjk5LD
-E2ODc3NjMzMjAsLTEyOTczMzI1NTQsNDEyMTU4NzA1LC0xNDgw
-MjczMzQ3LC05NjEyODg5MzEsLTE4Nzc2MTQ5OTEsLTE1OTIxND
-QyMiwxNjU1NTA0MDI2LC0xOTEyODg5MTE5LC0xNTE2MjM4NzU0
-LC0zMzk3MzU0MjldfQ==
+eyJoaXN0b3J5IjpbLTYxNzQxNzk0MiwtMTAxMDU1NTM4MywyMD
+c5MDgyNDU4LC0xMzMzMTAzODQ0LDk4MTA0MDE3MywyMTIxOTY5
+ODI4LC03MzU3ODIzOTksLTIxNDMyNTE4MTgsMTk5MTcxNjYxNi
+wzMDkyNTYyOTksMTY4Nzc2MzMyMCwtMTI5NzMzMjU1NCw0MTIx
+NTg3MDUsLTE0ODAyNzMzNDcsLTk2MTI4ODkzMSwtMTg3NzYxND
+k5MSwtMTU5MjE0NDIyLDE2NTU1MDQwMjYsLTE5MTI4ODkxMTks
+LTE1MTYyMzg3NTRdfQ==
 -->
