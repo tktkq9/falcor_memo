@@ -229,6 +229,7 @@ VariableLayoutReflectionはSlangAPIの構造体の一つであり、これから
 
 ### ParameterBlockReflection
 
+
 ### ProgramReflection
 シェーダーグローバルスコープ変数に対応するクラス  
 グローバルスコープで定義した変数の集まりはStructと同じなので、ReflectionStructTypeのタイプとして扱っている  
@@ -303,7 +304,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MzYyMDMzMiwtMTMzMzEwMzg0NCw5OD
+eyJoaXN0b3J5IjpbMjA3OTA4MjQ1OCwtMTMzMzEwMzg0NCw5OD
 EwNDAxNzMsMjEyMTk2OTgyOCwtNzM1NzgyMzk5LC0yMTQzMjUx
 ODE4LDE5OTE3MTY2MTYsMzA5MjU2Mjk5LDE2ODc3NjMzMjAsLT
 EyOTczMzI1NTQsNDEyMTU4NzA1LC0xNDgwMjczMzQ3LC05NjEy
