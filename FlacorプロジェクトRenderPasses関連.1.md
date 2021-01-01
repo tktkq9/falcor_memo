@@ -209,7 +209,7 @@ findMemberByOffset()で登録しておいたmMembersからoffsetに対応する�
 ### ReflectionVar
 シェーダーの変数定義部分の情報をまとめておくためのクラス  
 この変数に対するShaderVarOffsetとReflectionTypeのみ  
-ReflectionStructTypeかProgramReflectionでのみ管理される
+ReflectionStructTypeかProgramReflectionでのみ管理されている  
 
 VariableLayoutReflectionの情報を用いて作成される  
 VariableLayoutReflectionはSlangAPIの構造体の一つであり、これからシェーダーでのあるスコープ内での「定義」された変数のうちの一つの情報を取得することができる    
@@ -293,7 +293,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODMzNTA4MiwtMTI5NzMzMjU1NCw0MT
+eyJoaXN0b3J5IjpbMTY4Nzc2MzMyMCwtMTI5NzMzMjU1NCw0MT
 IxNTg3MDUsLTE0ODAyNzMzNDcsLTk2MTI4ODkzMSwtMTg3NzYx
 NDk5MSwtMTU5MjE0NDIyLDE2NTU1MDQwMjYsLTE5MTI4ODkxMT
 ksLTE1MTYyMzg3NTQsLTMzOTczNTQyOSwtMTQ4MzUzMDQ4NSwt
