@@ -244,9 +244,10 @@ ParameterBlockReflectionのサブクラスでcreate()とコンストラクタが
 エントリーポイントが使う変数はすべて同じものをもっているか、またはすべての変数をもっているエントリーポイントが少なくとも一つは存在している前提で実装されているらしいので、  
 一番UniformParameterCount多いエントリーポイントのやつを選んで、それのParameterBlockReflectionを作成している  
 
-### ProgramReflection  
-シェーダーグローバルスコープ変数とエントリーポイント、その入出力変数に対応するクラス  
-ファイル名にもなっているように、ファイルの他のクラスの大本  
+### ProgramReflection
+シェーダーグローバルスコープ変数とエントリーポイント、その入出力変数など、シェーダー全体に対応するクラス  
+ファイル名にもなっているように、ProgramReflectionファイルの他のクラスの大本  
+ここから様々なシェーダー変数やエントリーポイントなどを名前から
 
 グローバルスコープで定義した変数の集まりはグローバルStructのようなものなので、ReflectionStructTypeのタイプとして扱っている  
 これと対応するParameterBlockReflectionを作ってmpDefaultBlockに保持している  
@@ -328,7 +329,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTk0NDczMywtMjEyNzIzNzEzMiwtMT
+eyJoaXN0b3J5IjpbMTgzMzY0NDU2NSwtMjEyNzIzNzEzMiwtMT
 kwNjk2NDY0MCwxODMxNzczNTg1LC0xODU2MzM0MDI2LDk1ODc0
 NzM5NSwyNjgwMDc0MzEsLTE4MDEwODk4MzQsNzczNDQ5NjksMj
 AxNTAzODg3MywtMTAxMDU1NTM4MywyMDc5MDgyNDU4LC0xMzMz
