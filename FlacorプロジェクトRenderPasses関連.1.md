@@ -199,6 +199,7 @@ ReflectionType系クラスの中に複数のReflectionType系クラスがある�
 #### ReflectionStructType
 シェーダーのStructに対応するReflectionType  
 構造体なので、様々なReflectionTypeがこのクラスに格納される  
+またこれ作成の際にreflectVariable()も実行されReflectionVarの作成と格納も行われる  
 
 そのため変数の追加も可能であり、  
 addMember()で新しいメンバ変数の名前と対応するインデックスのペアがmNameToIndexに追加され、  
@@ -293,11 +294,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTczMzI1NTQsNDEyMTU4NzA1LC0xND
-gwMjczMzQ3LC05NjEyODg5MzEsLTE4Nzc2MTQ5OTEsLTE1OTIx
-NDQyMiwxNjU1NTA0MDI2LC0xOTEyODg5MTE5LC0xNTE2MjM4Nz
-U0LC0zMzk3MzU0MjksLTE0ODM1MzA0ODUsLTEzMzA1MDk1NjEs
-LTIwMTUyMTUxMjMsMTA4NTgyODY3MSwxNDc2NjYyMjY3LC0xNj
-QzMDA4MDMxLDk0NzAyMzc3NCwtMzQwNzMzNzU2LC0xNTE3NDg1
-MjU1LC03OTg2MjgwMDFdfQ==
+eyJoaXN0b3J5IjpbNzkyOTk4MjMzLC0xMjk3MzMyNTU0LDQxMj
+E1ODcwNSwtMTQ4MDI3MzM0NywtOTYxMjg4OTMxLC0xODc3NjE0
+OTkxLC0xNTkyMTQ0MjIsMTY1NTUwNDAyNiwtMTkxMjg4OTExOS
+wtMTUxNjIzODc1NCwtMzM5NzM1NDI5LC0xNDgzNTMwNDg1LC0x
+MzMwNTA5NTYxLC0yMDE1MjE1MTIzLDEwODU4Mjg2NzEsMTQ3Nj
+Y2MjI2NywtMTY0MzAwODAzMSw5NDcwMjM3NzQsLTM0MDczMzc1
+NiwtMTUxNzQ4NTI1NV19
 -->
