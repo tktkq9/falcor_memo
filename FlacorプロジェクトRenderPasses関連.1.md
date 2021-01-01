@@ -246,6 +246,7 @@ ParameterBlockReflectionのサブクラスでcreate()とコンストラクタが
 
 #### ParameterBlockReflectionFinalizer
 ParameterBlockReflectionが持っているmDescriptorSets（DescriptorSetInfoの配列  ）を作成するための構造体  
+事前に計算しておいたmDefaultConstantBufferBindingInfo、mResourceRanges、
 ParameterBlockReflectionやProgramReflectionで一通りParameterBlockReflectionの作成や初期化が終わったタイミングでこの構造体のfinalize()関数が呼ばれる  
 
 DescriptorSetInfo
@@ -336,11 +337,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDEzMjQxMjIsLTk1MzI4MTQxNCwtNj
-A4MjY2NTA4LC0xNDg1ODU3MDI0LDE0ODYxNjcwNzEsLTIxMjcy
-MzcxMzIsLTE5MDY5NjQ2NDAsMTgzMTc3MzU4NSwtMTg1NjMzND
-AyNiw5NTg3NDczOTUsMjY4MDA3NDMxLC0xODAxMDg5ODM0LDc3
-MzQ0OTY5LDIwMTUwMzg4NzMsLTEwMTA1NTUzODMsMjA3OTA4Mj
-Q1OCwtMTMzMzEwMzg0NCw5ODEwNDAxNzMsMjEyMTk2OTgyOCwt
-NzM1NzgyMzk5XX0=
+eyJoaXN0b3J5IjpbMTE0NjExNjEyOCwtMTU0MTMyNDEyMiwtOT
+UzMjgxNDE0LC02MDgyNjY1MDgsLTE0ODU4NTcwMjQsMTQ4NjE2
+NzA3MSwtMjEyNzIzNzEzMiwtMTkwNjk2NDY0MCwxODMxNzczNT
+g1LC0xODU2MzM0MDI2LDk1ODc0NzM5NSwyNjgwMDc0MzEsLTE4
+MDEwODk4MzQsNzczNDQ5NjksMjAxNTAzODg3MywtMTAxMDU1NT
+M4MywyMDc5MDgyNDU4LC0xMzMzMTAzODQ0LDk4MTA0MDE3Mywy
+MTIxOTY5ODI4XX0=
 -->
