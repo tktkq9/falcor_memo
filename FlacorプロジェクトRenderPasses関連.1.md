@@ -201,7 +201,8 @@ ReflectionType系クラスの中に複数のReflectionType系クラスがある�
 構造体なので、様々なReflectionTypeがこのクラスに格納される  
 またReflectionStructType作成の際にreflectVariable()も実行されReflectionVarの作成と格納も行われる  
 
-addMember()で新しいメンバ変数の名前と対応するインデックスのペアがmNameToIndexに追加され、  
+ReflectionVarの格納はaddMember()で行われ、
+新しいメンバ変数の名前と対応するインデックスのペアがmNameToIndexに追加され、  
 addMemberIgnoringNameConflicts()でmMembersにReflectionVarの追加と、メンバ変数の場所と範囲であるfieldRangeを計算しmResourceRangesに追加する  
 
 findMemberByOffset()で登録しておいたmMembersからoffsetに対応するメンバ変数を検索し、その変数のTypedShaderVarOffsetを返す  
@@ -293,7 +294,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1ODA5MDc4OSwtMTI5NzMzMjU1NCw0MT
+eyJoaXN0b3J5IjpbLTQwMjkzNjgxOSwtMTI5NzMzMjU1NCw0MT
 IxNTg3MDUsLTE0ODAyNzMzNDcsLTk2MTI4ODkzMSwtMTg3NzYx
 NDk5MSwtMTU5MjE0NDIyLDE2NTU1MDQwMjYsLTE5MTI4ODkxMT
 ksLTE1MTYyMzg3NTQsLTMzOTczNTQyOSwtMTQ4MzUzMDQ4NSwt
