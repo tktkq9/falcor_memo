@@ -245,7 +245,7 @@ ParameterBlockReflectionのサブクラスでcreate()とコンストラクタが
 一番UniformParameterCount多いエントリーポイントのやつを選んで、それのParameterBlockReflectionを作成している  
 
 #### ParameterBlockReflectionFinalizer
-ParameterBlockReflectionが持っているmDescriptorSets（DescriptorSetInfoの配列  ）やmRootDescriptorRangeIndicesを作成するための構造体  
+ParameterBlockReflectionが持っているmDescriptorSets（DescriptorSetInfoの配列  ）、mRootDescriptorRangeIndices、mParameterBlockSubObjectRangeIndicesを作成するための構造体  
 事前に計算しておいたDefaultConstantBufferBindingInfo、ResourceRangeBindingInfo、ResourceRangeを使って作成していく  
 ParameterBlockReflectionやProgramReflectionで一通りParameterBlockReflectionの作成や初期化が終わったタイミングでこの構造体のfinalize()関数が呼ばれる  
 
@@ -339,11 +339,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3Nzc4OTI2NSwxMzEzMjIwMjE3LC0xNT
-QxMzI0MTIyLC05NTMyODE0MTQsLTYwODI2NjUwOCwtMTQ4NTg1
-NzAyNCwxNDg2MTY3MDcxLC0yMTI3MjM3MTMyLC0xOTA2OTY0Nj
-QwLDE4MzE3NzM1ODUsLTE4NTYzMzQwMjYsOTU4NzQ3Mzk1LDI2
-ODAwNzQzMSwtMTgwMTA4OTgzNCw3NzM0NDk2OSwyMDE1MDM4OD
-czLC0xMDEwNTU1MzgzLDIwNzkwODI0NTgsLTEzMzMxMDM4NDQs
-OTgxMDQwMTczXX0=
+eyJoaXN0b3J5IjpbLTE3OTkwNzY3NTEsMTQ3Nzc4OTI2NSwxMz
+EzMjIwMjE3LC0xNTQxMzI0MTIyLC05NTMyODE0MTQsLTYwODI2
+NjUwOCwtMTQ4NTg1NzAyNCwxNDg2MTY3MDcxLC0yMTI3MjM3MT
+MyLC0xOTA2OTY0NjQwLDE4MzE3NzM1ODUsLTE4NTYzMzQwMjYs
+OTU4NzQ3Mzk1LDI2ODAwNzQzMSwtMTgwMTA4OTgzNCw3NzM0ND
+k2OSwyMDE1MDM4ODczLC0xMDEwNTU1MzgzLDIwNzkwODI0NTgs
+LTEzMzMxMDM4NDRdfQ==
 -->
