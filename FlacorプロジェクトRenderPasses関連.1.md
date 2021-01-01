@@ -237,8 +237,10 @@ TypeLayoutReflectionからReflectionTypeと一緒に作っていくパターン
 がある  
 
 ### EntryPointGroupReflection
-ParameterBlockReflectionのさぶくらｓ
-エントリーポイントで使われているグローバル変数に対する
+ParameterBlockReflectionのサブクラスでcreate()とコンストラクタが違うのみ  
+エントリーポイントで使われているグローバル変数に対するParameterBlockReflection情報  
+
+よくわからんが、一番多く
 
 ### ProgramReflection
 シェーダーグローバルスコープ変数に対応するクラス  
@@ -314,11 +316,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTI5ODI0ODIsMjY4MDA3NDMxLC0xOD
-AxMDg5ODM0LDc3MzQ0OTY5LDIwMTUwMzg4NzMsLTEwMTA1NTUz
-ODMsMjA3OTA4MjQ1OCwtMTMzMzEwMzg0NCw5ODEwNDAxNzMsMj
-EyMTk2OTgyOCwtNzM1NzgyMzk5LC0yMTQzMjUxODE4LDE5OTE3
-MTY2MTYsMzA5MjU2Mjk5LDE2ODc3NjMzMjAsLTEyOTczMzI1NT
-QsNDEyMTU4NzA1LC0xNDgwMjczMzQ3LC05NjEyODg5MzEsLTE4
-Nzc2MTQ5OTFdfQ==
+eyJoaXN0b3J5IjpbMzg4NTg3OTAwLDI2ODAwNzQzMSwtMTgwMT
+A4OTgzNCw3NzM0NDk2OSwyMDE1MDM4ODczLC0xMDEwNTU1Mzgz
+LDIwNzkwODI0NTgsLTEzMzMxMDM4NDQsOTgxMDQwMTczLDIxMj
+E5Njk4MjgsLTczNTc4MjM5OSwtMjE0MzI1MTgxOCwxOTkxNzE2
+NjE2LDMwOTI1NjI5OSwxNjg3NzYzMzIwLC0xMjk3MzMyNTU0LD
+QxMjE1ODcwNSwtMTQ4MDI3MzM0NywtOTYxMjg4OTMxLC0xODc3
+NjE0OTkxXX0=
 -->
