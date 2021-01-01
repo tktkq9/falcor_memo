@@ -244,14 +244,14 @@ ParameterBlockReflectionのサブクラスでcreate()とコンストラクタが
 一番UniformParameterCount多いエントリーポイントのやつを選んで、それのParameterBlockReflectionを作成している  
 
 ### ProgramReflection
+ファイル名にもなっている
 シェーダーグローバルスコープ変数に対応するクラス  
 
 グローバルスコープで定義した変数の集まりはStructと同じなので、ReflectionStructTypeのタイプとして扱っている  
 これと対応するParameterBlockReflectionを作ってmpDefaultBlockに保持している  
 
-また、
 
-[ShaderReflection](https://github.com/shader-slang/slang/blob/master/docs/api-users-guide.md#reflection-information)によってグローバルなシェーダー変数を取得し作成していく  
+ProgramVersionに対応する[ShaderReflection](https://github.com/shader-slang/slang/blob/master/docs/api-users-guide.md#reflection-information)によってグローバルなシェーダー変数を取得し作成していく  
 このShaderReflectionはSlangAPIの構造体であり、ここからシェーダーのグローバル変数やエントリーポイントなどが取得できる  
 
 
@@ -321,11 +321,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMTc3MzU4NSwtMTg1NjMzNDAyNiw5NT
-g3NDczOTUsMjY4MDA3NDMxLC0xODAxMDg5ODM0LDc3MzQ0OTY5
-LDIwMTUwMzg4NzMsLTEwMTA1NTUzODMsMjA3OTA4MjQ1OCwtMT
-MzMzEwMzg0NCw5ODEwNDAxNzMsMjEyMTk2OTgyOCwtNzM1Nzgy
-Mzk5LC0yMTQzMjUxODE4LDE5OTE3MTY2MTYsMzA5MjU2Mjk5LD
-E2ODc3NjMzMjAsLTEyOTczMzI1NTQsNDEyMTU4NzA1LC0xNDgw
-MjczMzQ3XX0=
+eyJoaXN0b3J5IjpbMTM2NjIzMzM4OSwxODMxNzczNTg1LC0xOD
+U2MzM0MDI2LDk1ODc0NzM5NSwyNjgwMDc0MzEsLTE4MDEwODk4
+MzQsNzczNDQ5NjksMjAxNTAzODg3MywtMTAxMDU1NTM4MywyMD
+c5MDgyNDU4LC0xMzMzMTAzODQ0LDk4MTA0MDE3MywyMTIxOTY5
+ODI4LC03MzU3ODIzOTksLTIxNDMyNTE4MTgsMTk5MTcxNjYxNi
+wzMDkyNTYyOTksMTY4Nzc2MzMyMCwtMTI5NzMzMjU1NCw0MTIx
+NTg3MDVdfQ==
 -->
