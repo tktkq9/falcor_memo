@@ -261,6 +261,8 @@ ParameterBlockReflectionのサブクラスでcreate()とコンストラクタが
 このクラスはcreate()関数によって作成され、ProgramVersionに対応する[ShaderReflection](https://github.com/shader-slang/slang/blob/master/docs/api-users-guide.md#reflection-information)によってグローバルなシェーダー変数を取得しメンバ変数を作成していく  
 このShaderReflectionはSlangAPIの構造体であり、ここからシェーダーのグローバル変数やエントリーポイントなどが取得できる  
 
+#### ParameterBlockReflectionFinalizer
+
 
 # ProgramVersion, Program, Shaderファイル関連
 シェーダーの中身とそれをdx12用のシェーダーブロブやルートシグネチャーにするためのなんやかんや  
@@ -328,11 +330,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NjE2NzA3MSwtMjEyNzIzNzEzMiwtMT
-kwNjk2NDY0MCwxODMxNzczNTg1LC0xODU2MzM0MDI2LDk1ODc0
-NzM5NSwyNjgwMDc0MzEsLTE4MDEwODk4MzQsNzczNDQ5NjksMj
-AxNTAzODg3MywtMTAxMDU1NTM4MywyMDc5MDgyNDU4LC0xMzMz
-MTAzODQ0LDk4MTA0MDE3MywyMTIxOTY5ODI4LC03MzU3ODIzOT
-ksLTIxNDMyNTE4MTgsMTk5MTcxNjYxNiwzMDkyNTYyOTksMTY4
-Nzc2MzMyMF19
+eyJoaXN0b3J5IjpbLTEyMTk2NTgsMTQ4NjE2NzA3MSwtMjEyNz
+IzNzEzMiwtMTkwNjk2NDY0MCwxODMxNzczNTg1LC0xODU2MzM0
+MDI2LDk1ODc0NzM5NSwyNjgwMDc0MzEsLTE4MDEwODk4MzQsNz
+czNDQ5NjksMjAxNTAzODg3MywtMTAxMDU1NTM4MywyMDc5MDgy
+NDU4LC0xMzMzMTAzODQ0LDk4MTA0MDE3MywyMTIxOTY5ODI4LC
+03MzU3ODIzOTksLTIxNDMyNTE4MTgsMTk5MTcxNjYxNiwzMDky
+NTYyOTldfQ==
 -->
