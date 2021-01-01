@@ -229,7 +229,9 @@ VariableLayoutReflectionはSlangAPIの構造体の一つであり、これから
 
 ### ProgramReflection
 シェーダーグローバルスコープ変数に対応するクラス  
-グローバルスコープで定義した変数の集まりを一つのStructとして考え、ReflectionStructType
+グローバルスコープで定義した変数の集まりはStructと同じなので、ReflectionStructTypeのタイプとして扱っている  
+
+
 
 # ProgramVersion, Program, Shaderファイル関連
 シェーダーの中身とそれをdx12用のシェーダーブロブやルートシグネチャーにするためのなんやかんや  
@@ -297,11 +299,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQyNDI1OCwxOTkxNzE2NjE2LDMwOT
-I1NjI5OSwxNjg3NzYzMzIwLC0xMjk3MzMyNTU0LDQxMjE1ODcw
-NSwtMTQ4MDI3MzM0NywtOTYxMjg4OTMxLC0xODc3NjE0OTkxLC
-0xNTkyMTQ0MjIsMTY1NTUwNDAyNiwtMTkxMjg4OTExOSwtMTUx
-NjIzODc1NCwtMzM5NzM1NDI5LC0xNDgzNTMwNDg1LC0xMzMwNT
-A5NTYxLC0yMDE1MjE1MTIzLDEwODU4Mjg2NzEsMTQ3NjY2MjI2
-NywtMTY0MzAwODAzMV19
+eyJoaXN0b3J5IjpbLTIxNDMyNTE4MTgsMTk5MTcxNjYxNiwzMD
+kyNTYyOTksMTY4Nzc2MzMyMCwtMTI5NzMzMjU1NCw0MTIxNTg3
+MDUsLTE0ODAyNzMzNDcsLTk2MTI4ODkzMSwtMTg3NzYxNDk5MS
+wtMTU5MjE0NDIyLDE2NTU1MDQwMjYsLTE5MTI4ODkxMTksLTE1
+MTYyMzg3NTQsLTMzOTczNTQyOSwtMTQ4MzUzMDQ4NSwtMTMzMD
+UwOTU2MSwtMjAxNTIxNTEyMywxMDg1ODI4NjcxLDE0NzY2NjIy
+NjcsLTE2NDMwMDgwMzFdfQ==
 -->
