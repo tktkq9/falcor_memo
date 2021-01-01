@@ -236,6 +236,9 @@ ReflectionTypeから作るパターン
 TypeLayoutReflectionからReflectionTypeと一緒に作っていくパターン  
 がある  
 
+### EntryPointGroupReflection
+
+
 ### ProgramReflection
 シェーダーグローバルスコープ変数に対応するクラス  
 グローバルスコープで定義した変数の集まりはStructと同じなので、ReflectionStructTypeのタイプとして扱っている  
@@ -310,7 +313,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkwNjI4NDgyLC0xODAxMDg5ODM0LDc3Mz
+eyJoaXN0b3J5IjpbMjY4MDA3NDMxLC0xODAxMDg5ODM0LDc3Mz
 Q0OTY5LDIwMTUwMzg4NzMsLTEwMTA1NTUzODMsMjA3OTA4MjQ1
 OCwtMTMzMzEwMzg0NCw5ODEwNDAxNzMsMjEyMTk2OTgyOCwtNz
 M1NzgyMzk5LC0yMTQzMjUxODE4LDE5OTE3MTY2MTYsMzA5MjU2
