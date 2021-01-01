@@ -254,6 +254,7 @@ ParameterBlockReflectionのサブクラスでcreate()とコンストラクタが
 また、それとは別にエントリーポイントグループごとのEntryPointGroupReflectionも作成され、mEntryPointGroupsに格納される  
 これはProgramReflectionファイルにあるクラスでは使われず、外部で使用される  
 
+さ
 
 
 ProgramVersionに対応する[ShaderReflection](https://github.com/shader-slang/slang/blob/master/docs/api-users-guide.md#reflection-information)によってグローバルなシェーダー変数を取得し作成していく  
@@ -326,11 +327,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjcyMzcxMzIsLTE5MDY5NjQ2NDAsMT
-gzMTc3MzU4NSwtMTg1NjMzNDAyNiw5NTg3NDczOTUsMjY4MDA3
-NDMxLC0xODAxMDg5ODM0LDc3MzQ0OTY5LDIwMTUwMzg4NzMsLT
-EwMTA1NTUzODMsMjA3OTA4MjQ1OCwtMTMzMzEwMzg0NCw5ODEw
-NDAxNzMsMjEyMTk2OTgyOCwtNzM1NzgyMzk5LC0yMTQzMjUxOD
-E4LDE5OTE3MTY2MTYsMzA5MjU2Mjk5LDE2ODc3NjMzMjAsLTEy
-OTczMzI1NTRdfQ==
+eyJoaXN0b3J5IjpbLTk0MTY0Nzg3LC0yMTI3MjM3MTMyLC0xOT
+A2OTY0NjQwLDE4MzE3NzM1ODUsLTE4NTYzMzQwMjYsOTU4NzQ3
+Mzk1LDI2ODAwNzQzMSwtMTgwMTA4OTgzNCw3NzM0NDk2OSwyMD
+E1MDM4ODczLC0xMDEwNTU1MzgzLDIwNzkwODI0NTgsLTEzMzMx
+MDM4NDQsOTgxMDQwMTczLDIxMjE5Njk4MjgsLTczNTc4MjM5OS
+wtMjE0MzI1MTgxOCwxOTkxNzE2NjE2LDMwOTI1NjI5OSwxNjg3
+NzYzMzIwXX0=
 -->
