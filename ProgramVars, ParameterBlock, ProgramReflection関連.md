@@ -13,14 +13,14 @@ ProgramVarsが外部用、ProgramReflectionが変数と番号などの対応付�
 
 ## ProgramVars
 ParameterBlockのサブクラス  
-
+これのサブクラスとしてGraphicsVarsやComputeVarsがあることから、変数情報などに対する外部用クラスとなっている  
 
     SharedPtr = ParameterBlockSharedPtr<ProgramVars>  
 とあるように、ParameterBlockSharedPtrアクセスすることからShaderVarを通して名前指定によって変数などを変更できるようになっている    
 
 ParameterBlockに対応するProgramReflectionとEntryPointGroupVars（これもまたParameterBlockのサブクラス）の配列を持つParameterBlockのようなもの  
 
-これのサブクラスがGraphicsVarsやComputeVarsであり、これらはProgramVarsを作るためのcreate()関数を持つProgramVarsラッパークラスみたいなものとなっている  
+これのサブクラスであるGraphicsVarsやComputeVarsはProgramVarsを作るためのcreate()関数を持つProgramVarsラッパークラスみたいなものとなっている  
 ただしProgramVarsと違い特徴的なものとして、ルートシグネチャーと設定したシェーダー変数をコマンドリストに適用するapply()関数も実装されている  
 <font color=#bfbfbf>ルートシグネチャーかコンテキストクラスにこれを渡すapply()関数を作るんじゃなく、こっちに作るのってどうなの</font>  
 
@@ -238,6 +238,6 @@ DescriptorSetInfoはシェーダーに対するレジスター、スペース、
 このShaderReflectionはSlangAPIの構造体であり、ここからシェーダーのグローバル変数やエントリーポイントなどが取得できる  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTg0ODAxNywxNDMyMTQ0MDQwLC0xMD
-M1MTM4MTI5LDExNTkwMDAwMjIsMTkwNDQ1NjM1NF19
+eyJoaXN0b3J5IjpbLTg0NjIwNTg2LDE0MzIxNDQwNDAsLTEwMz
+UxMzgxMjksMTE1OTAwMDAyMiwxOTA0NDU2MzU0XX0=
 -->
