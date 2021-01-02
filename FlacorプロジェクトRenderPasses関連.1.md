@@ -39,7 +39,7 @@ GraphicsState用のProgramクラスのサブクラス
 中身はそのままProgramクラスを作るためのラッパーcreate関数系とpybind11のやつのみ  
 
 ざっくりProgramクラスを説明すると、シェーダーを管理し、そこからシェーダーブロブやルートシグネチャーを保持するProgramKernelsを取得するためのもの  
-詳しくは[ProgramVars, ParameterBlock, ProgramReflection関連 ](https://github.com/tktkq9/falcor_memo/tree/main/ProgramVars%2C%20ParameterBlock%2C%20ProgramReflection関連.md)  
+詳しくは[ProgramVars, ParameterBlock, ProgramReflection関連 ](https://github.com/tktkq9/falcor_memo/tree/main/ProgramVersion%2C%20Program%2C%20Shaderファイル関連.md)  
 
 ## GraphicsVars
 ProgramVarsのサブクラス  
@@ -68,11 +68,11 @@ ProgramVarsの詳細は[ProgramVars, ParameterBlock, ProgramReflection関連](ht
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg4MjM1Mjg4LC0xNTc2MDA2MTQ5LC0yMz
-kzNjMxMDksLTE3OTkwNzY3NTEsMTQ3Nzc4OTI2NSwxMzEzMjIw
-MjE3LC0xNTQxMzI0MTIyLC05NTMyODE0MTQsLTYwODI2NjUwOC
-wtMTQ4NTg1NzAyNCwxNDg2MTY3MDcxLC0yMTI3MjM3MTMyLC0x
-OTA2OTY0NjQwLDE4MzE3NzM1ODUsLTE4NTYzMzQwMjYsOTU4Nz
-Q3Mzk1LDI2ODAwNzQzMSwtMTgwMTA4OTgzNCw3NzM0NDk2OSwy
-MDE1MDM4ODczXX0=
+eyJoaXN0b3J5IjpbLTEwMDA1OTU4ODEsLTE1NzYwMDYxNDksLT
+IzOTM2MzEwOSwtMTc5OTA3Njc1MSwxNDc3Nzg5MjY1LDEzMTMy
+MjAyMTcsLTE1NDEzMjQxMjIsLTk1MzI4MTQxNCwtNjA4MjY2NT
+A4LC0xNDg1ODU3MDI0LDE0ODYxNjcwNzEsLTIxMjcyMzcxMzIs
+LTE5MDY5NjQ2NDAsMTgzMTc3MzU4NSwtMTg1NjMzNDAyNiw5NT
+g3NDczOTUsMjY4MDA3NDMxLC0xODAxMDg5ODM0LDc3MzQ0OTY5
+LDIwMTUwMzg4NzNdfQ==
 -->
