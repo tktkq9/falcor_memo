@@ -26,7 +26,7 @@ ShaderVarはProgramVarsから変数アクセスしようとしたときにその
 だいたいこんな感じ  
 
 ちなみに各クラスやその変数名などはGLSL準拠になっているものが多いので[GLSL-to-HLSL reference]( https://docs.microsoft.com/ja-jp/windows/uwp/gaming/glsl-to-hlsl-reference)と比較しながら見たほうがいいかも  
-あと[Slangのgithubのexamplesのmodel-viewer](https://github.com/shader-slang/slang/tree/master/examples/model-viewer)で実装されているクラス名からも影響を受けているっぽいのでこっちも見ておくとより分かりやすいかもしれない（というかSlangの使い方ある程度知ってないと何やってるかわからん）
+あと[Slangのgithubのexamplesのmodel-viewer](https://github.com/shader-slang/slang/tree/master/examples/model-viewer)で実装されているクラス名からも影響を受けているっぽいのでこっちも見ておくとより分かりやすいかもしれない（というか[SlangのAPI](https://github.com/shader-slang/slang/blob/master/docs/api-users-guide.md)や使い方ある程度知ってないと何やってるかわからん）
 
 以下それぞれざっくり詳細  
 
@@ -255,7 +255,7 @@ DescriptorSetInfoはシェーダーに対するレジスター、スペース、
 このShaderReflectionはSlangAPIの構造体であり、ここからシェーダーのグローバル変数やエントリーポイントなどが取得できる  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjUyODU2Niw0OTEyMzkzMSwtMTU1Nj
+eyJoaXN0b3J5IjpbLTcwNjAwMTY5OSw0OTEyMzkzMSwtMTU1Nj
 g0NTEyNSwxNTIyMjQzOTA5LC0xMzc2NDAzMjU1LDEyMDEyNzM1
 MDUsLTUyNjQxMjE3Myw3MDkzOTAyNTAsMjE3ODE0MzE4LDkxMz
 kwOTUxNiwxNDQyOTk5MzYsMTc0MTU5OTkwMCw4NzQxNTY0ODMs
