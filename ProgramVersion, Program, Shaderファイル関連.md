@@ -1,4 +1,6 @@
 # ProgramVersion, Program, Shaderファイル関連
+TODO : Programのslang処理の理解  Program  
+
 シェーダーの中身とそれをdx12用のシェーダーブロブやルートシグネチャーにするためのなんやかんや  
 
 いろんなところで保持されているProgramにDefineしていって、ProgramVarsとProgramReflectionを渡すことによってシェーダーブロブやルートシグネチャーが作成され、それを保持したProgramKernels返され、このProgramKernelsを使って、GraphicsStateとかでパイプラインステートオブジェクトが作成されるという感じ  
@@ -46,5 +48,5 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 こいつら全員Programファイルに吸収された方がいいと思う  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDgyMDk4NTZdfQ==
+eyJoaXN0b3J5IjpbLTE3Njk0NzMwNDRdfQ==
 -->
