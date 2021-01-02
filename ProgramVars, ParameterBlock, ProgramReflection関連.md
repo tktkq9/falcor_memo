@@ -12,7 +12,7 @@ ProgramReflectionが変数名と番号との対応付け情報、
 ShaderVarがProgramReflectionをもとにParameterBlockから変数参照を持ってくるための橋渡し、  
 ParameterBlockが変数実体といった持ち回りになっている（ﾀﾌﾞﾝﾈ）  
 
-以下それぞれのざっくりした詳細  
+以下それぞれのざっくり詳細  
 
 ## ProgramVars
 ParameterBlockのサブクラス  
@@ -239,9 +239,9 @@ DescriptorSetInfoはシェーダーに対するレジスター、スペース、
 このShaderReflectionはSlangAPIの構造体であり、ここからシェーダーのグローバル変数やエントリーポイントなどが取得できる  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NjY1NTM1OCwyMTc4MTQzMTgsOTEzOT
-A5NTE2LDE0NDI5OTkzNiwxNzQxNTk5OTAwLDg3NDE1NjQ4Mywt
-MTUxNzI3OTQ0LDEyOTg1NzY1MTcsLTEwMTQzMTY4NDgsLTY5NT
-ExNDI1OCwtMTMyNjMzMTM4MywxNDMyMTQ0MDQwLC0xMDM1MTM4
-MTI5LDExNTkwMDAwMjIsMTkwNDQ1NjM1NF19
+eyJoaXN0b3J5IjpbNzA5MzkwMjUwLDIxNzgxNDMxOCw5MTM5MD
+k1MTYsMTQ0Mjk5OTM2LDE3NDE1OTk5MDAsODc0MTU2NDgzLC0x
+NTE3Mjc5NDQsMTI5ODU3NjUxNywtMTAxNDMxNjg0OCwtNjk1MT
+E0MjU4LC0xMzI2MzMxMzgzLDE0MzIxNDQwNDAsLTEwMzUxMzgx
+MjksMTE1OTAwMDAyMiwxOTA0NDU2MzU0XX0=
 -->
