@@ -1,7 +1,7 @@
 # RenderContext関連
 コマンドリストの処理を担当するもの  
 これにProgramVarsサブクラス（ディスクリプターハンドル）とかGraphicsState系のやつ（パイプラインステート）とかProgramKernels（ルートシグネチャー）とかを渡してコマンドラインの設定とか実行とかさせて描画とかさせる  
-（もっとも）
+（もっともディスクリプターハンドルの設定はRenderContextに渡したProgramVarsにそのRenderContextを渡して設定するというあっちゃこっちゃいった処理をするので渡すという）
 
 CopyContextがコピー用  
 ComputeContextがCopyContextのサブクラスでコンピュート用  
@@ -32,7 +32,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4NjY3NjgyLDEzNTc1MTMzMzksLTE3ND
+eyJoaXN0b3J5IjpbNjI5NjU3MjgzLDEzNTc1MTMzMzksLTE3ND
 Y1OTYyNTIsLTE4OTY2MDgzNTAsMTI0NTgxMjU0MSwtMTkxMTk2
 NTkwMywxNTg1MTA0NTcwLC0xNDQwNzY1NjI1LDQyNTM0ODQ1OS
 wtMTMyMTY2ODU5NiwzMTM2NjAyMzUsLTExMDYzNjc3NDUsMTk5
