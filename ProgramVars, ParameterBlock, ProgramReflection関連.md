@@ -11,7 +11,8 @@ Falcorではシェーダー言語としてSlangを使っており、レジスタ
 - ProgramReflectionが変数名と番号との対応付け情報、  
 - ShaderVarがProgramReflectionをもとにParameterBlockから変数参照を持ってくるための橋渡し、  
 - ParameterBlockが変数実体
-といった持ち回りになっている（ﾀﾌﾞﾝﾈ）  
+
+といった持ち回りになっている。タブンネ  
 
 ちなみに一つのProgramVars（ParameterBlockのサブクラスなのでParameterBlockでもある）が一つのPassに対応するシェーダーの変数すべてを担当しているのでこれ一つでいいはず。複数使うパターンもあるのかもしれない、知らんけど  
 
@@ -250,7 +251,7 @@ DescriptorSetInfoはシェーダーに対するレジスター、スペース、
 このShaderReflectionはSlangAPIの構造体であり、ここからシェーダーのグローバル変数やエントリーポイントなどが取得できる  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMjI0MzkwOSwtOTU4NTg3NzUzLC0xMz
+eyJoaXN0b3J5IjpbLTYxNzkwNzQzMiwxNTIyMjQzOTA5LC0xMz
 c2NDAzMjU1LDEyMDEyNzM1MDUsLTUyNjQxMjE3Myw3MDkzOTAy
 NTAsMjE3ODE0MzE4LDkxMzkwOTUxNiwxNDQyOTk5MzYsMTc0MT
 U5OTkwMCw4NzQxNTY0ODMsLTE1MTcyNzk0NCwxMjk4NTc2NTE3
