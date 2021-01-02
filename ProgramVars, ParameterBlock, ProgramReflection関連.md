@@ -1,5 +1,6 @@
 
 # ProgramVars, ParameterBlock, ProgramReflection関連
+FalcorではシェーダーはSlangをつ
 
 ## ProgramVars
 ParameterBlockのサブクラス  
@@ -206,8 +207,6 @@ DescriptorSetInfoはシェーダーに対するレジスター、スペース、
 
 
 
-
-
 ### ProgramReflection
 シェーダーグローバルスコープ変数とエントリーポイント、その入出力変数など、シェーダー全体に対応するクラス  
 ファイル名にもなっているように、ProgramReflectionファイルの他のクラスの大本  
@@ -226,5 +225,5 @@ DescriptorSetInfoはシェーダーに対するレジスター、スペース、
 このShaderReflectionはSlangAPIの構造体であり、ここからシェーダーのグローバル変数やエントリーポイントなどが取得できる  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODc4NjAwLDE5MDQ0NTYzNTRdfQ==
+eyJoaXN0b3J5IjpbLTc2NjEyOTQ3MSwxOTA0NDU2MzU0XX0=
 -->
