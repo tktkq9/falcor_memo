@@ -20,8 +20,6 @@ ParameterBlockはslangの機能なので多分これと関係している
  
 ## ProgramReflection.h, cpp
 
-各クラスやその変数名などはGLSL準拠になっている  
- 参照：[GLSL-to-HLSL reference]( https://docs.microsoft.com/ja-jp/windows/uwp/gaming/glsl-to-hlsl-reference)
 
 ### UniformShaderVarOffset
 コンスタントバッファー用のバイトオフセット値管理クラス  
@@ -125,11 +123,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTY2MDgzNTAsMTI0NTgxMjU0MSwtMT
-kxMTk2NTkwMywxNTg1MTA0NTcwLC0xNDQwNzY1NjI1LDQyNTM0
-ODQ1OSwtMTMyMTY2ODU5NiwzMTM2NjAyMzUsLTExMDYzNjc3ND
-UsMTk5Nzk3NTE0NywtMjEwNzkxOTg5NiwtODE4NTAxOTU4LC0x
-MTE4MDEzMTAzLDk5NTA2NDEwOSwyMDYyNDkxNzUwLC05NjIyMD
-c0ODgsLTc1MTU1NzU4MiwxOTUzNzUyMTI0LDk3NzY1NTQ3Nywx
-MDQ4ODk1NDgwXX0=
+eyJoaXN0b3J5IjpbLTE0OTU1NjU0OTgsLTE4OTY2MDgzNTAsMT
+I0NTgxMjU0MSwtMTkxMTk2NTkwMywxNTg1MTA0NTcwLC0xNDQw
+NzY1NjI1LDQyNTM0ODQ1OSwtMTMyMTY2ODU5NiwzMTM2NjAyMz
+UsLTExMDYzNjc3NDUsMTk5Nzk3NTE0NywtMjEwNzkxOTg5Niwt
+ODE4NTAxOTU4LC0xMTE4MDEzMTAzLDk5NTA2NDEwOSwyMDYyND
+kxNzUwLC05NjIyMDc0ODgsLTc1MTU1NzU4MiwxOTUzNzUyMTI0
+LDk3NzY1NTQ3N119
 -->
