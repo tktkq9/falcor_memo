@@ -39,14 +39,14 @@ GraphicsState用のProgramクラスのサブクラス
 中身はそのままProgramクラスを作るためのラッパーcreate関数系とpybind11のやつのみ  
 
 ざっくりProgramクラスを説明すると、シェーダーを管理し、そこからシェーダーブロブやルートシグネチャーを保持するProgramKernelsを取得するためのもの  
-詳しくは[ProgramVersion, Program, Shaderファイル関連 （TODO : リンク）](https://github.com/tktkq9/falcor_memo/tree/main/ProgramVars%2C%20ParameterBlock%2C%20ProgramReflection関連.md)  
+詳しくは[ProgramVars, ParameterBlock, ProgramReflection関連 ](https://github.com/tktkq9/falcor_memo/tree/main/ProgramVars%2C%20ParameterBlock%2C%20ProgramReflection関連.md)  
 
 ## GraphicsVars
 ProgramVarsのサブクラス  
 ProgramVarsと同じくシェーダー変数の変更と管理を担当する  
 RenderContextのdrawInstancedなどに渡される2つのうちの1つ  
 
-ProgramVarsの詳細は[ProgramVersion, Program, Shaderファイル関連 （TODO : リンク）](https://github.com/tktkq9/falcor_memo/tree/main/ProgramVars%2C%20ParameterBlock%2C%20ProgramReflection関連.md)  
+ProgramVarsの詳細は[ProgramVars, ParameterBlock, ProgramReflection関連](https://github.com/tktkq9/falcor_memo/tree/main/ProgramVars%2C%20ParameterBlock%2C%20ProgramReflection関連.md)  
 # BaseGraphicsPassのサブクラス
 
 ## FullScreenPass
@@ -68,7 +68,7 @@ ProgramVarsの詳細は[ProgramVersion, Program, Shaderファイル関連 （TOD
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwNDkyODEwLC0xNTc2MDA2MTQ5LC0yMz
+eyJoaXN0b3J5IjpbNDg4MjM1Mjg4LC0xNTc2MDA2MTQ5LC0yMz
 kzNjMxMDksLTE3OTkwNzY3NTEsMTQ3Nzc4OTI2NSwxMzEzMjIw
 MjE3LC0xNTQxMzI0MTIyLC05NTMyODE0MTQsLTYwODI2NjUwOC
 wtMTQ4NTg1NzAyNCwxNDg2MTY3MDcxLC0yMTI3MjM3MTMyLC0x
