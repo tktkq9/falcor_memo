@@ -1,8 +1,9 @@
 # RenderPasses関連
-RenderPassのベースクラスBaseGraphicsPassの中身についてと、  
-Falcorプロジェクト内で実装されているRenderPassesディレクトリに入っているクラスの概要  
+Falcorプロジェクト内で実装されているRenderPassesディレクトリに入っているクラスについてと、  
+ベースクラスBaseGraphicsPassの中身について  
 
-これは
+このBaseGraphicsPass
+
 
 TODO : NVAPIの理解　GraphicsStateObject
 
@@ -74,6 +75,5 @@ ProgramVarsの詳細は[ProgramVars, ParameterBlock, ProgramReflection関連](ht
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzg4MzUzNDksLTEwNzk3Nzk3ODldfQ
-==
+eyJoaXN0b3J5IjpbMTcxMzYxNTQ0NiwtMTA3OTc3OTc4OV19
 -->
