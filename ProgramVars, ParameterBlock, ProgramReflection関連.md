@@ -13,9 +13,10 @@ ShaderVarがProgramReflectionをもとにParameterBlockから変数参照を持�
 ParameterBlockが変数実体といった持ち回りになっている（ﾀﾌﾞﾝﾈ）  
 
 ちなみに作られる順は  
-
  1. シェーダーファイル指定でProgram（シェーダーとそのSlangAPIの処理に関するクラス）が作られ、その時にProgramReflectionが作られる
- 2. このProgramReflectionをもとにProgramVarsが作られる。ちなみにProgramVarsはParameterBlockのサブクラスなので要するにParameterBlock作られる。
+ 2. このProgramReflectionをもとにProgramVarsが作られる。ちなみにProgramVarsはParameterBlockのサブクラスなので要するにParameterBlock作られる
+こんな感じ。ShaderVarはProgramVarsから変数アクセスしようとしたときにいちじ
+
 
 
 
@@ -246,7 +247,7 @@ DescriptorSetInfoはシェーダーに対するレジスター、スペース、
 このShaderReflectionはSlangAPIの構造体であり、ここからシェーダーのグローバル変数やエントリーポイントなどが取得できる  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0NDIwODY2LC04MDkwNzIxMjgsNzA5Mz
+eyJoaXN0b3J5IjpbLTkwNzA5NjMzNCw4NDQ0MjA4NjYsNzA5Mz
 kwMjUwLDIxNzgxNDMxOCw5MTM5MDk1MTYsMTQ0Mjk5OTM2LDE3
 NDE1OTk5MDAsODc0MTU2NDgzLC0xNTE3Mjc5NDQsMTI5ODU3Nj
 UxNywtMTAxNDMxNjg0OCwtNjk1MTE0MjU4LC0xMzI2MzMxMzgz
