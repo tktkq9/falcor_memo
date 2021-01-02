@@ -34,7 +34,7 @@ GraphicsState、ComputeState、RtProgramでの使われ方としては、NodeTyp
 そして同じデータ割り当てに対応する状態遷移を見つけた場合は、設定したNodeTypeオブジェクト（例えばGraphicsStateではGraphicsStateObject）をgetCurrentNode()によって取得、つまりNodeTypeオブジェクトの再利用を行えるようにするために使われている  
 
 ## GraphicsProgram
-GraphicsState用のProgramクラスのサブクラス  
+Programクラスのサブクラス  
 中身はそのままProgramクラスを作るためのラッパーcreate関数系とpybind11のやつのみ  
 
 ざっくりProgramクラスを説明すると、シェーダーを管理し、そこからシェーダーブロブやルートシグネチャーを保持するProgramKernelsを取得するためのもの  
@@ -69,5 +69,5 @@ ProgramVarsの詳細は[ProgramVars, ParameterBlock, ProgramReflection関連](ht
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NzAwOTA5XX0=
+eyJoaXN0b3J5IjpbNTYwNTEwNDY3XX0=
 -->
