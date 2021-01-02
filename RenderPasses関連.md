@@ -2,7 +2,7 @@
 Falcorプロジェクト内のRenderPassesディレクトリに入っているクラスについてと、  
 （一部は違うが）ベースクラスBaseGraphicsPassの中身について  
 
-FalcorプロジェクトじゃないほうのRenderPassesに入っている各レンダーパスプロジェクトもま
+FalcorプロジェクトじゃないほうのRenderPassesに入っている各レンダーパスプロジェクトはまた別のクラスRenderPassを使っているのでこれはあくまでSamplesディレクトリに入っているプロジェクト用  
 
 
 TODO : NVAPIの理解　GraphicsStateObject
@@ -75,5 +75,6 @@ ProgramVarsの詳細は[ProgramVars, ParameterBlock, ProgramReflection関連](ht
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMzY5MjA2MywtMTA3OTc3OTc4OV19
+eyJoaXN0b3J5IjpbLTExNTQyNzE5MTAsMTMxMzY5MjA2MywtMT
+A3OTc3OTc4OV19
 -->
