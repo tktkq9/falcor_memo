@@ -43,7 +43,7 @@ GraphicsState用のProgramクラスのサブクラス
 
 ## GraphicsVars
 ProgramVarsのサブクラス  
-ProgramVarsと同じくシェーダーに渡す変数、バッファーなどを管理  
+ProgramVarsと同じくCPU側でのシェーダー変数の変更と管理を担当する  
 RenderContextのdrawInstancedなどに渡される2つのうちの1つ  
 
 # ProgramVars, ParameterBlock, ProgramReflection関連
@@ -340,11 +340,11 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTA3MDkxNDIsLTIzOTM2MzEwOSwtMT
-c5OTA3Njc1MSwxNDc3Nzg5MjY1LDEzMTMyMjAyMTcsLTE1NDEz
-MjQxMjIsLTk1MzI4MTQxNCwtNjA4MjY2NTA4LC0xNDg1ODU3MD
-I0LDE0ODYxNjcwNzEsLTIxMjcyMzcxMzIsLTE5MDY5NjQ2NDAs
-MTgzMTc3MzU4NSwtMTg1NjMzNDAyNiw5NTg3NDczOTUsMjY4MD
-A3NDMxLC0xODAxMDg5ODM0LDc3MzQ0OTY5LDIwMTUwMzg4NzMs
-LTEwMTA1NTUzODNdfQ==
+eyJoaXN0b3J5IjpbLTcxMjkwMTYwOCwtMjM5MzYzMTA5LC0xNz
+k5MDc2NzUxLDE0Nzc3ODkyNjUsMTMxMzIyMDIxNywtMTU0MTMy
+NDEyMiwtOTUzMjgxNDE0LC02MDgyNjY1MDgsLTE0ODU4NTcwMj
+QsMTQ4NjE2NzA3MSwtMjEyNzIzNzEzMiwtMTkwNjk2NDY0MCwx
+ODMxNzczNTg1LC0xODU2MzM0MDI2LDk1ODc0NzM5NSwyNjgwMD
+c0MzEsLTE4MDEwODk4MzQsNzczNDQ5NjksMjAxNTAzODg3Mywt
+MTAxMDU1NTM4M119
 -->
