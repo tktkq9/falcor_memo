@@ -225,8 +225,6 @@ DescriptorSetInfoはシェーダーに対するレジスター、スペース、
 このクラスはcreate()関数によって作成され、ProgramVersionに対応する[ShaderReflection](https://github.com/shader-slang/slang/blob/master/docs/api-users-guide.md#reflection-information)によってグローバルなシェーダー変数を取得しメンバ変数を作成していく  
 このShaderReflectionはSlangAPIの構造体であり、ここからシェーダーのグローバル変数やエントリーポイントなどが取得できる  
 
-
-
 # ProgramVersion, Program, Shaderファイル関連
 シェーダーの中身とそれをdx12用のシェーダーブロブやルートシグネチャーにするためのなんやかんや  
 
@@ -273,5 +271,5 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 こいつら全員Programファイルに吸収された方がいいと思う  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDQ1NjM1NF19
+eyJoaXN0b3J5IjpbLTkwNzA2NjkwLDE5MDQ0NTYzNTRdfQ==
 -->
