@@ -26,7 +26,7 @@ ShaderVarはProgramVarsから変数アクセスしようとしたときにその
 だいたいこんな感じ  
 
 ちなみに各クラスやその変数名などはGLSL準拠になっているものが多いので[GLSL-to-HLSL reference]( https://docs.microsoft.com/ja-jp/windows/uwp/gaming/glsl-to-hlsl-reference)と比較しながら見たほうがいいかも  
-あとSlangのgithubの[例](https://github.com/shader-slang/slang/tree/master/examples/model-viewer)
+あと[Slangのgithubの例](https://github.com/shader-slang/slang/tree/master/examples/model-viewer)で実装されているクラス名からも影響を受けているっぽいのでこっちも見ておくとより分かりやすいかもしれない（というかSlangの使い方ある程度知ってないと何やってるかわからん）
 
 以下それぞれざっくり詳細  
 
@@ -255,11 +255,11 @@ DescriptorSetInfoはシェーダーに対するレジスター、スペース、
 このShaderReflectionはSlangAPIの構造体であり、ここからシェーダーのグローバル変数やエントリーポイントなどが取得できる  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkxMjM5MzEsNjk1MDQzNzMwLC0xNTU2OD
-Q1MTI1LDE1MjIyNDM5MDksLTEzNzY0MDMyNTUsMTIwMTI3MzUw
-NSwtNTI2NDEyMTczLDcwOTM5MDI1MCwyMTc4MTQzMTgsOTEzOT
-A5NTE2LDE0NDI5OTkzNiwxNzQxNTk5OTAwLDg3NDE1NjQ4Mywt
-MTUxNzI3OTQ0LDEyOTg1NzY1MTcsLTEwMTQzMTY4NDgsLTY5NT
-ExNDI1OCwtMTMyNjMzMTM4MywxNDMyMTQ0MDQwLC0xMDM1MTM4
-MTI5XX0=
+eyJoaXN0b3J5IjpbMjA4NDI3ODU4Niw0OTEyMzkzMSwtMTU1Nj
+g0NTEyNSwxNTIyMjQzOTA5LC0xMzc2NDAzMjU1LDEyMDEyNzM1
+MDUsLTUyNjQxMjE3Myw3MDkzOTAyNTAsMjE3ODE0MzE4LDkxMz
+kwOTUxNiwxNDQyOTk5MzYsMTc0MTU5OTkwMCw4NzQxNTY0ODMs
+LTE1MTcyNzk0NCwxMjk4NTc2NTE3LC0xMDE0MzE2ODQ4LC02OT
+UxMTQyNTgsLTEzMjYzMzEzODMsMTQzMjE0NDA0MCwtMTAzNTEz
+ODEyOV19
 -->
