@@ -1,4 +1,4 @@
-# RenderPasses関連
+# Falcorプロジェクト内のRenderPasses関連
 Falcorプロジェクト内のRenderPassesディレクトリに入っているクラスについてと、  
 （一部は違うが）ベースクラスBaseGraphicsPassの中身について  
 
@@ -75,6 +75,6 @@ ProgramVarsの詳細は[ProgramVars, ParameterBlock, ProgramReflection関連](ht
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTQyNzE5MTAsMTMxMzY5MjA2MywtMT
-A3OTc3OTc4OV19
+eyJoaXN0b3J5IjpbMTUyNzg3Mzg0NiwtMTE1NDI3MTkxMCwxMz
+EzNjkyMDYzLC0xMDc5Nzc5Nzg5XX0=
 -->
