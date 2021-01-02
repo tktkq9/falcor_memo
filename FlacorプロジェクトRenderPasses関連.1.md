@@ -39,7 +39,7 @@ GraphicsState用のProgramクラスのサブクラス
 中身はそのままProgramクラスを作るためのラッパーcreate関数系とpybind11のやつのみ  
 
 ざっくりProgramクラスを説明すると、シェーダーを管理し、そこからシェーダーブロブやルートシグネチャーを保持するProgramKernelsを取得するためのもの  
-詳しくは[ProgramVars, ParameterBlock, ProgramReflection関連 ](https://github.com/tktkq9/falcor_memo/tree/main/ProgramVersion%2C%20Program%2C%20Shaderファイル関連.md)  
+詳しくは[ProgramVersion, Program, Shaderファイル関連](https://github.com/tktkq9/falcor_memo/tree/main/ProgramVersion%2C%20Program%2C%20Shaderファイル関連.md)  
 
 ## GraphicsVars
 ProgramVarsのサブクラス  
@@ -68,7 +68,7 @@ ProgramVarsの詳細は[ProgramVars, ParameterBlock, ProgramReflection関連](ht
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDA1OTU4ODEsLTE1NzYwMDYxNDksLT
+eyJoaXN0b3J5IjpbLTIwNDI1MTUzMDgsLTE1NzYwMDYxNDksLT
 IzOTM2MzEwOSwtMTc5OTA3Njc1MSwxNDc3Nzg5MjY1LDEzMTMy
 MjAyMTcsLTE1NDEzMjQxMjIsLTk1MzI4MTQxNCwtNjA4MjY2NT
 A4LC0xNDg1ODU3MDI0LDE0ODYxNjcwNzEsLTIxMjcyMzcxMzIs
