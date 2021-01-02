@@ -41,9 +41,8 @@ GraphicsState用のProgramクラスのサブクラス
 詳しくは[ProgramVersion, Program, Shaderファイル関連](https://github.com/tktkq9/falcor_memo/tree/main/ProgramVersion%2C%20Program%2C%20Shaderファイル関連.md)  
 
 ## GraphicsVars
-RenderContextのdrawInstancedなどに渡される引数のうちの1つでへんすうぶｂ
-ProgramVarsのサブクラス  
-ProgramVarsと同じくシェーダー変数の変更と管理を担当する  
+RenderContextのdrawInstancedなどに渡される引数のうちの1つで変数部分を担当  
+ProgramVarsのサブクラスであり、ProgramVarsと同じくシェーダー変数の変更と管理を担当する  
 RenderContextのdrawInstancedなどに渡される2つのうちの1つ  
 
 ProgramVarsの詳細は[ProgramVars, ParameterBlock, ProgramReflection関連](https://github.com/tktkq9/falcor_memo/tree/main/ProgramVars%2C%20ParameterBlock%2C%20ProgramReflection関連.md)  
@@ -70,5 +69,5 @@ ProgramVarsの詳細は[ProgramVars, ParameterBlock, ProgramReflection関連](ht
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTMxMjU1XX0=
+eyJoaXN0b3J5IjpbLTEwMTMwNzc5NDJdfQ==
 -->
