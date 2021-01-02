@@ -3,6 +3,9 @@
 
 いろんなところで保持されているProgramにDefineしていって、ProgramVarsとProgramReflectionを渡すことによってシェーダーブロブやルートシグネチャーが作成され、それを保持したProgramKernels返され、このProgramKernelsを使って、GraphicsStateとかでパイプラインステートオブジェクトが作成されるという感じ  
 
+ちなみに各クラスやその変数名などはGLSL準拠になっている  
+ 参照：[GLSL-to-HLSL reference]( https://docs.microsoft.com/ja-jp/windows/uwp/gaming/glsl-to-hlsl-reference)
+ 
 ## ProgramKernelsクラス
 一つのslangシェーダーのコンパイルされたものと、それをdx12側で扱うための情報を保持するためのクラス  
 情報は各エントリーポイントのブロブ（Shaderクラス）の配列とかProgramReflectionとか  
@@ -44,5 +47,5 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 こいつら全員Programファイルに吸収された方がいいと思う  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NDAxNDk1Ml19
+eyJoaXN0b3J5IjpbMTQxOTUyMTkwOV19
 -->
