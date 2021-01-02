@@ -10,7 +10,7 @@ drawやdispatch処理さえないので、完全にサブクラス作成前提�
 
 
 # GraphicsState
-RenderContextのdrawInstancedなどに渡される2つ引数のうちの1つでパイプラインステートオブジェクトのようなもの  
+RenderContextのdrawInstancedなどに渡される2つのうちの1つでパイプラインステートオブジェクトのようなもの  
 ルートシグネチャー、モデルのリソース、パイプライン、複数のビューポート、シザー、FBOなどGraphicsVars以外のものを設定、管理  
 ブレンドやデプスステンシルやカリングなどの設定管理はGraphicsStateObjectの方に押し付けている  
 
@@ -69,5 +69,5 @@ ProgramVarsの詳細は[ProgramVars, ParameterBlock, ProgramReflection関連](ht
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDU3ODg3NzRdfQ==
+eyJoaXN0b3J5IjpbLTc2MDg5Njk3XX0=
 -->
