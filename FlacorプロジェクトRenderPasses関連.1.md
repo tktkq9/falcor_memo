@@ -46,6 +46,7 @@ ProgramVarsのサブクラス
 ProgramVarsと同じくシェーダー変数の変更と管理を担当する  
 RenderContextのdrawInstancedなどに渡される2つのうちの1つ  
 
+ProgramVarsの詳細は[ProgramVersion, Program, Shaderファイル関連 （TODO : リンク）](https://github.com/tktkq9/falcor_memo/tree/main/ProgramVars%2C%20ParameterBlock%2C%20ProgramReflection関連.md)  
 # BaseGraphicsPassのサブクラス
 
 ## FullScreenPass
@@ -67,11 +68,11 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTM2MzgyNTcsLTE1NzYwMDYxNDksLT
-IzOTM2MzEwOSwtMTc5OTA3Njc1MSwxNDc3Nzg5MjY1LDEzMTMy
-MjAyMTcsLTE1NDEzMjQxMjIsLTk1MzI4MTQxNCwtNjA4MjY2NT
-A4LC0xNDg1ODU3MDI0LDE0ODYxNjcwNzEsLTIxMjcyMzcxMzIs
-LTE5MDY5NjQ2NDAsMTgzMTc3MzU4NSwtMTg1NjMzNDAyNiw5NT
-g3NDczOTUsMjY4MDA3NDMxLC0xODAxMDg5ODM0LDc3MzQ0OTY5
-LDIwMTUwMzg4NzNdfQ==
+eyJoaXN0b3J5IjpbODEwNDkyODEwLC0xNTc2MDA2MTQ5LC0yMz
+kzNjMxMDksLTE3OTkwNzY3NTEsMTQ3Nzc4OTI2NSwxMzEzMjIw
+MjE3LC0xNTQxMzI0MTIyLC05NTMyODE0MTQsLTYwODI2NjUwOC
+wtMTQ4NTg1NzAyNCwxNDg2MTY3MDcxLC0yMTI3MjM3MTMyLC0x
+OTA2OTY0NjQwLDE4MzE3NzM1ODUsLTE4NTYzMzQwMjYsOTU4Nz
+Q3Mzk1LDI2ODAwNzQzMSwtMTgwMTA4OTgzNCw3NzM0NDk2OSwy
+MDE1MDM4ODczXX0=
 -->
