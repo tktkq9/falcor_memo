@@ -32,7 +32,7 @@ ProgramKernelsに対してこちらはslangシェーダー寄りのクラス
 そのためslangヘッダーを用いたSlangに関するSession作成やらProfile設定やらコンパイルやらのための処理もこちらで一通り実装されている  
 で、preprocessAndCreateProgramKernels()でそのコンパイルが行われ、対応するProgramKernelsが返される  
 
-ちなみにSlangプロジェクトのサンプルでもコンパイルしたりその作成されたものを取得したりする部分はProgramという構造体でカプセル化されているので、多分そこからこのクラス名になったのだと思われる  
+ちなみに[Slangプロジェクトのサンプル](https://github.com/shader-slang/slang/tree/master/examples/model-viewer)でもコンパイルしたりその作成されたものを取得したりする部分はProgramという構造体でカプセル化されているので、多分そこからこのクラス名になったのだと思われる  
 
 TODO : Programのslang処理の理解  
 
@@ -47,5 +47,5 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 こいつら全員Programファイルに吸収された方がいいと思う  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTAxMjI3Ml19
+eyJoaXN0b3J5IjpbLTE3ODcxNjIzNjNdfQ==
 -->
