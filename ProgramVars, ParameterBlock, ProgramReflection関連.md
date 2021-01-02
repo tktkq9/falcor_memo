@@ -5,7 +5,7 @@ FalcorではシェーダーはSlangを使っており、レジスター番号や
 そのためこの変数名と番号の情報の管理し、それらをコマンドリストに自動で設定できるようにしなければいけない  
 また、変数を番号指定で変更するのはナンセンスなので、番号情報を外部から隠蔽し、構造体名や変数名の指定のみで変数変更ができるようにもしたい  
 （あとSlang特有の機能であるParameterBlockとかインターフェースとかもどうにかしたい）  
-こういった機能がこのProgramVars, ParameterBlock, ProgramReflectionとそれに関連するクラスで
+こういった機能がこのProgramVars, ParameterBlock, ProgramReflectionとそれに関連するクラスで実装されている 
 
 ## ProgramVars
 ParameterBlockのサブクラス  
@@ -230,6 +230,6 @@ DescriptorSetInfoはシェーダーに対するレジスター、スペース、
 このShaderReflectionはSlangAPIの構造体であり、ここからシェーダーのグローバル変数やエントリーポイントなどが取得できる  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5Nzg5OTIxLC0xNDA3OTA1NjA3LDExNT
+eyJoaXN0b3J5IjpbLTEwMzUxMzgxMjksLTU5Nzg5OTIxLDExNT
 kwMDAwMjIsMTkwNDQ1NjM1NF19
 -->
