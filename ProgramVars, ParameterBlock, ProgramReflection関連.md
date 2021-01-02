@@ -14,8 +14,7 @@ ParameterBlockが変数実体といった持ち回りになっている（ﾀﾌ
 
 ちなみに作られる順は  
 
- 1. List item
-
+ 1. シェーダーファイル指定でProgram（シェーダーとそのSlangAPIの処理に関するクラス）が作られる  
 
 
 
@@ -246,10 +245,10 @@ DescriptorSetInfoはシェーダーに対するレジスター、スペース、
 このShaderReflectionはSlangAPIの構造体であり、ここからシェーダーのグローバル変数やエントリーポイントなどが取得できる  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0Mjk4NTk4MCw3MDkzOTAyNTAsMjE3OD
-E0MzE4LDkxMzkwOTUxNiwxNDQyOTk5MzYsMTc0MTU5OTkwMCw4
-NzQxNTY0ODMsLTE1MTcyNzk0NCwxMjk4NTc2NTE3LC0xMDE0Mz
-E2ODQ4LC02OTUxMTQyNTgsLTEzMjYzMzEzODMsMTQzMjE0NDA0
-MCwtMTAzNTEzODEyOSwxMTU5MDAwMDIyLDE5MDQ0NTYzNTRdfQ
-==
+eyJoaXN0b3J5IjpbODAwOTg0NzY5LC05NDI5ODU5ODAsNzA5Mz
+kwMjUwLDIxNzgxNDMxOCw5MTM5MDk1MTYsMTQ0Mjk5OTM2LDE3
+NDE1OTk5MDAsODc0MTU2NDgzLC0xNTE3Mjc5NDQsMTI5ODU3Nj
+UxNywtMTAxNDMxNjg0OCwtNjk1MTE0MjU4LC0xMzI2MzMxMzgz
+LDE0MzIxNDQwNDAsLTEwMzUxMzgxMjksMTE1OTAwMDAyMiwxOT
+A0NDU2MzU0XX0=
 -->
