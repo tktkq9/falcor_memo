@@ -9,7 +9,7 @@ TODO : NVAPIの理解　GraphicsStateObject
 drawやdispatch処理さえないので、完全にサブクラス作成前提のインターフェース的な役割  
 
 
-# GraphicsState
+## GraphicsState
 RenderContextのdrawInstancedなどに渡される引数のうちの1つでパイプラインステートオブジェクトのようなもの  
 ルートシグネチャー、モデルのリソース、パイプライン、複数のビューポート、シザー、FBOなどGraphicsVars以外のものを設定、管理  
 ブレンドやデプスステンシルやカリングなどの設定管理はGraphicsStateObjectの方に押し付けている  
@@ -18,7 +18,7 @@ RenderContextのdrawInstancedなどに渡される引数のうちの1つでパ�
 
 大体は直接このクラスを通して設定するが、ProgramKernelsとRootSignatureはgetGSO()によってGraphicsVarsからもらってくる  
 
-## GraphicsStateObject
+### GraphicsStateObject
 パイプラインステートオブジェクトのラッパークラス  
 作成に必要なデータがこのクラスのDescにすべて格納され、このデータによりパイプラインステートオブジェクトがapiInit()により作成される（このコードはD3D12GraphicsStateObject.cppの方で定義されている）  
 
@@ -69,5 +69,5 @@ ProgramVarsの詳細は[ProgramVars, ParameterBlock, ProgramReflection関連](ht
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTMwNzc5NDJdfQ==
+eyJoaXN0b3J5IjpbLTEyMDU0NDQ5MzBdfQ==
 -->
