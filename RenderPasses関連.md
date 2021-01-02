@@ -25,7 +25,7 @@ RenderContextのdrawInstancedなどに渡される引数のうちの1つでパ�
 ちなみにapiInit()中に作成されているnvApi...はNVAPI用の処理  
 TODO: NVAPIの理解  
 
-## StateGraph
+### StateGraph
 その名の通り状態遷移図  
 汎用的に使えるが、GraphicsState、ComputeState、RtProgramといったパイプラインステートオブジェクト系でしか使われていない  
 
@@ -69,5 +69,5 @@ ProgramVarsの詳細は[ProgramVars, ParameterBlock, ProgramReflection関連](ht
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDU0NDQ5MzBdfQ==
+eyJoaXN0b3J5IjpbMTY0NzAwOTA5XX0=
 -->
