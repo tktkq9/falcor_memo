@@ -1,6 +1,6 @@
 # RenderPasses関連
 Falcorプロジェクト内のRenderPassesディレクトリに入っているクラスについてと、  
-ベースクラスBaseGraphicsPassの中身について  
+（一部は違うが）ベースクラスBaseGraphicsPassの中身について  
 
 FalcorプロジェクトじゃないほうのRenderPassesに入っている各レンダーパスプロジェクトもまたこのBaseGraphicsPassを継承している
 
@@ -75,5 +75,5 @@ ProgramVarsの詳細は[ProgramVars, ParameterBlock, ProgramReflection関連](ht
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQxMjY4MDExLC0xMDc5Nzc5Nzg5XX0=
+eyJoaXN0b3J5IjpbLTE5MTI3MjI2NCwtMTA3OTc3OTc4OV19
 -->
