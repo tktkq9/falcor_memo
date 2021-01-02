@@ -1,6 +1,6 @@
 # RenderContext関連
 コマンドリストの処理を担当するもの  
-これにGraficVarsとかGraphicsState
+これにGraphicsVars（ディスクリプターハンドル）とかGraphicsState（ぱいぷらいんすてー）とかProgramKernelsとかにある
 
 ## RenderContext.h, cpp
 TODO    D3D12RenderContextを読む  
@@ -27,7 +27,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2OTY4OTMxNiwtMTg5NjYwODM1MCwxMj
+eyJoaXN0b3J5IjpbLTIyNTYyOTgxNCwtMTg5NjYwODM1MCwxMj
 Q1ODEyNTQxLC0xOTExOTY1OTAzLDE1ODUxMDQ1NzAsLTE0NDA3
 NjU2MjUsNDI1MzQ4NDU5LC0xMzIxNjY4NTk2LDMxMzY2MDIzNS
 wtMTEwNjM2Nzc0NSwxOTk3OTc1MTQ3LC0yMTA3OTE5ODk2LC04
