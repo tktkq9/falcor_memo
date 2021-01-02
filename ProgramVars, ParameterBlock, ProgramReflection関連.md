@@ -25,6 +25,8 @@ Falcorではシェーダー言語としてSlangを使っており、レジスタ
 ShaderVarはProgramVarsから変数アクセスしようとしたときにその都度作られ、使い終わったら破棄される  
 だいたいこんな感じ  
 
+ちなみに各クラスやその変数名などはGLSL準拠になっているものが多いので[GLSL-to-HLSL reference]( https://docs.microsoft.com/ja-jp/windows/uwp/gaming/glsl-to-hlsl-reference)と比較しながら見たほうがいいかも  
+
 以下それぞれざっくり詳細  
 
 ## ProgramVars
@@ -252,11 +254,11 @@ DescriptorSetInfoはシェーダーに対するレジスター、スペース、
 このShaderReflectionはSlangAPIの構造体であり、ここからシェーダーのグローバル変数やエントリーポイントなどが取得できる  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTY4NDUxMjUsMTUyMjI0MzkwOSwtMT
-M3NjQwMzI1NSwxMjAxMjczNTA1LC01MjY0MTIxNzMsNzA5Mzkw
-MjUwLDIxNzgxNDMxOCw5MTM5MDk1MTYsMTQ0Mjk5OTM2LDE3ND
-E1OTk5MDAsODc0MTU2NDgzLC0xNTE3Mjc5NDQsMTI5ODU3NjUx
-NywtMTAxNDMxNjg0OCwtNjk1MTE0MjU4LC0xMzI2MzMxMzgzLD
-E0MzIxNDQwNDAsLTEwMzUxMzgxMjksMTE1OTAwMDAyMiwxOTA0
-NDU2MzU0XX0=
+eyJoaXN0b3J5IjpbLTE5MjA2NjUxNTksLTE1NTY4NDUxMjUsMT
+UyMjI0MzkwOSwtMTM3NjQwMzI1NSwxMjAxMjczNTA1LC01MjY0
+MTIxNzMsNzA5MzkwMjUwLDIxNzgxNDMxOCw5MTM5MDk1MTYsMT
+Q0Mjk5OTM2LDE3NDE1OTk5MDAsODc0MTU2NDgzLC0xNTE3Mjc5
+NDQsMTI5ODU3NjUxNywtMTAxNDMxNjg0OCwtNjk1MTE0MjU4LC
+0xMzI2MzMxMzgzLDE0MzIxNDQwNDAsLTEwMzUxMzgxMjksMTE1
+OTAwMDAyMl19
 -->
