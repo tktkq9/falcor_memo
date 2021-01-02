@@ -42,11 +42,11 @@ GraphicsState用のProgramクラスのサブクラス
 詳しくは[ProgramVersion, Program, Shaderファイル関連 （TODO : リンク）](https://github.com/tktkq9/falcor_memo/tree/main)  
 
 ## GraphicsVars
-TODO : 詳しく読む
-シェーダーに渡す変数、バッファーなどを管理  
+ProgramVarsのサブクラス  
+ProgramVarsと同じくシェーダーに渡す変数、バッファーなどを管理  
 RenderContextのdrawInstancedなどに渡される2つのうちの1つ  
 
-
+ProgramVarsについては以下
 
 # ProgramVars, ParameterBlock, ProgramReflection関連
 
@@ -342,7 +342,7 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDAyMDgzNSwtMjM5MzYzMTA5LC0xNz
+eyJoaXN0b3J5IjpbMTcyMDgzMTQ1MiwtMjM5MzYzMTA5LC0xNz
 k5MDc2NzUxLDE0Nzc3ODkyNjUsMTMxMzIyMDIxNywtMTU0MTMy
 NDEyMiwtOTUzMjgxNDE0LC02MDgyNjY1MDgsLTE0ODU4NTcwMj
 QsMTQ4NjE2NzA3MSwtMjEyNzIzNzEzMiwtMTkwNjk2NDY0MCwx
