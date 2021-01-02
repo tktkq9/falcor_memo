@@ -16,7 +16,7 @@ ParameterBlockのサブクラス
 これのサブクラスとしてGraphicsVarsやComputeVarsがあり、SharedPtr がParameterBlockSharedPtrとなっていることからも分かるように、変数情報などに対する外部用クラスとなっている  
 
 ParameterBlockとの違いはProgramReflectionとEntryPointGroupVars（これもまたParameterBlockのサブクラス）の配列も持つ  
-だが、cppでもほぼｒれていないことからこれはおそらく外部で必要になったとき用の変数  
+だがcppでもほぼ利用されていないことから、これはおそらく外部で必要になったとき用の変数  
 
 これのサブクラスであるGraphicsVarsやComputeVarsはProgramVarsを作るためのcreate()関数を持つProgramVarsラッパークラスみたいなものとなっている  
 ただしProgramVarsと違い特徴的なものとして、ルートシグネチャーと設定したシェーダー変数をコマンドリストに適用するapply()関数も実装されている  
@@ -236,7 +236,7 @@ DescriptorSetInfoはシェーダーに対するレジスター、スペース、
 このShaderReflectionはSlangAPIの構造体であり、ここからシェーダーのグローバル変数やエントリーポイントなどが取得できる  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTExNDI1OCwxMDk4NTMxOTgyLC0xMz
-I2MzMxMzgzLDE0MzIxNDQwNDAsLTEwMzUxMzgxMjksMTE1OTAw
-MDAyMiwxOTA0NDU2MzU0XX0=
+eyJoaXN0b3J5IjpbLTEwMTQzMTY4NDgsLTY5NTExNDI1OCwtMT
+MyNjMzMTM4MywxNDMyMTQ0MDQwLC0xMDM1MTM4MTI5LDExNTkw
+MDAwMjIsMTkwNDQ1NjM1NF19
 -->
