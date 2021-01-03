@@ -102,11 +102,12 @@ Sceneを描画するだけのパス
 使い方はSceneを渡して描画ターゲットを渡すだけ  
 
 ### Scene  
-
+ライト、カメラ、制的モデル、動的モデル、シェーダー、
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI5MDQyMjI2LC05NTg2Mzk4NzIsMTEwNz
-A4OTExLC0xMDYzMjQxMjc5LDEyMjY3MDE1NTNdfQ==
+eyJoaXN0b3J5IjpbMTIyMzUwOTQxMiwyMjkwNDIyMjYsLTk1OD
+YzOTg3MiwxMTA3MDg5MTEsLTEwNjMyNDEyNzksMTIyNjcwMTU1
+M119
 -->
