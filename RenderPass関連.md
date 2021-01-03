@@ -26,14 +26,14 @@ SrcとDstは、リソース タイプと次元が同じである必要があり�
 リゾルブはMSAAを適用したいときに必要らしい  
 MSAAはシングルサンプルリソースしか受け付けてないのでリソースがマルチサンプルの場合はこのパスをかます  
 （MSAA以外では必要にならない？）  
-参考文献 : [](https://zerogram.info/?p=1746)
+参考文献 : [# VS2015でDirectX12プログラミング](https://zerogram.info/?p=1746)とか
 
 ### 実装詳細
 渡されるRenderDataのrenderData[kSrc]->asTexture()とrenderData[kDst]->asTexture()を受け取って、RenderContextのresolveResource()に渡すだけ  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDEwNzU3OSwtMTIyMTQ2MjQzNSwxND
+eyJoaXN0b3J5IjpbLTU2MTA3MzgyMiwtMTIyMTQ2MjQzNSwxND
 U2OTQwNDY5LC0xNzk4ODgwOTIwLC0xNDgxNzcyOTgxLDEzODAz
 NTUzNDQsNDQzMTEwODc2LDE3MDU4OTQyMzYsMjM4NTI1MDAsNz
 Y4ODQ4ODM1LC0yNjcwMzgzMDksNzMwOTk4MTE2XX0=
