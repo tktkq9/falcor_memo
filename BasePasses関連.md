@@ -104,12 +104,12 @@ Sceneを描画するだけのパス
 ### Scene  
 ライト、カメラ、制的モデル、動的モデル、シェーダーとマテリアル、それらのキーイベントによる操作など、シーン全体の管理とデータ保持クラス  
 
-詳しくは[Scene関連]()にまとめる
+詳しくは[Scene関連](https://github.com/tktkq9/falcor_memo/blob/main/Scene%E9%96%A2%E9%80%A3.md)にまとめる
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTc0OTk5MSwyMjkwNDIyMjYsLTk1OD
-YzOTg3MiwxMTA3MDg5MTEsLTEwNjMyNDEyNzksMTIyNjcwMTU1
-M119
+eyJoaXN0b3J5IjpbLTI2MzMyNjY0LDIyOTA0MjIyNiwtOTU4Nj
+M5ODcyLDExMDcwODkxMSwtMTA2MzI0MTI3OSwxMjI2NzAxNTUz
+XX0=
 -->
