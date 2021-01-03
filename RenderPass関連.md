@@ -23,11 +23,11 @@ SrcとDstは、リソース タイプと次元が同じである必要があり�
 https://docs.microsoft.com/ja-jp/previous-versions/direct-x/ee419733(v=vs.85)?redirectedfrom=MSDN
 https://docs.microsoft.com/en-us/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvesubresource
 
-
+リゾルブが必要な
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDY1NjIzMywtMTQ4MTc3Mjk4MSwxMz
-gwMzU1MzQ0LDQ0MzExMDg3NiwxNzA1ODk0MjM2LDIzODUyNTAw
-LDc2ODg0ODgzNSwtMjY3MDM4MzA5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE3OTg4ODA5MjAsLTE0ODE3NzI5ODEsMT
+M4MDM1NTM0NCw0NDMxMTA4NzYsMTcwNTg5NDIzNiwyMzg1MjUw
+MCw3Njg4NDg4MzUsLTI2NzAzODMwOSw3MzA5OTgxMTZdfQ==
 -->
