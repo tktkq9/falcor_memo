@@ -4,8 +4,8 @@ TODO : Flacorプロジェクト下のSceneディレクトリにあるやつ全�
 
 ## Importer
 ファイルからインポートするときの複数のImpoterをまとめるラッパークラス  
-Impoter本体はregisterImporterによREGISTER_IMPORTER
+Impoter本体はregisterImporterによってとうREGISTER_IMPORTER
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMDQ2NTM2NSwtMTQ1ODQ2NTk3MiwtMT
-gwOTM4NDc0LC0xNTkzNDUxMDIwXX0=
+eyJoaXN0b3J5IjpbLTY0NjQxODk4LDIxMTA0NjUzNjUsLTE4MD
+kzODQ3NCwtMTU5MzQ1MTAyMF19
 -->
