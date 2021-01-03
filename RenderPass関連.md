@@ -7,6 +7,15 @@ Mogwaiで使われるパスのベースクラス関連
 様々なパスのアブストラクトクラス  
 基本的なメンバ変数と、コンストラクタで渡されたそれらをそのままメンバ変数に割り当てる実装、リソースを取得する実装のみで、残りの関数はすべてアブストラクト実装  
 
+        Render passes are expected to implement a static create() function that returns
+        a shared pointer to a new object, or throws an exception if creation failed.
+        The constructor should be private to force creation of shared pointers.
+
+        Render passes are inserted in a render graph, which is executed at runtime.
+        Each render pass declares its I/O requirements in the reflect() function,
+        and as part of the render graph compilation their compile() function is called.
+        At runtime, execute() is called each frame to generate the pass outputs.
+
 ### RednerData
 
 
@@ -35,7 +44,7 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIzODcyMTc4LDk1MDM3NDU1LC01NjEwNz
+eyJoaXN0b3J5IjpbNDQ2NzgxNTc3LDk1MDM3NDU1LC01NjEwNz
 M4MjIsLTEyMjE0NjI0MzUsMTQ1Njk0MDQ2OSwtMTc5ODg4MDky
 MCwtMTQ4MTc3Mjk4MSwxMzgwMzU1MzQ0LDQ0MzExMDg3NiwxNz
 A1ODk0MjM2LDIzODUyNTAwLDc2ODg0ODgzNSwtMjY3MDM4MzA5
