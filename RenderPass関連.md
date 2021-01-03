@@ -37,7 +37,7 @@ addInput()、addOutput()でインプット、アウトプットの名前とそ�
 また、リソースによらない設定はそれ用のセッター関数がある  
 これらを駆使して、例えば
 
-    reflector.addInput(kSrc, "Multi-sampled texture").format(mFormat).texture2D(0, 0, 0);
+    field.format(mFormat).texture2D(0, 0, 0);
 といった感じで  
 
 ## ResolvePass
@@ -57,7 +57,7 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NzQ3ODE5MywzOTIxODk5MTksLTg4NT
+eyJoaXN0b3J5IjpbLTUwNDA3NzMzOSwzOTIxODk5MTksLTg4NT
 E4Njc5MiwtMTI0MTcxMzQ2OSwxODIxNzc3MjcxLDE2ODQxNjIs
 MzUxNTkwMDAyLC0xOTMyNDQwMDk1LDI0Mjk5Nzk3MCwtOTIyOD
 I1OTg1LDk1MDM3NDU1LC01NjEwNzM4MjIsLTEyMjE0NjI0MzUs
