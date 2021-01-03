@@ -11,14 +11,15 @@ Mogwaiで使われるパスのベースクラス関連
 ## RenderPassReflection
 MogwaiUIでのパス表示設定クラス  
 
-addInput()、addOutput
+addInput()、addOutput()でインプット、アウトプットの名前を設定する  
+また、その返り値である
 
 
 ## ResolvePass
 RenderPassのサブクラス  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQzMTEwODc2LDEwODg2MDk1NCwxNzA1OD
-k0MjM2LDIzODUyNTAwLDc2ODg0ODgzNSwtMjY3MDM4MzA5LDcz
-MDk5ODExNl19
+eyJoaXN0b3J5IjpbMTM4MDM1NTM0NCw0NDMxMTA4NzYsMTcwNT
+g5NDIzNiwyMzg1MjUwMCw3Njg4NDg4MzUsLTI2NzAzODMwOSw3
+MzA5OTgxMTZdfQ==
 -->
