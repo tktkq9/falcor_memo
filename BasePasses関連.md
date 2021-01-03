@@ -79,7 +79,7 @@ ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可
 ## FullScreenPass
 画面に自動で四角形を描画し、ピクセルシェーダーのみを扱う場合のパス  
 
-ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可能
+ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可能  
 
 頂点シェーダー（とviewportMaskの立っているビットの数だけレンダーターゲットを作成するためのジオメトリシェーダー）とその頂点バッファーなどの作成と設定はFullScreenPassのコンストラクタで自動で行われる  
 複数回呼ばれるのを想定して、頂点バッファーはgFullScreenDataによって再利用されている  
@@ -90,9 +90,12 @@ ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可
 
 
 ## RasterPass
+モデルのdraw、drawIndexedするだけのシンプルなパス  
+
+ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可能  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODYzOTg3MiwxMTA3MDg5MTEsLTEwNj
-MyNDEyNzksMTIyNjcwMTU1M119
+eyJoaXN0b3J5IjpbMjEwNDA1NDMyNywtOTU4NjM5ODcyLDExMD
+cwODkxMSwtMTA2MzI0MTI3OSwxMjI2NzAxNTUzXX0=
 -->
