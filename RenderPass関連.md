@@ -5,7 +5,7 @@ Mogwaiで使われるパスのベースクラス関連
 
 ## RenderPass
 様々なパスのアブストラクトクラス  
-基本的なメンバ変数と、
+基本的なメンバ変数と、こんすとら
 
 
 ### RednerData
@@ -36,9 +36,9 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjUwMzg4NDMsLTQ5Mjg4MDA0OCwtNT
-YxMDczODIyLC0xMjIxNDYyNDM1LDE0NTY5NDA0NjksLTE3OTg4
-ODA5MjAsLTE0ODE3NzI5ODEsMTM4MDM1NTM0NCw0NDMxMTA4Nz
-YsMTcwNTg5NDIzNiwyMzg1MjUwMCw3Njg4NDg4MzUsLTI2NzAz
-ODMwOSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbOTUwMzc0NTUsLTEwNjUwMzg4NDMsLTU2MT
+A3MzgyMiwtMTIyMTQ2MjQzNSwxNDU2OTQwNDY5LC0xNzk4ODgw
+OTIwLC0xNDgxNzcyOTgxLDEzODAzNTUzNDQsNDQzMTEwODc2LD
+E3MDU4OTQyMzYsMjM4NTI1MDAsNzY4ODQ4ODM1LC0yNjcwMzgz
+MDksNzMwOTk4MTE2XX0=
 -->
