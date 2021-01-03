@@ -91,7 +91,7 @@ ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可
 
 ## RasterPass
 モデルのdraw、drawIndexedするだけのシンプルなパス  
-モデルの設定などはgetState()によってState
+モデルの設定などはgetState()によってGraphicsStateに直接設定するなど、メンバ変数を直接いじる必要がある  
 
 ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可能  
 
@@ -101,6 +101,6 @@ Sceneを描画するだけのパス
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNTU2NjY3NiwtOTU4NjM5ODcyLDExMD
-cwODkxMSwtMTA2MzI0MTI3OSwxMjI2NzAxNTUzXX0=
+eyJoaXN0b3J5IjpbLTEwMDM4MDc5MjAsLTk1ODYzOTg3MiwxMT
+A3MDg5MTEsLTEwNjMyNDEyNzksMTIyNjcwMTU1M119
 -->
