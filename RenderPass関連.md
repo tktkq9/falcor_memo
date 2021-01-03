@@ -35,10 +35,10 @@ addInput()、addOutput()でインプット、アウトプットの名前とそ�
 リソースのタイプごとにある程度決まった設定をする必要があるので、それようの関数を呼んで設定する      
 たとえばTexture3DならField::texture3D()といった感じで  
 また、リソースによらない設定はそれ用のセッター関数がある  
-これらを駆使して、例えば
+これらにより、例えば
 
     field.format(mFormat).texture2D(0, 0, 0);
-といった感じで  
+といった感じで設定する  
 
 ## ResolvePass
 RenderPassのサブクラス  
@@ -57,7 +57,7 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNDA3NzMzOSwzOTIxODk5MTksLTg4NT
+eyJoaXN0b3J5IjpbMTc1MTk0Njg5OSwzOTIxODk5MTksLTg4NT
 E4Njc5MiwtMTI0MTcxMzQ2OSwxODIxNzc3MjcxLDE2ODQxNjIs
 MzUxNTkwMDAyLC0xOTMyNDQwMDk1LDI0Mjk5Nzk3MCwtOTIyOD
 I1OTg1LDk1MDM3NDU1LC01NjEwNzM4MjIsLTEyMjE0NjI0MzUs
