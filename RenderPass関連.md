@@ -8,13 +8,10 @@ Mogwaiで使われるパスのベースクラス関連
 基本的なメンバ変数と、コンストラクタで渡されたそれらをそのままメンバ変数に割り当てる実装、リソースを取得する実装のみで、残りの関数はすべてアブストラクト実装  
 サブクラス作成の注意点は以下の通り  
 
-        Render passes are expected to implement a static create() function that returns
-        a shared pointer to a new object, or throws an exception if creation failed.
-        The constructor should be private to force creation of shared pointers.
+Render passes are expected to implement a static create() function that returns a shared pointer to a new object, or throws an exception if creation failed. The constructor should be private to force creation of shared pointers.
 
-        Render passes are inserted in a render graph, which is executed at runtime.
-        Each render pass declares its I/O requirements in the reflect() function,
-        and as part of the render graph compilation their compile() function is called.
+
+Render passes are inserted in a render graph, which is executed at runtime. Each render pass declares its I/O requirements in the reflect() function, and as part of the render graph compilation their compile() function is called.
         At runtime, execute() is called each frame to generate the pass outputs.
 
 ### RednerData
@@ -45,7 +42,7 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwOTM3ODU4NCwtOTIyODI1OTg1LDk1MD
+eyJoaXN0b3J5IjpbMTQxODkyMTg2OCwtOTIyODI1OTg1LDk1MD
 M3NDU1LC01NjEwNzM4MjIsLTEyMjE0NjI0MzUsMTQ1Njk0MDQ2
 OSwtMTc5ODg4MDkyMCwtMTQ4MTc3Mjk4MSwxMzgwMzU1MzQ0LD
 Q0MzExMDg3NiwxNzA1ODk0MjM2LDIzODUyNTAwLDc2ODg0ODgz
