@@ -1,8 +1,10 @@
 # RenderPass関連
 
 Mogwaiで使われるPassのベースクラス関連  
-（）RenderPassesディレクトリ内にあるプロジェクトでこのサブクラスが作られている  
+（Falcorプロジェクト内ではないほうの）RenderPassesディレクトリ内にあるプロジェクトでこのサブクラスが作られている  
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM4NTI1MDAsMTk0NzgyODc1NSw3Njg4ND
+eyJoaXN0b3J5IjpbMTE0MzczMzgyNSwyMzg1MjUwMCw3Njg4ND
 g4MzUsLTI2NzAzODMwOSw3MzA5OTgxMTZdfQ==
 -->
