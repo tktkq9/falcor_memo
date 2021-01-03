@@ -81,12 +81,11 @@ ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可
 ## ComputePass
 コンピュートシェーダー処理用のパス  
 これはコンピュートなので、BaseGraphicsPassのサブクラスではない  
-ComputeContextと仕様スレッド数を指定して実行される  
 
 ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可能  
 
-
+BaseGraphicsPassとは違い、ComputeContext
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcxNzMxNDcwLDExMDcwODkxMSwtMTA2Mz
+eyJoaXN0b3J5IjpbLTY5ODUyMTk5LDExMDcwODkxMSwtMTA2Mz
 I0MTI3OSwxMjI2NzAxNTUzXX0=
 -->
