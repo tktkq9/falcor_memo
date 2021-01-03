@@ -102,12 +102,14 @@ Sceneを描画するだけのパス
 使い方はSceneを渡して描画ターゲットを渡すだけ  
 
 ### Scene  
-ライト、カメラ、制的モデル、動的モデル、シェーダー、
+ライト、カメラ、制的モデル、動的モデル、シェーダーとマテリアル、それらのキーイベントによる操作など、シーン全体の管理とデータ保持クラス  
+
+詳しくは[Scene関連]()にまとめる
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMzUwOTQxMiwyMjkwNDIyMjYsLTk1OD
+eyJoaXN0b3J5IjpbLTgyOTc0OTk5MSwyMjkwNDIyMjYsLTk1OD
 YzOTg3MiwxMTA3MDg5MTEsLTEwNjMyNDEyNzksMTIyNjcwMTU1
 M119
 -->
