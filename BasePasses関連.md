@@ -67,7 +67,7 @@ ProgramVarsの詳細は[ProgramVars, ParameterBlock, ProgramReflection関連](ht
 
 ## ComputePass
 コンピュートシェーダー処理用のパス  
-主にコンピュートシェーダーからパスを作成して実行する機能のみ  
+主にコンピュートシェーダーファイルなどからパスを作成して実行する機能のみ  
 
 これはコンピュートなので、BaseGraphicsPassのサブクラスではない  
 BaseGraphicsPassのGraphic系クラスの代わりに、ComputeContext、ComputeProgram、ComputeVars、ComputeStateが使われている  
@@ -93,6 +93,6 @@ ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NzczODI0NCwxMTA3MDg5MTEsLTEwNj
+eyJoaXN0b3J5IjpbMjA0NjUxMzE0MiwxMTA3MDg5MTEsLTEwNj
 MyNDEyNzksMTIyNjcwMTU1M119
 -->
