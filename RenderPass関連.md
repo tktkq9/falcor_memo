@@ -23,11 +23,14 @@ SrcとDstは、リソース タイプと次元が同じである必要があり�
 https://docs.microsoft.com/ja-jp/previous-versions/direct-x/ee419733(v=vs.85)?redirectedfrom=MSDN
 https://docs.microsoft.com/en-us/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvesubresource
 
-リゾルブが必要な
+リゾルブはMSAAを適用したいときに必要らしい  
+MSAAはシングルサンプリングしか受け付けてないのでリソースがマルチサンプリングの場合はこのパスをかます  
+（）
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTg4ODA5MjAsLTE0ODE3NzI5ODEsMT
-M4MDM1NTM0NCw0NDMxMTA4NzYsMTcwNTg5NDIzNiwyMzg1MjUw
-MCw3Njg4NDg4MzUsLTI2NzAzODMwOSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNDg4MTUwODQzLC0xNzk4ODgwOTIwLC0xND
+gxNzcyOTgxLDEzODAzNTUzNDQsNDQzMTEwODc2LDE3MDU4OTQy
+MzYsMjM4NTI1MDAsNzY4ODQ4ODM1LC0yNjcwMzgzMDksNzMwOT
+k4MTE2XX0=
 -->
