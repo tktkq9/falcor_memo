@@ -24,7 +24,7 @@ RenderPass::execute()で渡されるデータ
 ## RenderPassReflection
 MogwaiでのパスUI情報を設定、保持しておくためのクラス  
 
-addInput()、addOutput()でインプット、アウトプットの名前とその概要文を設定する  
+addInput()、addOutput()、addInputOutput()でインプット、アウトプットの名前とその概要文を設定する  
 また、その返り値であるFieldから、入出力するリソースのデータも設定できる  
 
 ### Field
@@ -57,11 +57,11 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MTk0Njg5OSwzOTIxODk5MTksLTg4NT
-E4Njc5MiwtMTI0MTcxMzQ2OSwxODIxNzc3MjcxLDE2ODQxNjIs
-MzUxNTkwMDAyLC0xOTMyNDQwMDk1LDI0Mjk5Nzk3MCwtOTIyOD
-I1OTg1LDk1MDM3NDU1LC01NjEwNzM4MjIsLTEyMjE0NjI0MzUs
-MTQ1Njk0MDQ2OSwtMTc5ODg4MDkyMCwtMTQ4MTc3Mjk4MSwxMz
-gwMzU1MzQ0LDQ0MzExMDg3NiwxNzA1ODk0MjM2LDIzODUyNTAw
-XX0=
+eyJoaXN0b3J5IjpbMTY3MDUzNTEyOSwxNzUxOTQ2ODk5LDM5Mj
+E4OTkxOSwtODg1MTg2NzkyLC0xMjQxNzEzNDY5LDE4MjE3Nzcy
+NzEsMTY4NDE2MiwzNTE1OTAwMDIsLTE5MzI0NDAwOTUsMjQyOT
+k3OTcwLC05MjI4MjU5ODUsOTUwMzc0NTUsLTU2MTA3MzgyMiwt
+MTIyMTQ2MjQzNSwxNDU2OTQwNDY5LC0xNzk4ODgwOTIwLC0xND
+gxNzcyOTgxLDEzODAzNTUzNDQsNDQzMTEwODc2LDE3MDU4OTQy
+MzZdfQ==
 -->
