@@ -11,6 +11,7 @@ TODO : NVAPIの理解　GraphicsStateObject
 
 # BaseGraphicsPass
 これ自体はGraphicsVars、GraphicsState、GraphicsProgramを生成と保持し、間接的にこれらのメンバ変数を実行するだけのクラス  
+
 （サブクラスで利用されている）ParameterBlockSharedPtrによってShaderVarにアクセスできるようgetRootVar()が実装されている  
 drawやdispatch処理さえないので、完全にサブクラス作成前提のインターフェース的な役割  
 
@@ -77,5 +78,6 @@ ProgramVarsの詳細は[ProgramVars, ParameterBlock, ProgramReflection関連](ht
 ジオメトリシェーダー（FullScreenPass.gs.slang）はviewportMaskの立っているビット分のレンダーターゲットを作成するためのもの（参考文献：[ジオメトリシェーダを使用した複数画面描画](https://sites.google.com/site/monshonosuana/directxno-hanashi-1/directx-107)、[DirectX12 でシングルパスキューブマップ描画](https://blog.techlab-xe.net/directx12-render-cubemap-singlepass/)）  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjMyNDEyNzksMTIyNjcwMTU1M119
+eyJoaXN0b3J5IjpbMTEwNzA4OTExLC0xMDYzMjQxMjc5LDEyMj
+Y3MDE1NTNdfQ==
 -->
