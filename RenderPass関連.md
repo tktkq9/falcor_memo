@@ -26,7 +26,7 @@ MogwaiでのパスUI情報を設定、保持しておくためのクラス
 
 addInput()、addOutput()、addInputOutput()でインプット、アウトプットのリソースの名前とその概要文を設定する  
 一方addInternal()は内部用リソースの設定  
-そして、その返り値であるFieldから、入出力するリソースのデータも設定できる（しなければならない）  
+そして、その返り値であるFieldから、入出力するリソース情報も設定できる（しなければならない）  
 
 RenderPassReflectionはこのFieldの作成をサポートし、作成したFiled配列の管理を行う  
 
@@ -60,11 +60,11 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzY3MTAzNzAsLTg0MjY5NjE5MCwxNz
-UxOTQ2ODk5LDM5MjE4OTkxOSwtODg1MTg2NzkyLC0xMjQxNzEz
-NDY5LDE4MjE3NzcyNzEsMTY4NDE2MiwzNTE1OTAwMDIsLTE5Mz
-I0NDAwOTUsMjQyOTk3OTcwLC05MjI4MjU5ODUsOTUwMzc0NTUs
-LTU2MTA3MzgyMiwtMTIyMTQ2MjQzNSwxNDU2OTQwNDY5LC0xNz
-k4ODgwOTIwLC0xNDgxNzcyOTgxLDEzODAzNTUzNDQsNDQzMTEw
-ODc2XX0=
+eyJoaXN0b3J5IjpbLTg1NzI2NzgyNiwtMTA3NjcxMDM3MCwtOD
+QyNjk2MTkwLDE3NTE5NDY4OTksMzkyMTg5OTE5LC04ODUxODY3
+OTIsLTEyNDE3MTM0NjksMTgyMTc3NzI3MSwxNjg0MTYyLDM1MT
+U5MDAwMiwtMTkzMjQ0MDA5NSwyNDI5OTc5NzAsLTkyMjgyNTk4
+NSw5NTAzNzQ1NSwtNTYxMDczODIyLC0xMjIxNDYyNDM1LDE0NT
+Y5NDA0NjksLTE3OTg4ODA5MjAsLTE0ODE3NzI5ODEsMTM4MDM1
+NTM0NF19
 -->
