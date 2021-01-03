@@ -63,7 +63,7 @@ RenderContextのdrawInstancedなどに渡される2つのうちの1つ
 ProgramVarsの詳細は[ProgramVars, ParameterBlock, ProgramReflection関連](https://github.com/tktkq9/falcor_memo/tree/main/ProgramVars%2C%20ParameterBlock%2C%20ProgramReflection関連.md)  
 
 
-# BaseGraphicsPassのサブクラス
+# BaseGraphicsPassのサブクラス（一部例外あり）
 
 
 ## FullScreenPass
@@ -80,12 +80,13 @@ ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可
 
 ## ComputePass
 コンピュートシェーダー処理用のパス  
+これはBaseGraphicsPassのサブクラスではない  
 ComputeContextと仕様スレッド数を指定して実行される  
 
 ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可能  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA5NDEzMDgsMTEwNzA4OTExLC0xMDYzMj
-QxMjc5LDEyMjY3MDE1NTNdfQ==
+eyJoaXN0b3J5IjpbMTYzOTQ4OTU1NSwxMTA3MDg5MTEsLTEwNj
+MyNDEyNzksMTIyNjcwMTU1M119
 -->
