@@ -25,12 +25,12 @@ https://docs.microsoft.com/en-us/windows/win32/api/d3d12/nf-d3d12-id3d12graphics
 
 リゾルブはMSAAを適用したいときに必要らしい  
 MSAAはシングルサンプリングしか受け付けてないのでリソースがマルチサンプリングの場合はこのパスをかます  
-（）
+（M）
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg4MTUwODQzLC0xNzk4ODgwOTIwLC0xND
-gxNzcyOTgxLDEzODAzNTUzNDQsNDQzMTEwODc2LDE3MDU4OTQy
-MzYsMjM4NTI1MDAsNzY4ODQ4ODM1LC0yNjcwMzgzMDksNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE1NjE4NjExMDgsNDg4MTUwODQzLC0xNz
+k4ODgwOTIwLC0xNDgxNzcyOTgxLDEzODAzNTUzNDQsNDQzMTEw
+ODc2LDE3MDU4OTQyMzYsMjM4NTI1MDAsNzY4ODQ4ODM1LC0yNj
+cwMzgzMDksNzMwOTk4MTE2XX0=
 -->
