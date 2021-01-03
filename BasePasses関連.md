@@ -84,8 +84,8 @@ ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可
 
 ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可能  
 
-BaseGraphicsPassとは違い、ComputeContext
+BaseGraphicsPassとは違い、ComputeContext、ComputeProgram、ComputeVars、ComputeStateが
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODUyMTk5LDExMDcwODkxMSwtMTA2Mz
-I0MTI3OSwxMjI2NzAxNTUzXX0=
+eyJoaXN0b3J5IjpbLTk3NjY0NDkwMiwxMTA3MDg5MTEsLTEwNj
+MyNDEyNzksMTIyNjcwMTU1M119
 -->
