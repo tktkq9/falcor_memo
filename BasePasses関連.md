@@ -65,12 +65,11 @@ ProgramVarsの詳細は[ProgramVars, ParameterBlock, ProgramReflection関連](ht
 
 # BaseGraphicsPassのサブクラス
 
-## ComputePass
-
 
 ## FullScreenPass
 画面に自動で四角形を描画し、ピクセルシェーダーのみを扱う場合のパス  
 
+ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可能
 
 頂点シェーダー（とviewportMaskの立っているビットの数だけレンダーターゲットを作成するためのジオメトリシェーダー）とその頂点バッファーなどの作成と設定はFullScreenPassのコンストラクタで自動で行われる  
 複数回呼ばれるのを想定して、頂点バッファーはgFullScreenDataによって再利用されている  
@@ -79,7 +78,10 @@ ProgramVarsの詳細は[ProgramVars, ParameterBlock, ProgramReflection関連](ht
 頂点シェーダー（FullScreenPass.vs.slang）は頂点とuvをそのまま流すだけ  
 ジオメトリシェーダー（FullScreenPass.gs.slang）はviewportMaskの立っているビット分のレンダーターゲットを作成するためのもの（参考文献：[ジオメトリシェーダを使用した複数画面描画](https://sites.google.com/site/monshonosuana/directxno-hanashi-1/directx-107)、[DirectX12 でシングルパスキューブマップ描画](https://blog.techlab-xe.net/directx12-render-cubemap-singlepass/)）  
 
+## ComputePass
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI3Mjg4ODYsMTEwNzA4OTExLC0xMDYzMj
-QxMjc5LDEyMjY3MDE1NTNdfQ==
+eyJoaXN0b3J5IjpbLTIwODU5MjA1NDIsMTEwNzA4OTExLC0xMD
+YzMjQxMjc5LDEyMjY3MDE1NTNdfQ==
 -->
