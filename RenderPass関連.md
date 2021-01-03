@@ -8,9 +8,17 @@ Mogwaiで使われるパスのベースクラス関連
 ### RednerData
 
 
+## RenderPassReflection
+MogwaiUIでのパス表示設定クラス  
+
+addInput()、
+
+
 ## ResolvePass
+RenderPassのサブクラス  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MjI5MTIyNywxMzcwMzcwMTM2LDE3MD
-U4OTQyMzYsMjM4NTI1MDAsNzY4ODQ4ODM1LC0yNjcwMzgzMDks
-NzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTA4ODYwOTU0LDE1OTIyOTEyMjcsMTcwNT
+g5NDIzNiwyMzg1MjUwMCw3Njg4NDg4MzUsLTI2NzAzODMwOSw3
+MzA5OTgxMTZdfQ==
 -->
