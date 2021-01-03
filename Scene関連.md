@@ -24,7 +24,11 @@ Falcorに最初から入っているシーンや[ORCA](https://developer.nvidia.
 ### SceneImporter
 pysceneファイル用インポーター  
 
+pysceneもまたFalcorのオリジナル  
+使い方は[Python Scene Files](https://github.com/NVIDIAGameWorks/Falcor/blob/4.2-release/Docs/Usage/Scene-Formats.md#python-scene-files)  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDQ0NTYyOSwtODM2NjIzNTM0LC02ND
-Y0MTg5OCwtMTgwOTM4NDc0LC0xNTkzNDUxMDIwXX0=
+eyJoaXN0b3J5IjpbNTUwOTcwMTU1LDEzMTQ0NDU2MjksLTgzNj
+YyMzUzNCwtNjQ2NDE4OTgsLTE4MDkzODQ3NCwtMTU5MzQ1MTAy
+MF19
 -->
