@@ -9,9 +9,10 @@ Impoter本体はregisterImporter()関数によって登録され、この関数�
 現状登録されているImpoterはAssimpImporter、PythonImporter、SceneImporter  
 
 ### AssimpImporter
-[Assimp]()というAPIによるモデルファイルインポートクラス  
+[assimp](https://github.com/assimp/assimp)というAPIによるモデルファイルインポートクラス  
+使い方は[assimpのサイト](https://assimp-docs.readthedocs.io/en/latest/)や
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYwNjI3MzA3LC02NDY0MTg5OCwtMTgwOT
-M4NDc0LC0xNTkzNDUxMDIwXX0=
+eyJoaXN0b3J5IjpbMTI4NDY1ODQxNywtNjQ2NDE4OTgsLTE4MD
+kzODQ3NCwtMTU5MzQ1MTAyMF19
 -->
