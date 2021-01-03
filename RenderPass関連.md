@@ -27,12 +27,13 @@ https://docs.microsoft.com/en-us/windows/win32/api/d3d12/nf-d3d12-id3d12graphics
 MSAAはシングルサンプルリソースしか受け付けてないのでリソースがマルチサンプルの場合はこのパスをかます  
 （MSAA以外では必要にならない？）  
 
-実装は渡されるRenderDataの
+### 実装詳細
+渡されるRenderDataのrenderData[kSrc]->asTexture()とrenderData[kDst]->asTexture()を受け取って、RenderContextのresolveResource()に渡すだけ  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyMjY3NTMxLDE0NTY5NDA0NjksLTE3OT
-g4ODA5MjAsLTE0ODE3NzI5ODEsMTM4MDM1NTM0NCw0NDMxMTA4
-NzYsMTcwNTg5NDIzNiwyMzg1MjUwMCw3Njg4NDg4MzUsLTI2Nz
-AzODMwOSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEyMjE0NjI0MzUsMTQ1Njk0MDQ2OSwtMT
+c5ODg4MDkyMCwtMTQ4MTc3Mjk4MSwxMzgwMzU1MzQ0LDQ0MzEx
+MDg3NiwxNzA1ODk0MjM2LDIzODUyNTAwLDc2ODg0ODgzNSwtMj
+Y3MDM4MzA5LDczMDk5ODExNl19
 -->
