@@ -10,9 +10,9 @@ Impoter本体はregisterImporter()関数によって登録され、この関数�
 
 ### AssimpImporter
 [assimp](https://github.com/assimp/assimp)というAPIによるモデルファイルインポートクラス  
-使い方は[assimpのサイト](https://assimp-docs.readthedocs.io/en/latest/)や
+使い方は[assimpのサイト](https://assimp-docs.readthedocs.io/en/latest/)とか[]()とか[OpenGLによる実装例](http://ogldev.atspace.co.uk/www/tutorial38/tutorial38.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NDY1ODQxNywtNjQ2NDE4OTgsLTE4MD
-kzODQ3NCwtMTU5MzQ1MTAyMF19
+eyJoaXN0b3J5IjpbODEzNjA4NjQ0LC02NDY0MTg5OCwtMTgwOT
+M4NDc0LC0xNTkzNDUxMDIwXX0=
 -->
