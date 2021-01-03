@@ -28,7 +28,9 @@ addInput()、addOutput()でインプット、アウトプットの名前とそ�
 また、その返り値であるFieldから、入出力するリソースのデータも設定できる  
 
 ### Field
+パスのインプット、アウトプット、内部で使われるリソース情報  
 
+リソース本体は格納せず  
 
 ## ResolvePass
 RenderPassのサブクラス  
@@ -47,11 +49,11 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTE4Njc5MiwtMTI0MTcxMzQ2OSwxOD
-IxNzc3MjcxLDE2ODQxNjIsMzUxNTkwMDAyLC0xOTMyNDQwMDk1
-LDI0Mjk5Nzk3MCwtOTIyODI1OTg1LDk1MDM3NDU1LC01NjEwNz
-M4MjIsLTEyMjE0NjI0MzUsMTQ1Njk0MDQ2OSwtMTc5ODg4MDky
-MCwtMTQ4MTc3Mjk4MSwxMzgwMzU1MzQ0LDQ0MzExMDg3NiwxNz
-A1ODk0MjM2LDIzODUyNTAwLDc2ODg0ODgzNSwtMjY3MDM4MzA5
+eyJoaXN0b3J5IjpbMTMzMTI1ODI2MCwtODg1MTg2NzkyLC0xMj
+QxNzEzNDY5LDE4MjE3NzcyNzEsMTY4NDE2MiwzNTE1OTAwMDIs
+LTE5MzI0NDAwOTUsMjQyOTk3OTcwLC05MjI4MjU5ODUsOTUwMz
+c0NTUsLTU2MTA3MzgyMiwtMTIyMTQ2MjQzNSwxNDU2OTQwNDY5
+LC0xNzk4ODgwOTIwLC0xNDgxNzcyOTgxLDEzODAzNTUzNDQsND
+QzMTEwODc2LDE3MDU4OTQyMzYsMjM4NTI1MDAsNzY4ODQ4ODM1
 XX0=
 -->
