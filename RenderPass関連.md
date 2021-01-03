@@ -18,7 +18,8 @@ TODO : まだどんなデータかわからん
 
 ### RednerData
 RenderPass::execute()で渡されるデータ  
-ｇ
+グローバルなリソースや変数を管理する  
+あと、RenderPassReflectionで指定されてないときのデフォルトな設定とか  
 
 ## RenderPassReflection
 MogwaiでのパスUI情報を設定、保持しておくためのクラス  
@@ -45,7 +46,7 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMTc3NzI3MSwtMTgxNTc2NjM4MCwxNj
+eyJoaXN0b3J5IjpbLTEyNDE3MTM0NjksMTgyMTc3NzI3MSwxNj
 g0MTYyLDM1MTU5MDAwMiwtMTkzMjQ0MDA5NSwyNDI5OTc5NzAs
 LTkyMjgyNTk4NSw5NTAzNzQ1NSwtNTYxMDczODIyLC0xMjIxND
 YyNDM1LDE0NTY5NDA0NjksLTE3OTg4ODA5MjAsLTE0ODE3NzI5
