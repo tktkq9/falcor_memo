@@ -24,15 +24,15 @@ https://docs.microsoft.com/ja-jp/previous-versions/direct-x/ee419733(v=vs.85)?re
 https://docs.microsoft.com/en-us/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvesubresource
 
 リゾルブはMSAAを適用したいときに必要らしい  
-MSAAはシングルサンプリングしか受け付けてないのでリソースがマルチサンプリングの場合はこのパスをかます  
+MSAAはシングルサンプルリソースしか受け付けてないのでリソースがマルチサンプルの場合はこのパスをかます  
 （MSAA以外では必要にならない？）  
 
-ｊ
+実装は渡されるRenderDataの
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1Njk0MDQ2OSwxNDE3NzE2MzMzLC0xNz
-k4ODgwOTIwLC0xNDgxNzcyOTgxLDEzODAzNTUzNDQsNDQzMTEw
-ODc2LDE3MDU4OTQyMzYsMjM4NTI1MDAsNzY4ODQ4ODM1LC0yNj
-cwMzgzMDksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbOTkyMjY3NTMxLDE0NTY5NDA0NjksLTE3OT
+g4ODA5MjAsLTE0ODE3NzI5ODEsMTM4MDM1NTM0NCw0NDMxMTA4
+NzYsMTcwNTg5NDIzNiwyMzg1MjUwMCw3Njg4NDg4MzUsLTI2Nz
+AzODMwOSw3MzA5OTgxMTZdfQ==
 -->
