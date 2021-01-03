@@ -10,7 +10,6 @@ Mogwaiで使われるパスのベースクラス関連
 
 Render passes are expected to implement a static create() function that returns a shared pointer to a new object, or throws an exception if creation failed. The constructor should be private to force creation of shared pointers.
 
-
 Render passes are inserted in a render graph, which is executed at runtime. Each render pass declares its I/O requirements in the reflect() function, and as part of the render graph compilation their compile() function is called. At runtime, execute() is called each frame to generate the pass outputs.
 
 ### RednerData
@@ -41,9 +40,9 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTAyMDA1MTIsLTkyMjgyNTk4NSw5NT
-AzNzQ1NSwtNTYxMDczODIyLC0xMjIxNDYyNDM1LDE0NTY5NDA0
-NjksLTE3OTg4ODA5MjAsLTE0ODE3NzI5ODEsMTM4MDM1NTM0NC
-w0NDMxMTA4NzYsMTcwNTg5NDIzNiwyMzg1MjUwMCw3Njg4NDg4
-MzUsLTI2NzAzODMwOSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMjQyOTk3OTcwLC05MjI4MjU5ODUsOTUwMz
+c0NTUsLTU2MTA3MzgyMiwtMTIyMTQ2MjQzNSwxNDU2OTQwNDY5
+LC0xNzk4ODgwOTIwLC0xNDgxNzcyOTgxLDEzODAzNTUzNDQsND
+QzMTEwODc2LDE3MDU4OTQyMzYsMjM4NTI1MDAsNzY4ODQ4ODM1
+LC0yNjcwMzgzMDksNzMwOTk4MTE2XX0=
 -->
