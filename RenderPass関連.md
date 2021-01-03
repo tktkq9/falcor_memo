@@ -32,8 +32,10 @@ addInput()、addOutput()でインプット、アウトプットの名前とそ�
 リソース一つにつき1Field  
 リソース本体は格納せず  
 
-リソースのタイプごとにある程度決まった設定をしてくれる関数があり、それで設定する    
+リソースのタイプごとにある程度決まった設定をする必要があるので、それようの関数を呼んで設定する      
 たとえばTexture3DならField::texture3D()といった感じで  
+
+
 
 ## ResolvePass
 RenderPassのサブクラス  
@@ -52,11 +54,11 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTczMTkyNzEsLTg4NTE4Njc5MiwtMT
-I0MTcxMzQ2OSwxODIxNzc3MjcxLDE2ODQxNjIsMzUxNTkwMDAy
-LC0xOTMyNDQwMDk1LDI0Mjk5Nzk3MCwtOTIyODI1OTg1LDk1MD
-M3NDU1LC01NjEwNzM4MjIsLTEyMjE0NjI0MzUsMTQ1Njk0MDQ2
-OSwtMTc5ODg4MDkyMCwtMTQ4MTc3Mjk4MSwxMzgwMzU1MzQ0LD
-Q0MzExMDg3NiwxNzA1ODk0MjM2LDIzODUyNTAwLDc2ODg0ODgz
-NV19
+eyJoaXN0b3J5IjpbOTIxMjc0MzUxLC04ODUxODY3OTIsLTEyND
+E3MTM0NjksMTgyMTc3NzI3MSwxNjg0MTYyLDM1MTU5MDAwMiwt
+MTkzMjQ0MDA5NSwyNDI5OTc5NzAsLTkyMjgyNTk4NSw5NTAzNz
+Q1NSwtNTYxMDczODIyLC0xMjIxNDYyNDM1LDE0NTY5NDA0Njks
+LTE3OTg4ODA5MjAsLTE0ODE3NzI5ODEsMTM4MDM1NTM0NCw0ND
+MxMTA4NzYsMTcwNTg5NDIzNiwyMzg1MjUwMCw3Njg4NDg4MzVd
+fQ==
 -->
