@@ -8,9 +8,9 @@ Mogwaiで使われるパスのベースクラス関連
 ### RednerData
 
 
-##
+## ResolvePass
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MDM3MDEzNiwxNzA1ODk0MjM2LDIzOD
-UyNTAwLDc2ODg0ODgzNSwtMjY3MDM4MzA5LDczMDk5ODExNl19
-
+eyJoaXN0b3J5IjpbMTU5MjI5MTIyNywxMzcwMzcwMTM2LDE3MD
+U4OTQyMzYsMjM4NTI1MDAsNzY4ODQ4ODM1LC0yNjcwMzgzMDks
+NzMwOTk4MTE2XX0=
 -->
