@@ -16,7 +16,9 @@ Impoter本体はregisterImporter()関数によって登録され、この関数�
 使い方は[assimpサイトのドキュメント](https://assimp-docs.readthedocs.io/en/latest/)とか[OpenGL学習サイトのAssimpページ](https://learnopengl.com/Model-Loading/Assimp)とか[OpenGLによる実装例](http://ogldev.atspace.co.uk/www/tutorial38/tutorial38.html)とか  
 
 ### SceneImporter
+fsceneファイル用インポーター  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDY3ODg4MjQsLTY0NjQxODk4LC0xOD
-A5Mzg0NzQsLTE1OTM0NTEwMjBdfQ==
+eyJoaXN0b3J5IjpbLTgzNjYyMzUzNCwtNjQ2NDE4OTgsLTE4MD
+kzODQ3NCwtMTU5MzQ1MTAyMF19
 -->
