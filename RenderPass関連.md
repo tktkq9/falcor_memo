@@ -1,7 +1,8 @@
 # RenderPass関連
 
-aa
+Mogwaiで使われるPassのベースクラス関連  
+RenderPassesディレクトリ内にあるプロジェクトでこのサブクラスが作られている  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIxNzU3MDI3LDc2ODg0ODgzNSwtMjY3MD
-M4MzA5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTk0NzgyODc1NSw3Njg4NDg4MzUsLTI2Nz
+AzODMwOSw3MzA5OTgxMTZdfQ==
 -->
