@@ -1,6 +1,8 @@
 # Scene関連
 
 TODO : Flacorプロジェクト下のSceneディレクトリにあるやつ全部読む  
+Falcorドキュメントでもざっくりまとめられている  
+[### [Index](https://github.com/NVIDIAGameWorks/Falcor/blob/4.2-release/Docs/index.md)  |  [Usage](https://github.com/NVIDIAGameWorks/Falcor/blob/4.2-release/Docs/Usage/index.md)  | Scenes](https://github.com/NVIDIAGameWorks/Falcor/blob/4.2-release/Docs/Usage/Scenes.md)
 
 ## Importer
 ファイルからインポートするときの複数のImpoterをまとめるラッパークラス  
@@ -29,7 +31,7 @@ pysceneもまたFalcorのオリジナル
 使い方は[Python Scene Files](https://github.com/NVIDIAGameWorks/Falcor/blob/4.2-release/Docs/Usage/Scene-Formats.md#python-scene-files)  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODM2MDQ4OTMsMTMxNDQ0NTYyOSwtOD
-M2NjIzNTM0LC02NDY0MTg5OCwtMTgwOTM4NDc0LC0xNTkzNDUx
-MDIwXX0=
+eyJoaXN0b3J5IjpbLTY0NjY4NTI5NCwtMjA4MzYwNDg5MywxMz
+E0NDQ1NjI5LC04MzY2MjM1MzQsLTY0NjQxODk4LC0xODA5Mzg0
+NzQsLTE1OTM0NTEwMjBdfQ==
 -->
