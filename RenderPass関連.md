@@ -6,7 +6,7 @@ Mogwaiで使われるパスのベースクラス関連
 ## RenderPass
 様々なパスのアブストラクトクラス  
 基本的なメンバ変数と、コンストラクタで渡されたそれらをそのままメンバ変数に割り当てる実装、リソースを取得する実装のみで、残りの関数はすべてアブストラクト実装  
-ko
+サブクラス作成の注意点は以下の通り  
 
         Render passes are expected to implement a static create() function that returns
         a shared pointer to a new object, or throws an exception if creation failed.
@@ -45,9 +45,9 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMjgyNTk4NSw0NDY3ODE1NzcsOTUwMz
-c0NTUsLTU2MTA3MzgyMiwtMTIyMTQ2MjQzNSwxNDU2OTQwNDY5
-LC0xNzk4ODgwOTIwLC0xNDgxNzcyOTgxLDEzODAzNTUzNDQsND
-QzMTEwODc2LDE3MDU4OTQyMzYsMjM4NTI1MDAsNzY4ODQ4ODM1
-LC0yNjcwMzgzMDksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTgwOTM3ODU4NCwtOTIyODI1OTg1LDk1MD
+M3NDU1LC01NjEwNzM4MjIsLTEyMjE0NjI0MzUsMTQ1Njk0MDQ2
+OSwtMTc5ODg4MDkyMCwtMTQ4MTc3Mjk4MSwxMzgwMzU1MzQ0LD
+Q0MzExMDg3NiwxNzA1ODk0MjM2LDIzODUyNTAwLDc2ODg0ODgz
+NSwtMjY3MDM4MzA5LDczMDk5ODExNl19
 -->
