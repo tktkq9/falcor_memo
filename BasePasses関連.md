@@ -95,8 +95,11 @@ ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可
 ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可能  
 
 ## RasterScenePass
+Sceneを描画するだけのパス  
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2ODA3ODEzLC05NTg2Mzk4NzIsMTEwNz
+eyJoaXN0b3J5IjpbMTE3MjEyMjE2LC05NTg2Mzk4NzIsMTEwNz
 A4OTExLC0xMDYzMjQxMjc5LDEyMjY3MDE1NTNdfQ==
 -->
