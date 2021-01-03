@@ -65,6 +65,16 @@ ProgramVarsの詳細は[ProgramVars, ParameterBlock, ProgramReflection関連](ht
 
 # BaseGraphicsPassのサブクラス（一部例外あり）
 
+## ComputePass
+コンピュートシェーダー処理用のパス  
+主にコンピュートシェーダーからパスを作成して実行する機能のみ  
+
+これはコンピュートなので、BaseGraphicsPassのサブクラスではない  
+BaseGraphicsPassのGraphic系クラスの代わりに、ComputeContext、ComputeProgram、ComputeVars、ComputeStateが使われている  
+
+ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可能  
+
+
 
 ## FullScreenPass
 画面に自動で四角形を描画し、ピクセルシェーダーのみを扱う場合のパス  
@@ -78,17 +88,8 @@ ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可
 頂点シェーダー（FullScreenPass.vs.slang）は頂点とuvをそのまま流すだけ  
 ジオメトリシェーダー（FullScreenPass.gs.slang）はviewportMaskの立っているビット分のレンダーターゲットを作成するためのもの（参考文献：[ジオメトリシェーダを使用した複数画面描画](https://sites.google.com/site/monshonosuana/directxno-hanashi-1/directx-107)、[DirectX12 でシングルパスキューブマップ描画](https://blog.techlab-xe.net/directx12-render-cubemap-singlepass/)）  
 
-## ComputePass
-コンピュートシェーダー処理用のパス  
-主にコンピュートシェーダーからパスを作成して実行する機能のみ  
-
-これはコンピュートなので、BaseGraphicsPassのサブクラスではない  
-BaseGraphicsPassのGraphic系クラスの代わりに、ComputeContext、ComputeProgram、ComputeVars、ComputeStateが使われている  
-
-ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可能  
-
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwODk3MTk3NiwxMTA3MDg5MTEsLTEwNj
-MyNDEyNzksMTIyNjcwMTU1M119
+eyJoaXN0b3J5IjpbLTE1Mjk0NTk4MzgsMTEwNzA4OTExLC0xMD
+YzMjQxMjc5LDEyMjY3MDE1NTNdfQ==
 -->
