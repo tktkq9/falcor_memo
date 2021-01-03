@@ -17,11 +17,14 @@ Impoter本体はregisterImporter()関数によって登録され、この関数�
 
 ### SceneImporter
 fsceneファイル用インポーター  
-fscene = Falcor scene  
-Falcorに最初から入っているシーンや[ORCA](https://developer.nvidia.com/orca)に入っている  
 
+fscene = Falcor scene  
+Falcorに最初から入っているシーンや[ORCA](https://developer.nvidia.com/orca)で使われている  
+
+### SceneImporter
+pysceneファイル用インポーター  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMDc4MzU5NywtODM2NjIzNTM0LC02ND
+eyJoaXN0b3J5IjpbMTMxNDQ0NTYyOSwtODM2NjIzNTM0LC02ND
 Y0MTg5OCwtMTgwOTM4NDc0LC0xNTkzNDUxMDIwXX0=
 -->
