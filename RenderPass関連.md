@@ -13,9 +13,11 @@ Render passes are expected to implement a static create() function that returns 
 Render passes are inserted in a render graph, which is executed at runtime. Each render pass declares its I/O requirements in the reflect() function, and as part of the render graph compilation their compile() function is called. At runtime, execute() is called each frame to generate the pass outputs.
 
 ### CompileData
-
+Mogwai初期化時に渡されるもの  
+TODO : まだどんなデータかわからん
 
 ### RednerData
+RenderPass::execute()で渡されるデータ  
 
 
 ## RenderPassReflection
@@ -43,10 +45,10 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUxNTkwMDAyLC0xOTMyNDQwMDk1LDI0Mj
-k5Nzk3MCwtOTIyODI1OTg1LDk1MDM3NDU1LC01NjEwNzM4MjIs
-LTEyMjE0NjI0MzUsMTQ1Njk0MDQ2OSwtMTc5ODg4MDkyMCwtMT
-Q4MTc3Mjk4MSwxMzgwMzU1MzQ0LDQ0MzExMDg3NiwxNzA1ODk0
-MjM2LDIzODUyNTAwLDc2ODg0ODgzNSwtMjY3MDM4MzA5LDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTE0OTI1MTEyODgsMzUxNTkwMDAyLC0xOT
+MyNDQwMDk1LDI0Mjk5Nzk3MCwtOTIyODI1OTg1LDk1MDM3NDU1
+LC01NjEwNzM4MjIsLTEyMjE0NjI0MzUsMTQ1Njk0MDQ2OSwtMT
+c5ODg4MDkyMCwtMTQ4MTc3Mjk4MSwxMzgwMzU1MzQ0LDQ0MzEx
+MDg3NiwxNzA1ODk0MjM2LDIzODUyNTAwLDc2ODg0ODgzNSwtMj
+Y3MDM4MzA5LDczMDk5ODExNl19
 -->
