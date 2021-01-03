@@ -83,10 +83,12 @@ ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可
 これはコンピュートなので、BaseGraphicsPassのサブクラスではない  
 BaseGraphicsPassのGraphic系クラスの代わりに、ComputeContext、ComputeProgram、ComputeVars、ComputeStateが使われている  
 
+おも
+
 ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可能  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQ0OTU5NTAsMTEwNzA4OTExLC0xMD
-YzMjQxMjc5LDEyMjY3MDE1NTNdfQ==
+eyJoaXN0b3J5IjpbLTg1MzEzMTU3MCwxMTA3MDg5MTEsLTEwNj
+MyNDEyNzksMTIyNjcwMTU1M119
 -->
