@@ -97,12 +97,16 @@ ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可
 
 ## RasterScenePass
 Sceneを描画するだけのパス  
-モデルやシェーダーやそういう系の設定やキーイベントなどはSceneとこのPassが自動で行うようになっているので  
+
+モデルやシェーダーやそういう系の設定やキーイベントなどはSceneとこのPassが自動で行うようになっているので、  
+使い方はSceneを渡して描画ターゲットを渡すだけ  
+
+### Scene  
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NDgyNjM3MCwtOTU4NjM5ODcyLDExMD
-cwODkxMSwtMTA2MzI0MTI3OSwxMjI2NzAxNTUzXX0=
+eyJoaXN0b3J5IjpbMjI5MDQyMjI2LC05NTg2Mzk4NzIsMTEwNz
+A4OTExLC0xMDYzMjQxMjc5LDEyMjY3MDE1NTNdfQ==
 -->
