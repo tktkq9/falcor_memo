@@ -80,11 +80,12 @@ ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可
 
 ## ComputePass
 コンピュートシェーダー処理用のパス  
+ComputeContextと仕様スレッド数を指定して実行される  
 
 ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可能  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcwNzM1NTM5LDExMDcwODkxMSwtMTA2Mz
-I0MTI3OSwxMjI2NzAxNTUzXX0=
+eyJoaXN0b3J5IjpbNzA5NDEzMDgsMTEwNzA4OTExLC0xMDYzMj
+QxMjc5LDEyMjY3MDE1NTNdfQ==
 -->
