@@ -9,17 +9,18 @@ Mogwaiで使われるパスのベースクラス関連
 
 
 ## RenderPassReflection
-MogwaiUIでのパス表示設定クラス  
+MogwaiでのパスUI情報を設定、保持しておくためのクラス  
 
-addInput()、addOutput()でインプット、アウトプットの名前を設定する  
-また、その返り値である
+addInput()、addOutput()でインプット、アウトプットの名前とその概要文を設定する  
+また、その返り値であるFieldから、入出力するリソースのデータも設定できる  
+
 
 
 ## ResolvePass
 RenderPassのサブクラス  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MDM1NTM0NCw0NDMxMTA4NzYsMTcwNT
-g5NDIzNiwyMzg1MjUwMCw3Njg4NDg4MzUsLTI2NzAzODMwOSw3
-MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE0ODE3NzI5ODEsMTM4MDM1NTM0NCw0ND
+MxMTA4NzYsMTcwNTg5NDIzNiwyMzg1MjUwMCw3Njg4NDg4MzUs
+LTI2NzAzODMwOSw3MzA5OTgxMTZdfQ==
 -->
