@@ -89,10 +89,10 @@ ParameterBlockSharedPtrにより、シェーダーへの変数名アクセス可
 ジオメトリシェーダー（FullScreenPass.gs.slang）はviewportMaskの立っているビット分のレンダーターゲットを作成するためのもの（参考文献：[ジオメトリシェーダを使用した複数画面描画](https://sites.google.com/site/monshonosuana/directxno-hanashi-1/directx-107)、[DirectX12 でシングルパスキューブマップ描画](https://blog.techlab-xe.net/directx12-render-cubemap-singlepass/)）  
 
 
-## ComputePass
+## RasterPass
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NjUxMzE0MiwxMTA3MDg5MTEsLTEwNj
+eyJoaXN0b3J5IjpbLTk1ODYzOTg3MiwxMTA3MDg5MTEsLTEwNj
 MyNDEyNzksMTIyNjcwMTU1M119
 -->
