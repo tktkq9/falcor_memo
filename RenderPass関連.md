@@ -49,7 +49,10 @@ ChannelListからDefineもらうのと
 ChannelListによってパスのインプットアウトプット作るやつ ## ResourceCache  
 Fieldに対するリソース本体の作成、格納用クラス 最初にResourceDataにFieldとリソース以外の情報を更新または作成しmResourceDataとmNameToIndex  
 にその情報を入れ、  
-allocateResources()でmResourceDataのリソースを一気に作成する # RenderGraphのUIじゃない方周り## RenderGraph  
+allocateResources()でmResourceDataのリソースを一気に作成する
+
+ # RenderGraphのUIじゃない方周り## RenderGraph  
+
 レンダーパスグラフのクラス  
 グラフ上のパスとエッジを管理する  
 またそれぞれのパスのコンパイルや様々なパス処理の大元もここである コンパイルはRenderGraphCompiler、  
@@ -81,11 +84,11 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTc5OTY5NzcsLTg1NzI2NzgyNiwtMT
-A3NjcxMDM3MCwtODQyNjk2MTkwLDE3NTE5NDY4OTksMzkyMTg5
-OTE5LC04ODUxODY3OTIsLTEyNDE3MTM0NjksMTgyMTc3NzI3MS
-wxNjg0MTYyLDM1MTU5MDAwMiwtMTkzMjQ0MDA5NSwyNDI5OTc5
-NzAsLTkyMjgyNTk4NSw5NTAzNzQ1NSwtNTYxMDczODIyLC0xMj
-IxNDYyNDM1LDE0NTY5NDA0NjksLTE3OTg4ODA5MjAsLTE0ODE3
-NzI5ODFdfQ==
+eyJoaXN0b3J5IjpbLTc5NzcwNTM1LC04NTcyNjc4MjYsLTEwNz
+Y3MTAzNzAsLTg0MjY5NjE5MCwxNzUxOTQ2ODk5LDM5MjE4OTkx
+OSwtODg1MTg2NzkyLC0xMjQxNzEzNDY5LDE4MjE3NzcyNzEsMT
+Y4NDE2MiwzNTE1OTAwMDIsLTE5MzI0NDAwOTUsMjQyOTk3OTcw
+LC05MjI4MjU5ODUsOTUwMzc0NTUsLTU2MTA3MzgyMiwtMTIyMT
+Q2MjQzNSwxNDU2OTQwNDY5LC0xNzk4ODgwOTIwLC0xNDgxNzcy
+OTgxXX0=
 -->
