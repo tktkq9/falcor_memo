@@ -113,7 +113,7 @@ UI表示そのものについてはRenderGraphUIクラス内で宣言されて�
 RenderGraphNodeがRenderPass一つあたりの表示情報と処理、  
 NodeGraphEditorGuiがそれらを表示しているベースUIに対応する  
 
-RenderGraphUI自体はそのUIの操作部分を担当している  
+RenderGraphUI自体はそのUIの操作とそれによる情報の更新を担当している  
 
 ### RenderPassUI
 RenderPass用のUIクラス  
@@ -158,7 +158,7 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyOTU4OTkxNCwxNTI3OTgwNDgsLTE4OD
+eyJoaXN0b3J5IjpbMTAxMzk4NjIwNywxNTI3OTgwNDgsLTE4OD
 czMTIxNjgsLTYyNTIwNTc4NiwtMTc4MTUzMDg3NSwxMTQ3ODk5
 MDYzLDQ0NDQ4OTA3Miw4ODc5NDUzNCwtNzAyOTk3MDc1LDY2Mj
 E2NDU3MSwxNjc5NzgzMyw2MDI0NTU4MjgsODAxNzcwNjI5LC0x
