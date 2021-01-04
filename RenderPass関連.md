@@ -43,8 +43,29 @@ RenderPassReflectionはこのFieldの作成をサポートし、作成したFile
     field.format(mFormat).texture2D(0, 0, 0);
 といった感じで設定する  
 
+## RenderPassHelpers  
+細々とした関数  
+ChannelListからDefineもらうのと  
+ChannelListによってパスのインプットアウトプット作るやつ ## ResourceCache  
+Fieldに対するリソース本体の作成、格納用クラス 最初にResourceDataにFieldとリソース以外の情報を更新または作成しmResourceDataとmNameToIndex  
+にその情報を入れ、  
+allocateResources()でmResourceDataのリソースを一気に作成する # RenderGraphのUIじゃない方周り## RenderGraph  
+レンダーパスグラフのクラス  
+グラフ上のパスとエッジを管理する  
+またそれぞれのパスのコンパイルや様々なパス処理の大元もここである コンパイルはRenderGraphCompiler、  
+それぞれのパス処理はRenderGraphExeが担当しており、  
+これらを通してコンパイル、パス処理が行われる ## RenderGraphCompiler  
+RenderGraphExeを作成するためのクラス RenderGraph側で mpExe = RenderGraphCompiler::compile(*this, pContext, mCompilerDeps);によってRenderGraphExeが作成されている  
+また、その時に渡したmCompilerDepsからデフォルトリソース設定情報や外部リソースの情報が格納される この関数内で行われているcompilePasses(pContext)によってRenderPassのcompile()とreflect()が呼ばれ、各パスが作成される  
+またResourcesCacheのリソースもallocateResources()によりここで作成される ## RenderGraphExe  
+RenderGraphに設定した全てのRenderPassの実行を担当する（compileとreflect以外全て）mExecutionListの順序で各パスの処理が行われる  
+このmExecutionListはRenderGraphCompilerによってRenderGraphから作成される ## RenderPassLibrary  
+全てのRederPassの情報を格納し、そこから作成するためのクラス  
+シングルトンであり、instance()を通して呼び出される createPass()によってこの関数に指定したパスを作成し返す # RenderGraphのUI周り## RenderGraphImportExport  
+RenderGraphのセーブデータ読み込み書き込み
+
 ## ResolvePass
-RenderPassのサブクラス  
+唯一Falcorプロジェクト内で実装されているRenderPassのサブクラス  
 SrcをDstにResolveするためのPass  
 SrcとDstは、リソース タイプと次元が同じである必要があり、コピー元とコピー先のフォーマットには互換性が必要  
 [ID3D11DeviceContext::ResolveSubresource 日本語](https://docs.microsoft.com/ja-jp/previous-versions/direct-x/ee419733(v=vs.85))
@@ -60,11 +81,11 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NzI2NzgyNiwtMTA3NjcxMDM3MCwtOD
-QyNjk2MTkwLDE3NTE5NDY4OTksMzkyMTg5OTE5LC04ODUxODY3
-OTIsLTEyNDE3MTM0NjksMTgyMTc3NzI3MSwxNjg0MTYyLDM1MT
-U5MDAwMiwtMTkzMjQ0MDA5NSwyNDI5OTc5NzAsLTkyMjgyNTk4
-NSw5NTAzNzQ1NSwtNTYxMDczODIyLC0xMjIxNDYyNDM1LDE0NT
-Y5NDA0NjksLTE3OTg4ODA5MjAsLTE0ODE3NzI5ODEsMTM4MDM1
-NTM0NF19
+eyJoaXN0b3J5IjpbLTEzMTc5OTY5NzcsLTg1NzI2NzgyNiwtMT
+A3NjcxMDM3MCwtODQyNjk2MTkwLDE3NTE5NDY4OTksMzkyMTg5
+OTE5LC04ODUxODY3OTIsLTEyNDE3MTM0NjksMTgyMTc3NzI3MS
+wxNjg0MTYyLDM1MTU5MDAwMiwtMTkzMjQ0MDA5NSwyNDI5OTc5
+NzAsLTkyMjgyNTk4NSw5NTAzNzQ1NSwtNTYxMDczODIyLC0xMj
+IxNDYyNDM1LDE0NTY5NDA0NjksLTE3OTg4ODA5MjAsLTE0ODE3
+NzI5ODFdfQ==
 -->
