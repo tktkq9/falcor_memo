@@ -48,23 +48,30 @@ RenderPassReflectionはこのFieldの作成をサポートし、作成したFile
 ## RenderPassHelpers  
 細々とした関数  
 ChannelListからDefineもらうのと  
-ChannelListによってパスのインプットアウトプット作るやつ ## ResourceCache  
-Fieldに対するリソース本体の作成、格納用クラス 最初にResourceDataにFieldとリソース以外の情報を更新または作成しmResourceDataとmNameToIndex  
+ChannelListによってパスのインプットアウトプット作るやつ  
+
+## ResourceCache  
+Fieldに対するリソース本体の作成、格納用クラス  
+最初にResourceDataにFieldとリソース以外の情報を更新または作成しmResourceDataとmNameToIndex  
 にその情報を入れ、  
 allocateResources()でmResourceDataのリソースを一気に作成する
 
 # RenderGraphのUIじゃない方周り
 
 ## RenderGraph  
-
 レンダーパスグラフのクラス  
-グラフ上のパスとエッジを管理する  
+グラフ上のパスとエッジを管理する 
+ 
 またそれぞれのパスのコンパイルや様々なパス処理の大元もここである コンパイルはRenderGraphCompiler、  
 それぞれのパス処理はRenderGraphExeが担当しており、  
-これらを通してコンパイル、パス処理が行われる ## RenderGraphCompiler  
+これらを通してコンパイル、パス処理が行われる 
+
+## RenderGraphCompiler  
 RenderGraphExeを作成するためのクラス RenderGraph側で mpExe = RenderGraphCompiler::compile(*this, pContext, mCompilerDeps);によってRenderGraphExeが作成されている  
 また、その時に渡したmCompilerDepsからデフォルトリソース設定情報や外部リソースの情報が格納される この関数内で行われているcompilePasses(pContext)によってRenderPassのcompile()とreflect()が呼ばれ、各パスが作成される  
-またResourcesCacheのリソースもallocateResources()によりここで作成される ## RenderGraphExe  
+またResourcesCacheのリソースもallocateResources()によりここで作成される 
+
+## RenderGraphExe  
 RenderGraphに設定した全てのRenderPassの実行を担当する（compileとreflect以外全て）mExecutionListの順序で各パスの処理が行われる  
 このmExecutionListはRenderGraphCompilerによってRenderGraphから作成される ## RenderPassLibrary  
 全てのRederPassの情報を格納し、そこから作成するためのクラス  
@@ -88,7 +95,7 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM1MDM0NzQwLC04NTcyNjc4MjYsLTEwNz
+eyJoaXN0b3J5IjpbMTU3MTAwODAwLC04NTcyNjc4MjYsLTEwNz
 Y3MTAzNzAsLTg0MjY5NjE5MCwxNzUxOTQ2ODk5LDM5MjE4OTkx
 OSwtODg1MTg2NzkyLC0xMjQxNzEzNDY5LDE4MjE3NzcyNzEsMT
 Y4NDE2MiwzNTE1OTAwMDIsLTE5MzI0NDAwOTUsMjQyOTk3OTcw
