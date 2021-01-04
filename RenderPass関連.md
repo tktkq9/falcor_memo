@@ -115,7 +115,9 @@ RenderGraphUIでのパスの追加や削除や更新などに利用される
 実行コードを使えるようにするためにRenderGraphの方で RenderGraphの関数とRenderGraphIR側で定義した名前とのpybind11処理をしている  
 
 ## RenderGraphImportExport  
-RenderGraphとそのRenderGraphIRのセーブデータ読み込み書き込み
+RenderGraphの状態をRenderGraphIRによってセーブデータ読み込み書き込み  
+
+
 
 
 # その他
@@ -137,11 +139,11 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAxNzcwNjI5LC0xNTE3NDYwODA0LDc3Nz
-c5NjcyOSwtMTkyMzk5NjI1MSwxNTQ2NDg5MzQ3LDE4MjQzMzA4
-Nyw4MDQ1Mzk0MTAsNzQ1MTAwNDIyLDg0MDI4Mzg4NiwxOTc3ND
-U4MjUzLC04NTcyNjc4MjYsLTEwNzY3MTAzNzAsLTg0MjY5NjE5
-MCwxNzUxOTQ2ODk5LDM5MjE4OTkxOSwtODg1MTg2NzkyLC0xMj
-QxNzEzNDY5LDE4MjE3NzcyNzEsMTY4NDE2MiwzNTE1OTAwMDJd
-fQ==
+eyJoaXN0b3J5IjpbLTIwODcxOTIwMTEsODAxNzcwNjI5LC0xNT
+E3NDYwODA0LDc3Nzc5NjcyOSwtMTkyMzk5NjI1MSwxNTQ2NDg5
+MzQ3LDE4MjQzMzA4Nyw4MDQ1Mzk0MTAsNzQ1MTAwNDIyLDg0MD
+I4Mzg4NiwxOTc3NDU4MjUzLC04NTcyNjc4MjYsLTEwNzY3MTAz
+NzAsLTg0MjY5NjE5MCwxNzUxOTQ2ODk5LDM5MjE4OTkxOSwtOD
+g1MTg2NzkyLC0xMjQxNzEzNDY5LDE4MjE3NzcyNzEsMTY4NDE2
+Ml19
 -->
