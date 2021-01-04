@@ -47,11 +47,13 @@ RenderPassReflectionはこのFieldの作成をサポートし、作成したFile
 
 ## RenderPassHelpers  
 細々とした関数  
+
 ChannelListからDefineもらうのと  
 ChannelListによってパスのインプットアウトプット作るやつ  
 
 ## ResourceCache  
 Fieldに対するリソース本体の作成、格納用クラス  
+
 最初にResourceDataにFieldとリソース以外の情報を更新または作成しmResourceDataとmNameToIndex  
 にその情報を入れ、  
 allocateResources()でmResourceDataのリソースを一気に作成する
@@ -95,11 +97,11 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MTAwODAwLC04NTcyNjc4MjYsLTEwNz
-Y3MTAzNzAsLTg0MjY5NjE5MCwxNzUxOTQ2ODk5LDM5MjE4OTkx
-OSwtODg1MTg2NzkyLC0xMjQxNzEzNDY5LDE4MjE3NzcyNzEsMT
-Y4NDE2MiwzNTE1OTAwMDIsLTE5MzI0NDAwOTUsMjQyOTk3OTcw
-LC05MjI4MjU5ODUsOTUwMzc0NTUsLTU2MTA3MzgyMiwtMTIyMT
-Q2MjQzNSwxNDU2OTQwNDY5LC0xNzk4ODgwOTIwLC0xNDgxNzcy
-OTgxXX0=
+eyJoaXN0b3J5IjpbLTc4MDk3NDA1MiwtODU3MjY3ODI2LC0xMD
+c2NzEwMzcwLC04NDI2OTYxOTAsMTc1MTk0Njg5OSwzOTIxODk5
+MTksLTg4NTE4Njc5MiwtMTI0MTcxMzQ2OSwxODIxNzc3MjcxLD
+E2ODQxNjIsMzUxNTkwMDAyLC0xOTMyNDQwMDk1LDI0Mjk5Nzk3
+MCwtOTIyODI1OTg1LDk1MDM3NDU1LC01NjEwNzM4MjIsLTEyMj
+E0NjI0MzUsMTQ1Njk0MDQ2OSwtMTc5ODg4MDkyMCwtMTQ4MTc3
+Mjk4MV19
 -->
