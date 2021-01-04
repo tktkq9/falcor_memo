@@ -1,4 +1,5 @@
 # RenderPass、RenderGraph関連
+TODO : RenderGraph周りはざっくりとしか読んでないのでいずれちゃんと読む  
 
 Mogwaiで使われるパスのベースクラス関連  
 （Falcorプロジェクト内ではないほうの）RenderPassesディレクトリ内にあるプロジェクトでこのサブクラスが作られている  
@@ -118,7 +119,7 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDAwNTM2MCwtODU3MjY3ODI2LC0xMD
+eyJoaXN0b3J5IjpbMTk3NzQ1ODI1MywtODU3MjY3ODI2LC0xMD
 c2NzEwMzcwLC04NDI2OTYxOTAsMTc1MTk0Njg5OSwzOTIxODk5
 MTksLTg4NTE4Njc5MiwtMTI0MTcxMzQ2OSwxODIxNzc3MjcxLD
 E2ODQxNjIsMzUxNTkwMDAyLC0xOTMyNDQwMDk1LDI0Mjk5Nzk3
