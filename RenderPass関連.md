@@ -59,8 +59,9 @@ Fieldに対するリソース本体の作成、格納用クラス
 allocateResources()でmResourceDataのリソースを一気に作成する  
 
 # RenderGraphのUIじゃない方周り
-これを使ってRenderPassの集まりを処理する  
-MogwaiのEditで表示されるパスとそれが線でつながっているやつ全体
+MogwaiのGraphEditerで表示されるパスとそれが線でつながっているやつ全体に関するやつら  
+
+これを使ってRenderPassの集まりを処理し、描画を行う  
 
 ## RenderGraph  
 レンダーパスグラフのクラス  
@@ -126,11 +127,11 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjQ2NjUwLDgwNDUzOTQxMCw3NDUxMD
-A0MjIsODQwMjgzODg2LDE5Nzc0NTgyNTMsLTg1NzI2NzgyNiwt
-MTA3NjcxMDM3MCwtODQyNjk2MTkwLDE3NTE5NDY4OTksMzkyMT
-g5OTE5LC04ODUxODY3OTIsLTEyNDE3MTM0NjksMTgyMTc3NzI3
-MSwxNjg0MTYyLDM1MTU5MDAwMiwtMTkzMjQ0MDA5NSwyNDI5OT
-c5NzAsLTkyMjgyNTk4NSw5NTAzNzQ1NSwtNTYxMDczODIyXX0=
-
+eyJoaXN0b3J5IjpbLTEwODYwMzM3OTcsODA0NTM5NDEwLDc0NT
+EwMDQyMiw4NDAyODM4ODYsMTk3NzQ1ODI1MywtODU3MjY3ODI2
+LC0xMDc2NzEwMzcwLC04NDI2OTYxOTAsMTc1MTk0Njg5OSwzOT
+IxODk5MTksLTg4NTE4Njc5MiwtMTI0MTcxMzQ2OSwxODIxNzc3
+MjcxLDE2ODQxNjIsMzUxNTkwMDAyLC0xOTMyNDQwMDk1LDI0Mj
+k5Nzk3MCwtOTIyODI1OTg1LDk1MDM3NDU1LC01NjEwNzM4MjJd
+fQ==
 -->
