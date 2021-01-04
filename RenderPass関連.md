@@ -3,6 +3,8 @@
 Mogwaiで使われるパスのベースクラス関連  
 （Falcorプロジェクト内ではないほうの）RenderPassesディレクトリ内にあるプロジェクトでこのサブクラスが作られている  
 
+# RenderPass周り
+
 ## RenderPass
 様々なパスのアブストラクトクラス  
 基本的なメンバ変数と、コンストラクタで渡されたそれらをそのままメンバ変数に割り当てる実装のみで、残りの関数はすべてアブストラクト実装  
@@ -86,11 +88,11 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE1NzAxMjg3LC04NTcyNjc4MjYsLTEwNz
-Y3MTAzNzAsLTg0MjY5NjE5MCwxNzUxOTQ2ODk5LDM5MjE4OTkx
-OSwtODg1MTg2NzkyLC0xMjQxNzEzNDY5LDE4MjE3NzcyNzEsMT
-Y4NDE2MiwzNTE1OTAwMDIsLTE5MzI0NDAwOTUsMjQyOTk3OTcw
-LC05MjI4MjU5ODUsOTUwMzc0NTUsLTU2MTA3MzgyMiwtMTIyMT
-Q2MjQzNSwxNDU2OTQwNDY5LC0xNzk4ODgwOTIwLC0xNDgxNzcy
-OTgxXX0=
+eyJoaXN0b3J5IjpbLTE0OTMxMDc4MTEsLTg1NzI2NzgyNiwtMT
+A3NjcxMDM3MCwtODQyNjk2MTkwLDE3NTE5NDY4OTksMzkyMTg5
+OTE5LC04ODUxODY3OTIsLTEyNDE3MTM0NjksMTgyMTc3NzI3MS
+wxNjg0MTYyLDM1MTU5MDAwMiwtMTkzMjQ0MDA5NSwyNDI5OTc5
+NzAsLTkyMjgyNTk4NSw5NTAzNzQ1NSwtNTYxMDczODIyLC0xMj
+IxNDYyNDM1LDE0NTY5NDA0NjksLTE3OTg4ODA5MjAsLTE0ODE3
+NzI5ODFdfQ==
 -->
