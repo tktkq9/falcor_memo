@@ -99,14 +99,15 @@ createPass()によってこの関数に指定したパスを作成し返す
 
 # RenderGraphのUI周り
 imguiでMogwaiのRenderGraghを表示する
-RenderGraphUIが（imguiによる）UI表示、RenderGraphの管理、描画実行などほぼ全てを行う  
+RenderGraphUIがRenderGraphの（imguiによる）UI表示、操作、グラフの作り替えなどほぼすべてを担当する  
 
 RenderGraphIRはRenderGraphUIのUI操作でpythonコードを生成する際のpythonコード変換ヘルパークラス  
 RenderGraphImportExportはそのpythonコードのセーブとロードを担当する  
 
 ## RenderGraphUI
-（imguiによる）UI表示、RenderGraphの管理、描画実行など、  
-RenderGraphIRとRenderGraphImportExport以外のすべてｗ
+RenderGraphの（imguiによる）UI表示、操作、グラフの作り替えなど  
+
+
 
 ### RenderPassUI
 RenderPass用のUIクラス  
@@ -151,11 +152,11 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0Nzg5OTA2MywtMTYwNzgxNTAzNCw0ND
-Q0ODkwNzIsODg3OTQ1MzQsLTcwMjk5NzA3NSw2NjIxNjQ1NzEs
-MTY3OTc4MzMsNjAyNDU1ODI4LDgwMTc3MDYyOSwtMTUxNzQ2MD
-gwNCw3Nzc3OTY3MjksLTE5MjM5OTYyNTEsMTU0NjQ4OTM0Nywx
-ODI0MzMwODcsODA0NTM5NDEwLDc0NTEwMDQyMiw4NDAyODM4OD
-YsMTk3NzQ1ODI1MywtODU3MjY3ODI2LC0xMDc2NzEwMzcwXX0=
+eyJoaXN0b3J5IjpbMjEyMzg1OTY5OCwxMTQ3ODk5MDYzLDQ0ND
+Q4OTA3Miw4ODc5NDUzNCwtNzAyOTk3MDc1LDY2MjE2NDU3MSwx
+Njc5NzgzMyw2MDI0NTU4MjgsODAxNzcwNjI5LC0xNTE3NDYwOD
+A0LDc3Nzc5NjcyOSwtMTkyMzk5NjI1MSwxNTQ2NDg5MzQ3LDE4
+MjQzMzA4Nyw4MDQ1Mzk0MTAsNzQ1MTAwNDIyLDg0MDI4Mzg4Ni
+wxOTc3NDU4MjUzLC04NTcyNjc4MjYsLTEwNzY3MTAzNzBdfQ==
 
 -->
