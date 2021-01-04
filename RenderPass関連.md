@@ -99,7 +99,7 @@ createPass()によってこの関数に指定したパスを作成し返す
 
 # RenderGraphのUI周り
 
-## RenderPassUI
+## RenderGraphUI
 
 ### RenderPassUI
 RenderPass用のUIクラス  
@@ -142,7 +142,7 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjA3NTQwODMsLTcwMjk5NzA3NSw2Nj
+eyJoaXN0b3J5IjpbLTE2OTA1Nzk0OTAsLTcwMjk5NzA3NSw2Nj
 IxNjQ1NzEsMTY3OTc4MzMsNjAyNDU1ODI4LDgwMTc3MDYyOSwt
 MTUxNzQ2MDgwNCw3Nzc3OTY3MjksLTE5MjM5OTYyNTEsMTU0Nj
 Q4OTM0NywxODI0MzMwODcsODA0NTM5NDEwLDc0NTEwMDQyMiw4
