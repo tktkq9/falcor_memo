@@ -102,7 +102,7 @@ createPass()によってこの関数に指定したパスを作成し返す
 ## RenderPassUI
 
 ## RenderGraphIR
-中間表現（intermediate representation）
+中間表現（intermediate representation）  
 
 
 ## RenderGraphImportExport  
@@ -128,11 +128,11 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2ODQ3NzI1MSwxODI0MzMwODcsODA0NT
-M5NDEwLDc0NTEwMDQyMiw4NDAyODM4ODYsMTk3NzQ1ODI1Mywt
-ODU3MjY3ODI2LC0xMDc2NzEwMzcwLC04NDI2OTYxOTAsMTc1MT
-k0Njg5OSwzOTIxODk5MTksLTg4NTE4Njc5MiwtMTI0MTcxMzQ2
-OSwxODIxNzc3MjcxLDE2ODQxNjIsMzUxNTkwMDAyLC0xOTMyND
-QwMDk1LDI0Mjk5Nzk3MCwtOTIyODI1OTg1LDk1MDM3NDU1XX0=
-
+eyJoaXN0b3J5IjpbMTU0NjQ4OTM0NywxOTY4NDc3MjUxLDE4Mj
+QzMzA4Nyw4MDQ1Mzk0MTAsNzQ1MTAwNDIyLDg0MDI4Mzg4Niwx
+OTc3NDU4MjUzLC04NTcyNjc4MjYsLTEwNzY3MTAzNzAsLTg0Mj
+Y5NjE5MCwxNzUxOTQ2ODk5LDM5MjE4OTkxOSwtODg1MTg2Nzky
+LC0xMjQxNzEzNDY5LDE4MjE3NzcyNzEsMTY4NDE2MiwzNTE1OT
+AwMDIsLTE5MzI0NDAwOTUsMjQyOTk3OTcwLC05MjI4MjU5ODVd
+fQ==
 -->
