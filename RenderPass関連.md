@@ -111,6 +111,8 @@ RenderGraphUIでのパスの追加や削除や更新などに利用される
 作ったコードはgetIR()して実行コードstringを取得し、セーブしたり
 そのstringを加工してScriptingクラスによって実行したりしている  
 
+実行コードを使えるようにするためにRenderGraphの方で SCRIPT_BINDING(RenderGraph){}とRenderGraphIR側でｔによってpybind11している  
+
 ## RenderGraphImportExport  
 RenderGraphとそのRenderGraphIRのセーブデータ読み込み書き込み
 
@@ -134,7 +136,7 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA5MTY5NzU5LDc3Nzc5NjcyOSwtMTkyMz
+eyJoaXN0b3J5IjpbODE1MDIyMDY2LDc3Nzc5NjcyOSwtMTkyMz
 k5NjI1MSwxNTQ2NDg5MzQ3LDE4MjQzMzA4Nyw4MDQ1Mzk0MTAs
 NzQ1MTAwNDIyLDg0MDI4Mzg4NiwxOTc3NDU4MjUzLC04NTcyNj
 c4MjYsLTEwNzY3MTAzNzAsLTg0MjY5NjE5MCwxNzUxOTQ2ODk5
