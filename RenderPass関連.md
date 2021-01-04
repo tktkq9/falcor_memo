@@ -103,10 +103,11 @@ createPass()によってこの関数に指定したパスを作成し返す
 
 ## RenderGraphIR
 中間表現（intermediate representation）  
-python用コード作成のヘルパークラス  
+pythonコード作成のヘルパークラス  
 
 RenderGraphImportExport用のセーブデータ作成や、  
-
+RenderGraphUIでのパスの追加や削除や更新などに利用される  
+ひととお作ったコードは
 
 ## RenderGraphImportExport  
 RenderGraphとそのRenderGraphIRのセーブデータ読み込み書き込み
@@ -131,11 +132,11 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjM5OTYyNTEsMTU0NjQ4OTM0NywxOD
-I0MzMwODcsODA0NTM5NDEwLDc0NTEwMDQyMiw4NDAyODM4ODYs
-MTk3NzQ1ODI1MywtODU3MjY3ODI2LC0xMDc2NzEwMzcwLC04ND
-I2OTYxOTAsMTc1MTk0Njg5OSwzOTIxODk5MTksLTg4NTE4Njc5
-MiwtMTI0MTcxMzQ2OSwxODIxNzc3MjcxLDE2ODQxNjIsMzUxNT
-kwMDAyLC0xOTMyNDQwMDk1LDI0Mjk5Nzk3MCwtOTIyODI1OTg1
+eyJoaXN0b3J5IjpbLTk5NzQyMDM1OSwtMTkyMzk5NjI1MSwxNT
+Q2NDg5MzQ3LDE4MjQzMzA4Nyw4MDQ1Mzk0MTAsNzQ1MTAwNDIy
+LDg0MDI4Mzg4NiwxOTc3NDU4MjUzLC04NTcyNjc4MjYsLTEwNz
+Y3MTAzNzAsLTg0MjY5NjE5MCwxNzUxOTQ2ODk5LDM5MjE4OTkx
+OSwtODg1MTg2NzkyLC0xMjQxNzEzNDY5LDE4MjE3NzcyNzEsMT
+Y4NDE2MiwzNTE1OTAwMDIsLTE5MzI0NDAwOTUsMjQyOTk3OTcw
 XX0=
 -->
