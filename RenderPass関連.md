@@ -102,7 +102,8 @@ createPass()によってこの関数に指定したパスを作成し返す
 ## RenderPassUI
 
 ## RenderGraphIR
-情報検索 (information retrieval)
+中間表現（intermediate representation）
+
 
 ## RenderGraphImportExport  
 RenderGraphとそのRenderGraphIRのセーブデータ読み込み書き込み
@@ -127,11 +128,11 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNDMzMDg3LDgwNDUzOTQxMCw3NDUxMD
-A0MjIsODQwMjgzODg2LDE5Nzc0NTgyNTMsLTg1NzI2NzgyNiwt
-MTA3NjcxMDM3MCwtODQyNjk2MTkwLDE3NTE5NDY4OTksMzkyMT
-g5OTE5LC04ODUxODY3OTIsLTEyNDE3MTM0NjksMTgyMTc3NzI3
-MSwxNjg0MTYyLDM1MTU5MDAwMiwtMTkzMjQ0MDA5NSwyNDI5OT
-c5NzAsLTkyMjgyNTk4NSw5NTAzNzQ1NSwtNTYxMDczODIyXX0=
+eyJoaXN0b3J5IjpbMTk2ODQ3NzI1MSwxODI0MzMwODcsODA0NT
+M5NDEwLDc0NTEwMDQyMiw4NDAyODM4ODYsMTk3NzQ1ODI1Mywt
+ODU3MjY3ODI2LC0xMDc2NzEwMzcwLC04NDI2OTYxOTAsMTc1MT
+k0Njg5OSwzOTIxODk5MTksLTg4NTE4Njc5MiwtMTI0MTcxMzQ2
+OSwxODIxNzc3MjcxLDE2ODQxNjIsMzUxNTkwMDAyLC0xOTMyND
+QwMDk1LDI0Mjk5Nzk3MCwtOTIyODI1OTg1LDk1MDM3NDU1XX0=
 
 -->
