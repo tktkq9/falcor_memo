@@ -51,7 +51,9 @@ Fieldに対するリソース本体の作成、格納用クラス 最初にResou
 にその情報を入れ、  
 allocateResources()でmResourceDataのリソースを一気に作成する
 
- # RenderGraphのUIじゃない方周り## RenderGraph  
+# RenderGraphのUIじゃない方周り
+
+## RenderGraph  
 
 レンダーパスグラフのクラス  
 グラフ上のパスとエッジを管理する  
@@ -84,7 +86,7 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NzcwNTM1LC04NTcyNjc4MjYsLTEwNz
+eyJoaXN0b3J5IjpbNDE1NzAxMjg3LC04NTcyNjc4MjYsLTEwNz
 Y3MTAzNzAsLTg0MjY5NjE5MCwxNzUxOTQ2ODk5LDM5MjE4OTkx
 OSwtODg1MTg2NzkyLC0xMjQxNzEzNDY5LDE4MjE3NzcyNzEsMT
 Y4NDE2MiwzNTE1OTAwMDIsLTE5MzI0NDAwOTUsMjQyOTk3OTcw
