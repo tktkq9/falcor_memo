@@ -69,12 +69,21 @@ allocateResources()でmResourceDataのリソースを一気に作成する
 これらを通してコンパイル、パス処理が行われる  
 
 ## RenderGraphCompiler  
-RenderGraphExeを作成するためのクラス RenderGraph側で mpExe = RenderGraphCompiler::compile(*this, pContext, mCompilerDeps);によってRenderGraphExeが作成されている  
-また、その時に渡したmCompilerDepsからデフォルトリソース設定情報や外部リソースの情報が格納される この関数内で行われているcompilePasses(pContext)によってRenderPassのcompile()とreflect()が呼ばれ、各パスが作成される  
+RenderGraphExeを作成するためのクラス  
+
+RenderGraph側で
+
+    mpExe = RenderGraphCompiler::compile(*this, pContext, mCompilerDeps);
+によってRenderGraphExeが作成されている  
+また、その時に渡したmCompilerDepsからデフォルトリソース設定情報や外部リソースの情報が格納される  
+
+この関数内で行われているcompilePasses(pContext)によってRenderPassのcompile()とreflect()が呼ばれ、各パスが作成される  
 またResourcesCacheのリソースもallocateResources()によりここで作成される 
 
 ## RenderGraphExe  
-RenderGraphに設定した全てのRenderPassの実行を担当する（compileとreflect以外全て）mExecutionListの順序で各パスの処理が行われる  
+RenderGraphに設定した全てのRenderPassの実行を担当する（compileとreflect以外全て） 
+
+mExecutionListの順序で各パスの処理が行われる  
 このmExecutionListはRenderGraphCompilerによってRenderGraphから作成される ## RenderPassLibrary  
 全てのRederPassの情報を格納し、そこから作成するためのクラス  
 シングルトンであり、instance()を通して呼び出される createPass()によってこの関数に指定したパスを作成し返す # RenderGraphのUI周り## RenderGraphImportExport  
@@ -97,7 +106,7 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTA1NDU4MzYsLTg1NzI2NzgyNiwtMT
+eyJoaXN0b3J5IjpbLTIwMDIyMTg1MTIsLTg1NzI2NzgyNiwtMT
 A3NjcxMDM3MCwtODQyNjk2MTkwLDE3NTE5NDY4OTksMzkyMTg5
 OTE5LC04ODUxODY3OTIsLTEyNDE3MTM0NjksMTgyMTc3NzI3MS
 wxNjg0MTYyLDM1MTU5MDAwMiwtMTkzMjQ0MDA5NSwyNDI5OTc5
