@@ -107,7 +107,7 @@ pythonコード作成のヘルパークラス
 
 RenderGraphImportExport用のセーブデータ作成や、  
 RenderGraphUIでのパスの追加や削除や更新などに利用される  
-ひととお作ったコードは
+一通り作ったコードは
 
 ## RenderGraphImportExport  
 RenderGraphとそのRenderGraphIRのセーブデータ読み込み書き込み
@@ -132,11 +132,11 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NzQyMDM1OSwtMTkyMzk5NjI1MSwxNT
-Q2NDg5MzQ3LDE4MjQzMzA4Nyw4MDQ1Mzk0MTAsNzQ1MTAwNDIy
-LDg0MDI4Mzg4NiwxOTc3NDU4MjUzLC04NTcyNjc4MjYsLTEwNz
-Y3MTAzNzAsLTg0MjY5NjE5MCwxNzUxOTQ2ODk5LDM5MjE4OTkx
-OSwtODg1MTg2NzkyLC0xMjQxNzEzNDY5LDE4MjE3NzcyNzEsMT
-Y4NDE2MiwzNTE1OTAwMDIsLTE5MzI0NDAwOTUsMjQyOTk3OTcw
+eyJoaXN0b3J5IjpbNzc3Nzk2NzI5LC05OTc0MjAzNTksLTE5Mj
+M5OTYyNTEsMTU0NjQ4OTM0NywxODI0MzMwODcsODA0NTM5NDEw
+LDc0NTEwMDQyMiw4NDAyODM4ODYsMTk3NzQ1ODI1MywtODU3Mj
+Y3ODI2LC0xMDc2NzEwMzcwLC04NDI2OTYxOTAsMTc1MTk0Njg5
+OSwzOTIxODk5MTksLTg4NTE4Njc5MiwtMTI0MTcxMzQ2OSwxOD
+IxNzc3MjcxLDE2ODQxNjIsMzUxNTkwMDAyLC0xOTMyNDQwMDk1
 XX0=
 -->
