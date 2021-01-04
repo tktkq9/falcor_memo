@@ -101,7 +101,7 @@ createPass()によってこの関数に指定したパスを作成し返す
 imguiでMogwaiのRenderGraghを表示する
 RenderGraphUIが（imguiによる）UI表示、RenderGraphの管理、描画実行などほぼ全てを行う  
 
-RenderGraphIRはRenderGraphUIのUI操作でpythonコードを作成する際のpythonコード変換
+RenderGraphIRはRenderGraphUIのUI操作でpythonコードを作成する際のpythonコード変換へ
 
 ## RenderGraphUI
 
@@ -149,7 +149,7 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNzY2MjQ2OSwtMjAwNjU2NzU0MCw0ND
+eyJoaXN0b3J5IjpbLTExODkwMTQwMDcsMTAzNzY2MjQ2OSw0ND
 Q0ODkwNzIsODg3OTQ1MzQsLTcwMjk5NzA3NSw2NjIxNjQ1NzEs
 MTY3OTc4MzMsNjAyNDU1ODI4LDgwMTc3MDYyOSwtMTUxNzQ2MD
 gwNCw3Nzc3OTY3MjksLTE5MjM5OTYyNTEsMTU0NjQ4OTM0Nywx
