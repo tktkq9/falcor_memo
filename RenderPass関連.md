@@ -111,7 +111,7 @@ RenderGraphの（imguiによる）UI表示、操作、グラフの作り替え�
 
 UI表示そのものについてはRenderGraphUIクラス内で宣言されているRenderGraphNodeとNodeGraphEditorGuiが担当し、  
 RenderGraphNodeがRenderPass一つあたりの表示処理、  
-NodeGraphEditorGu
+NodeGraphEditorGui、  
 
 ### RenderPassUI
 RenderPass用のUIクラス  
@@ -156,11 +156,11 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODY3ODg0MzQsLTYyNTIwNTc4NiwtMT
-c4MTUzMDg3NSwxMTQ3ODk5MDYzLDQ0NDQ4OTA3Miw4ODc5NDUz
-NCwtNzAyOTk3MDc1LDY2MjE2NDU3MSwxNjc5NzgzMyw2MDI0NT
-U4MjgsODAxNzcwNjI5LC0xNTE3NDYwODA0LDc3Nzc5NjcyOSwt
-MTkyMzk5NjI1MSwxNTQ2NDg5MzQ3LDE4MjQzMzA4Nyw4MDQ1Mz
-k0MTAsNzQ1MTAwNDIyLDg0MDI4Mzg4NiwxOTc3NDU4MjUzXX0=
+eyJoaXN0b3J5IjpbLTYyNTIwNTc4NiwtMTk4Njc4ODQzNCwtNj
+I1MjA1Nzg2LC0xNzgxNTMwODc1LDExNDc4OTkwNjMsNDQ0NDg5
+MDcyLDg4Nzk0NTM0LC03MDI5OTcwNzUsNjYyMTY0NTcxLDE2Nz
+k3ODMzLDYwMjQ1NTgyOCw4MDE3NzA2MjksLTE1MTc0NjA4MDQs
+Nzc3Nzk2NzI5LC0xOTIzOTk2MjUxLDE1NDY0ODkzNDcsMTgyND
+MzMDg3LDgwNDUzOTQxMCw3NDUxMDA0MjIsODQwMjgzODg2XX0=
 
 -->
