@@ -101,7 +101,9 @@ createPass()によってこの関数に指定したパスを作成し返す
 
 ## RenderPassUI
 
-
+### RenderPassUI
+RenderPass用のUIクラス  
+インプットアウトプット用のPinUIの配列とRenderPassReflectionを保持
 
 ## RenderGraphIR
 中間表現（intermediate representation）  
@@ -140,11 +142,11 @@ MSAAはシングルサンプルリソースしか受け付けてないのでリ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMjk5NzA3NSw2NjIxNjQ1NzEsMTY3OT
-c4MzMsNjAyNDU1ODI4LDgwMTc3MDYyOSwtMTUxNzQ2MDgwNCw3
-Nzc3OTY3MjksLTE5MjM5OTYyNTEsMTU0NjQ4OTM0NywxODI0Mz
-MwODcsODA0NTM5NDEwLDc0NTEwMDQyMiw4NDAyODM4ODYsMTk3
-NzQ1ODI1MywtODU3MjY3ODI2LC0xMDc2NzEwMzcwLC04NDI2OT
-YxOTAsMTc1MTk0Njg5OSwzOTIxODk5MTksLTg4NTE4Njc5Ml19
-
+eyJoaXN0b3J5IjpbLTE3NjA3NTQwODMsLTcwMjk5NzA3NSw2Nj
+IxNjQ1NzEsMTY3OTc4MzMsNjAyNDU1ODI4LDgwMTc3MDYyOSwt
+MTUxNzQ2MDgwNCw3Nzc3OTY3MjksLTE5MjM5OTYyNTEsMTU0Nj
+Q4OTM0NywxODI0MzMwODcsODA0NTM5NDEwLDc0NTEwMDQyMiw4
+NDAyODM4ODYsMTk3NzQ1ODI1MywtODU3MjY3ODI2LC0xMDc2Nz
+EwMzcwLC04NDI2OTYxOTAsMTc1MTk0Njg5OSwzOTIxODk5MTld
+fQ==
 -->
