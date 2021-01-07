@@ -24,5 +24,5 @@ Samplesディレクトリにあるプロジェクトと同じようにSample::ru
 
 ### MogwaiScriptingファイル
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTczNzU1OTQsMTkwNDMyNTA4OF19
+eyJoaXN0b3J5IjpbLTIwMTczNzU1OTRdfQ==
 -->
