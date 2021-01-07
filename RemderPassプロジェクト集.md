@@ -53,9 +53,9 @@ TAAは前フレームの描画情報を用いたアンチエイリアス。デ�
 in : モーションベクターTexture2D
 in : Texture2D 
 out : Texture2D
-ただし、すべてのテクスチャーは
+ただし、すべてのテクスチャー
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTgxODA5MzksMTc4MTk3MDUzMCwtMT
-k5MTk5NDMwOCwxNDE3MDY5OTkwLDEwNTEyMjE2MywxMjkzMDE0
-ODcxXX0=
+eyJoaXN0b3J5IjpbLTEwNTU0MTQ4OTYsLTE5OTgxODA5MzksMT
+c4MTk3MDUzMCwtMTk5MTk5NDMwOCwxNDE3MDY5OTkwLDEwNTEy
+MjE2MywxMjkzMDE0ODcxXX0=
 -->
