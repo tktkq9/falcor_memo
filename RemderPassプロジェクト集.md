@@ -50,12 +50,12 @@ TODO : 設定できる値とシェーダー はよくわからん。FXAAのア�
 ### TAA
 TAAは前フレームの描画情報を用いたアンチエイリアス。ディファード、レイトレでよく使われている  
 
-in : モーションベクター 
-in : なんでも 
-out : なんでも
-ただし、
+in : モーションベクターTexture2D
+in : Texture2D 
+out : Texture2D
+ただし、すべてのテクスチャーは
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTAwNTk2MywxNzgxOTcwNTMwLC0xOT
-kxOTk0MzA4LDE0MTcwNjk5OTAsMTA1MTIyMTYzLDEyOTMwMTQ4
-NzFdfQ==
+eyJoaXN0b3J5IjpbLTE5OTgxODA5MzksMTc4MTk3MDUzMCwtMT
+k5MTk5NDMwOCwxNDE3MDY5OTkwLDEwNTEyMjE2MywxMjkzMDE0
+ODcxXX0=
 -->
