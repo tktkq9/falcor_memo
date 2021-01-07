@@ -2,7 +2,7 @@
 
 Mogwaiで利用されるレンダーパスのdll作成プロジェクト集    
 
-パス作成関数create()はpybind11によってMogwaiｄ
+パス作成関数create()はpybind11によってMogwaiでpy
 パスコンパイルcompile()、インプットアウトプット情報設定関数reflect()はMogwai上でのパス作成時に呼ばれ、  
 excute()がレンダーグラフの描画時、つまりつなげたパスごとに順々に呼ばれていく  
 
@@ -52,6 +52,6 @@ TAAは前フレームの描画情報を用いたアンチエイリアス。デ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDIzMDAwLDMzMzc0MTY3MCwxNDE3MD
-Y5OTkwLDEwNTEyMjE2MywxMjkzMDE0ODcxXX0=
+eyJoaXN0b3J5IjpbLTE5OTE5OTQzMDgsLTM1NDIzMDAwLDE0MT
+cwNjk5OTAsMTA1MTIyMTYzLDEyOTMwMTQ4NzFdfQ==
 -->
