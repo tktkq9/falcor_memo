@@ -51,9 +51,9 @@ TODO : 設定できる値とシェーダー はよくわからん。FXAAのア�
 ### TAA
 TAAは前フレームの描画情報を用いたアンチエイリアス。ディファード、レイトレでよく使われている  
 
-まず今の色の自分含め周りの9ピクセルで平均と偏差をとり、色の誤差範囲を求め、  
+まず今の色の自分含め周りの9ピクセルで平均と偏差をとり、色の誤差範囲＊を求め、  
 モーションベクターのうち、周りのピクセルで一番大きいのを持ってきて、昔の色を取得し、  
-今の色
+今の輝度と昔の輝度の差からブレンド値*gAlphaを計算しブレンドする  
 
 ここらへん
 // Details here: http://www.gdcvault.com/play/1023521/From-the-Lab-Bench-Real
@@ -65,8 +65,8 @@ out : Texture2D
 ただし、すべてのテクスチャーのサイズ、ミップは同じ必要があり、  
 SampleCount = 1である必要がある  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTA2MjM4MywxMDg1NTEwOTE0LC0xNj
-MyNzA4NTc0LC0xMDU1NDE0ODk2LDE3ODE5NzA1MzAsLTE5OTE5
-OTQzMDgsMTQxNzA2OTk5MCwxMDUxMjIxNjMsMTI5MzAxNDg3MV
-19
+eyJoaXN0b3J5IjpbMTUyMTcxMzcyLC0zMTUwNjIzODMsLTE2Mz
+I3MDg1NzQsLTEwNTU0MTQ4OTYsMTc4MTk3MDUzMCwtMTk5MTk5
+NDMwOCwxNDE3MDY5OTkwLDEwNTEyMjE2MywxMjkzMDE0ODcxXX
+0=
 -->
