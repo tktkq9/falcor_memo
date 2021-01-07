@@ -53,7 +53,7 @@ TAAは前フレームの描画情報を用いたアンチエイリアス。デ�
 
 まず今の色の自分含め周りの9ピクセルで平均と偏差をとり、色の誤差範囲を求め、  
 モーションベクターのうち、周りのピクセルで一番大きいのを持ってきて、昔の色を取得し、  
-今の色の輝
+今の色
 
 ここらへん
 // Details here: http://www.gdcvault.com/play/1023521/From-the-Lab-Bench-Real
@@ -65,8 +65,8 @@ out : Texture2D
 ただし、すべてのテクスチャーのサイズ、ミップは同じ必要があり、  
 SampleCount = 1である必要がある  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NTUxMDkxNCwtMTUzODI4NzQzOSwtMT
-YzMjcwODU3NCwtMTA1NTQxNDg5NiwxNzgxOTcwNTMwLC0xOTkx
-OTk0MzA4LDE0MTcwNjk5OTAsMTA1MTIyMTYzLDEyOTMwMTQ4Nz
-FdfQ==
+eyJoaXN0b3J5IjpbLTMxNTA2MjM4MywxMDg1NTEwOTE0LC0xNj
+MyNzA4NTc0LC0xMDU1NDE0ODk2LDE3ODE5NzA1MzAsLTE5OTE5
+OTQzMDgsMTQxNzA2OTk5MCwxMDUxMjIxNjMsMTI5MzAxNDg3MV
+19
 -->
