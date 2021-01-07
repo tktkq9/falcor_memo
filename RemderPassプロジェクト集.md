@@ -42,8 +42,8 @@ FXAAはTAAが使えない時用。サブピクセルを使わず、周辺ピク�
 
 FullScreenPassを使ってFXAA.slangを通すだけ  
 故に
-in : FBOに対応するフォーマット  
-out : FBOのフォーマット  
+in : Texture2D 
+out : Texture2D
 
 TODO : 設定できる値とシェーダー はよくわからん。FXAAのアルゴリズムとか使い方とかを要確認
 
@@ -55,7 +55,7 @@ in : Texture2D
 out : Texture2D
 ただし、すべてのテクスチャーのサイズ、ミップは同じ必要があり、SampleCount = 1である必要がある
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ5NjExOTc3LC0xMDU1NDE0ODk2LDE3OD
-E5NzA1MzAsLTE5OTE5OTQzMDgsMTQxNzA2OTk5MCwxMDUxMjIx
-NjMsMTI5MzAxNDg3MV19
+eyJoaXN0b3J5IjpbLTEyMjEyMzY1NDAsLTEwNTU0MTQ4OTYsMT
+c4MTk3MDUzMCwtMTk5MTk5NDMwOCwxNDE3MDY5OTkwLDEwNTEy
+MjE2MywxMjkzMDE0ODcxXX0=
 -->
