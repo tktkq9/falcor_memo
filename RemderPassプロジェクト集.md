@@ -51,7 +51,7 @@ TODO : 設定できる値とシェーダー はよくわからん。FXAAのア�
 ### TAA
 TAAは前フレームの描画情報を用いたアンチエイリアス。ディファード、レイトレでよく使われている  
 
-まずい
+まず今の色
 モーションベクターのうち、周りのピクセルで一番大きいのを持ってきて、
 ここらへん
 // Details here: http://www.gdcvault.com/play/1023521/From-the-Lab-Bench-Real
@@ -63,7 +63,8 @@ out : Texture2D
 ただし、すべてのテクスチャーのサイズ、ミップは同じ必要があり、  
 SampleCount = 1である必要がある  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTc2NDM3ODEsLTE2MzI3MDg1NzQsLT
-EwNTU0MTQ4OTYsMTc4MTk3MDUzMCwtMTk5MTk5NDMwOCwxNDE3
-MDY5OTkwLDEwNTEyMjE2MywxMjkzMDE0ODcxXX0=
+eyJoaXN0b3J5IjpbLTE1MzgyODc0MzksLTE3NTc2NDM3ODEsLT
+E2MzI3MDg1NzQsLTEwNTU0MTQ4OTYsMTc4MTk3MDUzMCwtMTk5
+MTk5NDMwOCwxNDE3MDY5OTkwLDEwNTEyMjE2MywxMjkzMDE0OD
+cxXX0=
 -->
