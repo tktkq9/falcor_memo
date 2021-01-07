@@ -47,7 +47,9 @@ out : FBOのフォーマット
 TODO : 設定できる値とシェーダー はよくわからん。FXAAのアルゴリズムとか使い方とかを要確認
 
 ### TAA
-TAAは前フレームの描画情報を用いたアンチエイリアス。ディファード、レイトレでよく使われている
+TAAは前フレームの描画情報を用いたアンチエイリアス。ディファード、レイトレでよく使われている  
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MzAxNDg3MV19
+eyJoaXN0b3J5IjpbMTA1MTIyMTYzLDEyOTMwMTQ4NzFdfQ==
 -->
