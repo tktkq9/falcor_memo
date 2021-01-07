@@ -2,7 +2,7 @@
 
 Mogwaiで利用されるレンダーパスのdll作成プロジェクト集    
 
-パス作成関数create()、、インプットアウトプット情報設定関数reflect()はMogwai上でのパス作成時に呼ばれ、  
+パス作成関数create()、パスコンパイルcompile()、インプットアウトプット情報設定関数reflect()はMogwai上でのパス作成時に呼ばれ、  
 excute()がレンダーグラフの描画時、つまりつなげたパスごとに順々に呼ばれていく  
 
 renderUI()はMogwaiエディターでのUI表示設定  
@@ -51,6 +51,6 @@ TAAは前フレームの描画情報を用いたアンチエイリアス。デ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTY1MjA2LDEwNTEyMjE2MywxMjkzMD
-E0ODcxXX0=
+eyJoaXN0b3J5IjpbMTQxNzA2OTk5MCwxMDUxMjIxNjMsMTI5Mz
+AxNDg3MV19
 -->
