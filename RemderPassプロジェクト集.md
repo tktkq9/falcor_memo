@@ -44,6 +44,7 @@ FullScreenPassを使ってFXAA.slangを通すだけ
 故に
 in : Texture2D 
 out : Texture2D
+assertしてないが、inとoutは同じサイズ、ミップである必要がある  
 
 TODO : 設定できる値とシェーダー はよくわからん。FXAAのアルゴリズムとか使い方とかを要確認
 
@@ -53,9 +54,10 @@ TAAは前フレームの描画情報を用いたアンチエイリアス。デ�
 in : モーションベクターTexture2D
 in : Texture2D 
 out : Texture2D
-ただし、すべてのテクスチャーのサイズ、ミップは同じ必要があり、SampleCount = 1である必要がある
+ただし、すべてのテクスチャーのサイズ、ミップは同じ必要があり、  
+SampleCount = 1である必要がある  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjEyMzY1NDAsLTEwNTU0MTQ4OTYsMT
+eyJoaXN0b3J5IjpbLTE2MzI3MDg1NzQsLTEwNTU0MTQ4OTYsMT
 c4MTk3MDUzMCwtMTk5MTk5NDMwOCwxNDE3MDY5OTkwLDEwNTEy
 MjE2MywxMjkzMDE0ODcxXX0=
 -->
