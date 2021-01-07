@@ -50,8 +50,11 @@ TODO : 設定できる値とシェーダー はよくわからん。FXAAのア�
 ### TAA
 TAAは前フレームの描画情報を用いたアンチエイリアス。ディファード、レイトレでよく使われている  
 
-
+in : モーションベクター 
+in : FBOに対応するフォーマット  
+out : FBOのフォーマット  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MTk3MDUzMCwtMTk5MTk5NDMwOCwxND
-E3MDY5OTkwLDEwNTEyMjE2MywxMjkzMDE0ODcxXX0=
+eyJoaXN0b3J5IjpbLTE0ODQyNTkxMTUsMTc4MTk3MDUzMCwtMT
+k5MTk5NDMwOCwxNDE3MDY5OTkwLDEwNTEyMjE2MywxMjkzMDE0
+ODcxXX0=
 -->
