@@ -51,13 +51,15 @@ TODO : 設定できる値とシェーダー はよくわからん。FXAAのア�
 ### TAA
 TAAは前フレームの描画情報を用いたアンチエイリアス。ディファード、レイトレでよく使われている  
 
+
+
 in : モーションベクターTexture2D
 in : Texture2D 
 out : Texture2D
 ただし、すべてのテクスチャーのサイズ、ミップは同じ必要があり、  
 SampleCount = 1である必要がある  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzI3MDg1NzQsLTEwNTU0MTQ4OTYsMT
-c4MTk3MDUzMCwtMTk5MTk5NDMwOCwxNDE3MDY5OTkwLDEwNTEy
-MjE2MywxMjkzMDE0ODcxXX0=
+eyJoaXN0b3J5IjpbLTE3NTQyODg4MjYsLTE2MzI3MDg1NzQsLT
+EwNTU0MTQ4OTYsMTc4MTk3MDUzMCwtMTk5MTk5NDMwOCwxNDE3
+MDY5OTkwLDEwNTEyMjE2MywxMjkzMDE0ODcxXX0=
 -->
