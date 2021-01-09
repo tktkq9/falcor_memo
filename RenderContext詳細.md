@@ -21,7 +21,7 @@ RenderContextのdx12の場合の処理
 - init : blit用の初期化のみ  
 - prepareForDraw : ルートシグネチャーとパイプラインステートやビューポート、ハンドル設定など描画以外のコマンドリスト処理を行う
 - set, clear系 : prepareForDrawとかで行っている設定を個別に行う用、prepareForDrawでもset系は使われている  
-- draw系 : バリアはってdeaw系呼び出し  
+- draw系 : バリアはってdeaw系コマンドリスト処理呼び出し  
 - blit : blit実行  
 - resolve系 : resolve呼び出し  
 
@@ -49,11 +49,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjMxOTMwOTYsMTEwMDg2OTE0MiwyOD
-M0NTA2OTksOTQ0NTE1MDkzLC0yODA1MzE0NjYsMTU0NjAyMDUw
-OCw5NTY5MjcxMTIsNTc1MDkxODk1LC0xMjMwMzQ2NDksLTIwNz
-g1OTQwMDMsMTkwNzI1MTEzNSwyOTY1NDc2MzYsLTY3MDY3NDgx
-MCwxMzU3NTEzMzM5LC0xNzQ2NTk2MjUyLC0xODk2NjA4MzUwLD
-EyNDU4MTI1NDEsLTE5MTE5NjU5MDMsMTU4NTEwNDU3MCwtMTQ0
-MDc2NTYyNV19
+eyJoaXN0b3J5IjpbNTc5MTU1OTY4LC0xMzIzMTkzMDk2LDExMD
+A4NjkxNDIsMjgzNDUwNjk5LDk0NDUxNTA5MywtMjgwNTMxNDY2
+LDE1NDYwMjA1MDgsOTU2OTI3MTEyLDU3NTA5MTg5NSwtMTIzMD
+M0NjQ5LC0yMDc4NTk0MDAzLDE5MDcyNTExMzUsMjk2NTQ3NjM2
+LC02NzA2NzQ4MTAsMTM1NzUxMzMzOSwtMTc0NjU5NjI1MiwtMT
+g5NjYwODM1MCwxMjQ1ODEyNTQxLC0xOTExOTY1OTAzLDE1ODUx
+MDQ1NzBdfQ==
 -->
