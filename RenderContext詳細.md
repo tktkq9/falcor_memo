@@ -19,7 +19,7 @@ RenderContextのdx12の場合の処理
 
 内容は以下のようなものとなっている  
 - init : blit用の初期化のみ  
-- prepareForDraw : ルートシグネチャーとパイプラインステートやビューポートなど描画命令以外の処理を行う。変数設定だけは直接ここで設定するのではなく、  
+- prepareForDraw : ルートシグネチャーとパイプラインステートやビューポートなど描画命令以外の処理を行う。変数のハンドル設定だけは直接ここで設定するのではなく、  ProgramVarsのapply()関数を呼び出すことによってそちらの方で行われる  
 - set, clear系 : prepareForDrawとかで行っている設定を個別に行う用、prepareForDrawでもset系は使われている  
 - draw系 : バリアはってdeaw系呼び出し  
 - blit : blit実行  
@@ -44,11 +44,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1MDkxODk1LDE4NzU0NTYzMTQsLTEyMz
-AzNDY0OSwtMjA3ODU5NDAwMywxOTA3MjUxMTM1LDI5NjU0NzYz
-NiwtNjcwNjc0ODEwLDEzNTc1MTMzMzksLTE3NDY1OTYyNTIsLT
-E4OTY2MDgzNTAsMTI0NTgxMjU0MSwtMTkxMTk2NTkwMywxNTg1
-MTA0NTcwLC0xNDQwNzY1NjI1LDQyNTM0ODQ1OSwtMTMyMTY2OD
-U5NiwzMTM2NjAyMzUsLTExMDYzNjc3NDUsMTk5Nzk3NTE0Nywt
-MjEwNzkxOTg5Nl19
+eyJoaXN0b3J5IjpbMzc3ODk2ODg2LDU3NTA5MTg5NSwtMTIzMD
+M0NjQ5LC0yMDc4NTk0MDAzLDE5MDcyNTExMzUsMjk2NTQ3NjM2
+LC02NzA2NzQ4MTAsMTM1NzUxMzMzOSwtMTc0NjU5NjI1MiwtMT
+g5NjYwODM1MCwxMjQ1ODEyNTQxLC0xOTExOTY1OTAzLDE1ODUx
+MDQ1NzAsLTE0NDA3NjU2MjUsNDI1MzQ4NDU5LC0xMzIxNjY4NT
+k2LDMxMzY2MDIzNSwtMTEwNjM2Nzc0NSwxOTk3OTc1MTQ3LC0y
+MTA3OTE5ODk2XX0=
 -->
