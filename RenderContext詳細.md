@@ -44,6 +44,7 @@ ComputeContextのdx12の場合の処理
 - prepareForDispatch: ルートシグネチャーとパイプラインステート、ハンドル設定などdispatch以外のコマンドリスト設定を行う
 - set, clear系 : prepareForDrawとかで行っている設定を個別に行う用、prepareForDrawでもset系は使われている  
 - dispatch系 : prepareForDispatch読んでdispatch系のコマンドリスト設定  
+- 
 RenderContextと同じく、prepareForDrawの変数のハンドル設定だけは直接ここで行われるのではなく、  ProgramVarsのapply()関数呼び出し -> D3D12DescriptorSetの関数呼び出しによってコマンドリスト設定、という流れになっている  
 
 
@@ -57,11 +58,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTAzOTc0OTEsLTQ0ODUwNTEyOCwxOD
-E5ODM0ODgyLC0xMzIwNzU3ODIsLTEzMjMxOTMwOTYsMTEwMDg2
-OTE0MiwyODM0NTA2OTksOTQ0NTE1MDkzLC0yODA1MzE0NjYsMT
-U0NjAyMDUwOCw5NTY5MjcxMTIsNTc1MDkxODk1LC0xMjMwMzQ2
-NDksLTIwNzg1OTQwMDMsMTkwNzI1MTEzNSwyOTY1NDc2MzYsLT
-Y3MDY3NDgxMCwxMzU3NTEzMzM5LC0xNzQ2NTk2MjUyLC0xODk2
-NjA4MzUwXX0=
+eyJoaXN0b3J5IjpbMTA2Mjg4MTcxNCwtMTc5MDM5NzQ5MSwtND
+Q4NTA1MTI4LDE4MTk4MzQ4ODIsLTEzMjA3NTc4MiwtMTMyMzE5
+MzA5NiwxMTAwODY5MTQyLDI4MzQ1MDY5OSw5NDQ1MTUwOTMsLT
+I4MDUzMTQ2NiwxNTQ2MDIwNTA4LDk1NjkyNzExMiw1NzUwOTE4
+OTUsLTEyMzAzNDY0OSwtMjA3ODU5NDAwMywxOTA3MjUxMTM1LD
+I5NjU0NzYzNiwtNjcwNjc0ODEwLDEzNTc1MTMzMzksLTE3NDY1
+OTYyNTJdfQ==
 -->
