@@ -65,14 +65,14 @@ ComputeContext、RenderContextでも使われる共通処理として
 あとはコピー系の処理のみ  
 
 ## LowLevelContextData
-コマンドリストを生成、取得、実行部分を担当する  
+複数のコマンドリストを生成、取得、実行部分を担当する  
 
 よってContext系で設定されたコマンドリストの実行担当  
 Context系のメンバ変数となっている  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTMxODg2MzUsODEyNjUzNzUwLC02OD
+eyJoaXN0b3J5IjpbLTE3NDQwNjI3NDIsODEyNjUzNzUwLC02OD
 g2ODgzNTQsMzQ5NDkzNDI5LC0xMTYxNzc2NzU2LDEzMTYwMDA1
 MjEsMTM5NzA0MzQ4NCwxMDYyODgxNzE0LC00NDg1MDUxMjgsMT
 gxOTgzNDg4MiwtMTMyMDc1NzgyLC0xMzIzMTkzMDk2LDExMDA4
