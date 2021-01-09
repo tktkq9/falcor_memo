@@ -10,7 +10,7 @@ CopyContextがコピー用
 ComputeContextのサブクラス  
 コマンドリストを保持し、描画系のコマンドライン設定と実行を担当する  
 （もちろんComputeContextのサブクラスなのでComputeContextとCopyContextの機能も使える）  
-リソースで考えるとFBO、RTV、DSV、
+リソースで考えるとFBO、RTV、DSV担当  
 
 これにGraphicsState（ルートシグネチャー、パイプラインステート、シザービューポートなど変数以外の部分）やGraphicsVars（ディスクリプター、ハンドルなど変数部分）を渡して、描画に関連するマンドリスト処理を行う  
 
@@ -28,7 +28,12 @@ RenderContextのdx12の場合の処理
 prepareForDrawの変数のハンドル設定だけは直接ここで行われるのではなく、  ProgramVarsのapply()関数呼び出し -> D3D12DescriptorSetの関数呼び出しによってコマンドリスト設定、という流れになっている  
 
 ## ComputeContext.h, cpp
-TODO    D3D12ComputeContextを読む  
+CopyContextのサブクラス  
+コマンドリストを保持し、描画系のコマンドライン設定と実行を担当する  
+（もちろんCopyContextのサブクラスなのでCopyContextの機能も使える）  
+リソースで考えるとUAV担当   
+
+これにComputeState（ルートシグネチャー、パイプラインステート、シザービューポートなど変数以外の部分）やGraphicsVars（ディスクリプター、ハンドルなど変数部分）を渡して、描画に関連するマンドリスト処理を行う  
 
 
 ### D3D12ComputeContext.cpp
@@ -44,7 +49,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODc5ODIwODcsMjgzNDUwNjk5LDk0ND
+eyJoaXN0b3J5IjpbLTIwOTUzMTA4MjQsMjgzNDUwNjk5LDk0ND
 UxNTA5MywtMjgwNTMxNDY2LDE1NDYwMjA1MDgsOTU2OTI3MTEy
 LDU3NTA5MTg5NSwtMTIzMDM0NjQ5LC0yMDc4NTk0MDAzLDE5MD
 cyNTExMzUsMjk2NTQ3NjM2LC02NzA2NzQ4MTAsMTM1NzUxMzMz
