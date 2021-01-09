@@ -66,10 +66,10 @@ out : Texture2D
 ただし、すべてのテクスチャーのサイズ、ミップは同じ必要があり、  
 SampleCount = 1である必要がある  
 
-## 
+## Blot
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg5NTQxOTQsLTg4NjU2MjEwMiw0Mj
-MwOTAwNTAsLTE2MzI3MDg1NzQsLTEwNTU0MTQ4OTYsMTc4MTk3
-MDUzMCwtMTk5MTk5NDMwOCwxNDE3MDY5OTkwLDEwNTEyMjE2My
-wxMjkzMDE0ODcxXX0=
+eyJoaXN0b3J5IjpbMjA4MzUyMzkwMywtMTU4ODk1NDE5NCwtOD
+g2NTYyMTAyLDQyMzA5MDA1MCwtMTYzMjcwODU3NCwtMTA1NTQx
+NDg5NiwxNzgxOTcwNTMwLC0xOTkxOTk0MzA4LDE0MTcwNjk5OT
+AsMTA1MTIyMTYzLDEyOTMwMTQ4NzFdfQ==
 -->
