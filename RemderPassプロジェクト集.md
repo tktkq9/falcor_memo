@@ -79,12 +79,11 @@ arrayとmipは1のみ、各々のリソースのサイズは制限なし
 ## BSDFViewer
 
 
-out : RGBA32Float、UnorderedAccess
-
+out : RGBA32Float、UnorderedAccess  
+このパスはoutのみ  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzAyMjUzNDksLTEyNDM2Mzk4ODcsLT
-U1MjIxMzYyOCwtODg2NTYyMTAyLDQyMzA5MDA1MCwtMTYzMjcw
-ODU3NCwtMTA1NTQxNDg5NiwxNzgxOTcwNTMwLC0xOTkxOTk0Mz
-A4LDE0MTcwNjk5OTAsMTA1MTIyMTYzLDEyOTMwMTQ4NzFdfQ==
-
+eyJoaXN0b3J5IjpbODE1MjUxMjgsLTEyNDM2Mzk4ODcsLTU1Mj
+IxMzYyOCwtODg2NTYyMTAyLDQyMzA5MDA1MCwtMTYzMjcwODU3
+NCwtMTA1NTQxNDg5NiwxNzgxOTcwNTMwLC0xOTkxOTk0MzA4LD
+E0MTcwNjk5OTAsMTA1MTIyMTYzLDEyOTMwMTQ4NzFdfQ==
 -->
