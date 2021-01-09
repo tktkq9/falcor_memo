@@ -69,16 +69,22 @@ ComputeContext、RenderContextでも使われる共通処理として
 Contextからそれらを行うために、Context系のメンバ変数となっている  
 （ちなみにContext以外でも使われているのでContext専用ではない）  
 
+        enum class CommandQueueType
+        {
             Copy,
             Compute,
             Direct,
             Count
+        };
+ごとに別々のLowLevelContextDataが作られるっぽい  
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODk2NTg4MSwtOTg4Nzk4OTExLDgxMj
-Y1Mzc1MCwtNjg4Njg4MzU0LDM0OTQ5MzQyOSwtMTE2MTc3Njc1
-NiwxMzE2MDAwNTIxLDEzOTcwNDM0ODQsMTA2Mjg4MTcxNCwtND
-Q4NTA1MTI4LDE4MTk4MzQ4ODIsLTEzMjA3NTc4MiwtMTMyMzE5
-MzA5NiwxMTAwODY5MTQyLDI4MzQ1MDY5OSw5NDQ1MTUwOTMsLT
-I4MDUzMTQ2NiwxNTQ2MDIwNTA4LDk1NjkyNzExMiw1NzUwOTE4
-OTVdfQ==
+eyJoaXN0b3J5IjpbLTEwMjEzOTExNjcsLTk4ODc5ODkxMSw4MT
+I2NTM3NTAsLTY4ODY4ODM1NCwzNDk0OTM0MjksLTExNjE3NzY3
+NTYsMTMxNjAwMDUyMSwxMzk3MDQzNDg0LDEwNjI4ODE3MTQsLT
+Q0ODUwNTEyOCwxODE5ODM0ODgyLC0xMzIwNzU3ODIsLTEzMjMx
+OTMwOTYsMTEwMDg2OTE0MiwyODM0NTA2OTksOTQ0NTE1MDkzLC
+0yODA1MzE0NjYsMTU0NjAyMDUwOCw5NTY5MjcxMTIsNTc1MDkx
+ODk1XX0=
 -->
