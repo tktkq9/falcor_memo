@@ -66,10 +66,16 @@ out : Texture2D
 ただし、すべてのテクスチャーのサイズ、ミップは同じ必要があり、  
 SampleCount = 1である必要がある  
 
-## Blot
+## BlitPas
+blit実行用パス  
+リソースをレンダーターゲットへサンプラー使って描画  
+
+設定はさんぷらー
+
+## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MzUyMzkwMywtMTU4ODk1NDE5NCwtOD
-g2NTYyMTAyLDQyMzA5MDA1MCwtMTYzMjcwODU3NCwtMTA1NTQx
-NDg5NiwxNzgxOTcwNTMwLC0xOTkxOTk0MzA4LDE0MTcwNjk5OT
-AsMTA1MTIyMTYzLDEyOTMwMTQ4NzFdfQ==
+eyJoaXN0b3J5IjpbNzM3MDA5MzgwLDIwODM1MjM5MDMsLTg4Nj
+U2MjEwMiw0MjMwOTAwNTAsLTE2MzI3MDg1NzQsLTEwNTU0MTQ4
+OTYsMTc4MTk3MDUzMCwtMTk5MTk5NDMwOCwxNDE3MDY5OTkwLD
+EwNTEyMjE2MywxMjkzMDE0ODcxXX0=
 -->
