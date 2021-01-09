@@ -50,9 +50,7 @@ RenderContextと同じく、prepareForDrawの変数のハンドル設定だけ�
 
 ## CopyContext.h, cpp
 コマンドリストを保持し、コピー系のコマンドリスト設定担当する  
-
-
-リソースの設定、変換する際のバリアの設定、
+リソースの設定、変換する際のバリアの設定を行う  
 
 
 ### D3D12CopyContext.cpp
@@ -61,7 +59,7 @@ TODO  読む
 ## LowLevelContextData
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2MjgzMzg1LC0xMTYxNzc2NzU2LDEzMT
+eyJoaXN0b3J5IjpbNjEwMzMwMzQ2LC0xMTYxNzc2NzU2LDEzMT
 YwMDA1MjEsMTM5NzA0MzQ4NCwxMDYyODgxNzE0LC00NDg1MDUx
 MjgsMTgxOTgzNDg4MiwtMTMyMDc1NzgyLC0xMzIzMTkzMDk2LD
 ExMDA4NjkxNDIsMjgzNDUwNjk5LDk0NDUxNTA5MywtMjgwNTMx
