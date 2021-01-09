@@ -1,12 +1,14 @@
 # RenderContext関連
 コマンドリストの処理を担当するもの  
-これにProgramVarsサブクラス（ディスクリプターハンドル）とかGraphicsState系のやつ（パイプラインステート）とかProgramKernels（ルートシグネチャー）とかを渡してコマンドラインの設定とか実行とかさせて描画とかさせる  
+これに[ProgramVarsサブクラス（ディスクリプターハンドル）とかGraphicsState系のやつ（パイプラインステート）とかProgramKernels（ルートシグネチャー）]()とかを渡してコマンドラインの設定とか実行とかさせて描画とかさせる  
+
 
 RenderContextがComputeContextのサブクラスで描画用  
 ComputeContextがCopyContextのサブクラスでコンピュート用  
 CopyContextがコピー用  
 
 そして、これらで設定されたコマンドリストをクローズしてキューに渡して実行してフェンスかけてアロケーターとリストリセットするの担当がLowLevelContextDataとなっている  
+
 
 ## RenderContext
 ComputeContextのサブクラス  
@@ -80,11 +82,11 @@ Contextからそれらを行うために、Context系のメンバ変数となっ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMyNzc5ODgzLC05ODg3OTg5MTEsODEyNj
-UzNzUwLC02ODg2ODgzNTQsMzQ5NDkzNDI5LC0xMTYxNzc2NzU2
-LDEzMTYwMDA1MjEsMTM5NzA0MzQ4NCwxMDYyODgxNzE0LC00ND
-g1MDUxMjgsMTgxOTgzNDg4MiwtMTMyMDc1NzgyLC0xMzIzMTkz
-MDk2LDExMDA4NjkxNDIsMjgzNDUwNjk5LDk0NDUxNTA5MywtMj
-gwNTMxNDY2LDE1NDYwMjA1MDgsOTU2OTI3MTEyLDU3NTA5MTg5
-NV19
+eyJoaXN0b3J5IjpbLTE1MjMwMzg5MDQsLTk4ODc5ODkxMSw4MT
+I2NTM3NTAsLTY4ODY4ODM1NCwzNDk0OTM0MjksLTExNjE3NzY3
+NTYsMTMxNjAwMDUyMSwxMzk3MDQzNDg0LDEwNjI4ODE3MTQsLT
+Q0ODUwNTEyOCwxODE5ODM0ODgyLC0xMzIwNzU3ODIsLTEzMjMx
+OTMwOTYsMTEwMDg2OTE0MiwyODM0NTA2OTksOTQ0NTE1MDkzLC
+0yODA1MzE0NjYsMTU0NjAyMDUwOCw5NTY5MjcxMTIsNTc1MDkx
+ODk1XX0=
 -->
