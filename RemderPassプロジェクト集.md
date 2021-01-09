@@ -78,14 +78,14 @@ arrayとmipは1のみ、各々のリソースのサイズは制限なし
 
 ## BSDFViewer
 読み込んだシーンのマテリアルの見た目を確かめるためのパス  
-imguiでBSDFの設定を行い、そのパラメーターをシェーダーに渡してその球体の
+imguiでBSDFの設定を行い、そのパラメーターをシェーダーに渡してそのまてりあ球体の
 
 out : RGBA32Float、UnorderedAccess  
 このパスはoutのみ  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNjU5ODM5Nyw4MTUyNTEyOCwtMTI0Mz
-YzOTg4NywtNTUyMjEzNjI4LC04ODY1NjIxMDIsNDIzMDkwMDUw
-LC0xNjMyNzA4NTc0LC0xMDU1NDE0ODk2LDE3ODE5NzA1MzAsLT
-E5OTE5OTQzMDgsMTQxNzA2OTk5MCwxMDUxMjIxNjMsMTI5MzAx
-NDg3MV19
+eyJoaXN0b3J5IjpbLTQzNTU4NDE1NywtOTA2NTk4Mzk3LDgxNT
+I1MTI4LC0xMjQzNjM5ODg3LC01NTIyMTM2MjgsLTg4NjU2MjEw
+Miw0MjMwOTAwNTAsLTE2MzI3MDg1NzQsLTEwNTU0MTQ4OTYsMT
+c4MTk3MDUzMCwtMTk5MTk5NDMwOCwxNDE3MDY5OTkwLDEwNTEy
+MjE2MywxMjkzMDE0ODcxXX0=
 -->
