@@ -73,12 +73,13 @@ blit実行用パス
 設定はサンプラーがPointかLinearか選べるのみ  
 
 in リソース
-out 
+out リソース
+arrayとmipは1のみ、各々のリソースのサイズは
 
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDE3NTM4MzcsLTU1MjIxMzYyOCwtOD
-g2NTYyMTAyLDQyMzA5MDA1MCwtMTYzMjcwODU3NCwtMTA1NTQx
-NDg5NiwxNzgxOTcwNTMwLC0xOTkxOTk0MzA4LDE0MTcwNjk5OT
-AsMTA1MTIyMTYzLDEyOTMwMTQ4NzFdfQ==
+eyJoaXN0b3J5IjpbNTcxMDczODQzLC01NTIyMTM2MjgsLTg4Nj
+U2MjEwMiw0MjMwOTAwNTAsLTE2MzI3MDg1NzQsLTEwNTU0MTQ4
+OTYsMTc4MTk3MDUzMCwtMTk5MTk5NDMwOCwxNDE3MDY5OTkwLD
+EwNTEyMjE2MywxMjkzMDE0ODcxXX0=
 -->
