@@ -52,7 +52,7 @@ RenderContextと同じく、prepareForDrawの変数のハンドル設定だけ�
 コマンドリストを保持し、コピー系のコマンドリスト設定担当する  
 リソースの設定、変換する際のバリアの設定を行う  
 
-あと、ComputeContext、RenderContextでつかわれる
+あと、ComputeContext、RenderContextで使われるきょつ
 
 ### D3D12CopyContext.cpp
 TODO  読む  
@@ -60,11 +60,11 @@ TODO  読む
 ## LowLevelContextData
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTM5OTEyNywtMTE2MTc3Njc1NiwxMz
-E2MDAwNTIxLDEzOTcwNDM0ODQsMTA2Mjg4MTcxNCwtNDQ4NTA1
-MTI4LDE4MTk4MzQ4ODIsLTEzMjA3NTc4MiwtMTMyMzE5MzA5Ni
-wxMTAwODY5MTQyLDI4MzQ1MDY5OSw5NDQ1MTUwOTMsLTI4MDUz
-MTQ2NiwxNTQ2MDIwNTA4LDk1NjkyNzExMiw1NzUwOTE4OTUsLT
-EyMzAzNDY0OSwtMjA3ODU5NDAwMywxOTA3MjUxMTM1LDI5NjU0
-NzYzNl19
+eyJoaXN0b3J5IjpbMzQ5NDkzNDI5LC03NzUzOTkxMjcsLTExNj
+E3NzY3NTYsMTMxNjAwMDUyMSwxMzk3MDQzNDg0LDEwNjI4ODE3
+MTQsLTQ0ODUwNTEyOCwxODE5ODM0ODgyLC0xMzIwNzU3ODIsLT
+EzMjMxOTMwOTYsMTEwMDg2OTE0MiwyODM0NTA2OTksOTQ0NTE1
+MDkzLC0yODA1MzE0NjYsMTU0NjAyMDUwOCw5NTY5MjcxMTIsNT
+c1MDkxODk1LC0xMjMwMzQ2NDksLTIwNzg1OTQwMDMsMTkwNzI1
+MTEzNV19
 -->
