@@ -80,14 +80,13 @@ arrayとmipは1のみ、各々のリソースのサイズは制限なし
 読み込んだシーンのマテリアルの見た目を確かめるためのパス  
 imguiでBSDの設定Fやカメラや表示したいマテリアルなどの指定を行い、そのパラメーターをシェーダーに渡して、その選んだマテリアルの球体モデルを描画する  
 
-createやcompileは読み込んだシーンの
 
 out : RGBA32Float、UnorderedAccess  
 このパスはoutのみ  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzEyMzY3NzksLTQzNTU4NDE1Nyw4MT
-UyNTEyOCwtMTI0MzYzOTg4NywtNTUyMjEzNjI4LC04ODY1NjIx
-MDIsNDIzMDkwMDUwLC0xNjMyNzA4NTc0LC0xMDU1NDE0ODk2LD
-E3ODE5NzA1MzAsLTE5OTE5OTQzMDgsMTQxNzA2OTk5MCwxMDUx
-MjIxNjMsMTI5MzAxNDg3MV19
+eyJoaXN0b3J5IjpbMjk0ODMzNzYsLTQzNTU4NDE1Nyw4MTUyNT
+EyOCwtMTI0MzYzOTg4NywtNTUyMjEzNjI4LC04ODY1NjIxMDIs
+NDIzMDkwMDUwLC0xNjMyNzA4NTc0LC0xMDU1NDE0ODk2LDE3OD
+E5NzA1MzAsLTE5OTE5OTQzMDgsMTQxNzA2OTk5MCwxMDUxMjIx
+NjMsMTI5MzAxNDg3MV19
 -->
