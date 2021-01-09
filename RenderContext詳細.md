@@ -49,13 +49,13 @@ ComputeContextのdx12の場合の処理
 - set, clear系 : prepareForDrawとかで行っている設定を個別に行う用、prepareForDrawでもset系は使われている  
 - dispatch : prepareForDispatch読んでdispatchのコマンドリスト設定  
 - dispatchIndirect : prepareForDispatch読んでバリアはってdispatchIndirectのコマンドリスト設定。ここでinitで作ったpDispatchCommandSigが利用される  
-- 
+
 RenderContextと同じく、prepareForDrawの変数のハンドル設定だけは直接ここで行われるのではなく、  ProgramVarsのapply()関数呼び出し -> D3D12DescriptorSetの関数呼び出しによってコマンドリスト設定、という流れになっている  
 
 ## CopyContext
 コマンドリストを保持し、コピー系（そしてコピーが必要なテクスチャーのアップデート系もここ）のコマンドリスト設定担当する  
 
-あと、ComputeContext、RenderContextで使われる共通処理の実装もここ   
+あと、ComputeContext、RenderContextで使われる共通処理もここ   
 
 ### D3D12CopyContext.cpp
 CopyContextのdx12の場合の処理  
@@ -64,7 +64,7 @@ ComputeContext、RenderContextでも使われる共通処理として
 - bindDescriptorHeaps : ディスクリプターヒープのコマンドリスト設定
 - d3d12ResourceBarrier : リソース全般のバリア設定
 
-あとはコピー系の処理のみ  
+CopyContext特有の処理はコピー系のみ  
 
 ## LowLevelContextData
 複数のコマンドリストを生成、取得、実行する部分を担当する  
@@ -82,7 +82,7 @@ Contextからそれらを行うために、Context系のメンバ変数となっ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODU5NTk0MTMsMTc4NDg3MjQ5NywtOT
+eyJoaXN0b3J5IjpbLTIwNTM0NzU0NDAsMTc4NDg3MjQ5NywtOT
 g4Nzk4OTExLDgxMjY1Mzc1MCwtNjg4Njg4MzU0LDM0OTQ5MzQy
 OSwtMTE2MTc3Njc1NiwxMzE2MDAwNTIxLDEzOTcwNDM0ODQsMT
 A2Mjg4MTcxNCwtNDQ4NTA1MTI4LDE4MTk4MzQ4ODIsLTEzMjA3
