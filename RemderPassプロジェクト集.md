@@ -78,14 +78,16 @@ arrayとmipは1のみ、各々のリソースのサイズは制限なし
 
 ## BSDFViewer
 読み込んだシーンのマテリアルの見た目を確かめるためのパス  
-imguiでBSDFの設定を行い、そのパラメーターをシェーダーに渡してそのまてりあ球体の
+imguiでBSDの設定Fやカメラや表示したいマテリアルなどの指定を行い、そのパラメーターをシェーダーに渡して、その選んだマテリアルの球体モデルを描画する  
+
+createやcompileは読み込んだシーンの
 
 out : RGBA32Float、UnorderedAccess  
 このパスはoutのみ  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTU4NDE1NywtOTA2NTk4Mzk3LDgxNT
-I1MTI4LC0xMjQzNjM5ODg3LC01NTIyMTM2MjgsLTg4NjU2MjEw
-Miw0MjMwOTAwNTAsLTE2MzI3MDg1NzQsLTEwNTU0MTQ4OTYsMT
-c4MTk3MDUzMCwtMTk5MTk5NDMwOCwxNDE3MDY5OTkwLDEwNTEy
-MjE2MywxMjkzMDE0ODcxXX0=
+eyJoaXN0b3J5IjpbLTE4MzEyMzY3NzksLTQzNTU4NDE1Nyw4MT
+UyNTEyOCwtMTI0MzYzOTg4NywtNTUyMjEzNjI4LC04ODY1NjIx
+MDIsNDIzMDkwMDUwLC0xNjMyNzA4NTc0LC0xMDU1NDE0ODk2LD
+E3ODE5NzA1MzAsLTE5OTE5OTQzMDgsMTQxNzA2OTk5MCwxMDUx
+MjIxNjMsMTI5MzAxNDg3MV19
 -->
