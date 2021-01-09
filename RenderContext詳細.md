@@ -19,12 +19,13 @@ RenderContextのdx12の場合の処理
 
 内容は以下のようなものとなっている  
 - init : blit用の初期化のみ  
-- prepareForDraw : ルートシグネチャーとパイプラインステートやビューポートなど描画命令以外の処理を行う。変数のハンドル設定だけは直接ここで行われるのではなく、  ProgramVarsのapply()関数呼び出し -> D3D12DescriptorSetの関数呼び出しによってコマンドリスト設定、という流れになっている  
+- prepareForDraw : ルートシグネチャーとパイプラインステートやビューポートなど描画命令以外の処理を行う
 - set, clear系 : prepareForDrawとかで行っている設定を個別に行う用、prepareForDrawでもset系は使われている  
 - draw系 : バリアはってdeaw系呼び出し  
 - blit : blit実行  
 - resolve系 : resolve呼び出し  
 
+prepareForDrawの変数のハンドル設定だけは直接ここで行われるのではなく、  ProgramVarsのapply()関数呼び出し -> D3D12DescriptorSetの関数呼び出しによってコマンドリスト設定、という流れになっている  
 
 ## ComputeContext.h, cpp
 TODO    D3D12ComputeContextを読む  
@@ -43,11 +44,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTA3NDIsOTU2OTI3MTEyLDU3NTA5MT
-g5NSwtMTIzMDM0NjQ5LC0yMDc4NTk0MDAzLDE5MDcyNTExMzUs
-Mjk2NTQ3NjM2LC02NzA2NzQ4MTAsMTM1NzUxMzMzOSwtMTc0Nj
-U5NjI1MiwtMTg5NjYwODM1MCwxMjQ1ODEyNTQxLC0xOTExOTY1
-OTAzLDE1ODUxMDQ1NzAsLTE0NDA3NjU2MjUsNDI1MzQ4NDU5LC
-0xMzIxNjY4NTk2LDMxMzY2MDIzNSwtMTEwNjM2Nzc0NSwxOTk3
-OTc1MTQ3XX0=
+eyJoaXN0b3J5IjpbMTU0NjAyMDUwOCw5NTY5MjcxMTIsNTc1MD
+kxODk1LC0xMjMwMzQ2NDksLTIwNzg1OTQwMDMsMTkwNzI1MTEz
+NSwyOTY1NDc2MzYsLTY3MDY3NDgxMCwxMzU3NTEzMzM5LC0xNz
+Q2NTk2MjUyLC0xODk2NjA4MzUwLDEyNDU4MTI1NDEsLTE5MTE5
+NjU5MDMsMTU4NTEwNDU3MCwtMTQ0MDc2NTYyNSw0MjUzNDg0NT
+ksLTEzMjE2Njg1OTYsMzEzNjYwMjM1LC0xMTA2MzY3NzQ1LDE5
+OTc5NzUxNDddfQ==
 -->
