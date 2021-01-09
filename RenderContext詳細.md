@@ -12,7 +12,7 @@ RenderContextがComputeContextのサブクラスで描画用
 コマンドリストを保持し、  
 描画系のコマンドライン設定と実行を担当する  
 
-これにGraphicsState（ルートシグネチャー、パイプラインステート、シザービューポートなど変数以外の部分）やGraphicsVars（ディスクリプター、ハンドルなど変数部分）を渡して、描画などのコマンドリスト処理を行う  
+これにGraphicsState（ルートシグネチャー、パイプラインステート、シザービューポートなど変数以外の部分）やGraphicsVars（ディスクリプター、ハンドルなど変数部分）を渡して、描画に関するマンドリスト処理を行う  
 
 ### D3D12RenderContext.cpp
 RenderContextのdx12の場合の処理  
@@ -44,11 +44,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NjAyMDUwOCw5NTY5MjcxMTIsNTc1MD
-kxODk1LC0xMjMwMzQ2NDksLTIwNzg1OTQwMDMsMTkwNzI1MTEz
-NSwyOTY1NDc2MzYsLTY3MDY3NDgxMCwxMzU3NTEzMzM5LC0xNz
-Q2NTk2MjUyLC0xODk2NjA4MzUwLDEyNDU4MTI1NDEsLTE5MTE5
-NjU5MDMsMTU4NTEwNDU3MCwtMTQ0MDc2NTYyNSw0MjUzNDg0NT
-ksLTEzMjE2Njg1OTYsMzEzNjYwMjM1LC0xMTA2MzY3NzQ1LDE5
-OTc5NzUxNDddfQ==
+eyJoaXN0b3J5IjpbMTA4MTY0MTgzLDE1NDYwMjA1MDgsOTU2OT
+I3MTEyLDU3NTA5MTg5NSwtMTIzMDM0NjQ5LC0yMDc4NTk0MDAz
+LDE5MDcyNTExMzUsMjk2NTQ3NjM2LC02NzA2NzQ4MTAsMTM1Nz
+UxMzMzOSwtMTc0NjU5NjI1MiwtMTg5NjYwODM1MCwxMjQ1ODEy
+NTQxLC0xOTExOTY1OTAzLDE1ODUxMDQ1NzAsLTE0NDA3NjU2Mj
+UsNDI1MzQ4NDU5LC0xMzIxNjY4NTk2LDMxMzY2MDIzNSwtMTEw
+NjM2Nzc0NV19
 -->
