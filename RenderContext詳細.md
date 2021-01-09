@@ -43,7 +43,7 @@ ComputeContextのdx12の場合の処理
 - init : ID3D12CommandSignatureが無ければ作成のみ。
 - prepareForDraw : ルートシグネチャーとパイプラインステート、ハンドル設定などdispatch以外のコマンドリスト設定を行う
 - set, clear系 : prepareForDrawとかで行っている設定を個別に行う用、prepareForDrawでもset系は使われている  
-- draw系 : バリアはってdeaw系のコマンドリスト設定  
+- dispatch系 : バリアはってdispatch系のコマンドリスト設定  
 - blit : blit実行  
 - resolve系 : resolve呼び出し  
 
@@ -60,11 +60,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0ODUwNTEyOCwxODE5ODM0ODgyLC0xMz
-IwNzU3ODIsLTEzMjMxOTMwOTYsMTEwMDg2OTE0MiwyODM0NTA2
-OTksOTQ0NTE1MDkzLC0yODA1MzE0NjYsMTU0NjAyMDUwOCw5NT
-Y5MjcxMTIsNTc1MDkxODk1LC0xMjMwMzQ2NDksLTIwNzg1OTQw
-MDMsMTkwNzI1MTEzNSwyOTY1NDc2MzYsLTY3MDY3NDgxMCwxMz
-U3NTEzMzM5LC0xNzQ2NTk2MjUyLC0xODk2NjA4MzUwLDEyNDU4
-MTI1NDFdfQ==
+eyJoaXN0b3J5IjpbMTUyMzE1MzgwOSwtNDQ4NTA1MTI4LDE4MT
+k4MzQ4ODIsLTEzMjA3NTc4MiwtMTMyMzE5MzA5NiwxMTAwODY5
+MTQyLDI4MzQ1MDY5OSw5NDQ1MTUwOTMsLTI4MDUzMTQ2NiwxNT
+Q2MDIwNTA4LDk1NjkyNzExMiw1NzUwOTE4OTUsLTEyMzAzNDY0
+OSwtMjA3ODU5NDAwMywxOTA3MjUxMTM1LDI5NjU0NzYzNiwtNj
+cwNjc0ODEwLDEzNTc1MTMzMzksLTE3NDY1OTYyNTIsLTE4OTY2
+MDgzNTBdfQ==
 -->
