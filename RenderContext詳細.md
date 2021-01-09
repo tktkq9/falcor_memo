@@ -2,9 +2,9 @@
 コマンドリストの処理を担当するもの  
 これにProgramVarsサブクラス（ディスクリプターハンドル）とかGraphicsState系のやつ（パイプラインステート）とかProgramKernels（ルートシグネチャー）とかを渡してコマンドラインの設定とか実行とかさせて描画とかさせる  
 
-CopyContextがコピー用  
-ComputeContextがCopyContextのサブクラスでコンピュート用  
 RenderContextがComputeContextのサブクラスで描画用  
+ComputeContextがCopyContextのサブクラスでコンピュート用  
+CopyContextがコピー用  
 
 ## RenderContext.h, cpp
 ComputeContextのサブクラス  
@@ -43,11 +43,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NzU1Njg3NSw5NDQ1MTUwOTMsLTI4MD
-UzMTQ2NiwxNTQ2MDIwNTA4LDk1NjkyNzExMiw1NzUwOTE4OTUs
-LTEyMzAzNDY0OSwtMjA3ODU5NDAwMywxOTA3MjUxMTM1LDI5Nj
-U0NzYzNiwtNjcwNjc0ODEwLDEzNTc1MTMzMzksLTE3NDY1OTYy
-NTIsLTE4OTY2MDgzNTAsMTI0NTgxMjU0MSwtMTkxMTk2NTkwMy
-wxNTg1MTA0NTcwLC0xNDQwNzY1NjI1LDQyNTM0ODQ1OSwtMTMy
-MTY2ODU5Nl19
+eyJoaXN0b3J5IjpbMjgzNDUwNjk5LDk0NDUxNTA5MywtMjgwNT
+MxNDY2LDE1NDYwMjA1MDgsOTU2OTI3MTEyLDU3NTA5MTg5NSwt
+MTIzMDM0NjQ5LC0yMDc4NTk0MDAzLDE5MDcyNTExMzUsMjk2NT
+Q3NjM2LC02NzA2NzQ4MTAsMTM1NzUxMzMzOSwtMTc0NjU5NjI1
+MiwtMTg5NjYwODM1MCwxMjQ1ODEyNTQxLC0xOTExOTY1OTAzLD
+E1ODUxMDQ1NzAsLTE0NDA3NjU2MjUsNDI1MzQ4NDU5LC0xMzIx
+NjY4NTk2XX0=
 -->
