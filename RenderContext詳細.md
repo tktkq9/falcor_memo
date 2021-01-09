@@ -51,21 +51,21 @@ RenderContextと同じく、prepareForDrawの変数のハンドル設定だけ�
 ## CopyContext
 コマンドリストを保持し、コピー系（そしてコピーが必要なテクスチャーのアップデート系もここ）のコマンドリスト設定担当する  
 
-あと、ComputeContext、RenderContextで使われる共通処理の実装もここ  
+あと、ComputeContext、RenderContextで使われる共通処理の実装もここ   
 
 ### D3D12CopyContext.cpp
 CopyContextのdx12の場合の処理  
 
-ComputeContext、RenderContextで使われる共通処理として
+ComputeContext、RenderContextでも使われる共通処理として
 - bindDescriptorHeaps : ディスクリプターヒープのコマンドリスト設定
 - d3d12ResourceBarrier : リソース全般のバリア設定
-- 
 
+あとはコピー系の処理のみ  
 
 ## LowLevelContextData
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjUxOTIxLC02ODg2ODgzNTQsMzQ5ND
+eyJoaXN0b3J5IjpbNjg5MzA2NjY2LC02ODg2ODgzNTQsMzQ5ND
 kzNDI5LC0xMTYxNzc2NzU2LDEzMTYwMDA1MjEsMTM5NzA0MzQ4
 NCwxMDYyODgxNzE0LC00NDg1MDUxMjgsMTgxOTgzNDg4MiwtMT
 MyMDc1NzgyLC0xMzIzMTkzMDk2LDExMDA4NjkxNDIsMjgzNDUw
