@@ -13,7 +13,7 @@ TODO    D3D12RenderContextを読む
 コマンドリストを保持し、  
 描画系のコマンドライン設定と実行を担当する  
 
-これにGraphicsState（ルートシグネチャー、パイプラインステート）やGraphicsVars（変数、ディスクリプター）を
+これにGraphicsState（ルートシグネチャー、パイプラインステート）やGraphicsVars（変数、ディスクリプター、はんどる）を
 
 
 
@@ -38,11 +38,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyODk0NDcxMCwyOTY1NDc2MzYsLTY3MD
-Y3NDgxMCwxMzU3NTEzMzM5LC0xNzQ2NTk2MjUyLC0xODk2NjA4
-MzUwLDEyNDU4MTI1NDEsLTE5MTE5NjU5MDMsMTU4NTEwNDU3MC
-wtMTQ0MDc2NTYyNSw0MjUzNDg0NTksLTEzMjE2Njg1OTYsMzEz
-NjYwMjM1LC0xMTA2MzY3NzQ1LDE5OTc5NzUxNDcsLTIxMDc5MT
-k4OTYsLTgxODUwMTk1OCwtMTExODAxMzEwMyw5OTUwNjQxMDks
-MjA2MjQ5MTc1MF19
+eyJoaXN0b3J5IjpbMTkwNzI1MTEzNSwtNzI4OTQ0NzEwLDI5Nj
+U0NzYzNiwtNjcwNjc0ODEwLDEzNTc1MTMzMzksLTE3NDY1OTYy
+NTIsLTE4OTY2MDgzNTAsMTI0NTgxMjU0MSwtMTkxMTk2NTkwMy
+wxNTg1MTA0NTcwLC0xNDQwNzY1NjI1LDQyNTM0ODQ1OSwtMTMy
+MTY2ODU5NiwzMTM2NjAyMzUsLTExMDYzNjc3NDUsMTk5Nzk3NT
+E0NywtMjEwNzkxOTg5NiwtODE4NTAxOTU4LC0xMTE4MDEzMTAz
+LDk5NTA2NDEwOV19
 -->
