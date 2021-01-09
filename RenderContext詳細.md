@@ -17,8 +17,10 @@ RenderContextがComputeContextのサブクラスで描画用
 ### D3D12RenderContext.cpp
 RenderContextのdx12の場合の処理  
 
+init : blit用の初期化のみ  
 prepareForDraw : ルートシグネチャーとパイプラインステートやビューポートなど、変数設定と描画命令以外の処理を行う  
 draw系 : バリアはってdeaw系呼び出し  
+
 
 
 ## ComputeContext.h, cpp
@@ -38,7 +40,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNDQ3MTI1MCwxOTA3MjUxMTM1LDI5Nj
+eyJoaXN0b3J5IjpbMjEzMDMwMTkyMiwxOTA3MjUxMTM1LDI5Nj
 U0NzYzNiwtNjcwNjc0ODEwLDEzNTc1MTMzMzksLTE3NDY1OTYy
 NTIsLTE4OTY2MDgzNTAsMTI0NTgxMjU0MSwtMTkxMTk2NTkwMy
 wxNTg1MTA0NTcwLC0xNDQwNzY1NjI1LDQyNTM0ODQ1OSwtMTMy
