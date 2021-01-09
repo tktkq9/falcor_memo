@@ -47,7 +47,7 @@ RenderContextのdx12の場合の処理
 - blit : blit実行  
 - resolve系 : resolve呼び出し  
 
-こちらも、prepareForDrawの変数のハンドル設定だけは直接ここで行われるのではなく、  ProgramVarsのapply()関数呼び出し -> D3D12DescriptorSetの関数呼び出しによってコマンドリスト設定、という流れになっている  
+RenderContextと同じく、prepareForDrawの変数のハンドル設定だけは直接ここで行われるのではなく、  ProgramVarsのapply()関数呼び出し -> D3D12DescriptorSetの関数呼び出しによってコマンドリスト設定、という流れになっている  
 
 
 
@@ -60,7 +60,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MzQ3NTIxNiwxODE5ODM0ODgyLC0xMz
+eyJoaXN0b3J5IjpbMTM2NDY2OTI1OSwxODE5ODM0ODgyLC0xMz
 IwNzU3ODIsLTEzMjMxOTMwOTYsMTEwMDg2OTE0MiwyODM0NTA2
 OTksOTQ0NTE1MDkzLC0yODA1MzE0NjYsMTU0NjAyMDUwOCw5NT
 Y5MjcxMTIsNTc1MDkxODk1LC0xMjMwMzQ2NDksLTIwNzg1OTQw
