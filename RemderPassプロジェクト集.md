@@ -79,18 +79,17 @@ arrayとmipは1のみ、各々のリソースのサイズは制限なし
 ## BSDFViewer
 読み込んだシーンのマテリアルの見た目を確かめるためのパス  
 imguiでBSDの設定Fやカメラや表示したいマテリアルなどの指定を行い、そのパラメーターをシェーダーに渡して、その選んだマテリアルごとの見た目を確認する  
-
-sliceViewerがonならTODO : 
+sliceViewerがonならTODO : を、offなら球体を描画する  
 
 キーやマウス操作はマテリアルの変更とクリックしたピクセル情報表示のみ  
 
 out : RGBA32Float、UnorderedAccess  
 このパスはoutのみ  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMzcxNjMwNiwtMTg2NTY1MjA4MSwyOT
-Q4MzM3NiwtNDM1NTg0MTU3LDgxNTI1MTI4LC0xMjQzNjM5ODg3
-LC01NTIyMTM2MjgsLTg4NjU2MjEwMiw0MjMwOTAwNTAsLTE2Mz
-I3MDg1NzQsLTEwNTU0MTQ4OTYsMTc4MTk3MDUzMCwtMTk5MTk5
-NDMwOCwxNDE3MDY5OTkwLDEwNTEyMjE2MywxMjkzMDE0ODcxXX
-0=
+eyJoaXN0b3J5IjpbMjEzNDYxMzk4NSwtNzMzNzE2MzA2LDI5ND
+gzMzc2LC00MzU1ODQxNTcsODE1MjUxMjgsLTEyNDM2Mzk4ODcs
+LTU1MjIxMzYyOCwtODg2NTYyMTAyLDQyMzA5MDA1MCwtMTYzMj
+cwODU3NCwtMTA1NTQxNDg5NiwxNzgxOTcwNTMwLC0xOTkxOTk0
+MzA4LDE0MTcwNjk5OTAsMTA1MTIyMTYzLDEyOTMwMTQ4NzFdfQ
+==
 -->
