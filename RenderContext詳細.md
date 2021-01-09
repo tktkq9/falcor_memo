@@ -8,7 +8,7 @@ CopyContextがコピー用
 
 ## RenderContext
 ComputeContextのサブクラス  
-コマンドリストを保持し、描画系のコマンドライン設定と実行を担当する  
+コマンドリストを保持し、描画系のコマンドライン設定を担当する  
 （もちろんComputeContextのサブクラスなのでComputeContextとCopyContextの機能も使える）  
 リソースで考えるとFBO、RTV、DSV担当  
 
@@ -60,7 +60,7 @@ RenderContextと同じく、prepareForDrawの変数のハンドル設定だけ�
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTYyMDU3NywtMTE2MTc3Njc1NiwxMz
+eyJoaXN0b3J5IjpbLTk1MjQ3NzUwNCwtMTE2MTc3Njc1NiwxMz
 E2MDAwNTIxLDEzOTcwNDM0ODQsMTA2Mjg4MTcxNCwtNDQ4NTA1
 MTI4LDE4MTk4MzQ4ODIsLTEzMjA3NTc4MiwtMTMyMzE5MzA5Ni
 wxMTAwODY5MTQyLDI4MzQ1MDY5OSw5NDQ1MTUwOTMsLTI4MDUz
