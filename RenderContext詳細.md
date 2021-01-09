@@ -17,13 +17,15 @@ RenderContextがComputeContextのサブクラスで描画用
 ### D3D12RenderContext.cpp
 RenderContextのdx12の場合の処理  
 
+内容は以下のようなものとなっている  
 - init : blit用の初期化のみ  
 - prepareForDraw : ルートシグネチャーとパイプラインステートやビューポートなど、変数設定と描画命令以外の処理を行う  
 - set, clear系 : prepareForDrawとかで行っている設定を個別に行う用、prepareForDrawでもset系は使われている  
 - draw系 : バリアはってdeaw系呼び出し  
 - blit : blit実行  
-- 
+- resolve系 : resolve呼び出し  
 
+変数のハンドル設定だけはここではなく
 
 ## ComputeContext.h, cpp
 TODO    D3D12ComputeContextを読む  
@@ -42,11 +44,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwNDQzNTU4LC0yMDc4NTk0MDAzLDE5MD
-cyNTExMzUsMjk2NTQ3NjM2LC02NzA2NzQ4MTAsMTM1NzUxMzMz
-OSwtMTc0NjU5NjI1MiwtMTg5NjYwODM1MCwxMjQ1ODEyNTQxLC
-0xOTExOTY1OTAzLDE1ODUxMDQ1NzAsLTE0NDA3NjU2MjUsNDI1
-MzQ4NDU5LC0xMzIxNjY4NTk2LDMxMzY2MDIzNSwtMTEwNjM2Nz
-c0NSwxOTk3OTc1MTQ3LC0yMTA3OTE5ODk2LC04MTg1MDE5NTgs
-LTExMTgwMTMxMDNdfQ==
+eyJoaXN0b3J5IjpbLTEyMzAzNDY0OSwtMjA3ODU5NDAwMywxOT
+A3MjUxMTM1LDI5NjU0NzYzNiwtNjcwNjc0ODEwLDEzNTc1MTMz
+MzksLTE3NDY1OTYyNTIsLTE4OTY2MDgzNTAsMTI0NTgxMjU0MS
+wtMTkxMTk2NTkwMywxNTg1MTA0NTcwLC0xNDQwNzY1NjI1LDQy
+NTM0ODQ1OSwtMTMyMTY2ODU5NiwzMTM2NjAyMzUsLTExMDYzNj
+c3NDUsMTk5Nzk3NTE0NywtMjEwNzkxOTg5NiwtODE4NTAxOTU4
+LC0xMTE4MDEzMTAzXX0=
 -->
