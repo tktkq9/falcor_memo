@@ -57,14 +57,15 @@ RenderContextと同じく、prepareForDrawの変数のハンドル設定だけ�
 ### D3D12CopyContext.cpp
 CopyContextのdx12の場合の処理  
 
-ComputeContext、RenderContextで使われる共通処理として、
-
+ComputeContext、RenderContextで使われる共通処理として
+- bindDescriptorHeaps : ディスクリプターヒープのコマンドリスト設定
+- 
 
 
 ## LowLevelContextData
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTY0MTk0ODksMzQ5NDkzNDI5LC0xMT
+eyJoaXN0b3J5IjpbLTEwNzE5NjkzMjMsMzQ5NDkzNDI5LC0xMT
 YxNzc2NzU2LDEzMTYwMDA1MjEsMTM5NzA0MzQ4NCwxMDYyODgx
 NzE0LC00NDg1MDUxMjgsMTgxOTgzNDg4MiwtMTMyMDc1NzgyLC
 0xMzIzMTkzMDk2LDExMDA4NjkxNDIsMjgzNDUwNjk5LDk0NDUx
