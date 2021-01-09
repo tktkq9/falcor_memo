@@ -76,11 +76,11 @@ Contextからそれらを行うために、Context系のメンバ変数となっ
             Direct,
             Count
         };
-ごとに別々のLowLevelContextDataが作られるっぽい  
+ごとに別々のLowLevelContextData（つまりCommandQueue）が作られるっぽい  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjEzOTExNjcsLTk4ODc5ODkxMSw4MT
+eyJoaXN0b3J5IjpbLTE5ODA2Mjk3MTYsLTk4ODc5ODkxMSw4MT
 I2NTM3NTAsLTY4ODY4ODM1NCwzNDk0OTM0MjksLTExNjE3NzY3
 NTYsMTMxNjAwMDUyMSwxMzk3MDQzNDg0LDEwNjI4ODE3MTQsLT
 Q0ODUwNTEyOCwxODE5ODM0ODgyLC0xMzIwNzU3ODIsLTEzMjMx
