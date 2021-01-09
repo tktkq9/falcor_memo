@@ -9,8 +9,9 @@ ComputeContextがCopyContextのサブクラスでコンピュート用
 RenderContextがComputeContextのサブクラスで描画用  
 
 ## RenderContext.h, cpp
-コマンドリストを保持し、  
-描画系のコマンドライン設定と実行を担当する  
+ComputeContextのサブクラス  
+コマンドリストを保持し、描画系のコマンドライン設定と実行を担当する  
+（もちろんComputeContextのサブクラスなのでComputeContextの機能も使える）  
 
 これにGraphicsState（ルートシグネチャー、パイプラインステート、シザービューポートなど変数以外の部分）やGraphicsVars（ディスクリプター、ハンドルなど変数部分）を渡して、描画に関連するマンドリスト処理を行う  
 
@@ -44,7 +45,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MDUzMTQ2NiwxMDgxNjQxODMsMTU0Nj
+eyJoaXN0b3J5IjpbNTQwMDkyMTk1LC0yODA1MzE0NjYsMTU0Nj
 AyMDUwOCw5NTY5MjcxMTIsNTc1MDkxODk1LC0xMjMwMzQ2NDks
 LTIwNzg1OTQwMDMsMTkwNzI1MTEzNSwyOTY1NDc2MzYsLTY3MD
 Y3NDgxMCwxMzU3NTEzMzM5LC0xNzQ2NTk2MjUyLC0xODk2NjA4
