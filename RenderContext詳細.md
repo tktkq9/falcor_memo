@@ -19,7 +19,7 @@ RenderContextのdx12の場合の処理
 
 内容は以下のようなものとなっている  
 - init : blit用の初期化のみ  
-- prepareForDraw : ルートシグネチャーとパイプラインステートやビューポートなど描画命令以外の処理を行う
+- prepareForDraw : ルートシグネチャーとパイプラインステートやビューポート、ハンドル設定など描画命令以外の処理を行う
 - set, clear系 : prepareForDrawとかで行っている設定を個別に行う用、prepareForDrawでもset系は使われている  
 - draw系 : バリアはってdeaw系呼び出し  
 - blit : blit実行  
@@ -33,7 +33,7 @@ CopyContextのサブクラス
 （もちろんCopyContextのサブクラスなのでCopyContextの機能も使える）  
 リソースで考えるとUAV担当   
 
-これにComputeState（ルートシグネチャー、パイプラインステート、シザービューポートなど変数以外の部分）やGraphicsVars（ディスクリプター、ハンドルなど変数部分）を渡して、描画に関連するマンドリスト処理を行う  
+これにComputeState（ルートシグネチャー、パイプラインステート、シザービューポートなど変数以外の部分）やComputeVars（ディスクリプター、ハンドルの変数部分）を渡して、描画に関連するマンドリスト処理を行う  
 
 
 ### D3D12ComputeContext.cpp
@@ -49,7 +49,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTUzMTA4MjQsMjgzNDUwNjk5LDk0ND
+eyJoaXN0b3J5IjpbLTEwMzEwNDUyMjcsMjgzNDUwNjk5LDk0ND
 UxNTA5MywtMjgwNTMxNDY2LDE1NDYwMjA1MDgsOTU2OTI3MTEy
 LDU3NTA5MTg5NSwtMTIzMDM0NjQ5LC0yMDc4NTk0MDAzLDE5MD
 cyNTExMzUsMjk2NTQ3NjM2LC02NzA2NzQ4MTAsMTM1NzUxMzMz
