@@ -19,9 +19,10 @@ RenderContextのdx12の場合の処理
 
 - init : blit用の初期化のみ  
 - prepareForDraw : ルートシグネチャーとパイプラインステートやビューポートなど、変数設定と描画命令以外の処理を行う  
-
+- set, clear系 : prepareForDrawとかで行っている設定を個別に行う用、prepareForDrawでもset系は使われている  
 - draw系 : バリアはってdeaw系呼び出し  
-
+- blit : blit実行  
+- 
 
 
 ## ComputeContext.h, cpp
@@ -41,7 +42,7 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzg1OTQwMDMsNzA5MzIyOTcxLDE5MD
+eyJoaXN0b3J5IjpbNjIwNDQzNTU4LC0yMDc4NTk0MDAzLDE5MD
 cyNTExMzUsMjk2NTQ3NjM2LC02NzA2NzQ4MTAsMTM1NzUxMzMz
 OSwtMTc0NjU5NjI1MiwtMTg5NjYwODM1MCwxMjQ1ODEyNTQxLC
 0xOTExOTY1OTAzLDE1ODUxMDQ1NzAsLTE0NDA3NjU2MjUsNDI1
