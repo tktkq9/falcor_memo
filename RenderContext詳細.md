@@ -6,6 +6,8 @@ RenderContextがComputeContextのサブクラスで描画用
 ComputeContextがCopyContextのサブクラスでコンピュート用  
 CopyContextがコピー用  
 
+そして、これらで設定されたコマンドリストを実行してフェン
+
 ## RenderContext
 ComputeContextのサブクラス  
 コマンドリストを保持し、描画系のコマンドリスト設定を担当する  
@@ -63,9 +65,10 @@ ComputeContext、RenderContextでも使われる共通処理として
 あとはコピー系の処理のみ  
 
 ## LowLevelContextData
-
+Contextが持っているコマンドリストの実行担当  
+Contextのメンバ変数となっている  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg5MzA2NjY2LC02ODg2ODgzNTQsMzQ5ND
+eyJoaXN0b3J5IjpbNDQ1MzQ1ODMzLC02ODg2ODgzNTQsMzQ5ND
 kzNDI5LC0xMTYxNzc2NzU2LDEzMTYwMDA1MjEsMTM5NzA0MzQ4
 NCwxMDYyODgxNzE0LC00NDg1MDUxMjgsMTgxOTgzNDg4MiwtMT
 MyMDc1NzgyLC0xMzIzMTkzMDk2LDExMDA4NjkxNDIsMjgzNDUw
