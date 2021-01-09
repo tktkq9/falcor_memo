@@ -70,11 +70,11 @@ SampleCount = 1である必要がある
 blit実行用パス  
 リソースをレンダーターゲットへサンプラー使って描画  
 
-設定はさんぷらー
+設定はサンプラーが
 
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM3MDA5MzgwLDIwODM1MjM5MDMsLTg4Nj
+eyJoaXN0b3J5IjpbLTU1MjIxMzYyOCw3MzcwMDkzODAsLTg4Nj
 U2MjEwMiw0MjMwOTAwNTAsLTE2MzI3MDg1NzQsLTEwNTU0MTQ4
 OTYsMTc4MTk3MDUzMCwtMTk5MTk5NDMwOCwxNDE3MDY5OTkwLD
 EwNTEyMjE2MywxMjkzMDE0ODcxXX0=
