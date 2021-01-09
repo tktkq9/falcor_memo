@@ -29,7 +29,7 @@ prepareForDrawの変数のハンドル設定だけは直接ここで行われる
 
 ## ComputeContext
 CopyContextのサブクラス  
-コマンドリストを保持し、dispatch、dispatchIndirect のコマンドライン設定と実行を担当する  
+コマンドリストを保持し、dispatch、dispatchIndirectのコマンドライン設定と実行を担当する  
 （もちろんCopyContextのサブクラスなのでCopyContextの機能も使える）  
 リソースで考えるとUAV担当   
 
@@ -60,11 +60,11 @@ RenderContextと同じく、prepareForDrawの変数のハンドル設定だけ�
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDM4MDA4NiwxMzE2MDAwNTIxLDEzOT
-cwNDM0ODQsMTA2Mjg4MTcxNCwtNDQ4NTA1MTI4LDE4MTk4MzQ4
-ODIsLTEzMjA3NTc4MiwtMTMyMzE5MzA5NiwxMTAwODY5MTQyLD
-I4MzQ1MDY5OSw5NDQ1MTUwOTMsLTI4MDUzMTQ2NiwxNTQ2MDIw
-NTA4LDk1NjkyNzExMiw1NzUwOTE4OTUsLTEyMzAzNDY0OSwtMj
-A3ODU5NDAwMywxOTA3MjUxMTM1LDI5NjU0NzYzNiwtNjcwNjc0
-ODEwXX0=
+eyJoaXN0b3J5IjpbLTExNjE3NzY3NTYsLTYwNDM4MDA4NiwxMz
+E2MDAwNTIxLDEzOTcwNDM0ODQsMTA2Mjg4MTcxNCwtNDQ4NTA1
+MTI4LDE4MTk4MzQ4ODIsLTEzMjA3NTc4MiwtMTMyMzE5MzA5Ni
+wxMTAwODY5MTQyLDI4MzQ1MDY5OSw5NDQ1MTUwOTMsLTI4MDUz
+MTQ2NiwxNTQ2MDIwNTA4LDk1NjkyNzExMiw1NzUwOTE4OTUsLT
+EyMzAzNDY0OSwtMjA3ODU5NDAwMywxOTA3MjUxMTM1LDI5NjU0
+NzYzNl19
 -->
