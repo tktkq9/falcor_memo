@@ -29,7 +29,7 @@ prepareForDrawの変数のハンドル設定だけは直接ここで行われる
 
 ## ComputeContext
 CopyContextのサブクラス  
-コマンドリストを保持し、dispatch、dispatchIndirectのコマンドライン設定と実行を担当する  
+コマンドリストを保持し、dispatch、dispatchIndirectのコマンドライン設定と実行（正確には実行の実装はCopyContext）を担当する  
 （もちろんCopyContextのサブクラスなのでCopyContextの機能も使える）  
 リソースで考えるとUAV担当   
 
@@ -59,7 +59,7 @@ RenderContextと同じく、prepareForDrawの変数のハンドル設定だけ�
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODQ2MTk1OCwtMTE2MTc3Njc1NiwxMz
+eyJoaXN0b3J5IjpbMTYxODQ3ODc4NiwtMTE2MTc3Njc1NiwxMz
 E2MDAwNTIxLDEzOTcwNDM0ODQsMTA2Mjg4MTcxNCwtNDQ4NTA1
 MTI4LDE4MTk4MzQ4ODIsLTEzMjA3NTc4MiwtMTMyMzE5MzA5Ni
 wxMTAwODY5MTQyLDI4MzQ1MDY5OSw5NDQ1MTUwOTMsLTI4MDUz
