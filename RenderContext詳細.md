@@ -52,14 +52,14 @@ RenderContextと同じく、prepareForDrawの変数のハンドル設定だけ�
 コマンドリストを保持し、コピー系のコマンドリスト設定と実行を担当する  
 コマンドリストの実行処理、フェンス処理も担当する  
 
-これにComputeState（ルートシグネチャー、パイプラインステート、シザービューポートなど変数以外の部分）やComputeVars（ディスクリプター、ハンドルの変数部分）を渡して、描画に関連するマンドリスト処理を行う  
+リソースの設定、変換する際のバリアの設定、
 
 
 ### D3D12CopyContext.cpp
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxODQ3ODc4NiwtMTE2MTc3Njc1NiwxMz
+eyJoaXN0b3J5IjpbMTY0MjkxNzU0MSwtMTE2MTc3Njc1NiwxMz
 E2MDAwNTIxLDEzOTcwNDM0ODQsMTA2Mjg4MTcxNCwtNDQ4NTA1
 MTI4LDE4MTk4MzQ4ODIsLTEzMjA3NTc4MiwtMTMyMzE5MzA5Ni
 wxMTAwODY5MTQyLDI4MzQ1MDY5OSw5NDQ1MTUwOTMsLTI4MDUz
