@@ -69,13 +69,16 @@ ComputeContext、RenderContextでも使われる共通処理として
 Contextからそれらを行うために、Context系のメンバ変数となっている  
 （ちなみにContext以外でも使われているのでContext専用ではない）  
 
-
+            Copy,
+            Compute,
+            Direct,
+            Count
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MzgzOTIxLC05ODg3OTg5MTEsODEyNj
-UzNzUwLC02ODg2ODgzNTQsMzQ5NDkzNDI5LC0xMTYxNzc2NzU2
-LDEzMTYwMDA1MjEsMTM5NzA0MzQ4NCwxMDYyODgxNzE0LC00ND
-g1MDUxMjgsMTgxOTgzNDg4MiwtMTMyMDc1NzgyLC0xMzIzMTkz
-MDk2LDExMDA4NjkxNDIsMjgzNDUwNjk5LDk0NDUxNTA5MywtMj
-gwNTMxNDY2LDE1NDYwMjA1MDgsOTU2OTI3MTEyLDU3NTA5MTg5
-NV19
+eyJoaXN0b3J5IjpbMTM3ODk2NTg4MSwtOTg4Nzk4OTExLDgxMj
+Y1Mzc1MCwtNjg4Njg4MzU0LDM0OTQ5MzQyOSwtMTE2MTc3Njc1
+NiwxMzE2MDAwNTIxLDEzOTcwNDM0ODQsMTA2Mjg4MTcxNCwtND
+Q4NTA1MTI4LDE4MTk4MzQ4ODIsLTEzMjA3NTc4MiwtMTMyMzE5
+MzA5NiwxMTAwODY5MTQyLDI4MzQ1MDY5OSw5NDQ1MTUwOTMsLT
+I4MDUzMTQ2NiwxNTQ2MDIwNTA4LDk1NjkyNzExMiw1NzUwOTE4
+OTVdfQ==
 -->
