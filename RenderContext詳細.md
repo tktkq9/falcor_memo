@@ -49,8 +49,8 @@ ComputeContextのdx12の場合の処理
 RenderContextと同じく、prepareForDrawの変数のハンドル設定だけは直接ここで行われるのではなく、  ProgramVarsのapply()関数呼び出し -> D3D12DescriptorSetの関数呼び出しによってコマンドリスト設定、という流れになっている  
 
 ## CopyContext.h, cpp
-コマンドリストを保持し、コピー系のコマンドリスト設定と実行を担当する  
-コマンドリストの実行処理、フェンス処理も担当する  
+コマンドリストを保持し、コピー系のコマンドリスト設定担当する  
+
 
 リソースの設定、変換する際のバリアの設定、
 
@@ -59,11 +59,11 @@ RenderContextと同じく、prepareForDrawの変数のハンドル設定だけ�
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MjkxNzU0MSwtMTE2MTc3Njc1NiwxMz
-E2MDAwNTIxLDEzOTcwNDM0ODQsMTA2Mjg4MTcxNCwtNDQ4NTA1
-MTI4LDE4MTk4MzQ4ODIsLTEzMjA3NTc4MiwtMTMyMzE5MzA5Ni
-wxMTAwODY5MTQyLDI4MzQ1MDY5OSw5NDQ1MTUwOTMsLTI4MDUz
-MTQ2NiwxNTQ2MDIwNTA4LDk1NjkyNzExMiw1NzUwOTE4OTUsLT
-EyMzAzNDY0OSwtMjA3ODU5NDAwMywxOTA3MjUxMTM1LDI5NjU0
-NzYzNl19
+eyJoaXN0b3J5IjpbLTExMjUyMjU3NjQsLTExNjE3NzY3NTYsMT
+MxNjAwMDUyMSwxMzk3MDQzNDg0LDEwNjI4ODE3MTQsLTQ0ODUw
+NTEyOCwxODE5ODM0ODgyLC0xMzIwNzU3ODIsLTEzMjMxOTMwOT
+YsMTEwMDg2OTE0MiwyODM0NTA2OTksOTQ0NTE1MDkzLC0yODA1
+MzE0NjYsMTU0NjAyMDUwOCw5NTY5MjcxMTIsNTc1MDkxODk1LC
+0xMjMwMzQ2NDksLTIwNzg1OTQwMDMsMTkwNzI1MTEzNSwyOTY1
+NDc2MzZdfQ==
 -->
