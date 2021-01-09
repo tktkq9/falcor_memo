@@ -1,6 +1,6 @@
 # RenderContext関連
 コマンドリストの処理を担当するもの  
-これに[ProgramVarsサブクラス（ディスクリプターハンドル）](https://github.com/tktkq9/falcor_memo/blob/master/ProgramVars%2C%20ParameterBlock%2C%20ProgramReflection%E9%96%A2%E9%80%A3.md)とか[GraphicsState系のやつ（パイプラインステート）とかProgramKernels（ルートシグネチャー）](https://github.com/tktkq9/falcor_memo/blob/main/ProgramVersion%2C%20Program%2C%20Shader%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E9%96%A2%E9%80%A3.md)とかを渡してコマンドラインの設定とか実行とかさせて描画とかさせる  
+これに[ProgramVarsサブクラス（ディスクリプターハンドル）](https://github.com/tktkq9/falcor_memo/blob/main/ProgramVars%2C%20ParameterBlock%2C%20ProgramReflection%E9%96%A2%E9%80%A3.md)とか[GraphicsState系のやつ（パイプラインステート）とかProgramKernels（ルートシグネチャー）](https://github.com/tktkq9/falcor_memo/blob/main/ProgramVersion%2C%20Program%2C%20Shader%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E9%96%A2%E9%80%A3.md)とかを渡してコマンドラインの設定とか実行とかさせて描画とかさせる  
 
 
 RenderContextがComputeContextのサブクラスで描画用  
@@ -82,7 +82,7 @@ Contextからそれらを行うために、Context系のメンバ変数となっ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTY4OTc1NCwtOTg4Nzk4OTExLDgxMj
+eyJoaXN0b3J5IjpbMTc4NDg3MjQ5NywtOTg4Nzk4OTExLDgxMj
 Y1Mzc1MCwtNjg4Njg4MzU0LDM0OTQ5MzQyOSwtMTE2MTc3Njc1
 NiwxMzE2MDAwNTIxLDEzOTcwNDM0ODQsMTA2Mjg4MTcxNCwtND
 Q4NTA1MTI4LDE4MTk4MzQ4ODIsLTEzMjA3NTc4MiwtMTMyMzE5
