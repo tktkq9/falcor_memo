@@ -10,6 +10,7 @@ CopyContextがコピー用
 ComputeContextのサブクラス  
 コマンドリストを保持し、描画系のコマンドライン設定と実行を担当する  
 （もちろんComputeContextのサブクラスなのでComputeContextとCopyContextの機能も使える）  
+リソースで考えるとFBO、RTV、DSV、
 
 これにGraphicsState（ルートシグネチャー、パイプラインステート、シザービューポートなど変数以外の部分）やGraphicsVars（ディスクリプター、ハンドルなど変数部分）を渡して、描画に関連するマンドリスト処理を行う  
 
@@ -43,11 +44,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgzNDUwNjk5LDk0NDUxNTA5MywtMjgwNT
-MxNDY2LDE1NDYwMjA1MDgsOTU2OTI3MTEyLDU3NTA5MTg5NSwt
-MTIzMDM0NjQ5LC0yMDc4NTk0MDAzLDE5MDcyNTExMzUsMjk2NT
-Q3NjM2LC02NzA2NzQ4MTAsMTM1NzUxMzMzOSwtMTc0NjU5NjI1
-MiwtMTg5NjYwODM1MCwxMjQ1ODEyNTQxLC0xOTExOTY1OTAzLD
-E1ODUxMDQ1NzAsLTE0NDA3NjU2MjUsNDI1MzQ4NDU5LC0xMzIx
-NjY4NTk2XX0=
+eyJoaXN0b3J5IjpbLTEzODc5ODIwODcsMjgzNDUwNjk5LDk0ND
+UxNTA5MywtMjgwNTMxNDY2LDE1NDYwMjA1MDgsOTU2OTI3MTEy
+LDU3NTA5MTg5NSwtMTIzMDM0NjQ5LC0yMDc4NTk0MDAzLDE5MD
+cyNTExMzUsMjk2NTQ3NjM2LC02NzA2NzQ4MTAsMTM1NzUxMzMz
+OSwtMTc0NjU5NjI1MiwtMTg5NjYwODM1MCwxMjQ1ODEyNTQxLC
+0xOTExOTY1OTAzLDE1ODUxMDQ1NzAsLTE0NDA3NjU2MjUsNDI1
+MzQ4NDU5XX0=
 -->
