@@ -49,7 +49,7 @@ ComputeContextのdx12の場合の処理
 RenderContextと同じく、prepareForDrawの変数のハンドル設定だけは直接ここで行われるのではなく、  ProgramVarsのapply()関数呼び出し -> D3D12DescriptorSetの関数呼び出しによってコマンドリスト設定、という流れになっている  
 
 ## CopyContext
-コマンドリストを保持し、コピー系（ゆえにテクスチャーのアップデート系もここ）やリソースのバリア系のコマンドリスト設定担当する  
+コマンドリストを保持し、コピー系（ゆえにこぴーテクスチャーのアップデート系もここ）やリソースのバリア系のコマンドリスト設定担当する  
 
 あと、ComputeContext、RenderContextで使われる共通処理の実装もここ  
 
@@ -64,11 +64,11 @@ ComputeContext、RenderContextで使われる共通処理として
 ## LowLevelContextData
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwMTA0NzczLDM0OTQ5MzQyOSwtMTE2MT
-c3Njc1NiwxMzE2MDAwNTIxLDEzOTcwNDM0ODQsMTA2Mjg4MTcx
-NCwtNDQ4NTA1MTI4LDE4MTk4MzQ4ODIsLTEzMjA3NTc4MiwtMT
-MyMzE5MzA5NiwxMTAwODY5MTQyLDI4MzQ1MDY5OSw5NDQ1MTUw
-OTMsLTI4MDUzMTQ2NiwxNTQ2MDIwNTA4LDk1NjkyNzExMiw1Nz
-UwOTE4OTUsLTEyMzAzNDY0OSwtMjA3ODU5NDAwMywxOTA3MjUx
-MTM1XX0=
+eyJoaXN0b3J5IjpbLTY4ODY4ODM1NCw0NDAxMDQ3NzMsMzQ5ND
+kzNDI5LC0xMTYxNzc2NzU2LDEzMTYwMDA1MjEsMTM5NzA0MzQ4
+NCwxMDYyODgxNzE0LC00NDg1MDUxMjgsMTgxOTgzNDg4MiwtMT
+MyMDc1NzgyLC0xMzIzMTkzMDk2LDExMDA4NjkxNDIsMjgzNDUw
+Njk5LDk0NDUxNTA5MywtMjgwNTMxNDY2LDE1NDYwMjA1MDgsOT
+U2OTI3MTEyLDU3NTA5MTg5NSwtMTIzMDM0NjQ5LC0yMDc4NTk0
+MDAzXX0=
 -->
