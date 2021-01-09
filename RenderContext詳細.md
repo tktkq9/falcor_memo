@@ -6,7 +6,7 @@ RenderContextがComputeContextのサブクラスで描画用
 ComputeContextがCopyContextのサブクラスでコンピュート用  
 CopyContextがコピー用  
 
-## RenderContext.h, cpp
+## RenderContext
 ComputeContextのサブクラス  
 コマンドリストを保持し、描画系のコマンドライン設定と実行を担当する  
 （もちろんComputeContextのサブクラスなのでComputeContextとCopyContextの機能も使える）  
@@ -27,7 +27,7 @@ RenderContextのdx12の場合の処理
 
 prepareForDrawの変数のハンドル設定だけは直接ここで行われるのではなく、  ProgramVarsのapply()関数呼び出し -> D3D12DescriptorSetの関数呼び出しによってコマンドリスト設定、という流れになっている  
 
-## ComputeContext.h, cpp
+## ComputeContext
 CopyContextのサブクラス  
 コマンドリストを保持し、描画系のコマンドライン設定と実行を担当する  
 （もちろんCopyContextのサブクラスなのでCopyContextの機能も使える）  
@@ -60,11 +60,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDY2OTI1OSwxODE5ODM0ODgyLC0xMz
-IwNzU3ODIsLTEzMjMxOTMwOTYsMTEwMDg2OTE0MiwyODM0NTA2
-OTksOTQ0NTE1MDkzLC0yODA1MzE0NjYsMTU0NjAyMDUwOCw5NT
-Y5MjcxMTIsNTc1MDkxODk1LC0xMjMwMzQ2NDksLTIwNzg1OTQw
-MDMsMTkwNzI1MTEzNSwyOTY1NDc2MzYsLTY3MDY3NDgxMCwxMz
-U3NTEzMzM5LC0xNzQ2NTk2MjUyLC0xODk2NjA4MzUwLDEyNDU4
-MTI1NDFdfQ==
+eyJoaXN0b3J5IjpbLTExNjc5NTcwNTMsMTgxOTgzNDg4MiwtMT
+MyMDc1NzgyLC0xMzIzMTkzMDk2LDExMDA4NjkxNDIsMjgzNDUw
+Njk5LDk0NDUxNTA5MywtMjgwNTMxNDY2LDE1NDYwMjA1MDgsOT
+U2OTI3MTEyLDU3NTA5MTg5NSwtMTIzMDM0NjQ5LC0yMDc4NTk0
+MDAzLDE5MDcyNTExMzUsMjk2NTQ3NjM2LC02NzA2NzQ4MTAsMT
+M1NzUxMzMzOSwtMTc0NjU5NjI1MiwtMTg5NjYwODM1MCwxMjQ1
+ODEyNTQxXX0=
 -->
