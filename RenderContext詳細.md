@@ -6,7 +6,7 @@ RenderContextがComputeContextのサブクラスで描画用
 ComputeContextがCopyContextのサブクラスでコンピュート用  
 CopyContextがコピー用  
 
-そして、これらで設定されたコマンドリストをクローズしてキューに渡して実行してフェンスかけてアロケーターとリストをリセットするの担当がLowLevelContextDataとなっている  
+そして、これらで設定されたコマンドリストをクローズしてキューに渡して実行してフェンスかけてアロケーターとリストリセットするの担当がLowLevelContextDataとなっている  
 
 ## RenderContext
 ComputeContextのサブクラス  
@@ -80,7 +80,7 @@ Contextからそれらを行うために、Context系のメンバ変数となっ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4MjQyMDUxLC05ODg3OTg5MTEsODEyNj
+eyJoaXN0b3J5IjpbMjMyNzc5ODgzLC05ODg3OTg5MTEsODEyNj
 UzNzUwLC02ODg2ODgzNTQsMzQ5NDkzNDI5LC0xMTYxNzc2NzU2
 LDEzMTYwMDA1MjEsMTM5NzA0MzQ4NCwxMDYyODgxNzE0LC00ND
 g1MDUxMjgsMTgxOTgzNDg4MiwtMTMyMDc1NzgyLC0xMzIzMTkz
