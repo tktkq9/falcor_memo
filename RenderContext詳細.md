@@ -40,10 +40,10 @@ CopyContextのサブクラス
 ComputeContextのdx12の場合の処理  
 
 内容は以下のようなものとなっている  
-- init : ID3D12CommandSignatureが無ければ作成のみ。
+- init : ID3D12CommandSignatureが無ければ作成のみ。ID3D12CommandSignatureはdispatchIndirect用  
 - prepareForDispatch: ルートシグネチャーとパイプラインステート、ハンドル設定などdispatch以外のコマンドリスト設定を行う
 - set, clear系 : prepareForDrawとかで行っている設定を個別に行う用、prepareForDrawでもset系は使われている  
-- dispatch系 : prepareForDispatch読んでdispatch系のコマンドリスト設定  
+- dispatch : prepareForDispatch読んでdispatch系のコマンドリスト設定  
 - blit : blit実行  
 - resolve系 : resolve呼び出し  
 
@@ -60,11 +60,11 @@ TODO  D3D12CopyContextを読む
 TODO  読む  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDQzMTMyMCwtNDQ4NTA1MTI4LDE4MT
-k4MzQ4ODIsLTEzMjA3NTc4MiwtMTMyMzE5MzA5NiwxMTAwODY5
-MTQyLDI4MzQ1MDY5OSw5NDQ1MTUwOTMsLTI4MDUzMTQ2NiwxNT
-Q2MDIwNTA4LDk1NjkyNzExMiw1NzUwOTE4OTUsLTEyMzAzNDY0
-OSwtMjA3ODU5NDAwMywxOTA3MjUxMTM1LDI5NjU0NzYzNiwtNj
-cwNjc0ODEwLDEzNTc1MTMzMzksLTE3NDY1OTYyNTIsLTE4OTY2
-MDgzNTBdfQ==
+eyJoaXN0b3J5IjpbLTE3MzcyMTAxNzIsLTQ0ODUwNTEyOCwxOD
+E5ODM0ODgyLC0xMzIwNzU3ODIsLTEzMjMxOTMwOTYsMTEwMDg2
+OTE0MiwyODM0NTA2OTksOTQ0NTE1MDkzLC0yODA1MzE0NjYsMT
+U0NjAyMDUwOCw5NTY5MjcxMTIsNTc1MDkxODk1LC0xMjMwMzQ2
+NDksLTIwNzg1OTQwMDMsMTkwNzI1MTEzNSwyOTY1NDc2MzYsLT
+Y3MDY3NDgxMCwxMzU3NTEzMzM5LC0xNzQ2NTk2MjUyLC0xODk2
+NjA4MzUwXX0=
 -->
