@@ -58,13 +58,14 @@ CopyContextのdx12の場合の処理
 
 ComputeContext、RenderContextで使われる共通処理として
 - bindDescriptorHeaps : ディスクリプターヒープのコマンドリスト設定
+- d3d12ResourceBarrier : リソース全般のバリア設定
 - 
 
 
 ## LowLevelContextData
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE1MTgyNzM2LC02ODg2ODgzNTQsMzQ5ND
+eyJoaXN0b3J5IjpbLTQxMjUxOTIxLC02ODg2ODgzNTQsMzQ5ND
 kzNDI5LC0xMTYxNzc2NzU2LDEzMTYwMDA1MjEsMTM5NzA0MzQ4
 NCwxMDYyODgxNzE0LC00NDg1MDUxMjgsMTgxOTgzNDg4MiwtMT
 MyMDc1NzgyLC0xMzIzMTkzMDk2LDExMDA4NjkxNDIsMjgzNDUw
