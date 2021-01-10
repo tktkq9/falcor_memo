@@ -80,7 +80,7 @@ arrayとmipは1のみ、各々のリソースのサイズは制限なし
 読み込んだシーンのマテリアルの見た目を確かめるためのパス  
 imguiでBSDFの設定やカメラや表示したいマテリアルなどの指定を行いマテリアルの見た目を確認する用
 
-sliceViewerがonならをuvを緯度経度に変換した画像を、offなら球体ｗ
+sliceViewerがonならをuvを緯度経度に変換した画像を、offなら球体
 レイトレを描画する  
 
 キーやマウス操作はマテリアルの変更とクリックしたピクセル情報表示のみ  
@@ -88,10 +88,10 @@ sliceViewerがonならをuvを緯度経度に変換した画像を、offなら�
 out : RGBA32Float、UnorderedAccess  
 このパスはoutのみ  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2OTgzMTM1LDEzOTUyODY2OTcsMjEzND
-YxMzk4NSwtNzMzNzE2MzA2LDI5NDgzMzc2LC00MzU1ODQxNTcs
-ODE1MjUxMjgsLTEyNDM2Mzk4ODcsLTU1MjIxMzYyOCwtODg2NT
-YyMTAyLDQyMzA5MDA1MCwtMTYzMjcwODU3NCwtMTA1NTQxNDg5
-NiwxNzgxOTcwNTMwLC0xOTkxOTk0MzA4LDE0MTcwNjk5OTAsMT
-A1MTIyMTYzLDEyOTMwMTQ4NzFdfQ==
+eyJoaXN0b3J5IjpbLTQ0NjY0MTI5MiwtNjY5ODMxMzUsMTM5NT
+I4NjY5NywyMTM0NjEzOTg1LC03MzM3MTYzMDYsMjk0ODMzNzYs
+LTQzNTU4NDE1Nyw4MTUyNTEyOCwtMTI0MzYzOTg4NywtNTUyMj
+EzNjI4LC04ODY1NjIxMDIsNDIzMDkwMDUwLC0xNjMyNzA4NTc0
+LC0xMDU1NDE0ODk2LDE3ODE5NzA1MzAsLTE5OTE5OTQzMDgsMT
+QxNzA2OTk5MCwxMDUxMjIxNjMsMTI5MzAxNDg3MV19
 -->
