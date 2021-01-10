@@ -82,8 +82,7 @@ imguiでBSDFの設定やカメラや表示したいマテリアルなどの指�
 
 sliceViewerがonならをuvを緯度経度に変換した画像を、offなら球体を
 レイトレでBxDF.slangのBSDFを用いて描画する  
-球体のレイトレは単純なそのフレーム1サンプルのみのDXRも用いてない（そこらへんはすべてBSDFViewer.cs.slangで実装されている）描画なので、完全確認用だと思われる.
-  
+球体のレイトレは単純なそのフレーム1サンプルのみのDXRも用いてない（そこらへんはすべてBSDFViewer.cs.slangで実装されている）描画なので、完全確認用だと思われる。AccumulatePass  
 sliceViewerの場合はレイトレではないので、もしかしたらほかのパスで使えるのかもしれない  
 
 キーやマウス操作はマテリアルの変更とクリックしたピクセル情報表示のみ  
@@ -93,10 +92,11 @@ out : RGBA32Float、UnorderedAccess
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzUyODU3MDQsLTE0Njc3MTcyNTYsMT
-M5NTI4NjY5NywyMTM0NjEzOTg1LC03MzM3MTYzMDYsMjk0ODMz
-NzYsLTQzNTU4NDE1Nyw4MTUyNTEyOCwtMTI0MzYzOTg4NywtNT
-UyMjEzNjI4LC04ODY1NjIxMDIsNDIzMDkwMDUwLC0xNjMyNzA4
-NTc0LC0xMDU1NDE0ODk2LDE3ODE5NzA1MzAsLTE5OTE5OTQzMD
-gsMTQxNzA2OTk5MCwxMDUxMjIxNjMsMTI5MzAxNDg3MV19
+eyJoaXN0b3J5IjpbMTE1NTQ0NzU5NywtMjEzNTI4NTcwNCwtMT
+Q2NzcxNzI1NiwxMzk1Mjg2Njk3LDIxMzQ2MTM5ODUsLTczMzcx
+NjMwNiwyOTQ4MzM3NiwtNDM1NTg0MTU3LDgxNTI1MTI4LC0xMj
+QzNjM5ODg3LC01NTIyMTM2MjgsLTg4NjU2MjEwMiw0MjMwOTAw
+NTAsLTE2MzI3MDg1NzQsLTEwNTU0MTQ4OTYsMTc4MTk3MDUzMC
+wtMTk5MTk5NDMwOCwxNDE3MDY5OTkwLDEwNTEyMjE2MywxMjkz
+MDE0ODcxXX0=
 -->
