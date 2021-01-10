@@ -78,7 +78,7 @@ arrayとmipは1のみ、各々のリソースのサイズは制限なし
 
 ## BSDFViewer
 読み込んだシーンのマテリアルの見た目を確かめるためのパス  
-imguiでBSDFの設定やカメラや表示したいマテリアルなどの指定を行いマテリアルの見た目を確認する用
+imguiでBSDFの設定やカメラや表示したいマテリアルなどの指定を行いマテリアルの見た目を確認する用  
 
 sliceViewerがoffなら球体を（useDirectionalLightじゃなければレイトレで）BxDF.slangのBSDFを用いて描画する  
 球体がレイトレの場合は単純なそのフレーム1サンプルのみのDXRも用いてない（そこらへんはすべてBSDFViewer.cs.slangで実装されている）描画なので、完全確認用だと思われる（AccumulatePassをこの後にかましてもいいかも）  
@@ -93,11 +93,11 @@ out : RGBA32Float、UnorderedAccess
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDkwNDUzMCwxNTk3NDQ4MTY3LDE0Mj
-M4NjY5MTEsMTY3MDMwOTc5MCw5OTEzMDUyNSwxMTU1NDQ3NTk3
-LC0xNDY3NzE3MjU2LDEzOTUyODY2OTcsMjEzNDYxMzk4NSwtNz
-MzNzE2MzA2LDI5NDgzMzc2LC00MzU1ODQxNTcsODE1MjUxMjgs
-LTEyNDM2Mzk4ODcsLTU1MjIxMzYyOCwtODg2NTYyMTAyLDQyMz
-A5MDA1MCwtMTYzMjcwODU3NCwtMTA1NTQxNDg5NiwxNzgxOTcw
-NTMwXX0=
+eyJoaXN0b3J5IjpbOTAyODA3MjUwLDIxMDQ5MDQ1MzAsMTU5Nz
+Q0ODE2NywxNDIzODY2OTExLDE2NzAzMDk3OTAsOTkxMzA1MjUs
+MTE1NTQ0NzU5NywtMTQ2NzcxNzI1NiwxMzk1Mjg2Njk3LDIxMz
+Q2MTM5ODUsLTczMzcxNjMwNiwyOTQ4MzM3NiwtNDM1NTg0MTU3
+LDgxNTI1MTI4LC0xMjQzNjM5ODg3LC01NTIyMTM2MjgsLTg4Nj
+U2MjEwMiw0MjMwOTAwNTAsLTE2MzI3MDg1NzQsLTEwNTU0MTQ4
+OTZdfQ==
 -->
