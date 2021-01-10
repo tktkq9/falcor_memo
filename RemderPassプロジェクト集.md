@@ -97,17 +97,17 @@ out : RGBA32Float、UnorderedAccess
 分割の仕方は
 - Linear : 等間隔
 - Logarithmic ; 対数間隔
-- PSSM : Parallel Split Shadow Map。シャドウのピクセルの大きさが画面から見たときにちょうど1ピクセルぶんと同じになるよう
+- PSSM : Parallel Split Shadow Map。シャドウのピクセルの大きさが画面から見たときにちょうど1ピクセルの大きさになるように解像度を調整する感じのやつ  
 [ASURA 平行分割シャドウマップ](http://www.project-asura.com/program/d3d11/d3d11_009.html)
 [Chapter 10. Parallel-Split Shadow Maps on Programmable GPUs](https://developer.nvidia.com/gpugems/gpugems3/part-ii-light-and-shadows/chapter-10-parallel-split-shadow-maps-programmable-gpus)
 
-
+おそらく見た目重視ならPSSMを選ぶといいはず  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDM0NjE5MCw2MzMyMzIzMTksLTU0NT
-M2MjAzNyw5MDI4MDcyNTAsMjEwNDkwNDUzMCwxNTk3NDQ4MTY3
-LDE0MjM4NjY5MTEsMTY3MDMwOTc5MCw5OTEzMDUyNSwxMTU1ND
-Q3NTk3LC0xNDY3NzE3MjU2LDEzOTUyODY2OTcsMjEzNDYxMzk4
-NSwtNzMzNzE2MzA2LDI5NDgzMzc2LC00MzU1ODQxNTcsODE1Mj
-UxMjgsLTEyNDM2Mzk4ODcsLTU1MjIxMzYyOCwtODg2NTYyMTAy
-XX0=
+eyJoaXN0b3J5IjpbLTIwNzcwNDA0NDQsMTgxNDM0NjE5MCwtNT
+Q1MzYyMDM3LDkwMjgwNzI1MCwyMTA0OTA0NTMwLDE1OTc0NDgx
+NjcsMTQyMzg2NjkxMSwxNjcwMzA5NzkwLDk5MTMwNTI1LDExNT
+U0NDc1OTcsLTE0Njc3MTcyNTYsMTM5NTI4NjY5NywyMTM0NjEz
+OTg1LC03MzM3MTYzMDYsMjk0ODMzNzYsLTQzNTU4NDE1Nyw4MT
+UyNTEyOCwtMTI0MzYzOTg4NywtNTUyMjEzNjI4LC04ODY1NjIx
+MDJdfQ==
 -->
