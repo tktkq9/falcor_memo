@@ -81,7 +81,7 @@ arrayとmipは1のみ、各々のリソースのサイズは制限なし
 imguiでBSDFの設定やカメラや表示したいマテリアルなどの指定を行いマテリアルの見た目を確認する用
 
 sliceViewerがonならをuvを緯度経度に変換した画像を、offなら球体を
-レイトレでBxDF.slangのBSDFを用いて描画する  
+レイトレで（）BxDF.slangのBSDFを用いて描画する  
 球体のレイトレは単純なそのフレーム1サンプルのみのDXRも用いてない（そこらへんはすべてBSDFViewer.cs.slangで実装されている）描画なので、完全確認用だと思われる（AccumulatePassをこの後にかましてもいいかも）  
 sliceViewerの場合はレイトレではないので、もしかしたらほかのパスで使えるのかもしれない  
 
@@ -92,11 +92,11 @@ out : RGBA32Float、UnorderedAccess
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkxMzA1MjUsMTE1NTQ0NzU5NywtMTQ2Nz
-cxNzI1NiwxMzk1Mjg2Njk3LDIxMzQ2MTM5ODUsLTczMzcxNjMw
-NiwyOTQ4MzM3NiwtNDM1NTg0MTU3LDgxNTI1MTI4LC0xMjQzNj
-M5ODg3LC01NTIyMTM2MjgsLTg4NjU2MjEwMiw0MjMwOTAwNTAs
-LTE2MzI3MDg1NzQsLTEwNTU0MTQ4OTYsMTc4MTk3MDUzMCwtMT
-k5MTk5NDMwOCwxNDE3MDY5OTkwLDEwNTEyMjE2MywxMjkzMDE0
-ODcxXX0=
+eyJoaXN0b3J5IjpbMTY3MDMwOTc5MCw5OTEzMDUyNSwxMTU1ND
+Q3NTk3LC0xNDY3NzE3MjU2LDEzOTUyODY2OTcsMjEzNDYxMzk4
+NSwtNzMzNzE2MzA2LDI5NDgzMzc2LC00MzU1ODQxNTcsODE1Mj
+UxMjgsLTEyNDM2Mzk4ODcsLTU1MjIxMzYyOCwtODg2NTYyMTAy
+LDQyMzA5MDA1MCwtMTYzMjcwODU3NCwtMTA1NTQxNDg5NiwxNz
+gxOTcwNTMwLC0xOTkxOTk0MzA4LDE0MTcwNjk5OTAsMTA1MTIy
+MTYzXX0=
 -->
