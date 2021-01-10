@@ -97,7 +97,7 @@ out : RGBA32Float、UnorderedAccess
 分割の仕方は
 - Linear : 等間隔
 - Logarithmic ; 対数間隔
-- PSSM : Parallel Split Shadow Map。シャドウのピクセルの大きさが画面から見たときにちょうど1ピクセルの大きさになるように解像度を調整する感じのやつ  
+- PSSM : Parallel Split Shadow Map。シャドウのピクセルの大きさが画面から見たときにちょうど1ピクセルの大きさに近くなるよう解像度を調整する感じのやつ  
 [ASURA 平行分割シャドウマップ](http://www.project-asura.com/program/d3d11/d3d11_009.html)
 [Chapter 10. Parallel-Split Shadow Maps on Programmable GPUs](https://developer.nvidia.com/gpugems/gpugems3/part-ii-light-and-shadows/chapter-10-parallel-split-shadow-maps-programmable-gpus)
 
@@ -105,11 +105,11 @@ out : RGBA32Float、UnorderedAccess
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzQyMTYwODMsMjM0NjMyMzY2LDEyMj
-g2NzgwMjUsMjA3OTY5ODk1NSwtMjA3NzA0MDQ0NCwtNTQ1MzYy
-MDM3LDkwMjgwNzI1MCwyMTA0OTA0NTMwLDE1OTc0NDgxNjcsMT
-QyMzg2NjkxMSwxNjcwMzA5NzkwLDk5MTMwNTI1LDExNTU0NDc1
-OTcsLTE0Njc3MTcyNTYsMTM5NTI4NjY5NywyMTM0NjEzOTg1LC
-03MzM3MTYzMDYsMjk0ODMzNzYsLTQzNTU4NDE1Nyw4MTUyNTEy
-OF19
+eyJoaXN0b3J5IjpbLTI0NjUyMzA4MCwyMzQ2MzIzNjYsMTIyOD
+Y3ODAyNSwyMDc5Njk4OTU1LC0yMDc3MDQwNDQ0LC01NDUzNjIw
+MzcsOTAyODA3MjUwLDIxMDQ5MDQ1MzAsMTU5NzQ0ODE2NywxND
+IzODY2OTExLDE2NzAzMDk3OTAsOTkxMzA1MjUsMTE1NTQ0NzU5
+NywtMTQ2NzcxNzI1NiwxMzk1Mjg2Njk3LDIxMzQ2MTM5ODUsLT
+czMzcxNjMwNiwyOTQ4MzM3NiwtNDM1NTg0MTU3LDgxNTI1MTI4
+XX0=
 -->
