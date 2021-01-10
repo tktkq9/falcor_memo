@@ -101,13 +101,13 @@ out : RGBA32Float、UnorderedAccess
 [ASURA 平行分割シャドウマップ](http://www.project-asura.com/program/d3d11/d3d11_009.html)
 [Chapter 10. Parallel-Split Shadow Maps on Programmable GPUs](https://developer.nvidia.com/gpugems/gpugems3/part-ii-light-and-shadows/chapter-10-parallel-split-shadow-maps-programmable-gpus)
 
-見た目重視ならPSSMを選ぶといいしはず  
+見た目重視ならPSSMを選ぶといいしはず（ちなみにpssmLambda = 0.5がちょうどいいらしい）  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzI3NDkyNTIsMjA3OTY5ODk1NSwtMj
-A3NzA0MDQ0NCwtNTQ1MzYyMDM3LDkwMjgwNzI1MCwyMTA0OTA0
-NTMwLDE1OTc0NDgxNjcsMTQyMzg2NjkxMSwxNjcwMzA5NzkwLD
-k5MTMwNTI1LDExNTU0NDc1OTcsLTE0Njc3MTcyNTYsMTM5NTI4
-NjY5NywyMTM0NjEzOTg1LC03MzM3MTYzMDYsMjk0ODMzNzYsLT
-QzNTU4NDE1Nyw4MTUyNTEyOCwtMTI0MzYzOTg4NywtNTUyMjEz
-NjI4XX0=
+eyJoaXN0b3J5IjpbMTIyODY3ODAyNSwyMDc5Njk4OTU1LC0yMD
+c3MDQwNDQ0LC01NDUzNjIwMzcsOTAyODA3MjUwLDIxMDQ5MDQ1
+MzAsMTU5NzQ0ODE2NywxNDIzODY2OTExLDE2NzAzMDk3OTAsOT
+kxMzA1MjUsMTE1NTQ0NzU5NywtMTQ2NzcxNzI1NiwxMzk1Mjg2
+Njk3LDIxMzQ2MTM5ODUsLTczMzcxNjMwNiwyOTQ4MzM3NiwtND
+M1NTg0MTU3LDgxNTI1MTI4LC0xMjQzNjM5ODg3LC01NTIyMTM2
+MjhdfQ==
 -->
