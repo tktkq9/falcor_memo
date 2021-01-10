@@ -101,9 +101,9 @@ out : RGBA32Float、UnorderedAccess
 [ASURA 平行分割シャドウマップ](http://www.project-asura.com/program/d3d11/d3d11_009.html)
 [Chapter 10. Parallel-Split Shadow Maps on Programmable GPUs](https://developer.nvidia.com/gpugems/gpugems3/part-ii-light-and-shadows/chapter-10-parallel-split-shadow-maps-programmable-gpus)
 
-おそらく見た目重視ならPSSMを選ぶといいはず  
+見た目重視ならPSSMを選ぶといいはず  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzcwNDA0NDQsMTgxNDM0NjE5MCwtNT
+eyJoaXN0b3J5IjpbMjA3OTY5ODk1NSwtMjA3NzA0MDQ0NCwtNT
 Q1MzYyMDM3LDkwMjgwNzI1MCwyMTA0OTA0NTMwLDE1OTc0NDgx
 NjcsMTQyMzg2NjkxMSwxNjcwMzA5NzkwLDk5MTMwNTI1LDExNT
 U0NDc1OTcsLTE0Njc3MTcyNTYsMTM5NTI4NjY5NywyMTM0NjEz
