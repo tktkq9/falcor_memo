@@ -107,14 +107,16 @@ out : RGBA32Float、UnorderedAccess
 - vsm : Variance Shadow Map [ref1](https://hexadrive.jp/lab/demo/572/)、[ref2](http://asura.iaigiri.com/XNA_GS/xna33.html)
 - evsm : Exponential Variance Shadow Mapping [ref1](https://www.martincap.io/project_detail.php?project_id=9)
 
-比較例 [pcf vs vsm vs esm vs evsm](https://www.cg.tuwien.ac.at/research/publications/2013/ADORJAN-2013-ASE/ADORJAN-2013-ASE-thesis.pdf)
+比較例 
+[pcf vs vsm vs esm vs evsm](https://www.cg.tuwien.ac.at/research/publications/2013/ADORJAN-2013-ASE/ADORJAN-2013-ASE-thesis.pdf)
 [pcf vs vsm vs evsm](https://www.martincap.io/project_detail.php?project_id=9)
+vsm系列の方がpcfより1.5倍
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzAyMjY2NjAsODk0MjI4MDkxLC0xNT
-I5NTg5MzA4LDMxMDYwNjAxNSwtMTIyOTc1NDUzNSwtMTc2OTk2
-NzQ3MCwyMzQ2MzIzNjYsMTIyODY3ODAyNSwyMDc5Njk4OTU1LC
-0yMDc3MDQwNDQ0LC01NDUzNjIwMzcsOTAyODA3MjUwLDIxMDQ5
-MDQ1MzAsMTU5NzQ0ODE2NywxNDIzODY2OTExLDE2NzAzMDk3OT
-AsOTkxMzA1MjUsMTE1NTQ0NzU5NywtMTQ2NzcxNzI1NiwxMzk1
-Mjg2Njk3XX0=
+eyJoaXN0b3J5IjpbLTQzNzA0MjM2MSw4OTQyMjgwOTEsLTE1Mj
+k1ODkzMDgsMzEwNjA2MDE1LC0xMjI5NzU0NTM1LC0xNzY5OTY3
+NDcwLDIzNDYzMjM2NiwxMjI4Njc4MDI1LDIwNzk2OTg5NTUsLT
+IwNzcwNDA0NDQsLTU0NTM2MjAzNyw5MDI4MDcyNTAsMjEwNDkw
+NDUzMCwxNTk3NDQ4MTY3LDE0MjM4NjY5MTEsMTY3MDMwOTc5MC
+w5OTEzMDUyNSwxMTU1NDQ3NTk3LC0xNDY3NzE3MjU2LDEzOTUy
+ODY2OTddfQ==
 -->
