@@ -103,7 +103,7 @@ out : RGBA32Float、UnorderedAccess
 
 見た目重視ならPSSMを選ぶといいはず（ちなみにpssmLambda = 0.5がGPU Gems 3でデフォルトで使われているらしい）  
 
-各シャドウマップのエッジフィルターは
+シャドウマップのエッジフィルターは
 - pcf系列 : Percentage Closer Filtering [ref1 (fixed and stochastic)](https://developer.nvidia.com/gpugems/gpugems/part-ii-lighting-and-shadows/chapter-11-shadow-map-antialiasing)
 - vsm系列 : Variance Shadow Map [ref1](https://hexadrive.jp/lab/demo/572/)、[ref2](http://asura.iaigiri.com/XNA_GS/xna33.html)
   - evsm : Exponential Variance Shadow Mapping [ref1](https://www.martincap.io/project_detail.php?project_id=9)
@@ -113,11 +113,11 @@ out : RGBA32Float、UnorderedAccess
 [pcf vs vsm vs evsm](https://www.martincap.io/project_detail.php?project_id=9)
 [vsm系列の方がpcfより1.5倍速い説がある](https://community.khronos.org/t/shadow-filtering-pcf-better-than-vsm/67180)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAyMjY2OTI1LDIwMDk1NTc0MDYsODk0Mj
-I4MDkxLC0xNTI5NTg5MzA4LDMxMDYwNjAxNSwtMTIyOTc1NDUz
-NSwtMTc2OTk2NzQ3MCwyMzQ2MzIzNjYsMTIyODY3ODAyNSwyMD
-c5Njk4OTU1LC0yMDc3MDQwNDQ0LC01NDUzNjIwMzcsOTAyODA3
-MjUwLDIxMDQ5MDQ1MzAsMTU5NzQ0ODE2NywxNDIzODY2OTExLD
-E2NzAzMDk3OTAsOTkxMzA1MjUsMTE1NTQ0NzU5NywtMTQ2Nzcx
-NzI1Nl19
+eyJoaXN0b3J5IjpbLTE2NjI4ODEyMzcsMjAwOTU1NzQwNiw4OT
+QyMjgwOTEsLTE1Mjk1ODkzMDgsMzEwNjA2MDE1LC0xMjI5NzU0
+NTM1LC0xNzY5OTY3NDcwLDIzNDYzMjM2NiwxMjI4Njc4MDI1LD
+IwNzk2OTg5NTUsLTIwNzcwNDA0NDQsLTU0NTM2MjAzNyw5MDI4
+MDcyNTAsMjEwNDkwNDUzMCwxNTk3NDQ4MTY3LDE0MjM4NjY5MT
+EsMTY3MDMwOTc5MCw5OTEzMDUyNSwxMTU1NDQ3NTk3LC0xNDY3
+NzE3MjU2XX0=
 -->
