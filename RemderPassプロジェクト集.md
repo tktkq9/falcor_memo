@@ -111,12 +111,14 @@ out : RGBA32Float、UnorderedAccess
   - evsm : Exponential Variance Shadow Mapping [ref1](https://www.martincap.io/project_detail.php?project_id=9)
 
 比較例 
-vsmの方がpcfより早いっぽい
 [vsm vs esm vs evsm](https://www.cg.tuwien.ac.at/research/publications/2013/ADORJAN-2013-ASE/ADORJAN-2013-ASE-thesis.pdf)
 [pcf vs vsm vs evsm](https://www.martincap.io/project_detail.php?project_id=9)
+[vsm系列の方がpcfより1.5倍速い説](https://community.khronos.org/t/shadow-filtering-pcf-better-than-vsm/67180)
+ざっと調べた感じ、vsmの方がpcfより速そう  
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjgwODIwNzYsLTc3MTE1MTUzOSwtMT
+eyJoaXN0b3J5IjpbLTEyNDgzMzgwNzAsLTc3MTE1MTUzOSwtMT
 Y2Mjg4MTIzNywyMDA5NTU3NDA2LDg5NDIyODA5MSwtMTUyOTU4
 OTMwOCwzMTA2MDYwMTUsLTEyMjk3NTQ1MzUsLTE3Njk5Njc0Nz
 AsMjM0NjMyMzY2LDEyMjg2NzgwMjUsMjA3OTY5ODk1NSwtMjA3
