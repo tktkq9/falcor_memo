@@ -111,15 +111,16 @@ out : RGBA32Float、UnorderedAccess
   - evsm : Exponential Variance Shadow Mapping [ref1](https://www.martincap.io/project_detail.php?project_id=9)
 
 比較例 
-[pcf vs vsm vs esm vs evsm](https://www.cg.tuwien.ac.at/research/publications/2013/ADORJAN-2013-ASE/ADORJAN-2013-ASE-thesis.pdf)
+vsmの方がpcfより早いっぽい
+[vsm vs esm vs evsm](https://www.cg.tuwien.ac.at/research/publications/2013/ADORJAN-2013-ASE/ADORJAN-2013-ASE-thesis.pdf)
 [pcf vs vsm vs evsm](https://www.martincap.io/project_detail.php?project_id=9)
-[vsm系列の方がpcfより1.5倍速い説がある](https://community.khronos.org/t/shadow-filtering-pcf-better-than-vsm/67180)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MTE1MTUzOSwtMTY2Mjg4MTIzNywyMD
-A5NTU3NDA2LDg5NDIyODA5MSwtMTUyOTU4OTMwOCwzMTA2MDYw
-MTUsLTEyMjk3NTQ1MzUsLTE3Njk5Njc0NzAsMjM0NjMyMzY2LD
-EyMjg2NzgwMjUsMjA3OTY5ODk1NSwtMjA3NzA0MDQ0NCwtNTQ1
-MzYyMDM3LDkwMjgwNzI1MCwyMTA0OTA0NTMwLDE1OTc0NDgxNj
-csMTQyMzg2NjkxMSwxNjcwMzA5NzkwLDk5MTMwNTI1LDExNTU0
-NDc1OTddfQ==
+eyJoaXN0b3J5IjpbLTE1NjgwODIwNzYsLTc3MTE1MTUzOSwtMT
+Y2Mjg4MTIzNywyMDA5NTU3NDA2LDg5NDIyODA5MSwtMTUyOTU4
+OTMwOCwzMTA2MDYwMTUsLTEyMjk3NTQ1MzUsLTE3Njk5Njc0Nz
+AsMjM0NjMyMzY2LDEyMjg2NzgwMjUsMjA3OTY5ODk1NSwtMjA3
+NzA0MDQ0NCwtNTQ1MzYyMDM3LDkwMjgwNzI1MCwyMTA0OTA0NT
+MwLDE1OTc0NDgxNjcsMTQyMzg2NjkxMSwxNjcwMzA5NzkwLDk5
+MTMwNTI1XX0=
 -->
