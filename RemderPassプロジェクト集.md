@@ -114,15 +114,15 @@ out : RGBA32Float、UnorderedAccess
 [vsm vs esm vs evsm](https://www.cg.tuwien.ac.at/research/publications/2013/ADORJAN-2013-ASE/ADORJAN-2013-ASE-thesis.pdf)
 [pcf vs vsm vs evsm](https://www.martincap.io/project_detail.php?project_id=9)
 [vsm系列の方がpcfより1.5倍速い説](https://community.khronos.org/t/shadow-filtering-pcf-better-than-vsm/67180)
-ざっと調べた感じ、同じクオリティ比較で、vsmの方がpcfより速そう  
+ざっと調べた感じ、同じくらいの画像クオリティ比較で、vsmの方がpcfより速そう  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU0MjQ3MjIwLDIwNDgyNjg0NzAsNTA4ND
-Q4ODA5LDYyODIxNTMyMywtMTI0ODMzODA3MCwtNzcxMTUxNTM5
-LC0xNjYyODgxMjM3LDIwMDk1NTc0MDYsODk0MjI4MDkxLC0xNT
-I5NTg5MzA4LDMxMDYwNjAxNSwtMTIyOTc1NDUzNSwtMTc2OTk2
-NzQ3MCwyMzQ2MzIzNjYsMTIyODY3ODAyNSwyMDc5Njk4OTU1LC
-0yMDc3MDQwNDQ0LC01NDUzNjIwMzcsOTAyODA3MjUwLDIxMDQ5
-MDQ1MzBdfQ==
+eyJoaXN0b3J5IjpbLTEyODU0ODcwNjAsMjA0ODI2ODQ3MCw1MD
+g0NDg4MDksNjI4MjE1MzIzLC0xMjQ4MzM4MDcwLC03NzExNTE1
+MzksLTE2NjI4ODEyMzcsMjAwOTU1NzQwNiw4OTQyMjgwOTEsLT
+E1Mjk1ODkzMDgsMzEwNjA2MDE1LC0xMjI5NzU0NTM1LC0xNzY5
+OTY3NDcwLDIzNDYzMjM2NiwxMjI4Njc4MDI1LDIwNzk2OTg5NT
+UsLTIwNzcwNDA0NDQsLTU0NTM2MjAzNyw5MDI4MDcyNTAsMjEw
+NDkwNDUzMF19
 -->
