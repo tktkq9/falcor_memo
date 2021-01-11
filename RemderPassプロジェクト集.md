@@ -101,7 +101,7 @@ out : RGBA32Float、UnorderedAccess
 - Logarithmic ; 対数間隔
 - PSSM : Parallel Split Shadow Map。シャドウのピクセルの大きさが画面から見たときにちょうど1ピクセルの大きさに近くなるよう分割箇所を調整する感じのやつ  
 [ASURA 平行分割シャドウマップ](http://www.project-asura.com/program/d3d11/d3d11_009.html)
-[Chapter 10. Parallel-Split Shadow Maps on Programmable GPUs](https://developer.nvidia.com/gpugems/gpugems3/part-ii-light-and-shadows/chapter-10-parallel-split-shadow-maps-programmable-gpus)
+[GPU Gems 3 Chapter 10. Parallel-Split Shadow Maps on Programmable GPUs](https://developer.nvidia.com/gpugems/gpugems3/part-ii-light-and-shadows/chapter-10-parallel-split-shadow-maps-programmable-gpus)
 
 見た目重視ならPSSMを選ぶといいはず（pssmLambda = 0.5がGPU Gems 3で使われている値）  
 
@@ -118,11 +118,11 @@ out : RGBA32Float、UnorderedAccess
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MjQwMDA0LDIwNDgyNjg0NzAsNTA4ND
-Q4ODA5LDYyODIxNTMyMywtMTI0ODMzODA3MCwtNzcxMTUxNTM5
-LC0xNjYyODgxMjM3LDIwMDk1NTc0MDYsODk0MjI4MDkxLC0xNT
-I5NTg5MzA4LDMxMDYwNjAxNSwtMTIyOTc1NDUzNSwtMTc2OTk2
-NzQ3MCwyMzQ2MzIzNjYsMTIyODY3ODAyNSwyMDc5Njk4OTU1LC
-0yMDc3MDQwNDQ0LC01NDUzNjIwMzcsOTAyODA3MjUwLDIxMDQ5
-MDQ1MzBdfQ==
+eyJoaXN0b3J5IjpbLTE0NDAyOTgwODUsMjA0ODI2ODQ3MCw1MD
+g0NDg4MDksNjI4MjE1MzIzLC0xMjQ4MzM4MDcwLC03NzExNTE1
+MzksLTE2NjI4ODEyMzcsMjAwOTU1NzQwNiw4OTQyMjgwOTEsLT
+E1Mjk1ODkzMDgsMzEwNjA2MDE1LC0xMjI5NzU0NTM1LC0xNzY5
+OTY3NDcwLDIzNDYzMjM2NiwxMjI4Njc4MDI1LDIwNzk2OTg5NT
+UsLTIwNzcwNDA0NDQsLTU0NTM2MjAzNyw5MDI4MDcyNTAsMjEw
+NDkwNDUzMF19
 -->
