@@ -47,6 +47,8 @@ out : Texture2D
 assertしてないが、inとoutは同じサイズ、ミップである必要がある  
 
 TODO : 設定できる値とシェーダー はよくわからん。FXAAのアルゴリズムとか使い方とかを要確認
+[[WebGL] レイマーチングでアンチエイリアス（FXAA）してみる](https://qiita.com/edo_m18/items/c211fea23b4747a8da3c),  
+[Filtering Approaches for Real-Time Anti-Aliasing](http://iryoku.com/aacourse/downloads/09-FXAA-3.11-in-15-Slides.pptx)
 
 ### TAA
 TAAは前フレームの描画情報を用いたアンチエイリアス。ディファード、レイトレでよく使われている  
@@ -113,11 +115,11 @@ out : RGBA32Float、UnorderedAccess
 [pcf vs vsm vs evsm](https://www.martincap.io/project_detail.php?project_id=9)
 [vsm系列の方がpcfより1.5倍速い説がある](https://community.khronos.org/t/shadow-filtering-pcf-better-than-vsm/67180)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjI4ODEyMzcsMjAwOTU1NzQwNiw4OT
-QyMjgwOTEsLTE1Mjk1ODkzMDgsMzEwNjA2MDE1LC0xMjI5NzU0
-NTM1LC0xNzY5OTY3NDcwLDIzNDYzMjM2NiwxMjI4Njc4MDI1LD
-IwNzk2OTg5NTUsLTIwNzcwNDA0NDQsLTU0NTM2MjAzNyw5MDI4
-MDcyNTAsMjEwNDkwNDUzMCwxNTk3NDQ4MTY3LDE0MjM4NjY5MT
-EsMTY3MDMwOTc5MCw5OTEzMDUyNSwxMTU1NDQ3NTk3LC0xNDY3
-NzE3MjU2XX0=
+eyJoaXN0b3J5IjpbLTE2NTkyMzU4MTcsLTE2NjI4ODEyMzcsMj
+AwOTU1NzQwNiw4OTQyMjgwOTEsLTE1Mjk1ODkzMDgsMzEwNjA2
+MDE1LC0xMjI5NzU0NTM1LC0xNzY5OTY3NDcwLDIzNDYzMjM2Ni
+wxMjI4Njc4MDI1LDIwNzk2OTg5NTUsLTIwNzcwNDA0NDQsLTU0
+NTM2MjAzNyw5MDI4MDcyNTAsMjEwNDkwNDUzMCwxNTk3NDQ4MT
+Y3LDE0MjM4NjY5MTEsMTY3MDMwOTc5MCw5OTEzMDUyNSwxMTU1
+NDQ3NTk3XX0=
 -->
