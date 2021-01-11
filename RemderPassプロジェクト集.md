@@ -103,16 +103,17 @@ out : RGBA32Float、UnorderedAccess
 
 見た目重視ならPSSMを選ぶといいはず（ちなみにpssmLambda = 0.5がGPU Gems 3でデフォルトで使われているらしい）  
 
-- pcf : Percentage-Closer Filtering [ref1](https://developer.nvidia.com/gpugems/gpugems/part-ii-lighting-and-shadows/chapter-11-shadow-map-antialiasing)
-- vsm : Variance Shadow Map [ref1](https://hexadrive.jp/lab/demo/572/)、[ref2](http://asura.iaigiri.com/XNA_GS/xna33.html)
-- evsm : Exponential Variance Shadow Mapping [ref1](https://www.martincap.io/project_detail.php?project_id=9)
+各シャドウマップのエッジフィルターは
+- pcf系列 : Percentage-Closer Filtering [ref1](https://developer.nvidia.com/gpugems/gpugems/part-ii-lighting-and-shadows/chapter-11-shadow-map-antialiasing)
+- vsm系列 : Variance Shadow Map [ref1](https://hexadrive.jp/lab/demo/572/)、[ref2](http://asura.iaigiri.com/XNA_GS/xna33.html)
+  - evsm : Exponential Variance Shadow Mapping [ref1](https://www.martincap.io/project_detail.php?project_id=9)
 
 比較例 
 [pcf vs vsm vs esm vs evsm](https://www.cg.tuwien.ac.at/research/publications/2013/ADORJAN-2013-ASE/ADORJAN-2013-ASE-thesis.pdf)
 [pcf vs vsm vs evsm](https://www.martincap.io/project_detail.php?project_id=9)
 [vsm系列の方がpcfより1.5倍速い説がある](https://community.khronos.org/t/shadow-filtering-pcf-better-than-vsm/67180)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTQwNDg5MjIsMjAwOTU1NzQwNiw4OT
+eyJoaXN0b3J5IjpbLTE2MzYxMzMyMzksMjAwOTU1NzQwNiw4OT
 QyMjgwOTEsLTE1Mjk1ODkzMDgsMzEwNjA2MDE1LC0xMjI5NzU0
 NTM1LC0xNzY5OTY3NDcwLDIzNDYzMjM2NiwxMjI4Njc4MDI1LD
 IwNzk2OTg5NTUsLTIwNzcwNDA0NDQsLTU0NTM2MjAzNyw5MDI4
