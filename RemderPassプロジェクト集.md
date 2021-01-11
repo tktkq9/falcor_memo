@@ -103,7 +103,7 @@ out : RGBA32Float、UnorderedAccess
 [ASURA 平行分割シャドウマップ](http://www.project-asura.com/program/d3d11/d3d11_009.html)
 [Chapter 10. Parallel-Split Shadow Maps on Programmable GPUs](https://developer.nvidia.com/gpugems/gpugems3/part-ii-light-and-shadows/chapter-10-parallel-split-shadow-maps-programmable-gpus)
 
-見た目重視ならPSSMを選ぶといいはず（ちなみにpssmLambda = 0.5がGPU Gems 3でデフォルトで使われているらしい）  
+見た目重視ならPSSMを選ぶといいはず（pssmLambda = 0.5がGPU Gems 3でのデフォルトで使われているらしい）  
 
 シャドウマップのエッジフィルターは
 - pcf系列 : Percentage Closer Filtering [ref1 (fixed and stochastic)](https://developer.nvidia.com/gpugems/gpugems/part-ii-lighting-and-shadows/chapter-11-shadow-map-antialiasing)
@@ -118,11 +118,11 @@ out : RGBA32Float、UnorderedAccess
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODI2ODQ3MCw1MDg0NDg4MDksNjI4Mj
-E1MzIzLC0xMjQ4MzM4MDcwLC03NzExNTE1MzksLTE2NjI4ODEy
-MzcsMjAwOTU1NzQwNiw4OTQyMjgwOTEsLTE1Mjk1ODkzMDgsMz
-EwNjA2MDE1LC0xMjI5NzU0NTM1LC0xNzY5OTY3NDcwLDIzNDYz
-MjM2NiwxMjI4Njc4MDI1LDIwNzk2OTg5NTUsLTIwNzcwNDA0ND
-QsLTU0NTM2MjAzNyw5MDI4MDcyNTAsMjEwNDkwNDUzMCwxNTk3
-NDQ4MTY3XX0=
+eyJoaXN0b3J5IjpbMTQ2MDAwNTE2MywyMDQ4MjY4NDcwLDUwOD
+Q0ODgwOSw2MjgyMTUzMjMsLTEyNDgzMzgwNzAsLTc3MTE1MTUz
+OSwtMTY2Mjg4MTIzNywyMDA5NTU3NDA2LDg5NDIyODA5MSwtMT
+UyOTU4OTMwOCwzMTA2MDYwMTUsLTEyMjk3NTQ1MzUsLTE3Njk5
+Njc0NzAsMjM0NjMyMzY2LDEyMjg2NzgwMjUsMjA3OTY5ODk1NS
+wtMjA3NzA0MDQ0NCwtNTQ1MzYyMDM3LDkwMjgwNzI1MCwyMTA0
+OTA0NTMwXX0=
 -->
