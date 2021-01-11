@@ -94,7 +94,7 @@ out : RGBA32Float、UnorderedAccess
 このパスはoutのみ  
 
 ## CSM
-SDSM（Sample Distribution Shadow Map）でカスケードシャドウマップのパス  
+[SDSM (Sample Distribution Shadow Map)](https://software.intel.com/content/www/us/en/develop/articles/sample-distribution-shadow-maps.html)でカスケードシャドウマップのパス  
 
 分割の仕方は
 - Linear : 等間隔
@@ -118,7 +118,7 @@ SDSM（Sample Distribution Shadow Map）でカスケードシャドウマップ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTQzNzgyNjQsNjI4MjE1MzIzLC0xMj
+eyJoaXN0b3J5IjpbLTE1OTA3MjA0ODEsNjI4MjE1MzIzLC0xMj
 Q4MzM4MDcwLC03NzExNTE1MzksLTE2NjI4ODEyMzcsMjAwOTU1
 NzQwNiw4OTQyMjgwOTEsLTE1Mjk1ODkzMDgsMzEwNjA2MDE1LC
 0xMjI5NzU0NTM1LC0xNzY5OTY3NDcwLDIzNDYzMjM2NiwxMjI4
