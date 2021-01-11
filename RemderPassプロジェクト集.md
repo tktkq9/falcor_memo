@@ -104,13 +104,13 @@ out : RGBA32Float、UnorderedAccess
 見た目重視ならPSSMを選ぶといいはず（ちなみにpssmLambda = 0.5がGPU Gems 3でデフォルトで使われているらしい）  
 
 pcf : Percentage-Closer Filtering 
-vsm : Variance Shadow Map [ref1](https://hexadrive.jp/lab/demo/572/)
+vsm : Variance Shadow Map [ref1](https://hexadrive.jp/lab/demo/572/)、
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM4NjM2NzI0LDEwMDYyMTg2MTEsLTEyMj
-k3NTQ1MzUsLTE3Njk5Njc0NzAsMjM0NjMyMzY2LDEyMjg2Nzgw
-MjUsMjA3OTY5ODk1NSwtMjA3NzA0MDQ0NCwtNTQ1MzYyMDM3LD
-kwMjgwNzI1MCwyMTA0OTA0NTMwLDE1OTc0NDgxNjcsMTQyMzg2
-NjkxMSwxNjcwMzA5NzkwLDk5MTMwNTI1LDExNTU0NDc1OTcsLT
-E0Njc3MTcyNTYsMTM5NTI4NjY5NywyMTM0NjEzOTg1LC03MzM3
-MTYzMDZdfQ==
+eyJoaXN0b3J5IjpbMzEwNjA2MDE1LDIzODYzNjcyNCwtMTIyOT
+c1NDUzNSwtMTc2OTk2NzQ3MCwyMzQ2MzIzNjYsMTIyODY3ODAy
+NSwyMDc5Njk4OTU1LC0yMDc3MDQwNDQ0LC01NDUzNjIwMzcsOT
+AyODA3MjUwLDIxMDQ5MDQ1MzAsMTU5NzQ0ODE2NywxNDIzODY2
+OTExLDE2NzAzMDk3OTAsOTkxMzA1MjUsMTE1NTQ0NzU5NywtMT
+Q2NzcxNzI1NiwxMzk1Mjg2Njk3LDIxMzQ2MTM5ODUsLTczMzcx
+NjMwNl19
 -->
