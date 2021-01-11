@@ -110,13 +110,13 @@ out : RGBA32Float、UnorderedAccess
 比較例 
 [pcf vs vsm vs esm vs evsm](https://www.cg.tuwien.ac.at/research/publications/2013/ADORJAN-2013-ASE/ADORJAN-2013-ASE-thesis.pdf)
 [pcf vs vsm vs evsm](https://www.martincap.io/project_detail.php?project_id=9)
-vsm系列の方がpcfより1.5倍
+vsm系列の方がpcfより1.5倍はやい
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzA0MjM2MSw4OTQyMjgwOTEsLTE1Mj
-k1ODkzMDgsMzEwNjA2MDE1LC0xMjI5NzU0NTM1LC0xNzY5OTY3
-NDcwLDIzNDYzMjM2NiwxMjI4Njc4MDI1LDIwNzk2OTg5NTUsLT
-IwNzcwNDA0NDQsLTU0NTM2MjAzNyw5MDI4MDcyNTAsMjEwNDkw
-NDUzMCwxNTk3NDQ4MTY3LDE0MjM4NjY5MTEsMTY3MDMwOTc5MC
-w5OTEzMDUyNSwxMTU1NDQ3NTk3LC0xNDY3NzE3MjU2LDEzOTUy
-ODY2OTddfQ==
+eyJoaXN0b3J5IjpbMjAwOTU1NzQwNiwtNDM3MDQyMzYxLDg5ND
+IyODA5MSwtMTUyOTU4OTMwOCwzMTA2MDYwMTUsLTEyMjk3NTQ1
+MzUsLTE3Njk5Njc0NzAsMjM0NjMyMzY2LDEyMjg2NzgwMjUsMj
+A3OTY5ODk1NSwtMjA3NzA0MDQ0NCwtNTQ1MzYyMDM3LDkwMjgw
+NzI1MCwyMTA0OTA0NTMwLDE1OTc0NDgxNjcsMTQyMzg2NjkxMS
+wxNjcwMzA5NzkwLDk5MTMwNTI1LDExNTU0NDc1OTcsLTE0Njc3
+MTcyNTZdfQ==
 -->
