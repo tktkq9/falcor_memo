@@ -109,7 +109,7 @@ out : RGBA32Float、UnorderedAccess
 - pcf系列 : Percentage Closer Filtering [ref1 (fixed and stochastic)](https://developer.nvidia.com/gpugems/gpugems/part-ii-lighting-and-shadows/chapter-11-shadow-map-antialiasing)
 - vsm系列 : Variance Shadow Map [ref1](https://hexadrive.jp/lab/demo/572/), [ref2](http://asura.iaigiri.com/XNA_GS/xna33.html)
   - evsm : Exponential Variance Shadow Mapping [ref1](https://www.martincap.io/project_detail.php?project_id=9)
-2がExponentialの正項のみ、4が正負両方使う
+2がExponentialの正項のみ、4が正負両方使う  
 
 比較例 
 [vsm vs esm vs evsm](https://www.cg.tuwien.ac.at/research/publications/2013/ADORJAN-2013-ASE/ADORJAN-2013-ASE-thesis.pdf)
@@ -119,11 +119,11 @@ out : RGBA32Float、UnorderedAccess
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNzM2MzUzNSwtMTI4NTQ4NzA2MCwyMD
-Q4MjY4NDcwLDUwODQ0ODgwOSw2MjgyMTUzMjMsLTEyNDgzMzgw
-NzAsLTc3MTE1MTUzOSwtMTY2Mjg4MTIzNywyMDA5NTU3NDA2LD
-g5NDIyODA5MSwtMTUyOTU4OTMwOCwzMTA2MDYwMTUsLTEyMjk3
-NTQ1MzUsLTE3Njk5Njc0NzAsMjM0NjMyMzY2LDEyMjg2NzgwMj
-UsMjA3OTY5ODk1NSwtMjA3NzA0MDQ0NCwtNTQ1MzYyMDM3LDkw
-MjgwNzI1MF19
+eyJoaXN0b3J5IjpbLTE0MjExOTY0MzEsLTQxNzM2MzUzNSwtMT
+I4NTQ4NzA2MCwyMDQ4MjY4NDcwLDUwODQ0ODgwOSw2MjgyMTUz
+MjMsLTEyNDgzMzgwNzAsLTc3MTE1MTUzOSwtMTY2Mjg4MTIzNy
+wyMDA5NTU3NDA2LDg5NDIyODA5MSwtMTUyOTU4OTMwOCwzMTA2
+MDYwMTUsLTEyMjk3NTQ1MzUsLTE3Njk5Njc0NzAsMjM0NjMyMz
+Y2LDEyMjg2NzgwMjUsMjA3OTY5ODk1NSwtMjA3NzA0MDQ0NCwt
+NTQ1MzYyMDM3XX0=
 -->
