@@ -117,15 +117,15 @@ out : RGBA32Float、UnorderedAccess
 [vsm系列の方がpcfより1.5倍速い説](https://community.khronos.org/t/shadow-filtering-pcf-better-than-vsm/67180)
 ざっと調べた感じ、同じくらいの画像クオリティ比較で、vsmの方がpcfより速そう  
 
-in : パスに設定したフォーマットとサイズのDepth。ない場合はこのパスで自作するようになっている  
+in : Depth。ない場合はこのパスで自作するようになっている  
 out : VisivilityFBO、カメラから見た影情報。Rが影に対応し、1で影なし、0で完全に影となっている。visualizeCascadesをオンにしている場合はgbaにシャドウマップの分割に対応する色が格納される  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTcxMzU4MjMsLTI4MzUyNjU0MiwtMT
-czMTI3Njc1OCwxMDk5MjMwNzI4LC0xNDIxMTk2NDMxLC00MTcz
-NjM1MzUsLTEyODU0ODcwNjAsMjA0ODI2ODQ3MCw1MDg0NDg4MD
-ksNjI4MjE1MzIzLC0xMjQ4MzM4MDcwLC03NzExNTE1MzksLTE2
-NjI4ODEyMzcsMjAwOTU1NzQwNiw4OTQyMjgwOTEsLTE1Mjk1OD
-kzMDgsMzEwNjA2MDE1LC0xMjI5NzU0NTM1LC0xNzY5OTY3NDcw
-LDIzNDYzMjM2Nl19
+eyJoaXN0b3J5IjpbMjEwNTUzOTMwNSwtMTc1NzEzNTgyMywtMj
+gzNTI2NTQyLC0xNzMxMjc2NzU4LDEwOTkyMzA3MjgsLTE0MjEx
+OTY0MzEsLTQxNzM2MzUzNSwtMTI4NTQ4NzA2MCwyMDQ4MjY4ND
+cwLDUwODQ0ODgwOSw2MjgyMTUzMjMsLTEyNDgzMzgwNzAsLTc3
+MTE1MTUzOSwtMTY2Mjg4MTIzNywyMDA5NTU3NDA2LDg5NDIyOD
+A5MSwtMTUyOTU4OTMwOCwzMTA2MDYwMTUsLTEyMjk3NTQ1MzUs
+LTE3Njk5Njc0NzBdfQ==
 -->
