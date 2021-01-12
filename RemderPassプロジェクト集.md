@@ -117,13 +117,14 @@ out : RGBA32Float、UnorderedAccess
 [vsm系列の方がpcfより1.5倍速い説](https://community.khronos.org/t/shadow-filtering-pcf-better-than-vsm/67180)
 ざっと調べた感じ、同じくらいの画像クオリティ比較で、vsmの方がpcfより速そう  
 
-in 
+in : パスに設定したフォーマットとサイズのDepth。ない場合はこのパスで自作するようになっている  
+out : 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTIzMDcyOCw0ODgwMjQ1NzksLTE0Mj
-ExOTY0MzEsLTQxNzM2MzUzNSwtMTI4NTQ4NzA2MCwyMDQ4MjY4
-NDcwLDUwODQ0ODgwOSw2MjgyMTUzMjMsLTEyNDgzMzgwNzAsLT
-c3MTE1MTUzOSwtMTY2Mjg4MTIzNywyMDA5NTU3NDA2LDg5NDIy
-ODA5MSwtMTUyOTU4OTMwOCwzMTA2MDYwMTUsLTEyMjk3NTQ1Mz
-UsLTE3Njk5Njc0NzAsMjM0NjMyMzY2LDEyMjg2NzgwMjUsMjA3
-OTY5ODk1NV19
+eyJoaXN0b3J5IjpbLTIwMzMxNjkwOSwxMDk5MjMwNzI4LC0xND
+IxMTk2NDMxLC00MTczNjM1MzUsLTEyODU0ODcwNjAsMjA0ODI2
+ODQ3MCw1MDg0NDg4MDksNjI4MjE1MzIzLC0xMjQ4MzM4MDcwLC
+03NzExNTE1MzksLTE2NjI4ODEyMzcsMjAwOTU1NzQwNiw4OTQy
+MjgwOTEsLTE1Mjk1ODkzMDgsMzEwNjA2MDE1LC0xMjI5NzU0NT
+M1LC0xNzY5OTY3NDcwLDIzNDYzMjM2NiwxMjI4Njc4MDI1LDIw
+Nzk2OTg5NTVdfQ==
 -->
