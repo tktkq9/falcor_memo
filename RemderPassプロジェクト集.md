@@ -139,7 +139,7 @@ calcPssmPartitionEnd()の計算は[GPU Gems 3 Chapter 10. Parallel-Split Shadow 
 
 ## DebugPass
 様々なデバッグ用パスのプロジェクト
-DebugPass.cppはそれらのパス作成関数をdllにするための処理のみ  
+DebugPass.cppはそれらのパス作成をdllにするための処理のみ  
 
 - SplitScreenPass
 - InvalidPixelDetectionPass
@@ -152,7 +152,7 @@ DebugPass.cppはそれらのパス作成関数をdllにするための処理の�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTE0OTkzMywxNDE4MDIzMTAyLC0xND
+eyJoaXN0b3J5IjpbMTkyODgyMjk0NSwxNDE4MDIzMTAyLC0xND
 Y0MTMwNzg4LDIwNzY5MTAwNTIsMTk5NDIwNDkyMSwtMTcwNTk1
 NzMwMiwtMTM3MDM5MjQ3OCw0MTEwNTIyNjUsLTg4ODE3NzMxOC
 wxMzE3OTEyMjYyLDE4MDE5MDc4MjEsNzY0ODU4MjIsOTA1Mzkw
