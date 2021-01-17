@@ -154,7 +154,7 @@ Mogwaiで使えるパスは以下となっている
 
 ### ComparisonPass 
 
-Comparison.ps.slangはサブクラスで使うシェーダーの共通処理部分
+Comparison.ps.slangはサブクラスで使うシェーダーの共通処理部分。ここでｇは
 
 in : leftInput、Texture2D、左側（mSwapSidesオンの場合は右）に描画するテクスチャー  
 in : rightInput、Texture2D、右側（mSwapSidesオンの場合は左）に描画するテクスチャー  
@@ -173,11 +173,11 @@ out : texture2D、input2つの画像を左右に描画したテクスチャー
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDY2Mzc1MDEsLTEzNTQxMzA0MiwyNz
-A3NDQ3MDcsNjQ2NDY0OTkzLC0xNzgxNzEzMzkzLC01Njk0ODM4
-MDIsLTk1MDgwNDgwOSw2MzYzMzQ3ODgsODQwNDQxNTM3LDE0MT
-gwMjMxMDIsLTE0NjQxMzA3ODgsMjA3NjkxMDA1MiwxOTk0MjA0
-OTIxLC0xNzA1OTU3MzAyLC0xMzcwMzkyNDc4LDQxMTA1MjI2NS
-wtODg4MTc3MzE4LDEzMTc5MTIyNjIsMTgwMTkwNzgyMSw3NjQ4
-NTgyMl19
+eyJoaXN0b3J5IjpbNzg4NTM3MDQwLC0xMjA2NjM3NTAxLC0xMz
+U0MTMwNDIsMjcwNzQ0NzA3LDY0NjQ2NDk5MywtMTc4MTcxMzM5
+MywtNTY5NDgzODAyLC05NTA4MDQ4MDksNjM2MzM0Nzg4LDg0MD
+Q0MTUzNywxNDE4MDIzMTAyLC0xNDY0MTMwNzg4LDIwNzY5MTAw
+NTIsMTk5NDIwNDkyMSwtMTcwNTk1NzMwMiwtMTM3MDM5MjQ3OC
+w0MTEwNTIyNjUsLTg4ODE3NzMxOCwxMzE3OTEyMjYyLDE4MDE5
+MDc4MjFdfQ==
 -->
