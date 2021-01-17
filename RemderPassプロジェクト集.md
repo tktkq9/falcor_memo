@@ -157,8 +157,6 @@ SplitScreenPassとSideBySidePassのアブストラクト的なクラス
 gSplitLocationを境界として2つの画像を描画するパスとなっている  
 つまり、シェーダー内で2つの画像を合成するとかComparison的な数値を出すとかそういうものではなく、目視でComparisonしやすくするためのものである  
 
-ここでは実装されていないが、gSplitLocationをマウスとかで移動しながら任意の処理が施された2つの画像を比較するためのもの（例えばレイトレのノイズ比較とか）用のものだと思われる  
-
 in : leftInput、Texture2D、左側（mSwapSidesオンの場合は右）に描画するテクスチャー  
 in : rightInput、Texture2D、右側（mSwapSidesオンの場合は左）に描画するテクスチャー  
 out : texture2D、input2つの画像を左右に描画したテクスチャー
@@ -185,11 +183,11 @@ input2つの画像による任意の色計算処理ICalcPixelColorのみがイ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyOTUwMDE2MSwtMTMyMjg0MDUyNSw2OD
-QzNDgyMCwtODEwNzkxNzAyLDE0MjIyNzY5NzksNjMwNzcyNjMw
-LC0xOTc3OTE1MjQ0LC0xNzgwMjkzMjQ2LDY3ODI0Mzc1MCwtOT
-cwNDg2MjA5LDc4ODUzNzA0MCwtMTM1NDEzMDQyLDI3MDc0NDcw
-Nyw2NDY0NjQ5OTMsLTE3ODE3MTMzOTMsLTU2OTQ4MzgwMiwtOT
-UwODA0ODA5LDYzNjMzNDc4OCw4NDA0NDE1MzcsMTQxODAyMzEw
-Ml19
+eyJoaXN0b3J5IjpbMjEwMDI0NDA0MywtMzI5NTAwMTYxLDY4ND
+M0ODIwLC04MTA3OTE3MDIsMTQyMjI3Njk3OSw2MzA3NzI2MzAs
+LTE5Nzc5MTUyNDQsLTE3ODAyOTMyNDYsNjc4MjQzNzUwLC05Nz
+A0ODYyMDksNzg4NTM3MDQwLC0xMzU0MTMwNDIsMjcwNzQ0NzA3
+LDY0NjQ2NDk5MywtMTc4MTcxMzM5MywtNTY5NDgzODAyLC05NT
+A4MDQ4MDksNjM2MzM0Nzg4LDg0MDQ0MTUzNywxNDE4MDIzMTAy
+XX0=
 -->
