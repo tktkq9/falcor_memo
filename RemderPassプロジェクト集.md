@@ -120,16 +120,16 @@ out : RGBA32Float、UnorderedAccess
 in : Depth。ない場合はこのパスで自作するようになっている  
 out : VisivilityFBO、カメラから見た影情報。Rが影に対応し、1で影なし、0で完全に影となっている。（コード側でしか設定できないが）visualizeCascadesをオンにしている場合はgbaにシャドウマップの分割に対 する色が格納される  
 
-### 実装詳細
+### 実装補足
 calcPssmPartitionEnd()の計算は[GPU Gems 3 Chapter 10. Parallel-Split Shadow Maps on Programmable GPUs](https://developer.nvidia.com/gpugems/gpugems3/part-ii-light-and-shadows/chapter-10-parallel-split-shadow-maps-programmable-gpus)の10.2.1 Step 1: Splitting the View Frustumの部分  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjYwNDQ2NjksODA3MzEwNzY2LC0xND
-ExNzIyNjUyLC0xNTczODk1MzkyLDIxMDU1MzkzMDUsLTE3NTcx
-MzU4MjMsLTI4MzUyNjU0MiwtMTczMTI3Njc1OCwxMDk5MjMwNz
-I4LC0xNDIxMTk2NDMxLC00MTczNjM1MzUsLTEyODU0ODcwNjAs
-MjA0ODI2ODQ3MCw1MDg0NDg4MDksNjI4MjE1MzIzLC0xMjQ4Mz
-M4MDcwLC03NzExNTE1MzksLTE2NjI4ODEyMzcsMjAwOTU1NzQw
-Niw4OTQyMjgwOTFdfQ==
+eyJoaXN0b3J5IjpbMTQ4ODQ3ODQ3Myw4MDczMTA3NjYsLTE0MT
+E3MjI2NTIsLTE1NzM4OTUzOTIsMjEwNTUzOTMwNSwtMTc1NzEz
+NTgyMywtMjgzNTI2NTQyLC0xNzMxMjc2NzU4LDEwOTkyMzA3Mj
+gsLTE0MjExOTY0MzEsLTQxNzM2MzUzNSwtMTI4NTQ4NzA2MCwy
+MDQ4MjY4NDcwLDUwODQ0ODgwOSw2MjgyMTUzMjMsLTEyNDgzMz
+gwNzAsLTc3MTE1MTUzOSwtMTY2Mjg4MTIzNywyMDA5NTU3NDA2
+LDg5NDIyODA5MV19
 -->
