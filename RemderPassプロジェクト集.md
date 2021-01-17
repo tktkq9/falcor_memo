@@ -138,7 +138,7 @@ mDepthPass（つまりDepthPass.slangによる描画）は現在は機能して�
 calcPssmPartitionEnd()の計算は[GPU Gems 3 Chapter 10. Parallel-Split Shadow Maps on Programmable GPUs](https://developer.nvidia.com/gpugems/gpugems3/part-ii-light-and-shadows/chapter-10-parallel-split-shadow-maps-programmable-gpus)の10.2.1 Step 1: Splitting the View Frustumの部分  
 
 ## DebugPass
-様々なデバッグ用パスのプロジェクト
+様々なデバッグ用パスをまとめるプロジェクト
 DebugPass.cppはそれらのパス作成をdllにするための処理のみ  
 
 Mogwaiで使えるパスは以下となっている
@@ -167,11 +167,11 @@ Mogwaiで使えるパスは以下となっている
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDQ5OTI4NDksNjM2MzM0Nzg4LDg0MD
-Q0MTUzNywxNDE4MDIzMTAyLC0xNDY0MTMwNzg4LDIwNzY5MTAw
-NTIsMTk5NDIwNDkyMSwtMTcwNTk1NzMwMiwtMTM3MDM5MjQ3OC
-w0MTEwNTIyNjUsLTg4ODE3NzMxOCwxMzE3OTEyMjYyLDE4MDE5
-MDc4MjEsNzY0ODU4MjIsOTA1MzkwNzczLC02ODM3MjU4LDU4ND
-IzNzM1MSwxNDg4NDc4NDczLDgwNzMxMDc2NiwtMTQxMTcyMjY1
-Ml19
+eyJoaXN0b3J5IjpbLTk1MDgwNDgwOSw2MzYzMzQ3ODgsODQwND
+QxNTM3LDE0MTgwMjMxMDIsLTE0NjQxMzA3ODgsMjA3NjkxMDA1
+MiwxOTk0MjA0OTIxLC0xNzA1OTU3MzAyLC0xMzcwMzkyNDc4LD
+QxMTA1MjI2NSwtODg4MTc3MzE4LDEzMTc5MTIyNjIsMTgwMTkw
+NzgyMSw3NjQ4NTgyMiw5MDUzOTA3NzMsLTY4MzcyNTgsNTg0Mj
+M3MzUxLDE0ODg0Nzg0NzMsODA3MzEwNzY2LC0xNDExNzIyNjUy
+XX0=
 -->
