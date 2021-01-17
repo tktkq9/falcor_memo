@@ -143,8 +143,8 @@ DebugPass.cppはそれらのパス作成をdllにするための処理のみ
 
 Mogwaiで使えるパスは以下となっている
 - SplitScreenPass
-- InvalidPixelDetectionPass
 - SideBySidePass
+- InvalidPixelDetectionPass
 - ColorMapPass
 
 また、これらのパスの内、SideBySidePassとSplitScreenPassは以下のクラスをベースクラスとしている
@@ -168,7 +168,7 @@ Mogwaiで使えるパスは以下となっている
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzMzk3MDE3LDY0NjQ2NDk5MywtMTc4MT
+eyJoaXN0b3J5IjpbMjcwNzQ0NzA3LDY0NjQ2NDk5MywtMTc4MT
 cxMzM5MywtNTY5NDgzODAyLC05NTA4MDQ4MDksNjM2MzM0Nzg4
 LDg0MDQ0MTUzNywxNDE4MDIzMTAyLC0xNDY0MTMwNzg4LDIwNz
 Y5MTAwNTIsMTk5NDIwNDkyMSwtMTcwNTk1NzMwMiwtMTM3MDM5
