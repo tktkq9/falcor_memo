@@ -163,7 +163,7 @@ out : texture2D、input2つの画像を左右に描画したテクスチャー
 #### Comparison.ps.slang
 これもまたサブクラスで使うシェーダーのインターフェースと共通処理部分となっており、直接使うものではない  
 
-input2つの画像による任意の色計算処理ICalcPixelColor()のみがインターフェース
+input2つの画像による任意の色計算処理ICalcPixelColor()のみがインターフェースとなっており
 
 ### SplitScreenPass
 
@@ -178,11 +178,11 @@ input2つの画像による任意の色計算処理ICalcPixelColor()のみがイ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjU5MTEzMzUsLTE3ODAyOTMyNDYsNj
-c4MjQzNzUwLC05NzA0ODYyMDksNzg4NTM3MDQwLC0xMzU0MTMw
-NDIsMjcwNzQ0NzA3LDY0NjQ2NDk5MywtMTc4MTcxMzM5MywtNT
-Y5NDgzODAyLC05NTA4MDQ4MDksNjM2MzM0Nzg4LDg0MDQ0MTUz
-NywxNDE4MDIzMTAyLC0xNDY0MTMwNzg4LDIwNzY5MTAwNTIsMT
-k5NDIwNDkyMSwtMTcwNTk1NzMwMiwtMTM3MDM5MjQ3OCw0MTEw
-NTIyNjVdfQ==
+eyJoaXN0b3J5IjpbLTE5Nzc5MTUyNDQsLTIwMjU5MTEzMzUsLT
+E3ODAyOTMyNDYsNjc4MjQzNzUwLC05NzA0ODYyMDksNzg4NTM3
+MDQwLC0xMzU0MTMwNDIsMjcwNzQ0NzA3LDY0NjQ2NDk5MywtMT
+c4MTcxMzM5MywtNTY5NDgzODAyLC05NTA4MDQ4MDksNjM2MzM0
+Nzg4LDg0MDQ0MTUzNywxNDE4MDIzMTAyLC0xNDY0MTMwNzg4LD
+IwNzY5MTAwNTIsMTk5NDIwNDkyMSwtMTcwNTk1NzMwMiwtMTM3
+MDM5MjQ3OF19
 -->
