@@ -147,7 +147,8 @@ Mogwaiで使えるパスは以下となっている
 - InvalidPixelDetectionPass
 - ColorMapPass
 
-また、これらのパスの内、SideBySidePassとSplitScreenPassはComparisonPass クラスをベースクラスとしており、ComparisonPassはアブストラクト的なクラスとなっている  
+また、これらのパスの内、SideBySidePassとSplitScreenPassはComparisonPass クラスをベースクラスとしている  
+- ComparisonPass : 2つのinput画像を別々にサブクラスで指定したシェーダーによる処理を行った
 
 ### ComparisonPass 
 SplitScreenPassとSideBySidePassのアブストラクト的なクラス  
@@ -181,7 +182,7 @@ input2つの画像による任意の色計算処理ICalcPixelColorのみがイ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNDM4NjM4MiwxNjU3OTI2NDE0LC04Mz
+eyJoaXN0b3J5IjpbMTcxMjc0NzY1NywxNjU3OTI2NDE0LC04Mz
 c4OTEyNzUsLTMyOTUwMDE2MSw2ODQzNDgyMCwtODEwNzkxNzAy
 LDE0MjIyNzY5NzksNjMwNzcyNjMwLC0xOTc3OTE1MjQ0LC0xNz
 gwMjkzMjQ2LDY3ODI0Mzc1MCwtOTcwNDg2MjA5LDc4ODUzNzA0
