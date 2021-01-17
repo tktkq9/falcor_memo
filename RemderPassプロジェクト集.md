@@ -154,7 +154,6 @@ Mogwaiで使えるパスは以下となっている
 ### ComparisonPass 
 SplitScreenPassとSideBySidePassのアブストラクト的なクラス  
 共通処理部分のみ実装されており、直接使うようなものではない  
-
 in : leftInput、Texture2D、左側（mSwapSidesオンの場合は右）に描画するテクスチャー  
 in : rightInput、Texture2D、右側（mSwapSidesオンの場合は左）に描画するテクスチャー  
 out : texture2D、input2つの画像を左右に描画したテクスチャー
@@ -175,11 +174,11 @@ out : texture2D、input2つの画像を左右に描画したテクスチャー
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODg3MDk1NiwtOTcwNDg2MjA5LDc4OD
-UzNzA0MCwtMTM1NDEzMDQyLDI3MDc0NDcwNyw2NDY0NjQ5OTMs
-LTE3ODE3MTMzOTMsLTU2OTQ4MzgwMiwtOTUwODA0ODA5LDYzNj
-MzNDc4OCw4NDA0NDE1MzcsMTQxODAyMzEwMiwtMTQ2NDEzMDc4
-OCwyMDc2OTEwMDUyLDE5OTQyMDQ5MjEsLTE3MDU5NTczMDIsLT
-EzNzAzOTI0NzgsNDExMDUyMjY1LC04ODgxNzczMTgsMTMxNzkx
-MjI2Ml19
+eyJoaXN0b3J5IjpbNjc4MjQzNzUwLC05NzA0ODYyMDksNzg4NT
+M3MDQwLC0xMzU0MTMwNDIsMjcwNzQ0NzA3LDY0NjQ2NDk5Mywt
+MTc4MTcxMzM5MywtNTY5NDgzODAyLC05NTA4MDQ4MDksNjM2Mz
+M0Nzg4LDg0MDQ0MTUzNywxNDE4MDIzMTAyLC0xNDY0MTMwNzg4
+LDIwNzY5MTAwNTIsMTk5NDIwNDkyMSwtMTcwNTk1NzMwMiwtMT
+M3MDM5MjQ3OCw0MTEwNTIyNjUsLTg4ODE3NzMxOCwxMzE3OTEy
+MjYyXX0=
 -->
