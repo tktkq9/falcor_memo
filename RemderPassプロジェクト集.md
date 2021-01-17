@@ -157,9 +157,10 @@ Mogwaiで使えるパスは以下となっている
 
 ### SplitScreenPass
 
+### SideBySidePass
+
 ### InvalidPixelDetectionPass
 
-### SideBySidePass
 
 ### ColorMapPass
 
@@ -167,7 +168,7 @@ Mogwaiで使えるパスは以下となっている
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNDI3OTkzNywtNTY5NDgzODAyLC05NT
+eyJoaXN0b3J5IjpbLTQwMTQ0NzE3MSwtNTY5NDgzODAyLC05NT
 A4MDQ4MDksNjM2MzM0Nzg4LDg0MDQ0MTUzNywxNDE4MDIzMTAy
 LC0xNDY0MTMwNzg4LDIwNzY5MTAwNTIsMTk5NDIwNDkyMSwtMT
 cwNTk1NzMwMiwtMTM3MDM5MjQ3OCw0MTEwNTIyNjUsLTg4ODE3
