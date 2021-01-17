@@ -126,7 +126,7 @@ pcf系列とは違う点として、これらを使うときはシャドウマ�
 in : Depth。ない場合はこのパスで自作するようになっているとあるが、おそらく今は渡さないとだめっぽい（ただしinに線をつなげてなくても、 RenderDataに kDepthが入っていれば動くので、つないでもつながなくても大丈夫。というかレンダーグラフの処理がすべての使われているリソースをRenderDataぶちこんで全て渡すという処理なので線の意味がなくなっている）  
 out : VisivilityFBO、カメラから見た影情報。Rが影に対応し、1で影なし、0で完全に影となっている。（コード側でしか設定できないが）visualizeCascadesをオンにしている場合はgbaにシャドウマップの分割に対 する色が格納される  
 
-### そのほか設定変数
+### そのほかパス設定関連
 cascadeBlendThresholdはカスケードするときのカスケード間の境界部分が現れないように、分割をお互いオーバーラップさせる用の変数  
 このオーバーラップした部分はシェーダーによって2つの分割マップのブレンドを計算する  
 
@@ -148,11 +148,11 @@ calcPssmPartitionEnd()の計算は[GPU Gems 3 Chapter 10. Parallel-Split Shadow 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxODAyMzEwMiwtMTkyNDU2NzkyMCwtMT
-Q2NDEzMDc4OCwyMDc2OTEwMDUyLDE5OTQyMDQ5MjEsLTE3MDU5
-NTczMDIsLTEzNzAzOTI0NzgsNDExMDUyMjY1LC04ODgxNzczMT
-gsMTMxNzkxMjI2MiwxODAxOTA3ODIxLDc2NDg1ODIyLDkwNTM5
-MDc3MywtNjgzNzI1OCw1ODQyMzczNTEsMTQ4ODQ3ODQ3Myw4MD
-czMTA3NjYsLTE0MTE3MjI2NTIsLTE1NzM4OTUzOTIsMjEwNTUz
-OTMwNV19
+eyJoaXN0b3J5IjpbNDkzOTg0NzY4LDE0MTgwMjMxMDIsLTE0Nj
+QxMzA3ODgsMjA3NjkxMDA1MiwxOTk0MjA0OTIxLC0xNzA1OTU3
+MzAyLC0xMzcwMzkyNDc4LDQxMTA1MjI2NSwtODg4MTc3MzE4LD
+EzMTc5MTIyNjIsMTgwMTkwNzgyMSw3NjQ4NTgyMiw5MDUzOTA3
+NzMsLTY4MzcyNTgsNTg0MjM3MzUxLDE0ODg0Nzg0NzMsODA3Mz
+EwNzY2LC0xNDExNzIyNjUyLC0xNTczODk1MzkyLDIxMDU1Mzkz
+MDVdfQ==
 -->
