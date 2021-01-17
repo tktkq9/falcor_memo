@@ -141,10 +141,16 @@ calcPssmPartitionEnd()の計算は[GPU Gems 3 Chapter 10. Parallel-Split Shadow 
 様々なデバッグ用パスのプロジェクト
 DebugPass.cppはそれらのパス作成をdllにするための処理のみ  
 
+Mogwaiで使えるパスは以下
 - SplitScreenPass
 - InvalidPixelDetectionPass
 - SideBySidePass
 - ColorMapPass
+
+また、これらのパスの内部で利用されているパスとして
+- ComparisonPass : 
+
+### ComparisonPass 
 
 
 ### SplitScreenPass
@@ -159,11 +165,11 @@ DebugPass.cppはそれらのパス作成をdllにするための処理のみ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwNDQxNTM3LDE0MTgwMjMxMDIsLTE0Nj
-QxMzA3ODgsMjA3NjkxMDA1MiwxOTk0MjA0OTIxLC0xNzA1OTU3
-MzAyLC0xMzcwMzkyNDc4LDQxMTA1MjI2NSwtODg4MTc3MzE4LD
-EzMTc5MTIyNjIsMTgwMTkwNzgyMSw3NjQ4NTgyMiw5MDUzOTA3
-NzMsLTY4MzcyNTgsNTg0MjM3MzUxLDE0ODg0Nzg0NzMsODA3Mz
-EwNzY2LC0xNDExNzIyNjUyLC0xNTczODk1MzkyLDIxMDU1Mzkz
-MDVdfQ==
+eyJoaXN0b3J5IjpbLTExOTMwNjg5NzksODQwNDQxNTM3LDE0MT
+gwMjMxMDIsLTE0NjQxMzA3ODgsMjA3NjkxMDA1MiwxOTk0MjA0
+OTIxLC0xNzA1OTU3MzAyLC0xMzcwMzkyNDc4LDQxMTA1MjI2NS
+wtODg4MTc3MzE4LDEzMTc5MTIyNjIsMTgwMTkwNzgyMSw3NjQ4
+NTgyMiw5MDUzOTA3NzMsLTY4MzcyNTgsNTg0MjM3MzUxLDE0OD
+g0Nzg0NzMsODA3MzEwNzY2LC0xNDExNzIyNjUyLC0xNTczODk1
+MzkyXX0=
 -->
