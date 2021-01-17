@@ -123,13 +123,14 @@ out : VisivilityFBO、カメラから見た影情報。Rが影に対応し、1�
 ### 実装補足
 calcPssmPartitionEnd()の計算は[GPU Gems 3 Chapter 10. Parallel-Split Shadow Maps on Programmable GPUs](https://developer.nvidia.com/gpugems/gpugems3/part-ii-light-and-shadows/chapter-10-parallel-split-shadow-maps-programmable-gpus)の10.2.1 Step 1: Splitting the View Frustumの部分  
 
-
+cascadeBlendThresholdはカスケードするときのカスケード間の境界部分が現れないように、分割をお互いオーバーラップさせる用の変数  
+このオーバーラップした部分はシェーダーによって2つの分割
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4ODQ3ODQ3Myw4MDczMTA3NjYsLTE0MT
-E3MjI2NTIsLTE1NzM4OTUzOTIsMjEwNTUzOTMwNSwtMTc1NzEz
-NTgyMywtMjgzNTI2NTQyLC0xNzMxMjc2NzU4LDEwOTkyMzA3Mj
-gsLTE0MjExOTY0MzEsLTQxNzM2MzUzNSwtMTI4NTQ4NzA2MCwy
-MDQ4MjY4NDcwLDUwODQ0ODgwOSw2MjgyMTUzMjMsLTEyNDgzMz
-gwNzAsLTc3MTE1MTUzOSwtMTY2Mjg4MTIzNywyMDA5NTU3NDA2
-LDg5NDIyODA5MV19
+eyJoaXN0b3J5IjpbMTU1MTQyMDEwNywxNDg4NDc4NDczLDgwNz
+MxMDc2NiwtMTQxMTcyMjY1MiwtMTU3Mzg5NTM5MiwyMTA1NTM5
+MzA1LC0xNzU3MTM1ODIzLC0yODM1MjY1NDIsLTE3MzEyNzY3NT
+gsMTA5OTIzMDcyOCwtMTQyMTE5NjQzMSwtNDE3MzYzNTM1LC0x
+Mjg1NDg3MDYwLDIwNDgyNjg0NzAsNTA4NDQ4ODA5LDYyODIxNT
+MyMywtMTI0ODMzODA3MCwtNzcxMTUxNTM5LC0xNjYyODgxMjM3
+LDIwMDk1NTc0MDZdfQ==
 -->
