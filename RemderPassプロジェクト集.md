@@ -163,8 +163,9 @@ out : texture2D、input2つの画像を左右に描画したテクスチャー
 
 #### Comparison.ps.slang
 これもまたサブクラスで使うシェーダーのインターフェースと共通処理部分となっており、直接使うものではない  
+ただし、サブクラスで使われるほぼすべての処理が実装されており、サブクラスのシェーダーの方ではICalcPixelColorの実装と、ここで実装されているcompare()の呼び出しだけとなっている  
 
-input2つの画像による任意の色計算処理ICalcPixelColor()のみがインターフェースとなっており、  
+input2つの画像による任意の色計算処理ICalcPixelColorのみがインターフェースとなっており、  
 これをcompare()関数で呼び出され、gSplitLocationを境界として描画される
 
 ### SplitScreenPass
@@ -180,7 +181,7 @@ input2つの画像による任意の色計算処理ICalcPixelColor()のみがイ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDMzNDk1Niw2MzA3NzI2MzAsLTE5Nz
+eyJoaXN0b3J5IjpbMTIwMzQyNzA5Miw2MzA3NzI2MzAsLTE5Nz
 c5MTUyNDQsLTE3ODAyOTMyNDYsNjc4MjQzNzUwLC05NzA0ODYy
 MDksNzg4NTM3MDQwLC0xMzU0MTMwNDIsMjcwNzQ0NzA3LDY0Nj
 Q2NDk5MywtMTc4MTcxMzM5MywtNTY5NDgzODAyLC05NTA4MDQ4
