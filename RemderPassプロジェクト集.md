@@ -120,7 +120,7 @@ out : RGBA32Float、UnorderedAccess
 in : Depth。ない場合はこのパスで自作するようになっている  
 out : VisivilityFBO、カメラから見た影情報。Rが影に対応し、1で影なし、0で完全に影となっている。（コード側でしか設定できないが）visualizeCascadesをオンにしている場合はgbaにシャドウマップの分割に対 する色が格納される  
 
-### 設定変数
+### そのほか設定変数
 cascadeBlendThresholdはカスケードするときのカスケード間の境界部分が現れないように、分割をお互いオーバーラップさせる用の変数  
 このオーバーラップした部分はシェーダーによって2つの分割マップのブレンドを計算する  
 
@@ -131,11 +131,11 @@ calcPssmPartitionEnd()の計算は[GPU Gems 3 Chapter 10. Parallel-Split Shadow 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0MjM3MzUxLDE0ODg0Nzg0NzMsODA3Mz
-EwNzY2LC0xNDExNzIyNjUyLC0xNTczODk1MzkyLDIxMDU1Mzkz
-MDUsLTE3NTcxMzU4MjMsLTI4MzUyNjU0MiwtMTczMTI3Njc1OC
-wxMDk5MjMwNzI4LC0xNDIxMTk2NDMxLC00MTczNjM1MzUsLTEy
-ODU0ODcwNjAsMjA0ODI2ODQ3MCw1MDg0NDg4MDksNjI4MjE1Mz
-IzLC0xMjQ4MzM4MDcwLC03NzExNTE1MzksLTE2NjI4ODEyMzcs
-MjAwOTU1NzQwNl19
+eyJoaXN0b3J5IjpbLTg5NDA0ODc2MCw1ODQyMzczNTEsMTQ4OD
+Q3ODQ3Myw4MDczMTA3NjYsLTE0MTE3MjI2NTIsLTE1NzM4OTUz
+OTIsMjEwNTUzOTMwNSwtMTc1NzEzNTgyMywtMjgzNTI2NTQyLC
+0xNzMxMjc2NzU4LDEwOTkyMzA3MjgsLTE0MjExOTY0MzEsLTQx
+NzM2MzUzNSwtMTI4NTQ4NzA2MCwyMDQ4MjY4NDcwLDUwODQ0OD
+gwOSw2MjgyMTUzMjMsLTEyNDgzMzgwNzAsLTc3MTE1MTUzOSwt
+MTY2Mjg4MTIzN119
 -->
