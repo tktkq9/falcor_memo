@@ -108,6 +108,7 @@ out : RGBA32Float、UnorderedAccess
 シャドウマップのエッジぼやかしフィルターは
 - pcf系列 : Percentage Closer Filtering [ref1 (fixed and stochastic)](https://developer.nvidia.com/gpugems/gpugems/part-ii-lighting-and-shadows/chapter-11-shadow-map-antialiasing)
 - vsm系列 : Variance Shadow Map [ref1](https://hexadrive.jp/lab/demo/572/), [ref2](http://asura.iaigiri.com/XNA_GS/xna33.html)
+- これらを使うときはシャドウマップ生成後GaussianBlurパスによってブラーがかけられる  
   - evsm : Exponential Variance Shadow Mapping [ref1](https://www.martincap.io/project_detail.php?project_id=9)
 2がExponentialの正項のみ、4が正負両方使う  
 
@@ -134,11 +135,11 @@ calcPssmPartitionEnd()の計算は[GPU Gems 3 Chapter 10. Parallel-Split Shadow 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNzkxMjI2MiwxODAxOTA3ODIxLDc2ND
-g1ODIyLDkwNTM5MDc3MywtNjgzNzI1OCw1ODQyMzczNTEsMTQ4
-ODQ3ODQ3Myw4MDczMTA3NjYsLTE0MTE3MjI2NTIsLTE1NzM4OT
-UzOTIsMjEwNTUzOTMwNSwtMTc1NzEzNTgyMywtMjgzNTI2NTQy
-LC0xNzMxMjc2NzU4LDEwOTkyMzA3MjgsLTE0MjExOTY0MzEsLT
-QxNzM2MzUzNSwtMTI4NTQ4NzA2MCwyMDQ4MjY4NDcwLDUwODQ0
-ODgwOV19
+eyJoaXN0b3J5IjpbLTEwNjM5NzI5NDcsMTMxNzkxMjI2MiwxOD
+AxOTA3ODIxLDc2NDg1ODIyLDkwNTM5MDc3MywtNjgzNzI1OCw1
+ODQyMzczNTEsMTQ4ODQ3ODQ3Myw4MDczMTA3NjYsLTE0MTE3Mj
+I2NTIsLTE1NzM4OTUzOTIsMjEwNTUzOTMwNSwtMTc1NzEzNTgy
+MywtMjgzNTI2NTQyLC0xNzMxMjc2NzU4LDEwOTkyMzA3MjgsLT
+E0MjExOTY0MzEsLTQxNzM2MzUzNSwtMTI4NTQ4NzA2MCwyMDQ4
+MjY4NDcwXX0=
 -->
