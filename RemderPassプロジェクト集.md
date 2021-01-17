@@ -117,7 +117,7 @@ out : RGBA32Float、UnorderedAccess
 [vsm系列の方がpcfより1.5倍速い説](https://community.khronos.org/t/shadow-filtering-pcf-better-than-vsm/67180)
 ざっと調べた感じ、同じくらいの画像クオリティ比較で、vsmの方がpcfより速そう  
 
-in : Depth。ない場合はこのパスで自作するようになっているとあるが、おそらく今は渡さないとだめっぽい（ただしinに線をつなげてなくても、 RenderDataに kDepthが入っていれば動くので、つないでもつながなくても大丈夫
+in : Depth。ない場合はこのパスで自作するようになっているとあるが、おそらく今は渡さないとだめっぽい（ただしinに線をつなげてなくても、 RenderDataに kDepthが入っていれば動くので、つないでもつながなくても大丈夫）
 out : VisivilityFBO、カメラから見た影情報。Rが影に対応し、1で影なし、0で完全に影となっている。（コード側でしか設定できないが）visualizeCascadesをオンにしている場合はgbaにシャドウマップの分割に対 する色が格納される  
 
 ### そのほか設定変数
@@ -133,11 +133,11 @@ calcPssmPartitionEnd()の計算は[GPU Gems 3 Chapter 10. Parallel-Split Shadow 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0Nzc4NTE5Myw5MDUzOTA3NzMsLTY4Mz
-cyNTgsNTg0MjM3MzUxLDE0ODg0Nzg0NzMsODA3MzEwNzY2LC0x
-NDExNzIyNjUyLC0xNTczODk1MzkyLDIxMDU1MzkzMDUsLTE3NT
-cxMzU4MjMsLTI4MzUyNjU0MiwtMTczMTI3Njc1OCwxMDk5MjMw
-NzI4LC0xNDIxMTk2NDMxLC00MTczNjM1MzUsLTEyODU0ODcwNj
-AsMjA0ODI2ODQ3MCw1MDg0NDg4MDksNjI4MjE1MzIzLC0xMjQ4
-MzM4MDcwXX0=
+eyJoaXN0b3J5IjpbNzY0ODU4MjIsLTI0Nzc4NTE5Myw5MDUzOT
+A3NzMsLTY4MzcyNTgsNTg0MjM3MzUxLDE0ODg0Nzg0NzMsODA3
+MzEwNzY2LC0xNDExNzIyNjUyLC0xNTczODk1MzkyLDIxMDU1Mz
+kzMDUsLTE3NTcxMzU4MjMsLTI4MzUyNjU0MiwtMTczMTI3Njc1
+OCwxMDk5MjMwNzI4LC0xNDIxMTk2NDMxLC00MTczNjM1MzUsLT
+EyODU0ODcwNjAsMjA0ODI2ODQ3MCw1MDg0NDg4MDksNjI4MjE1
+MzIzXX0=
 -->
