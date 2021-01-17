@@ -167,8 +167,8 @@ out : texture2D、input2つの画像を左右に描画したテクスチャー
 
 input2つの画像による任意の色計算処理ICalcPixelColorのみがインターフェースとなっており、各々の画像のpixelPosに対応する色になんらかの処理をしたものを返す  
 これをcompare()関数で呼び出して各々の画像、gSplitLocationを境界として描画される  
-（分割箇所では分割を示すための線の描画処理も行われている。gDividerColorとgDividerSizeで色とサイズ指定）  
-
+（分割箇所では分割を示すための線の描画処理も行われている。gDividerColorとgDividerSizeで色とサイズ指定  
+あと、gDrawArrowsがオンの場合、マウス位置の場所にgArrowTexを描画する機能もある）  
 
 ### SplitScreenPass
 
@@ -183,11 +183,11 @@ input2つの画像による任意の色計算処理ICalcPixelColorのみがイ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzg5MTI3NSwtMzI5NTAwMTYxLDY4ND
-M0ODIwLC04MTA3OTE3MDIsMTQyMjI3Njk3OSw2MzA3NzI2MzAs
-LTE5Nzc5MTUyNDQsLTE3ODAyOTMyNDYsNjc4MjQzNzUwLC05Nz
-A0ODYyMDksNzg4NTM3MDQwLC0xMzU0MTMwNDIsMjcwNzQ0NzA3
-LDY0NjQ2NDk5MywtMTc4MTcxMzM5MywtNTY5NDgzODAyLC05NT
-A4MDQ4MDksNjM2MzM0Nzg4LDg0MDQ0MTUzNywxNDE4MDIzMTAy
+eyJoaXN0b3J5IjpbMTY1NzkyNjQxNCwtODM3ODkxMjc1LC0zMj
+k1MDAxNjEsNjg0MzQ4MjAsLTgxMDc5MTcwMiwxNDIyMjc2OTc5
+LDYzMDc3MjYzMCwtMTk3NzkxNTI0NCwtMTc4MDI5MzI0Niw2Nz
+gyNDM3NTAsLTk3MDQ4NjIwOSw3ODg1MzcwNDAsLTEzNTQxMzA0
+MiwyNzA3NDQ3MDcsNjQ2NDY0OTkzLC0xNzgxNzEzMzkzLC01Nj
+k0ODM4MDIsLTk1MDgwNDgwOSw2MzYzMzQ3ODgsODQwNDQxNTM3
 XX0=
 -->
