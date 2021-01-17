@@ -154,8 +154,8 @@ Mogwaiで使えるパスは以下となっている
 
 ### ComparisonPass 
 
-in : leftInput、Texture2D、（基本）左側に描画するテクスチャー  
-in : rightInput、Texture2D、（基本）右側に描画するテクスチャー  
+in : leftInput、Texture2D、左側（mSwapSidesオンの場合は右）に描画するテクスチャー  
+in : rightInput、Texture2D、右側（mSwapSidesオンの場合は左）に描画するテクスチャー  
 out : texture2D、input2つの画像を左右に描画したテクスチャー
 
 ### SplitScreenPass
@@ -171,7 +171,7 @@ out : texture2D、input2つの画像を左右に描画したテクスチャー
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjc0MzU1OSwyNzA3NDQ3MDcsNjQ2ND
+eyJoaXN0b3J5IjpbLTEzNTQxMzA0MiwyNzA3NDQ3MDcsNjQ2ND
 Y0OTkzLC0xNzgxNzEzMzkzLC01Njk0ODM4MDIsLTk1MDgwNDgw
 OSw2MzYzMzQ3ODgsODQwNDQxNTM3LDE0MTgwMjMxMDIsLTE0Nj
 QxMzA3ODgsMjA3NjkxMDA1MiwxOTk0MjA0OTIxLC0xNzA1OTU3
