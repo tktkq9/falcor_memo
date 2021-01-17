@@ -99,7 +99,7 @@ out : RGBA32Float、UnorderedAccess
 
 まずシャドウマップのz方向範囲として[SDSM (Sample Distribution Shadow Map)](https://software.intel.com/content/www/us/en/develop/articles/sample-distribution-shadow-maps.html)を使うかどうかの設定がある  
 パスのinputからのDepthテクスチャーにParallelReductionのMinMaxシェーダーを使い、Depthの最小値、最大値からCSMを作る範囲を決定する  
-使わない場合はUIで設定した範囲を使う  
+SDSMを使わない場合はUIで設定した範囲を使う  
 
 分割の仕方は
 - Linear : 等間隔
@@ -140,11 +140,11 @@ calcPssmPartitionEnd()の計算は[GPU Gems 3 Chapter 10. Parallel-Split Shadow 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEwNDk2MzM0LDE5OTQyMDQ5MjEsLTE3MD
-U5NTczMDIsLTEzNzAzOTI0NzgsNDExMDUyMjY1LC04ODgxNzcz
-MTgsMTMxNzkxMjI2MiwxODAxOTA3ODIxLDc2NDg1ODIyLDkwNT
-M5MDc3MywtNjgzNzI1OCw1ODQyMzczNTEsMTQ4ODQ3ODQ3Myw4
-MDczMTA3NjYsLTE0MTE3MjI2NTIsLTE1NzM4OTUzOTIsMjEwNT
-UzOTMwNSwtMTc1NzEzNTgyMywtMjgzNTI2NTQyLC0xNzMxMjc2
-NzU4XX0=
+eyJoaXN0b3J5IjpbLTkyOTUzNzY5NywxOTk0MjA0OTIxLC0xNz
+A1OTU3MzAyLC0xMzcwMzkyNDc4LDQxMTA1MjI2NSwtODg4MTc3
+MzE4LDEzMTc5MTIyNjIsMTgwMTkwNzgyMSw3NjQ4NTgyMiw5MD
+UzOTA3NzMsLTY4MzcyNTgsNTg0MjM3MzUxLDE0ODg0Nzg0NzMs
+ODA3MzEwNzY2LC0xNDExNzIyNjUyLC0xNTczODk1MzkyLDIxMD
+U1MzkzMDUsLTE3NTcxMzU4MjMsLTI4MzUyNjU0MiwtMTczMTI3
+Njc1OF19
 -->
