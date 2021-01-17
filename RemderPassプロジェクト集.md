@@ -121,9 +121,11 @@ in : Depth。ない場合はこのパスで自作するようになっている
 out : VisivilityFBO、カメラから見た影情報。Rが影に対応し、1で影なし、0で完全に影となっている。（コード側でしか設定できないが）visualizeCascadesをオンにしている場合はgbaにシャドウマップの分割に対 する色が格納される  
 
 ### 実装詳細
-calcPssmPartitionEnd()の計算は[GPU Gems 3 Chapter 10. Parallel-Split Shadow Maps on Programmable GPUs](https://developer.nvidia.com/gpugems/gpugems3/part-ii-light-and-shadows/chapter-10-parallel-split-shadow-maps-programmable-gpus)10.2.1 Step 1: Splitting the View Frustumのｋ
+calcPssmPartitionEnd()の計算は[GPU Gems 3 Chapter 10. Parallel-Split Shadow Maps on Programmable GPUs](https://developer.nvidia.com/gpugems/gpugems3/part-ii-light-and-shadows/chapter-10-parallel-split-shadow-maps-programmable-gpus)の10.2.1 Step 1: Splitting the View Frustumの部分  
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA3MzEwNzY2LC0xNzIzMDU1MzUwLC0xND
+eyJoaXN0b3J5IjpbLTE5NjYwNDQ2NjksODA3MzEwNzY2LC0xND
 ExNzIyNjUyLC0xNTczODk1MzkyLDIxMDU1MzkzMDUsLTE3NTcx
 MzU4MjMsLTI4MzUyNjU0MiwtMTczMTI3Njc1OCwxMDk5MjMwNz
 I4LC0xNDIxMTk2NDMxLC00MTczNjM1MzUsLTEyODU0ODcwNjAs
