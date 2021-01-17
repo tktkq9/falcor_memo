@@ -154,7 +154,7 @@ Mogwaiで使えるパスは以下となっている
 ### ComparisonPass 
 SplitScreenPassとSideBySidePassのアブストラクト的なクラス  
 共通処理部分のみ実装されており、直接使うようなものではない  
-gSplitLocationを境界として2つの画像を描画するパスとなっている  
+指定したgSplitLocationを境界として2つの画像を描画するパスとなっている  
 つまり、シェーダー内で2つの画像を合成するとかComparison的な数値を出すとかそういうものではなく、目視でComparisonしやすくするためのものである  
 
 in : leftInput、Texture2D、左側（mSwapSidesオンの場合は右）に描画するテクスチャー  
@@ -183,11 +183,11 @@ input2つの画像による任意の色計算処理ICalcPixelColorのみがイ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDI0NDA0MywtMzI5NTAwMTYxLDY4ND
-M0ODIwLC04MTA3OTE3MDIsMTQyMjI3Njk3OSw2MzA3NzI2MzAs
-LTE5Nzc5MTUyNDQsLTE3ODAyOTMyNDYsNjc4MjQzNzUwLC05Nz
-A0ODYyMDksNzg4NTM3MDQwLC0xMzU0MTMwNDIsMjcwNzQ0NzA3
-LDY0NjQ2NDk5MywtMTc4MTcxMzM5MywtNTY5NDgzODAyLC05NT
-A4MDQ4MDksNjM2MzM0Nzg4LDg0MDQ0MTUzNywxNDE4MDIzMTAy
-XX0=
+eyJoaXN0b3J5IjpbMzcyNzEzNTUyLC0zMjk1MDAxNjEsNjg0Mz
+Q4MjAsLTgxMDc5MTcwMiwxNDIyMjc2OTc5LDYzMDc3MjYzMCwt
+MTk3NzkxNTI0NCwtMTc4MDI5MzI0Niw2NzgyNDM3NTAsLTk3MD
+Q4NjIwOSw3ODg1MzcwNDAsLTEzNTQxMzA0MiwyNzA3NDQ3MDcs
+NjQ2NDY0OTkzLC0xNzgxNzEzMzkzLC01Njk0ODM4MDIsLTk1MD
+gwNDgwOSw2MzYzMzQ3ODgsODQwNDQxNTM3LDE0MTgwMjMxMDJd
+fQ==
 -->
