@@ -127,13 +127,14 @@ cascadeBlendThresholdはカスケードするときのカスケード間の境�
 ### そのほか実装補足
 mDepthPass（つまりDepthPass.slangによる描画）は現在は機能していないっぽい  
 作るだけ作っているが、実行はされていない（コメントアウトされている）  
+故にレンダーグラフのどっかにDepthを作るパスが必要  
 
 calcPssmPartitionEnd()の計算は[GPU Gems 3 Chapter 10. Parallel-Split Shadow Maps on Programmable GPUs](https://developer.nvidia.com/gpugems/gpugems3/part-ii-light-and-shadows/chapter-10-parallel-split-shadow-maps-programmable-gpus)の10.2.1 Step 1: Splitting the View Frustumの部分  
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MTQ1MTIxOSwxODAxOTA3ODIxLDc2ND
+eyJoaXN0b3J5IjpbMTMxNzkxMjI2MiwxODAxOTA3ODIxLDc2ND
 g1ODIyLDkwNTM5MDc3MywtNjgzNzI1OCw1ODQyMzczNTEsMTQ4
 ODQ3ODQ3Myw4MDczMTA3NjYsLTE0MTE3MjI2NTIsLTE1NzM4OT
 UzOTIsMjEwNTUzOTMwNSwtMTc1NzEzNTgyMywtMjgzNTI2NTQy
