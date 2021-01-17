@@ -148,7 +148,7 @@ Mogwaiで使えるパスは以下となっている
 - ColorMapPass
 
 また、これらのパスの内、SideBySidePassとSplitScreenPassはComparisonPass クラスをベースクラスとしている  
-- ComparisonPass : 2つのinput画像を（別々にサブクラスで指定したシェーダーによる処理を行ったあと）大きさを変えずに
+- ComparisonPass : 2つのinput画像を（別々にサブクラスで指定したシェーダーによる処理を行ったあと）線を境にして左右別々に表示するパス（例えば、レイトレのハイサンプルローサンプル比較とかでよくあるやつ）  
 
 ### ComparisonPass 
 SplitScreenPassとSideBySidePassのアブストラクト的なクラス  
@@ -182,7 +182,7 @@ input2つの画像による任意の色計算処理ICalcPixelColorのみがイ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQ4MDIwNjgsMTQ2ODg1MTkzOSwxNj
+eyJoaXN0b3J5IjpbLTQxNTQyMzk5NiwtMTM5NDgwMjA2OCwxNj
 U3OTI2NDE0LC04Mzc4OTEyNzUsLTMyOTUwMDE2MSw2ODQzNDgy
 MCwtODEwNzkxNzAyLDE0MjIyNzY5NzksNjMwNzcyNjMwLC0xOT
 c3OTE1MjQ0LC0xNzgwMjkzMjQ2LDY3ODI0Mzc1MCwtOTcwNDg2
