@@ -98,8 +98,7 @@ out : RGBA32Float、UnorderedAccess
 シーン上のライト配列のうち最初のライトのCSMを作成し、そのCSMをもとにシーンのカメラから見える影パラメーターを描画したものを返す（0で完全に影、1で完全に影なし）  
 
 まずマップのz方向範囲として[SDSM (Sample Distribution Shadow Map)](https://software.intel.com/content/www/us/en/develop/articles/sample-distribution-shadow-maps.html)を使うかどうかの設定がある  
-使う場合に
-
+パスのinputからのDepthテクスチャーにParallelReductionのMinMaxシェーダーを使い、Depthの最小値、最大値からCSMを作る範囲を決定する  
 
 分割の仕方は
 - Linear : 等間隔
@@ -140,7 +139,7 @@ calcPssmPartitionEnd()の計算は[GPU Gems 3 Chapter 10. Parallel-Split Shadow 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDIwNDkyMSwtMTE2NTI2NzUxOCwtMT
+eyJoaXN0b3J5IjpbLTE2NjA0NTUxNDUsMTk5NDIwNDkyMSwtMT
 cwNTk1NzMwMiwtMTM3MDM5MjQ3OCw0MTEwNTIyNjUsLTg4ODE3
 NzMxOCwxMzE3OTEyMjYyLDE4MDE5MDc4MjEsNzY0ODU4MjIsOT
 A1MzkwNzczLC02ODM3MjU4LDU4NDIzNzM1MSwxNDg4NDc4NDcz
