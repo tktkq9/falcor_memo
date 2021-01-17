@@ -97,6 +97,9 @@ out : RGBA32Float、UnorderedAccess
 カスケードシャドウマップのパス  
 シーン上のライト配列のうち最初のライトのCSMを作成し、そのCSMをもとにシーンのカメラから見える影パラメーターを描画したものを返す（0で完全に影、1で完全に影なし）  
 
+まずマップのz方向範囲として[SDSM (Sample Distribution Shadow Map)](https://software.intel.com/content/www/us/en/develop/articles/sample-distribution-shadow-maps.html)を使うかどうかの設定がある  
+
+
 分割の仕方は
 - Linear : 等間隔
 - Logarithmic ; 対数間隔
@@ -136,11 +139,11 @@ calcPssmPartitionEnd()の計算は[GPU Gems 3 Chapter 10. Parallel-Split Shadow 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxOTQyMzA5OSwtMTcwNTk1NzMwMiwtMT
-M3MDM5MjQ3OCw0MTEwNTIyNjUsLTg4ODE3NzMxOCwxMzE3OTEy
-MjYyLDE4MDE5MDc4MjEsNzY0ODU4MjIsOTA1MzkwNzczLC02OD
-M3MjU4LDU4NDIzNzM1MSwxNDg4NDc4NDczLDgwNzMxMDc2Niwt
-MTQxMTcyMjY1MiwtMTU3Mzg5NTM5MiwyMTA1NTM5MzA1LC0xNz
-U3MTM1ODIzLC0yODM1MjY1NDIsLTE3MzEyNzY3NTgsMTA5OTIz
-MDcyOF19
+eyJoaXN0b3J5IjpbLTUzNjM0NjM1LC0xNzA1OTU3MzAyLC0xMz
+cwMzkyNDc4LDQxMTA1MjI2NSwtODg4MTc3MzE4LDEzMTc5MTIy
+NjIsMTgwMTkwNzgyMSw3NjQ4NTgyMiw5MDUzOTA3NzMsLTY4Mz
+cyNTgsNTg0MjM3MzUxLDE0ODg0Nzg0NzMsODA3MzEwNzY2LC0x
+NDExNzIyNjUyLC0xNTczODk1MzkyLDIxMDU1MzkzMDUsLTE3NT
+cxMzU4MjMsLTI4MzUyNjU0MiwtMTczMTI3Njc1OCwxMDk5MjMw
+NzI4XX0=
 -->
