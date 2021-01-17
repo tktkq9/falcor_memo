@@ -125,19 +125,19 @@ cascadeBlendThresholdはカスケードするときのカスケード間の境�
 このオーバーラップした部分はシェーダーによって2つの分割マップのブレンドを計算する  
 
 ### そのほか実装補足
-mDepthPassは現在は機能していないっぽい  
-作るだけ作っているが、実行はされていない（コメントアウトされている）
+mDepthPass（つまりDepthPass.slangによる描画）は現在は機能していないっぽい  
+作るだけ作っているが、実行はされていない（コメントアウトされている）  
 
 calcPssmPartitionEnd()の計算は[GPU Gems 3 Chapter 10. Parallel-Split Shadow Maps on Programmable GPUs](https://developer.nvidia.com/gpugems/gpugems3/part-ii-light-and-shadows/chapter-10-parallel-split-shadow-maps-programmable-gpus)の10.2.1 Step 1: Splitting the View Frustumの部分  
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMTkwNzgyMSw3NjQ4NTgyMiw5MDUzOT
-A3NzMsLTY4MzcyNTgsNTg0MjM3MzUxLDE0ODg0Nzg0NzMsODA3
-MzEwNzY2LC0xNDExNzIyNjUyLC0xNTczODk1MzkyLDIxMDU1Mz
-kzMDUsLTE3NTcxMzU4MjMsLTI4MzUyNjU0MiwtMTczMTI3Njc1
-OCwxMDk5MjMwNzI4LC0xNDIxMTk2NDMxLC00MTczNjM1MzUsLT
-EyODU0ODcwNjAsMjA0ODI2ODQ3MCw1MDg0NDg4MDksNjI4MjE1
-MzIzXX0=
+eyJoaXN0b3J5IjpbLTM5MTQ1MTIxOSwxODAxOTA3ODIxLDc2ND
+g1ODIyLDkwNTM5MDc3MywtNjgzNzI1OCw1ODQyMzczNTEsMTQ4
+ODQ3ODQ3Myw4MDczMTA3NjYsLTE0MTE3MjI2NTIsLTE1NzM4OT
+UzOTIsMjEwNTUzOTMwNSwtMTc1NzEzNTgyMywtMjgzNTI2NTQy
+LC0xNzMxMjc2NzU4LDEwOTkyMzA3MjgsLTE0MjExOTY0MzEsLT
+QxNzM2MzUzNSwtMTI4NTQ4NzA2MCwyMDQ4MjY4NDcwLDUwODQ0
+ODgwOV19
 -->
