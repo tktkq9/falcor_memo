@@ -165,8 +165,8 @@ out : texture2D、input2つの画像を左右に描画したテクスチャー
 これもまたサブクラスで使うシェーダーのインターフェースと共通処理部分となっており、直接使うものではない  
 ただし、サブクラスで使われるほぼすべての処理が実装されており、サブクラスのシェーダーの方ではICalcPixelColorの実装と、ここで実装されているcompare()の呼び出しだけとなっている  
 
-input2つの画像による任意の色計算処理ICalcPixelColorのみがインターフェースとなっており、  
-これをcompare()関数で呼び出され、gSplitLocationを境界として描画される
+input2つの画像による任意の色計算処理ICalcPixelColorのみがインターフェースとなっており、画像になんらかの処理をした  
+これをcompare()関数で呼び出して各々の画像、gSplitLocationを境界として描画される
 （分割箇所では分割を示すための線の描画処理も行われている。gDividerColorとgDividerSizeで色とサイズ指定）  
 
 
@@ -183,7 +183,7 @@ input2つの画像による任意の色計算処理ICalcPixelColorのみがイ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDY5OTAwNzcsLTMyOTUwMDE2MSw2OD
+eyJoaXN0b3J5IjpbLTE2NzcyMTE5MjgsLTMyOTUwMDE2MSw2OD
 QzNDgyMCwtODEwNzkxNzAyLDE0MjIyNzY5NzksNjMwNzcyNjMw
 LC0xOTc3OTE1MjQ0LC0xNzgwMjkzMjQ2LDY3ODI0Mzc1MCwtOT
 cwNDg2MjA5LDc4ODUzNzA0MCwtMTM1NDEzMDQyLDI3MDc0NDcw
