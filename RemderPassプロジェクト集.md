@@ -147,7 +147,7 @@ Mogwaiで使えるパスは以下となっている
 - SideBySidePass
 - ColorMapPass
 
-また、これらのパスの内、SideBySidePassとSplitScreenPassは以下のパスクラスをベースクラスとしている
+また、これらのパスの内、SideBySidePassとSplitScreenPassは以下のクラスをベースクラスとしている
 - ComparisonPass : 
 
 
@@ -168,11 +168,11 @@ Mogwaiで使えるパスは以下となっている
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2NDY0OTkzLC0xNzgxNzEzMzkzLC01Nj
-k0ODM4MDIsLTk1MDgwNDgwOSw2MzYzMzQ3ODgsODQwNDQxNTM3
-LDE0MTgwMjMxMDIsLTE0NjQxMzA3ODgsMjA3NjkxMDA1MiwxOT
-k0MjA0OTIxLC0xNzA1OTU3MzAyLC0xMzcwMzkyNDc4LDQxMTA1
-MjI2NSwtODg4MTc3MzE4LDEzMTc5MTIyNjIsMTgwMTkwNzgyMS
-w3NjQ4NTgyMiw5MDUzOTA3NzMsLTY4MzcyNTgsNTg0MjM3MzUx
+eyJoaXN0b3J5IjpbODQzMzk3MDE3LDY0NjQ2NDk5MywtMTc4MT
+cxMzM5MywtNTY5NDgzODAyLC05NTA4MDQ4MDksNjM2MzM0Nzg4
+LDg0MDQ0MTUzNywxNDE4MDIzMTAyLC0xNDY0MTMwNzg4LDIwNz
+Y5MTAwNTIsMTk5NDIwNDkyMSwtMTcwNTk1NzMwMiwtMTM3MDM5
+MjQ3OCw0MTEwNTIyNjUsLTg4ODE3NzMxOCwxMzE3OTEyMjYyLD
+E4MDE5MDc4MjEsNzY0ODU4MjIsOTA1MzkwNzczLC02ODM3MjU4
 XX0=
 -->
