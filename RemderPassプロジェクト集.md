@@ -155,7 +155,7 @@ Mogwaiで使えるパスは以下となっている
 SplitScreenPassとSideBySidePassのアブストラクト的なクラス  
 共通処理部分のみ実装されており、直接使うようなものではない  
 
-Comparison.ps.slangもまたサブクラスで使うシェーダーのインターフェースと共通処理部分。直接使うものではない  
+Comparison.ps.slangもまたサブクラスで使うシェーダーのインターフェースと共通処理部分となっており、直接使うものではない  
 
 in : leftInput、Texture2D、左側（mSwapSidesオンの場合は右）に描画するテクスチャー  
 in : rightInput、Texture2D、右側（mSwapSidesオンの場合は左）に描画するテクスチャー  
@@ -174,7 +174,7 @@ out : texture2D、input2つの画像を左右に描画したテクスチャー
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMDk1NzUwOSw3ODg1MzcwNDAsLTEzNT
+eyJoaXN0b3J5IjpbLTk3MDQ4NjIwOSw3ODg1MzcwNDAsLTEzNT
 QxMzA0MiwyNzA3NDQ3MDcsNjQ2NDY0OTkzLC0xNzgxNzEzMzkz
 LC01Njk0ODM4MDIsLTk1MDgwNDgwOSw2MzYzMzQ3ODgsODQwND
 QxNTM3LDE0MTgwMjMxMDIsLTE0NjQxMzA3ODgsMjA3NjkxMDA1
