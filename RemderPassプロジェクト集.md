@@ -162,9 +162,10 @@ out : texture2D、input2つの画像を左右に描画したテクスチャー
 
 #### Comparison.ps.slang
 これもまたサブクラスで使うシェーダーのインターフェースと共通処理部分となっており、直接使うものではない  
+ほぼ
 
 input2つの画像による任意の色計算処理ICalcPixelColor()のみがインターフェースとなっており、  
-これによって得られた色をcompare()関数によって
+これをcompare()関数で呼び出され、gSplitLocationを境界として描画される
 
 ### SplitScreenPass
 
@@ -179,11 +180,11 @@ input2つの画像による任意の色計算処理ICalcPixelColor()のみがイ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAxMDc3MTM3LC0xOTc3OTE1MjQ0LC0xNz
-gwMjkzMjQ2LDY3ODI0Mzc1MCwtOTcwNDg2MjA5LDc4ODUzNzA0
-MCwtMTM1NDEzMDQyLDI3MDc0NDcwNyw2NDY0NjQ5OTMsLTE3OD
-E3MTMzOTMsLTU2OTQ4MzgwMiwtOTUwODA0ODA5LDYzNjMzNDc4
-OCw4NDA0NDE1MzcsMTQxODAyMzEwMiwtMTQ2NDEzMDc4OCwyMD
-c2OTEwMDUyLDE5OTQyMDQ5MjEsLTE3MDU5NTczMDIsLTEzNzAz
-OTI0NzhdfQ==
+eyJoaXN0b3J5IjpbLTE2MzE5MTk1OTUsLTE5Nzc5MTUyNDQsLT
+E3ODAyOTMyNDYsNjc4MjQzNzUwLC05NzA0ODYyMDksNzg4NTM3
+MDQwLC0xMzU0MTMwNDIsMjcwNzQ0NzA3LDY0NjQ2NDk5MywtMT
+c4MTcxMzM5MywtNTY5NDgzODAyLC05NTA4MDQ4MDksNjM2MzM0
+Nzg4LDg0MDQ0MTUzNywxNDE4MDIzMTAyLC0xNDY0MTMwNzg4LD
+IwNzY5MTAwNTIsMTk5NDIwNDkyMSwtMTcwNTk1NzMwMiwtMTM3
+MDM5MjQ3OF19
 -->
