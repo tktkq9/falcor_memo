@@ -138,11 +138,14 @@ mDepthPass（つまりDepthPass.slangによる描画）は現在は機能して�
 calcPssmPartitionEnd()の計算は[GPU Gems 3 Chapter 10. Parallel-Split Shadow Maps on Programmable GPUs](https://developer.nvidia.com/gpugems/gpugems3/part-ii-light-and-shadows/chapter-10-parallel-split-shadow-maps-programmable-gpus)の10.2.1 Step 1: Splitting the View Frustumの部分  
 
 ## DebugPass
-＾SplitScreenPass
+- SplitScreenPass
+- InvalidPixelDetectionPass
+- SideBySidePass
+- ColorMapPass
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM0Mjk1MDEsLTEzNzk2MTk4MTUsLT
+eyJoaXN0b3J5IjpbLTE0NjY1NTcwMDQsLTE4MTM0Mjk1MDEsLT
 E0NjQxMzA3ODgsMjA3NjkxMDA1MiwxOTk0MjA0OTIxLC0xNzA1
 OTU3MzAyLC0xMzcwMzkyNDc4LDQxMTA1MjI2NSwtODg4MTc3Mz
 E4LDEzMTc5MTIyNjIsMTgwMTkwNzgyMSw3NjQ4NTgyMiw5MDUz
