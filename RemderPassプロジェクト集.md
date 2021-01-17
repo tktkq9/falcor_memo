@@ -147,13 +147,13 @@ Mogwaiで使えるパスは以下となっている
 - InvalidPixelDetectionPass
 - ColorMapPass
 
-また、これらのパスの内、SideBySidePassとSplitScreenPassは以下のクラスをベースクラスとしている
-- ComparisonPass : 
+また、これらのパスの内、SideBySidePassとSplitScreenPassはComparisonPass クラスをベースクラスとしており、ComparisonPassはアブストラクトクラス的な役割となっている
+- : 
 
 
 
 ### ComparisonPass 
-SplitScreenPassとSideBySidePassのインターフェース的なクラス  
+SplitScreenPassとSideBySidePassのアブストラクト的なクラス  
 共通処理部分のみ実装されており、直接使うようなものではない  
 
 Comparison.ps.slangもまたサブクラスで使うシェーダーのインターフェースと共通処理部分。直接使うものではない  
@@ -175,11 +175,11 @@ out : texture2D、input2つの画像を左右に描画したテクスチャー
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwMTgzODQ1LDc4ODUzNzA0MCwtMTM1ND
-EzMDQyLDI3MDc0NDcwNyw2NDY0NjQ5OTMsLTE3ODE3MTMzOTMs
-LTU2OTQ4MzgwMiwtOTUwODA0ODA5LDYzNjMzNDc4OCw4NDA0ND
-E1MzcsMTQxODAyMzEwMiwtMTQ2NDEzMDc4OCwyMDc2OTEwMDUy
-LDE5OTQyMDQ5MjEsLTE3MDU5NTczMDIsLTEzNzAzOTI0NzgsND
-ExMDUyMjY1LC04ODgxNzczMTgsMTMxNzkxMjI2MiwxODAxOTA3
-ODIxXX0=
+eyJoaXN0b3J5IjpbMTgzNjA5NjM0MSw3ODg1MzcwNDAsLTEzNT
+QxMzA0MiwyNzA3NDQ3MDcsNjQ2NDY0OTkzLC0xNzgxNzEzMzkz
+LC01Njk0ODM4MDIsLTk1MDgwNDgwOSw2MzYzMzQ3ODgsODQwND
+QxNTM3LDE0MTgwMjMxMDIsLTE0NjQxMzA3ODgsMjA3NjkxMDA1
+MiwxOTk0MjA0OTIxLC0xNzA1OTU3MzAyLC0xMzcwMzkyNDc4LD
+QxMTA1MjI2NSwtODg4MTc3MzE4LDEzMTc5MTIyNjIsMTgwMTkw
+NzgyMV19
 -->
