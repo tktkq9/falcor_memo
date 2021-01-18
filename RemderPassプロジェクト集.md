@@ -165,7 +165,7 @@ inのサイズとフォーマットはほぼ任意
 インプットのテクスチャーのinfとnan検出用パス  
 赤がnan, 緑がinf, 黒が正常  
 
-Texture2D<float4>でシェーダーに渡して、floatとして判定するので、intテクスチャーとかは多分意味なし  
+インプットテクスチャーはTexture2D<float4>でシェーダーに渡して、floatとして判定するので、intテクスチャーとかは多分意味なし  
 
 ### ComparisonPass 
 SplitScreenPassとSideBySidePassのアブストラクト的なクラス  
@@ -206,11 +206,11 @@ gLeftBoundの操作を行えるようになっている
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxNDIwLDE5OTY2NjY0ODgsLTEyNjI1MD
-U1NTAsLTkyMDk0NjY0NywtOTgyMzE5OTY1LDExNTE4MDAxODAs
-LTE4NDA0MTkzNjEsLTEyNjU4MzUyNiwtMTA2MzIzNzkxMCwxNz
-M0NjExNDY0LC0zNzEzOTYzOTEsNDI0OTk5NTk5LC02MTM5MjI2
-NjQsMTEyODY0NjMwOCwtMjQwMjU3OTg0LDY0NjY4MDQ5NiwxOD
-g1NTI2MTk3LDE4ODU1MjYxOTcsLTEwNjk1Njc5MzgsLTE0Mzk1
-MjA2NF19
+eyJoaXN0b3J5IjpbLTQ1NjE0MzcyNCwxOTk2NjY2NDg4LC0xMj
+YyNTA1NTUwLC05MjA5NDY2NDcsLTk4MjMxOTk2NSwxMTUxODAw
+MTgwLC0xODQwNDE5MzYxLC0xMjY1ODM1MjYsLTEwNjMyMzc5MT
+AsMTczNDYxMTQ2NCwtMzcxMzk2MzkxLDQyNDk5OTU5OSwtNjEz
+OTIyNjY0LDExMjg2NDYzMDgsLTI0MDI1Nzk4NCw2NDY2ODA0OT
+YsMTg4NTUyNjE5NywxODg1NTI2MTk3LC0xMDY5NTY3OTM4LC0x
+NDM5NTIwNjRdfQ==
 -->
