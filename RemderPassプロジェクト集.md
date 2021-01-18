@@ -151,7 +151,7 @@ Mogwaiで使えるパスは以下となっている
 - ComparisonPass : 2つのinput画像を（別々にサブクラスで指定したシェーダーによる処理を行ったあと）左右に表示するパス    
 
 ### ColorMapPass
-ColorMap.slangにあるカラーマップを_COLOR_MAPを指定しててｋ
+インプットの画像のうちの1チャンネル（_CHANNEL）に対し、ColorMap.slangにあるカラーマップのうち_COLOR_MAPを指定して適用
 
 ### InvalidPixelDetectionPass
 
@@ -195,11 +195,11 @@ gLeftBoundの操作を行えるようになっている
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyODY0NjMwOCwtMTI4NTY0MjU1MSwtMj
-QwMjU3OTg0LDY0NjY4MDQ5NiwxODg1NTI2MTk3LDE4ODU1MjYx
-OTcsLTEwNjk1Njc5MzgsLTE0Mzk1MjA2NCwtMzUxOTYwMTYwLC
-0xMzk0ODAyMDY4LDE2NTc5MjY0MTQsLTgzNzg5MTI3NSwtMzI5
-NTAwMTYxLDY4NDM0ODIwLC04MTA3OTE3MDIsMTQyMjI3Njk3OS
-w2MzA3NzI2MzAsLTE5Nzc5MTUyNDQsLTE3ODAyOTMyNDYsNjc4
-MjQzNzUwXX0=
+eyJoaXN0b3J5IjpbOTI3NjE4NTE3LDExMjg2NDYzMDgsLTI0MD
+I1Nzk4NCw2NDY2ODA0OTYsMTg4NTUyNjE5NywxODg1NTI2MTk3
+LC0xMDY5NTY3OTM4LC0xNDM5NTIwNjQsLTM1MTk2MDE2MCwtMT
+M5NDgwMjA2OCwxNjU3OTI2NDE0LC04Mzc4OTEyNzUsLTMyOTUw
+MDE2MSw2ODQzNDgyMCwtODEwNzkxNzAyLDE0MjIyNzY5NzksNj
+MwNzcyNjMwLC0xOTc3OTE1MjQ0LC0xNzgwMjkzMjQ2LDY3ODI0
+Mzc1MF19
 -->
