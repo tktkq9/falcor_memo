@@ -144,7 +144,7 @@ DebugPass.cppはそれらのパス作成をdllにするための処理のみ
 Mogwaiで使えるパスは以下となっている
 - ColorMapPass
 - InvalidPixelDetectionPass
-- SplitScreenPass : 2つ画像を渡し、線を境に2つの画像を別々に表示（画面の色）
+- SplitScreenPass : 2つ画像を渡し、線を境に2つの画像を別々に表示（画面の色 = ）
 - SideBySidePass : 
 
 また、これらのパスの内、SideBySidePassとSplitScreenPassはComparisonPass クラスをベースクラスとしている  
@@ -194,11 +194,11 @@ gLeftBoundの操作を行えるようになっている
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTA5MTk1NSwxODg1NTI2MTk3LDE4OD
-U1MjYxOTcsLTEwNjk1Njc5MzgsLTE0Mzk1MjA2NCwtMzUxOTYw
-MTYwLC0xMzk0ODAyMDY4LDE2NTc5MjY0MTQsLTgzNzg5MTI3NS
-wtMzI5NTAwMTYxLDY4NDM0ODIwLC04MTA3OTE3MDIsMTQyMjI3
-Njk3OSw2MzA3NzI2MzAsLTE5Nzc5MTUyNDQsLTE3ODAyOTMyND
-YsNjc4MjQzNzUwLC05NzA0ODYyMDksNzg4NTM3MDQwLC0xMzU0
-MTMwNDJdfQ==
+eyJoaXN0b3J5IjpbOTg1Mjg5NDY0LC01MDkwOTE5NTUsMTg4NT
+UyNjE5NywxODg1NTI2MTk3LC0xMDY5NTY3OTM4LC0xNDM5NTIw
+NjQsLTM1MTk2MDE2MCwtMTM5NDgwMjA2OCwxNjU3OTI2NDE0LC
+04Mzc4OTEyNzUsLTMyOTUwMDE2MSw2ODQzNDgyMCwtODEwNzkx
+NzAyLDE0MjIyNzY5NzksNjMwNzcyNjMwLC0xOTc3OTE1MjQ0LC
+0xNzgwMjkzMjQ2LDY3ODI0Mzc1MCwtOTcwNDg2MjA5LDc4ODUz
+NzA0MF19
 -->
