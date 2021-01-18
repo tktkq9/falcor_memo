@@ -184,16 +184,12 @@ ComparisonPass のサブクラス
 こちらは境界線をマウス移動とかはできないが、  
 gLeftBoundの操作を行えるようになっている  
 
-### ColorMapPass
-
-### InvalidPixelDetectionPass
-
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTY4Mjc4MzEsMTg4NTUyNjE5NywxOD
+eyJoaXN0b3J5IjpbLTE0MTk0NTAzMDgsMTg4NTUyNjE5NywxOD
 g1NTI2MTk3LC0xMDY5NTY3OTM4LC0xNDM5NTIwNjQsLTM1MTk2
 MDE2MCwtMTM5NDgwMjA2OCwxNjU3OTI2NDE0LC04Mzc4OTEyNz
 UsLTMyOTUwMDE2MSw2ODQzNDgyMCwtODEwNzkxNzAyLDE0MjIy
