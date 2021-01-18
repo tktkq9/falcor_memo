@@ -145,7 +145,7 @@ Mogwaiで使えるパスは以下となっている
 - ColorMapPass
 - InvalidPixelDetectionPass
 - SplitScreenPass : 2つ画像を渡し、線を境に2つの画像を別々に表示（）
-- SideBySidePass : 2つ画像を渡し、線を境に2つの画像を別々に表示（どちらも同じピクセル位置からｈ）
+- SideBySidePass : 2つ画像を渡し、線を境に2つの画像を別々に表示（どちらも同じピクセル位置から表示）
 
 また、これらのパスの内、SideBySidePassとSplitScreenPassはComparisonPass クラスをベースクラスとしている  
 - ComparisonPass : 2つのinput画像を（別々にサブクラスで指定したシェーダーによる処理を行ったあと）左右に表示するパス    
@@ -194,7 +194,7 @@ gLeftBoundの操作を行えるようになっている
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM4NjU0NTAwLDk4NTI4OTQ2NCwxODg1NT
+eyJoaXN0b3J5IjpbNjQ2NjgwNDk2LDczODY1NDUwMCwxODg1NT
 I2MTk3LDE4ODU1MjYxOTcsLTEwNjk1Njc5MzgsLTE0Mzk1MjA2
 NCwtMzUxOTYwMTYwLC0xMzk0ODAyMDY4LDE2NTc5MjY0MTQsLT
 gzNzg5MTI3NSwtMzI5NTAwMTYxLDY4NDM0ODIwLC04MTA3OTE3
