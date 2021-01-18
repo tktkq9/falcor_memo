@@ -155,7 +155,7 @@ Mogwaiで使えるパスは以下となっている
 
 カラーマップの両端をテクスチャーのどの値に対応付けるか値範囲を指定でき、  
 さらにmAutoRangeオンの場合は、テクスチャーの最小最大値を計算し、それを値範囲として指定される（ComputeParallelReduction（CSMとは微妙に違う）を使ってGPU処理で行われFenceが発生することに注意）  
-ただし、指定した範囲の最小（最大）の方が小さければ
+ただし、指定した範囲の最小（最大）の方が小さ（ｐｐ）ければ
 
 in : texture2D, ShaderResource  
 out : texture2D, RenderTarget  
@@ -202,11 +202,11 @@ gLeftBoundの操作を行えるようになっている
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MjExNDM5MywtMTA2MzIzNzkxMCwxNz
-M0NjExNDY0LC0zNzEzOTYzOTEsNDI0OTk5NTk5LC02MTM5MjI2
-NjQsMTEyODY0NjMwOCwtMjQwMjU3OTg0LDY0NjY4MDQ5NiwxOD
-g1NTI2MTk3LDE4ODU1MjYxOTcsLTEwNjk1Njc5MzgsLTE0Mzk1
-MjA2NCwtMzUxOTYwMTYwLC0xMzk0ODAyMDY4LDE2NTc5MjY0MT
-QsLTgzNzg5MTI3NSwtMzI5NTAwMTYxLDY4NDM0ODIwLC04MTA3
-OTE3MDJdfQ==
+eyJoaXN0b3J5IjpbLTEyNjU4MzUyNiwxOTUyMTE0MzkzLC0xMD
+YzMjM3OTEwLDE3MzQ2MTE0NjQsLTM3MTM5NjM5MSw0MjQ5OTk1
+OTksLTYxMzkyMjY2NCwxMTI4NjQ2MzA4LC0yNDAyNTc5ODQsNj
+Q2NjgwNDk2LDE4ODU1MjYxOTcsMTg4NTUyNjE5NywtMTA2OTU2
+NzkzOCwtMTQzOTUyMDY0LC0zNTE5NjAxNjAsLTEzOTQ4MDIwNj
+gsMTY1NzkyNjQxNCwtODM3ODkxMjc1LC0zMjk1MDAxNjEsNjg0
+MzQ4MjBdfQ==
 -->
