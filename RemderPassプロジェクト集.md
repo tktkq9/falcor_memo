@@ -154,7 +154,7 @@ Mogwaiで使えるパスは以下となっている
 インプットの画像のうちの1チャンネル（_CHANNEL）に対し、ColorMap.slangにあるカラーマップのうちの1つを_COLOR_MAPで指定して適用したものを出力するパス  
 
 カラーマップの両端をテクスチャーのどの値に対応付けるか値範囲を指定でき、  
-さらにmAutoRangeオンの場合は、テクスチャーの最小最大値を計算し（）、それを値範囲として指定される  
+さらにmAutoRangeオンの場合は、テクスチャーの最小最大値を計算し（CSMでも使っていたComputeParallelReductionによるGPU処理で計算するので、設定によっては結果が遅延する）、それを値範囲として指定される  
 
 in : texture2D, ShaderResource  
 out : texture2D, RenderTarget  
@@ -201,11 +201,11 @@ gLeftBoundの操作を行えるようになっている
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTgxMTk4ODIsLTM3MTM5NjM5MSw0Mj
-Q5OTk1OTksLTYxMzkyMjY2NCwxMTI4NjQ2MzA4LC0yNDAyNTc5
-ODQsNjQ2NjgwNDk2LDE4ODU1MjYxOTcsMTg4NTUyNjE5NywtMT
-A2OTU2NzkzOCwtMTQzOTUyMDY0LC0zNTE5NjAxNjAsLTEzOTQ4
-MDIwNjgsMTY1NzkyNjQxNCwtODM3ODkxMjc1LC0zMjk1MDAxNj
-EsNjg0MzQ4MjAsLTgxMDc5MTcwMiwxNDIyMjc2OTc5LDYzMDc3
-MjYzMF19
+eyJoaXN0b3J5IjpbMTk1ODgwMTk4MSwtMzcxMzk2MzkxLDQyND
+k5OTU5OSwtNjEzOTIyNjY0LDExMjg2NDYzMDgsLTI0MDI1Nzk4
+NCw2NDY2ODA0OTYsMTg4NTUyNjE5NywxODg1NTI2MTk3LC0xMD
+Y5NTY3OTM4LC0xNDM5NTIwNjQsLTM1MTk2MDE2MCwtMTM5NDgw
+MjA2OCwxNjU3OTI2NDE0LC04Mzc4OTEyNzUsLTMyOTUwMDE2MS
+w2ODQzNDgyMCwtODEwNzkxNzAyLDE0MjIyNzY5NzksNjMwNzcy
+NjMwXX0=
 -->
