@@ -150,6 +150,11 @@ Mogwaiで使えるパスは以下となっている
 また、これらのパスの内、SideBySidePassとSplitScreenPassはComparisonPass クラスをベースクラスとしている  
 - ComparisonPass : 2つのinput画像を（別々にサブクラスで指定したシェーダーによる処理を行ったあと）左右に表示するパス    
 
+### ColorMapPass
+
+### InvalidPixelDetectionPass
+
+
 ### ComparisonPass 
 SplitScreenPassとSideBySidePassのアブストラクト的なクラス  
 共通処理部分のみ実装されており、直接使うようなものではない  
@@ -189,11 +194,11 @@ gLeftBoundの操作を行えるようになっている
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTk0NTAzMDgsMTg4NTUyNjE5NywxOD
-g1NTI2MTk3LC0xMDY5NTY3OTM4LC0xNDM5NTIwNjQsLTM1MTk2
-MDE2MCwtMTM5NDgwMjA2OCwxNjU3OTI2NDE0LC04Mzc4OTEyNz
-UsLTMyOTUwMDE2MSw2ODQzNDgyMCwtODEwNzkxNzAyLDE0MjIy
-NzY5NzksNjMwNzcyNjMwLC0xOTc3OTE1MjQ0LC0xNzgwMjkzMj
-Q2LDY3ODI0Mzc1MCwtOTcwNDg2MjA5LDc4ODUzNzA0MCwtMTM1
-NDEzMDQyXX0=
+eyJoaXN0b3J5IjpbLTc5NTk2OTQ3NywxODg1NTI2MTk3LDE4OD
+U1MjYxOTcsLTEwNjk1Njc5MzgsLTE0Mzk1MjA2NCwtMzUxOTYw
+MTYwLC0xMzk0ODAyMDY4LDE2NTc5MjY0MTQsLTgzNzg5MTI3NS
+wtMzI5NTAwMTYxLDY4NDM0ODIwLC04MTA3OTE3MDIsMTQyMjI3
+Njk3OSw2MzA3NzI2MzAsLTE5Nzc5MTUyNDQsLTE3ODAyOTMyND
+YsNjc4MjQzNzUwLC05NzA0ODYyMDksNzg4NTM3MDQwLC0xMzU0
+MTMwNDJdfQ==
 -->
