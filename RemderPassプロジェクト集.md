@@ -159,7 +159,7 @@ Mogwaiで使えるパスは以下となっている
 
 in : texture2D, ShaderResource  
 out : texture2D, RenderTarget  
-サイズとフォーマットはある程度任意  
+サイズとフォーマットはほぼ任意  
 
 ### InvalidPixelDetectionPass
 
@@ -203,7 +203,7 @@ gLeftBoundの操作を行えるようになっている
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzE5MjQ2NiwtMTg0MDQxOTM2MSwtMT
+eyJoaXN0b3J5IjpbLTE3OTIyMDg4MSwtMTg0MDQxOTM2MSwtMT
 I2NTgzNTI2LC0xMDYzMjM3OTEwLDE3MzQ2MTE0NjQsLTM3MTM5
 NjM5MSw0MjQ5OTk1OTksLTYxMzkyMjY2NCwxMTI4NjQ2MzA4LC
 0yNDAyNTc5ODQsNjQ2NjgwNDk2LDE4ODU1MjYxOTcsMTg4NTUy
