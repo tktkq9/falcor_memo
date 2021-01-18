@@ -166,7 +166,6 @@ inのサイズとフォーマットはほぼ任意
 赤がnan, 緑がinf, 黒が正常  
 Texture2D<float4>でシェーダーに渡して、floatとして判定するので、intテクスチャーとかは多分意味なし  
 
-
 ### ComparisonPass 
 SplitScreenPassとSideBySidePassのアブストラクト的なクラス  
 共通処理部分のみ実装されており、直接使うようなものではない  
@@ -206,11 +205,11 @@ gLeftBoundの操作を行えるようになっている
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NjY2NjQ4OCwtMTI2MjUwNTU1MCwtOT
-IwOTQ2NjQ3LC05ODIzMTk5NjUsMTE1MTgwMDE4MCwtMTg0MDQx
-OTM2MSwtMTI2NTgzNTI2LC0xMDYzMjM3OTEwLDE3MzQ2MTE0Nj
-QsLTM3MTM5NjM5MSw0MjQ5OTk1OTksLTYxMzkyMjY2NCwxMTI4
-NjQ2MzA4LC0yNDAyNTc5ODQsNjQ2NjgwNDk2LDE4ODU1MjYxOT
-csMTg4NTUyNjE5NywtMTA2OTU2NzkzOCwtMTQzOTUyMDY0LC0z
-NTE5NjAxNjBdfQ==
+eyJoaXN0b3J5IjpbMTQwMDI3NjA0MiwxOTk2NjY2NDg4LC0xMj
+YyNTA1NTUwLC05MjA5NDY2NDcsLTk4MjMxOTk2NSwxMTUxODAw
+MTgwLC0xODQwNDE5MzYxLC0xMjY1ODM1MjYsLTEwNjMyMzc5MT
+AsMTczNDYxMTQ2NCwtMzcxMzk2MzkxLDQyNDk5OTU5OSwtNjEz
+OTIyNjY0LDExMjg2NDYzMDgsLTI0MDI1Nzk4NCw2NDY2ODA0OT
+YsMTg4NTUyNjE5NywxODg1NTI2MTk3LC0xMDY5NTY3OTM4LC0x
+NDM5NTIwNjRdfQ==
 -->
