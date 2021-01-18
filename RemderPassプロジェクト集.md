@@ -162,7 +162,9 @@ out : texture2D, RenderTarget
 inのサイズとフォーマットはほぼ任意  
 
 ### InvalidPixelDetectionPass
-インプットのテクスチャーのinfとnan
+インプットのテクスチャーのinfとnan検出用パス  
+赤がnan, 緑がinf, 黒が正常  
+
 
 ### ComparisonPass 
 SplitScreenPassとSideBySidePassのアブストラクト的なクラス  
@@ -203,7 +205,7 @@ gLeftBoundの操作を行えるようになっている
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MjMxOTk2NSwtNjU1Mzc4MjkxLDExNT
+eyJoaXN0b3J5IjpbLTkyMDk0NjY0NywtOTgyMzE5OTY1LDExNT
 E4MDAxODAsLTE4NDA0MTkzNjEsLTEyNjU4MzUyNiwtMTA2MzIz
 NzkxMCwxNzM0NjExNDY0LC0zNzEzOTYzOTEsNDI0OTk5NTk5LC
 02MTM5MjI2NjQsMTEyODY0NjMwOCwtMjQwMjU3OTg0LDY0NjY4
