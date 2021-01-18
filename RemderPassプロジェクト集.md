@@ -142,10 +142,10 @@ calcPssmPartitionEnd()の計算は[GPU Gems 3 Chapter 10. Parallel-Split Shadow 
 DebugPass.cppはそれらのパス作成をdllにするための処理のみ  
 
 Mogwaiで使えるパスは以下となっている
-- SplitScreenPass
-- SideBySidePass
-- InvalidPixelDetectionPass
 - ColorMapPass
+- InvalidPixelDetectionPass
+- SplitScreenPass : 
+- SideBySidePass : 
 
 また、これらのパスの内、SideBySidePassとSplitScreenPassはComparisonPass クラスをベースクラスとしている  
 - ComparisonPass : 2つのinput画像を（別々にサブクラスで指定したシェーダーによる処理を行ったあと）左右に表示するパス    
@@ -194,7 +194,7 @@ gLeftBoundの操作を行えるようになっている
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NTk2OTQ3NywxODg1NTI2MTk3LDE4OD
+eyJoaXN0b3J5IjpbLTY1ODQxOTU1NywxODg1NTI2MTk3LDE4OD
 U1MjYxOTcsLTEwNjk1Njc5MzgsLTE0Mzk1MjA2NCwtMzUxOTYw
 MTYwLC0xMzk0ODAyMDY4LDE2NTc5MjY0MTQsLTgzNzg5MTI3NS
 wtMzI5NTAwMTYxLDY4NDM0ODIwLC04MTA3OTE3MDIsMTQyMjI3
