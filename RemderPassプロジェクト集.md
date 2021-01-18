@@ -172,7 +172,7 @@ input2つの画像による任意の色計算処理ICalcPixelColorのみがイ�
 ### SplitScreenPass
 ComparisonPass のサブクラス  
 2つの画像の境界線をマウス左クリックでつかんでx軸移動できるようにしたパス  
-インプット画像の加工はな  
+インプット画像の加工はなし  
 
 mDrawArrowsで境界線を動かしている間矢印を表示できたりする  
 
@@ -188,11 +188,11 @@ ComparisonPass のサブクラス
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NDQzNDEzOSwtMTQzOTUyMDY0LC0zNT
-E5NjAxNjAsLTEzOTQ4MDIwNjgsMTY1NzkyNjQxNCwtODM3ODkx
-Mjc1LC0zMjk1MDAxNjEsNjg0MzQ4MjAsLTgxMDc5MTcwMiwxND
-IyMjc2OTc5LDYzMDc3MjYzMCwtMTk3NzkxNTI0NCwtMTc4MDI5
-MzI0Niw2NzgyNDM3NTAsLTk3MDQ4NjIwOSw3ODg1MzcwNDAsLT
-EzNTQxMzA0MiwyNzA3NDQ3MDcsNjQ2NDY0OTkzLC0xNzgxNzEz
-MzkzXX0=
+eyJoaXN0b3J5IjpbLTEwNjk1Njc5MzgsLTg5NDQzNDEzOSwtMT
+QzOTUyMDY0LC0zNTE5NjAxNjAsLTEzOTQ4MDIwNjgsMTY1Nzky
+NjQxNCwtODM3ODkxMjc1LC0zMjk1MDAxNjEsNjg0MzQ4MjAsLT
+gxMDc5MTcwMiwxNDIyMjc2OTc5LDYzMDc3MjYzMCwtMTk3Nzkx
+NTI0NCwtMTc4MDI5MzI0Niw2NzgyNDM3NTAsLTk3MDQ4NjIwOS
+w3ODg1MzcwNDAsLTEzNTQxMzA0MiwyNzA3NDQ3MDcsNjQ2NDY0
+OTkzXX0=
 -->
