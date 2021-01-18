@@ -171,6 +171,8 @@ input2つの画像による任意の色計算処理ICalcPixelColorのみがイ�
 
 ### SplitScreenPass
 ComparisonPass のサブクラス  
+pixelPosの色 = 左右どちらかのpixelPosの色  
+（例えば、レイトレのハイサンプルローサンプル比較とかでよくあるやつ）
 2つの画像の境界線をマウス左クリックでつかんでx軸移動できるようにしたパス  
 インプット画像の加工は無し  
 
@@ -188,11 +190,11 @@ ComparisonPass のサブクラス
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MDY0MTQ3MiwxODg1NTI2MTk3LDE4OD
-U1MjYxOTcsLTEwNjk1Njc5MzgsLTE0Mzk1MjA2NCwtMzUxOTYw
-MTYwLC0xMzk0ODAyMDY4LDE2NTc5MjY0MTQsLTgzNzg5MTI3NS
-wtMzI5NTAwMTYxLDY4NDM0ODIwLC04MTA3OTE3MDIsMTQyMjI3
-Njk3OSw2MzA3NzI2MzAsLTE5Nzc5MTUyNDQsLTE3ODAyOTMyND
-YsNjc4MjQzNzUwLC05NzA0ODYyMDksNzg4NTM3MDQwLC0xMzU0
-MTMwNDJdfQ==
+eyJoaXN0b3J5IjpbLTEyMzk1NDE2NTIsMTg4NTUyNjE5NywxOD
+g1NTI2MTk3LC0xMDY5NTY3OTM4LC0xNDM5NTIwNjQsLTM1MTk2
+MDE2MCwtMTM5NDgwMjA2OCwxNjU3OTI2NDE0LC04Mzc4OTEyNz
+UsLTMyOTUwMDE2MSw2ODQzNDgyMCwtODEwNzkxNzAyLDE0MjIy
+NzY5NzksNjMwNzcyNjMwLC0xOTc3OTE1MjQ0LC0xNzgwMjkzMj
+Q2LDY3ODI0Mzc1MCwtOTcwNDg2MjA5LDc4ODUzNzA0MCwtMTM1
+NDEzMDQyXX0=
 -->
