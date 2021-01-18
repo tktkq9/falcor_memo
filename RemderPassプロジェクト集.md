@@ -153,7 +153,7 @@ Mogwaiで使えるパスは以下となっている
 ### ColorMapPass
 インプットの画像のうちの1チャンネル（_CHANNEL）に対し、ColorMap.slangにあるカラーマップのうちの1つを_COLOR_MAPで指定して適用したものを出力するパス  
 
-in : texture2D ShaderResource  
+in : texture2D, ShaderResource  
 out : texture2D, RenderTarget  
 
 ### InvalidPixelDetectionPass
@@ -198,11 +198,11 @@ gLeftBoundの操作を行えるようになっている
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI0OTk5NTk5LDIwODcxMjI2MzMsLTYxMz
-kyMjY2NCwxMTI4NjQ2MzA4LC0yNDAyNTc5ODQsNjQ2NjgwNDk2
-LDE4ODU1MjYxOTcsMTg4NTUyNjE5NywtMTA2OTU2NzkzOCwtMT
-QzOTUyMDY0LC0zNTE5NjAxNjAsLTEzOTQ4MDIwNjgsMTY1Nzky
-NjQxNCwtODM3ODkxMjc1LC0zMjk1MDAxNjEsNjg0MzQ4MjAsLT
-gxMDc5MTcwMiwxNDIyMjc2OTc5LDYzMDc3MjYzMCwtMTk3Nzkx
-NTI0NF19
+eyJoaXN0b3J5IjpbLTIwMjQwOTkzODUsNDI0OTk5NTk5LC02MT
+M5MjI2NjQsMTEyODY0NjMwOCwtMjQwMjU3OTg0LDY0NjY4MDQ5
+NiwxODg1NTI2MTk3LDE4ODU1MjYxOTcsLTEwNjk1Njc5MzgsLT
+E0Mzk1MjA2NCwtMzUxOTYwMTYwLC0xMzk0ODAyMDY4LDE2NTc5
+MjY0MTQsLTgzNzg5MTI3NSwtMzI5NTAwMTYxLDY4NDM0ODIwLC
+04MTA3OTE3MDIsMTQyMjI3Njk3OSw2MzA3NzI2MzAsLTE5Nzc5
+MTUyNDRdfQ==
 -->
