@@ -148,7 +148,7 @@ Mogwaiで使えるパスは以下となっている
 - ColorMapPass
 
 また、これらのパスの内、SideBySidePassとSplitScreenPassはComparisonPass クラスをベースクラスとしている  
-- ComparisonPass : 2つのinput画像を（別々にサブクラスで指定したシェーダーによる処理を行ったあと）指定したx位置を境にして左右別々に表示するパス（例えば、レイトレのハイサンプルローサンプル比較とかでよくあるやつ）  
+- ComparisonPass : 2つのinput画像を（別々にサブクラスで指定したシェーダーによる処理を行ったあと）左右に表示するパス（例えば、レイトレのハイサンプルローサンプル比較とかでよくあるやつ）  
 
 ### ComparisonPass 
 SplitScreenPassとSideBySidePassのアブストラクト的なクラス  
@@ -188,11 +188,11 @@ ComparisonPass のサブクラス
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY3OTgxOTk4LDE4ODU1MjYxOTcsMTg4NT
-UyNjE5NywtMTA2OTU2NzkzOCwtMTQzOTUyMDY0LC0zNTE5NjAx
-NjAsLTEzOTQ4MDIwNjgsMTY1NzkyNjQxNCwtODM3ODkxMjc1LC
-0zMjk1MDAxNjEsNjg0MzQ4MjAsLTgxMDc5MTcwMiwxNDIyMjc2
-OTc5LDYzMDc3MjYzMCwtMTk3NzkxNTI0NCwtMTc4MDI5MzI0Ni
-w2NzgyNDM3NTAsLTk3MDQ4NjIwOSw3ODg1MzcwNDAsLTEzNTQx
-MzA0Ml19
+eyJoaXN0b3J5IjpbMTE1MTc3NTEzOSwxODg1NTI2MTk3LDE4OD
+U1MjYxOTcsLTEwNjk1Njc5MzgsLTE0Mzk1MjA2NCwtMzUxOTYw
+MTYwLC0xMzk0ODAyMDY4LDE2NTc5MjY0MTQsLTgzNzg5MTI3NS
+wtMzI5NTAwMTYxLDY4NDM0ODIwLC04MTA3OTE3MDIsMTQyMjI3
+Njk3OSw2MzA3NzI2MzAsLTE5Nzc5MTUyNDQsLTE3ODAyOTMyND
+YsNjc4MjQzNzUwLC05NzA0ODYyMDksNzg4NTM3MDQwLC0xMzU0
+MTMwNDJdfQ==
 -->
