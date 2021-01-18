@@ -170,8 +170,11 @@ input2つの画像による任意の色計算処理ICalcPixelColorのみがイ�
 あと、gDrawArrowsがオンの場合、マウス位置の場所にgArrowTexを描画する機能もある）  
 
 ### SplitScreenPass
+ComparisonPass のサブクラス  
+
 
 ### SideBySidePass
+ComparisonPass のサブクラス  
 
 
 ### InvalidPixelDetectionPass
@@ -182,11 +185,11 @@ input2つの画像による任意の色計算処理ICalcPixelColorのみがイ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTk2MDE2MCwtMTM5NDgwMjA2OCwxNj
-U3OTI2NDE0LC04Mzc4OTEyNzUsLTMyOTUwMDE2MSw2ODQzNDgy
-MCwtODEwNzkxNzAyLDE0MjIyNzY5NzksNjMwNzcyNjMwLC0xOT
-c3OTE1MjQ0LC0xNzgwMjkzMjQ2LDY3ODI0Mzc1MCwtOTcwNDg2
-MjA5LDc4ODUzNzA0MCwtMTM1NDEzMDQyLDI3MDc0NDcwNyw2ND
-Y0NjQ5OTMsLTE3ODE3MTMzOTMsLTU2OTQ4MzgwMiwtOTUwODA0
-ODA5XX0=
+eyJoaXN0b3J5IjpbLTE0Mzk1MjA2NCwtMzUxOTYwMTYwLC0xMz
+k0ODAyMDY4LDE2NTc5MjY0MTQsLTgzNzg5MTI3NSwtMzI5NTAw
+MTYxLDY4NDM0ODIwLC04MTA3OTE3MDIsMTQyMjI3Njk3OSw2Mz
+A3NzI2MzAsLTE5Nzc5MTUyNDQsLTE3ODAyOTMyNDYsNjc4MjQz
+NzUwLC05NzA0ODYyMDksNzg4NTM3MDQwLC0xMzU0MTMwNDIsMj
+cwNzQ0NzA3LDY0NjQ2NDk5MywtMTc4MTcxMzM5MywtNTY5NDgz
+ODAyXX0=
 -->
