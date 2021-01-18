@@ -181,6 +181,9 @@ mDrawArrowsで境界線を動かしている間矢印を表示できたりする
 ComparisonPass のサブクラス  
 左右の画像どちらも左端（+gLeftBound）から表示するため用のパス  
 
+こちらは境界線をマウス移動とかはできず、  
+gLeftBoundのwidget操作が特徴的な部分となっている  
+
 ### InvalidPixelDetectionPass
 
 ### ColorMapPass
@@ -189,7 +192,7 @@ ComparisonPass のサブクラス
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzQxMDUxNSwxODg1NTI2MTk3LDE4OD
+eyJoaXN0b3J5IjpbMTc4OTIyOTgwNCwxODg1NTI2MTk3LDE4OD
 U1MjYxOTcsLTEwNjk1Njc5MzgsLTE0Mzk1MjA2NCwtMzUxOTYw
 MTYwLC0xMzk0ODAyMDY4LDE2NTc5MjY0MTQsLTgzNzg5MTI3NS
 wtMzI5NTAwMTYxLDY4NDM0ODIwLC04MTA3OTE3MDIsMTQyMjI3
