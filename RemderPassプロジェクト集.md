@@ -211,12 +211,12 @@ gLeftBoundの操作を行えるようになっている
 故にちょっとはコストがかかっている  
 
 ## ErrorMeasurePass
-2つの画像間の[平均絶対誤差(MAEまたの名をL1)と平均二乗誤差(MSEまたの名をL2)](https://mathwords.net/rmsemae#MSEMean_Squared_Error)を計算するパス  
+2つの画像間の[平均絶対誤差(MAEまたの名をL1)と平均二乗誤差(MSEまたの名をL2)](https://mathwords.net/rmsemae#MSEMean_Squared_Error)を計算するパス（RGBのみ、Aは計算されず出力は0固定）  
 [指数移動平均](https://ja.wikipedia.org/wiki/%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87#%E6%8C%87%E6%95%B0%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87)の計算も可能なので、Temporalな処理にも利用できるかも  
 （例えばレイトレのでノイズ処理に必要な情報作成など）  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjcwNTY1MiwyODk1Mjk1ODcsLTE4Mj
+eyJoaXN0b3J5IjpbMjA2NTc4Nzg4OCwyODk1Mjk1ODcsLTE4Mj
 UwNTAyMTEsNTYzNDMyMzkwLC0xMjAzMDkyMzQ1LDE2MjgzOTM0
 MTcsLTEyMTMzNjM5MDEsMTU1MzIzMjE1MiwtNDM1NTkxODQ2LD
 Q0MDM0MzIxNCwtNDU2MTQzNzI0LDE5OTY2NjY0ODgsLTEyNjI1
