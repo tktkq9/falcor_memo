@@ -234,14 +234,14 @@ out : motionVecs、RG16Float
 out : normals、RGBA8Unorm  
 
 ### シェーダー補足
-struct VSOut
-https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl-struct#interpolation-modifiers-introduced-in-shader-model-4  
+Raster.slangにあるstruct VSOutのINTERPOLATION_MODEとnointerpolationは以下参照  
+[Interpolation Modifiers Introduced in Shader Model 4](https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl-struct#interpolation-modifiers-introduced-in-shader-model-4)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODA0MzQxOTksMTkxODEzNTIwMSwtNz
-YzNTc4Mjk5LC0yMTI4NzQ5Mjg0LDQxNTcwOTUxMCwxMzQwNjcw
-NTkwLC0xOTEyNjEyMTU2LDIwMDIyODQ5NjQsMTM5NDU1MTc5My
-wtODM1NzY3OTc5LDM3NDg2Mjk2OCw3MjQ3NTM5MDAsMTUzMDcy
-ODEyNSwtMTQ2MzAzMjQ2NSwtNDQwOTEzODMxLDc3NTY5NzIxNi
-wxNDg0MjU5MDc4LDIwNzk3NDc4NTYsMjg5NTI5NTg3LC0xODI1
-MDUwMjExXX0=
+eyJoaXN0b3J5IjpbLTE4MzMyOTE0OSwxOTE4MTM1MjAxLC03Nj
+M1NzgyOTksLTIxMjg3NDkyODQsNDE1NzA5NTEwLDEzNDA2NzA1
+OTAsLTE5MTI2MTIxNTYsMjAwMjI4NDk2NCwxMzk0NTUxNzkzLC
+04MzU3Njc5NzksMzc0ODYyOTY4LDcyNDc1MzkwMCwxNTMwNzI4
+MTI1LC0xNDYzMDMyNDY1LC00NDA5MTM4MzEsNzc1Njk3MjE2LD
+E0ODQyNTkwNzgsMjA3OTc0Nzg1NiwyODk1Mjk1ODcsLTE4MjUw
+NTAyMTFdfQ==
 -->
