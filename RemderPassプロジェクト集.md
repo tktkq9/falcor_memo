@@ -236,13 +236,15 @@ out : normals、RGBA8Unorm
 ### シェーダー補足
 Raster.slangにあるstruct VSOutのINTERPOLATION_MODEとnointerpolationは以下参照  
 [Interpolation Modifiers Introduced in Shader Model 4](https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl-struct#interpolation-modifiers-introduced-in-shader-model-4)  
-Vertex shader outputs that are used for pixel shader inputs are linearly interpolated to get per-pixel values during rasterization. To set the method of interpolation, use any of the following values, which are supported in [shader model 4](https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl-sm4) or later. The modifier is ignored on any vertex shader output that is not used as a pixel shader input.
+Vertex shader outputs that are used for pixel shader inputs are linearly interpolated to get per-pixel values during rasterization. To set the method of interpolation, use any of the following values, which are supported in [shader model 4](https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl-sm4) or later. The modifier is ignored on any vertex shader output that is not used as a pixel shader input.  
+
+mEnableSuperSamplingによる
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNjI4MjYzMywxOTE4MTM1MjAxLC03Nj
-M1NzgyOTksLTIxMjg3NDkyODQsNDE1NzA5NTEwLDEzNDA2NzA1
-OTAsLTE5MTI2MTIxNTYsMjAwMjI4NDk2NCwxMzk0NTUxNzkzLC
-04MzU3Njc5NzksMzc0ODYyOTY4LDcyNDc1MzkwMCwxNTMwNzI4
-MTI1LC0xNDYzMDMyNDY1LC00NDA5MTM4MzEsNzc1Njk3MjE2LD
-E0ODQyNTkwNzgsMjA3OTc0Nzg1NiwyODk1Mjk1ODcsLTE4MjUw
-NTAyMTFdfQ==
+eyJoaXN0b3J5IjpbMjA2ODM5MzkwNywxODM2MjgyNjMzLDE5MT
+gxMzUyMDEsLTc2MzU3ODI5OSwtMjEyODc0OTI4NCw0MTU3MDk1
+MTAsMTM0MDY3MDU5MCwtMTkxMjYxMjE1NiwyMDAyMjg0OTY0LD
+EzOTQ1NTE3OTMsLTgzNTc2Nzk3OSwzNzQ4NjI5NjgsNzI0NzUz
+OTAwLDE1MzA3MjgxMjUsLTE0NjMwMzI0NjUsLTQ0MDkxMzgzMS
+w3NzU2OTcyMTYsMTQ4NDI1OTA3OCwyMDc5NzQ3ODU2LDI4OTUy
+OTU4N119
 -->
