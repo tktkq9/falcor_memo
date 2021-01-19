@@ -228,16 +228,16 @@ BRDF描画パス
 カラーの他にノーマルとモーションベクターも計算して出力する  
 
 in : visibilityBuffer、CSMパスで作成されるやつ  
-in : depth、DepthPassで作成されるやつ  
+in : depth、mUsePreGenDepthオンで出てくる。DepthPassで作成されるやつ  
 out : color、RGBA32Float  
 out : motionVecs、RG16Float  
 out : normals、RGBA8Unorm  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjg3NDkyODQsNDE1NzA5NTEwLDEzND
-A2NzA1OTAsLTE5MTI2MTIxNTYsMjAwMjI4NDk2NCwxMzk0NTUx
-NzkzLC04MzU3Njc5NzksMzc0ODYyOTY4LDcyNDc1MzkwMCwxNT
-MwNzI4MTI1LC0xNDYzMDMyNDY1LC00NDA5MTM4MzEsNzc1Njk3
-MjE2LDE0ODQyNTkwNzgsMjA3OTc0Nzg1NiwyODk1Mjk1ODcsLT
-E4MjUwNTAyMTEsNTYzNDMyMzkwLC0xMjAzMDkyMzQ1LDE2Mjgz
-OTM0MTddfQ==
+eyJoaXN0b3J5IjpbLTE4NDE1NjcwMDgsLTIxMjg3NDkyODQsND
+E1NzA5NTEwLDEzNDA2NzA1OTAsLTE5MTI2MTIxNTYsMjAwMjI4
+NDk2NCwxMzk0NTUxNzkzLC04MzU3Njc5NzksMzc0ODYyOTY4LD
+cyNDc1MzkwMCwxNTMwNzI4MTI1LC0xNDYzMDMyNDY1LC00NDA5
+MTM4MzEsNzc1Njk3MjE2LDE0ODQyNTkwNzgsMjA3OTc0Nzg1Ni
+wyODk1Mjk1ODcsLTE4MjUwNTAyMTEsNTYzNDMyMzkwLC0xMjAz
+MDkyMzQ1XX0=
 -->
