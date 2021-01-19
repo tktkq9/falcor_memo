@@ -207,11 +207,11 @@ gLeftBoundの操作を行えるようになっている
 シーンのメインカメラの深度が出力される  
 シーンの情報だけあればいいので入力は無し  
 
-ｓｈ
+しぇーだー
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjcxMDQ1MjMsMTM5NzMyOTU5MSw0ND
+eyJoaXN0b3J5IjpbLTQzNTU5MTg0NiwtMTU2NzEwNDUyMyw0ND
 AzNDMyMTQsLTQ1NjE0MzcyNCwxOTk2NjY2NDg4LC0xMjYyNTA1
 NTUwLC05MjA5NDY2NDcsLTk4MjMxOTk2NSwxMTUxODAwMTgwLC
 0xODQwNDE5MzYxLC0xMjY1ODM1MjYsLTEwNjMyMzc5MTAsMTcz
