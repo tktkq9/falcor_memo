@@ -143,7 +143,7 @@ DebugPass.cppはそれらのパス作成をdllにするための処理のみ
 
 Mogwaiで使えるパスは以下となっている
 - ColorMapPass : インプットテクスチャーのRGBAの内の一つにColorMap.slangの指定カラーマップ処理を適用したものを出力
-- InvalidPixelDetectionPass : インプットテクスチャーがnan（赤） or inf（緑）かどうかチェックする用。floatてくすちゃー
+- InvalidPixelDetectionPass : インプットテクスチャーがnan（赤） or inf（緑）かどうかチェックする用。floatテクスチャー専用
 - SplitScreenPass : 2つ画像を渡し、線を境に2つの画像を別々に表示（どちらもピクセル位置不変で表示）
 - SideBySidePass : 2つ画像を渡し、線を境に2つの画像を別々に表示（どちらも左端（＋オフセット）から表示）
 
@@ -213,11 +213,11 @@ gLeftBoundの操作を行えるようになっている
 ## ErrorMeasurePass
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTMzNjM5MDEsMTU1MzIzMjE1MiwtND
-M1NTkxODQ2LDQ0MDM0MzIxNCwtNDU2MTQzNzI0LDE5OTY2NjY0
-ODgsLTEyNjI1MDU1NTAsLTkyMDk0NjY0NywtOTgyMzE5OTY1LD
-ExNTE4MDAxODAsLTE4NDA0MTkzNjEsLTEyNjU4MzUyNiwtMTA2
-MzIzNzkxMCwxNzM0NjExNDY0LC0zNzEzOTYzOTEsNDI0OTk5NT
-k5LC02MTM5MjI2NjQsMTEyODY0NjMwOCwtMjQwMjU3OTg0LDY0
-NjY4MDQ5Nl19
+eyJoaXN0b3J5IjpbMTYyODM5MzQxNywtMTIxMzM2MzkwMSwxNT
+UzMjMyMTUyLC00MzU1OTE4NDYsNDQwMzQzMjE0LC00NTYxNDM3
+MjQsMTk5NjY2NjQ4OCwtMTI2MjUwNTU1MCwtOTIwOTQ2NjQ3LC
+05ODIzMTk5NjUsMTE1MTgwMDE4MCwtMTg0MDQxOTM2MSwtMTI2
+NTgzNTI2LC0xMDYzMjM3OTEwLDE3MzQ2MTE0NjQsLTM3MTM5Nj
+M5MSw0MjQ5OTk1OTksLTYxMzkyMjY2NCwxMTI4NjQ2MzA4LC0y
+NDAyNTc5ODRdfQ==
 -->
