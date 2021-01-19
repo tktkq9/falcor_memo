@@ -218,9 +218,9 @@ gLeftBoundの操作を行えるようになっている
 in : Source、比較画像その1、こちらは必ずセット  
 in : Reference、比較画像その2、代わりにファイルから読み込むこともできる  
 in : WorldPosition、ピクセル場所のワールド位置をテクスチャーにセットしたもの  
-out : RGBA32Float、Ref
+out : RGBA32Float、Reference
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MDU2OTk4NiwxMzYzNzE1MTM4LDIwNz
+eyJoaXN0b3J5IjpbMTQ4NDI1OTA3OCwtNDcwNTY5OTg2LDIwNz
 k3NDc4NTYsMjg5NTI5NTg3LC0xODI1MDUwMjExLDU2MzQzMjM5
 MCwtMTIwMzA5MjM0NSwxNjI4MzkzNDE3LC0xMjEzMzYzOTAxLD
 E1NTMyMzIxNTIsLTQzNTU5MTg0Niw0NDAzNDMyMTQsLTQ1NjE0
