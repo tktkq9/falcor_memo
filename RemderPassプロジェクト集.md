@@ -238,9 +238,9 @@ Raster.slangにあるstruct VSOutのINTERPOLATION_MODEとnointerpolationは以�
 [Interpolation Modifiers Introduced in Shader Model 4](https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl-struct#interpolation-modifiers-introduced-in-shader-model-4)  
 Vertex shader outputs that are used for pixel shader inputs are linearly interpolated to get per-pixel values during rasterization. To set the method of interpolation, use any of the following values, which are supported in [shader model 4](https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl-sm4) or later. The modifier is ignored on any vertex shader output that is not used as a pixel shader input.  
 
-mEnableSuperSamplingによるINTERPOLATION_MODE sampleは  
+mEnableSuperSamplingによるINTERPOLATION_MODE sampleはpixel centerではなくサンプルポイントでの値となる    
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxNjQzODg4LDE4MzYyODI2MzMsMTkxOD
+eyJoaXN0b3J5IjpbODQ0NjA2NTIyLDE4MzYyODI2MzMsMTkxOD
 EzNTIwMSwtNzYzNTc4Mjk5LC0yMTI4NzQ5Mjg0LDQxNTcwOTUx
 MCwxMzQwNjcwNTkwLC0xOTEyNjEyMTU2LDIwMDIyODQ5NjQsMT
 M5NDU1MTc5MywtODM1NzY3OTc5LDM3NDg2Mjk2OCw3MjQ3NTM5
