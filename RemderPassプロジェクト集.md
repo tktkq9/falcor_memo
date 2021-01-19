@@ -225,7 +225,7 @@ out : RGBA32Float、パスの設定に対応する誤差とか計算した画像
 
 ## ForwardLightingPass
 BRDF描画パス  
-カラーの他にノーマルとモーションベクターも計算して出力する  
+BRDF描画の他にノーマルとモーションベクターも計算して出力する  
 
 in : visibilityBuffer、CSMパスで作成されるやつ  
 in : depth、DepthPassで作成されるやつ、mUsePreGenDepthオンの時のみ  
@@ -233,11 +233,11 @@ out : color、RGBA32Float
 out : motionVecs、RG16Float  
 out : normals、RGBA8Unorm  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MzU3ODI5OSwtMjEyODc0OTI4NCw0MT
-U3MDk1MTAsMTM0MDY3MDU5MCwtMTkxMjYxMjE1NiwyMDAyMjg0
-OTY0LDEzOTQ1NTE3OTMsLTgzNTc2Nzk3OSwzNzQ4NjI5NjgsNz
-I0NzUzOTAwLDE1MzA3MjgxMjUsLTE0NjMwMzI0NjUsLTQ0MDkx
-MzgzMSw3NzU2OTcyMTYsMTQ4NDI1OTA3OCwyMDc5NzQ3ODU2LD
-I4OTUyOTU4NywtMTgyNTA1MDIxMSw1NjM0MzIzOTAsLTEyMDMw
-OTIzNDVdfQ==
+eyJoaXN0b3J5IjpbMTkxODEzNTIwMSwtNzYzNTc4Mjk5LC0yMT
+I4NzQ5Mjg0LDQxNTcwOTUxMCwxMzQwNjcwNTkwLC0xOTEyNjEy
+MTU2LDIwMDIyODQ5NjQsMTM5NDU1MTc5MywtODM1NzY3OTc5LD
+M3NDg2Mjk2OCw3MjQ3NTM5MDAsMTUzMDcyODEyNSwtMTQ2MzAz
+MjQ2NSwtNDQwOTEzODMxLDc3NTY5NzIxNiwxNDg0MjU5MDc4LD
+IwNzk3NDc4NTYsMjg5NTI5NTg3LC0xODI1MDUwMjExLDU2MzQz
+MjM5MF19
 -->
