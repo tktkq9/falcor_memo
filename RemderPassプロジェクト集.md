@@ -220,15 +220,15 @@ in : Reference、比較画像その2、代わりにファイルから読み込�
 in : WorldPosition、ピクセル場所のワールド位置をテクスチャーにセットしたもの。これがセットされた場合w = 0だとその場所は0になる。セットしなくてもいい  
 out : RGBA32Float、パスの設定に対応する誤差とか計算した画像を出力する。Referenceが無い場合はSourceをそのまま出力  
 
-キーボードO or Shift + Oで出力をSource、Reference、誤差と切り替えできる
+また、キーボードO or Shift + Oで出力をSource、Reference、誤差と切り替えできる
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNTc2Nzk3OSwzNzQ4NjI5NjgsNzI0Nz
-UzOTAwLDE1MzA3MjgxMjUsLTE0NjMwMzI0NjUsLTQ0MDkxMzgz
-MSw3NzU2OTcyMTYsMTQ4NDI1OTA3OCwyMDc5NzQ3ODU2LDI4OT
-UyOTU4NywtMTgyNTA1MDIxMSw1NjM0MzIzOTAsLTEyMDMwOTIz
-NDUsMTYyODM5MzQxNywtMTIxMzM2MzkwMSwxNTUzMjMyMTUyLC
-00MzU1OTE4NDYsNDQwMzQzMjE0LC00NTYxNDM3MjQsMTk5NjY2
-NjQ4OF19
+eyJoaXN0b3J5IjpbMTM5NDU1MTc5MywtODM1NzY3OTc5LDM3ND
+g2Mjk2OCw3MjQ3NTM5MDAsMTUzMDcyODEyNSwtMTQ2MzAzMjQ2
+NSwtNDQwOTEzODMxLDc3NTY5NzIxNiwxNDg0MjU5MDc4LDIwNz
+k3NDc4NTYsMjg5NTI5NTg3LC0xODI1MDUwMjExLDU2MzQzMjM5
+MCwtMTIwMzA5MjM0NSwxNjI4MzkzNDE3LC0xMjEzMzYzOTAxLD
+E1NTMyMzIxNTIsLTQzNTU5MTg0Niw0NDAzNDMyMTQsLTQ1NjE0
+MzcyNF19
 -->
