@@ -224,7 +224,8 @@ out : RGBA32Float、パスの設定に対応する誤差とか計算した画像
 また、キーボードO or Shift + Oで出力をSource、Reference、誤差と切り替えできる
 
 ## ForwardLightingPass
-BRDF
+BRDF描画パス  
+カラーの他にノーマルとモーションベクターも計算して出力する  
 
 in : visibilityBuffer
 in : depth
@@ -232,11 +233,11 @@ out : color、RGBA32Float
 out : motionVecs、RG16Float
 out : normals、RGBA8Unorm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzA2NDA1ODgsNDE1NzA5NTEwLDEzND
-A2NzA1OTAsLTE5MTI2MTIxNTYsMjAwMjI4NDk2NCwxMzk0NTUx
-NzkzLC04MzU3Njc5NzksMzc0ODYyOTY4LDcyNDc1MzkwMCwxNT
-MwNzI4MTI1LC0xNDYzMDMyNDY1LC00NDA5MTM4MzEsNzc1Njk3
-MjE2LDE0ODQyNTkwNzgsMjA3OTc0Nzg1NiwyODk1Mjk1ODcsLT
-E4MjUwNTAyMTEsNTYzNDMyMzkwLC0xMjAzMDkyMzQ1LDE2Mjgz
-OTM0MTddfQ==
+eyJoaXN0b3J5IjpbNzUzOTM0NTksNDE1NzA5NTEwLDEzNDA2Nz
+A1OTAsLTE5MTI2MTIxNTYsMjAwMjI4NDk2NCwxMzk0NTUxNzkz
+LC04MzU3Njc5NzksMzc0ODYyOTY4LDcyNDc1MzkwMCwxNTMwNz
+I4MTI1LC0xNDYzMDMyNDY1LC00NDA5MTM4MzEsNzc1Njk3MjE2
+LDE0ODQyNTkwNzgsMjA3OTc0Nzg1NiwyODk1Mjk1ODcsLTE4Mj
+UwNTAyMTEsNTYzNDMyMzkwLC0xMjAzMDkyMzQ1LDE2MjgzOTM0
+MTddfQ==
 -->
