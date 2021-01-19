@@ -215,6 +215,8 @@ gLeftBoundの操作を行えるようになっている
 [指数移動平均（EMA）](https://ja.wikipedia.org/wiki/%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87#%E6%8C%87%E6%95%B0%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87)の計算も可能なので、Temporalな処理にも利用できるかも  
 （例えばレイトレのでノイズ処理に必要な情報作成など）  
 
+
+
 in : Source、比較画像その1、こちらは必ずセット  
 in : Reference、比較画像その2、代わりにファイルから読み込むこともできる  
 in : WorldPosition、ピクセル場所のワールド位置をテクスチャーにセットしたもの。これがセットされた場合w = 0だとその場所は0になる。セットしなくてもいい  
@@ -222,11 +224,11 @@ out : RGBA32Float、パスの設定に対応する誤差とか計算した画像
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjMwMzI0NjUsLTQ0MDkxMzgzMSw3Nz
-U2OTcyMTYsMTQ4NDI1OTA3OCwyMDc5NzQ3ODU2LDI4OTUyOTU4
-NywtMTgyNTA1MDIxMSw1NjM0MzIzOTAsLTEyMDMwOTIzNDUsMT
-YyODM5MzQxNywtMTIxMzM2MzkwMSwxNTUzMjMyMTUyLC00MzU1
-OTE4NDYsNDQwMzQzMjE0LC00NTYxNDM3MjQsMTk5NjY2NjQ4OC
-wtMTI2MjUwNTU1MCwtOTIwOTQ2NjQ3LC05ODIzMTk5NjUsMTE1
-MTgwMDE4MF19
+eyJoaXN0b3J5IjpbNzM1MzQ1NDgzLC0xNDYzMDMyNDY1LC00ND
+A5MTM4MzEsNzc1Njk3MjE2LDE0ODQyNTkwNzgsMjA3OTc0Nzg1
+NiwyODk1Mjk1ODcsLTE4MjUwNTAyMTEsNTYzNDMyMzkwLC0xMj
+AzMDkyMzQ1LDE2MjgzOTM0MTcsLTEyMTMzNjM5MDEsMTU1MzIz
+MjE1MiwtNDM1NTkxODQ2LDQ0MDM0MzIxNCwtNDU2MTQzNzI0LD
+E5OTY2NjY0ODgsLTEyNjI1MDU1NTAsLTkyMDk0NjY0NywtOTgy
+MzE5OTY1XX0=
 -->
