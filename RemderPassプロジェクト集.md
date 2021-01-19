@@ -217,16 +217,16 @@ gLeftBoundの操作を行えるようになっている
 
 in : Source、比較画像その1、こちらは必ずセット  
 in : Reference、比較画像その2、代わりにファイルから読み込むこともできる  
-in : WorldPosition、ピクセル場所のワールド位置をテクスチャーにセットしたもの。セットしなくてもいい  
+in : WorldPosition、ピクセル場所のワールド位置をテクスチャーにセットしたもの。これがセットされた場合w = 0だとその場所は0になる。せっとしなくて  
 out : RGBA32Float、パスの設定に対応する誤差とか計算した画像を出力する。Referenceが無い場合はSourceをそのまま出力  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1Njk3MjE2LDE0ODQyNTkwNzgsMjA3OT
-c0Nzg1NiwyODk1Mjk1ODcsLTE4MjUwNTAyMTEsNTYzNDMyMzkw
-LC0xMjAzMDkyMzQ1LDE2MjgzOTM0MTcsLTEyMTMzNjM5MDEsMT
-U1MzIzMjE1MiwtNDM1NTkxODQ2LDQ0MDM0MzIxNCwtNDU2MTQz
-NzI0LDE5OTY2NjY0ODgsLTEyNjI1MDU1NTAsLTkyMDk0NjY0Ny
-wtOTgyMzE5OTY1LDExNTE4MDAxODAsLTE4NDA0MTkzNjEsLTEy
-NjU4MzUyNl19
+eyJoaXN0b3J5IjpbLTQ0MDkxMzgzMSw3NzU2OTcyMTYsMTQ4ND
+I1OTA3OCwyMDc5NzQ3ODU2LDI4OTUyOTU4NywtMTgyNTA1MDIx
+MSw1NjM0MzIzOTAsLTEyMDMwOTIzNDUsMTYyODM5MzQxNywtMT
+IxMzM2MzkwMSwxNTUzMjMyMTUyLC00MzU1OTE4NDYsNDQwMzQz
+MjE0LC00NTYxNDM3MjQsMTk5NjY2NjQ4OCwtMTI2MjUwNTU1MC
+wtOTIwOTQ2NjQ3LC05ODIzMTk5NjUsMTE1MTgwMDE4MCwtMTg0
+MDQxOTM2MV19
 -->
