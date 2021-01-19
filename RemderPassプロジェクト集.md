@@ -215,20 +215,20 @@ gLeftBoundの操作を行えるようになっている
 
 また、ピクセル全体の平均誤差が（ComputeParallelReductionのGPUによる総和によって）計算され、mReportRunningErrorがオンなら誤差の[指数移動平均（EMA）](https://ja.wikipedia.org/wiki/%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87#%E6%8C%87%E6%95%B0%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87)も計算される  
 
-
-
 in : Source、比較画像その1、こちらは必ずセット  
 in : Reference、比較画像その2、代わりにファイルから読み込むこともできる  
 in : WorldPosition、ピクセル場所のワールド位置をテクスチャーにセットしたもの。これがセットされた場合w = 0だとその場所は0になる。セットしなくてもいい  
 out : RGBA32Float、パスの設定に対応する誤差とか計算した画像を出力する。Referenceが無い場合はSourceをそのまま出力  
 
+キーボードO or Shift + Oで出力をSource、Reference、誤差と切り替えできる
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc0ODYyOTY4LDcyNDc1MzkwMCwxNTMwNz
-I4MTI1LC0xNDYzMDMyNDY1LC00NDA5MTM4MzEsNzc1Njk3MjE2
-LDE0ODQyNTkwNzgsMjA3OTc0Nzg1NiwyODk1Mjk1ODcsLTE4Mj
-UwNTAyMTEsNTYzNDMyMzkwLC0xMjAzMDkyMzQ1LDE2MjgzOTM0
-MTcsLTEyMTMzNjM5MDEsMTU1MzIzMjE1MiwtNDM1NTkxODQ2LD
-Q0MDM0MzIxNCwtNDU2MTQzNzI0LDE5OTY2NjY0ODgsLTEyNjI1
-MDU1NTBdfQ==
+eyJoaXN0b3J5IjpbLTgzNTc2Nzk3OSwzNzQ4NjI5NjgsNzI0Nz
+UzOTAwLDE1MzA3MjgxMjUsLTE0NjMwMzI0NjUsLTQ0MDkxMzgz
+MSw3NzU2OTcyMTYsMTQ4NDI1OTA3OCwyMDc5NzQ3ODU2LDI4OT
+UyOTU4NywtMTgyNTA1MDIxMSw1NjM0MzIzOTAsLTEyMDMwOTIz
+NDUsMTYyODM5MzQxNywtMTIxMzM2MzkwMSwxNTUzMjMyMTUyLC
+00MzU1OTE4NDYsNDQwMzQzMjE0LC00NTYxNDM3MjQsMTk5NjY2
+NjQ4OF19
 -->
