@@ -211,9 +211,9 @@ gLeftBoundの操作を行えるようになっている
 故にちょっとはコストがかかっている  
 
 ## ErrorMeasurePass
-[平均絶対誤差(MAEまたの名をL1)と平均二乗誤差(MSEまたの名をL2)](https://qiita.com/shnchr/items/22868bea27a3a8bf0977)
+[平均絶対誤差(MAEまたの名をL1)と平均二乗誤差(MSEまたの名をL2)](https://mathwords.net/rmsemae#MSEMean_Squared_Error)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjk4ODIxMiwxNjI4MzkzNDE3LC0xMj
+eyJoaXN0b3J5IjpbMTAzNTE5NzAyNCwxNjI4MzkzNDE3LC0xMj
 EzMzYzOTAxLDE1NTMyMzIxNTIsLTQzNTU5MTg0Niw0NDAzNDMy
 MTQsLTQ1NjE0MzcyNCwxOTk2NjY2NDg4LC0xMjYyNTA1NTUwLC
 05MjA5NDY2NDcsLTk4MjMxOTk2NSwxMTUxODAwMTgwLC0xODQw
