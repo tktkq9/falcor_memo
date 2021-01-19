@@ -212,16 +212,16 @@ gLeftBoundの操作を行えるようになっている
 
 ## ErrorMeasurePass
 [平均絶対誤差(MAEまたの名をL1)と平均二乗誤差(MSEまたの名をL2)](https://mathwords.net/rmsemae#MSEMean_Squared_Error)を計算するパス  
-画像の評価だけでなく、レイトレの
+画像の評価だけでなく、レイトレのさんぷりんぐ
 [指数移動平均](https://ja.wikipedia.org/wiki/%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87#%E6%8C%87%E6%95%B0%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87)の計算も可能なので、Temporalな処理にも利用できるかも  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4Nzk4MDMyOCwtMTIwMzA5MjM0NSwxNj
-I4MzkzNDE3LC0xMjEzMzYzOTAxLDE1NTMyMzIxNTIsLTQzNTU5
-MTg0Niw0NDAzNDMyMTQsLTQ1NjE0MzcyNCwxOTk2NjY2NDg4LC
-0xMjYyNTA1NTUwLC05MjA5NDY2NDcsLTk4MjMxOTk2NSwxMTUx
-ODAwMTgwLC0xODQwNDE5MzYxLC0xMjY1ODM1MjYsLTEwNjMyMz
-c5MTAsMTczNDYxMTQ2NCwtMzcxMzk2MzkxLDQyNDk5OTU5OSwt
-NjEzOTIyNjY0XX0=
+eyJoaXN0b3J5IjpbNTYzNDMyMzkwLC04ODc5ODAzMjgsLTEyMD
+MwOTIzNDUsMTYyODM5MzQxNywtMTIxMzM2MzkwMSwxNTUzMjMy
+MTUyLC00MzU1OTE4NDYsNDQwMzQzMjE0LC00NTYxNDM3MjQsMT
+k5NjY2NjQ4OCwtMTI2MjUwNTU1MCwtOTIwOTQ2NjQ3LC05ODIz
+MTk5NjUsMTE1MTgwMDE4MCwtMTg0MDQxOTM2MSwtMTI2NTgzNT
+I2LC0xMDYzMjM3OTEwLDE3MzQ2MTE0NjQsLTM3MTM5NjM5MSw0
+MjQ5OTk1OTldfQ==
 -->
