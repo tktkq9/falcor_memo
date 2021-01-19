@@ -211,16 +211,16 @@ gLeftBoundの操作を行えるようになっている
 故にちょっとはコストがかかっている  
 
 ## ErrorMeasurePass
-[平均絶対誤差(MAEまたの名をL1)と平均二乗誤差(MSEまたの名をL2)](https://mathwords.net/rmsemae#MSEMean_Squared_Error)を計算するパス  
+2つの画像間のRGBの[平均絶対誤差(MAEまたの名をL1)と平均二乗誤差(MSEまたの名をL2)](https://mathwords.net/rmsemae#MSEMean_Squared_Error)を計算するパス  
 [指数移動平均](https://ja.wikipedia.org/wiki/%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87#%E6%8C%87%E6%95%B0%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87)の計算も可能なので、Temporalな処理にも利用できるかも  
 （例えばレイトレのでノイズ処理に必要な情報作成など）  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjUwNTAyMTEsNTYzNDMyMzkwLC0xMj
-AzMDkyMzQ1LDE2MjgzOTM0MTcsLTEyMTMzNjM5MDEsMTU1MzIz
-MjE1MiwtNDM1NTkxODQ2LDQ0MDM0MzIxNCwtNDU2MTQzNzI0LD
-E5OTY2NjY0ODgsLTEyNjI1MDU1NTAsLTkyMDk0NjY0NywtOTgy
-MzE5OTY1LDExNTE4MDAxODAsLTE4NDA0MTkzNjEsLTEyNjU4Mz
-UyNiwtMTA2MzIzNzkxMCwxNzM0NjExNDY0LC0zNzEzOTYzOTEs
-NDI0OTk5NTk5XX0=
+eyJoaXN0b3J5IjpbMjg5NTI5NTg3LC0xODI1MDUwMjExLDU2Mz
+QzMjM5MCwtMTIwMzA5MjM0NSwxNjI4MzkzNDE3LC0xMjEzMzYz
+OTAxLDE1NTMyMzIxNTIsLTQzNTU5MTg0Niw0NDAzNDMyMTQsLT
+Q1NjE0MzcyNCwxOTk2NjY2NDg4LC0xMjYyNTA1NTUwLC05MjA5
+NDY2NDcsLTk4MjMxOTk2NSwxMTUxODAwMTgwLC0xODQwNDE5Mz
+YxLC0xMjY1ODM1MjYsLTEwNjMyMzc5MTAsMTczNDYxMTQ2NCwt
+MzcxMzk2MzkxXX0=
 -->
