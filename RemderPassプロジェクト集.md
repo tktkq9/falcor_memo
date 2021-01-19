@@ -232,12 +232,16 @@ in : depth、DepthPassで作成されるやつ、mUsePreGenDepthオンの時の�
 out : color、RGBA32Float  
 out : motionVecs、RG16Float  
 out : normals、RGBA8Unorm  
+
+### シェーダー補足
+struct VSOut
+https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl-struct#interpolation-modifiers-introduced-in-shader-model-4  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxODEzNTIwMSwtNzYzNTc4Mjk5LC0yMT
-I4NzQ5Mjg0LDQxNTcwOTUxMCwxMzQwNjcwNTkwLC0xOTEyNjEy
-MTU2LDIwMDIyODQ5NjQsMTM5NDU1MTc5MywtODM1NzY3OTc5LD
-M3NDg2Mjk2OCw3MjQ3NTM5MDAsMTUzMDcyODEyNSwtMTQ2MzAz
-MjQ2NSwtNDQwOTEzODMxLDc3NTY5NzIxNiwxNDg0MjU5MDc4LD
-IwNzk3NDc4NTYsMjg5NTI5NTg3LC0xODI1MDUwMjExLDU2MzQz
-MjM5MF19
+eyJoaXN0b3J5IjpbLTE1ODA0MzQxOTksMTkxODEzNTIwMSwtNz
+YzNTc4Mjk5LC0yMTI4NzQ5Mjg0LDQxNTcwOTUxMCwxMzQwNjcw
+NTkwLC0xOTEyNjEyMTU2LDIwMDIyODQ5NjQsMTM5NDU1MTc5My
+wtODM1NzY3OTc5LDM3NDg2Mjk2OCw3MjQ3NTM5MDAsMTUzMDcy
+ODEyNSwtMTQ2MzAzMjQ2NSwtNDQwOTEzODMxLDc3NTY5NzIxNi
+wxNDg0MjU5MDc4LDIwNzk3NDc4NTYsMjg5NTI5NTg3LC0xODI1
+MDUwMjExXX0=
 -->
