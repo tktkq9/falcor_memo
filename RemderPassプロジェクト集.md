@@ -212,9 +212,11 @@ gLeftBoundの操作を行えるようになっている
 
 ## ErrorMeasurePass
 [平均絶対誤差(MAEまたの名をL1)と平均二乗誤差(MSEまたの名をL2)](https://mathwords.net/rmsemae#MSEMean_Squared_Error)を計算するパス  
-[指数移動平均](https://ja.wikipedia.org/wiki/%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87#%E6%8C%87%E6%95%B0%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87)
+[指数移動平均](https://ja.wikipedia.org/wiki/%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87#%E6%8C%87%E6%95%B0%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87)の計算も可能なので、Temporalな処理にも利用できるかも  
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTIzMzYzNjUsLTEyMDMwOTIzNDUsMT
+eyJoaXN0b3J5IjpbLTE0ODIxNjY2NTYsLTEyMDMwOTIzNDUsMT
 YyODM5MzQxNywtMTIxMzM2MzkwMSwxNTUzMjMyMTUyLC00MzU1
 OTE4NDYsNDQwMzQzMjE0LC00NTYxNDM3MjQsMTk5NjY2NjQ4OC
 wtMTI2MjUwNTU1MCwtOTIwOTQ2NjQ3LC05ODIzMTk5NjUsMTE1
