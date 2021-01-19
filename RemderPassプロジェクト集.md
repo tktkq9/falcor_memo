@@ -142,8 +142,8 @@ calcPssmPartitionEnd()の計算は[GPU Gems 3 Chapter 10. Parallel-Split Shadow 
 DebugPass.cppはそれらのパス作成をdllにするための処理のみ  
 
 Mogwaiで使えるパスは以下となっている
-- ColorMapPass : インプットの指定チャンネルにColorMap.slangの指定カラーマップ処理を適用したものを出力
-- InvalidPixelDetectionPass
+- ColorMapPass : インプットテクスチャーのRGBAの内の一つにColorMap.slangの指定カラーマップ処理を適用したものを出力
+- InvalidPixelDetectionPass : インプットテクスチャーがnan（赤） or inf（緑）かどうかチェックする用。floatてくすちゃー
 - SplitScreenPass : 2つ画像を渡し、線を境に2つの画像を別々に表示（どちらもピクセル位置不変で表示）
 - SideBySidePass : 2つ画像を渡し、線を境に2つの画像を別々に表示（どちらも左端（＋オフセット）から表示）
 
@@ -213,11 +213,11 @@ gLeftBoundの操作を行えるようになっている
 ## ErrorMeasurePass
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MDI0ODYxMiwxNTUzMjMyMTUyLC00Mz
-U1OTE4NDYsNDQwMzQzMjE0LC00NTYxNDM3MjQsMTk5NjY2NjQ4
-OCwtMTI2MjUwNTU1MCwtOTIwOTQ2NjQ3LC05ODIzMTk5NjUsMT
-E1MTgwMDE4MCwtMTg0MDQxOTM2MSwtMTI2NTgzNTI2LC0xMDYz
-MjM3OTEwLDE3MzQ2MTE0NjQsLTM3MTM5NjM5MSw0MjQ5OTk1OT
-ksLTYxMzkyMjY2NCwxMTI4NjQ2MzA4LC0yNDAyNTc5ODQsNjQ2
-NjgwNDk2XX0=
+eyJoaXN0b3J5IjpbLTEyMTMzNjM5MDEsMTU1MzIzMjE1MiwtND
+M1NTkxODQ2LDQ0MDM0MzIxNCwtNDU2MTQzNzI0LDE5OTY2NjY0
+ODgsLTEyNjI1MDU1NTAsLTkyMDk0NjY0NywtOTgyMzE5OTY1LD
+ExNTE4MDAxODAsLTE4NDA0MTkzNjEsLTEyNjU4MzUyNiwtMTA2
+MzIzNzkxMCwxNzM0NjExNDY0LC0zNzEzOTYzOTEsNDI0OTk5NT
+k5LC02MTM5MjI2NjQsMTEyODY0NjMwOCwtMjQwMjU3OTg0LDY0
+NjY4MDQ5Nl19
 -->
