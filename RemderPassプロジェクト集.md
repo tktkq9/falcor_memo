@@ -213,7 +213,7 @@ gLeftBoundの操作を行えるようになっている
 ## ErrorMeasurePass
 2つの画像間の[平均絶対誤差(MAEまたの名をL1)と平均二乗誤差(MSEまたの名をL2)](https://mathwords.net/rmsemae#MSEMean_Squared_Error)を計算するパス（RGBのみ、Aは計算されず出力は0固定）  
 
-また、ピクセル全体の平均誤差が計算され、mReportRunningErrorがオンなら誤差の[指数移動平均（EMA）](https://ja.wikipedia.org/wiki/%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87#%E6%8C%87%E6%95%B0%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87)も計算される  
+また、ピクセル全体の平均誤差が（ComputeParallelReductionのGPUによる総和によって）計算され、mReportRunningErrorがオンなら誤差の[指数移動平均（EMA）](https://ja.wikipedia.org/wiki/%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87#%E6%8C%87%E6%95%B0%E7%A7%BB%E5%8B%95%E5%B9%B3%E5%9D%87)も計算される  
 
 
 
@@ -224,11 +224,11 @@ out : RGBA32Float、パスの設定に対応する誤差とか計算した画像
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDQ4NjkxOTUsNzI0NzUzOTAwLDE1Mz
-A3MjgxMjUsLTE0NjMwMzI0NjUsLTQ0MDkxMzgzMSw3NzU2OTcy
-MTYsMTQ4NDI1OTA3OCwyMDc5NzQ3ODU2LDI4OTUyOTU4NywtMT
-gyNTA1MDIxMSw1NjM0MzIzOTAsLTEyMDMwOTIzNDUsMTYyODM5
-MzQxNywtMTIxMzM2MzkwMSwxNTUzMjMyMTUyLC00MzU1OTE4ND
-YsNDQwMzQzMjE0LC00NTYxNDM3MjQsMTk5NjY2NjQ4OCwtMTI2
-MjUwNTU1MF19
+eyJoaXN0b3J5IjpbMzc0ODYyOTY4LDcyNDc1MzkwMCwxNTMwNz
+I4MTI1LC0xNDYzMDMyNDY1LC00NDA5MTM4MzEsNzc1Njk3MjE2
+LDE0ODQyNTkwNzgsMjA3OTc0Nzg1NiwyODk1Mjk1ODcsLTE4Mj
+UwNTAyMTEsNTYzNDMyMzkwLC0xMjAzMDkyMzQ1LDE2MjgzOTM0
+MTcsLTEyMTMzNjM5MDEsMTU1MzIzMjE1MiwtNDM1NTkxODQ2LD
+Q0MDM0MzIxNCwtNDU2MTQzNzI0LDE5OTY2NjY0ODgsLTEyNjI1
+MDU1NTBdfQ==
 -->
