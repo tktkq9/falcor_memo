@@ -304,7 +304,7 @@ GBufferRasterとGBufferRTのベースクラス
     };
     
 Ray Coneはレイトレのtex LOD計算に必要となる処理  
-参考文献 : [Texture Level of Detail Strategies for Real-Time Ray Tracing](https://www.ea.com/seed/news/texture-level-of-detail-strategies-for-real-time-ray-tracing), [Rey Tracing Gems : CHAPTER 20（左とおなじやつ）]()
+参考文献 : [Texture Level of Detail Strategies for Real-Time Ray Tracing](https://www.ea.com/seed/news/texture-level-of-detail-strategies-for-real-time-ray-tracing), [Rey Tracing Gems : CHAPTER 20（左とおなじやつ）](https://www.realtimerendering.com/raytracinggems/)
 
 ### GBufferRT
 
@@ -315,11 +315,11 @@ Ray Coneはレイトレのtex LOD計算に必要となる処理
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3OTY4Njc1NSw2OTk1OTg2LDExNDY4Mj
-Q4MjAsMjEzNDU5MTU2OSwtODEyODYwNzU0LC05NTczMjY2NDIs
-MjIwODQzODA1LDcwNTUzODUyNCwtMTg1MTQ4MzgxOCwtMjA3MD
-EzNjU5MCwtNzg4NDkxOTgyLC05NzIyNjkyNTYsLTE2MTY1OTI4
-MTYsNzUzNTg0NTcxLC0xMDk3NDM0NTA0LDg1Mjk4NDk3LDc5MT
-cwODc0Myw0MjQyMTcyOTYsNDE1MjMwMzYxLDQxNTIzMDM2MV19
-
+eyJoaXN0b3J5IjpbLTEwMTQwNjE5MjksNjk5NTk4NiwxMTQ2OD
+I0ODIwLDIxMzQ1OTE1NjksLTgxMjg2MDc1NCwtOTU3MzI2NjQy
+LDIyMDg0MzgwNSw3MDU1Mzg1MjQsLTE4NTE0ODM4MTgsLTIwNz
+AxMzY1OTAsLTc4ODQ5MTk4MiwtOTcyMjY5MjU2LC0xNjE2NTky
+ODE2LDc1MzU4NDU3MSwtMTA5NzQzNDUwNCw4NTI5ODQ5Nyw3OT
+E3MDg3NDMsNDI0MjE3Mjk2LDQxNTIzMDM2MSw0MTUyMzAzNjFd
+fQ==
 -->
