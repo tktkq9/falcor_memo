@@ -202,7 +202,7 @@ ComparisonPass のサブクラス
 gLeftBoundの操作を行えるようになっている  
 
 
-## DepthPass
+## DepthPassプロジェクト
 深度バッファーのみ出力するパス  
 シーンのメインカメラの深度が出力される  
 シーンの情報だけあればいいので入力は無し  
@@ -265,7 +265,7 @@ CPUSampleGenerator系クラスの生成と設定を担当する（Center設定�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxNzA4NzQzLDIwNTgzNDA4NDEsNDI0Mj
+eyJoaXN0b3J5IjpbLTE5MjM0MTY1NSw3OTE3MDg3NDMsNDI0Mj
 E3Mjk2LDQxNTIzMDM2MSw0MTUyMzAzNjEsLTE4MjQwODU2NTIs
 LTYzMDcwNzY0MCwxOTI3MDkwMzI3LC0xNDAxNTc2NTIsMTE2MD
 IxMTE5MywxODI4MTcwNTMxLDE4MzYyODI2MzMsMTkxODEzNTIw
