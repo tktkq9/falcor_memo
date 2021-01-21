@@ -223,7 +223,7 @@ out : RGBA32Float、パスの設定に対応する誤差とか計算した画像
 
 また、キーボードO or Shift + Oで出力をSource、Reference、誤差と切り替えできる
 
-## ForwardLightingPass
+## ForwardLightingPassプロジェクト
 BRDF描画パス  
 BRDF描画の他にノーマルとモーションベクターも計算して出力する  
 
@@ -240,7 +240,7 @@ Vertex shader outputs that are used for pixel shader inputs are linearly interpo
 
 mEnableSuperSamplingによるINTERPOLATION_MODE sampleは、ピクセルシェーダーに値を渡すときpixel中心補間（linear）ではなくサンプルポイント補間での値となる   
 
-## GBuffer
+## GBufferプロジェクト
 
 GBufferをベースクラスとする
 - GBufferRaster
@@ -265,11 +265,11 @@ CPUSampleGenerator系クラスの生成と設定を担当する（Center設定�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDg1MDMwNjMsNDI0MjE3Mjk2LDQxNT
-IzMDM2MSw0MTUyMzAzNjEsLTE4MjQwODU2NTIsLTYzMDcwNzY0
-MCwxOTI3MDkwMzI3LC0xNDAxNTc2NTIsMTE2MDIxMTE5MywxOD
-I4MTcwNTMxLDE4MzYyODI2MzMsMTkxODEzNTIwMSwtNzYzNTc4
-Mjk5LC0yMTI4NzQ5Mjg0LDQxNTcwOTUxMCwxMzQwNjcwNTkwLC
-0xOTEyNjEyMTU2LDIwMDIyODQ5NjQsMTM5NDU1MTc5MywtODM1
-NzY3OTc5XX0=
+eyJoaXN0b3J5IjpbMTY2MjY1ODM0OSw0MjQyMTcyOTYsNDE1Mj
+MwMzYxLDQxNTIzMDM2MSwtMTgyNDA4NTY1MiwtNjMwNzA3NjQw
+LDE5MjcwOTAzMjcsLTE0MDE1NzY1MiwxMTYwMjExMTkzLDE4Mj
+gxNzA1MzEsMTgzNjI4MjYzMywxOTE4MTM1MjAxLC03NjM1Nzgy
+OTksLTIxMjg3NDkyODQsNDE1NzA5NTEwLDEzNDA2NzA1OTAsLT
+E5MTI2MTIxNTYsMjAwMjI4NDk2NCwxMzk0NTUxNzkzLC04MzU3
+Njc5NzldfQ==
 -->
