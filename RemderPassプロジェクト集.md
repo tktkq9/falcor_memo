@@ -263,7 +263,7 @@ GBufferBaseをベースクラスとする
 全てのGBuffer系クラスのルートクラス  
 主にサブクラス生成のPythonへのバインドと、  
 CPUSampleGenerator系クラスの生成と設定を担当する（Center設定の場合は生成無し）  
-ちなみにCPUSampleGeneratorはレイトレのサンプラーなので、～RTクラスでしか使われない  
+ただし、このCPUSampleGeneratorはおそらく使われていない  
 
 ### GBuffer
 GBufferRasterとGBufferRTのベースクラス  
@@ -326,11 +326,11 @@ surfSpreadAngleの計算関数computeScreenSpaceSurfaceSpreadAngle()は参考文
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAxMjc3NjUzLC0xMjk4MTIzODYyLDE3ND
-c4OTg0ODEsLTIwNzA3NzA3MzIsLTE2ODQ5NDQ3MzMsLTE3NjU2
-NDI4NDQsOTkxMTM2NzIyLDE0NjQwNjEyNTMsMTUyOTY4OTk2LC
-0xNjQ2OTk4NDg2LC02ODc1NjgzMTEsNjk5NTk4NiwxMTQ2ODI0
-ODIwLDIxMzQ1OTE1NjksLTgxMjg2MDc1NCwtOTU3MzI2NjQyLD
-IyMDg0MzgwNSw3MDU1Mzg1MjQsLTE4NTE0ODM4MTgsLTIwNzAx
-MzY1OTBdfQ==
+eyJoaXN0b3J5IjpbNzA4MzYzMzg5LDUwMTI3NzY1MywtMTI5OD
+EyMzg2MiwxNzQ3ODk4NDgxLC0yMDcwNzcwNzMyLC0xNjg0OTQ0
+NzMzLC0xNzY1NjQyODQ0LDk5MTEzNjcyMiwxNDY0MDYxMjUzLD
+E1Mjk2ODk5NiwtMTY0Njk5ODQ4NiwtNjg3NTY4MzExLDY5OTU5
+ODYsMTE0NjgyNDgyMCwyMTM0NTkxNTY5LC04MTI4NjA3NTQsLT
+k1NzMyNjY0MiwyMjA4NDM4MDUsNzA1NTM4NTI0LC0xODUxNDgz
+ODE4XX0=
 -->
