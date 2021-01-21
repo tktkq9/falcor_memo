@@ -14,7 +14,7 @@ Mogwaiはpythonで実行されるので、パスの変数設定関数などMogwa
 
     extern "C" __declspec(dllexport) void getPasses(Falcor::RenderPassLibrary& lib) {…}  
 
-## AccumulatePass
+## AccumulatePassプロジェクト
 
 渡したリソースをフレームごとに蓄積し、アウトプットリソースにその平均を返すパス  
 
@@ -265,11 +265,11 @@ CPUSampleGenerator系クラスの生成と設定を担当する（Center設定�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg5Njg1NDE3LDQyNDIxNzI5Niw0MTUyMz
-AzNjEsNDE1MjMwMzYxLC0xODI0MDg1NjUyLC02MzA3MDc2NDAs
-MTkyNzA5MDMyNywtMTQwMTU3NjUyLDExNjAyMTExOTMsMTgyOD
-E3MDUzMSwxODM2MjgyNjMzLDE5MTgxMzUyMDEsLTc2MzU3ODI5
-OSwtMjEyODc0OTI4NCw0MTU3MDk1MTAsMTM0MDY3MDU5MCwtMT
-kxMjYxMjE1NiwyMDAyMjg0OTY0LDEzOTQ1NTE3OTMsLTgzNTc2
-Nzk3OV19
+eyJoaXN0b3J5IjpbLTE1MzU3ODE3NDksNDI0MjE3Mjk2LDQxNT
+IzMDM2MSw0MTUyMzAzNjEsLTE4MjQwODU2NTIsLTYzMDcwNzY0
+MCwxOTI3MDkwMzI3LC0xNDAxNTc2NTIsMTE2MDIxMTE5MywxOD
+I4MTcwNTMxLDE4MzYyODI2MzMsMTkxODEzNTIwMSwtNzYzNTc4
+Mjk5LC0yMTI4NzQ5Mjg0LDQxNTcwOTUxMCwxMzQwNjcwNTkwLC
+0xOTEyNjEyMTU2LDIwMDIyODQ5NjQsMTM5NDU1MTc5MywtODM1
+NzY3OTc5XX0=
 -->
