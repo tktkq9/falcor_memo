@@ -290,7 +290,7 @@ GBufferRasterとGBufferRTのベースクラス
 
 これらの値を計算するシェーダーがGBufferHelpers.slangとなっている  
 
-また、GBufferParams.slangのGBufferParams作成と管理も行われる  
+また、GBufferParams.slangのGBufferParams作成と管理も担当している  
 
 ### GBufferRaster
 GBufferのサブクラスで、GBufferのレンダーターゲットに加えて、以下のRWTexture2Dの計算を行い出力するパス  
@@ -325,7 +325,7 @@ surfSpreadAngleの計算関数computeScreenSpaceSurfaceSpreadAngle()は参考文
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MTUzNDA5OCwtMTc2NTY0Mjg0NCw5OT
+eyJoaXN0b3J5IjpbMTg4MzIzNjQzMiwtMTc2NTY0Mjg0NCw5OT
 ExMzY3MjIsMTQ2NDA2MTI1MywxNTI5Njg5OTYsLTE2NDY5OTg0
 ODYsLTY4NzU2ODMxMSw2OTk1OTg2LDExNDY4MjQ4MjAsMjEzND
 U5MTU2OSwtODEyODYwNzU0LC05NTczMjY2NDIsMjIwODQzODA1
