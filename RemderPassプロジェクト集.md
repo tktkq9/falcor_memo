@@ -233,7 +233,7 @@ out : color、RGBA32Float
 out : motionVecs、RG16Float  
 out : normals、RGBA8Unorm  
 
-### シェーダー補足
+#### シェーダー補足
 Raster.slangにあるstruct VSOutのINTERPOLATION_MODEとnointerpolationは以下参照  
 [Interpolation Modifiers Introduced in Shader Model 4](https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl-struct#interpolation-modifiers-introduced-in-shader-model-4)  
 Vertex shader outputs that are used for pixel shader inputs are linearly interpolated to get per-pixel values during rasterization. To set the method of interpolation, use any of the following values, which are supported in [shader model 4](https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl-sm4) or later. The modifier is ignored on any vertex shader output that is not used as a pixel shader input.  
@@ -259,11 +259,11 @@ GBufferBaseをベースクラスとする
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE1MjMwMzYxLC0xODI0MDg1NjUyLC02Mz
-A3MDc2NDAsMTkyNzA5MDMyNywtMTQwMTU3NjUyLDExNjAyMTEx
-OTMsMTgyODE3MDUzMSwxODM2MjgyNjMzLDE5MTgxMzUyMDEsLT
-c2MzU3ODI5OSwtMjEyODc0OTI4NCw0MTU3MDk1MTAsMTM0MDY3
-MDU5MCwtMTkxMjYxMjE1NiwyMDAyMjg0OTY0LDEzOTQ1NTE3OT
-MsLTgzNTc2Nzk3OSwzNzQ4NjI5NjgsNzI0NzUzOTAwLDE1MzA3
-MjgxMjVdfQ==
+eyJoaXN0b3J5IjpbLTIwNDE4MTMwNTQsNDE1MjMwMzYxLC0xOD
+I0MDg1NjUyLC02MzA3MDc2NDAsMTkyNzA5MDMyNywtMTQwMTU3
+NjUyLDExNjAyMTExOTMsMTgyODE3MDUzMSwxODM2MjgyNjMzLD
+E5MTgxMzUyMDEsLTc2MzU3ODI5OSwtMjEyODc0OTI4NCw0MTU3
+MDk1MTAsMTM0MDY3MDU5MCwtMTkxMjYxMjE1NiwyMDAyMjg0OT
+Y0LDEzOTQ1NTE3OTMsLTgzNTc2Nzk3OSwzNzQ4NjI5NjgsNzI0
+NzUzOTAwXX0=
 -->
