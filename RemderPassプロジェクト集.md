@@ -303,7 +303,7 @@ GBufferのサブクラスで、GBufferのレンダーターゲットに加えて
         { "surfSpreadAngle",  "gSurfaceSpreadAngle", "surface spread angle (Ray Coneによるtexlod用))",    true, ResourceFormat::R16Float    },
     };
     
-また、mpDepthPrePassGraph（DepthPassのみのレンダーグラフ）によりDepthも作成され、renderDataに格納される  
+また、mpDepthPrePassGraph（DepthPassのみのレンダーグラフ）によりDepthも作成され、renderData["depth"]に格納される  
 
 
 
@@ -323,11 +323,11 @@ surfSpreadAngleの計算関数computeScreenSpaceSurfaceSpreadAngle()は参考文
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTI4NTYyOCwxNDY0MDYxMjUzLDE1Mj
-k2ODk5NiwtMTY0Njk5ODQ4NiwtNjg3NTY4MzExLDY5OTU5ODYs
-MTE0NjgyNDgyMCwyMTM0NTkxNTY5LC04MTI4NjA3NTQsLTk1Nz
-MyNjY0MiwyMjA4NDM4MDUsNzA1NTM4NTI0LC0xODUxNDgzODE4
-LC0yMDcwMTM2NTkwLC03ODg0OTE5ODIsLTk3MjI2OTI1NiwtMT
-YxNjU5MjgxNiw3NTM1ODQ1NzEsLTEwOTc0MzQ1MDQsODUyOTg0
-OTddfQ==
+eyJoaXN0b3J5IjpbLTE3MzIxNTQxNzEsMTQ2NDA2MTI1MywxNT
+I5Njg5OTYsLTE2NDY5OTg0ODYsLTY4NzU2ODMxMSw2OTk1OTg2
+LDExNDY4MjQ4MjAsMjEzNDU5MTU2OSwtODEyODYwNzU0LC05NT
+czMjY2NDIsMjIwODQzODA1LDcwNTUzODUyNCwtMTg1MTQ4Mzgx
+OCwtMjA3MDEzNjU5MCwtNzg4NDkxOTgyLC05NzIyNjkyNTYsLT
+E2MTY1OTI4MTYsNzUzNTg0NTcxLC0xMDk3NDM0NTA0LDg1Mjk4
+NDk3XX0=
 -->
