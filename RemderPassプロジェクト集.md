@@ -241,14 +241,26 @@ Vertex shader outputs that are used for pixel shader inputs are linearly interpo
 mEnableSuperSamplingによるINTERPOLATION_MODE sampleは、ピクセルシェーダーに値を渡すときpixel中心補間（linear）ではなくサンプルポイント補間での値となる   
 
 ## GBuffer
- 
+
+
+ - GBufferRaster
+ - GBufferRT
+ - VBufferRaster
+ - VBufferRT
+
+
+ ### GBufferRaster
+ ### GBufferRT
+###- VBufferRaster
+###- VBufferRT
+
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDE1NzY1MiwxMTYwMjExMTkzLDE4Mj
-gxNzA1MzEsMTgzNjI4MjYzMywxOTE4MTM1MjAxLC03NjM1Nzgy
-OTksLTIxMjg3NDkyODQsNDE1NzA5NTEwLDEzNDA2NzA1OTAsLT
-E5MTI2MTIxNTYsMjAwMjI4NDk2NCwxMzk0NTUxNzkzLC04MzU3
-Njc5NzksMzc0ODYyOTY4LDcyNDc1MzkwMCwxNTMwNzI4MTI1LC
-0xNDYzMDMyNDY1LC00NDA5MTM4MzEsNzc1Njk3MjE2LDE0ODQy
-NTkwNzhdfQ==
+eyJoaXN0b3J5IjpbLTk3MjEwOTk1MCwtMTQwMTU3NjUyLDExNj
+AyMTExOTMsMTgyODE3MDUzMSwxODM2MjgyNjMzLDE5MTgxMzUy
+MDEsLTc2MzU3ODI5OSwtMjEyODc0OTI4NCw0MTU3MDk1MTAsMT
+M0MDY3MDU5MCwtMTkxMjYxMjE1NiwyMDAyMjg0OTY0LDEzOTQ1
+NTE3OTMsLTgzNTc2Nzk3OSwzNzQ4NjI5NjgsNzI0NzUzOTAwLD
+E1MzA3MjgxMjUsLTE0NjMwMzI0NjUsLTQ0MDkxMzgzMSw3NzU2
+OTcyMTZdfQ==
 -->
