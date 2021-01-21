@@ -127,11 +127,11 @@ pcf系列とは違う点として、これらを使うときはシャドウマ�
 in : Depth。ない場合はこのパスで自作するようになっているとあるが、おそらく今は渡さないとだめっぽい（ただしinに線をつなげてなくても、 RenderDataに kDepthが入っていれば動くので、つないでもつながなくても大丈夫。というかレンダーグラフの処理がすべての使われているリソースをRenderDataぶちこんで全て渡すという処理なので線の意味がなくなっている）  
 out : VisivilityFBO、カメラから見た影情報。Rが影に対応し、1で影なし、0で完全に影となっている。（コード側でしか設定できないが）visualizeCascadesをオンにしている場合はgbaにシャドウマップの分割に対 する色が格納される  
 
-### そのほかパス設定関連
+#### そのほかパス設定関連
 cascadeBlendThresholdはカスケードするときのカスケード間の境界部分が現れないように、分割をお互いオーバーラップさせる用の変数  
 このオーバーラップした部分はシェーダーによって2つの分割マップのブレンドを計算する  
 
-### そのほか実装補足
+#### そのほか実装補足
 mDepthPass（つまりDepthPass.slangによる描画）は現在は機能していないっぽい  
 作るだけ作っているが、実行はされていない（コメントアウトされている）  
 故にレンダーグラフのどっかにDepthを作るパスが必要  
@@ -269,11 +269,11 @@ CPUSampleGenerator系クラスの生成と設定を担当する（Center設定�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMTE4NzE4NCw3OTE3MDg3NDMsNDI0Mj
-E3Mjk2LDQxNTIzMDM2MSw0MTUyMzAzNjEsLTE4MjQwODU2NTIs
-LTYzMDcwNzY0MCwxOTI3MDkwMzI3LC0xNDAxNTc2NTIsMTE2MD
-IxMTE5MywxODI4MTcwNTMxLDE4MzYyODI2MzMsMTkxODEzNTIw
-MSwtNzYzNTc4Mjk5LC0yMTI4NzQ5Mjg0LDQxNTcwOTUxMCwxMz
-QwNjcwNTkwLC0xOTEyNjEyMTU2LDIwMDIyODQ5NjQsMTM5NDU1
-MTc5M119
+eyJoaXN0b3J5IjpbNTI4MTM5NDI0LDc5MTcwODc0Myw0MjQyMT
+cyOTYsNDE1MjMwMzYxLDQxNTIzMDM2MSwtMTgyNDA4NTY1Miwt
+NjMwNzA3NjQwLDE5MjcwOTAzMjcsLTE0MDE1NzY1MiwxMTYwMj
+ExMTkzLDE4MjgxNzA1MzEsMTgzNjI4MjYzMywxOTE4MTM1MjAx
+LC03NjM1NzgyOTksLTIxMjg3NDkyODQsNDE1NzA5NTEwLDEzND
+A2NzA1OTAsLTE5MTI2MTIxNTYsMjAwMjI4NDk2NCwxMzk0NTUx
+NzkzXX0=
 -->
