@@ -289,7 +289,15 @@ GBufferRasterとGBufferRTのベースクラス
 
 
 ### GBufferRaster
-
+    const ChannelList kGBufferExtraChannels =
+    {
+        { "vbuffer",          "gVBuffer",            "Visibility buffer",                true /* optional */, ResourceFormat::RG32Uint    },
+        { "mvec",             "gMotionVectors",      "Motion vectors",                   true /* optional */, ResourceFormat::RG32Float   },
+        { "faceNormalW",      "gFaceNormalW",        "Face normal in world space",       true /* optional */, ResourceFormat::RGBA32Float },
+        { "pnFwidth",         "gPosNormalFwidth",    "position and normal filter width", true /* optional */, ResourceFormat::RG32Float   },
+        { "linearZ",          "gLinearZAndDeriv",    "linear z (and derivative)",        true /* optional */, ResourceFormat::RG32Float   },
+        { "surfSpreadAngle",  "gSurfaceSpreadAngle", "surface spread angle (texlod)",    true /* optional */, ResourceFormat::R16Float    },
+    };
 ### GBufferRT
 
 ### VBufferRaster
@@ -299,11 +307,11 @@ GBufferRasterとGBufferRTのベースクラス
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzAxMzY1OTAsLTc4ODQ5MTk4MiwtOT
-cyMjY5MjU2LC0xNjE2NTkyODE2LDc1MzU4NDU3MSwtMTA5NzQz
-NDUwNCw4NTI5ODQ5Nyw3OTE3MDg3NDMsNDI0MjE3Mjk2LDQxNT
-IzMDM2MSw0MTUyMzAzNjEsLTE4MjQwODU2NTIsLTYzMDcwNzY0
-MCwxOTI3MDkwMzI3LC0xNDAxNTc2NTIsMTE2MDIxMTE5MywxOD
-I4MTcwNTMxLDE4MzYyODI2MzMsMTkxODEzNTIwMSwtNzYzNTc4
-Mjk5XX0=
+eyJoaXN0b3J5IjpbLTE4NTE0ODM4MTgsLTIwNzAxMzY1OTAsLT
+c4ODQ5MTk4MiwtOTcyMjY5MjU2LC0xNjE2NTkyODE2LDc1MzU4
+NDU3MSwtMTA5NzQzNDUwNCw4NTI5ODQ5Nyw3OTE3MDg3NDMsND
+I0MjE3Mjk2LDQxNTIzMDM2MSw0MTUyMzAzNjEsLTE4MjQwODU2
+NTIsLTYzMDcwNzY0MCwxOTI3MDkwMzI3LC0xNDAxNTc2NTIsMT
+E2MDIxMTE5MywxODI4MTcwNTMxLDE4MzYyODI2MzMsMTkxODEz
+NTIwMV19
 -->
