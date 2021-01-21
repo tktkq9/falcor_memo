@@ -253,7 +253,10 @@ GBufferBaseをベースクラスとする
 
 ### GBufferBase
 全てのGBuffer系クラスのルートクラス  
-CPUSampleGenerator系クラスの生成と設定のみを担当する（Center設定の場合は生成無し）  
+主に他クラスのPythonへのバインドと、  
+CPUSampleGenerator系クラスの生成と設定を担当する（Center設定の場合は生成無し）  
+
+
 
 ### GBufferRaster
 ### GBufferRT
@@ -262,7 +265,7 @@ CPUSampleGenerator系クラスの生成と設定のみを担当する（Center�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzODE5ODk3MCw0MjQyMTcyOTYsNDE1Mj
+eyJoaXN0b3J5IjpbLTg1ODg4NTY3NSw0MjQyMTcyOTYsNDE1Mj
 MwMzYxLDQxNTIzMDM2MSwtMTgyNDA4NTY1MiwtNjMwNzA3NjQw
 LDE5MjcwOTAzMjcsLTE0MDE1NzY1MiwxMTYwMjExMTkzLDE4Mj
 gxNzA1MzEsMTgzNjI4MjYzMywxOTE4MTM1MjAxLC03NjM1Nzgy
