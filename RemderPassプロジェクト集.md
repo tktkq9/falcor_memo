@@ -288,6 +288,7 @@ GBufferRasterとGBufferRTのベースクラス
         { "matlExtra",      "gMatlExtra",       "additional material data",     true, ResourceFormat::RGBA32Float },
     };
 
+これらの値を計算するシェーダーがGBufferHelpers.slangとなっている  
 
 ### GBufferRaster
 
@@ -312,11 +313,11 @@ GBufferRasterとGBufferRTのベースクラス
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NzMyNjY0MiwyMjA4NDM4MDUsNzA1NT
-M4NTI0LC0xODUxNDgzODE4LC0yMDcwMTM2NTkwLC03ODg0OTE5
-ODIsLTk3MjI2OTI1NiwtMTYxNjU5MjgxNiw3NTM1ODQ1NzEsLT
-EwOTc0MzQ1MDQsODUyOTg0OTcsNzkxNzA4NzQzLDQyNDIxNzI5
-Niw0MTUyMzAzNjEsNDE1MjMwMzYxLC0xODI0MDg1NjUyLC02Mz
-A3MDc2NDAsMTkyNzA5MDMyNywtMTQwMTU3NjUyLDExNjAyMTEx
-OTNdfQ==
+eyJoaXN0b3J5IjpbLTgxMjg2MDc1NCwtOTU3MzI2NjQyLDIyMD
+g0MzgwNSw3MDU1Mzg1MjQsLTE4NTE0ODM4MTgsLTIwNzAxMzY1
+OTAsLTc4ODQ5MTk4MiwtOTcyMjY5MjU2LC0xNjE2NTkyODE2LD
+c1MzU4NDU3MSwtMTA5NzQzNDUwNCw4NTI5ODQ5Nyw3OTE3MDg3
+NDMsNDI0MjE3Mjk2LDQxNTIzMDM2MSw0MTUyMzAzNjEsLTE4Mj
+QwODU2NTIsLTYzMDcwNzY0MCwxOTI3MDkwMzI3LC0xNDAxNTc2
+NTJdfQ==
 -->
