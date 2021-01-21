@@ -15,6 +15,7 @@ Mogwaiはpythonで実行されるので、パスの変数設定関数などMogwa
     extern "C" __declspec(dllexport) void getPasses(Falcor::RenderPassLibrary& lib) {…}  
 
 ## AccumulatePassプロジェクト
+### AccumulatePass
 
 渡したリソースをフレームごとに蓄積し、アウトプットリソースにその平均を返すパス  
 
@@ -69,6 +70,7 @@ out : Texture2D
 SampleCount = 1である必要がある  
 
 ## BlitPasプロジェクト
+### BlitPas
 blit実行用パス  
 リソースをレンダーターゲットへサンプラー使って描画  
 
@@ -79,6 +81,7 @@ out リソース
 arrayとmipは1のみ、各々のリソースのサイズは制限なし  
 
 ## BSDFViewerプロジェクト
+### BSDFViewer
 読み込んだシーンのマテリアルの見た目を確かめるためのパス  
 imguiでBSDFの設定やカメラや表示したいマテリアルなどの指定を行いマテリアルの見た目を確認する用  
 
@@ -269,11 +272,11 @@ CPUSampleGenerator系クラスの生成と設定を担当する（Center設定�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI4MTM5NDI0LDc5MTcwODc0Myw0MjQyMT
-cyOTYsNDE1MjMwMzYxLDQxNTIzMDM2MSwtMTgyNDA4NTY1Miwt
-NjMwNzA3NjQwLDE5MjcwOTAzMjcsLTE0MDE1NzY1MiwxMTYwMj
-ExMTkzLDE4MjgxNzA1MzEsMTgzNjI4MjYzMywxOTE4MTM1MjAx
-LC03NjM1NzgyOTksLTIxMjg3NDkyODQsNDE1NzA5NTEwLDEzND
-A2NzA1OTAsLTE5MTI2MTIxNTYsMjAwMjI4NDk2NCwxMzk0NTUx
-NzkzXX0=
+eyJoaXN0b3J5IjpbMTgzMzIwOTQ5OCw3OTE3MDg3NDMsNDI0Mj
+E3Mjk2LDQxNTIzMDM2MSw0MTUyMzAzNjEsLTE4MjQwODU2NTIs
+LTYzMDcwNzY0MCwxOTI3MDkwMzI3LC0xNDAxNTc2NTIsMTE2MD
+IxMTE5MywxODI4MTcwNTMxLDE4MzYyODI2MzMsMTkxODEzNTIw
+MSwtNzYzNTc4Mjk5LC0yMTI4NzQ5Mjg0LDQxNTcwOTUxMCwxMz
+QwNjcwNTkwLC0xOTEyNjEyMTU2LDIwMDIyODQ5NjQsMTM5NDU1
+MTc5M119
 -->
