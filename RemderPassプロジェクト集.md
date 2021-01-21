@@ -267,6 +267,14 @@ CPUSampleGenerator（レイトレのサンプラー）系クラスの生成と�
 GBufferRasterとGBufferRTのベースクラス  
 カリング設定と、以下のレンダーターゲット情報を宣言するだけのクラス（実際にレンダーターゲットを作り描画処理部分はこれのサブクラスが行う）  
 
+    struct ChannelDesc
+    {
+        std::string name;       ///< Render pass I/O pin name.
+        std::string texname;    ///< Name of corresponding resource in the shader, or empty if it's not a shader variable.
+        std::string desc;       ///< Human-readable description of the data.
+        bool optional = false;  ///< Set to true if the resource is optional.
+        ResourceFormat format = ResourceFormat::RGBA32Float;
+    };
     const ChannelList GBuffer::kGBufferChannels =
     {
         { "posW",           "gPosW",            "world space position",         true /* optional */, ResourceFormat::RGBA32Float },
@@ -287,11 +295,11 @@ GBufferRasterとGBufferRTのベースクラス
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2ODIyNjQ4NiwtOTcyMjY5MjU2LC0xNj
-E2NTkyODE2LDc1MzU4NDU3MSwtMTA5NzQzNDUwNCw4NTI5ODQ5
-Nyw3OTE3MDg3NDMsNDI0MjE3Mjk2LDQxNTIzMDM2MSw0MTUyMz
-AzNjEsLTE4MjQwODU2NTIsLTYzMDcwNzY0MCwxOTI3MDkwMzI3
-LC0xNDAxNTc2NTIsMTE2MDIxMTE5MywxODI4MTcwNTMxLDE4Mz
-YyODI2MzMsMTkxODEzNTIwMSwtNzYzNTc4Mjk5LC0yMTI4NzQ5
-Mjg0XX0=
+eyJoaXN0b3J5IjpbLTE2OTM1ODE3MTAsLTk3MjI2OTI1NiwtMT
+YxNjU5MjgxNiw3NTM1ODQ1NzEsLTEwOTc0MzQ1MDQsODUyOTg0
+OTcsNzkxNzA4NzQzLDQyNDIxNzI5Niw0MTUyMzAzNjEsNDE1Mj
+MwMzYxLC0xODI0MDg1NjUyLC02MzA3MDc2NDAsMTkyNzA5MDMy
+NywtMTQwMTU3NjUyLDExNjAyMTExOTMsMTgyODE3MDUzMSwxOD
+M2MjgyNjMzLDE5MTgxMzUyMDEsLTc2MzU3ODI5OSwtMjEyODc0
+OTI4NF19
 -->
