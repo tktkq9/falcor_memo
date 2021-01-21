@@ -203,6 +203,7 @@ gLeftBoundの操作を行えるようになっている
 
 
 ## DepthPassプロジェクト
+### DepthPass
 深度バッファーのみ出力するパス  
 シーンのメインカメラの深度が出力される  
 シーンの情報だけあればいいので入力は無し  
@@ -211,6 +212,7 @@ gLeftBoundの操作を行えるようになっている
 故にちょっとはコストがかかっている  
 
 ## ErrorMeasurePassプロジェクト
+### ErrorMeasurePass
 2つの画像間の[平均絶対誤差(MAEまたの名をL1)と平均二乗誤差(MSEまたの名をL2)](https://mathwords.net/rmsemae#MSEMean_Squared_Error)を計算するパス（RGBのみ、Aは計算されず出力は0固定）  
 
 また、ピクセル全体の平均誤差が（ComputeParallelReductionのGPUによる総和によって）計算され、設定していればこれを外部ファイルに保存できる  
@@ -266,7 +268,7 @@ CPUSampleGenerator系クラスの生成と設定を担当する（Center設定�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjkwNjg4MjksNzkxNzA4NzQzLDQyND
+eyJoaXN0b3J5IjpbLTE5MDM1ODk2MDQsNzkxNzA4NzQzLDQyND
 IxNzI5Niw0MTUyMzAzNjEsNDE1MjMwMzYxLC0xODI0MDg1NjUy
 LC02MzA3MDc2NDAsMTkyNzA5MDMyNywtMTQwMTU3NjUyLDExNj
 AyMTExOTMsMTgyODE3MDUzMSwxODM2MjgyNjMzLDE5MTgxMzUy
