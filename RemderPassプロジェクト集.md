@@ -260,7 +260,7 @@ GBufferBaseをベースクラスとする
 
 ### GBufferBase
 全てのGBuffer系クラスのルートクラス  
-主にｓクラスのPythonへのバインドと、  
+主にさｂクラスのPythonへのバインドと、  
 CPUSampleGenerator（レイトレのサンプラー）系クラスの生成と設定を担当する（Center設定の場合は生成無し）  
 
 ### GBuffer
@@ -272,11 +272,11 @@ CPUSampleGenerator（レイトレのサンプラー）系クラスの生成と�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI2OTM4MTEwLDg1Mjk4NDk3LDc5MTcwOD
-c0Myw0MjQyMTcyOTYsNDE1MjMwMzYxLDQxNTIzMDM2MSwtMTgy
-NDA4NTY1MiwtNjMwNzA3NjQwLDE5MjcwOTAzMjcsLTE0MDE1Nz
-Y1MiwxMTYwMjExMTkzLDE4MjgxNzA1MzEsMTgzNjI4MjYzMywx
-OTE4MTM1MjAxLC03NjM1NzgyOTksLTIxMjg3NDkyODQsNDE1Nz
-A5NTEwLDEzNDA2NzA1OTAsLTE5MTI2MTIxNTYsMjAwMjI4NDk2
-NF19
+eyJoaXN0b3J5IjpbLTEwOTc0MzQ1MDQsOTI2OTM4MTEwLDg1Mj
+k4NDk3LDc5MTcwODc0Myw0MjQyMTcyOTYsNDE1MjMwMzYxLDQx
+NTIzMDM2MSwtMTgyNDA4NTY1MiwtNjMwNzA3NjQwLDE5MjcwOT
+AzMjcsLTE0MDE1NzY1MiwxMTYwMjExMTkzLDE4MjgxNzA1MzEs
+MTgzNjI4MjYzMywxOTE4MTM1MjAxLC03NjM1NzgyOTksLTIxMj
+g3NDkyODQsNDE1NzA5NTEwLDEzNDA2NzA1OTAsLTE5MTI2MTIx
+NTZdfQ==
 -->
