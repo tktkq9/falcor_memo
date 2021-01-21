@@ -242,11 +242,12 @@ mEnableSuperSamplingによるINTERPOLATION_MODE sampleは、ピクセルシェ�
 
 ## GBuffer
 
-
+GBufferをベースクラスとする
 - GBufferRaster
 - GBufferRT
 
 
+GBufferBaseをベースクラスとする
 - VBufferRaster
 - VBufferRT
 
@@ -258,11 +259,11 @@ mEnableSuperSamplingによるINTERPOLATION_MODE sampleは、ピクセルシェ�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjQwODU2NTIsLTg3MzAzNzc5OCwtNj
-MwNzA3NjQwLDE5MjcwOTAzMjcsLTE0MDE1NzY1MiwxMTYwMjEx
-MTkzLDE4MjgxNzA1MzEsMTgzNjI4MjYzMywxOTE4MTM1MjAxLC
-03NjM1NzgyOTksLTIxMjg3NDkyODQsNDE1NzA5NTEwLDEzNDA2
-NzA1OTAsLTE5MTI2MTIxNTYsMjAwMjI4NDk2NCwxMzk0NTUxNz
-kzLC04MzU3Njc5NzksMzc0ODYyOTY4LDcyNDc1MzkwMCwxNTMw
-NzI4MTI1XX0=
+eyJoaXN0b3J5IjpbNDE1MjMwMzYxLC0xODI0MDg1NjUyLC02Mz
+A3MDc2NDAsMTkyNzA5MDMyNywtMTQwMTU3NjUyLDExNjAyMTEx
+OTMsMTgyODE3MDUzMSwxODM2MjgyNjMzLDE5MTgxMzUyMDEsLT
+c2MzU3ODI5OSwtMjEyODc0OTI4NCw0MTU3MDk1MTAsMTM0MDY3
+MDU5MCwtMTkxMjYxMjE1NiwyMDAyMjg0OTY0LDEzOTQ1NTE3OT
+MsLTgzNTc2Nzk3OSwzNzQ4NjI5NjgsNzI0NzUzOTAwLDE1MzA3
+MjgxMjVdfQ==
 -->
