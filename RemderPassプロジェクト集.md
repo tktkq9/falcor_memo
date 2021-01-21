@@ -276,7 +276,7 @@ GBufferRasterとGBufferRTのベースクラス
     { "diffuseOpacity", "gDiffuseOpacity",  "diffuse color and opacity",    true /* optional */, ResourceFormat::RGBA32Float },
     { "specRough",      "gSpecRough",       "specular color and roughness", true /* optional */, ResourceFormat::RGBA32Float },
     { "emissive",       "gEmissive",        "emissive color",               true /* optional */, ResourceFormat::RGBA32Float },
-    { "matlExtra",      "gMatlExtra",       "additional material data",     true /* optional */, ResourceFormat::RGBA32Float },
+        { "matlExtra",      "gMatlExtra",       "additional material data",     true /* optional */, ResourceFormat::RGBA32Float },
     };
 
 ### GBufferRaster
@@ -286,11 +286,11 @@ GBufferRasterとGBufferRTのベースクラス
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDM4NTM2NDAsLTE2MTY1OTI4MTYsNz
-UzNTg0NTcxLC0xMDk3NDM0NTA0LDg1Mjk4NDk3LDc5MTcwODc0
-Myw0MjQyMTcyOTYsNDE1MjMwMzYxLDQxNTIzMDM2MSwtMTgyND
-A4NTY1MiwtNjMwNzA3NjQwLDE5MjcwOTAzMjcsLTE0MDE1NzY1
-MiwxMTYwMjExMTkzLDE4MjgxNzA1MzEsMTgzNjI4MjYzMywxOT
-E4MTM1MjAxLC03NjM1NzgyOTksLTIxMjg3NDkyODQsNDE1NzA5
-NTEwXX0=
+eyJoaXN0b3J5IjpbLTk3MjI2OTI1NiwtMTU0Mzg1MzY0MCwtMT
+YxNjU5MjgxNiw3NTM1ODQ1NzEsLTEwOTc0MzQ1MDQsODUyOTg0
+OTcsNzkxNzA4NzQzLDQyNDIxNzI5Niw0MTUyMzAzNjEsNDE1Mj
+MwMzYxLC0xODI0MDg1NjUyLC02MzA3MDc2NDAsMTkyNzA5MDMy
+NywtMTQwMTU3NjUyLDExNjAyMTExOTMsMTgyODE3MDUzMSwxOD
+M2MjgyNjMzLDE5MTgxMzUyMDEsLTc2MzU3ODI5OSwtMjEyODc0
+OTI4NF19
 -->
