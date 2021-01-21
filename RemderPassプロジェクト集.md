@@ -137,7 +137,7 @@ mDepthPass（つまりDepthPass.slangによる描画）は現在は機能して�
 
 calcPssmPartitionEnd()の計算は[GPU Gems 3 Chapter 10. Parallel-Split Shadow Maps on Programmable GPUs](https://developer.nvidia.com/gpugems/gpugems3/part-ii-light-and-shadows/chapter-10-parallel-split-shadow-maps-programmable-gpus)の10.2.1 Step 1: Splitting the View Frustumの部分  
 
-## DebugPass
+## DebugPassプロジェクト
 様々なデバッグ用パスをまとめるプロジェクト
 DebugPass.cppはそれらのパス作成をdllにするための処理のみ  
 
@@ -265,7 +265,7 @@ CPUSampleGenerator系クラスの生成と設定を担当する（Center設定�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNDgzNzg3LDQyNDIxNzI5Niw0MTUyMz
+eyJoaXN0b3J5IjpbOTg5Njg1NDE3LDQyNDIxNzI5Niw0MTUyMz
 AzNjEsNDE1MjMwMzYxLC0xODI0MDg1NjUyLC02MzA3MDc2NDAs
 MTkyNzA5MDMyNywtMTQwMTU3NjUyLDExNjAyMTExOTMsMTgyOD
 E3MDUzMSwxODM2MjgyNjMzLDE5MTgxMzUyMDEsLTc2MzU3ODI5
