@@ -269,13 +269,13 @@ GBufferRasterとGBufferRTのベースクラス
 
     const ChannelList GBuffer::kGBufferChannels =
     {
-    { "posW",           "gPosW",            "world space position",         true /* optional */, ResourceFormat::RGBA32Float },
-    { "normW",          "gNormW",           "world space normal",           true /* optional */, ResourceFormat::RGBA32Float },
-    { "tangentW",       "gTangentW",        "world space tangent",          true /* optional */, ResourceFormat::RGBA32Float },
-    { "texC",           "gTexC",            "texture coordinates",          true /* optional */, ResourceFormat::RGBA32Float },
-    { "diffuseOpacity", "gDiffuseOpacity",  "diffuse color and opacity",    true /* optional */, ResourceFormat::RGBA32Float },
-    { "specRough",      "gSpecRough",       "specular color and roughness", true /* optional */, ResourceFormat::RGBA32Float },
-    { "emissive",       "gEmissive",        "emissive color",               true /* optional */, ResourceFormat::RGBA32Float },
+        { "posW",           "gPosW",            "world space position",         true /* optional */, ResourceFormat::RGBA32Float },
+        { "normW",          "gNormW",           "world space normal",           true /* optional */, ResourceFormat::RGBA32Float },
+        { "tangentW",       "gTangentW",        "world space tangent",          true /* optional */, ResourceFormat::RGBA32Float },
+        { "texC",           "gTexC",            "texture coordinates",          true /* optional */, ResourceFormat::RGBA32Float },
+        { "diffuseOpacity", "gDiffuseOpacity",  "diffuse color and opacity",    true /* optional */, ResourceFormat::RGBA32Float },
+        { "specRough",      "gSpecRough",       "specular color and roughness", true /* optional */, ResourceFormat::RGBA32Float },
+        { "emissive",       "gEmissive",        "emissive color",               true /* optional */, ResourceFormat::RGBA32Float },
         { "matlExtra",      "gMatlExtra",       "additional material data",     true /* optional */, ResourceFormat::RGBA32Float },
     };
 
@@ -286,11 +286,11 @@ GBufferRasterとGBufferRTのベースクラス
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MjI2OTI1NiwtMTU0Mzg1MzY0MCwtMT
-YxNjU5MjgxNiw3NTM1ODQ1NzEsLTEwOTc0MzQ1MDQsODUyOTg0
-OTcsNzkxNzA4NzQzLDQyNDIxNzI5Niw0MTUyMzAzNjEsNDE1Mj
-MwMzYxLC0xODI0MDg1NjUyLC02MzA3MDc2NDAsMTkyNzA5MDMy
-NywtMTQwMTU3NjUyLDExNjAyMTExOTMsMTgyODE3MDUzMSwxOD
-M2MjgyNjMzLDE5MTgxMzUyMDEsLTc2MzU3ODI5OSwtMjEyODc0
-OTI4NF19
+eyJoaXN0b3J5IjpbLTMwNTU2MTU0NCwtOTcyMjY5MjU2LC0xNj
+E2NTkyODE2LDc1MzU4NDU3MSwtMTA5NzQzNDUwNCw4NTI5ODQ5
+Nyw3OTE3MDg3NDMsNDI0MjE3Mjk2LDQxNTIzMDM2MSw0MTUyMz
+AzNjEsLTE4MjQwODU2NTIsLTYzMDcwNzY0MCwxOTI3MDkwMzI3
+LC0xNDAxNTc2NTIsMTE2MDIxMTE5MywxODI4MTcwNTMxLDE4Mz
+YyODI2MzMsMTkxODEzNTIwMSwtNzYzNTc4Mjk5LC0yMTI4NzQ5
+Mjg0XX0=
 -->
