@@ -78,7 +78,7 @@ in リソース
 out リソース
 arrayとmipは1のみ、各々のリソースのサイズは制限なし  
 
-## BSDFViewer
+## BSDFViewerプロジェクト
 読み込んだシーンのマテリアルの見た目を確かめるためのパス  
 imguiでBSDFの設定やカメラや表示したいマテリアルなどの指定を行いマテリアルの見た目を確認する用  
 
@@ -265,11 +265,11 @@ CPUSampleGenerator系クラスの生成と設定を担当する（Center設定�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjQzNzEzMTcsMzIzMDY2OTIxLDQyND
-IxNzI5Niw0MTUyMzAzNjEsNDE1MjMwMzYxLC0xODI0MDg1NjUy
-LC02MzA3MDc2NDAsMTkyNzA5MDMyNywtMTQwMTU3NjUyLDExNj
-AyMTExOTMsMTgyODE3MDUzMSwxODM2MjgyNjMzLDE5MTgxMzUy
-MDEsLTc2MzU3ODI5OSwtMjEyODc0OTI4NCw0MTU3MDk1MTAsMT
-M0MDY3MDU5MCwtMTkxMjYxMjE1NiwyMDAyMjg0OTY0LDEzOTQ1
-NTE3OTNdfQ==
+eyJoaXN0b3J5IjpbMjA1ODM0MDg0MSwtMTQyNDM3MTMxNyw0Mj
+QyMTcyOTYsNDE1MjMwMzYxLDQxNTIzMDM2MSwtMTgyNDA4NTY1
+MiwtNjMwNzA3NjQwLDE5MjcwOTAzMjcsLTE0MDE1NzY1MiwxMT
+YwMjExMTkzLDE4MjgxNzA1MzEsMTgzNjI4MjYzMywxOTE4MTM1
+MjAxLC03NjM1NzgyOTksLTIxMjg3NDkyODQsNDE1NzA5NTEwLD
+EzNDA2NzA1OTAsLTE5MTI2MTIxNTYsMjAwMjI4NDk2NCwxMzk0
+NTUxNzkzXX0=
 -->
