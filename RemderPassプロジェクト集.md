@@ -303,7 +303,7 @@ GBufferRasterとGBufferRTのベースクラス
         { "surfSpreadAngle",  "gSurfaceSpreadAngle (Ray Cone用)", "surface spread angle (texlod)",    true, ResourceFormat::R16Float    },
     };
     
-surfSpreadAngleがつかわれｒRay Coneはレイトレのtex LOD計算アルゴリズム    
+surfSpreadAngleが使われるRay Coneはレイトレのtex LOD計算アルゴリズム    
 参考文献 : [Texture Level of Detail Strategies for Real-Time Ray Tracing](https://www.ea.com/seed/news/texture-level-of-detail-strategies-for-real-time-ray-tracing)、[Rey Tracing Gems : CHAPTER 20（左とおなじやつ）](https://www.realtimerendering.com/raytracinggems/)
 
 ### GBufferRT
@@ -315,7 +315,7 @@ surfSpreadAngleがつかわれｒRay Coneはレイトレのtex LOD計算アル�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NzU2ODMxMSwxODQ3NzM4Mzk5LDY5OT
+eyJoaXN0b3J5IjpbMTk0NTM3MDc5NiwtNjg3NTY4MzExLDY5OT
 U5ODYsMTE0NjgyNDgyMCwyMTM0NTkxNTY5LC04MTI4NjA3NTQs
 LTk1NzMyNjY0MiwyMjA4NDM4MDUsNzA1NTM4NTI0LC0xODUxND
 gzODE4LC0yMDcwMTM2NTkwLC03ODg0OTE5ODIsLTk3MjI2OTI1
