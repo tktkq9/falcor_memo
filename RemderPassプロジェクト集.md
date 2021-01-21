@@ -285,7 +285,7 @@ GBufferRasterとGBufferRTのベースクラス
         { "diffuseOpacity", "gDiffuseOpacity",  "diffuse color and opacity",    true, ResourceFormat::RGBA32Float },
         { "specRough",      "gSpecRough",       "specular color and roughness", true, ResourceFormat::RGBA32Float },
         { "emissive",       "gEmissive",        "emissive color",               true, ResourceFormat::RGBA32Float },
-        { "matlExtra",      "gMatlExtra",       "additional material data",     true, ResourceFormat::RGBA32Float },
+        { "matlExtra",      "gMatlExtra",       "additional material data (IoR, doubleSided, specularTransmission, metallic)",     true, ResourceFormat::RGBA32Float },
     };
 
 これらの値を計算するシェーダーがGBufferHelpers.slangとなっている  
@@ -313,11 +313,11 @@ GBufferRasterとGBufferRTのベースクラス
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMjg2MDc1NCwtOTU3MzI2NjQyLDIyMD
-g0MzgwNSw3MDU1Mzg1MjQsLTE4NTE0ODM4MTgsLTIwNzAxMzY1
-OTAsLTc4ODQ5MTk4MiwtOTcyMjY5MjU2LC0xNjE2NTkyODE2LD
-c1MzU4NDU3MSwtMTA5NzQzNDUwNCw4NTI5ODQ5Nyw3OTE3MDg3
-NDMsNDI0MjE3Mjk2LDQxNTIzMDM2MSw0MTUyMzAzNjEsLTE4Mj
-QwODU2NTIsLTYzMDcwNzY0MCwxOTI3MDkwMzI3LC0xNDAxNTc2
-NTJdfQ==
+eyJoaXN0b3J5IjpbMjEzNDU5MTU2OSwtODEyODYwNzU0LC05NT
+czMjY2NDIsMjIwODQzODA1LDcwNTUzODUyNCwtMTg1MTQ4Mzgx
+OCwtMjA3MDEzNjU5MCwtNzg4NDkxOTgyLC05NzIyNjkyNTYsLT
+E2MTY1OTI4MTYsNzUzNTg0NTcxLC0xMDk3NDM0NTA0LDg1Mjk4
+NDk3LDc5MTcwODc0Myw0MjQyMTcyOTYsNDE1MjMwMzYxLDQxNT
+IzMDM2MSwtMTgyNDA4NTY1MiwtNjMwNzA3NjQwLDE5MjcwOTAz
+MjddfQ==
 -->
