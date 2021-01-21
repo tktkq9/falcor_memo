@@ -300,9 +300,9 @@ GBufferRasterとGBufferRTのベースクラス
         { "faceNormalW",      "gFaceNormalW",        "Face normal in world space",       true, ResourceFormat::RGBA32Float },
         { "pnFwidth",         "gPosNormalFwidth",    "position and normal filter width ( length(abs(ddx(x)) + abs(ddy(x)) )", true, ResourceFormat::RG32Float   },
         { "linearZ",          "gLinearZAndDeriv",    "linear z (and derivative)",        true, ResourceFormat::RG32Float   },
-        { "surfSpreadAngle",  "gSurfaceSpreadAngle", "surface spread angle (texlod)",    true, ResourceFormat::R16Float    },
+        { "surfSpreadAngle",  "gSurfaceSpreadAngle (Ray Cone用)", "surface spread angle (texlod)",    true, ResourceFormat::R16Float    },
     };
-
+レイトレのRay Cone
 
 ### GBufferRT
 
@@ -313,11 +313,11 @@ GBufferRasterとGBufferRTのベースクラス
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk5NTk4NiwxMTQ2ODI0ODIwLDIxMzQ1OT
-E1NjksLTgxMjg2MDc1NCwtOTU3MzI2NjQyLDIyMDg0MzgwNSw3
-MDU1Mzg1MjQsLTE4NTE0ODM4MTgsLTIwNzAxMzY1OTAsLTc4OD
-Q5MTk4MiwtOTcyMjY5MjU2LC0xNjE2NTkyODE2LDc1MzU4NDU3
-MSwtMTA5NzQzNDUwNCw4NTI5ODQ5Nyw3OTE3MDg3NDMsNDI0Mj
-E3Mjk2LDQxNTIzMDM2MSw0MTUyMzAzNjEsLTE4MjQwODU2NTJd
-fQ==
+eyJoaXN0b3J5IjpbLTY2NjI5MTkwNSw2OTk1OTg2LDExNDY4Mj
+Q4MjAsMjEzNDU5MTU2OSwtODEyODYwNzU0LC05NTczMjY2NDIs
+MjIwODQzODA1LDcwNTUzODUyNCwtMTg1MTQ4MzgxOCwtMjA3MD
+EzNjU5MCwtNzg4NDkxOTgyLC05NzIyNjkyNTYsLTE2MTY1OTI4
+MTYsNzUzNTg0NTcxLC0xMDk3NDM0NTA0LDg1Mjk4NDk3LDc5MT
+cwODc0Myw0MjQyMTcyOTYsNDE1MjMwMzYxLDQxNTIzMDM2MV19
+
 -->
