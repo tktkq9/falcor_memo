@@ -252,7 +252,10 @@ GBufferBaseをベースクラスとする
 - VBufferRT
 
 ### GBufferBase
-全てのGBuffer系クラスの
+全てのGBuffer系クラスのルートクラス  
+主にCPUSampleGenerator系クラスの生成を担当する（Center設定の場合は生成無し）  
+
+
 
 ### GBufferRaster
 ### GBufferRT
@@ -261,7 +264,7 @@ GBufferBaseをベースクラスとする
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjU5MDI1LDQxNTIzMDM2MSw0MTUyMz
+eyJoaXN0b3J5IjpbOTY5NTY5NTA2LDQxNTIzMDM2MSw0MTUyMz
 AzNjEsLTE4MjQwODU2NTIsLTYzMDcwNzY0MCwxOTI3MDkwMzI3
 LC0xNDAxNTc2NTIsMTE2MDIxMTE5MywxODI4MTcwNTMxLDE4Mz
 YyODI2MzMsMTkxODEzNTIwMSwtNzYzNTc4Mjk5LC0yMTI4NzQ5
