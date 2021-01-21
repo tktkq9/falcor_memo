@@ -264,6 +264,8 @@ GBufferBaseをベースクラスとする
 主にサブクラス生成のPythonへのバインドと、  
 CPUSampleGenerator（レイトレのサンプラー）系クラスの生成と設定を担当する（Center設定の場合は生成無し）  
 
+CPUSampleGenerator
+
 ### GBuffer
 GBufferRasterとGBufferRTのベースクラス  
 カリング設定と、以下のレンダーターゲット情報を宣言するだけのクラス（実際にレンダーターゲットを作り描画処理部分はこれのサブクラスが行う）  
@@ -325,11 +327,11 @@ surfSpreadAngleの計算関数computeScreenSpaceSurfaceSpreadAngle()は参考文
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0Nzg5ODQ4MSwtMjA3MDc3MDczMiwtMT
-Y4NDk0NDczMywtMTc2NTY0Mjg0NCw5OTExMzY3MjIsMTQ2NDA2
-MTI1MywxNTI5Njg5OTYsLTE2NDY5OTg0ODYsLTY4NzU2ODMxMS
-w2OTk1OTg2LDExNDY4MjQ4MjAsMjEzNDU5MTU2OSwtODEyODYw
-NzU0LC05NTczMjY2NDIsMjIwODQzODA1LDcwNTUzODUyNCwtMT
-g1MTQ4MzgxOCwtMjA3MDEzNjU5MCwtNzg4NDkxOTgyLC05NzIy
-NjkyNTZdfQ==
+eyJoaXN0b3J5IjpbMjE3Mzg5MzQsMTc0Nzg5ODQ4MSwtMjA3MD
+c3MDczMiwtMTY4NDk0NDczMywtMTc2NTY0Mjg0NCw5OTExMzY3
+MjIsMTQ2NDA2MTI1MywxNTI5Njg5OTYsLTE2NDY5OTg0ODYsLT
+Y4NzU2ODMxMSw2OTk1OTg2LDExNDY4MjQ4MjAsMjEzNDU5MTU2
+OSwtODEyODYwNzU0LC05NTczMjY2NDIsMjIwODQzODA1LDcwNT
+UzODUyNCwtMTg1MTQ4MzgxOCwtMjA3MDEzNjU5MCwtNzg4NDkx
+OTgyXX0=
 -->
