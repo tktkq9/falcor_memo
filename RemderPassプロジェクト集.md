@@ -295,7 +295,7 @@ GBufferRasterとGBufferRTのベースクラス
 
     const ChannelList kGBufferExtraChannels =
     {
-        { "vbuffer",          "gVBuffer",            "Visibility buffer",                true, ResourceFormat::RG32Uint    },
+        { "vbuffer",          "gVBuffer",            "Visibility buffer (CSMのやつではなく、DXRのHitInfoバッファー)",                true, ResourceFormat::RG32Uint    },
         { "mvec",             "gMotionVectors",      "Motion vectors",                   true /* optional */, ResourceFormat::RG32Float   },
         { "faceNormalW",      "gFaceNormalW",        "Face normal in world space",       true, ResourceFormat::RGBA32Float },
         { "pnFwidth",         "gPosNormalFwidth",    "position and normal filter width ( length(abs(ddx(x)) + abs(ddy(x)) )", true, ResourceFormat::RG32Float   },
@@ -313,11 +313,11 @@ GBufferRasterとGBufferRTのベースクラス
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NjgyNDgyMCwyMTM0NTkxNTY5LC04MT
-I4NjA3NTQsLTk1NzMyNjY0MiwyMjA4NDM4MDUsNzA1NTM4NTI0
-LC0xODUxNDgzODE4LC0yMDcwMTM2NTkwLC03ODg0OTE5ODIsLT
-k3MjI2OTI1NiwtMTYxNjU5MjgxNiw3NTM1ODQ1NzEsLTEwOTc0
-MzQ1MDQsODUyOTg0OTcsNzkxNzA4NzQzLDQyNDIxNzI5Niw0MT
-UyMzAzNjEsNDE1MjMwMzYxLC0xODI0MDg1NjUyLC02MzA3MDc2
-NDBdfQ==
+eyJoaXN0b3J5IjpbNjk5NTk4NiwxMTQ2ODI0ODIwLDIxMzQ1OT
+E1NjksLTgxMjg2MDc1NCwtOTU3MzI2NjQyLDIyMDg0MzgwNSw3
+MDU1Mzg1MjQsLTE4NTE0ODM4MTgsLTIwNzAxMzY1OTAsLTc4OD
+Q5MTk4MiwtOTcyMjY5MjU2LC0xNjE2NTkyODE2LDc1MzU4NDU3
+MSwtMTA5NzQzNDUwNCw4NTI5ODQ5Nyw3OTE3MDg3NDMsNDI0Mj
+E3Mjk2LDQxNTIzMDM2MSw0MTUyMzAzNjEsLTE4MjQwODU2NTJd
+fQ==
 -->
