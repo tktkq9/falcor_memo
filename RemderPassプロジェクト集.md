@@ -268,7 +268,7 @@ GBufferRasterとGBufferRTのベースクラス
 カリング設定と、以下のレンダーターゲット情報を宣言するだけのクラス（実際にレンダーターゲットを作り描画処理部分はこれのサブクラスが行う）  
 
     const ChannelList GBuffer::kGBufferChannels =
-{
+    {
     { "posW",           "gPosW",            "world space position",         true /* optional */, ResourceFormat::RGBA32Float },
     { "normW",          "gNormW",           "world space normal",           true /* optional */, ResourceFormat::RGBA32Float },
     { "tangentW",       "gTangentW",        "world space tangent",          true /* optional */, ResourceFormat::RGBA32Float },
@@ -277,7 +277,7 @@ GBufferRasterとGBufferRTのベースクラス
     { "specRough",      "gSpecRough",       "specular color and roughness", true /* optional */, ResourceFormat::RGBA32Float },
     { "emissive",       "gEmissive",        "emissive color",               true /* optional */, ResourceFormat::RGBA32Float },
     { "matlExtra",      "gMatlExtra",       "additional material data",     true /* optional */, ResourceFormat::RGBA32Float },
-};
+    };
 
 ### GBufferRaster
 ### GBufferRT
@@ -286,11 +286,11 @@ GBufferRasterとGBufferRTのベースクラス
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NTg0NTgzMiwtMTYxNjU5MjgxNiw3NT
-M1ODQ1NzEsLTEwOTc0MzQ1MDQsODUyOTg0OTcsNzkxNzA4NzQz
-LDQyNDIxNzI5Niw0MTUyMzAzNjEsNDE1MjMwMzYxLC0xODI0MD
-g1NjUyLC02MzA3MDc2NDAsMTkyNzA5MDMyNywtMTQwMTU3NjUy
-LDExNjAyMTExOTMsMTgyODE3MDUzMSwxODM2MjgyNjMzLDE5MT
-gxMzUyMDEsLTc2MzU3ODI5OSwtMjEyODc0OTI4NCw0MTU3MDk1
-MTBdfQ==
+eyJoaXN0b3J5IjpbLTE1NDM4NTM2NDAsLTE2MTY1OTI4MTYsNz
+UzNTg0NTcxLC0xMDk3NDM0NTA0LDg1Mjk4NDk3LDc5MTcwODc0
+Myw0MjQyMTcyOTYsNDE1MjMwMzYxLDQxNTIzMDM2MSwtMTgyND
+A4NTY1MiwtNjMwNzA3NjQwLDE5MjcwOTAzMjcsLTE0MDE1NzY1
+MiwxMTYwMjExMTkzLDE4MjgxNzA1MzEsMTgzNjI4MjYzMywxOT
+E4MTM1MjAxLC03NjM1NzgyOTksLTIxMjg3NDkyODQsNDE1NzA5
+NTEwXX0=
 -->
