@@ -304,7 +304,8 @@ GBufferRasterとGBufferRTのベースクラス
     };
     
 surfSpreadAngleが使われるRay Coneはレイトレのtex LOD計算アルゴリズム    
-参考文献 : [Texture Level of Detail Strategies for Real-Time Ray Tracing](https://www.ea.com/seed/news/texture-level-of-detail-strategies-for-real-time-ray-tracing)、[Rey Tracing Gems : CHAPTER 20（左とおなじやつ）](https://www.realtimerendering.com/raytracinggems/)
+参考文献 : [Texture Level of Detail Strategies for Real-Time Ray Tracing](https://www.ea.com/seed/news/texture-level-of-detail-strategies-for-real-time-ray-tracing)、[Rey Tracing Gems : CHAPTER 20（左とおなじやつ）](https://www.realtimerendering.com/raytracinggems/)  
+surfSpreadAngleの計算関数computeScreenSpaceSurfaceSpreadAngle()は参考文献の式(32)を行っている  
 
 ### GBufferRT
 
@@ -315,11 +316,11 @@ surfSpreadAngleが使われるRay Coneはレイトレのtex LOD計算アルゴ�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NTM3MDc5NiwtNjg3NTY4MzExLDY5OT
-U5ODYsMTE0NjgyNDgyMCwyMTM0NTkxNTY5LC04MTI4NjA3NTQs
-LTk1NzMyNjY0MiwyMjA4NDM4MDUsNzA1NTM4NTI0LC0xODUxND
-gzODE4LC0yMDcwMTM2NTkwLC03ODg0OTE5ODIsLTk3MjI2OTI1
-NiwtMTYxNjU5MjgxNiw3NTM1ODQ1NzEsLTEwOTc0MzQ1MDQsOD
-UyOTg0OTcsNzkxNzA4NzQzLDQyNDIxNzI5Niw0MTUyMzAzNjFd
-fQ==
+eyJoaXN0b3J5IjpbMjk0MTQ4NTA2LC02ODc1NjgzMTEsNjk5NT
+k4NiwxMTQ2ODI0ODIwLDIxMzQ1OTE1NjksLTgxMjg2MDc1NCwt
+OTU3MzI2NjQyLDIyMDg0MzgwNSw3MDU1Mzg1MjQsLTE4NTE0OD
+M4MTgsLTIwNzAxMzY1OTAsLTc4ODQ5MTk4MiwtOTcyMjY5MjU2
+LC0xNjE2NTkyODE2LDc1MzU4NDU3MSwtMTA5NzQzNDUwNCw4NT
+I5ODQ5Nyw3OTE3MDg3NDMsNDI0MjE3Mjk2LDQxNTIzMDM2MV19
+
 -->
