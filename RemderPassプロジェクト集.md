@@ -264,6 +264,9 @@ GBufferBaseをベースクラスとする
 CPUSampleGenerator（レイトレのサンプラー）系クラスの生成と設定を担当する（Center設定の場合は生成無し）  
 
 ### GBuffer
+GBufferRasterとGBufferRTのベースクラス  
+カリング設定と、以下のレンダーターゲット情報を宣言するだけのクラス（実際にレンダーターゲットを作り描画処理部分はこれのサブクラスが行う）  
+
 
 ### GBufferRaster
 ### GBufferRT
@@ -272,11 +275,11 @@ CPUSampleGenerator（レイトレのサンプラー）系クラスの生成と�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUzNTg0NTcxLC0xMDk3NDM0NTA0LDg1Mj
-k4NDk3LDc5MTcwODc0Myw0MjQyMTcyOTYsNDE1MjMwMzYxLDQx
-NTIzMDM2MSwtMTgyNDA4NTY1MiwtNjMwNzA3NjQwLDE5MjcwOT
-AzMjcsLTE0MDE1NzY1MiwxMTYwMjExMTkzLDE4MjgxNzA1MzEs
-MTgzNjI4MjYzMywxOTE4MTM1MjAxLC03NjM1NzgyOTksLTIxMj
-g3NDkyODQsNDE1NzA5NTEwLDEzNDA2NzA1OTAsLTE5MTI2MTIx
-NTZdfQ==
+eyJoaXN0b3J5IjpbNjIyMDUyMTU4LDc1MzU4NDU3MSwtMTA5Nz
+QzNDUwNCw4NTI5ODQ5Nyw3OTE3MDg3NDMsNDI0MjE3Mjk2LDQx
+NTIzMDM2MSw0MTUyMzAzNjEsLTE4MjQwODU2NTIsLTYzMDcwNz
+Y0MCwxOTI3MDkwMzI3LC0xNDAxNTc2NTIsMTE2MDIxMTE5Mywx
+ODI4MTcwNTMxLDE4MzYyODI2MzMsMTkxODEzNTIwMSwtNzYzNT
+c4Mjk5LC0yMTI4NzQ5Mjg0LDQxNTcwOTUxMCwxMzQwNjcwNTkw
+XX0=
 -->
