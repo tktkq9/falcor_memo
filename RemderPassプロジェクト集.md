@@ -300,7 +300,7 @@ GBufferのサブクラスで、GBufferのレンダーターゲットに加えて
         { "faceNormalW",      "gFaceNormalW",        "Face normal in world space",       true, ResourceFormat::RGBA32Float },
         { "pnFwidth",         "gPosNormalFwidth",    "position and normal filter width ( length(abs(ddx(x)) + abs(ddy(x)) )", true, ResourceFormat::RG32Float   },
         { "linearZ",          "gLinearZAndDeriv",    "linear z (and derivative)",        true, ResourceFormat::RG32Float   },
-        { "surfSpreadAngle",  "gSurfaceSpreadAngle (Ray Cone用)", "surface spread angle (texlod)",    true, ResourceFormat::R16Float    },
+        { "surfSpreadAngle",  "gSurfaceSpreadAngle", "surface spread angle (texlod)",    true, ResourceFormat::R16Float    },
     };
     
 
@@ -320,7 +320,7 @@ surfSpreadAngleの計算関数computeScreenSpaceSurfaceSpreadAngle()は参考文
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMTM2MjQ2NSwxNTI5Njg5OTYsLTE2ND
+eyJoaXN0b3J5IjpbLTczODM3MjA5NSwxNTI5Njg5OTYsLTE2ND
 Y5OTg0ODYsLTY4NzU2ODMxMSw2OTk1OTg2LDExNDY4MjQ4MjAs
 MjEzNDU5MTU2OSwtODEyODYwNzU0LC05NTczMjY2NDIsMjIwOD
 QzODA1LDcwNTUzODUyNCwtMTg1MTQ4MzgxOCwtMjA3MDEzNjU5
