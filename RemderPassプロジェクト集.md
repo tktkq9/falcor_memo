@@ -210,7 +210,7 @@ gLeftBoundの操作を行えるようになっている
 シェーダーはアルファテストをするためにShading.slangのprepareShadingData(()が呼ばれている  
 故にちょっとはコストがかかっている  
 
-## ErrorMeasurePass
+## ErrorMeasurePassプロジェクト
 2つの画像間の[平均絶対誤差(MAEまたの名をL1)と平均二乗誤差(MSEまたの名をL2)](https://mathwords.net/rmsemae#MSEMean_Squared_Error)を計算するパス（RGBのみ、Aは計算されず出力は0固定）  
 
 また、ピクセル全体の平均誤差が（ComputeParallelReductionのGPUによる総和によって）計算され、設定していればこれを外部ファイルに保存できる  
@@ -265,11 +265,11 @@ CPUSampleGenerator系クラスの生成と設定を担当する（Center設定�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjY1ODM0OSw0MjQyMTcyOTYsNDE1Mj
-MwMzYxLDQxNTIzMDM2MSwtMTgyNDA4NTY1MiwtNjMwNzA3NjQw
-LDE5MjcwOTAzMjcsLTE0MDE1NzY1MiwxMTYwMjExMTkzLDE4Mj
-gxNzA1MzEsMTgzNjI4MjYzMywxOTE4MTM1MjAxLC03NjM1Nzgy
-OTksLTIxMjg3NDkyODQsNDE1NzA5NTEwLDEzNDA2NzA1OTAsLT
-E5MTI2MTIxNTYsMjAwMjI4NDk2NCwxMzk0NTUxNzkzLC04MzU3
-Njc5NzldfQ==
+eyJoaXN0b3J5IjpbMTAzNDgzNzg3LDQyNDIxNzI5Niw0MTUyMz
+AzNjEsNDE1MjMwMzYxLC0xODI0MDg1NjUyLC02MzA3MDc2NDAs
+MTkyNzA5MDMyNywtMTQwMTU3NjUyLDExNjAyMTExOTMsMTgyOD
+E3MDUzMSwxODM2MjgyNjMzLDE5MTgxMzUyMDEsLTc2MzU3ODI5
+OSwtMjEyODc0OTI4NCw0MTU3MDk1MTAsMTM0MDY3MDU5MCwtMT
+kxMjYxMjE1NiwyMDAyMjg0OTY0LDEzOTQ1NTE3OTMsLTgzNTc2
+Nzk3OV19
 -->
