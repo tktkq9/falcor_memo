@@ -224,6 +224,7 @@ out : RGBA32Float、パスの設定に対応する誤差とか計算した画像
 また、キーボードO or Shift + Oで出力をSource、Reference、誤差と切り替えできる
 
 ## ForwardLightingPassプロジェクト
+### ForwardLightingPass
 BRDF描画パス  
 BRDF描画の他にノーマルとモーションベクターも計算して出力する  
 
@@ -265,7 +266,7 @@ CPUSampleGenerator系クラスの生成と設定を担当する（Center設定�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjM0MTY1NSw3OTE3MDg3NDMsNDI0Mj
+eyJoaXN0b3J5IjpbMTgwNTY3MzQxOCw3OTE3MDg3NDMsNDI0Mj
 E3Mjk2LDQxNTIzMDM2MSw0MTUyMzAzNjEsLTE4MjQwODU2NTIs
 LTYzMDcwNzY0MCwxOTI3MDkwMzI3LC0xNDAxNTc2NTIsMTE2MD
 IxMTE5MywxODI4MTcwNTMxLDE4MzYyODI2MzMsMTkxODEzNTIw
