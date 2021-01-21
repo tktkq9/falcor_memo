@@ -293,7 +293,7 @@ GBufferRasterとGBufferRTのベースクラス
 また、GBufferParams.slangのGBufferParams作成と管理も担当している  
 
 ### GBufferRaster
-GBufferのサブクラスで、GBufferのkGBufferChannelsにレンダーターゲットに加えて、以下のRWTexture2Dの計算を行い出力するパス  
+GBufferのサブクラスで、GBufferのkGBufferChannelsのレンダーターゲットに加えて、以下のRWTexture2Dの計算を行い出力するパス  
 
     const ChannelList kGBufferExtraChannels =
     {
@@ -325,11 +325,11 @@ surfSpreadAngleの計算関数computeScreenSpaceSurfaceSpreadAngle()は参考文
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODQ5NDQ3MzMsLTkyNDkzMDU5NiwtMT
-c2NTY0Mjg0NCw5OTExMzY3MjIsMTQ2NDA2MTI1MywxNTI5Njg5
-OTYsLTE2NDY5OTg0ODYsLTY4NzU2ODMxMSw2OTk1OTg2LDExND
-Y4MjQ4MjAsMjEzNDU5MTU2OSwtODEyODYwNzU0LC05NTczMjY2
-NDIsMjIwODQzODA1LDcwNTUzODUyNCwtMTg1MTQ4MzgxOCwtMj
-A3MDEzNjU5MCwtNzg4NDkxOTgyLC05NzIyNjkyNTYsLTE2MTY1
-OTI4MTZdfQ==
+eyJoaXN0b3J5IjpbNTA1NjQyNDcwLC0xNjg0OTQ0NzMzLC0xNz
+Y1NjQyODQ0LDk5MTEzNjcyMiwxNDY0MDYxMjUzLDE1Mjk2ODk5
+NiwtMTY0Njk5ODQ4NiwtNjg3NTY4MzExLDY5OTU5ODYsMTE0Nj
+gyNDgyMCwyMTM0NTkxNTY5LC04MTI4NjA3NTQsLTk1NzMyNjY0
+MiwyMjA4NDM4MDUsNzA1NTM4NTI0LC0xODUxNDgzODE4LC0yMD
+cwMTM2NTkwLC03ODg0OTE5ODIsLTk3MjI2OTI1NiwtMTYxNjU5
+MjgxNl19
 -->
