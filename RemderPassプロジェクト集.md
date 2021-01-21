@@ -267,7 +267,17 @@ CPUSampleGenerator（レイトレのサンプラー）系クラスの生成と�
 GBufferRasterとGBufferRTのベースクラス  
 カリング設定と、以下のレンダーターゲット情報を宣言するだけのクラス（実際にレンダーターゲットを作り描画処理部分はこれのサブクラスが行う）  
 
-　　
+    const ChannelList GBuffer::kGBufferChannels =
+{
+    { "posW",           "gPosW",            "world space position",         true /* optional */, ResourceFormat::RGBA32Float },
+    { "normW",          "gNormW",           "world space normal",           true /* optional */, ResourceFormat::RGBA32Float },
+    { "tangentW",       "gTangentW",        "world space tangent",          true /* optional */, ResourceFormat::RGBA32Float },
+    { "texC",           "gTexC",            "texture coordinates",          true /* optional */, ResourceFormat::RGBA32Float },
+    { "diffuseOpacity", "gDiffuseOpacity",  "diffuse color and opacity",    true /* optional */, ResourceFormat::RGBA32Float },
+    { "specRough",      "gSpecRough",       "specular color and roughness", true /* optional */, ResourceFormat::RGBA32Float },
+    { "emissive",       "gEmissive",        "emissive color",               true /* optional */, ResourceFormat::RGBA32Float },
+    { "matlExtra",      "gMatlExtra",       "additional material data",     true /* optional */, ResourceFormat::RGBA32Float },
+};
 
 ### GBufferRaster
 ### GBufferRT
@@ -276,11 +286,11 @@ GBufferRasterとGBufferRTのベースクラス
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTY1OTI4MTYsNjIyMDUyMTU4LDc1Mz
-U4NDU3MSwtMTA5NzQzNDUwNCw4NTI5ODQ5Nyw3OTE3MDg3NDMs
-NDI0MjE3Mjk2LDQxNTIzMDM2MSw0MTUyMzAzNjEsLTE4MjQwOD
-U2NTIsLTYzMDcwNzY0MCwxOTI3MDkwMzI3LC0xNDAxNTc2NTIs
-MTE2MDIxMTE5MywxODI4MTcwNTMxLDE4MzYyODI2MzMsMTkxOD
-EzNTIwMSwtNzYzNTc4Mjk5LC0yMTI4NzQ5Mjg0LDQxNTcwOTUx
-MF19
+eyJoaXN0b3J5IjpbLTQ2NTg0NTgzMiwtMTYxNjU5MjgxNiw3NT
+M1ODQ1NzEsLTEwOTc0MzQ1MDQsODUyOTg0OTcsNzkxNzA4NzQz
+LDQyNDIxNzI5Niw0MTUyMzAzNjEsNDE1MjMwMzYxLC0xODI0MD
+g1NjUyLC02MzA3MDc2NDAsMTkyNzA5MDMyNywtMTQwMTU3NjUy
+LDExNjAyMTExOTMsMTgyODE3MDUzMSwxODM2MjgyNjMzLDE5MT
+gxMzUyMDEsLTc2MzU3ODI5OSwtMjEyODc0OTI4NCw0MTU3MDk1
+MTBdfQ==
 -->
