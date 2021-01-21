@@ -262,7 +262,8 @@ GBufferBaseをベースクラスとする
 ### GBufferBase
 全てのGBuffer系クラスのルートクラス  
 主にサブクラス生成のPythonへのバインドと共通の変数定義、  
-そして、CPUSampleGenerator系クラスの生成と設定（Center設定の場合は生成無し）によるカメラのジッター生成を
+そして、CPUSampleGenerator系クラスの生成と設定（Center設定の場合は生成無し）によるカメラのジッター生成設定を行う  
+サブクラスにもmpSampleGeneratorがあるが、こっちは
 
 ### GBuffer
 GBufferRasterとGBufferRTのベースクラス  
@@ -325,11 +326,11 @@ surfSpreadAngleの計算関数computeScreenSpaceSurfaceSpreadAngle()は参考文
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDEwODUyNCwtOTkyMjM0ODY4LDcwOD
-I2MDM2MCw1MDEyNzc2NTMsLTEyOTgxMjM4NjIsMTc0Nzg5ODQ4
-MSwtMjA3MDc3MDczMiwtMTY4NDk0NDczMywtMTc2NTY0Mjg0NC
-w5OTExMzY3MjIsMTQ2NDA2MTI1MywxNTI5Njg5OTYsLTE2NDY5
-OTg0ODYsLTY4NzU2ODMxMSw2OTk1OTg2LDExNDY4MjQ4MjAsMj
-EzNDU5MTU2OSwtODEyODYwNzU0LC05NTczMjY2NDIsMjIwODQz
-ODA1XX0=
+eyJoaXN0b3J5IjpbOTE1ODgyODQ4LC05OTIyMzQ4NjgsNzA4Mj
+YwMzYwLDUwMTI3NzY1MywtMTI5ODEyMzg2MiwxNzQ3ODk4NDgx
+LC0yMDcwNzcwNzMyLC0xNjg0OTQ0NzMzLC0xNzY1NjQyODQ0LD
+k5MTEzNjcyMiwxNDY0MDYxMjUzLDE1Mjk2ODk5NiwtMTY0Njk5
+ODQ4NiwtNjg3NTY4MzExLDY5OTU5ODYsMTE0NjgyNDgyMCwyMT
+M0NTkxNTY5LC04MTI4NjA3NTQsLTk1NzMyNjY0MiwyMjA4NDM4
+MDVdfQ==
 -->
