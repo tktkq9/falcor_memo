@@ -293,12 +293,12 @@ GBufferRasterとGBufferRTのベースクラス
 
     const ChannelList kGBufferExtraChannels =
     {
-        { "vbuffer",          "gVBuffer",            "Visibility buffer",                true /* optional */, ResourceFormat::RG32Uint    },
+        { "vbuffer",          "gVBuffer",            "Visibility buffer",                true, ResourceFormat::RG32Uint    },
         { "mvec",             "gMotionVectors",      "Motion vectors",                   true /* optional */, ResourceFormat::RG32Float   },
-        { "faceNormalW",      "gFaceNormalW",        "Face normal in world space",       true /* optional */, ResourceFormat::RGBA32Float },
-        { "pnFwidth",         "gPosNormalFwidth",    "position and normal filter width", true /* optional */, ResourceFormat::RG32Float   },
-        { "linearZ",          "gLinearZAndDeriv",    "linear z (and derivative)",        true /* optional */, ResourceFormat::RG32Float   },
-        { "surfSpreadAngle",  "gSurfaceSpreadAngle", "surface spread angle (texlod)",    true /* optional */, ResourceFormat::R16Float    },
+        { "faceNormalW",      "gFaceNormalW",        "Face normal in world space",       true, ResourceFormat::RGBA32Float },
+        { "pnFwidth",         "gPosNormalFwidth",    "position and normal filter width", true, ResourceFormat::RG32Float   },
+        { "linearZ",          "gLinearZAndDeriv",    "linear z (and derivative)",        true, ResourceFormat::RG32Float   },
+        { "surfSpreadAngle",  "gSurfaceSpreadAngle", "surface spread angle (texlod)",    true, ResourceFormat::R16Float    },
     };
 
 
@@ -311,7 +311,7 @@ GBufferRasterとGBufferRTのベースクラス
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI5NTQwMTEwLC0xODUxNDgzODE4LC0yMD
+eyJoaXN0b3J5IjpbNzA1NTM4NTI0LC0xODUxNDgzODE4LC0yMD
 cwMTM2NTkwLC03ODg0OTE5ODIsLTk3MjI2OTI1NiwtMTYxNjU5
 MjgxNiw3NTM1ODQ1NzEsLTEwOTc0MzQ1MDQsODUyOTg0OTcsNz
 kxNzA4NzQzLDQyNDIxNzI5Niw0MTUyMzAzNjEsNDE1MjMwMzYx
