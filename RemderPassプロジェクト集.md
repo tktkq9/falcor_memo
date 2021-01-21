@@ -279,6 +279,7 @@ GBufferRasterとGBufferRTのベースクラス
         { "matlExtra",      "gMatlExtra",       "additional material data",     true /* optional */, ResourceFormat::RGBA32Float },
     };
 
+
 ### GBufferRaster
 ### GBufferRT
 ### VBufferRaster
@@ -286,7 +287,7 @@ GBufferRasterとGBufferRTのベースクラス
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTU2MTU0NCwtOTcyMjY5MjU2LC0xNj
+eyJoaXN0b3J5IjpbLTI2ODIyNjQ4NiwtOTcyMjY5MjU2LC0xNj
 E2NTkyODE2LDc1MzU4NDU3MSwtMTA5NzQzNDUwNCw4NTI5ODQ5
 Nyw3OTE3MDg3NDMsNDI0MjE3Mjk2LDQxNTIzMDM2MSw0MTUyMz
 AzNjEsLTE4MjQwODU2NTIsLTYzMDcwNzY0MCwxOTI3MDkwMzI3
