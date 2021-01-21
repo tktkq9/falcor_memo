@@ -249,10 +249,9 @@ mEnableSuperSamplingによるINTERPOLATION_MODE sampleは、ピクセルシェ�
 
 ## GBufferプロジェクト
 
-GBufferをベースクラスとする
+（GBufferBaseをベースクラスとする）GBufferをベースクラスとする
 - GBufferRaster
 - GBufferRT
-
 
 GBufferBaseをベースクラスとする
 - VBufferRaster
@@ -311,11 +310,11 @@ GBufferRasterとGBufferRTのベースクラス
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA1NTM4NTI0LC0xODUxNDgzODE4LC0yMD
-cwMTM2NTkwLC03ODg0OTE5ODIsLTk3MjI2OTI1NiwtMTYxNjU5
-MjgxNiw3NTM1ODQ1NzEsLTEwOTc0MzQ1MDQsODUyOTg0OTcsNz
-kxNzA4NzQzLDQyNDIxNzI5Niw0MTUyMzAzNjEsNDE1MjMwMzYx
-LC0xODI0MDg1NjUyLC02MzA3MDc2NDAsMTkyNzA5MDMyNywtMT
-QwMTU3NjUyLDExNjAyMTExOTMsMTgyODE3MDUzMSwxODM2Mjgy
-NjMzXX0=
+eyJoaXN0b3J5IjpbNjU2ODQ2NzcwLDcwNTUzODUyNCwtMTg1MT
+Q4MzgxOCwtMjA3MDEzNjU5MCwtNzg4NDkxOTgyLC05NzIyNjky
+NTYsLTE2MTY1OTI4MTYsNzUzNTg0NTcxLC0xMDk3NDM0NTA0LD
+g1Mjk4NDk3LDc5MTcwODc0Myw0MjQyMTcyOTYsNDE1MjMwMzYx
+LDQxNTIzMDM2MSwtMTgyNDA4NTY1MiwtNjMwNzA3NjQwLDE5Mj
+cwOTAzMjcsLTE0MDE1NzY1MiwxMTYwMjExMTkzLDE4MjgxNzA1
+MzFdfQ==
 -->
