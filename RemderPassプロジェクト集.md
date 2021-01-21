@@ -256,6 +256,7 @@ mEnableSuperSamplingによるINTERPOLATION_MODE sampleは、ピクセルシェ�
 GBufferBaseをベースクラスとする
 - VBufferRaster
 - VBufferRT
+- 
 の4つがMogwaiのパスとして実装されている  
 
 ### GBufferBase
@@ -311,11 +312,11 @@ GBufferRasterとGBufferRTのベースクラス
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDEwNDA3MjcsMjIwODQzODA1LDcwNT
-UzODUyNCwtMTg1MTQ4MzgxOCwtMjA3MDEzNjU5MCwtNzg4NDkx
-OTgyLC05NzIyNjkyNTYsLTE2MTY1OTI4MTYsNzUzNTg0NTcxLC
-0xMDk3NDM0NTA0LDg1Mjk4NDk3LDc5MTcwODc0Myw0MjQyMTcy
-OTYsNDE1MjMwMzYxLDQxNTIzMDM2MSwtMTgyNDA4NTY1MiwtNj
-MwNzA3NjQwLDE5MjcwOTAzMjcsLTE0MDE1NzY1MiwxMTYwMjEx
-MTkzXX0=
+eyJoaXN0b3J5IjpbLTk1NzMyNjY0MiwyMjA4NDM4MDUsNzA1NT
+M4NTI0LC0xODUxNDgzODE4LC0yMDcwMTM2NTkwLC03ODg0OTE5
+ODIsLTk3MjI2OTI1NiwtMTYxNjU5MjgxNiw3NTM1ODQ1NzEsLT
+EwOTc0MzQ1MDQsODUyOTg0OTcsNzkxNzA4NzQzLDQyNDIxNzI5
+Niw0MTUyMzAzNjEsNDE1MjMwMzYxLC0xODI0MDg1NjUyLC02Mz
+A3MDc2NDAsMTkyNzA5MDMyNywtMTQwMTU3NjUyLDExNjAyMTEx
+OTNdfQ==
 -->
