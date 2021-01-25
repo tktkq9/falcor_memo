@@ -322,10 +322,11 @@ Ray Coneはレイトレのtex LOD計算アルゴリズムである
 surfSpreadAngleの計算関数computeScreenSpaceSurfaceSpreadAngle()は参考文献の式(32)を行っている  
 
 ### GBufferRT
-GBufferのサブクラスで、DXRで書かれたGBufferRT.rt.slangを実行し、  
+GBufferのサブクラスで、  
+DXRで書かれたGBufferRT.rt.slangを実行し、  
 それによるカメラからのレイトレを行い、  
 ヒット情報からGBufferのkGBufferChannelsと以下のkGBufferExtraChannelsを計算し、  
-そRWTexture2Dに格納してそれを出力するパス  
+計算結果をRWTexture2Dに格納してそれを出力するパス  
 
     // Additional output channels.
     const ChannelList kGBufferExtraChannels =
@@ -343,11 +344,11 @@ GBufferのサブクラスで、DXRで書かれたGBufferRT.rt.slangを実行し�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA1MjY0MzYzLDQwMDc2NTQ5OCw5MzY1Mz
-Y0OCw3OTMxNTQyNjEsLTEwNzY0Mjk2OCwtNDY5NDI3NDY1LDk3
-ODYyMTg1LC05OTIyMzQ4NjgsNzA4MjYwMzYwLDUwMTI3NzY1My
-wtMTI5ODEyMzg2MiwxNzQ3ODk4NDgxLC0yMDcwNzcwNzMyLC0x
-Njg0OTQ0NzMzLC0xNzY1NjQyODQ0LDk5MTEzNjcyMiwxNDY0MD
-YxMjUzLDE1Mjk2ODk5NiwtMTY0Njk5ODQ4NiwtNjg3NTY4MzEx
-XX0=
+eyJoaXN0b3J5IjpbMTQ0MTQ3NzIxNSw2MDUyNjQzNjMsOTM2NT
+M2NDgsNzkzMTU0MjYxLC0xMDc2NDI5NjgsLTQ2OTQyNzQ2NSw5
+Nzg2MjE4NSwtOTkyMjM0ODY4LDcwODI2MDM2MCw1MDEyNzc2NT
+MsLTEyOTgxMjM4NjIsMTc0Nzg5ODQ4MSwtMjA3MDc3MDczMiwt
+MTY4NDk0NDczMywtMTc2NTY0Mjg0NCw5OTExMzY3MjIsMTQ2ND
+A2MTI1MywxNTI5Njg5OTYsLTE2NDY5OTg0ODYsLTY4NzU2ODMx
+MV19
 -->
