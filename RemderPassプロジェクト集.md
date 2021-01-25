@@ -298,6 +298,8 @@ GBufferRasterとGBufferRTのベースクラス
 ### GBufferRaster
 GBufferのサブクラスで、GBufferのkGBufferChannelsに対応するレンダーターゲットに加えて、以下のRWTexture2DのGBufferRaster.3d.slanghによる描画を行い出力するパス  
 
+    // Additional output channels.
+    // TODO: Some are RG32 floats now. I'm sure that all of these could be fp16.
     const ChannelList kGBufferExtraChannels =
     {
         { "vbuffer",          "gVBuffer",            "Visibility buffer (CSMのやつではなく、DXRのHitInfoバッファー)",                true, ResourceFormat::RG32Uint    },
@@ -321,6 +323,15 @@ surfSpreadAngleの計算関数computeScreenSpaceSurfaceSpreadAngle()は参考文
 
 ### GBufferRT
 
+    // Additional output channels.
+    const ChannelList kGBufferExtraChannels =
+    {
+        { "vbuffer",        "gVBuffer",         "Visibility buffer",                true /* optional */, ResourceFormat::RG32Uint    },
+        { "mvec",           "gMotionVectors",   "Motion vectors",                   true /* optional */, ResourceFormat::RG32Float   },
+        { "faceNormalW",    "gFaceNormalW",     "Face normal in world space",       true /* optional */, ResourceFormat::RGBA32Float },
+        { "viewW",          "gViewW",           "View direction in world space",    true /* optional */, ResourceFormat::RGBA32Float }, // TODO: Switch to packed 2x16-bit snorm format.
+        { "time",           "gTime",            "Per-pixel execution time",         true /* optional */, ResourceFormat::R32Uint     },
+    };
 ### VBufferRaster
 
 ### VBufferRT
@@ -328,11 +339,11 @@ surfSpreadAngleの計算関数computeScreenSpaceSurfaceSpreadAngle()は参考文
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2OTQyNzQ2NSw5Nzg2MjE4NSwtOTkyMj
-M0ODY4LDcwODI2MDM2MCw1MDEyNzc2NTMsLTEyOTgxMjM4NjIs
-MTc0Nzg5ODQ4MSwtMjA3MDc3MDczMiwtMTY4NDk0NDczMywtMT
-c2NTY0Mjg0NCw5OTExMzY3MjIsMTQ2NDA2MTI1MywxNTI5Njg5
-OTYsLTE2NDY5OTg0ODYsLTY4NzU2ODMxMSw2OTk1OTg2LDExND
-Y4MjQ4MjAsMjEzNDU5MTU2OSwtODEyODYwNzU0LC05NTczMjY2
-NDJdfQ==
+eyJoaXN0b3J5IjpbMTA2NTUyMzUzNCwtNDY5NDI3NDY1LDk3OD
+YyMTg1LC05OTIyMzQ4NjgsNzA4MjYwMzYwLDUwMTI3NzY1Mywt
+MTI5ODEyMzg2MiwxNzQ3ODk4NDgxLC0yMDcwNzcwNzMyLC0xNj
+g0OTQ0NzMzLC0xNzY1NjQyODQ0LDk5MTEzNjcyMiwxNDY0MDYx
+MjUzLDE1Mjk2ODk5NiwtMTY0Njk5ODQ4NiwtNjg3NTY4MzExLD
+Y5OTU5ODYsMTE0NjgyNDgyMCwyMTM0NTkxNTY5LC04MTI4NjA3
+NTRdfQ==
 -->
