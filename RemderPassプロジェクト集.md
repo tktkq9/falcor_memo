@@ -323,7 +323,7 @@ surfSpreadAngleの計算関数computeScreenSpaceSurfaceSpreadAngle()は参考文
 
 ### GBufferRT
 GBufferのサブクラスで、DXRで書かれたGBufferRT.rt.slangを実行し、  
-それによるカメラからのレイトレを実行し、  
+それによるカメラからのレイトレ、  
 ヒット情報からGBufferのkGBufferChannelsと以下のkGBufferExtraChannelsを計算しRWTexture2Dに格納し、  
 それを出力するパス  
 
@@ -343,11 +343,11 @@ GBufferのサブクラスで、DXRで書かれたGBufferRT.rt.slangを実行し�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjk0NTEzNTIsNzkzMTU0MjYxLC0xMD
-c2NDI5NjgsLTQ2OTQyNzQ2NSw5Nzg2MjE4NSwtOTkyMjM0ODY4
-LDcwODI2MDM2MCw1MDEyNzc2NTMsLTEyOTgxMjM4NjIsMTc0Nz
-g5ODQ4MSwtMjA3MDc3MDczMiwtMTY4NDk0NDczMywtMTc2NTY0
-Mjg0NCw5OTExMzY3MjIsMTQ2NDA2MTI1MywxNTI5Njg5OTYsLT
-E2NDY5OTg0ODYsLTY4NzU2ODMxMSw2OTk1OTg2LDExNDY4MjQ4
-MjBdfQ==
+eyJoaXN0b3J5IjpbOTM2NTM2NDgsLTEyNjk0NTEzNTIsNzkzMT
+U0MjYxLC0xMDc2NDI5NjgsLTQ2OTQyNzQ2NSw5Nzg2MjE4NSwt
+OTkyMjM0ODY4LDcwODI2MDM2MCw1MDEyNzc2NTMsLTEyOTgxMj
+M4NjIsMTc0Nzg5ODQ4MSwtMjA3MDc3MDczMiwtMTY4NDk0NDcz
+MywtMTc2NTY0Mjg0NCw5OTExMzY3MjIsMTQ2NDA2MTI1MywxNT
+I5Njg5OTYsLTE2NDY5OTg0ODYsLTY4NzU2ODMxMSw2OTk1OTg2
+XX0=
 -->
