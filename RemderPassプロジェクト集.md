@@ -322,6 +322,7 @@ Ray Coneはレイトレのtex LOD計算アルゴリズムである
 surfSpreadAngleの計算関数computeScreenSpaceSurfaceSpreadAngle()は参考文献の式(32)を行っている  
 
 ### GBufferRT
+GBufferのサブクラスで、GBufferのkGBufferChannelsに対応するレンダーターゲットに加えて、以下のRWTexture2DのGBufferRT.rt.slangによる描画を行い出力するパス  
 
     // Additional output channels.
     const ChannelList kGBufferExtraChannels =
@@ -339,7 +340,7 @@ surfSpreadAngleの計算関数computeScreenSpaceSurfaceSpreadAngle()は参考文
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTUyMzUzNCwtNDY5NDI3NDY1LDk3OD
+eyJoaXN0b3J5IjpbMTk3MTY2MTA5NywtNDY5NDI3NDY1LDk3OD
 YyMTg1LC05OTIyMzQ4NjgsNzA4MjYwMzYwLDUwMTI3NzY1Mywt
 MTI5ODEyMzg2MiwxNzQ3ODk4NDgxLC0yMDcwNzcwNzMyLC0xNj
 g0OTQ0NzMzLC0xNzY1NjQyODQ0LDk5MTEzNjcyMiwxNDY0MDYx
