@@ -348,6 +348,8 @@ RayDifferentialsとRayConeはシェーダーにも書いてあるように、[Re
 参考文献によると、RayConeはRayDifferentialsに比べ絵のクオリティは微小に下がるが、ペイロードのサイズ、処理速度ともに優秀なので、反射を考慮するならRayConeのほうがいいが、  
 このレンダリングパスは初期ヒットのみなので、シェーダーを見た感じでもRayDifferentials方が処理量が少ないので、RayDifferentialsを設定したほうがいいかも   
 
+ノイズの問題から、GBufferRasterよりはクオリティが低そうだが、DOFを扱えるという点において優位性があると思われる  
+使う場合はおそらくフィルターパスやテンポラルパスが必要
 ### VBufferRaster
 
 ### VBufferRT
@@ -355,7 +357,7 @@ RayDifferentialsとRayConeはシェーダーにも書いてあるように、[Re
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NjIxMDY2NiwtMTgzMzUzMjAzNiwxOD
+eyJoaXN0b3J5IjpbMTIwOTExODUzNywtMTgzMzUzMjAzNiwxOD
 E4NjkxMDA0LC04ODM3OTMxMCwtMTMwOTkxNTY2MSw3NjQ1ODMy
 MzYsLTE1MjQ4MDU0MDMsLTE1NTM4NzkwMDYsNjY5MTcxMDYyLD
 U4NzcyNjE1LC02MjE1OTg4OTgsMTE5MjE2MjExNCw3MzE0OTA4
