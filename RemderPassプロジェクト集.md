@@ -342,7 +342,7 @@ DXRで書かれたGBufferRT.rt.slangを実行し、
 LODの対応として、以下の設定ができる  
 - UseMip0 : なにもしない
 - RayDifferentials : レイディファレンシャルでLOD計算をする。ただしWarningで出るように、現段階では座標系の左右巻き変換においてうまくいかないかもとのこと
-- RayCones : レイコーンでLOD計算をする。GBufferRT.h曰く実装されてないらしいが、シェーダーを見るに多分実装されてる（というか反射しないのでRayDifferentialsと変わらん。実装しようがないのでは）  
+- RayCones : レイコーンでLOD計算をする。GBufferRT.h曰く実装されてないらしいが、シェーダーを見るに多分実装されてる（というか反射しないのでRayDifferentialsと変わらないはず。実装しようがないのでは）  
 
 RayDifferentialsとRayConeはシェーダーにも書いてあるように、[Rey Tracing Gems : CHAPTER 20](https://www.realtimerendering.com/raytracinggems/)の計算が使われている  
 参考文献によると、RayConeはRayDifferentialsに比べ絵のクオリティは微小に下がるが、ペイロードのサイズ、処理速度ともに優秀なので、反射を考慮するならRayConeのほうがいいが、  
@@ -358,11 +358,11 @@ RayDifferentialsとRayConeはシェーダーにも書いてあるように、[Re
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQxMjgyNTAsMTcxOTMzNTg2Niw5MT
-g0ODgzMDAsLTE1ODA0MjU1NDUsMTYxNjU5MzE2NywtMTgzMzUz
-MjAzNiwxODE4NjkxMDA0LC04ODM3OTMxMCwtMTMwOTkxNTY2MS
-w3NjQ1ODMyMzYsLTE1MjQ4MDU0MDMsLTE1NTM4NzkwMDYsNjY5
-MTcxMDYyLDU4NzcyNjE1LC02MjE1OTg4OTgsMTE5MjE2MjExNC
-w3MzE0OTA4MzIsNDU4OTY3MDE2LC0xMzM0NDM2MTc1LDEzMTk1
-NzAwNV19
+eyJoaXN0b3J5IjpbNjM3NDYyMjEyLDE3MTkzMzU4NjYsOTE4ND
+g4MzAwLC0xNTgwNDI1NTQ1LDE2MTY1OTMxNjcsLTE4MzM1MzIw
+MzYsMTgxODY5MTAwNCwtODgzNzkzMTAsLTEzMDk5MTU2NjEsNz
+Y0NTgzMjM2LC0xNTI0ODA1NDAzLC0xNTUzODc5MDA2LDY2OTE3
+MTA2Miw1ODc3MjYxNSwtNjIxNTk4ODk4LDExOTIxNjIxMTQsNz
+MxNDkwODMyLDQ1ODk2NzAxNiwtMTMzNDQzNjE3NSwxMzE5NTcw
+MDVdfQ==
 -->
