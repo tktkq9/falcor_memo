@@ -331,7 +331,7 @@ DXRで書かれたGBufferRT.rt.slangを実行し、
     // Additional output channels.
     const ChannelList kGBufferExtraChannels =
     {
-        { "vbuffer",        "gVBuffer",         "Visibility buffer",                true /* optional */, ResourceFormat::RG32Uint    },
+        { "vbuffer",        "gVBuffer",         "Visibility buffer"(CSMのやつではなく、DXRのHitInfoバッファー),                true /* optional */, ResourceFormat::RG32Uint    },
         { "mvec",           "gMotionVectors",   "Motion vectors",                   true /* optional */, ResourceFormat::RG32Float   },
         { "faceNormalW",    "gFaceNormalW",     "Face normal in world space",       true /* optional */, ResourceFormat::RGBA32Float },
         { "viewW",          "gViewW",           "View direction in world space",    true /* optional */, ResourceFormat::RGBA32Float }, // TODO: Switch to packed 2x16-bit snorm format.
@@ -356,10 +356,11 @@ RayDifferentialsとRayConeは[Rey Tracing Gems : CHAPTER 20](https://www.realtim
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NjI5MTI2OSw3NjQ1ODMyMzYsLTE1Mj
-Q4MDU0MDMsLTE1NTM4NzkwMDYsNjY5MTcxMDYyLDU4NzcyNjE1
-LC02MjE1OTg4OTgsMTE5MjE2MjExNCw3MzE0OTA4MzIsNDU4OT
-Y3MDE2LC0xMzM0NDM2MTc1LDEzMTk1NzAwNSw2MDUyNjQzNjMs
-OTM2NTM2NDgsNzkzMTU0MjYxLC0xMDc2NDI5NjgsLTQ2OTQyNz
-Q2NSw5Nzg2MjE4NSwtOTkyMjM0ODY4LDcwODI2MDM2MF19
+eyJoaXN0b3J5IjpbLTEzMDk5MTU2NjEsNzY0NTgzMjM2LC0xNT
+I0ODA1NDAzLC0xNTUzODc5MDA2LDY2OTE3MTA2Miw1ODc3MjYx
+NSwtNjIxNTk4ODk4LDExOTIxNjIxMTQsNzMxNDkwODMyLDQ1OD
+k2NzAxNiwtMTMzNDQzNjE3NSwxMzE5NTcwMDUsNjA1MjY0MzYz
+LDkzNjUzNjQ4LDc5MzE1NDI2MSwtMTA3NjQyOTY4LC00Njk0Mj
+c0NjUsOTc4NjIxODUsLTk5MjIzNDg2OCw3MDgyNjAzNjBdfQ==
+
 -->
