@@ -338,7 +338,7 @@ DXRで書かれたGBufferRT.rt.slangを実行し、
         { "time",           "gTime",            "Per-pixel execution time",         true /* optional */, ResourceFormat::R32Uint     },
     };
 
-
+LOD
 
 ### VBufferRaster
 
@@ -347,11 +347,11 @@ DXRで書かれたGBufferRT.rt.slangを実行し、
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTk5MzI3MzMsLTEzMzQ0MzYxNzUsMT
-MxOTU3MDA1LDYwNTI2NDM2Myw5MzY1MzY0OCw3OTMxNTQyNjEs
-LTEwNzY0Mjk2OCwtNDY5NDI3NDY1LDk3ODYyMTg1LC05OTIyMz
-Q4NjgsNzA4MjYwMzYwLDUwMTI3NzY1MywtMTI5ODEyMzg2Miwx
-NzQ3ODk4NDgxLC0yMDcwNzcwNzMyLC0xNjg0OTQ0NzMzLC0xNz
-Y1NjQyODQ0LDk5MTEzNjcyMiwxNDY0MDYxMjUzLDE1Mjk2ODk5
-Nl19
+eyJoaXN0b3J5IjpbNDU4OTY3MDE2LC0xMzU5OTMyNzMzLC0xMz
+M0NDM2MTc1LDEzMTk1NzAwNSw2MDUyNjQzNjMsOTM2NTM2NDgs
+NzkzMTU0MjYxLC0xMDc2NDI5NjgsLTQ2OTQyNzQ2NSw5Nzg2Mj
+E4NSwtOTkyMjM0ODY4LDcwODI2MDM2MCw1MDEyNzc2NTMsLTEy
+OTgxMjM4NjIsMTc0Nzg5ODQ4MSwtMjA3MDc3MDczMiwtMTY4ND
+k0NDczMywtMTc2NTY0Mjg0NCw5OTExMzY3MjIsMTQ2NDA2MTI1
+M119
 -->
