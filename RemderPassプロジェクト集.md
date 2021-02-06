@@ -339,11 +339,12 @@ DXRで書かれたGBufferRT.rt.slangを実行し、
     };
 
 LODの対応として、
-- Mip0 : なにもしない
-- Ray Diff : レイディファレンシャルでLOD計算をする。ただしWarningで出るように、座標系の左右巻き変換においてうまくいく保障は
+- UseMip0 : なにもしない
+- RayDifferentials : レイディファレンシャルでLOD計算をする。ただしWarningで出るように、現段階では座標系の左右巻き変換においてうまくいかないかもとのこと
+- 
 
-RayDiffとRayConeは[Rey Tracing Gems : CHAPTER 20](https://www.realtimerendering.com/raytracinggems/)が参考になるはず  
-RayDiffは[pbrt-v3 10 Texture](http://www.pbr-book.org/3ed-2018/Texture.html)でも詳しく説明されている  
+RayDifferentialsとRayConeは[Rey Tracing Gems : CHAPTER 20](https://www.realtimerendering.com/raytracinggems/)が参考になるはず  
+RayDifferentialsは[pbrt-v3 10 Texture](http://www.pbr-book.org/3ed-2018/Texture.html)でも詳しく説明されている  
 
 ### VBufferRaster
 
@@ -352,11 +353,11 @@ RayDiffは[pbrt-v3 10 Texture](http://www.pbr-book.org/3ed-2018/Texture.html)で
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTIxNzY5OTYsMjM2ODcyNzcyLDQ1OD
-k2NzAxNiwtMTMzNDQzNjE3NSwxMzE5NTcwMDUsNjA1MjY0MzYz
-LDkzNjUzNjQ4LDc5MzE1NDI2MSwtMTA3NjQyOTY4LC00Njk0Mj
-c0NjUsOTc4NjIxODUsLTk5MjIzNDg2OCw3MDgyNjAzNjAsNTAx
-Mjc3NjUzLC0xMjk4MTIzODYyLDE3NDc4OTg0ODEsLTIwNzA3Nz
-A3MzIsLTE2ODQ5NDQ3MzMsLTE3NjU2NDI4NDQsOTkxMTM2NzIy
-XX0=
+eyJoaXN0b3J5IjpbMjAyMTI1ODkwMiwtMTk5MjE3Njk5Niw0NT
+g5NjcwMTYsLTEzMzQ0MzYxNzUsMTMxOTU3MDA1LDYwNTI2NDM2
+Myw5MzY1MzY0OCw3OTMxNTQyNjEsLTEwNzY0Mjk2OCwtNDY5ND
+I3NDY1LDk3ODYyMTg1LC05OTIyMzQ4NjgsNzA4MjYwMzYwLDUw
+MTI3NzY1MywtMTI5ODEyMzg2MiwxNzQ3ODk4NDgxLC0yMDcwNz
+cwNzMyLC0xNjg0OTQ0NzMzLC0xNzY1NjQyODQ0LDk5MTEzNjcy
+Ml19
 -->
