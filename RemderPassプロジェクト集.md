@@ -349,7 +349,7 @@ RayDifferentialsとRayConeはシェーダーにも書いてあるように、[Re
 このレンダリングパスは初期ヒットのみなので、シェーダーを見た感じでもRayDifferentials方が処理量が少ないので、RayDifferentialsを設定したほうがいいかも   
 
 ノイズの問題から、GBufferRasterよりはクオリティが低そうだが、DOFを扱えるという点において優位性があると思われる  
-使う場合はおそらくフィルターパスやテンポラルパスが必要
+使う場合はおそらくのいずｊフィルターパスやテンポラルパスが必要
 ### VBufferRaster
 
 ### VBufferRT
@@ -357,11 +357,11 @@ RayDifferentialsとRayConeはシェーダーにも書いてあるように、[Re
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTExODUzNywtMTgzMzUzMjAzNiwxOD
-E4NjkxMDA0LC04ODM3OTMxMCwtMTMwOTkxNTY2MSw3NjQ1ODMy
-MzYsLTE1MjQ4MDU0MDMsLTE1NTM4NzkwMDYsNjY5MTcxMDYyLD
-U4NzcyNjE1LC02MjE1OTg4OTgsMTE5MjE2MjExNCw3MzE0OTA4
-MzIsNDU4OTY3MDE2LC0xMzM0NDM2MTc1LDEzMTk1NzAwNSw2MD
-UyNjQzNjMsOTM2NTM2NDgsNzkzMTU0MjYxLC0xMDc2NDI5Njhd
+eyJoaXN0b3J5IjpbMTYxNjU5MzE2NywxMjA5MTE4NTM3LC0xOD
+MzNTMyMDM2LDE4MTg2OTEwMDQsLTg4Mzc5MzEwLC0xMzA5OTE1
+NjYxLDc2NDU4MzIzNiwtMTUyNDgwNTQwMywtMTU1Mzg3OTAwNi
+w2NjkxNzEwNjIsNTg3NzI2MTUsLTYyMTU5ODg5OCwxMTkyMTYy
+MTE0LDczMTQ5MDgzMiw0NTg5NjcwMTYsLTEzMzQ0MzYxNzUsMT
+MxOTU3MDA1LDYwNTI2NDM2Myw5MzY1MzY0OCw3OTMxNTQyNjFd
 fQ==
 -->
