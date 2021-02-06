@@ -334,8 +334,8 @@ DXRで書かれたGBufferRT.rt.slangを実行し、
         { "vbuffer",        "gVBuffer",         "Visibility buffer"(CSMのやつではなく、DXRのHitInfoバッファー),                true /* optional */, ResourceFormat::RG32Uint    },
         { "mvec",           "gMotionVectors",   "Motion vectors",                   true /* optional */, ResourceFormat::RG32Float   },
         { "faceNormalW",    "gFaceNormalW",     "Face normal in world space",       true /* optional */, ResourceFormat::RGBA32Float },
-        { "viewW",          "gViewW",           "View direction in world space"(各ピクセルごとのレイの方向。デバッグ用),    true /* optional */, ResourceFormat::RGBA32Float }, // TODO: Switch to packed 2x16-bit snorm format.
-        { "time",           "gTime",            "Per-pixel execution time"(各ピクセルごとの実行処理時間。多分プロファイリング用),         true /* optional */, ResourceFormat::R32Uint     },
+        { "viewW",          "gViewW",           "View direction in world space"(各ピクセルごとのレイの方向。おそらくデバッグ用),    true /* optional */, ResourceFormat::RGBA32Float }, // TODO: Switch to packed 2x16-bit snorm format.
+        { "time",           "gTime",            "Per-pixel execution time"(各ピクセルごとの実行処理時間。おそらくプロファイリング用),         true /* optional */, ResourceFormat::R32Uint     },
     };
 
 
@@ -356,11 +356,11 @@ RayDifferentialsとRayConeは[Rey Tracing Gems : CHAPTER 20](https://www.realtim
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4Mzc5MzEwLC0yMTMxMzI4OTg2LC0xMz
-A5OTE1NjYxLDc2NDU4MzIzNiwtMTUyNDgwNTQwMywtMTU1Mzg3
-OTAwNiw2NjkxNzEwNjIsNTg3NzI2MTUsLTYyMTU5ODg5OCwxMT
-kyMTYyMTE0LDczMTQ5MDgzMiw0NTg5NjcwMTYsLTEzMzQ0MzYx
-NzUsMTMxOTU3MDA1LDYwNTI2NDM2Myw5MzY1MzY0OCw3OTMxNT
-QyNjEsLTEwNzY0Mjk2OCwtNDY5NDI3NDY1LDk3ODYyMTg1XX0=
+eyJoaXN0b3J5IjpbMTI3NDQzOTIzOCwtODgzNzkzMTAsLTEzMD
+k5MTU2NjEsNzY0NTgzMjM2LC0xNTI0ODA1NDAzLC0xNTUzODc5
+MDA2LDY2OTE3MTA2Miw1ODc3MjYxNSwtNjIxNTk4ODk4LDExOT
+IxNjIxMTQsNzMxNDkwODMyLDQ1ODk2NzAxNiwtMTMzNDQzNjE3
+NSwxMzE5NTcwMDUsNjA1MjY0MzYzLDkzNjUzNjQ4LDc5MzE1ND
+I2MSwtMTA3NjQyOTY4LC00Njk0Mjc0NjUsOTc4NjIxODVdfQ==
 
 -->
