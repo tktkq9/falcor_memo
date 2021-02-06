@@ -350,7 +350,8 @@ RayDifferentialsとRayConeはシェーダーにも書いてあるように、[Re
 
     ShadingData prepareShadingData(VertexData v, uint materialID, MaterialData md, MaterialResources mr, float3 viewDir, float lod)
 
-を呼び出せばいいじゃないですかね。知らんけど  
+を呼び出せばいいんじゃないですかね知らんけど  
+
 
 1ピクセル1サンプルだが、DOFじゃない場合はランダムサンプルじゃないので、GBufferRasterと大して変わらないかも。使いたいGBufferの違いくらい（GBufferRasterにくらべ足りない変数が多いので、多分ベンチマーク用な気がする）  
 ただしDOFの場合は1サンプルしかなくノイズが発生するはずなので、フィルターパスやテンポラルパスがさらに必要かも  
@@ -362,11 +363,11 @@ RayDifferentialsとRayConeはシェーダーにも書いてあるように、[Re
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MTIyMDAxNiw5NDA0NjQ2MzgsNjM3ND
-YyMjEyLDE3MTkzMzU4NjYsOTE4NDg4MzAwLC0xNTgwNDI1NTQ1
-LDE2MTY1OTMxNjcsLTE4MzM1MzIwMzYsMTgxODY5MTAwNCwtOD
-gzNzkzMTAsLTEzMDk5MTU2NjEsNzY0NTgzMjM2LC0xNTI0ODA1
-NDAzLC0xNTUzODc5MDA2LDY2OTE3MTA2Miw1ODc3MjYxNSwtNj
-IxNTk4ODk4LDExOTIxNjIxMTQsNzMxNDkwODMyLDQ1ODk2NzAx
-Nl19
+eyJoaXN0b3J5IjpbLTQ2MDEyOTUzNSwxNjkxMjIwMDE2LDk0MD
+Q2NDYzOCw2Mzc0NjIyMTIsMTcxOTMzNTg2Niw5MTg0ODgzMDAs
+LTE1ODA0MjU1NDUsMTYxNjU5MzE2NywtMTgzMzUzMjAzNiwxOD
+E4NjkxMDA0LC04ODM3OTMxMCwtMTMwOTkxNTY2MSw3NjQ1ODMy
+MzYsLTE1MjQ4MDU0MDMsLTE1NTM4NzkwMDYsNjY5MTcxMDYyLD
+U4NzcyNjE1LC02MjE1OTg4OTgsMTE5MjE2MjExNCw3MzE0OTA4
+MzJdfQ==
 -->
