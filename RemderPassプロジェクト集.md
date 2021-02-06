@@ -338,7 +338,9 @@ DXRで書かれたGBufferRT.rt.slangを実行し、
         { "time",           "gTime",            "Per-pixel execution time",         true /* optional */, ResourceFormat::R32Uint     },
     };
 
-LOD
+LODの対応として、
+- Mip0 : なにもしない
+- Ray Diff : レイディファレンシャルでLOD計算をする。ただし
 
 ### VBufferRaster
 
@@ -347,11 +349,11 @@ LOD
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU4OTY3MDE2LC0xMzU5OTMyNzMzLC0xMz
-M0NDM2MTc1LDEzMTk1NzAwNSw2MDUyNjQzNjMsOTM2NTM2NDgs
-NzkzMTU0MjYxLC0xMDc2NDI5NjgsLTQ2OTQyNzQ2NSw5Nzg2Mj
-E4NSwtOTkyMjM0ODY4LDcwODI2MDM2MCw1MDEyNzc2NTMsLTEy
-OTgxMjM4NjIsMTc0Nzg5ODQ4MSwtMjA3MDc3MDczMiwtMTY4ND
-k0NDczMywtMTc2NTY0Mjg0NCw5OTExMzY3MjIsMTQ2NDA2MTI1
-M119
+eyJoaXN0b3J5IjpbLTg3MzY4MDAwMCw0NTg5NjcwMTYsLTEzMz
+Q0MzYxNzUsMTMxOTU3MDA1LDYwNTI2NDM2Myw5MzY1MzY0OCw3
+OTMxNTQyNjEsLTEwNzY0Mjk2OCwtNDY5NDI3NDY1LDk3ODYyMT
+g1LC05OTIyMzQ4NjgsNzA4MjYwMzYwLDUwMTI3NzY1MywtMTI5
+ODEyMzg2MiwxNzQ3ODk4NDgxLC0yMDcwNzcwNzMyLC0xNjg0OT
+Q0NzMzLC0xNzY1NjQyODQ0LDk5MTEzNjcyMiwxNDY0MDYxMjUz
+XX0=
 -->
