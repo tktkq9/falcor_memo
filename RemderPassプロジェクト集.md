@@ -346,7 +346,7 @@ LODの対応として、以下の設定ができる
 
 RayDifferentialsとRayConeは[Rey Tracing Gems : CHAPTER 20](https://www.realtimerendering.com/raytracinggems/)が参考になるはず  
 RayDifferentialsは[pbrt-v3 10 Texture](http://www.pbr-book.org/3ed-2018/Texture.html)でも詳しく説明されている  
-参考文献によると、RayConeはRayDifferentialsに比べ絵のクオリティは微小に下がるが、消費メモリ、処理速度ともに優秀なのでRayConeのほうがいいかも（ただし消費メモリはペイロードの話なので、複数回反射を考慮しない、その場で計算して捨てるこの実装では関係ないｈ）  
+参考文献によると、RayConeはRayDifferentialsに比べ絵のクオリティは微小に下がるが、消費メモリ、処理速度ともに優秀なのでRayConeのほうがいいかも（ただし消費メモリはペイロードの話なので、複数回反射を考慮しない、その場で計算して捨てるこの実装では関係なし）  
 
 ### VBufferRaster
 
@@ -355,10 +355,10 @@ RayDifferentialsは[pbrt-v3 10 Texture](http://www.pbr-book.org/3ed-2018/Texture
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQ4MDU0MDMsMTY1MTM3MDM5LC0xNT
-UzODc5MDA2LDY2OTE3MTA2Miw1ODc3MjYxNSwtNjIxNTk4ODk4
-LDExOTIxNjIxMTQsNzMxNDkwODMyLDQ1ODk2NzAxNiwtMTMzND
-QzNjE3NSwxMzE5NTcwMDUsNjA1MjY0MzYzLDkzNjUzNjQ4LDc5
-MzE1NDI2MSwtMTA3NjQyOTY4LC00Njk0Mjc0NjUsOTc4NjIxOD
-UsLTk5MjIzNDg2OCw3MDgyNjAzNjAsNTAxMjc3NjUzXX0=
+eyJoaXN0b3J5IjpbMTExNTYxNjg2MCwtMTUyNDgwNTQwMywtMT
+U1Mzg3OTAwNiw2NjkxNzEwNjIsNTg3NzI2MTUsLTYyMTU5ODg5
+OCwxMTkyMTYyMTE0LDczMTQ5MDgzMiw0NTg5NjcwMTYsLTEzMz
+Q0MzYxNzUsMTMxOTU3MDA1LDYwNTI2NDM2Myw5MzY1MzY0OCw3
+OTMxNTQyNjEsLTEwNzY0Mjk2OCwtNDY5NDI3NDY1LDk3ODYyMT
+g1LC05OTIyMzQ4NjgsNzA4MjYwMzYwLDUwMTI3NzY1M119
 -->
