@@ -340,7 +340,7 @@ DXRで書かれたGBufferRT.rt.slangを実行し、
 
 LODの対応として、
 - Mip0 : なにもしない
-- Ray Diff : レイディファレンシャルでLOD計算をする。ただし
+- Ray Diff : レイディファレンシャルでLOD計算をする。ただしWarningで出るように、座標系の左右巻き変換においてうまくいくｈ
 
 RayDiffとRayConeは[Rey Tracing Gems : CHAPTER 20](https://www.realtimerendering.com/raytracinggems/)が参考になるはず  
 RayDiffは[pbrt-v3 10 Texture](http://www.pbr-book.org/3ed-2018/Texture.html)でも詳しく説明されている  
@@ -352,11 +352,11 @@ RayDiffは[pbrt-v3 10 Texture](http://www.pbr-book.org/3ed-2018/Texture.html)で
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjMzNDc2OSw0NTg5NjcwMTYsLTEzMz
-Q0MzYxNzUsMTMxOTU3MDA1LDYwNTI2NDM2Myw5MzY1MzY0OCw3
-OTMxNTQyNjEsLTEwNzY0Mjk2OCwtNDY5NDI3NDY1LDk3ODYyMT
-g1LC05OTIyMzQ4NjgsNzA4MjYwMzYwLDUwMTI3NzY1MywtMTI5
-ODEyMzg2MiwxNzQ3ODk4NDgxLC0yMDcwNzcwNzMyLC0xNjg0OT
-Q0NzMzLC0xNzY1NjQyODQ0LDk5MTEzNjcyMiwxNDY0MDYxMjUz
-XX0=
+eyJoaXN0b3J5IjpbMjM2ODcyNzcyLDQ1ODk2NzAxNiwtMTMzND
+QzNjE3NSwxMzE5NTcwMDUsNjA1MjY0MzYzLDkzNjUzNjQ4LDc5
+MzE1NDI2MSwtMTA3NjQyOTY4LC00Njk0Mjc0NjUsOTc4NjIxOD
+UsLTk5MjIzNDg2OCw3MDgyNjAzNjAsNTAxMjc3NjUzLC0xMjk4
+MTIzODYyLDE3NDc4OTg0ODEsLTIwNzA3NzA3MzIsLTE2ODQ5ND
+Q3MzMsLTE3NjU2NDI4NDQsOTkxMTM2NzIyLDE0NjQwNjEyNTNd
+fQ==
 -->
