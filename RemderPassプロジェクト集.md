@@ -342,7 +342,7 @@ DXRで書かれたGBufferRT.rt.slangを実行し、
 LODの対応として、以下の設定ができる  
 - UseMip0 : なにもしない
 - RayDifferentials : レイディファレンシャルでLOD計算をする。ただしWarningで出るように、現段階では座標系の左右巻き変換においてうまくいかないかもとのこと
-- RayCones : コードにもあるように、設定できるが実装されてないらしい（シェーダー見ると実装されているっぽいのだけれども）
+- RayCones : GBufferRT.h曰く設定できるが実装されてないらしい（シェーダー見ると実装されているっぽいのだけれども）
 
 RayDifferentialsとRayConeは[Rey Tracing Gems : CHAPTER 20](https://www.realtimerendering.com/raytracinggems/)が参考になるはず  
 RayDifferentialsは[pbrt-v3 10 Texture](http://www.pbr-book.org/3ed-2018/Texture.html)でも詳しく説明されている  
@@ -354,7 +354,7 @@ RayDifferentialsは[pbrt-v3 10 Texture](http://www.pbr-book.org/3ed-2018/Texture
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5Mjg4NzQ0MCw3MzE0OTA4MzIsNDU4OT
+eyJoaXN0b3J5IjpbMTE5MjE2MjExNCw3MzE0OTA4MzIsNDU4OT
 Y3MDE2LC0xMzM0NDM2MTc1LDEzMTk1NzAwNSw2MDUyNjQzNjMs
 OTM2NTM2NDgsNzkzMTU0MjYxLC0xMDc2NDI5NjgsLTQ2OTQyNz
 Q2NSw5Nzg2MjE4NSwtOTkyMjM0ODY4LDcwODI2MDM2MCw1MDEy
