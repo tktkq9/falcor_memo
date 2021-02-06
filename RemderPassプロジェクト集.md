@@ -344,8 +344,8 @@ LODの対応として、以下の設定ができる
 - RayDifferentials : レイディファレンシャルでLOD計算をする。ただしWarningで出るように、現段階では座標系の左右巻き変換においてうまくいかないかもとのこと
 - RayCones : レイコーンでLOD計算をする。GBufferRT.h曰く実装されてないらしいが、シェーダーを見るに多分実装されてる  
 
-RayDifferentialsとRayConeは[Rey Tracing Gems : CHAPTER 20](https://www.realtimerendering.com/raytracinggems/)が参考になるはず  
-RayDifferentialsは[pbrt-v3 10 Texture](http://www.pbr-book.org/3ed-2018/Texture.html)でも詳しく説明されている  
+RayDifferentialsとRayConeは[Rey Tracing Gems : CHAPTER 20](https://www.realtimerendering.com/raytracinggems/)が使われている    
+また、RayDifferentialsは[pbrt-v3 10 Texture](http://www.pbr-book.org/3ed-2018/Texture.html)でも詳しく説明されている  
 参考文献によると、RayConeはRayDifferentialsに比べ絵のクオリティは微小に下がるが、消費メモリ、処理速度ともに優秀なのでRayConeのほうがいいかも（ただし消費メモリはペイロードの話なので、複数回反射を考慮しない、その場で計算して捨てるこの実装では関係なし）  
 
 ### VBufferRaster
@@ -355,7 +355,7 @@ RayDifferentialsは[pbrt-v3 10 Texture](http://www.pbr-book.org/3ed-2018/Texture
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNTYxNjg2MCwtMTUyNDgwNTQwMywtMT
+eyJoaXN0b3J5IjpbMTM5NDI1NDQ4MSwtMTUyNDgwNTQwMywtMT
 U1Mzg3OTAwNiw2NjkxNzEwNjIsNTg3NzI2MTUsLTYyMTU5ODg5
 OCwxMTkyMTYyMTE0LDczMTQ5MDgzMiw0NTg5NjcwMTYsLTEzMz
 Q0MzYxNzUsMTMxOTU3MDA1LDYwNTI2NDM2Myw5MzY1MzY0OCw3
