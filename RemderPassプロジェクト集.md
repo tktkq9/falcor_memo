@@ -346,7 +346,7 @@ LODの対応として、以下の設定ができる
 
 RayDifferentialsとRayConeはシェーダーにも書いてあるように、[Rey Tracing Gems : CHAPTER 20](https://www.realtimerendering.com/raytracinggems/)の計算が使われている  
 参考文献によると、RayConeはRayDifferentialsに比べ絵のクオリティは微小に下がるが、ペイロードのサイズ、処理速度ともに優秀なので、もしRayConeが実装された場合はそちらを使用してもいいかもしれない（反射しないのでペイロードの恩恵は受けられないけれども）
-もし実装するなら、反射しないので式(26)からLODを求め、直接LODを指定できる
+RayCone実装するなら、反射しないので式(26)からLODを求め、直接LODを指定できる
 
     ShadingData prepareShadingData(VertexData v, uint materialID, MaterialData md, MaterialResources mr, float3 viewDir, float lod)
 
@@ -363,11 +363,11 @@ RayDifferentialsとRayConeはシェーダーにも書いてあるように、[Re
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MDEyOTUzNSwxNjkxMjIwMDE2LDk0MD
-Q2NDYzOCw2Mzc0NjIyMTIsMTcxOTMzNTg2Niw5MTg0ODgzMDAs
-LTE1ODA0MjU1NDUsMTYxNjU5MzE2NywtMTgzMzUzMjAzNiwxOD
-E4NjkxMDA0LC04ODM3OTMxMCwtMTMwOTkxNTY2MSw3NjQ1ODMy
-MzYsLTE1MjQ4MDU0MDMsLTE1NTM4NzkwMDYsNjY5MTcxMDYyLD
-U4NzcyNjE1LC02MjE1OTg4OTgsMTE5MjE2MjExNCw3MzE0OTA4
-MzJdfQ==
+eyJoaXN0b3J5IjpbLTE4NDQ5NTcyODksMTY5MTIyMDAxNiw5ND
+A0NjQ2MzgsNjM3NDYyMjEyLDE3MTkzMzU4NjYsOTE4NDg4MzAw
+LC0xNTgwNDI1NTQ1LDE2MTY1OTMxNjcsLTE4MzM1MzIwMzYsMT
+gxODY5MTAwNCwtODgzNzkzMTAsLTEzMDk5MTU2NjEsNzY0NTgz
+MjM2LC0xNTI0ODA1NDAzLC0xNTUzODc5MDA2LDY2OTE3MTA2Mi
+w1ODc3MjYxNSwtNjIxNTk4ODk4LDExOTIxNjIxMTQsNzMxNDkw
+ODMyXX0=
 -->
