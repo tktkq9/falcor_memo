@@ -342,8 +342,8 @@ LODの対応として、
 - Mip0 : なにもしない
 - Ray Diff : レイディファレンシャルでLOD計算をする。ただし
 
-RayDiffとRayConeは[Rey Tracing Gems : CHAPTER 20（左とおなじやつ）](https://www.realtimerendering.com/raytracinggems/)が参考になるはず  
-RayDiffはpbrt-v3でも説明されている  
+RayDiffとRayConeは[Rey Tracing Gems : CHAPTER 20](https://www.realtimerendering.com/raytracinggems/)が参考になるはず  
+RayDiffは[pbrt-v3 10 Texture](http://www.pbr-book.org/3ed-2018/Texture.html)でも詳しく説明されている  
 
 ### VBufferRaster
 
@@ -352,7 +352,7 @@ RayDiffはpbrt-v3でも説明されている
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NDc1NTA2NSw0NTg5NjcwMTYsLTEzMz
+eyJoaXN0b3J5IjpbMjA1MjMzNDc2OSw0NTg5NjcwMTYsLTEzMz
 Q0MzYxNzUsMTMxOTU3MDA1LDYwNTI2NDM2Myw5MzY1MzY0OCw3
 OTMxNTQyNjEsLTEwNzY0Mjk2OCwtNDY5NDI3NDY1LDk3ODYyMT
 g1LC05OTIyMzQ4NjgsNzA4MjYwMzYwLDUwMTI3NzY1MywtMTI5
