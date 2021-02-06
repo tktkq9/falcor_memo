@@ -337,6 +337,8 @@ DXRで書かれたGBufferRT.rt.slangを実行し、
         { "viewW",          "gViewW",           "View direction in world space",    true /* optional */, ResourceFormat::RGBA32Float }, // TODO: Switch to packed 2x16-bit snorm format.
         { "time",           "gTime",            "Per-pixel execution time",         true /* optional */, ResourceFormat::R32Uint     },
     };
+
+
 ### VBufferRaster
 
 ### VBufferRT
@@ -344,11 +346,11 @@ DXRで書かれたGBufferRT.rt.slangを実行し、
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxOTU3MDA1LDYwNTI2NDM2Myw5MzY1Mz
-Y0OCw3OTMxNTQyNjEsLTEwNzY0Mjk2OCwtNDY5NDI3NDY1LDk3
-ODYyMTg1LC05OTIyMzQ4NjgsNzA4MjYwMzYwLDUwMTI3NzY1My
-wtMTI5ODEyMzg2MiwxNzQ3ODk4NDgxLC0yMDcwNzcwNzMyLC0x
-Njg0OTQ0NzMzLC0xNzY1NjQyODQ0LDk5MTEzNjcyMiwxNDY0MD
-YxMjUzLDE1Mjk2ODk5NiwtMTY0Njk5ODQ4NiwtNjg3NTY4MzEx
-XX0=
+eyJoaXN0b3J5IjpbLTEzMzQ0MzYxNzUsMTMxOTU3MDA1LDYwNT
+I2NDM2Myw5MzY1MzY0OCw3OTMxNTQyNjEsLTEwNzY0Mjk2OCwt
+NDY5NDI3NDY1LDk3ODYyMTg1LC05OTIyMzQ4NjgsNzA4MjYwMz
+YwLDUwMTI3NzY1MywtMTI5ODEyMzg2MiwxNzQ3ODk4NDgxLC0y
+MDcwNzcwNzMyLC0xNjg0OTQ0NzMzLC0xNzY1NjQyODQ0LDk5MT
+EzNjcyMiwxNDY0MDYxMjUzLDE1Mjk2ODk5NiwtMTY0Njk5ODQ4
+Nl19
 -->
