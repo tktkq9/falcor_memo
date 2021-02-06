@@ -342,11 +342,10 @@ DXRで書かれたGBufferRT.rt.slangを実行し、
 LODの対応として、以下の設定ができる  
 - UseMip0 : なにもしない
 - RayDifferentials : レイディファレンシャルでLOD計算をする。ただしWarningで出るように、現段階では座標系の左右巻き変換においてうまくいかないかもとのこと
-- RayCones : レイコーンでLOD計算をする。GBufferRT.h曰く実装されてないらしいが、シェーダーを見るに多分実装されてる（というか反射しないのでRayDifferentialsと変わらないはず。実装しようがないのでは）  
+- RayCones : レイコーンでLOD計算をするのだが、GBufferRT.h曰く実装されてないらしいが、シェーダーを見るに多分実装されてる（というか反射しないのでRayDifferentialsと変わらないはず。実装しようがないのでは）  
 
 RayDifferentialsとRayConeはシェーダーにも書いてあるように、[Rey Tracing Gems : CHAPTER 20](https://www.realtimerendering.com/raytracinggems/)の計算が使われている  
-参考文献によると、RayConeはRayDifferentialsに比べ絵のクオリティは微小に下がるが、ペイロードのサイズ、処理速度ともに優秀なので、反射を考慮するならRayConeのほうがいいが、  
-このレンダリングパスは初期ヒットのみなので、シェーダーを見た感じでもRayDifferentials方が処理量が少ないので、RayDifferentialsを設定したほうがいいかも   
+参考文献によると、RayConeはRayDifferentialsに比べ絵のクオリティは微小に下がるが、ペイロードのサイズ、処理速度ともに優秀なので、もしRayConeが実装された場合はそちらを使用してもいいかもしれない（反射しないのでペイロードの恩恵は受けられないけれども）
 
 1ピクセル1サンプルだが、DOFじゃない場合はランダムサンプルじゃないので、GBufferRasterと大して変わらないかも。使いたいGBufferの違いくらい（GBufferRasterにくらべ足りない変数が多いので、多分ベンチマーク用な気がする）  
 ただしDOFの場合は1サンプルしかなくノイズが発生するはずなので、フィルターパスやテンポラルパスがさらに必要かも  
@@ -358,11 +357,11 @@ RayDifferentialsとRayConeはシェーダーにも書いてあるように、[Re
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM3NDYyMjEyLDE3MTkzMzU4NjYsOTE4ND
-g4MzAwLC0xNTgwNDI1NTQ1LDE2MTY1OTMxNjcsLTE4MzM1MzIw
-MzYsMTgxODY5MTAwNCwtODgzNzkzMTAsLTEzMDk5MTU2NjEsNz
-Y0NTgzMjM2LC0xNTI0ODA1NDAzLC0xNTUzODc5MDA2LDY2OTE3
-MTA2Miw1ODc3MjYxNSwtNjIxNTk4ODk4LDExOTIxNjIxMTQsNz
-MxNDkwODMyLDQ1ODk2NzAxNiwtMTMzNDQzNjE3NSwxMzE5NTcw
-MDVdfQ==
+eyJoaXN0b3J5IjpbMzc4Njc3MjE1LDYzNzQ2MjIxMiwxNzE5Mz
+M1ODY2LDkxODQ4ODMwMCwtMTU4MDQyNTU0NSwxNjE2NTkzMTY3
+LC0xODMzNTMyMDM2LDE4MTg2OTEwMDQsLTg4Mzc5MzEwLC0xMz
+A5OTE1NjYxLDc2NDU4MzIzNiwtMTUyNDgwNTQwMywtMTU1Mzg3
+OTAwNiw2NjkxNzEwNjIsNTg3NzI2MTUsLTYyMTU5ODg5OCwxMT
+kyMTYyMTE0LDczMTQ5MDgzMiw0NTg5NjcwMTYsLTEzMzQ0MzYx
+NzVdfQ==
 -->
