@@ -346,7 +346,7 @@ LODの対応として、以下の設定ができる
 
 RayDifferentialsとRayConeはシェーダーにも書いてあるように、[Rey Tracing Gems : CHAPTER 20](https://www.realtimerendering.com/raytracinggems/)の計算が使われている  
 参考文献によると、RayConeはRayDifferentialsに比べ絵のクオリティは微小に下がるが、ペイロードのサイズ、処理速度ともに優秀なので、もしRayConeが実装された場合はそちらを使用してもいいかもしれない（反射しないのでペイロードの恩恵は受けられないけれども）
-もし実装するなら、はんしゃしなｎ
+もし実装するなら、はんしゃしな
 
 1ピクセル1サンプルだが、DOFじゃない場合はランダムサンプルじゃないので、GBufferRasterと大して変わらないかも。使いたいGBufferの違いくらい（GBufferRasterにくらべ足りない変数が多いので、多分ベンチマーク用な気がする）  
 ただしDOFの場合は1サンプルしかなくノイズが発生するはずなので、フィルターパスやテンポラルパスがさらに必要かも  
@@ -358,11 +358,11 @@ RayDifferentialsとRayConeはシェーダーにも書いてあるように、[Re
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMjU1NDMyMiw2Mzc0NjIyMTIsMTcxOT
-MzNTg2Niw5MTg0ODgzMDAsLTE1ODA0MjU1NDUsMTYxNjU5MzE2
-NywtMTgzMzUzMjAzNiwxODE4NjkxMDA0LC04ODM3OTMxMCwtMT
-MwOTkxNTY2MSw3NjQ1ODMyMzYsLTE1MjQ4MDU0MDMsLTE1NTM4
-NzkwMDYsNjY5MTcxMDYyLDU4NzcyNjE1LC02MjE1OTg4OTgsMT
-E5MjE2MjExNCw3MzE0OTA4MzIsNDU4OTY3MDE2LC0xMzM0NDM2
-MTc1XX0=
+eyJoaXN0b3J5IjpbOTQwNDY0NjM4LDEwMTI1NTQzMjIsNjM3ND
+YyMjEyLDE3MTkzMzU4NjYsOTE4NDg4MzAwLC0xNTgwNDI1NTQ1
+LDE2MTY1OTMxNjcsLTE4MzM1MzIwMzYsMTgxODY5MTAwNCwtOD
+gzNzkzMTAsLTEzMDk5MTU2NjEsNzY0NTgzMjM2LC0xNTI0ODA1
+NDAzLC0xNTUzODc5MDA2LDY2OTE3MTA2Miw1ODc3MjYxNSwtNj
+IxNTk4ODk4LDExOTIxNjIxMTQsNzMxNDkwODMyLDQ1ODk2NzAx
+Nl19
 -->
