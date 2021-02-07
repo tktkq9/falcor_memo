@@ -15,6 +15,8 @@ TODO : Programのslang処理の理解  Program
 ちなみにこれはProgramクラスで作成、ProgramVersionで管理されている  
 そのためProgramReflection以外の大体の情報はProgramVersionとProgramから作成され渡される  
 
+setScene()関数でシーンを設定する処理があるので、TLAS、BLAS用に使うのかなと思ったが、使われている形跡がないのでこ
+
 ## ProgramVersionクラス
 Slangのコンパイルに必要な情報を一通り渡され保持し、この情報によってコンパイルされたものをProgramから取得し、対応するProgramKernelsの作成を行うためのクラス  
 
@@ -47,5 +49,5 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 こいつら全員Programファイルに吸収された方がいいと思う  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODcxNjIzNjNdfQ==
+eyJoaXN0b3J5IjpbMTY5NjI4MjIyNSwtMTc4NzE2MjM2M119
 -->
