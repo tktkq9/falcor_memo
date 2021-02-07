@@ -14,8 +14,7 @@ TODO : Programのslang処理の理解  Program
 
 ちなみにこれはProgramクラスで作成、ProgramVersionで管理されている  
 そのためProgramReflection以外の大体の情報はProgramVersionとProgramから作成され渡される  
-
-
+Va
 ## ProgramVersionクラス
 Slangのコンパイルに必要な情報を一通り渡され保持し、この情報によってコンパイルされたものをProgramから取得し、対応するProgramKernelsの作成を行うためのクラス  
 
@@ -48,6 +47,6 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 こいつら全員Programファイルに吸収された方がいいと思う  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0NjY5NzgzLDI1NDQ5MzgxMSwtMTc4Nz
-E2MjM2M119
+eyJoaXN0b3J5IjpbLTM1OTI5MDczNiwyNTQ0OTM4MTEsLTE3OD
+cxNjIzNjNdfQ==
 -->
