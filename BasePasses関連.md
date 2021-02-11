@@ -35,7 +35,7 @@ RenderContextのdrawInstancedなどに渡される引数のうちの1つでパ�
 
 ### GraphicsStateObject
 パイプラインステートオブジェクトのラッパークラス  
-パイプラインステートオブジェクトの作成に必要なデータがこのクラスのDescにすべて格納され、このデータによりパイプラインステートオブジェクトがapiInit()により作成される（このコードはD3D12GraphicsStateObject.cppの方で定義されている）  
+パイプラインステートオブジェクトの作成に必要なデータがこのクラスのDescにすべて格納され、このデータをapiInit()にパイプラインステートオブジェクトがにより作成される（このコードはD3D12GraphicsStateObject.cppの方で定義されている）  
 
 ちなみにapiInit()中に作成されているnvApi...はNVAPI用の処理  
 TODO: NVAPIの理解  
@@ -109,7 +109,7 @@ Sceneを描画するだけのパス
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyODg1NTc5LC0yNjMzMjY2NCwyMjkwND
+eyJoaXN0b3J5IjpbLTM5NTk4MDExLC0yNjMzMjY2NCwyMjkwND
 IyMjYsLTk1ODYzOTg3MiwxMTA3MDg5MTEsLTEwNjMyNDEyNzks
 MTIyNjcwMTU1M119
 -->
