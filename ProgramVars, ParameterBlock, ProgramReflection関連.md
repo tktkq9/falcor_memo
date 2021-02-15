@@ -121,7 +121,7 @@ ParameterBlockの変数にアクセスのためのオフセット
 
 
 ## ProgramReflectionファイル
-変数名からオフセットを取得する際に利用されるクラス群  
+変数名からParameterBlockの最初の変数からのオフセットを取得する際に利用されるクラス群  
 要するに、ShaderVarとParameterBlockの橋渡しを行うためのもの  
 
 TypedShaderVarOffsetが名前からオフセットを取得するためのクラス  
@@ -255,11 +255,11 @@ DescriptorSetInfoはシェーダーに対するレジスター、スペース、
 このShaderReflectionはSlangAPIの構造体であり、ここからシェーダーのグローバル変数やエントリーポイントなどが取得できる  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwNTA0OTMzLC03MDYwMDE2OTksNDkxMj
-M5MzEsLTE1NTY4NDUxMjUsMTUyMjI0MzkwOSwtMTM3NjQwMzI1
-NSwxMjAxMjczNTA1LC01MjY0MTIxNzMsNzA5MzkwMjUwLDIxNz
-gxNDMxOCw5MTM5MDk1MTYsMTQ0Mjk5OTM2LDE3NDE1OTk5MDAs
-ODc0MTU2NDgzLC0xNTE3Mjc5NDQsMTI5ODU3NjUxNywtMTAxND
-MxNjg0OCwtNjk1MTE0MjU4LC0xMzI2MzMxMzgzLDE0MzIxNDQw
-NDBdfQ==
+eyJoaXN0b3J5IjpbMTc5NjgyMzUyNyw2NDA1MDQ5MzMsLTcwNj
+AwMTY5OSw0OTEyMzkzMSwtMTU1Njg0NTEyNSwxNTIyMjQzOTA5
+LC0xMzc2NDAzMjU1LDEyMDEyNzM1MDUsLTUyNjQxMjE3Myw3MD
+kzOTAyNTAsMjE3ODE0MzE4LDkxMzkwOTUxNiwxNDQyOTk5MzYs
+MTc0MTU5OTkwMCw4NzQxNTY0ODMsLTE1MTcyNzk0NCwxMjk4NT
+c2NTE3LC0xMDE0MzE2ODQ4LC02OTUxMTQyNTgsLTEzMjYzMzEz
+ODNdfQ==
 -->
