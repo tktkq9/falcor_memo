@@ -42,7 +42,7 @@ ParameterBlockとの違いとしてProgramReflectionとEntryPointGroupVars（こ
 <font color=#bfbfbf>ルートシグネチャーかコンテキストクラスにこれを渡すapply()関数を作るんじゃなく、こっちに作るのってどうなの</font>  
 
 ### apply()関数
-ルートシグネチャーにParameterBlockの変数情報と変数のハンドルクラスを設定するための関数  
+コマンドリストにルートシグネチャーとParameterBlockの変数に対応するハンドルを設定するための関数  
 以下はその全体的な流れ  
 
 まず、applyProgramVarsCommon()でコマンドリストにルートシグネチャーをセットし、bindRootSetsCommon()に移る  
@@ -255,11 +255,11 @@ DescriptorSetInfoはシェーダーに対するレジスター、スペース、
 このShaderReflectionはSlangAPIの構造体であり、ここからシェーダーのグローバル変数やエントリーポイントなどが取得できる  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjUwNDk1NzcsOTk2MDk4NjUwLDE1Nj
-E3MjAwMDgsLTE3MjMxMjM0NzUsNjQwNTA0OTMzLC03MDYwMDE2
-OTksNDkxMjM5MzEsLTE1NTY4NDUxMjUsMTUyMjI0MzkwOSwtMT
-M3NjQwMzI1NSwxMjAxMjczNTA1LC01MjY0MTIxNzMsNzA5Mzkw
-MjUwLDIxNzgxNDMxOCw5MTM5MDk1MTYsMTQ0Mjk5OTM2LDE3ND
-E1OTk5MDAsODc0MTU2NDgzLC0xNTE3Mjc5NDQsMTI5ODU3NjUx
-N119
+eyJoaXN0b3J5IjpbOTk2MDk4NjUwLDk5NjA5ODY1MCwxNTYxNz
+IwMDA4LC0xNzIzMTIzNDc1LDY0MDUwNDkzMywtNzA2MDAxNjk5
+LDQ5MTIzOTMxLC0xNTU2ODQ1MTI1LDE1MjIyNDM5MDksLTEzNz
+Y0MDMyNTUsMTIwMTI3MzUwNSwtNTI2NDEyMTczLDcwOTM5MDI1
+MCwyMTc4MTQzMTgsOTEzOTA5NTE2LDE0NDI5OTkzNiwxNzQxNT
+k5OTAwLDg3NDE1NjQ4MywtMTUxNzI3OTQ0LDEyOTg1NzY1MTdd
+fQ==
 -->
