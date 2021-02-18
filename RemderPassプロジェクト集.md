@@ -262,7 +262,7 @@ GBufferBaseをベースクラスとする
 ### GBufferBase
 全てのGBuffer系クラスのルートクラス  
 主にサブクラス生成のPythonへのバインドと共通の変数定義、  
-そして、CPUSampleGenerator系クラスの生成と設定（Center設定の場合は生成無し）によるカメラのジッター用サンプラー生成の設定を行う  
+そして、CPUSampleGenerator系クラスの生成と設定（Center設定の場合は生成無し）によるカメラのジッター用サンプラーの設定を行う  
 
 サブクラスにもmpSampleGeneratorがあるが、こっちはCPUSampleGeneratorとは違うので注意  
 このクラスのmpSampleGeneratorはカメラのジッター生成以外では利用されない  
@@ -365,11 +365,11 @@ RayCone実装するなら、反射しないので式(26)からLODを求め、直
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI2NTE4MCwtNzQxMzQ4NzA0LC0yMDQxNT
-Y1MzI1LDE2OTEyMjAwMTYsOTQwNDY0NjM4LDYzNzQ2MjIxMiwx
-NzE5MzM1ODY2LDkxODQ4ODMwMCwtMTU4MDQyNTU0NSwxNjE2NT
-kzMTY3LC0xODMzNTMyMDM2LDE4MTg2OTEwMDQsLTg4Mzc5MzEw
-LC0xMzA5OTE1NjYxLDc2NDU4MzIzNiwtMTUyNDgwNTQwMywtMT
-U1Mzg3OTAwNiw2NjkxNzEwNjIsNTg3NzI2MTUsLTYyMTU5ODg5
-OF19
+eyJoaXN0b3J5IjpbLTE4MDM4MzYyNzUsLTc0MTM0ODcwNCwtMj
+A0MTU2NTMyNSwxNjkxMjIwMDE2LDk0MDQ2NDYzOCw2Mzc0NjIy
+MTIsMTcxOTMzNTg2Niw5MTg0ODgzMDAsLTE1ODA0MjU1NDUsMT
+YxNjU5MzE2NywtMTgzMzUzMjAzNiwxODE4NjkxMDA0LC04ODM3
+OTMxMCwtMTMwOTkxNTY2MSw3NjQ1ODMyMzYsLTE1MjQ4MDU0MD
+MsLTE1NTM4NzkwMDYsNjY5MTcxMDYyLDU4NzcyNjE1LC02MjE1
+OTg4OThdfQ==
 -->
