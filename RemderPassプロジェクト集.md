@@ -314,7 +314,7 @@ GBufferのサブクラスで、GBufferのkGBufferChannelsに対応するレン�
     
 また、このクラス内でmpDepthPrePassGraph（DepthPassのみのレンダーグラフ）の作成と実行も行われ、Depthの作成とrenderData["depth"]への格納が行われる  
 
-kGBufferExtraChannelsの内容から推測するに、これから得られるGBufferはラスタライズだけでなくレイトレも扱う前提で実装されている  
+kGBufferExtraChannelsの内容から分かるように、これから得られるGBufferはラスタライズだけでなくレイトレも扱う前提で実装されている  
 
 #### surfSpreadAngle補足
 surfSpreadAngleはRay Coneで扱われ、  
@@ -376,11 +376,11 @@ RayCone実装するなら、反射しないので式(26)からLODを求め、直
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI0NjYyOTQ3LC03NTA0MTI2MjEsLTEzMT
-MxMTE1OTUsODI5NzE3MTEwLC00NTA0Mjg5MTEsLTc0MTM0ODcw
-NCwtMjA0MTU2NTMyNSwxNjkxMjIwMDE2LDk0MDQ2NDYzOCw2Mz
-c0NjIyMTIsMTcxOTMzNTg2Niw5MTg0ODgzMDAsLTE1ODA0MjU1
-NDUsMTYxNjU5MzE2NywtMTgzMzUzMjAzNiwxODE4NjkxMDA0LC
-04ODM3OTMxMCwtMTMwOTkxNTY2MSw3NjQ1ODMyMzYsLTE1MjQ4
-MDU0MDNdfQ==
+eyJoaXN0b3J5IjpbMTkzMjIxNDA4NywtNzUwNDEyNjIxLC0xMz
+EzMTExNTk1LDgyOTcxNzExMCwtNDUwNDI4OTExLC03NDEzNDg3
+MDQsLTIwNDE1NjUzMjUsMTY5MTIyMDAxNiw5NDA0NjQ2MzgsNj
+M3NDYyMjEyLDE3MTkzMzU4NjYsOTE4NDg4MzAwLC0xNTgwNDI1
+NTQ1LDE2MTY1OTMxNjcsLTE4MzM1MzIwMzYsMTgxODY5MTAwNC
+wtODgzNzkzMTAsLTEzMDk5MTU2NjEsNzY0NTgzMjM2LC0xNTI0
+ODA1NDAzXX0=
 -->
