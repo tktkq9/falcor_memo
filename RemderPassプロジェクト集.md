@@ -366,7 +366,7 @@ RayCone実装するなら、反射しないので式(26)からLODを求め、直
     This pass renders a visibility buffer using rasterization.
     The visibility buffer encodes the mesh instance ID and primitive index,
     as well as the barycentrics at the hit point.
-visibility bufferはScene.HitInfoシェーダーのHitInfoのことで、ラスタライズによってこれを描画する（あと深度も出力する）
+visibility bufferはScene.HitInfoシェーダーのHitInfoのことで、ラスタライズによってこれを描画する（あと深度も出力する）  
 
 out : depth、D32Float
 out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている、RenderTarget | UnorderedAccess、RG32Uint
@@ -378,11 +378,11 @@ out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDUwNzQzNDYsMTY5NjAzNDYwLC03Nz
-UxNjc3OTcsOTU2MTEyMDkyLC0xOTU3Mjc3OTE4LC03NTA0MTI2
-MjEsLTEzMTMxMTE1OTUsODI5NzE3MTEwLC00NTA0Mjg5MTEsLT
-c0MTM0ODcwNCwtMjA0MTU2NTMyNSwxNjkxMjIwMDE2LDk0MDQ2
-NDYzOCw2Mzc0NjIyMTIsMTcxOTMzNTg2Niw5MTg0ODgzMDAsLT
-E1ODA0MjU1NDUsMTYxNjU5MzE2NywtMTgzMzUzMjAzNiwxODE4
-NjkxMDA0XX0=
+eyJoaXN0b3J5IjpbLTE4MTM3NzAyMTgsLTIwNDUwNzQzNDYsMT
+Y5NjAzNDYwLC03NzUxNjc3OTcsOTU2MTEyMDkyLC0xOTU3Mjc3
+OTE4LC03NTA0MTI2MjEsLTEzMTMxMTE1OTUsODI5NzE3MTEwLC
+00NTA0Mjg5MTEsLTc0MTM0ODcwNCwtMjA0MTU2NTMyNSwxNjkx
+MjIwMDE2LDk0MDQ2NDYzOCw2Mzc0NjIyMTIsMTcxOTMzNTg2Ni
+w5MTg0ODgzMDAsLTE1ODA0MjU1NDUsMTYxNjU5MzE2NywtMTgz
+MzUzMjAzNl19
 -->
