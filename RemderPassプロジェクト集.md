@@ -368,6 +368,7 @@ RayCone実装するなら、反射しないので式(26)からLODを求め、直
     as well as the barycentrics at the hit point.
 
 
+
 ### VBufferRT
     This pass renders a visibility buffer using ray tracing.
     The visibility buffer encodes the mesh instance ID and primitive index,
@@ -375,7 +376,7 @@ RayCone実装するなら、反射しないので式(26)からLODを求め、直
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc3MjEwNjAwLC03NTA0MTI2MjEsLTEzMT
+eyJoaXN0b3J5IjpbOTQ0MTgwNDM4LC03NTA0MTI2MjEsLTEzMT
 MxMTE1OTUsODI5NzE3MTEwLC00NTA0Mjg5MTEsLTc0MTM0ODcw
 NCwtMjA0MTU2NTMyNSwxNjkxMjIwMDE2LDk0MDQ2NDYzOCw2Mz
 c0NjIyMTIsMTcxOTMzNTg2Niw5MTg0ODgzMDAsLTE1ODA0MjU1
