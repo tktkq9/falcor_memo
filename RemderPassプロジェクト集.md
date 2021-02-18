@@ -265,7 +265,7 @@ GBufferBaseをベースクラスとする
 そして、CPUSampleGenerator系クラスの生成と設定（Center設定の場合は生成無し）によるカメラのジッター設定を行う  
 
 サブクラスにもmpSampleGeneratorがあるが、こっちはCPUSampleGeneratorとは違うので注意  
-このクラスのmpSampleGeneratorはカメラのジッター生成以外では利用されない  
+このクラスのmpSampleGeneratorはカメラのジッター以外では利用されない  
 
 ### GBuffer
 GBufferRasterとGBufferRTのベースクラス  
@@ -365,11 +365,11 @@ RayCone実装するなら、反射しないので式(26)からLODを求め、直
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzg0NTQzMywtNDUwNDI4OTExLC03ND
-EzNDg3MDQsLTIwNDE1NjUzMjUsMTY5MTIyMDAxNiw5NDA0NjQ2
-MzgsNjM3NDYyMjEyLDE3MTkzMzU4NjYsOTE4NDg4MzAwLC0xNT
-gwNDI1NTQ1LDE2MTY1OTMxNjcsLTE4MzM1MzIwMzYsMTgxODY5
-MTAwNCwtODgzNzkzMTAsLTEzMDk5MTU2NjEsNzY0NTgzMjM2LC
-0xNTI0ODA1NDAzLC0xNTUzODc5MDA2LDY2OTE3MTA2Miw1ODc3
-MjYxNV19
+eyJoaXN0b3J5IjpbODI5NzE3MTEwLC00NTA0Mjg5MTEsLTc0MT
+M0ODcwNCwtMjA0MTU2NTMyNSwxNjkxMjIwMDE2LDk0MDQ2NDYz
+OCw2Mzc0NjIyMTIsMTcxOTMzNTg2Niw5MTg0ODgzMDAsLTE1OD
+A0MjU1NDUsMTYxNjU5MzE2NywtMTgzMzUzMjAzNiwxODE4Njkx
+MDA0LC04ODM3OTMxMCwtMTMwOTkxNTY2MSw3NjQ1ODMyMzYsLT
+E1MjQ4MDU0MDMsLTE1NTM4NzkwMDYsNjY5MTcxMDYyLDU4Nzcy
+NjE1XX0=
 -->
