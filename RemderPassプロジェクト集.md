@@ -368,7 +368,7 @@ RayCone実装するなら、反射しないので式(26)からLODを求め、直
     as well as the barycentrics at the hit point.
 
 out : depth、D32Float
-out : vbuffer、Scene.HitInfoシェーダーのHitInfoがｋ、RenderTarget | UnorderedAccess、RG32Uint
+out : vbuffer、Scene.HitInfoシェーダーのHitInfoがかくのうｓ、RenderTarget | UnorderedAccess、RG32Uint
 
 ### VBufferRT
     This pass renders a visibility buffer using ray tracing.
@@ -377,11 +377,11 @@ out : vbuffer、Scene.HitInfoシェーダーのHitInfoがｋ、RenderTarget | Un
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxODkwNTMyOCwtNzc1MTY3Nzk3LDk1Nj
-ExMjA5MiwtMTk1NzI3NzkxOCwtNzUwNDEyNjIxLC0xMzEzMTEx
-NTk1LDgyOTcxNzExMCwtNDUwNDI4OTExLC03NDEzNDg3MDQsLT
-IwNDE1NjUzMjUsMTY5MTIyMDAxNiw5NDA0NjQ2MzgsNjM3NDYy
-MjEyLDE3MTkzMzU4NjYsOTE4NDg4MzAwLC0xNTgwNDI1NTQ1LD
-E2MTY1OTMxNjcsLTE4MzM1MzIwMzYsMTgxODY5MTAwNCwtODgz
-NzkzMTBdfQ==
+eyJoaXN0b3J5IjpbMTY5NjAzNDYwLC05MTg5MDUzMjgsLTc3NT
+E2Nzc5Nyw5NTYxMTIwOTIsLTE5NTcyNzc5MTgsLTc1MDQxMjYy
+MSwtMTMxMzExMTU5NSw4Mjk3MTcxMTAsLTQ1MDQyODkxMSwtNz
+QxMzQ4NzA0LC0yMDQxNTY1MzI1LDE2OTEyMjAwMTYsOTQwNDY0
+NjM4LDYzNzQ2MjIxMiwxNzE5MzM1ODY2LDkxODQ4ODMwMCwtMT
+U4MDQyNTU0NSwxNjE2NTkzMTY3LC0xODMzNTMyMDM2LDE4MTg2
+OTEwMDRdfQ==
 -->
