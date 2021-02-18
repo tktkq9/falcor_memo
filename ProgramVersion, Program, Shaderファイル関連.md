@@ -2,6 +2,7 @@
 TODO : Programのslang処理の理解  Program  
 
 シェーダーの中身とそれをdx12用のシェーダーブロブやルートシグネチャーにするためのなんやかんや  
+低レイヤー処理関連  
 
 いろんなところで保持されているProgramにDefineしていって、ProgramVarsとProgramReflectionを渡すことによってシェーダーブロブやルートシグネチャーが作成され、それを保持したProgramKernels返され、このProgramKernelsを使って、GraphicsStateとかでパイプラインステートオブジェクトが作成されるという感じ  
 
@@ -47,6 +48,6 @@ Shaderという名を持つが、シェーダー本体はProgramクラスの方�
 こいつら全員Programファイルに吸収された方がいいと思う  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1OTI5MDczNiwyNTQ0OTM4MTEsLTE3OD
-cxNjIzNjNdfQ==
+eyJoaXN0b3J5IjpbMTYxMjI1OTQyMywtMzU5MjkwNzM2LDI1ND
+Q5MzgxMSwtMTc4NzE2MjM2M119
 -->
