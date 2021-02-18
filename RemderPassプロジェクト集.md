@@ -357,6 +357,9 @@ RayCone実装するなら、反射しないので式(26)からLODを求め、直
 ただしDOFの場合は1サンプルしかなくノイズが発生するはずなので、フィルターパスやテンポラルパスがさらに必要かも  
 
 ### VBufferRaster
+    This pass renders a visibility buffer using ray tracing.
+    The visibility buffer encodes the mesh instance ID and primitive index,
+    as well as the barycentrics at the hit point.
 
 
 
@@ -365,11 +368,11 @@ RayCone実装するなら、反射しないので式(26)からLODを求め、直
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI5NzE3MTEwLC00NTA0Mjg5MTEsLTc0MT
-M0ODcwNCwtMjA0MTU2NTMyNSwxNjkxMjIwMDE2LDk0MDQ2NDYz
-OCw2Mzc0NjIyMTIsMTcxOTMzNTg2Niw5MTg0ODgzMDAsLTE1OD
-A0MjU1NDUsMTYxNjU5MzE2NywtMTgzMzUzMjAzNiwxODE4Njkx
-MDA0LC04ODM3OTMxMCwtMTMwOTkxNTY2MSw3NjQ1ODMyMzYsLT
-E1MjQ4MDU0MDMsLTE1NTM4NzkwMDYsNjY5MTcxMDYyLDU4Nzcy
-NjE1XX0=
+eyJoaXN0b3J5IjpbLTU2NDUwNjY4Miw4Mjk3MTcxMTAsLTQ1MD
+QyODkxMSwtNzQxMzQ4NzA0LC0yMDQxNTY1MzI1LDE2OTEyMjAw
+MTYsOTQwNDY0NjM4LDYzNzQ2MjIxMiwxNzE5MzM1ODY2LDkxOD
+Q4ODMwMCwtMTU4MDQyNTU0NSwxNjE2NTkzMTY3LC0xODMzNTMy
+MDM2LDE4MTg2OTEwMDQsLTg4Mzc5MzEwLC0xMzA5OTE1NjYxLD
+c2NDU4MzIzNiwtMTUyNDgwNTQwMywtMTU1Mzg3OTAwNiw2Njkx
+NzEwNjJdfQ==
 -->
