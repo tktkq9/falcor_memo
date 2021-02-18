@@ -373,7 +373,7 @@ GBufferRasterと違い、RasterizerStateがないが、その場合はGraphicsSt
 
 シェーダーはHitInfoに必要なデータをvs、psにもとからある機能で取得しそれをHitoInfoに入れencodeしているだけ  
 アルファテストもしている  
-シェーダーにもあるが、triangle stripsではなく、triangle listsをこ
+シェーダーにもあるが、FalcorのDXRおよび通常DXRではtriangle stripsはサポートしておらず、triangle listsのみサポートしており、barycentricsにはtriangle lists前提の
 
 out : depth、D32Float
 out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている、これをほかで使うにはdecode()を呼ばないといけない、RenderTarget | UnorderedAccess、RG32Uint  
@@ -385,7 +385,7 @@ out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDMzNzIxODQsLTQwMzY5NDY4MSwxOD
+eyJoaXN0b3J5IjpbLTc5NTA5NDA2OSwtMTE0MzM3MjE4NCwxOD
 E1MTA5NjcwLDExOTExOTQyMDMsLTU5MjM5MDg5LDUyNDQ5MDUw
 LC0xMzYwNTg3NTMwLC0xODEzNzcwMjE4LDE2OTYwMzQ2MCwtNz
 c1MTY3Nzk3LDk1NjExMjA5MiwtMTk1NzI3NzkxOCwtNzUwNDEy
