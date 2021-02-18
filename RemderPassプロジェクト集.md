@@ -368,6 +368,8 @@ RayCone実装するなら、反射しないので式(26)からLODを求め、直
     as well as the barycentrics at the hit point.
 visibility bufferはScene.HitInfoシェーダーのHitInfoのことで、ラスタライズ処理によってこれを描画し出力する（あと深度も出力する）  
 
+GBufferRaster
+
 out : depth、D32Float
 out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている、これをほかで使うにはdecode()を呼ばないといけない、RenderTarget | UnorderedAccess、RG32Uint  
 
@@ -378,11 +380,11 @@ out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI0NDkwNTAsLTEzNjA1ODc1MzAsLTE4MT
-M3NzAyMTgsMTY5NjAzNDYwLC03NzUxNjc3OTcsOTU2MTEyMDky
-LC0xOTU3Mjc3OTE4LC03NTA0MTI2MjEsLTEzMTMxMTE1OTUsOD
-I5NzE3MTEwLC00NTA0Mjg5MTEsLTc0MTM0ODcwNCwtMjA0MTU2
-NTMyNSwxNjkxMjIwMDE2LDk0MDQ2NDYzOCw2Mzc0NjIyMTIsMT
-cxOTMzNTg2Niw5MTg0ODgzMDAsLTE1ODA0MjU1NDUsMTYxNjU5
-MzE2N119
+eyJoaXN0b3J5IjpbNzU4NDQ4NTk2LDUyNDQ5MDUwLC0xMzYwNT
+g3NTMwLC0xODEzNzcwMjE4LDE2OTYwMzQ2MCwtNzc1MTY3Nzk3
+LDk1NjExMjA5MiwtMTk1NzI3NzkxOCwtNzUwNDEyNjIxLC0xMz
+EzMTExNTk1LDgyOTcxNzExMCwtNDUwNDI4OTExLC03NDEzNDg3
+MDQsLTIwNDE1NjUzMjUsMTY5MTIyMDAxNiw5NDA0NjQ2MzgsNj
+M3NDYyMjEyLDE3MTkzMzU4NjYsOTE4NDg4MzAwLC0xNTgwNDI1
+NTQ1XX0=
 -->
