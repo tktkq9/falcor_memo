@@ -373,7 +373,7 @@ GBufferRasterと違い、RasterizerStateがないが、その場合はGraphicsSt
 
 シェーダーはHitInfoに必要なデータをvs、psにもとからある機能で取得しそれをHitoInfoに入れencodeしているだけ  
 アルファテストもしている  
-シェーダーにもあるが、triangle stripsではなく、triangle lists
+シェーダーにもあるが、triangle stripsではなく、triangle listsをこ
 
 out : depth、D32Float
 out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている、これをほかで使うにはdecode()を呼ばないといけない、RenderTarget | UnorderedAccess、RG32Uint  
@@ -385,11 +385,11 @@ out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzY5NDY4MSwxODE1MTA5NjcwLDExOT
-ExOTQyMDMsLTU5MjM5MDg5LDUyNDQ5MDUwLC0xMzYwNTg3NTMw
-LC0xODEzNzcwMjE4LDE2OTYwMzQ2MCwtNzc1MTY3Nzk3LDk1Nj
-ExMjA5MiwtMTk1NzI3NzkxOCwtNzUwNDEyNjIxLC0xMzEzMTEx
-NTk1LDgyOTcxNzExMCwtNDUwNDI4OTExLC03NDEzNDg3MDQsLT
-IwNDE1NjUzMjUsMTY5MTIyMDAxNiw5NDA0NjQ2MzgsNjM3NDYy
-MjEyXX0=
+eyJoaXN0b3J5IjpbLTExNDMzNzIxODQsLTQwMzY5NDY4MSwxOD
+E1MTA5NjcwLDExOTExOTQyMDMsLTU5MjM5MDg5LDUyNDQ5MDUw
+LC0xMzYwNTg3NTMwLC0xODEzNzcwMjE4LDE2OTYwMzQ2MCwtNz
+c1MTY3Nzk3LDk1NjExMjA5MiwtMTk1NzI3NzkxOCwtNzUwNDEy
+NjIxLC0xMzEzMTExNTk1LDgyOTcxNzExMCwtNDUwNDI4OTExLC
+03NDEzNDg3MDQsLTIwNDE1NjUzMjUsMTY5MTIyMDAxNiw5NDA0
+NjQ2MzhdfQ==
 -->
