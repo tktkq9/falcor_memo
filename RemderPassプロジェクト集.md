@@ -296,6 +296,8 @@ GBufferRasterとGBufferRTのベースクラス
 また、GBufferParams.slangのGBufferParams作成と管理も担当している  
 
 ### GBufferRaster
+    This pass renders a fixed set of G-buffer channels using rasterization.
+
 GBufferのサブクラスで、GBufferのkGBufferChannelsに対応するレンダーターゲットに加えて、以下のRWTexture2DのGBufferRaster.3d.slanghによる描画を行い出力するパス  
 
     // Additional output channels.
@@ -368,11 +370,11 @@ RayCone実装するなら、反射しないので式(26)からLODを求め、直
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDUwNjY4Miw4Mjk3MTcxMTAsLTQ1MD
-QyODkxMSwtNzQxMzQ4NzA0LC0yMDQxNTY1MzI1LDE2OTEyMjAw
-MTYsOTQwNDY0NjM4LDYzNzQ2MjIxMiwxNzE5MzM1ODY2LDkxOD
-Q4ODMwMCwtMTU4MDQyNTU0NSwxNjE2NTkzMTY3LC0xODMzNTMy
-MDM2LDE4MTg2OTEwMDQsLTg4Mzc5MzEwLC0xMzA5OTE1NjYxLD
-c2NDU4MzIzNiwtMTUyNDgwNTQwMywtMTU1Mzg3OTAwNiw2Njkx
-NzEwNjJdfQ==
+eyJoaXN0b3J5IjpbLTE1NTU5OTIzMDksODI5NzE3MTEwLC00NT
+A0Mjg5MTEsLTc0MTM0ODcwNCwtMjA0MTU2NTMyNSwxNjkxMjIw
+MDE2LDk0MDQ2NDYzOCw2Mzc0NjIyMTIsMTcxOTMzNTg2Niw5MT
+g0ODgzMDAsLTE1ODA0MjU1NDUsMTYxNjU5MzE2NywtMTgzMzUz
+MjAzNiwxODE4NjkxMDA0LC04ODM3OTMxMCwtMTMwOTkxNTY2MS
+w3NjQ1ODMyMzYsLTE1MjQ4MDU0MDMsLTE1NTM4NzkwMDYsNjY5
+MTcxMDYyXX0=
 -->
