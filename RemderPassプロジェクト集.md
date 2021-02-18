@@ -367,7 +367,7 @@ RayCone実装するなら、反射しないので式(26)からLODを求め、直
     The visibility buffer encodes the mesh instance ID and primitive index,
     as well as the barycentrics at the hit point.
 visibility bufferはScene.HitInfoシェーダーのHitInfoのことで、ラスタライズ処理によってこれを描画し出力する（あと深度も出力する）  
-つまり、レイトレのための事前準備パス  
+つまり、レイトレのためのGBuffer生成パス  
 
 GBufferRasterと違い、RasterizerStateがないが、その場合はGraphicsStateObject側でデフォルトのRasterizerStateが生成されているので問題なし（つまりデフォルトのRasterizerState設定が使われている）  
 
@@ -382,7 +382,7 @@ out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NzA1MzgzOCwtNTkyMzkwODksNTI0ND
+eyJoaXN0b3J5IjpbMTE5MTE5NDIwMywtNTkyMzkwODksNTI0ND
 kwNTAsLTEzNjA1ODc1MzAsLTE4MTM3NzAyMTgsMTY5NjAzNDYw
 LC03NzUxNjc3OTcsOTU2MTEyMDkyLC0xOTU3Mjc3OTE4LC03NT
 A0MTI2MjEsLTEzMTMxMTE1OTUsODI5NzE3MTEwLC00NTA0Mjg5
