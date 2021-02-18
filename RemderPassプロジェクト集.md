@@ -371,6 +371,7 @@ visibility bufferはScene.HitInfoシェーダーのHitInfoのことで、ラス�
 
 GBufferRasterと違い、RasterizerStateがないが、その場合はGraphicsStateObject側でデフォルトのRasterizerStateが生成されているので問題なし（つまりデフォルトのRasterizerState設定が使われている）  
 
+シェーダーはHitInfoに必要なデータを
 
 out : depth、D32Float
 out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている、これをほかで使うにはdecode()を呼ばないといけない、RenderTarget | UnorderedAccess、RG32Uint  
@@ -382,11 +383,11 @@ out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている�
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTE5NDIwMywtNTkyMzkwODksNTI0ND
-kwNTAsLTEzNjA1ODc1MzAsLTE4MTM3NzAyMTgsMTY5NjAzNDYw
-LC03NzUxNjc3OTcsOTU2MTEyMDkyLC0xOTU3Mjc3OTE4LC03NT
-A0MTI2MjEsLTEzMTMxMTE1OTUsODI5NzE3MTEwLC00NTA0Mjg5
-MTEsLTc0MTM0ODcwNCwtMjA0MTU2NTMyNSwxNjkxMjIwMDE2LD
-k0MDQ2NDYzOCw2Mzc0NjIyMTIsMTcxOTMzNTg2Niw5MTg0ODgz
-MDBdfQ==
+eyJoaXN0b3J5IjpbMTgxNTEwOTY3MCwxMTkxMTk0MjAzLC01OT
+IzOTA4OSw1MjQ0OTA1MCwtMTM2MDU4NzUzMCwtMTgxMzc3MDIx
+OCwxNjk2MDM0NjAsLTc3NTE2Nzc5Nyw5NTYxMTIwOTIsLTE5NT
+cyNzc5MTgsLTc1MDQxMjYyMSwtMTMxMzExMTU5NSw4Mjk3MTcx
+MTAsLTQ1MDQyODkxMSwtNzQxMzQ4NzA0LC0yMDQxNTY1MzI1LD
+E2OTEyMjAwMTYsOTQwNDY0NjM4LDYzNzQ2MjIxMiwxNzE5MzM1
+ODY2XX0=
 -->
