@@ -373,7 +373,7 @@ visibility bufferはScene.HitInfoシェーダーのHitInfoのことで、ラス�
 
 GBufferRasterと違い、RasterizerStateがないが、その場合はGraphicsStateObject側でデフォルトのRasterizerStateが生成されているので問題なし（つまりデフォルトのRasterizerState設定が使われている）  
 
-シェーダーはScene/HitInfo.slangで定義されている、HitInfoに必要なデータをvs、psにもとからある機能で取得しそれをHitoInfoに入れencodeしているだけ  
+シェーダー処理では、Scene/HitInfo.slangで定義されているHitInfoに必要なデータをvs、psにもとからある機能で取得しそれをHitoInfoに入れencodeしているだけ  
 アルファテストもしている（オプション）  
 シェーダーにもあるが、FalcorのDXRおよび通常DXRではtriangle stripsはサポートしておらず、triangle listsのみサポートしており、barycentricsにはtriangle lists前提での点BCに対応する値だけが入っていることに注意  
 
@@ -391,7 +391,7 @@ VBufferRasterと同じvisibilityバッファーをレイトレで描画し出力
  out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている、これをほかで使うにはdecode()を呼ばないといけない、UnorderedAccess、RG32Uint  
  out : time、各ピクセルの実行にかかった時間をそのまま格納、おそらくプロファイリング用、optional、R32Uint  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNzY0MDMyMiw2NjA0MDMyOSwyMTE0MT
+eyJoaXN0b3J5IjpbMTAzNTkyNTEyOSw2NjA0MDMyOSwyMTE0MT
 g5OTcxLDIwNDI4NzIwMTAsMTE2MDk0Nzk0MywtMTE0MzM3MjE4
 NCwxODE1MTA5NjcwLDExOTExOTQyMDMsLTU5MjM5MDg5LDUyND
 Q5MDUwLC0xMzYwNTg3NTMwLC0xODEzNzcwMjE4LDE2OTYwMzQ2
