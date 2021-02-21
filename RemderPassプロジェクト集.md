@@ -368,6 +368,7 @@ RayCone実装するなら、反射しないので式(26)からLODを求め、直
     as well as the barycentrics at the hit point.
 visibility bufferはScene.HitInfoシェーダーのHitInfoのことで、ラスタライズ処理によってこれを描画し出力する（あと深度も出力する）  
 つまり、レイトレのためのGBuffer生成パス  
+このように必要最低限のバッファー
 
 GBufferRasterと違い、RasterizerStateがないが、その場合はGraphicsStateObject側でデフォルトのRasterizerStateが生成されているので問題なし（つまりデフォルトのRasterizerState設定が使われている）  
 
@@ -383,14 +384,20 @@ out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている�
     The visibility buffer encodes the mesh instance ID and primitive index,
     as well as the barycentrics at the hit point.
 
+GBufferのサブクラスで、  
+DXRで書かれたGBufferRT.rt.slangを実行し、  
+それによるカメラからのレイトレを行い、  
+ヒット情報からGBufferのkGBufferChannelsと以下のkGBufferExtraChannelsを計算し、  
+それらすべてをRWTexture2Dに格納して出力するパス  
+
  out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている、これをほかで使うにはdecode()を呼ばないといけない、UnorderedAccess、RG32Uint  
  out : time、各ピクセルの実行にかかった時間をそのまま格納、おそらくプロファイリング用、optional、R32Uint  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYwNDAzMjksMjExNDE4OTk3MSwyMDQyOD
-cyMDEwLDExNjA5NDc5NDMsLTExNDMzNzIxODQsMTgxNTEwOTY3
-MCwxMTkxMTk0MjAzLC01OTIzOTA4OSw1MjQ0OTA1MCwtMTM2MD
-U4NzUzMCwtMTgxMzc3MDIxOCwxNjk2MDM0NjAsLTc3NTE2Nzc5
-Nyw5NTYxMTIwOTIsLTE5NTcyNzc5MTgsLTc1MDQxMjYyMSwtMT
-MxMzExMTU5NSw4Mjk3MTcxMTAsLTQ1MDQyODkxMSwtNzQxMzQ4
-NzA0XX0=
+eyJoaXN0b3J5IjpbMTc1MTY2ODU3Nyw2NjA0MDMyOSwyMTE0MT
+g5OTcxLDIwNDI4NzIwMTAsMTE2MDk0Nzk0MywtMTE0MzM3MjE4
+NCwxODE1MTA5NjcwLDExOTExOTQyMDMsLTU5MjM5MDg5LDUyND
+Q5MDUwLC0xMzYwNTg3NTMwLC0xODEzNzcwMjE4LDE2OTYwMzQ2
+MCwtNzc1MTY3Nzk3LDk1NjExMjA5MiwtMTk1NzI3NzkxOCwtNz
+UwNDEyNjIxLC0xMzEzMTExNTk1LDgyOTcxNzExMCwtNDUwNDI4
+OTExXX0=
 -->
