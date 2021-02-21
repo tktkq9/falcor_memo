@@ -250,7 +250,8 @@ mEnableSuperSamplingによるINTERPOLATION_MODE sampleは、ピクセルシェ�
 ## GBufferプロジェクト
 
 （GBufferBaseをベースクラスとする）GBufferをベースクラスとする
-- GBufferRaster
+- GBuffer : 基本的なGBufferが定義されている。出力処理はサブクラスにお任せ  
+- GBufferRaster : 様々なデータをラスタライズによって出力する  
 - GBufferRT
 
 GBufferBaseをベースクラスとする
@@ -406,7 +407,7 @@ DOFありの場合は1サンプルしかなくノイズが発生するはずな�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NjEwMDA1OSwtMTYzMjQ1MTcyMiwxMz
+eyJoaXN0b3J5IjpbMTk3NzIxNjU3MiwtMTYzMjQ1MTcyMiwxMz
 Q3MjA1ODAxLDE5Nzc5OTA1ODEsNjYwNDAzMjksMjExNDE4OTk3
 MSwyMDQyODcyMDEwLDExNjA5NDc5NDMsLTExNDMzNzIxODQsMT
 gxNTEwOTY3MCwxMTkxMTk0MjAzLC01OTIzOTA4OSw1MjQ0OTA1
