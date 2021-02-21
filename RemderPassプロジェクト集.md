@@ -256,7 +256,7 @@ mEnableSuperSamplingによるINTERPOLATION_MODE sampleは、ピクセルシェ�
 GBufferBaseをベースクラスとする
 - GBuffer : 基本的なGBufferが定義されている。出力処理はサブクラスにお任せ  
 - VBufferRaster : ラスタライズで計算したレイトレ用GBuffer。深度とScene/HitInfo.slangのHitInfoのみ（どちらもGBufferRasterで出力されている） 
-- VBufferRT : レイトレで計算したレイトレ用GBuffer。Scene/HitInfo.slangのHitInfoのみ（GBufferRTでも出力されている）。timeバッファーもあるが、これはぷろふぁいりんぐ
+- VBufferRT : レイトレで計算したレイトレ用GBuffer。Scene/HitInfo.slangのHitInfoのみ（GBufferRTでも出力されている）。timeバッファーもあるが、これはプロファイリング用
 
 の4つがMogwaiのパスとして実装されている  
 
@@ -408,11 +408,11 @@ DOFありの場合は1サンプルしかなくノイズが発生するはずな�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzA3NTg4NTgsLTIwODc1MTY0MTEsMT
-c0Mjc5ODk0MCwtMTYzMjQ1MTcyMiwxMzQ3MjA1ODAxLDE5Nzc5
-OTA1ODEsNjYwNDAzMjksMjExNDE4OTk3MSwyMDQyODcyMDEwLD
-ExNjA5NDc5NDMsLTExNDMzNzIxODQsMTgxNTEwOTY3MCwxMTkx
-MTk0MjAzLC01OTIzOTA4OSw1MjQ0OTA1MCwtMTM2MDU4NzUzMC
-wtMTgxMzc3MDIxOCwxNjk2MDM0NjAsLTc3NTE2Nzc5Nyw5NTYx
-MTIwOTJdfQ==
+eyJoaXN0b3J5IjpbLTc2OTg5ODMwLC0xOTcwNzU4ODU4LC0yMD
+g3NTE2NDExLDE3NDI3OTg5NDAsLTE2MzI0NTE3MjIsMTM0NzIw
+NTgwMSwxOTc3OTkwNTgxLDY2MDQwMzI5LDIxMTQxODk5NzEsMj
+A0Mjg3MjAxMCwxMTYwOTQ3OTQzLC0xMTQzMzcyMTg0LDE4MTUx
+MDk2NzAsMTE5MTE5NDIwMywtNTkyMzkwODksNTI0NDkwNTAsLT
+EzNjA1ODc1MzAsLTE4MTM3NzAyMTgsMTY5NjAzNDYwLC03NzUx
+Njc3OTddfQ==
 -->
