@@ -394,17 +394,17 @@ VBufferRasterと同じvisibilityバッファーをレイトレで描画し出力
 
 アルファテストもしている（オプション）  
 
-シェーダーでは、
+シェーダーでは、DOfのあるなしにかかわらずRayGenで1サンプルのみレイを飛ばし、
 
 
  out : vbuffer、Scene.HitInfoシェーダーのHitInfoデータが格納されている、これを使うにはdecode()を呼ばないといけない、UnorderedAccess、RG32Uint  
  out : time、各ピクセルの実行にかかった時間をそのまま格納、おそらくプロファイリング用、optional、R32Uint  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNzkwNzc3NywtMTYzMjQ1MTcyMiwxMz
-Q3MjA1ODAxLDE5Nzc5OTA1ODEsNjYwNDAzMjksMjExNDE4OTk3
-MSwyMDQyODcyMDEwLDExNjA5NDc5NDMsLTExNDMzNzIxODQsMT
-gxNTEwOTY3MCwxMTkxMTk0MjAzLC01OTIzOTA4OSw1MjQ0OTA1
-MCwtMTM2MDU4NzUzMCwtMTgxMzc3MDIxOCwxNjk2MDM0NjAsLT
-c3NTE2Nzc5Nyw5NTYxMTIwOTIsLTE5NTcyNzc5MTgsLTc1MDQx
-MjYyMV19
+eyJoaXN0b3J5IjpbLTI2MzIxMDc1LC0xNjMyNDUxNzIyLDEzND
+cyMDU4MDEsMTk3Nzk5MDU4MSw2NjA0MDMyOSwyMTE0MTg5OTcx
+LDIwNDI4NzIwMTAsMTE2MDk0Nzk0MywtMTE0MzM3MjE4NCwxOD
+E1MTA5NjcwLDExOTExOTQyMDMsLTU5MjM5MDg5LDUyNDQ5MDUw
+LC0xMzYwNTg3NTMwLC0xODEzNzcwMjE4LDE2OTYwMzQ2MCwtNz
+c1MTY3Nzk3LDk1NjExMjA5MiwtMTk1NzI3NzkxOCwtNzUwNDEy
+NjIxXX0=
 -->
