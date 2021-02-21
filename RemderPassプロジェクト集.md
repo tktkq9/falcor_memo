@@ -383,13 +383,13 @@ out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている�
     The visibility buffer encodes the mesh instance ID and primitive index,
     as well as the barycentrics at the hit point.
 
- out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている、これをほかで使うにはdecode()を呼ばないといけない、RenderTarget | UnorderedAccess、RG32Uint  
+ out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている、これをほかで使うにはdecode()を呼ばないといけない、UnorderedAccess、RG32Uint  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0Mjg3MjAxMCwxMTYwOTQ3OTQzLC0xMT
-QzMzcyMTg0LDE4MTUxMDk2NzAsMTE5MTE5NDIwMywtNTkyMzkw
-ODksNTI0NDkwNTAsLTEzNjA1ODc1MzAsLTE4MTM3NzAyMTgsMT
-Y5NjAzNDYwLC03NzUxNjc3OTcsOTU2MTEyMDkyLC0xOTU3Mjc3
-OTE4LC03NTA0MTI2MjEsLTEzMTMxMTE1OTUsODI5NzE3MTEwLC
-00NTA0Mjg5MTEsLTc0MTM0ODcwNCwtMjA0MTU2NTMyNSwxNjkx
-MjIwMDE2XX0=
+eyJoaXN0b3J5IjpbLTczNTk0OTk1MywyMDQyODcyMDEwLDExNj
+A5NDc5NDMsLTExNDMzNzIxODQsMTgxNTEwOTY3MCwxMTkxMTk0
+MjAzLC01OTIzOTA4OSw1MjQ0OTA1MCwtMTM2MDU4NzUzMCwtMT
+gxMzc3MDIxOCwxNjk2MDM0NjAsLTc3NTE2Nzc5Nyw5NTYxMTIw
+OTIsLTE5NTcyNzc5MTgsLTc1MDQxMjYyMSwtMTMxMzExMTU5NS
+w4Mjk3MTcxMTAsLTQ1MDQyODkxMSwtNzQxMzQ4NzA0LC0yMDQx
+NTY1MzI1XX0=
 -->
