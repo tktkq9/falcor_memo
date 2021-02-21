@@ -390,19 +390,19 @@ VBufferRasterと同じvisibilityバッファーをレイトレで描画し出力
 
 これもGBufferRTと同じくDOF対応もしている  
 サンプルはここでのみ使われ、SAMPLE_GENERATOR_DEFAULTを使っている  
+シェーダーに渡すframeCountはこれ用
 
 アルファテストもしている（オプション）  
-シェーダーに渡すframeCountはこれ用
 
 
  out : vbuffer、Scene.HitInfoシェーダーのHitInfoデータが格納されている、これを使うにはdecode()を呼ばないといけない、UnorderedAccess、RG32Uint  
  out : time、各ピクセルの実行にかかった時間をそのまま格納、おそらくプロファイリング用、optional、R32Uint  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTk2OTgxMiwxMzQ3MjA1ODAxLDE5Nz
-c5OTA1ODEsNjYwNDAzMjksMjExNDE4OTk3MSwyMDQyODcyMDEw
-LDExNjA5NDc5NDMsLTExNDMzNzIxODQsMTgxNTEwOTY3MCwxMT
-kxMTk0MjAzLC01OTIzOTA4OSw1MjQ0OTA1MCwtMTM2MDU4NzUz
-MCwtMTgxMzc3MDIxOCwxNjk2MDM0NjAsLTc3NTE2Nzc5Nyw5NT
-YxMTIwOTIsLTE5NTcyNzc5MTgsLTc1MDQxMjYyMSwtMTMxMzEx
-MTU5NV19
+eyJoaXN0b3J5IjpbLTEwMDUwMzk5NTgsMTM0NzIwNTgwMSwxOT
+c3OTkwNTgxLDY2MDQwMzI5LDIxMTQxODk5NzEsMjA0Mjg3MjAx
+MCwxMTYwOTQ3OTQzLC0xMTQzMzcyMTg0LDE4MTUxMDk2NzAsMT
+E5MTE5NDIwMywtNTkyMzkwODksNTI0NDkwNTAsLTEzNjA1ODc1
+MzAsLTE4MTM3NzAyMTgsMTY5NjAzNDYwLC03NzUxNjc3OTcsOT
+U2MTEyMDkyLC0xOTU3Mjc3OTE4LC03NTA0MTI2MjEsLTEzMTMx
+MTE1OTVdfQ==
 -->
