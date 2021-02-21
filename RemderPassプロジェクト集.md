@@ -255,7 +255,7 @@ mEnableSuperSamplingによるINTERPOLATION_MODE sampleは、ピクセルシェ�
 - GBufferRT : GBufferクラスのデータ+エクストラデータ（こちらはGBufferRaster とは微妙に違う）をレイトレによって出力する。ラスタライズだけでなくレイトレ用のデータも入っている。1サンプルしかとらないので、DOFがある場合はノイズあり    
 
 GBufferBaseをベースクラスとする
-- VBufferRaster
+- VBufferRaster : 
 - VBufferRT
 
 の4つがMogwaiのパスとして実装されている  
@@ -367,7 +367,7 @@ RayCone実装するなら、反射しないので式(26)からLODを求め、直
     This pass renders a visibility buffer using rasterization.
     The visibility buffer encodes the mesh instance ID and primitive index,
     as well as the barycentrics at the hit point.
-visibility bufferはScene.HitInfoシェーダーのHitInfoのことで、ラスタライズ処理によってこれを描画し出力する（あと深度も出力する）  
+visibility bufferはGBufferRaster、GBufferRTのvbufferと同じで、Scene.HitInfoシェーダーのHitInfoのことで、ラスタライズ処理によってこれを描画し出力する（あと深度も出力する）  
 つまり、レイトレのためのGBuffer生成パス  
 このように必要最低限のバッファーのみ出力するため、GBufferではなくGBufferBaseのサブクラスとなっている  
 シェーダーはVBufferRaster.3d.slang  
@@ -407,11 +407,11 @@ DOFありの場合は1サンプルしかなくノイズが発生するはずな�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyODcxNzI4LDE3NDI3OTg5NDAsLTE2Mz
-I0NTE3MjIsMTM0NzIwNTgwMSwxOTc3OTkwNTgxLDY2MDQwMzI5
-LDIxMTQxODk5NzEsMjA0Mjg3MjAxMCwxMTYwOTQ3OTQzLC0xMT
-QzMzcyMTg0LDE4MTUxMDk2NzAsMTE5MTE5NDIwMywtNTkyMzkw
-ODksNTI0NDkwNTAsLTEzNjA1ODc1MzAsLTE4MTM3NzAyMTgsMT
-Y5NjAzNDYwLC03NzUxNjc3OTcsOTU2MTEyMDkyLC0xOTU3Mjc3
-OTE4XX0=
+eyJoaXN0b3J5IjpbLTIwOTkwMzc3MjAsMTc0Mjc5ODk0MCwtMT
+YzMjQ1MTcyMiwxMzQ3MjA1ODAxLDE5Nzc5OTA1ODEsNjYwNDAz
+MjksMjExNDE4OTk3MSwyMDQyODcyMDEwLDExNjA5NDc5NDMsLT
+ExNDMzNzIxODQsMTgxNTEwOTY3MCwxMTkxMTk0MjAzLC01OTIz
+OTA4OSw1MjQ0OTA1MCwtMTM2MDU4NzUzMCwtMTgxMzc3MDIxOC
+wxNjk2MDM0NjAsLTc3NTE2Nzc5Nyw5NTYxMTIwOTIsLTE5NTcy
+Nzc5MThdfQ==
 -->
