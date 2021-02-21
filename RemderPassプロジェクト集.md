@@ -248,8 +248,7 @@ Vertex shader outputs that are used for pixel shader inputs are linearly interpo
 mEnableSuperSamplingによるINTERPOLATION_MODE sampleは、ピクセルシェーダーに値を渡すときpixel中心補間（linear）ではなくサンプルポイント補間での値となる   
 
 ## GBufferプロジェクト
-（GBufferBaseをベースクラスとする）GBuffer（基本的なGBufferが定義されている。出力処理はサブクラスにお任せ  
-）があり、これをベースクラスとする
+（GBufferBaseをベースクラスとする）GBuffer（基本的なGBufferが定義されている。出力処理はサブクラスにお任せ）があり、これをベースクラスとする
 
 - GBufferRaster : ラスタライズで計算した汎用GBuffer。GBufferクラスのデータ+エクストラデータをラスタライズによって出力する。ラスタライズだけでなくレイトレ用のデータも入っている汎用GBuffer    
 - GBufferRT : レイトレで計算した汎用GBuffer。GBufferクラスのデータ+エクストラデータ（こちらはGBufferRaster とは微妙に違う）をレイトレによって出力する。ラスタライズだけでなくレイトレ用のデータも入っている。1サンプルしかとらないので、DOFがある場合はノイズあり    
@@ -409,11 +408,11 @@ DOFありの場合は1サンプルしかなくノイズが発生するはずな�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMTk4MDA2MiwtNzY5ODk4MzAsLTIwOD
-c1MTY0MTEsMTc0Mjc5ODk0MCwtMTYzMjQ1MTcyMiwxMzQ3MjA1
-ODAxLDE5Nzc5OTA1ODEsNjYwNDAzMjksMjExNDE4OTk3MSwyMD
-QyODcyMDEwLDExNjA5NDc5NDMsLTExNDMzNzIxODQsMTgxNTEw
-OTY3MCwxMTkxMTk0MjAzLC01OTIzOTA4OSw1MjQ0OTA1MCwtMT
-M2MDU4NzUzMCwtMTgxMzc3MDIxOCwxNjk2MDM0NjAsLTc3NTE2
-Nzc5N119
+eyJoaXN0b3J5IjpbNjU4ODA4MTc2LC03Njk4OTgzMCwtMjA4Nz
+UxNjQxMSwxNzQyNzk4OTQwLC0xNjMyNDUxNzIyLDEzNDcyMDU4
+MDEsMTk3Nzk5MDU4MSw2NjA0MDMyOSwyMTE0MTg5OTcxLDIwND
+I4NzIwMTAsMTE2MDk0Nzk0MywtMTE0MzM3MjE4NCwxODE1MTA5
+NjcwLDExOTExOTQyMDMsLTU5MjM5MDg5LDUyNDQ5MDUwLC0xMz
+YwNTg3NTMwLC0xODEzNzcwMjE4LDE2OTYwMzQ2MCwtNzc1MTY3
+Nzk3XX0=
 -->
