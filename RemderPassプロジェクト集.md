@@ -367,7 +367,8 @@ RayCone実装するなら、反射しないので式(26)からLODを求め、直
     This pass renders a visibility buffer using rasterization.
     The visibility buffer encodes the mesh instance ID and primitive index,
     as well as the barycentrics at the hit point.
-visibility bufferはGBufferRaster、GBufferRTのvbufferと同じで、Scene.HitInfoシェーダーのHitInfoのことで、ラスタライズ処理によってこれを描画し出力する（あと深度も出力する）  
+visibility bufferはGBufferRaster、GBufferRTのvbufferと同じで、Scene.HitInfoシェーダーのHitInfo  
+ラスタライズ処理によってこれを描画し出力する（あと深度も出力する）  
 つまり、レイトレのためのGBuffer生成パス  
 このように必要最低限のバッファーのみ出力するため、GBufferではなくGBufferBaseのサブクラスとなっている  
 シェーダーはVBufferRaster.3d.slang  
@@ -385,7 +386,7 @@ out : vbuffer、Scene.HitInfoシェーダーのHitInfoデータが格納され�
     This pass renders a visibility buffer using ray tracing.
     The visibility buffer encodes the mesh instance ID and primitive index,
     as well as the barycentrics at the hit point.
-VBufferRasterと同じvisibilityバッファーをレイトレで描画し出力するパス  
+VBufferRaster（とGBufferRasterとGBufferRTのvbuffer）と同じvisibilityバッファーをレイトレで描画し出力するパス  
 ただし深度は出力しない（visibilityから計算できるのでわざわざここで出力しない）  
 こちらも必要最低限のバッファーのみ出力するため、GBufferではなくGBufferBaseのサブクラスとなっている  
 
@@ -407,11 +408,11 @@ DOFありの場合は1サンプルしかなくノイズが発生するはずな�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTkwMzc3MjAsMTc0Mjc5ODk0MCwtMT
-YzMjQ1MTcyMiwxMzQ3MjA1ODAxLDE5Nzc5OTA1ODEsNjYwNDAz
-MjksMjExNDE4OTk3MSwyMDQyODcyMDEwLDExNjA5NDc5NDMsLT
-ExNDMzNzIxODQsMTgxNTEwOTY3MCwxMTkxMTk0MjAzLC01OTIz
-OTA4OSw1MjQ0OTA1MCwtMTM2MDU4NzUzMCwtMTgxMzc3MDIxOC
-wxNjk2MDM0NjAsLTc3NTE2Nzc5Nyw5NTYxMTIwOTIsLTE5NTcy
-Nzc5MThdfQ==
+eyJoaXN0b3J5IjpbLTk2MTM0MzUwNywxNzQyNzk4OTQwLC0xNj
+MyNDUxNzIyLDEzNDcyMDU4MDEsMTk3Nzk5MDU4MSw2NjA0MDMy
+OSwyMTE0MTg5OTcxLDIwNDI4NzIwMTAsMTE2MDk0Nzk0MywtMT
+E0MzM3MjE4NCwxODE1MTA5NjcwLDExOTExOTQyMDMsLTU5MjM5
+MDg5LDUyNDQ5MDUwLC0xMzYwNTg3NTMwLC0xODEzNzcwMjE4LD
+E2OTYwMzQ2MCwtNzc1MTY3Nzk3LDk1NjExMjA5MiwtMTk1NzI3
+NzkxOF19
 -->
