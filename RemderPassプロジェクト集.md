@@ -255,7 +255,7 @@ mEnableSuperSamplingによるINTERPOLATION_MODE sampleは、ピクセルシェ�
 
 GBufferBaseをベースクラスとする
 - GBuffer : 基本的なGBufferが定義されている。出力処理はサブクラスにお任せ  
-- VBufferRaster : GBufferRasterの内、しん
+- VBufferRaster : 深度とScene/HitInfo.slangのHitInfoのみ（どちらもGBufferRasterで出力されている）。GBufferRasterの内、必要最低限の出力をするパス  
 - VBufferRT
 
 の4つがMogwaiのパスとして実装されている  
@@ -408,11 +408,11 @@ DOFありの場合は1サンプルしかなくノイズが発生するはずな�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODc1MTY0MTEsMTU0OTY1NzMyMSwxNz
-QyNzk4OTQwLC0xNjMyNDUxNzIyLDEzNDcyMDU4MDEsMTk3Nzk5
-MDU4MSw2NjA0MDMyOSwyMTE0MTg5OTcxLDIwNDI4NzIwMTAsMT
-E2MDk0Nzk0MywtMTE0MzM3MjE4NCwxODE1MTA5NjcwLDExOTEx
-OTQyMDMsLTU5MjM5MDg5LDUyNDQ5MDUwLC0xMzYwNTg3NTMwLC
-0xODEzNzcwMjE4LDE2OTYwMzQ2MCwtNzc1MTY3Nzk3LDk1NjEx
-MjA5Ml19
+eyJoaXN0b3J5IjpbMjY3MjQwNjY0LC0yMDg3NTE2NDExLDE3ND
+I3OTg5NDAsLTE2MzI0NTE3MjIsMTM0NzIwNTgwMSwxOTc3OTkw
+NTgxLDY2MDQwMzI5LDIxMTQxODk5NzEsMjA0Mjg3MjAxMCwxMT
+YwOTQ3OTQzLC0xMTQzMzcyMTg0LDE4MTUxMDk2NzAsMTE5MTE5
+NDIwMywtNTkyMzkwODksNTI0NDkwNTAsLTEzNjA1ODc1MzAsLT
+E4MTM3NzAyMTgsMTY5NjAzNDYwLC03NzUxNjc3OTcsOTU2MTEy
+MDkyXX0=
 -->
