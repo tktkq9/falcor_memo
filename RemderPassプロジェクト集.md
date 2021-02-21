@@ -250,8 +250,8 @@ mEnableSuperSamplingによるINTERPOLATION_MODE sampleは、ピクセルシェ�
 ## GBufferプロジェクト
 
 （GBufferBaseをベースクラスとする）GBufferをベースクラスとする
-- GBufferRaster : GBufferクラスのデータ+エクストラデータをラスタライズによって出力する。ラスタライズだけでなくレイトレ用のデータも入っている汎用GBuffer    
-- GBufferRT : GBufferクラスのデータ+エクストラデータ（こちらはGBufferRaster とは微妙に違う）をレイトレによって出力する。ラスタライズだけでなくレイトレ用のデータも入っている汎用GBuffer。1サンプルしかとらないので、DOFがある場合はノイズあり    
+- GBufferRaster : ラスタライズで計算した汎用GBuffer。GBufferクラスのデータ+エクストラデータをラスタライズによって出力する。ラスタライズだけでなくレイトレ用のデータも入っている汎用GBuffer    
+- GBufferRT : レイトレで計算した汎用GBuffer。GBufferクラスのデータ+エクストラデータ（こちらはGBufferRaster とは微妙に違う）をレイトレによって出力する。ラスタライズだけでなくレイトレ用のデータも入っている。1サンプルしかとらないので、DOFがある場合はノイズあり    
 
 GBufferBaseをベースクラスとする
 - GBuffer : 基本的なGBufferが定義されている。出力処理はサブクラスにお任せ  
@@ -408,11 +408,11 @@ DOFありの場合は1サンプルしかなくノイズが発生するはずな�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTUyNjMwMzYsLTIwODc1MTY0MTEsMT
-c0Mjc5ODk0MCwtMTYzMjQ1MTcyMiwxMzQ3MjA1ODAxLDE5Nzc5
-OTA1ODEsNjYwNDAzMjksMjExNDE4OTk3MSwyMDQyODcyMDEwLD
-ExNjA5NDc5NDMsLTExNDMzNzIxODQsMTgxNTEwOTY3MCwxMTkx
-MTk0MjAzLC01OTIzOTA4OSw1MjQ0OTA1MCwtMTM2MDU4NzUzMC
-wtMTgxMzc3MDIxOCwxNjk2MDM0NjAsLTc3NTE2Nzc5Nyw5NTYx
-MTIwOTJdfQ==
+eyJoaXN0b3J5IjpbLTMxNjI2NzkwOSwtMjA4NzUxNjQxMSwxNz
+QyNzk4OTQwLC0xNjMyNDUxNzIyLDEzNDcyMDU4MDEsMTk3Nzk5
+MDU4MSw2NjA0MDMyOSwyMTE0MTg5OTcxLDIwNDI4NzIwMTAsMT
+E2MDk0Nzk0MywtMTE0MzM3MjE4NCwxODE1MTA5NjcwLDExOTEx
+OTQyMDMsLTU5MjM5MDg5LDUyNDQ5MDUwLC0xMzYwNTg3NTMwLC
+0xODEzNzcwMjE4LDE2OTYwMzQ2MCwtNzc1MTY3Nzk3LDk1NjEx
+MjA5Ml19
 -->
