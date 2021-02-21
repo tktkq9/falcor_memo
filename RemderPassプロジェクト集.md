@@ -389,12 +389,13 @@ VBufferRasterと同じvisibilityバッファーをレイトレで描画し出力
 こちらも必要最低限のバッファーのみ出力するため、GBufferではなくGBufferBaseのサブクラスとなっている  
 
 これもGBufferRTと同じくDOF対応もしている  
+アルファテストもしている（オプション）  
 
 
  out : vbuffer、Scene.HitInfoシェーダーのHitInfoデータが格納されている、これを使うにはdecode()を呼ばないといけない、UnorderedAccess、RG32Uint  
  out : time、各ピクセルの実行にかかった時間をそのまま格納、おそらくプロファイリング用、optional、R32Uint  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzc5Mzc4NywxMzQ3MjA1ODAxLDE5Nz
+eyJoaXN0b3J5IjpbLTU0MjMwMzU1MiwxMzQ3MjA1ODAxLDE5Nz
 c5OTA1ODEsNjYwNDAzMjksMjExNDE4OTk3MSwyMDQyODcyMDEw
 LDExNjA5NDc5NDMsLTExNDMzNzIxODQsMTgxNTEwOTY3MCwxMT
 kxMTk0MjAzLC01OTIzOTA4OSw1MjQ0OTA1MCwtMTM2MDU4NzUz
