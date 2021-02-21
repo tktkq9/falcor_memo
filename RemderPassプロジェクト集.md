@@ -383,13 +383,14 @@ out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている�
     This pass renders a visibility buffer using ray tracing.
     The visibility buffer encodes the mesh instance ID and primitive index,
     as well as the barycentrics at the hit point.
-
+VBufferRasterと同じvisibilityバッファーをレイトレで描画し出力するパス  
+こちらは深度は出力しない  
 こちらも必要最低限のバッファーのみ出力するため、GBufferではなくGBufferBaseのサブクラスとなっている  
 
  out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている、これをほかで使うにはdecode()を呼ばないといけない、UnorderedAccess、RG32Uint  
  out : time、各ピクセルの実行にかかった時間をそのまま格納、おそらくプロファイリング用、optional、R32Uint  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg1MTQ3MDcwLDY2MDQwMzI5LDIxMTQxOD
+eyJoaXN0b3J5IjpbNTI4OTgyMzM1LDY2MDQwMzI5LDIxMTQxOD
 k5NzEsMjA0Mjg3MjAxMCwxMTYwOTQ3OTQzLC0xMTQzMzcyMTg0
 LDE4MTUxMDk2NzAsMTE5MTE5NDIwMywtNTkyMzkwODksNTI0ND
 kwNTAsLTEzNjA1ODc1MzAsLTE4MTM3NzAyMTgsMTY5NjAzNDYw
