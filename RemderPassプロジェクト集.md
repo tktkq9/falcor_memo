@@ -398,13 +398,13 @@ VBufferRasterと同じvisibilityバッファーをレイトレで描画し出力
 アルファテストがオンの場合はanyhitでその処理を行っている  
 要するに基本的な処理のみ  
 
-GBufferRT1ピクセル1サンプルだが、DOFじゃない場合はランダムサンプルじゃないので、GBufferRasterと大して変わらないかも。使いたいGBufferの違いくらい（GBufferRasterにくらべ足りない変数が多いので、多分ベンチマーク用な気がする）  
-ただしDOFの場合は1サンプルしかなくノイズが発生するはずなので、フィルターパスやテンポラルパスがさらに必要かも  
+GBufferRT1ピクセル1サンプルだが、DOFじゃない場合はランダムサンプルじゃないので、おそらくVBufferRasterと大差なし  
+DOFありの場合は1サンプルしかなくノイズが発生するはずなので、フィルターパスやテンポラルパスがおそらく必要  
 
  out : vbuffer、Scene.HitInfoシェーダーのHitInfoデータが格納されている、これを使うにはdecode()を呼ばないといけない、UnorderedAccess、RG32Uint  
  out : time、各ピクセルの実行にかかった時間をそのまま格納、おそらくプロファイリング用、optional、R32Uint  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NTE4Nzg0NCwtMTYzMjQ1MTcyMiwxMz
+eyJoaXN0b3J5IjpbMTYzMzQxOTA4MSwtMTYzMjQ1MTcyMiwxMz
 Q3MjA1ODAxLDE5Nzc5OTA1ODEsNjYwNDAzMjksMjExNDE4OTk3
 MSwyMDQyODcyMDEwLDExNjA5NDc5NDMsLTExNDMzNzIxODQsMT
 gxNTEwOTY3MCwxMTkxMTk0MjAzLC01OTIzOTA4OSw1MjQ0OTA1
