@@ -369,6 +369,7 @@ RayCone実装するなら、反射しないので式(26)からLODを求め、直
 visibility bufferはScene.HitInfoシェーダーのHitInfoのことで、ラスタライズ処理によってこれを描画し出力する（あと深度も出力する）  
 つまり、レイトレのためのGBuffer生成パス  
 このように必要最低限のバッファーのみ出力するため、GBufferではなくGBufferBaseのサブクラスとなっている  
+シェーダーはVBufferRaster.3d.slang  
 
 GBufferRasterと違い、RasterizerStateがないが、その場合はGraphicsStateObject側でデフォルトのRasterizerStateが生成されているので問題なし（つまりデフォルトのRasterizerState設定が使われている）  
 
@@ -390,7 +391,7 @@ VBufferRasterと同じvisibilityバッファーをレイトレで描画し出力
  out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている、これをほかで使うにはdecode()を呼ばないといけない、UnorderedAccess、RG32Uint  
  out : time、各ピクセルの実行にかかった時間をそのまま格納、おそらくプロファイリング用、optional、R32Uint  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM3ODQ4Njk4LDY2MDQwMzI5LDIxMTQxOD
+eyJoaXN0b3J5IjpbMjA1NjA2OTk0LDY2MDQwMzI5LDIxMTQxOD
 k5NzEsMjA0Mjg3MjAxMCwxMTYwOTQ3OTQzLC0xMTQzMzcyMTg0
 LDE4MTUxMDk2NzAsMTE5MTE5NDIwMywtNTkyMzkwODksNTI0ND
 kwNTAsLTEzNjA1ODc1MzAsLTE4MTM3NzAyMTgsMTY5NjAzNDYw
