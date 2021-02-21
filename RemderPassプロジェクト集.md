@@ -406,15 +406,16 @@ DOFありの場合は1サンプルしかなくノイズが発生するはずな�
  out : vbuffer、Scene.HitInfoシェーダーのHitInfoデータが格納されている、これを使うにはdecode()を呼ばないといけない、UnorderedAccess、RG32Uint  
  out : time、各ピクセルの実行にかかった時間をそのまま格納、おそらくプロファイリング用、optional、R32Uint  
 
-## ImageLoader
+## ImageLoaderプロジェクト
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MjkxMTkwMiwtNzY5ODk4MzAsLTIwOD
-c1MTY0MTEsMTc0Mjc5ODk0MCwtMTYzMjQ1MTcyMiwxMzQ3MjA1
-ODAxLDE5Nzc5OTA1ODEsNjYwNDAzMjksMjExNDE4OTk3MSwyMD
-QyODcyMDEwLDExNjA5NDc5NDMsLTExNDMzNzIxODQsMTgxNTEw
-OTY3MCwxMTkxMTk0MjAzLC01OTIzOTA4OSw1MjQ0OTA1MCwtMT
-M2MDU4NzUzMCwtMTgxMzc3MDIxOCwxNjk2MDM0NjAsLTc3NTE2
-Nzc5N119
+eyJoaXN0b3J5IjpbLTE0NzgyMTY5NzgsLTc2OTg5ODMwLC0yMD
+g3NTE2NDExLDE3NDI3OTg5NDAsLTE2MzI0NTE3MjIsMTM0NzIw
+NTgwMSwxOTc3OTkwNTgxLDY2MDQwMzI5LDIxMTQxODk5NzEsMj
+A0Mjg3MjAxMCwxMTYwOTQ3OTQzLC0xMTQzMzcyMTg0LDE4MTUx
+MDk2NzAsMTE5MTE5NDIwMywtNTkyMzkwODksNTI0NDkwNTAsLT
+EzNjA1ODc1MzAsLTE4MTM3NzAyMTgsMTY5NjAzNDYwLC03NzUx
+Njc3OTddfQ==
 -->
