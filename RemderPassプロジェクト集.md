@@ -378,7 +378,7 @@ GBufferRasterと違い、RasterizerStateがないが、その場合はGraphicsSt
 シェーダーにもあるが、FalcorのDXRおよび通常DXRではtriangle stripsはサポートしておらず、triangle listsのみサポートしており、barycentricsにはtriangle lists前提での点BCに対応する値だけが入っていることに注意  
 
 out : depth、D32Float
-out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている、これをほかで使うにはdecode()を呼ばないといけない、RenderTarget | UnorderedAccess、RG32Uint  
+out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている、これを使うにはdecode()を呼ばないといけない、RenderTarget | UnorderedAccess、RG32Uint  
 
 ### VBufferRT
     This pass renders a visibility buffer using ray tracing.
@@ -391,11 +391,11 @@ VBufferRasterと同じvisibilityバッファーをレイトレで描画し出力
  out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている、これをほかで使うにはdecode()を呼ばないといけない、UnorderedAccess、RG32Uint  
  out : time、各ピクセルの実行にかかった時間をそのまま格納、おそらくプロファイリング用、optional、R32Uint  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MzQ1MTMxLDY2MDQwMzI5LDIxMTQxOD
-k5NzEsMjA0Mjg3MjAxMCwxMTYwOTQ3OTQzLC0xMTQzMzcyMTg0
-LDE4MTUxMDk2NzAsMTE5MTE5NDIwMywtNTkyMzkwODksNTI0ND
-kwNTAsLTEzNjA1ODc1MzAsLTE4MTM3NzAyMTgsMTY5NjAzNDYw
-LC03NzUxNjc3OTcsOTU2MTEyMDkyLC0xOTU3Mjc3OTE4LC03NT
-A0MTI2MjEsLTEzMTMxMTE1OTUsODI5NzE3MTEwLC00NTA0Mjg5
-MTFdfQ==
+eyJoaXN0b3J5IjpbLTE2MTk0Mzg5MzgsNjYwNDAzMjksMjExND
+E4OTk3MSwyMDQyODcyMDEwLDExNjA5NDc5NDMsLTExNDMzNzIx
+ODQsMTgxNTEwOTY3MCwxMTkxMTk0MjAzLC01OTIzOTA4OSw1Mj
+Q0OTA1MCwtMTM2MDU4NzUzMCwtMTgxMzc3MDIxOCwxNjk2MDM0
+NjAsLTc3NTE2Nzc5Nyw5NTYxMTIwOTIsLTE5NTcyNzc5MTgsLT
+c1MDQxMjYyMSwtMTMxMzExMTU5NSw4Mjk3MTcxMTAsLTQ1MDQy
+ODkxMV19
 -->
