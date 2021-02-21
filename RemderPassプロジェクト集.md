@@ -384,8 +384,9 @@ out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている�
     as well as the barycentrics at the hit point.
 
  out : vbuffer、Scene.HitInfoシェーダーのHitInfoが格納されている、これをほかで使うにはdecode()を呼ばないといけない、UnorderedAccess、RG32Uint  
+ out : time、各ピクセルの実行にかかった時間をそのまま格納、おそらくプロファイリング用、
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNTk0OTk1MywyMDQyODcyMDEwLDExNj
+eyJoaXN0b3J5IjpbLTY3MjYxOTc4OSwyMDQyODcyMDEwLDExNj
 A5NDc5NDMsLTExNDMzNzIxODQsMTgxNTEwOTY3MCwxMTkxMTk0
 MjAzLC01OTIzOTA4OSw1MjQ0OTA1MCwtMTM2MDU4NzUzMCwtMT
 gxMzc3MDIxOCwxNjk2MDM0NjAsLTc3NTE2Nzc5Nyw5NTYxMTIw
