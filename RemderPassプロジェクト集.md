@@ -260,6 +260,7 @@ GBufferBaseをベースクラスとする
 
 の4つがMogwaiのパスとして実装されている  
 
+
 ### GBufferBase
 全てのGBuffer系クラスのルートクラス  
 主にサブクラス生成のPythonへのバインドと共通の変数定義、  
@@ -408,7 +409,7 @@ DOFありの場合は1サンプルしかなくノイズが発生するはずな�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzOTUzNTg3NSwtNzY5ODk4MzAsLTIwOD
+eyJoaXN0b3J5IjpbMTIxNTQ0NTc4MSwtNzY5ODk4MzAsLTIwOD
 c1MTY0MTEsMTc0Mjc5ODk0MCwtMTYzMjQ1MTcyMiwxMzQ3MjA1
 ODAxLDE5Nzc5OTA1ODEsNjYwNDAzMjksMjExNDE4OTk3MSwyMD
 QyODcyMDEwLDExNjA5NDc5NDMsLTExNDMzNzIxODQsMTgxNTEw
