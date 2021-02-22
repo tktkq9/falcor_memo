@@ -407,6 +407,7 @@ DOFありの場合は1サンプルしかなくノイズが発生するはずな�
  out : time、各ピクセルの実行にかかった時間をそのまま格納、おそらくプロファイリング用、optional、R32Uint  
 
 ## ImageLoaderプロジェクト
+
 ### ImageLoader
 パスに設定した画像ファイルを読み込み、  
 ミップやsRGB設定などを適用し、RTVとして出力するパス  
@@ -424,7 +425,7 @@ out : dst、画像を出力、formatは他のパス（or デフォルト処理�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTY1OTk0NywtMzkwNDA0NDQ4LDEwMz
+eyJoaXN0b3J5IjpbLTc5NDMwMjU4OSwtMzkwNDA0NDQ4LDEwMz
 g0MDMxOTYsLTE3NTgyOTkzNjUsLTE0NzgyMTY5NzgsLTc2OTg5
 ODMwLC0yMDg3NTE2NDExLDE3NDI3OTg5NDAsLTE2MzI0NTE3Mj
 IsMTM0NzIwNTgwMSwxOTc3OTkwNTgxLDY2MDQwMzI5LDIxMTQx
