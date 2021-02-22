@@ -414,18 +414,18 @@ DOFありの場合は1サンプルしかなくノイズが発生するはずな�
 なので、処理はテクスチャー読み込みとblitのみ  
 解像度はdstに依存。おそらくデフォルトのFBO設定をそのまま出力  
 
-out : dst、画像を出力、formatは他でdstに設定したものをそのまま  
+out : dst、画像を出力、formatは他のパス（or デフォルト処理）でdstに設定したものをそのまま  
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwODIzNjc0LDEwMzg0MDMxOTYsLTE3NT
-gyOTkzNjUsLTE0NzgyMTY5NzgsLTc2OTg5ODMwLC0yMDg3NTE2
-NDExLDE3NDI3OTg5NDAsLTE2MzI0NTE3MjIsMTM0NzIwNTgwMS
-wxOTc3OTkwNTgxLDY2MDQwMzI5LDIxMTQxODk5NzEsMjA0Mjg3
-MjAxMCwxMTYwOTQ3OTQzLC0xMTQzMzcyMTg0LDE4MTUxMDk2Nz
-AsMTE5MTE5NDIwMywtNTkyMzkwODksNTI0NDkwNTAsLTEzNjA1
-ODc1MzBdfQ==
+eyJoaXN0b3J5IjpbLTM5MDQwNDQ0OCwxMDM4NDAzMTk2LC0xNz
+U4Mjk5MzY1LC0xNDc4MjE2OTc4LC03Njk4OTgzMCwtMjA4NzUx
+NjQxMSwxNzQyNzk4OTQwLC0xNjMyNDUxNzIyLDEzNDcyMDU4MD
+EsMTk3Nzk5MDU4MSw2NjA0MDMyOSwyMTE0MTg5OTcxLDIwNDI4
+NzIwMTAsMTE2MDk0Nzk0MywtMTE0MzM3MjE4NCwxODE1MTA5Nj
+cwLDExOTExOTQyMDMsLTU5MjM5MDg5LDUyNDQ5MDUwLC0xMzYw
+NTg3NTMwXX0=
 -->
