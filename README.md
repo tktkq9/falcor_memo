@@ -10,8 +10,8 @@ dx12オンリー、Vulkanは分からん
 TODO : 
 マークダウンのリンクを[]: http...みたいな感じで上にまとめる  
 リンクは相対パスを使う  
-目次ライクなものと、ディレクトリ分けをする  
+目次的なものと、ディレクトリ分けをする  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxOTU3NzI3LDE2OTg5NjU3NTAsMTExMT
-Q4ODA1OCwxODA0MDE4MzUwLDk4MTQwMTc3M119
+eyJoaXN0b3J5IjpbLTE1NDQ3MTg0NDksMTY5ODk2NTc1MCwxMT
+ExNDg4MDU4LDE4MDQwMTgzNTAsOTgxNDAxNzczXX0=
 -->
