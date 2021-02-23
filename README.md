@@ -9,9 +9,9 @@ dx12オンリー、Vulkanは分からん
 
 TODO : 
 マークダウンのリンクを[]: http...みたいな感じで上にまとめる  
-リンクはgithub内のやつは相対パスを使う  
+リンクはgithub内のやつは相対パスを使う？（stackeditで使えなくなるならやめておくmainマージの時にしておく）  
 目次的なものと、ディレクトリ分けをする  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNDY0OTg2NCwxNjk4OTY1NzUwLDExMT
-E0ODgwNTgsMTgwNDAxODM1MCw5ODE0MDE3NzNdfQ==
+eyJoaXN0b3J5IjpbMzM0NzcwODIxLDE2OTg5NjU3NTAsMTExMT
+Q4ODA1OCwxODA0MDE4MzUwLDk4MTQwMTc3M119
 -->
