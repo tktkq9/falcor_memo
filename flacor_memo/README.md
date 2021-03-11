@@ -11,6 +11,8 @@ TODO :
 マークダウンのリンクを[]: http...みたいな感じで上にまとめる  
 リンクはgithub内のやつは相対パスを使う？（stackeditで使えなくなるならやめておくか、mainブランチマージの時だけにする）  
 目次的なものと、ディレクトリ分けをする  
+https://docs.github.com/ja/github/writing-on-github/basic-writing-and-formatting-syntax#links
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMDMzMjcwM119
+eyJoaXN0b3J5IjpbMjk1Njc4ODk2LC00MzAzMzI3MDNdfQ==
 -->
