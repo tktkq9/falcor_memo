@@ -5,7 +5,7 @@
 dx12オンリー、Vulkanは分からん  
 （dx12やVulkanの処理をApiHandle的な部分で抽象化しているっぽいので、ここのdx12の話をそのままVulkanに置き換えて考えればそれっぽくなるんじゃないですかね知らんけど）  
 
-絶賛コード読み中。確実に間違った情報を書く自信がある
+絶賛コード読み中
 
 TODO : 
 マークダウンのリンクを[]: http...みたいな感じで上にまとめる  
@@ -14,5 +14,5 @@ TODO :
 https://docs.github.com/ja/github/writing-on-github/basic-writing-and-formatting-syntax#links  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MTczNTYzMl19
+eyJoaXN0b3J5IjpbNzE3MjI5MjM1XX0=
 -->
