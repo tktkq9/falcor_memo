@@ -307,9 +307,6 @@ getMeshLightTriangles()はLightBVH側で呼ばれる
 
 
 ## LightCollection.h, cpp
-
-
-
 シーンのエミッシブメッシェを集め、EmissiveSampler系列で扱えるようデータ形成とシェーダー変数設定をするためのクラス  
 このクラスはScene側で管理され、他の場所からはすでに出来上がったLightCollectionをSceneクラス（とシェーダー変数）を利用するという形  
 主な処理はcreate()とupdate()、そしてその情報の取得とシェーダー変数設定といった感じになっている  
@@ -378,5 +375,5 @@ LightBVH系列でだけ使われるAABB
 ヘッダーコメントにもあるように、すでにFalcorにあるAABB.h、cppがあるので、このようなstruct名になっている  
 AABB.htはcenterとextentだが、これはminPointとmaxPointでAABBを表現している  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjYwNTgxXX0=
+eyJoaXN0b3J5IjpbLTY5NzE3ODkxN119
 -->
