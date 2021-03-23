@@ -306,7 +306,7 @@ GPU側でのlightCollection関連の変数保持と作成担当
 create()、update()、setShaderData()、getActiveLightCount()、getStats()はScene側で、  
 getMeshLightTriangles()はLightBVH側で呼ばれる  
 
-他はSceneを通してlightCollectionの設定が行われている  
+他はSceneを通してlightCollectionの処理が行われている  
 
 ## LightCollection.h, cpp
 シーンのエミッシブメッシェを集め、EmissiveSampler系列で扱えるようデータ形成とシェーダー変数設定をするためのクラス  
@@ -377,5 +377,5 @@ LightBVH系列でだけ使われるAABB
 ヘッダーコメントにもあるように、すでにFalcorにあるAABB.h、cppがあるので、このようなstruct名になっている  
 AABB.htはcenterとextentだが、これはminPointとmaxPointでAABBを表現している  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNTcwNzA4N119
+eyJoaXN0b3J5IjpbMTk3OTMwNTUwMF19
 -->
