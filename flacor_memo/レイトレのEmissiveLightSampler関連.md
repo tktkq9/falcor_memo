@@ -237,7 +237,6 @@ binとコスト計算の時にcosConeAngle以外いったん全部合成した�
     - computeOrientationCost() : 式（15）のM_Ωの計算  
     Equation 1 in Conty & Kulla, "Importance Sampling of Many Lights with Adaptive Tree Splitting", 2018.の計算をしているらしい  
 
-
 ## LightBVH.h, cpp
 LightBVH本体  
 主にシェーダー側で使われる変数やバッファーの保持と、そのシェーダー変数への設定処理を担当する  
@@ -377,5 +376,5 @@ LightBVH系列でだけ使われるAABB
 ヘッダーコメントにもあるように、すでにFalcorにあるAABB.h、cppがあるので、このようなstruct名になっている  
 AABB.htはcenterとextentだが、これはminPointとmaxPointでAABBを表現している  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTMwNTUwMF19
+eyJoaXN0b3J5IjpbLTkxNjcxNDMyMl19
 -->
