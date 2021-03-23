@@ -15,17 +15,17 @@ on the GPU](https://www.realtimerendering.com/raytracinggems/)
 
 一応LightCollectionの構築方法も18.4.1 LIGHT PREPROCESSINGにあり、おそらくこれが実装されている  
 
-### EmissiveLightSampler
+# EmissiveLightSampler
 メッシュライト（要するに任意の形のエリアライト）のレイトレサンプラー  
 例えばPathTracerHelpers.slangのsampleSceneLights()でライトサンプルするときに使う  
 
-#### EmissiveLightSampler.h、cpp
+## EmissiveLightSampler.h、cpp
 _EMISSIVE_LIGHT_SAMPLER_TYPEをaddDifine()するだけ  
 これ自体はベースクラスであり、これを継承しているEmissiveUniformSamplerやLightBVHSamplerが本体  
 
 サンプラーの種類を指定するUniform or LightBVHのEnumをMogwaiとかで扱えるようpybind11もしてる  
 
-#### EmissiveLightSampler.slang
+## EmissiveLightSampler.slang
 EmissiveLightSampler::sampleLight()でサンプルし、  
 方向と位置と法線やPDFや光の強さなどのレイトレ用情報をTriangleLightSampleに格納し渡す  
 
@@ -34,23 +34,23 @@ LightBVH = EMISSIVE_LIGHT_SAMPLER_LIGHT_BVHの場合はExperimental.Scene.Lights
 のサンプラー構造体をEmissiveLightSamplerにtypedefして統一的に使えるようにしているだけ  
 本体はこれらのslang  
 
-##### EmissiveLightSamplerInterface.slang
+### EmissiveLightSamplerInterface.slang
 EmissiveLightSamplerのインターフェースやその関数で使う構造体（関数無しメンバ変数のみ）の宣言がされている  
 
-### EmissiveUniformSampler
+# EmissiveUniformSampler
 EmissiveLightSamplerのUniform = EMISSIVE_LIGHT_SAMPLER_UNIFORMバージョン  
 
 lightCollectionをシェーダー変数に設定し、  
 その中のトライアングルの1点を一様サンプリングによって選択するサンプラー  
 
-#### EmissiveUniformSampler.h、cpp
+## EmissiveUniformSampler.h、cpp
 EmissiveLightSamplerのタイプとしてUniformを設定して、  
 Scene->getLightCollection(pRenderContext)を呼んでシェーダーにlightCollectionを作って設定してるだけ  
 
 Optionsを設定する実装もあるが、現在は設定できるOptionはなにもなし  
 TODOになってるのでおそらく今後実装される  
 
-#### EmissiveUniformSampler.slang
+## EmissiveUniformSampler.slang
 シーン中のlightCollectionに属するすべてのトライアングルから  
 1Dサンプルを使って一様に選択  
 そのトライアングルに対し2Dサンプルを使って一点をサンプルして返すサンプラー  
@@ -65,7 +65,7 @@ evalPdf() : トライアングル一様選択によるpdfとevalTrianglePdf()に
 EmissiveLightSamplerHelpers.slangでも書いているが、  
 トライアングル1点サンプリングのpdfに余計な係数がついていることに注意  
 
-##### EmissiveLightSamplerHelpers.slang
+## EmissiveLightSamplerHelpers.slang
 三角形のサンプルとpdf計算の関数がまとめられたやつ  
 サンプルの取り方やpdfの計算は[PBRT 13.6.5 Sampling a Triangle](http://www.pbr-book.org/3ed-2018/Monte_Carlo_Integration/2D_Sampling_with_Multidimensional_Transformations.html#SamplingaTriangle) のやつ  
 ただし、pdfはdistSqrと1/cosThetaの部分が余計についている  
@@ -73,7 +73,7 @@ EmissiveLightSamplerHelpers.slangでも書いているが、
 | n_{Y_k} dot ( - l ) | / | X - Y_k |^2  
 の項に対応する  
 
-### LightBVHSampler  
+# LightBVHSampler  
 Githubの[ray-tracing-gems/Ch_18_Importance_Sampling_of_Many_Lights_on_the_GPU/](https://github.com/Apress/ray-tracing-gems/tree/master/Ch_18_Importance_Sampling_of_Many_Lights_on_the_GPU)  
 にも書かれているように、  
 資料[Ray Tracing Gems Chapter 18 Importance Sampling of Many Lights
@@ -84,7 +84,7 @@ EmissiveUniformSamplerはlightCollectionをシェーダーに設定したが、
 こちらはそれだけではなく、_lightBVH構造体変数の値も設定する  
 こちらでは、その_lightBVHによる重要度サンプリングによりトライアングルの1点を選択する  
 
-#### LightBVHSampler.h、cpp
+## LightBVHSampler.h、cpp
 18.4.3 LIGHT IMPORTANCE SAMPLINGの実装  
 すでに出来上がっているLightBVHを使ってエミッシブメッシュのトライアングルサンプルをする設定などを管理するクラス  
 Optionsでそのサンプル方法を設定でき、デフォルトではCh18の式（17）全部入り、リーフノードの複数トライアングルはUniformでサンプルとなっている（Ch18を見ると、これがクオリティと速さ両方を考慮したとき一番バランスが取れている設定っぽい）  
@@ -104,7 +104,7 @@ LightBVHの更新は、
 ライトの位置とかが変更された時はallowRefittingがtrueの場合はrefit、そうでなければリビルドされ、  
 また、UIでLightBVHの変更が必要なオプションが変わったときはリビルドされる  
 
-#### LightBVHSampler.slang
+### LightBVHSampler.slang
 トライアングルの1点サンプリングはEmissiveUniformSamplerと同じだが、  
 トライアングルの選択はLightBVHを使っていくサンプリング用シェーダー関数  
 EmissiveUniformSamplerと同様に、（つまりIEmissiveLightSamplerと同様に）  
@@ -164,12 +164,12 @@ sampleLightViaBVH()と同じようにcomputeImportance()でpdfを計算し、
 - evalNodeSamplingPdf() : pickTriangle()と同じように、  _USE_UNIFORM_TRIANGLE_SAMPLINGの場合は一様サンプリングのpdf、  
 そうじゃない場合は各トライアングルのpdfをcomputeTriangleImportance()から計算し、そのCDFによるpdfを返す  
 
-##### LightBVHSamplerSharedDefinitions.slang
+### LightBVHSamplerSharedDefinitions.slang
 SolidAngleBoundMethodの定義のみ  
 これはboundCosineTerm()でのみ使われる、ある点から見たAABBに対し、それを囲むコーンの角度（θ_u）を計算する、3種類の関数の内の1つを選ぶためのenum  
 
 
-#### LightBVHBuilder.h, cpp
+## LightBVHBuilder.h, cpp
 18.4.2 ACCELERATION STRUCTUREの実装  
 LightBVHをビルドするためのクラス  
 build()に作りたいLightBVHインスタンスを渡してビルドして役目終了のクラス  
@@ -373,5 +373,5 @@ LightBVH系列でだけ使われるAABB
 ヘッダーコメントにもあるように、すでにFalcorにあるAABB.h、cppがあるので、このようなstruct名になっている  
 AABB.htはcenterとextentだが、これはminPointとmaxPointでAABBを表現している  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNDE2OTczMl19
+eyJoaXN0b3J5IjpbODgyNTE5NTY2XX0=
 -->
