@@ -1,6 +1,14 @@
 # レイトレのEmissiveLightSampler関連
 めっちゃ量あるのでこっちに分割  
-メッシュライトのサンプラーと、そのための
+メッシュライトのサンプラーと、そのメッシュライトの空間構造構築（LightBVHSamplerの場合）  
+サンプラーはEmissiveUniformSamplerとLightBVHSamplerの2種類  
+
+メッシュライトのみをあ
+Githubの[ray-tracing-gems/Ch_18_Importance_Sampling_of_Many_Lights_on_the_GPU/](https://github.com/Apress/ray-tracing-gems/tree/master/Ch_18_Importance_Sampling_of_Many_Lights_on_the_GPU)  
+にも書かれているように、  
+資料[Ray Tracing Gems Chapter 18 Importance Sampling of Many Lights
+on the GPU](https://www.realtimerendering.com/raytracinggems/)  
+の内容が実装されている  
 
 ### EmissiveLightSampler
 メッシュライト（要するに任意の形のエリアライト）のレイトレサンプラー  
@@ -360,5 +368,5 @@ LightBVH系列でだけ使われるAABB
 ヘッダーコメントにもあるように、すでにFalcorにあるAABB.h、cppがあるので、このようなstruct名になっている  
 AABB.htはcenterとextentだが、これはminPointとmaxPointでAABBを表現している  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjgzNzM3MDJdfQ==
+eyJoaXN0b3J5IjpbNjQ5OTE5NTQwXX0=
 -->
