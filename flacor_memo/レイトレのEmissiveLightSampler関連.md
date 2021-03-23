@@ -301,12 +301,12 @@ GPU側でその制御はしてないので、CPU側でちゃんとやらなき�
 
 # LightCollection
 18.4.1 LIGHT PREPROCESSINGの実装  
-GPU側でのlightCollectionの作成たんｔ  
+GPU側でのlightCollection関連の変数保持と作成担当  
 
 create()、update()、setShaderData()、getActiveLightCount()、getStats()はScene側で、  
 getMeshLightTriangles()はLightBVH側で呼ばれる  
 
-
+他はSceneを通してlightCollectionの設定が行われる  
 
 ## LightCollection.h, cpp
 シーンのエミッシブメッシェを集め、EmissiveSampler系列で扱えるようデータ形成とシェーダー変数設定をするためのクラス  
@@ -377,5 +377,5 @@ LightBVH系列でだけ使われるAABB
 ヘッダーコメントにもあるように、すでにFalcorにあるAABB.h、cppがあるので、このようなstruct名になっている  
 AABB.htはcenterとextentだが、これはminPointとmaxPointでAABBを表現している  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NDk4MTQ3Nl19
+eyJoaXN0b3J5IjpbLTE1ODAzMDQ1MzFdfQ==
 -->
