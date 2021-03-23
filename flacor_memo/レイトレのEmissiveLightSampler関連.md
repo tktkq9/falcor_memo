@@ -301,6 +301,7 @@ GPU側でその制御はしてないので、CPU側でちゃんとやらなき�
 
 # LightCollection
 18.4.1 LIGHT PREPROCESSINGの実装  
+GPU側でのlightCollectionの作成たんｔ  
 
 create()、update()、setShaderData()、getActiveLightCount()、getStats()はScene側で、  
 getMeshLightTriangles()はLightBVH側で呼ばれる  
@@ -376,5 +377,5 @@ LightBVH系列でだけ使われるAABB
 ヘッダーコメントにもあるように、すでにFalcorにあるAABB.h、cppがあるので、このようなstruct名になっている  
 AABB.htはcenterとextentだが、これはminPointとmaxPointでAABBを表現している  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MzczNDUwOV19
+eyJoaXN0b3J5IjpbMTM1NDk4MTQ3Nl19
 -->
