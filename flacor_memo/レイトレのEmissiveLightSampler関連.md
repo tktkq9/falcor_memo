@@ -13,7 +13,8 @@ Githubの[ray-tracing-gems/Ch_18_Importance_Sampling_of_Many_Lights_on_the_GPU/]
 on the GPU](https://www.realtimerendering.com/raytracinggems/)  
 の内容が実装されている  
 
-一応LightCollectionの構築方法も
+一応LightCollectionの構築方法も18.4.1 LIGHT PREPROCESSINGにある  
+
 ### EmissiveLightSampler
 メッシュライト（要するに任意の形のエリアライト）のレイトレサンプラー  
 例えばPathTracerHelpers.slangのsampleSceneLights()でライトサンプルするときに使う  
@@ -372,5 +373,5 @@ LightBVH系列でだけ使われるAABB
 ヘッダーコメントにもあるように、すでにFalcorにあるAABB.h、cppがあるので、このようなstruct名になっている  
 AABB.htはcenterとextentだが、これはminPointとmaxPointでAABBを表現している  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDEyMjI5NF19
+eyJoaXN0b3J5IjpbMjA2MzIxMTc3NF19
 -->
