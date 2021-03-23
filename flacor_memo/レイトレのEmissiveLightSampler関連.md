@@ -180,7 +180,7 @@ LightBVHSamplerから渡されたLightBVHBuilderのOptionを設定するだけ
 renderUI()はLightBVHBuilderのOptionの設定のみ  
 
 あと残り90％くらいは全部build()関数とその仲間たちのみ  
-##### build()周り
+### build()周り
 LightCollectionのトライアングルを、BuildingData dataに設定、  
 分割方法としてSplitHeuristicFunctionをgetSplitFunction()から取得し  
 この設定内容とSplitHeuristicFunctionをもとにbuildInternal()でnodesとtriangleIndicesとtriangleBitmasks作成  
@@ -213,7 +213,7 @@ TODO : まだ使われてないので見るの保留
 computeLightingCone()でリーフノードのconeDirectionとcosConeAngleの計算として、  
 computeSplitWithBinnedSAOH()でbinごとのトライアングルのconeDirectionとcosConeAngleの計算と各分割に対するコスト計算ためのconeDirectionとcosConeAngleの計算に使用される  
 
-##### SplitHeuristicFunction集
+### SplitHeuristicFunction集
 LightBVHを分割する際の分割場所判定関数群  
 SplitResult、つまり分割軸とtriangleRangeに対する分割場所を返す（この分割場所はトライアングルインデックスとかではなく、begin(data.trianglesData) + triangleRange.begin + offsetのoffsetに対応する）    
 これらの関数はgetSplitFunction(SplitHeuristic heuristic)によって取得される  
@@ -238,7 +238,7 @@ binとコスト計算の時にcosConeAngle以外いったん全部合成した�
     Equation 1 in Conty & Kulla, "Importance Sampling of Many Lights with Adaptive Tree Splitting", 2018.の計算をしているらしい  
 
 
-#### LightBVH.h, cpp
+## LightBVH.h, cpp
 LightBVH本体  
 主にシェーダー側で使われる変数やバッファーの保持と、そのシェーダー変数への設定処理を担当する  
 シェーダー変数はLightBVH.slangで定義されており、以下のようになっている  
@@ -270,20 +270,20 @@ imguiに表示するLightBVH情報の計算と表示をするためのもの。�
 
 syncDataToCPU()は使われてないっぽいのでスルー  
 
-##### LightBVH.slang
+### LightBVH.slang
 LightBVHのシェーダー変数用の構造体  
 LightBVHがLightBVHSampler.slangで使われる読み込み用  
 RWLightBVHがLightBVHRefit.slangで使われる更新用  
 変数の説明はすでにLightBVH.h, cppで説明してあるのでそっちで  
 
-##### LightBVHTypes.slang
+### LightBVHTypes.slang
 node本体  
 CPU-GPU間のデータ受け渡し用にPackedNodeが使われ、  
 直接dataはいじらずに、pack、unpack用の関数を用いる  
 この関数からInternalNode構造体とかLeafNode構造体とかSharedNodeAttributes構造体とかを取得したり逆にこの構造体を作ってpackしたりといったことを行い、CPU、GPU双方でなんやかんやする  
 なのでdataの中身とかは別に知らんくていい  
 
-##### LightBVHRefit.slang
+### LightBVHRefit.slang
 リーフノード更新用のエントリーポイントupdateLeafNodes()と、  
 リーフじゃないノード更新用のエントリーポイントupdateInternalNodes()のやつ  
 
@@ -299,11 +299,16 @@ TODO : なおflux
 このノードの計算順序は下から順に行わないとおかしくなるが、  
 GPU側でその制御はしてないので、CPU側でちゃんとやらなきゃいけないことに注意  
 
-#### LightCollection.h, cpp
+# LightCollection
 18.4.1 LIGHT PREPROCESSINGの実装  
 
 create()、update()、setShaderData()、getActiveLightCount()、getStats()はScene側で、  
 getMeshLightTriangles()はLightBVH側で呼ばれる  
+
+
+## LightCollection.h, cpp
+
+
 
 シーンのエミッシブメッシェを集め、EmissiveSampler系列で扱えるようデータ形成とシェーダー変数設定をするためのクラス  
 このクラスはScene側で管理され、他の場所からはすでに出来上がったLightCollectionをSceneクラス（とシェーダー変数）を利用するという形  
@@ -344,11 +349,11 @@ TODOコメントにもあるように今後excuteIndirect()でそこもどうに
 computeStats()はimguiに表示するようの情報作成  
 SceneクラスのrenderUI()でのみ呼ばれているので、LightCollection.hの情報を確認したければSceneのimguiを見るとよさそう  
 
-##### BuildTriangleList.cs.slang
+### BuildTriangleList.cs.slang
 PackedEmissiveTriangle（LightCollectionで必要なトライアングルデータをパックしたもの）の配列であるgTriangleDataを作成するためのシェーダー  
 CPU側で割り当てたメッシュ取得用情報CBの値をもとにgSceneのメッシュを取得し、PackedEmissiveTriangleの変数に該当する値を割り当てていくだけ  
 
-##### EmissiveIntegrator.ps.slang
+### EmissiveIntegrator.ps.slang
 Ray Tracing Gems Chapter 18.4.1に書いてある三角形からfluxを計算するためのシェーダーその1  
 ここではトライアングルのテクスチャーの解像度をもとにトライアングルを引き延ばしピクセルシェーダーでミップ0テクスチャートライアングルを描画できるようにする  
 そのピクセルシェーダーから得た値をgTexelSumに格納していくことにより、そのトライアングルのラディアンスの合計を計算する感じ  
@@ -357,21 +362,21 @@ NvInterlockedAddFp32はNVAPIの機能の一つで、なんかatomic処理であ�
 
 このgTexelSumをFinalizeIntegration.cs.slangで処理する  
 
-##### FinalizeIntegration.cs.slang
+### FinalizeIntegration.cs.slang
 Ray Tracing Gems Chapter 18.4.1に書いてある三角形からfluxを計算するためのシェーダーその2  
 トライアングルごとにgTexelSumをluminanceに変換し、トライアングルの面積で割ってpiかけることでfluxを計算する  
 gTriangleDataと同じ配置でgFluxData配列にその値を入れて終わり  
 
-##### UpdateTriangleVertices.cs.slang
+### UpdateTriangleVertices.cs.slang
 update()で行われる、トライアングルの位置とかスケール更新をgTriangleDataに反映するだけ  
 
 ちなみに面積の変更もあるのだが、create()以外ではFinalizeIntegration.cs.slangは呼ばれないので、update()関連処理ではfluxが更新されないことに注意  
 
-#### その他
-##### BBox.h
+## その他
+### BBox.h
 LightBVH系列でだけ使われるAABB  
 ヘッダーコメントにもあるように、すでにFalcorにあるAABB.h、cppがあるので、このようなstruct名になっている  
 AABB.htはcenterとextentだが、これはminPointとmaxPointでAABBを表現している  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgyNTE5NTY2XX0=
+eyJoaXN0b3J5IjpbMjA1MjYwNTgxXX0=
 -->
