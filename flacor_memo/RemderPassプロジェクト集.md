@@ -431,10 +431,11 @@ handleHit()はtraceScatterRay(()で次のサーフェース点を見つけれた
 基本的にはその点まで至ることによる、PathData  pathのrayFootprintの更新（反射による角度の変更はここでは行わない）とoriginとlength（これは距離ではなく、反射回数。変数名がおかしい気がする）の更新を行う  
 その他処理として、kUseNestedDielectricsnの時はpath,interiorListをもとにスループットpath,thpのvolumeAbsorption処理と、  
 ヒットしたサーフェイスがエミッシブな時かつ、エミッシブライトを使う設定になっている時のラディアンスpath.Lの更新も行う  
-（このエミッシブライトを使う設定の条件の一部に!kUseNEE || kUseMIS || !isLightSamplableがあるが謎い）  
+（このエミッシブライトを使う設定の条件の一部に!kUseNEE || kUseMIS || !isLightSamplableがあるがなぜこれがいるのか分からん）  
 あと、kDisableCausticsの時のShadingData sdのDiffuse処理をしているが、その情報を使った計算を行っていないのでこれは多分意味なし  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwMzA0MzY2LC0xMTU3MTg2NzcwLDExOD
-M2Njk3OTQsLTEyNTE5Njg2MjQsLTQ4MTE1NDQxMV19
+eyJoaXN0b3J5IjpbMTk4NTQ3NDM5Niw5MjAzMDQzNjYsLTExNT
+cxODY3NzAsMTE4MzY2OTc5NCwtMTI1MTk2ODYyNCwtNDgxMTU0
+NDExXX0=
 -->
