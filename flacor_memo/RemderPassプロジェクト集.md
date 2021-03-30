@@ -436,9 +436,10 @@ TODO : このエミッシブライトを使う設定の条件の一部に!kUseNE
 
 
 #### InteriorListの使われ方について
-コードを見た感じ、あるボリュームとボリュームが重なっていた場合、プライオリティが高いほうが
+コードを見た感じ、複数のボリュームが重なっていた場合、最もプライオリティの高いボリュームにヒットし出ていくまで色を評価しないようなコードとなっているっぽい  
+また、
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTMwODQxMzUsOTIwMzA0MzY2LC0xMT
+eyJoaXN0b3J5IjpbLTE5MDYzODY3MjIsOTIwMzA0MzY2LC0xMT
 U3MTg2NzcwLDExODM2Njk3OTQsLTEyNTE5Njg2MjQsLTQ4MTE1
 NDQxMV19
 -->
