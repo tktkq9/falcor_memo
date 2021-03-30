@@ -438,10 +438,12 @@ TODO : このエミッシブライトを使う設定の条件の一部に!kUseNE
 traceScatterRay()を見た感じ、  
 ☆プライオリティが高いサーフェース内 -> プライオリティが低いサーフェースエンター  
 の場合以外は次のサーフェースにヒットした時点でTraceRay()を終了している  
-逆に☆の場合はInteriorListにその情報は入るものの、ひっとしたさい
+逆に☆の場合はInteriorListにその情報は入るものの、ヒットした際の反射屈折処理とそは無視される  
+
+このようなことから、球の内部に
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTQzMTM1LDk3OTcyMzQ3MSwtMTQ3Nj
-Q4MDIxNywtMTM5MTAxNzM1MywtMzU4MDAyMTksOTIwMzA0MzY2
-LC0xMTU3MTg2NzcwLDExODM2Njk3OTQsLTEyNTE5Njg2MjQsLT
-Q4MTE1NDQxMV19
+eyJoaXN0b3J5IjpbMTE0ODQzODk1Myw5Nzk3MjM0NzEsLTE0Nz
+Y0ODAyMTcsLTEzOTEwMTczNTMsLTM1ODAwMjE5LDkyMDMwNDM2
+NiwtMTE1NzE4Njc3MCwxMTgzNjY5Nzk0LC0xMjUxOTY4NjI0LC
+00ODExNTQ0MTFdfQ==
 -->
