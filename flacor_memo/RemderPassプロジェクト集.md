@@ -436,11 +436,11 @@ TODO : このエミッシブライトを使う設定の条件の一部に!kUseNE
 
 
 #### InteriorListの使われ方について
-コードを見た感じ、複数のボリュームが重なっていた場合、最もプライオリティの高いボリュームにヒットし出ていくまでスループットを評価しないようなコードとなっているっぽい  
-そして、たとえほかのボリュームの中にいたとしても、最もプライオリティの高いサーフェースから出た時点で、いったんスループットが評価され、次の散乱処理が行われる  
-また、スループットの計算は最初にヒットした
+コードを見た感じ、複数のボリュームが重なっていた場合、最もプライオリティの高いボリュームにヒットし出ていくまでTraceRay()を継続し、スループットを評価しないようなコードとなっているっぽい  
+そして、たとえほかのボリュームの中にいたとしても、最もプライオリティの高いサーフェースから出た時点で、いったんスループットが評価され、bounce回数が加算され、次の散乱処理が行われる  
+さらに、スループットの計算はpath.origin（） - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzM5OTYxMTIsOTIwMzA0MzY2LC0xMT
-U3MTg2NzcwLDExODM2Njk3OTQsLTEyNTE5Njg2MjQsLTQ4MTE1
-NDQxMV19
+eyJoaXN0b3J5IjpbODcyODQ4MTg4LDkyMDMwNDM2NiwtMTE1Nz
+E4Njc3MCwxMTgzNjY5Nzk0LC0xMjUxOTY4NjI0LC00ODExNTQ0
+MTFdfQ==
 -->
