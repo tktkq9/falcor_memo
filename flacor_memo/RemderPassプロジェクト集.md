@@ -442,12 +442,12 @@ traceScatterRay()を見た感じ、
 このようなことから、コードこそ違えど、Ray Tracing Gems Chapter 11: Automatic Handling of Materials in Nested Volumes の実装となっているっぽい  
 
 ちなみにこの実装だと内部反射オッケーだと思われ  
-（ちゃんとkUseLightsInVolumesじゃない!path.isInsideVolume()でライト計算しない処理している。逆にkUseLightsInVolumesの場合は、現状ライト計算する際のボリュームの減衰が考慮されていないので非奨励。それっぽいことがuseLightsInVolumesのコメントにも書いてる）  
+（ちゃんとkUseLightsInVolumesじゃない場合!path.isInsideVolume()でライト計算しない処理している。逆にkUseLightsInVolumesの場合は、現状ライト計算する際のボリュームの減衰が考慮されていないので非奨励。それっぽいことがuseLightsInVolumesのコメントにも書いてる）  
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NzcxNzg2MSwtMTA4NTg4ODg1OSw5Nz
-k3MjM0NzEsLTE0NzY0ODAyMTcsLTEzOTEwMTczNTMsLTM1ODAw
-MjE5LDkyMDMwNDM2NiwtMTE1NzE4Njc3MCwxMTgzNjY5Nzk0LC
-0xMjUxOTY4NjI0LC00ODExNTQ0MTFdfQ==
+eyJoaXN0b3J5IjpbLTU2NzMzMzk0NSwtMzg3NzE3ODYxLC0xMD
+g1ODg4ODU5LDk3OTcyMzQ3MSwtMTQ3NjQ4MDIxNywtMTM5MTAx
+NzM1MywtMzU4MDAyMTksOTIwMzA0MzY2LC0xMTU3MTg2NzcwLD
+ExODM2Njk3OTQsLTEyNTE5Njg2MjQsLTQ4MTE1NDQxMV19
 -->
