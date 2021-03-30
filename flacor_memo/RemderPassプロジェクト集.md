@@ -427,19 +427,18 @@ out : dst、画像を出力、formatは他のパス（or デフォルト処理�
 ### PathTracer.slang
 
 
-- handleHit() : traceScatterRay(()で次のサーフェース点を見つけれた時のPathData  pathの更新処理  
+- handleHit() : traceScatterRay(()で次のサーフェース点を見つけれた時のPathData  pathとShadingData  sdの更新処理  
 基本的にはその点まで至ることによる、path.rayFootprintの更新（反射による角度の変更はここでは行わない）とoriginとlength（lengthは距離ではなく、反射回数。変数名がおかしい気がする）の更新を行う  
 その他処理として、kUseNestedDielectricsnの時はpath,interiorListをもとにスループットpath,thpのvolumeAbsorption処理と、  
 ヒットしたサーフェイスがエミッシブな時かつ、エミッシブライトを使う設定になっている時のラディアンスpath.Lの更新も行う  
 TODO : このエミッシブライトを使う設定の条件の一部に!kUseNEE || kUseMIS || !isLightSamplableがあるがなぜこれが必要なのか分からん  
-あと、kDisableCausticsの時のShadingData sdのDiffuse処理をしているが、その情報を使った計算を行っていないのでこれは多分意味なし  
-
+あと、kDisableCausticsの時はShadingData sdのDiffuse処理をしている  
 
 #### InteriorListの使われ方について
 traceScatterRay()を見た感じ、  
 プライオリティが低いサーフェースにエンター -> 同じサーフェースからアウト  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTEwMTczNTMsLTM1ODAwMjE5LDkyMD
-MwNDM2NiwtMTE1NzE4Njc3MCwxMTgzNjY5Nzk0LC0xMjUxOTY4
-NjI0LC00ODExNTQ0MTFdfQ==
+eyJoaXN0b3J5IjpbMjEzMjA3NTk2NiwtMTM5MTAxNzM1MywtMz
+U4MDAyMTksOTIwMzA0MzY2LC0xMTU3MTg2NzcwLDExODM2Njk3
+OTQsLTEyNTE5Njg2MjQsLTQ4MTE1NDQxMV19
 -->
