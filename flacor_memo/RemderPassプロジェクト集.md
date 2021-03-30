@@ -435,9 +435,10 @@ TODO : このエミッシブライトを使う設定の条件の一部に!kUseNE
 あと、kDisableCausticsの時のShadingData sdのDiffuse処理をしているが、その情報を使った計算を行っていないのでこれは多分意味なし  
 
 
-#### 
+#### InteriorListの使われ方について
+コードを見た感じ、あるボリュームとボリュームが重なっていた場合、プライオリティが高いほうが
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3Mzc4MDQ2LDkyMDMwNDM2NiwtMTE1Nz
-E4Njc3MCwxMTgzNjY5Nzk0LC0xMjUxOTY4NjI0LC00ODExNTQ0
-MTFdfQ==
+eyJoaXN0b3J5IjpbLTIwNTMwODQxMzUsOTIwMzA0MzY2LC0xMT
+U3MTg2NzcwLDExODM2Njk3OTQsLTEyNTE5Njg2MjQsLTQ4MTE1
+NDQxMV19
 -->
