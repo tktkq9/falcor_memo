@@ -441,9 +441,9 @@ TODO : このエミッシブライトを使う設定の条件の一部に!kUseNE
 
 さらに、スループットの計算のための距離は、  
 path.origin（最初のTraceRay()を始めた場所） - v.posW（プライオリティが高いサーフェースを出た時点での位置）  
-となるので
+となるのでぷらいおりて
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzc3NTYxNTMsOTIwMzA0MzY2LC0xMT
+eyJoaXN0b3J5IjpbLTIwOTEzOTY5NDEsOTIwMzA0MzY2LC0xMT
 U3MTg2NzcwLDExODM2Njk3OTQsLTEyNTE5Njg2MjQsLTQ4MTE1
 NDQxMV19
 -->
