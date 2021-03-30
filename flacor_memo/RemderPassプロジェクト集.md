@@ -419,10 +419,18 @@ out : dst、画像を出力、formatは他のパス（or デフォルト処理�
 
 ## MegakernelPathTracerプロジェクト
 
-### MegakernelPathTracer
+### MegakernelPathTracer.h, cpp
+
+### PathTracer.rt.slang
+
+
+### PathTracer.slang
+
+
+handleHit()
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MTE1NDQxMV19
+eyJoaXN0b3J5IjpbLTEyNTE5Njg2MjQsLTQ4MTE1NDQxMV19
 -->
