@@ -441,9 +441,11 @@ TODO : このエミッシブライトを使う設定の条件の一部に!kUseNE
 
 さらに、スループットの計算のための距離は、  
 path.origin（最初のTraceRay()を始めた場所） - v.posW（プライオリティが高いサーフェースを出た時点での位置）  
-となるのでぷらいおりて
+となってるっぽいので  
+プライオリティ低スタート -> プライオリティ高エンター -> プライオリティ高アウト  
+とかになった場合おかしな色になるかもしれない
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTEzOTY5NDEsOTIwMzA0MzY2LC0xMT
-U3MTg2NzcwLDExODM2Njk3OTQsLTEyNTE5Njg2MjQsLTQ4MTE1
-NDQxMV19
+eyJoaXN0b3J5IjpbLTM1ODAwMjE5LDkyMDMwNDM2NiwtMTE1Nz
+E4Njc3MCwxMTgzNjY5Nzk0LC0xMjUxOTY4NjI0LC00ODExNTQ0
+MTFdfQ==
 -->
