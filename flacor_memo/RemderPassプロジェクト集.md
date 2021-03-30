@@ -441,11 +441,12 @@ traceScatterRay()を見た感じ、
 逆に☆の場合はInteriorListにその情報は入るものの、ヒットした際の反射屈折処理とそのマテリアルによるスループットの減衰は無視される（スループットはプライオリティの高いマテリアルのが適用される）  
 このようなことから、コードこそ違えど、Ray Tracing Gems Chapter 11: Automatic Handling of Materials in Nested Volumes の実装となっているっぽい  
 ちなみにこの実装だと内部反射オッケーだと思われ  
+（ちゃんと!path.isInsideVolume()でライト計算しない処理している）  
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODk4NTAwMCwtMTA4NTg4ODg1OSw5Nz
-k3MjM0NzEsLTE0NzY0ODAyMTcsLTEzOTEwMTczNTMsLTM1ODAw
-MjE5LDkyMDMwNDM2NiwtMTE1NzE4Njc3MCwxMTgzNjY5Nzk0LC
-0xMjUxOTY4NjI0LC00ODExNTQ0MTFdfQ==
+eyJoaXN0b3J5IjpbLTE4MDAyNDY4MDMsLTEwODU4ODg4NTksOT
+c5NzIzNDcxLC0xNDc2NDgwMjE3LC0xMzkxMDE3MzUzLC0zNTgw
+MDIxOSw5MjAzMDQzNjYsLTExNTcxODY3NzAsMTE4MzY2OTc5NC
+wtMTI1MTk2ODYyNCwtNDgxMTU0NDExXX0=
 -->
