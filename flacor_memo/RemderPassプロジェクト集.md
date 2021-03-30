@@ -427,11 +427,11 @@ out : dst、画像を出力、formatは他のパス（or デフォルト処理�
 ### PathTracer.slang
 
 
-handleHit()はtraceScatterRay(()で次のサーフェースを見つけれた時のラディアンスpath.L
-
+handleHit()はtraceScatterRay(()で次のサーフェース点を見つけれた時の処理で、  
+その点まで至ることによる、PathData  pathのrayFootprintの更新（反射による角度の）
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MzY2OTc5NCwtMTI1MTk2ODYyNCwtND
-gxMTU0NDExXX0=
+eyJoaXN0b3J5IjpbLTE5NTY2NDc4MDksMTE4MzY2OTc5NCwtMT
+I1MTk2ODYyNCwtNDgxMTU0NDExXX0=
 -->
