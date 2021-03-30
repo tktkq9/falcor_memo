@@ -439,12 +439,12 @@ traceScatterRay()を見た感じ、
 ☆プライオリティが高いサーフェース内 -> プライオリティが低いサーフェースエンター  
 の場合以外は次のサーフェースにヒットした時点でTraceRay()を終了している  
 逆に☆の場合はInteriorListにその情報は入るものの、ヒットした際の反射屈折処理とそのマテリアルによるスループットの減衰は無視される（スループットはプライオリティの高いマテリアルのが適用される）  
-このようなことから、コードこそ違えど、
+このようなことから、コードこそ違えど、Ray Tracing Gems Chapter 11: Automatic Handling of Materials in Nested Volumes の実装となっているっぽい  
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODU4ODg4NTksOTc5NzIzNDcxLC0xND
-c2NDgwMjE3LC0xMzkxMDE3MzUzLC0zNTgwMDIxOSw5MjAzMDQz
-NjYsLTExNTcxODY3NzAsMTE4MzY2OTc5NCwtMTI1MTk2ODYyNC
-wtNDgxMTU0NDExXX0=
+eyJoaXN0b3J5IjpbLTg4MzI0NzE0NiwtMTA4NTg4ODg1OSw5Nz
+k3MjM0NzEsLTE0NzY0ODAyMTcsLTEzOTEwMTczNTMsLTM1ODAw
+MjE5LDkyMDMwNDM2NiwtMTE1NzE4Njc3MCwxMTgzNjY5Nzk0LC
+0xMjUxOTY4NjI0LC00ODExNTQ0MTFdfQ==
 -->
