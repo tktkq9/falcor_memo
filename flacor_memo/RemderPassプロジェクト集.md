@@ -428,10 +428,11 @@ out : dst、画像を出力、formatは他のパス（or デフォルト処理�
 
 
 handleHit()はtraceScatterRay(()で次のサーフェース点を見つけれた時の処理で、  
-その点まで至ることによる、PathData  pathのrayFootprintの更新（反射による角度の変更はここでは行わない）とoriginとlengthの更新を行う
+その点まで至ることによる、PathData  pathのrayFootprintの更新（反射による角度の変更はここでは行わない）とoriginとlength（これは距離ではなく、反射回数。変数名がおかしい気がする）の更新を行う  
+また、
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NzI4MTczMCwxMTgzNjY5Nzk0LC0xMj
-UxOTY4NjI0LC00ODExNTQ0MTFdfQ==
+eyJoaXN0b3J5IjpbLTExNTcxODY3NzAsMTE4MzY2OTc5NCwtMT
+I1MTk2ODYyNCwtNDgxMTU0NDExXX0=
 -->
