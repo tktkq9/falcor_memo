@@ -429,10 +429,11 @@ out : dst、画像を出力、formatは他のパス（or デフォルト処理�
 
 handleHit()はtraceScatterRay(()で次のサーフェース点を見つけれた時の処理で、  
 その点まで至ることによる、PathData  pathのrayFootprintの更新（反射による角度の変更はここでは行わない）とoriginとlength（これは距離ではなく、反射回数。変数名がおかしい気がする）の更新を行う  
-また、
+また、kUseNestedDielectricsnの時はinteriorListをもとにpath,thpni
 
+あと、kDisableCausticsの時のShadingData sdのDiffuse処理をしているが、その情報を使った計算を行っていないのでこれは多分意味なし  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTcxODY3NzAsMTE4MzY2OTc5NCwtMT
-I1MTk2ODYyNCwtNDgxMTU0NDExXX0=
+eyJoaXN0b3J5IjpbLTE0NzQ1MTI4MjUsLTExNTcxODY3NzAsMT
+E4MzY2OTc5NCwtMTI1MTk2ODYyNCwtNDgxMTU0NDExXX0=
 -->
