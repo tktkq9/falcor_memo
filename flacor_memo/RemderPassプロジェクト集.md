@@ -438,12 +438,12 @@ TODO : このエミッシブライトを使う設定の条件の一部に!kUseNE
 traceScatterRay()を見た感じ、  
 ☆プライオリティが高いサーフェース内 -> プライオリティが低いサーフェースエンター  
 の場合以外は次のサーフェースにヒットした時点でTraceRay()を終了している  
-逆に☆の場合はInteriorListにその情報は入るものの、ヒットした際の反射屈折処理とそは無視される  
+逆に☆の場合はInteriorListにその情報は入るものの、ヒットした際の反射屈折処理とそのマテリアルによるスループットの減衰は無視される（スループットはプライオリティの高いマテリアルのが適用される）  
 
-このようなことから、球の内部に
+このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこをきをつけたほうが
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODQzODk1Myw5Nzk3MjM0NzEsLTE0Nz
-Y0ODAyMTcsLTEzOTEwMTczNTMsLTM1ODAwMjE5LDkyMDMwNDM2
-NiwtMTE1NzE4Njc3MCwxMTgzNjY5Nzk0LC0xMjUxOTY4NjI0LC
-00ODExNTQ0MTFdfQ==
+eyJoaXN0b3J5IjpbLTIwMjI4NTA3NTIsOTc5NzIzNDcxLC0xND
+c2NDgwMjE3LC0xMzkxMDE3MzUzLC0zNTgwMDIxOSw5MjAzMDQz
+NjYsLTExNTcxODY3NzAsMTE4MzY2OTc5NCwtMTI1MTk2ODYyNC
+wtNDgxMTU0NDExXX0=
 -->
