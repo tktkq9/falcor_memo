@@ -434,8 +434,10 @@ out : dst、画像を出力、formatは他のパス（or デフォルト処理�
 TODO : このエミッシブライトを使う設定の条件の一部に!kUseNEE || kUseMIS || !isLightSamplableがあるがなぜこれが必要なのか分からん  
 あと、kDisableCausticsの時のShadingData sdのDiffuse処理をしているが、その情報を使った計算を行っていないのでこれは多分意味なし  
 
+
+#### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODIxMDIxNCw5MjAzMDQzNjYsLTExNT
-cxODY3NzAsMTE4MzY2OTc5NCwtMTI1MTk2ODYyNCwtNDgxMTU0
-NDExXX0=
+eyJoaXN0b3J5IjpbMTE3Mzc4MDQ2LDkyMDMwNDM2NiwtMTE1Nz
+E4Njc3MCwxMTgzNjY5Nzk0LC0xMjUxOTY4NjI0LC00ODExNTQ0
+MTFdfQ==
 -->
