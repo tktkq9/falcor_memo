@@ -437,10 +437,11 @@ TODO : このエミッシブライトを使う設定の条件の一部に!kUseNE
 #### InteriorListの使われ方について
 traceScatterRay()を見た感じ、  
 プライオリティが高いサーフェース内 -> プライオリティが低いサーフェースエンター  
-の場合以外は基本的に次のサーフェースにヒットした時点で
+の場合以外は次のサーフェースにヒットした時点でTraceRay()を終了している  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzY5NzczMDYsLTE0NzY0ODAyMTcsLT
-EzOTEwMTczNTMsLTM1ODAwMjE5LDkyMDMwNDM2NiwtMTE1NzE4
-Njc3MCwxMTgzNjY5Nzk0LC0xMjUxOTY4NjI0LC00ODExNTQ0MT
-FdfQ==
+eyJoaXN0b3J5IjpbOTc5NzIzNDcxLC0xNDc2NDgwMjE3LC0xMz
+kxMDE3MzUzLC0zNTgwMDIxOSw5MjAzMDQzNjYsLTExNTcxODY3
+NzAsMTE4MzY2OTc5NCwtMTI1MTk2ODYyNCwtNDgxMTU0NDExXX
+0=
 -->
