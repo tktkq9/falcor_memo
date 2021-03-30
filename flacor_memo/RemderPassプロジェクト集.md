@@ -439,10 +439,11 @@ traceScatterRay()を見た感じ、
 ☆プライオリティが高いサーフェース内 -> プライオリティが低いサーフェースエンター  
 の場合以外は次のサーフェースにヒットした時点でTraceRay()を終了している  
 逆に☆の場合はInteriorListにその情報は入るものの、ヒットした際の反射屈折処理とそのマテリアルによるスループットの減衰は無視される（スループットはプライオリティの高いマテリアルのが適用される）  
+このようなことから、コードこそ違えど、
 
-このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこをきをつけたほうが
+このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjI4NTA3NTIsOTc5NzIzNDcxLC0xND
+eyJoaXN0b3J5IjpbLTEwODU4ODg4NTksOTc5NzIzNDcxLC0xND
 c2NDgwMjE3LC0xMzkxMDE3MzUzLC0zNTgwMDIxOSw5MjAzMDQz
 NjYsLTExNTcxODY3NzAsMTE4MzY2OTc5NCwtMTI1MTk2ODYyNC
 wtNDgxMTU0NDExXX0=
