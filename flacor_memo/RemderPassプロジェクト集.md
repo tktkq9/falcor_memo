@@ -437,9 +437,9 @@ TODO : このエミッシブライトを使う設定の条件の一部に!kUseNE
 
 #### InteriorListの使われ方について
 traceScatterRay()を見た感じ、  
-プライオリティが低いサーフェースの外側スタート -> 同じサーフェースの
+プライオリティが低いサーフェースにエンター -> 同じサーフェースからアウト  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTg2NDkyMiwtMzU4MDAyMTksOTIwMz
-A0MzY2LC0xMTU3MTg2NzcwLDExODM2Njk3OTQsLTEyNTE5Njg2
-MjQsLTQ4MTE1NDQxMV19
+eyJoaXN0b3J5IjpbLTEzOTEwMTczNTMsLTM1ODAwMjE5LDkyMD
+MwNDM2NiwtMTE1NzE4Njc3MCwxMTgzNjY5Nzk0LC0xMjUxOTY4
+NjI0LC00ODExNTQ0MTFdfQ==
 -->
