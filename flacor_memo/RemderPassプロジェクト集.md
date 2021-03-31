@@ -459,6 +459,7 @@ raygenerationシェーダーは
 tracePath()とその内部で呼ばれている関数たち  
 レイトレ（パストレ）アルゴリズム実装部分  
 複数回反射屈折、ボリューム考慮、ライト多数、NEE、MIS、RayFootpring処理などなどといった、  
+PathTracerParams構造体のレイトレアルゴリズム設定のだいたい（すべて？）に対応している  
 
 
 - handleHit() : traceScatterRay(()で次のサーフェース点を見つけれた時のPathData  pathとShadingData  sdの更新処理  
@@ -480,7 +481,7 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDQyMDQ0MTYsMTcxMzg0MjA5OSwtMT
+eyJoaXN0b3J5IjpbLTE2NjYwMjQyMDAsMTcxMzg0MjA5OSwtMT
 U0NDUyOTUzOCwtNTY3MzMzOTQ1LC0zODc3MTc4NjEsLTEwODU4
 ODg4NTksOTc5NzIzNDcxLC0xNDc2NDgwMjE3LC0xMzkxMDE3Mz
 UzLC0zNTgwMDIxOSw5MjAzMDQzNjYsLTExNTcxODY3NzAsMTE4
