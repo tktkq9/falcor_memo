@@ -448,6 +448,7 @@ out : gOutputTime、各ピクセルのレイトレ完了までにかかった時
 反射屈折した方向にレイを飛ばし、次のトライアングルを見つけるためにある、kRayTypeScatterのmiss、anyhit、closesthitシェーダー（こちらはヒットした情報HitInfoを格納する。ヒットしなかったらHitInfo::kInvalidIndexになる）と、  
 raygenerationシェーダーを定義しているシェーダーファイル  
 RtProgram作る用  
+リカーシブ処理はされておらず、反射屈折はtracePath()のfo
 
 raygenerationシェーダーは  
 まず、loadShadingData()によってG or VBufferからShadingData（トライアングルのマテリアル的な情報）とHitInfo（トライアングルの位置情報）を取得し、  
@@ -514,7 +515,7 @@ traceScatterRay()を見た感じ、
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTg3MzUwNzUsLTIwOTc3OTA5ODEsMT
+eyJoaXN0b3J5IjpbLTExNjMwNzk3ODUsLTIwOTc3OTA5ODEsMT
 YwNzMxNzM3OSwtMTc1OTQxMTY2OCwxMDAxMzgyNTY2LDE3MTM4
 NDIwOTksLTE1NDQ1Mjk1MzgsLTU2NzMzMzk0NSwtMzg3NzE3OD
 YxLC0xMDg1ODg4ODU5LDk3OTcyMzQ3MSwtMTQ3NjQ4MDIxNywt
