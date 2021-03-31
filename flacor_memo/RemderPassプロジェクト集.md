@@ -418,7 +418,9 @@ DOFありの場合は1サンプルしかなくノイズが発生するはずな�
 out : dst、画像を出力、formatは他のパス（or デフォルト処理）でdstに設定したものをそのまま  
 
 ## MegakernelPathTracerプロジェクト
-PathTracerを使った、レイトレパス  
+PathTracerを使ったレイトレパス  
+レイトレアルゴリズム全部入り。みたかんじ重そう。おそらく確認用 　
+ 
 PathTracer.cppの内容と、それ関連のシェーダーを使い、PathTracer.rt.slangを実行する  
 
 PathTracer.cppや、PathTracer.rt.slangとPathTracer.slangで使われる関数は[レイトレ関連](https://github.com/tktkq9/falcor_memo/blob/master/flacor_memo/%E3%83%AC%E3%82%A4%E3%83%88%E3%83%AC%E9%96%A2%E9%80%A3.md)の方でまとめてある  
@@ -484,7 +486,7 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMDU1MzAxNCwxMDAxMzgyNTY2LDE3MT
+eyJoaXN0b3J5IjpbLTUxOTI0OTU4NywxMDAxMzgyNTY2LDE3MT
 M4NDIwOTksLTE1NDQ1Mjk1MzgsLTU2NzMzMzk0NSwtMzg3NzE3
 ODYxLC0xMDg1ODg4ODU5LDk3OTcyMzQ3MSwtMTQ3NjQ4MDIxNy
 wtMTM5MTAxNzM1MywtMzU4MDAyMTksOTIwMzA0MzY2LC0xMTU3
