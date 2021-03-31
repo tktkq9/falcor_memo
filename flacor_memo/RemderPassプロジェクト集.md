@@ -495,6 +495,8 @@ TODO : このエミッシブライトを使う設定の条件の一部に!kUseNE
 あと、kDisableCausticsの時はShadingData sdのDiffuse処理をしている  
 - handleMiss() : 
 
+ちなみに、MIS部分の処理は、handleHit()handleMiss()
+
 #### InteriorListの使われ方について
 traceScatterRay()を見た感じ、  
 ☆プライオリティが高いサーフェース内 -> プライオリティが低いサーフェースエンター  
@@ -507,11 +509,11 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI0ODY3MzUzLC0yMDk3NzkwOTgxLDE2MD
-czMTczNzksLTE3NTk0MTE2NjgsMTAwMTM4MjU2NiwxNzEzODQy
-MDk5LC0xNTQ0NTI5NTM4LC01NjczMzM5NDUsLTM4NzcxNzg2MS
-wtMTA4NTg4ODg1OSw5Nzk3MjM0NzEsLTE0NzY0ODAyMTcsLTEz
-OTEwMTczNTMsLTM1ODAwMjE5LDkyMDMwNDM2NiwtMTE1NzE4Nj
-c3MCwxMTgzNjY5Nzk0LC0xMjUxOTY4NjI0LC00ODExNTQ0MTFd
-fQ==
+eyJoaXN0b3J5IjpbLTE5ODc1MTAyMTMsLTIwOTc3OTA5ODEsMT
+YwNzMxNzM3OSwtMTc1OTQxMTY2OCwxMDAxMzgyNTY2LDE3MTM4
+NDIwOTksLTE1NDQ1Mjk1MzgsLTU2NzMzMzk0NSwtMzg3NzE3OD
+YxLC0xMDg1ODg4ODU5LDk3OTcyMzQ3MSwtMTQ3NjQ4MDIxNywt
+MTM5MTAxNzM1MywtMzU4MDAyMTksOTIwMzA0MzY2LC0xMTU3MT
+g2NzcwLDExODM2Njk3OTQsLTEyNTE5Njg2MjQsLTQ4MTE1NDQx
+MV19
 -->
