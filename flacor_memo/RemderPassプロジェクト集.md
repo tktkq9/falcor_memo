@@ -432,7 +432,8 @@ mpScene->raytrace()を行うだけ
 あとは最後にPathTracerクラスのbeginFrame()を呼ぶ  
 
 入出力はPathTracerクラスのもの＋  
-out : gOutputColor、
+out : gOutputColor、描画結果  
+out : gOutputAlbedo
 
 ### PathTracer.rt.slang
 
@@ -459,9 +460,9 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NjQzMDk1NiwtMTU0NDUyOTUzOCwtNT
-Y3MzMzOTQ1LC0zODc3MTc4NjEsLTEwODU4ODg4NTksOTc5NzIz
-NDcxLC0xNDc2NDgwMjE3LC0xMzkxMDE3MzUzLC0zNTgwMDIxOS
-w5MjAzMDQzNjYsLTExNTcxODY3NzAsMTE4MzY2OTc5NCwtMTI1
-MTk2ODYyNCwtNDgxMTU0NDExXX0=
+eyJoaXN0b3J5IjpbNTQ1NDM0MDQzLC0xNTQ0NTI5NTM4LC01Nj
+czMzM5NDUsLTM4NzcxNzg2MSwtMTA4NTg4ODg1OSw5Nzk3MjM0
+NzEsLTE0NzY0ODAyMTcsLTEzOTEwMTczNTMsLTM1ODAwMjE5LD
+kyMDMwNDM2NiwtMTE1NzE4Njc3MCwxMTgzNjY5Nzk0LC0xMjUx
+OTY4NjI0LC00ODExNTQ0MTFdfQ==
 -->
