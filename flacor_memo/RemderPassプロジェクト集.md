@@ -421,7 +421,7 @@ out : dst、画像を出力、formatは他のパス（or デフォルト処理�
 PathTracerを使った、レイトレパス  
 PathTracer.cppの内容と、それ関連のシェーダーを使い、PathTracer.rt.slangを実行する  
 
-PathTracer.cppや、PathTracer.rt.slangとPathTracer.slangで使われる関数は[レイトレ関連](%E3%83%AC%E3%82%A4%E3%83%88%E3%83%AC%E9%96%A2%E9%80%A3.md)の方でまとめてある  
+PathTracer.cppや、PathTracer.rt.slangとPathTracer.slangで使われる関数は[レイトレ関連](https://github.com/tktkq9/falcor_memo/blob/master/flacor_memo/%E3%83%AC%E3%82%A4%E3%83%88%E3%83%AC%E9%96%A2%E9%80%A3.md)の方でまとめてある  
 
 ### MegakernelPathTracer.h, cpp
 このクラス自体は、PathTracer.rt.slang用のRtProgramやRtProgramVarsなどを作成し、変数を割り当てるのと、継承元のPathTracerクラスの処理を活用したexcute()処理のみ  
@@ -466,7 +466,7 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5OTkzMDY2NSwxNzEzODQyMDk5LC0xNT
+eyJoaXN0b3J5IjpbMTcxMzg0MjA5OSwxNzEzODQyMDk5LC0xNT
 Q0NTI5NTM4LC01NjczMzM5NDUsLTM4NzcxNzg2MSwtMTA4NTg4
 ODg1OSw5Nzk3MjM0NzEsLTE0NzY0ODAyMTcsLTEzOTEwMTczNT
 MsLTM1ODAwMjE5LDkyMDMwNDM2NiwtMTE1NzE4Njc3MCwxMTgz
