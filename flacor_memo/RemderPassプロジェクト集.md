@@ -431,10 +431,10 @@ PathTracer.rt.slang用のシェーダー変数を割り当て、
 mpScene->raytrace()を行うだけ  
 あとは最後にPathTracerクラスのbeginFrame()を呼ぶ  
 
-入出力はPathTracerクラスのもの＋  
+入出力はPathTracerクラスのものぷらす
 out : gOutputColor、描画結果  
-out : gOutputAlbedo、最初にヒットした面のdiffuse + specular or 背景色、何用だろ  
-
+out : gOutputAlbedo、最初にヒットした面のdiffuse + specular or 背景色、何用？  
+out : gOutputTime、各ピクセルのレイトレ完了までにかかった時間  
 
 ### PathTracer.rt.slang
 
@@ -461,7 +461,7 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2OTIxMjk3MCwtMTU0NDUyOTUzOCwtNT
+eyJoaXN0b3J5IjpbLTI3Njk1Mzc0MCwtMTU0NDUyOTUzOCwtNT
 Y3MzMzOTQ1LC0zODc3MTc4NjEsLTEwODU4ODg4NTksOTc5NzIz
 NDcxLC0xNDc2NDgwMjE3LC0xMzkxMDE3MzUzLC0zNTgwMDIxOS
 w5MjAzMDQzNjYsLTExNTcxODY3NzAsMTE4MzY2OTc5NCwtMTI1
