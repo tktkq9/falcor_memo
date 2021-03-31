@@ -493,9 +493,9 @@ forループはinteriorList用、これをしないとプライオリティの�
 ヒットしたサーフェイスがエミッシブな時かつ、エミッシブライトを使う設定になっている時のラディアンスpath.Lの更新も行う  
 TODO : このエミッシブライトを使う設定の条件の一部に!kUseNEE || kUseMIS || !isLightSamplableがあるがなぜこれが必要なのか分からん  
 あと、kDisableCausticsの時はShadingData sdのDiffuse処理をしている  
-- handleMiss() : 
+- handleMiss() : envMapSamplerを使って環境マップのラディアンスを取得して
 
-ちなみに、MIS部分の処理はevalDirect()、handleHit()、handleMiss()などのライトサンプリング（）
+ちなみに、MIS部分の処理はevalDirect()、handleHit()、handleMiss()などのライトサンプリングでpath.Lに加算するときに計算されている  
 
 #### InteriorListの使われ方について
 traceScatterRay()を見た感じ、  
@@ -509,11 +509,11 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDExNjM3NjEsLTIwOTc3OTA5ODEsMT
-YwNzMxNzM3OSwtMTc1OTQxMTY2OCwxMDAxMzgyNTY2LDE3MTM4
-NDIwOTksLTE1NDQ1Mjk1MzgsLTU2NzMzMzk0NSwtMzg3NzE3OD
-YxLC0xMDg1ODg4ODU5LDk3OTcyMzQ3MSwtMTQ3NjQ4MDIxNywt
-MTM5MTAxNzM1MywtMzU4MDAyMTksOTIwMzA0MzY2LC0xMTU3MT
-g2NzcwLDExODM2Njk3OTQsLTEyNTE5Njg2MjQsLTQ4MTE1NDQx
-MV19
+eyJoaXN0b3J5IjpbLTIzMTc2NDk0OCwtMjA5Nzc5MDk4MSwxNj
+A3MzE3Mzc5LC0xNzU5NDExNjY4LDEwMDEzODI1NjYsMTcxMzg0
+MjA5OSwtMTU0NDUyOTUzOCwtNTY3MzMzOTQ1LC0zODc3MTc4Nj
+EsLTEwODU4ODg4NTksOTc5NzIzNDcxLC0xNDc2NDgwMjE3LC0x
+MzkxMDE3MzUzLC0zNTgwMDIxOSw5MjAzMDQzNjYsLTExNTcxOD
+Y3NzAsMTE4MzY2OTc5NCwtMTI1MTk2ODYyNCwtNDgxMTU0NDEx
+XX0=
 -->
