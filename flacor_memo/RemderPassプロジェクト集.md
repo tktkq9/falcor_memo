@@ -456,7 +456,9 @@ raygenerationシェーダーは
 こんな感で、このシェーダーファイルはCPU側との橋渡し用となっている  
 
 ### PathTracer.slang
-tracePath()
+tracePath()とその内部で呼ばれている関数たち  
+レイトレ（パストレ）アルゴリズム実装部分  
+複数回反射屈折、ボリューム考慮、NEE、MIS、RayFootp
 
 - handleHit() : traceScatterRay(()で次のサーフェース点を見つけれた時のPathData  pathとShadingData  sdの更新処理  
 基本的にはその点のsd取得、その点に至ったことによるpath.rayFootprintの更新（反射による角度の変更はここでは行わない）とpath.originとpath.length（lengthは距離ではなく、反射回数。変数名がおかしい気がする）の更新を行う  
@@ -477,9 +479,9 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc0NjIwNjY0LDE3MTM4NDIwOTksLTE1ND
-Q1Mjk1MzgsLTU2NzMzMzk0NSwtMzg3NzE3ODYxLC0xMDg1ODg4
-ODU5LDk3OTcyMzQ3MSwtMTQ3NjQ4MDIxNywtMTM5MTAxNzM1My
-wtMzU4MDAyMTksOTIwMzA0MzY2LC0xMTU3MTg2NzcwLDExODM2
-Njk3OTQsLTEyNTE5Njg2MjQsLTQ4MTE1NDQxMV19
+eyJoaXN0b3J5IjpbMTM4NTgzMjI0NSwxNzEzODQyMDk5LC0xNT
+Q0NTI5NTM4LC01NjczMzM5NDUsLTM4NzcxNzg2MSwtMTA4NTg4
+ODg1OSw5Nzk3MjM0NzEsLTE0NzY0ODAyMTcsLTEzOTEwMTczNT
+MsLTM1ODAwMjE5LDkyMDMwNDM2NiwtMTE1NzE4Njc3MCwxMTgz
+NjY5Nzk0LC0xMjUxOTY4NjI0LC00ODExNTQ0MTFdfQ==
 -->
