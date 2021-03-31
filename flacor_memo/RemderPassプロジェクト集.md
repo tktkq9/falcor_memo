@@ -447,8 +447,7 @@ out : gOutputTime、各ピクセルのレイトレ完了までにかかった時
 ライトサンプルする際に必要なkRayTypeShadowのmiss、anyhitシェーダー（ライトの場所はサンプリングで決めて、その位置までぶつからないか確認するためだけのシェーダー）と、  
 反射屈折した方向にレイを飛ばし、次のトライアングルを見つけるためにある、kRayTypeScatterのmiss、anyhit、closesthitシェーダー（こちらはヒットした情報HitInfoを格納する。ヒットしなかったらHitInfo::kInvalidIndexになる）と、  
 raygenerationシェーダーを定義しているシェーダーファイル  
-RtProgram作る用  
-リカーシブ処理はされておらず、反射屈折はtracePath()のfo
+RtProgram作る用    
 
 raygenerationシェーダーは  
 まず、loadShadingData()によってG or VBufferからShadingData（トライアングルのマテリアル的な情報）とHitInfo（トライアングルの位置情報）を取得し、  
@@ -458,6 +457,8 @@ raygenerationシェーダーは
 最後にoutputに対応する値を入れて終わり  
 
 raygeneration以外は全部PathTracer.slangの方で実行される  
+
+リカーシブ処理はされておらず、反射屈折はtracePath()のforループで管理しているのでkMaxRecursionDepth = 1で問題なし  
 
 こんな感で、このシェーダーファイルはCPU側との橋渡し用となっている  
 
@@ -515,7 +516,7 @@ traceScatterRay()を見た感じ、
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjMwNzk3ODUsLTIwOTc3OTA5ODEsMT
+eyJoaXN0b3J5IjpbLTE3MzY0MDgwNjEsLTIwOTc3OTA5ODEsMT
 YwNzMxNzM3OSwtMTc1OTQxMTY2OCwxMDAxMzgyNTY2LDE3MTM4
 NDIwOTksLTE1NDQ1Mjk1MzgsLTU2NzMzMzk0NSwtMzg3NzE3OD
 YxLC0xMDg1ODg4ODU5LDk3OTcyMzQ3MSwtMTQ3NjQ4MDIxNywt
