@@ -486,13 +486,14 @@ traceShadowRay()でその点のビジブル判定
 見えてたらPathDataのラディアンスにgenerateShadowRay()で計算してたラディアンスを加算  
   - traceShadowRay() : kRayTypeShadowのTraceRay()でビジブル判定するのみ  
 - traceScatterRay() : kRayTypeScatterによるTraceRay()で次のトライアングル見つける or miss  
-forループはinteriorList用、これをしないとプライオリティの低い（映さない）面でレイトレが止まってしまうのを防ぐ用（「InteriorListの使われ方について」で詳し）
+forループはinteriorList用、これをしないとプライオリティの低い（映さない）面でレイトレが止まってしまうのを防ぐ用（「InteriorListの使われ方について」で詳細説明している）  
 - handleHit() : traceScatterRay(()で次のサーフェース点を見つけれた時のPathData  pathとShadingData  sdの更新処理  
 基本的にはその点のsd取得、その点に至ったことによるpath.rayFootprintの更新（反射による角度の変更はここでは行わない）とpath.originとpath.length（lengthは距離ではなく、反射回数。変数名がおかしい気がする）の更新を行う  
 その他処理として、kUseNestedDielectricsnの時はpath,interiorListをもとにスループットpath,thpのvolumeAbsorption処理と、  
 ヒットしたサーフェイスがエミッシブな時かつ、エミッシブライトを使う設定になっている時のラディアンスpath.Lの更新も行う  
 TODO : このエミッシブライトを使う設定の条件の一部に!kUseNEE || kUseMIS || !isLightSamplableがあるがなぜこれが必要なのか分からん  
 あと、kDisableCausticsの時はShadingData sdのDiffuse処理をしている  
+- handleMiss() : 
 
 #### InteriorListの使われ方について
 traceScatterRay()を見た感じ、  
@@ -506,11 +507,11 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDUyMDUwMiwtMjA5Nzc5MDk4MSwxNj
-A3MzE3Mzc5LC0xNzU5NDExNjY4LDEwMDEzODI1NjYsMTcxMzg0
-MjA5OSwtMTU0NDUyOTUzOCwtNTY3MzMzOTQ1LC0zODc3MTc4Nj
-EsLTEwODU4ODg4NTksOTc5NzIzNDcxLC0xNDc2NDgwMjE3LC0x
-MzkxMDE3MzUzLC0zNTgwMDIxOSw5MjAzMDQzNjYsLTExNTcxOD
-Y3NzAsMTE4MzY2OTc5NCwtMTI1MTk2ODYyNCwtNDgxMTU0NDEx
-XX0=
+eyJoaXN0b3J5IjpbMzI0ODY3MzUzLC0yMDk3NzkwOTgxLDE2MD
+czMTczNzksLTE3NTk0MTE2NjgsMTAwMTM4MjU2NiwxNzEzODQy
+MDk5LC0xNTQ0NTI5NTM4LC01NjczMzM5NDUsLTM4NzcxNzg2MS
+wtMTA4NTg4ODg1OSw5Nzk3MjM0NzEsLTE0NzY0ODAyMTcsLTEz
+OTEwMTczNTMsLTM1ODAwMjE5LDkyMDMwNDM2NiwtMTE1NzE4Nj
+c3MCwxMTgzNjY5Nzk0LC0xMjUxOTY4NjI0LC00ODExNTQ0MTFd
+fQ==
 -->
