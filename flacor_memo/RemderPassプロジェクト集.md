@@ -466,7 +466,8 @@ tracePath()とその内部で呼ばれている関数たち
 PathTracerParams構造体のレイトレアルゴリズム設定のだいたい（すべて？）に対応している  
 
 tracePath()の流れとしては、  
-反射屈折合計回数
+反射屈折合計回数をkMaxBounces解するとして（forループ２回目から反射屈折は1回目となる）、  
+
 
 
 - handleHit() : traceScatterRay(()で次のサーフェース点を見つけれた時のPathData  pathとShadingData  sdの更新処理  
@@ -488,10 +489,10 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTE1NjUxMiwtMTc1OTQxMTY2OCwxMD
-AxMzgyNTY2LDE3MTM4NDIwOTksLTE1NDQ1Mjk1MzgsLTU2NzMz
-Mzk0NSwtMzg3NzE3ODYxLC0xMDg1ODg4ODU5LDk3OTcyMzQ3MS
-wtMTQ3NjQ4MDIxNywtMTM5MTAxNzM1MywtMzU4MDAyMTksOTIw
-MzA0MzY2LC0xMTU3MTg2NzcwLDExODM2Njk3OTQsLTEyNTE5Nj
-g2MjQsLTQ4MTE1NDQxMV19
+eyJoaXN0b3J5IjpbLTEzMjI3NDU1NjUsLTE3NTk0MTE2NjgsMT
+AwMTM4MjU2NiwxNzEzODQyMDk5LC0xNTQ0NTI5NTM4LC01Njcz
+MzM5NDUsLTM4NzcxNzg2MSwtMTA4NTg4ODg1OSw5Nzk3MjM0Nz
+EsLTE0NzY0ODAyMTcsLTEzOTEwMTczNTMsLTM1ODAwMjE5LDky
+MDMwNDM2NiwtMTE1NzE4Njc3MCwxMTgzNjY5Nzk0LC0xMjUxOT
+Y4NjI0LC00ODExNTQ0MTFdfQ==
 -->
