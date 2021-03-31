@@ -466,7 +466,8 @@ tracePath()とその内部で呼ばれている関数たち
 PathTracerParams構造体のレイトレアルゴリズム設定のだいたい（すべて？）に対応している  
 
 tracePath()の流れとしては、  
-反射屈折合計回数をkMaxBounces解するとして（forループ２回目から反射屈折は1回目となる）、  
+反射屈折合計回数をkMaxBounces解するとして（forループ2回目から反射屈折1回目となる）、  
+evalDirect()によってライトサンプリングによるラディアンス加算（NEEする and ボリューム内でなければ）  
 
 
 
@@ -489,7 +490,7 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjI3NDU1NjUsLTE3NTk0MTE2NjgsMT
+eyJoaXN0b3J5IjpbLTE0MTcyMTQ3NDcsLTE3NTk0MTE2NjgsMT
 AwMTM4MjU2NiwxNzEzODQyMDk5LC0xNTQ0NTI5NTM4LC01Njcz
 MzM5NDUsLTM4NzcxNzg2MSwtMTA4NTg4ODg1OSw5Nzk3MjM0Nz
 EsLTE0NzY0ODAyMTcsLTEzOTEwMTczNTMsLTM1ODAwMjE5LDky
