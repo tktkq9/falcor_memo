@@ -468,7 +468,7 @@ PathTracerParams構造体のレイトレアルゴリズム設定のだいたい�
 
 tracePath()の流れとしては、  
 for 反射屈折合計回数をkMaxBounces回するとして（forループ2回目から反射屈折1回目となる）、  
-　　evalDirect()によってライトサンプリングによるラディアンス加算（NEEする and ボリューム内でなければ）  
+　　evalDirect()によってライトサンプリングとTraceRay()でによるラディアンス加算（NEEする and ボリューム内でなければ）  
 　　ロシアンルーレットで終了判定とスループット更新  
 　　generateScatterRay()でBSDFサンプリングとかによる次の反射屈折方向とスループット更新、pdf設定、透過の場合はinteriorListも更新（pdfかスループットが0なら終了判定）   
 　　反射屈折によるrayFootprint更新（depth == 0の場合はraygenerationシェーダーですでに計算しているのでスルー）  
@@ -516,7 +516,7 @@ traceScatterRay()を見た感じ、
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMjM1MTU5NywtMjA5Nzc5MDk4MSwxNj
+eyJoaXN0b3J5IjpbMTYzNDYyMjk4OCwtMjA5Nzc5MDk4MSwxNj
 A3MzE3Mzc5LC0xNzU5NDExNjY4LDEwMDEzODI1NjYsMTcxMzg0
 MjA5OSwtMTU0NDUyOTUzOCwtNTY3MzMzOTQ1LC0zODc3MTc4Nj
 EsLTEwODU4ODg4NTksOTc5NzIzNDcxLC0xNDc2NDgwMjE3LC0x
