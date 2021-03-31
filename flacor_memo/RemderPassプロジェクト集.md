@@ -468,7 +468,7 @@ PathTracerParams構造体のレイトレアルゴリズム設定のだいたい�
 
 tracePath()の流れとしては、  
 for 反射屈折合計回数をkMaxBounces回するとして（forループ2回目から反射屈折1回目となる）、  
-　　evalDirect()によってライトサンプリングとTraceRay()でによるラディアンス加算（NEEする and ボリューム内でなければ）  
+　　evalDirect()によってライトサンプリングとTraceRay()によるラディアンス加算（NEEする and ボリューム内でなければ）  
 　　ロシアンルーレットで終了判定とスループット更新  
 　　generateScatterRay()でBSDFサンプリングとかによる次の反射屈折方向とスループット更新、pdf設定、透過の場合はinteriorListも更新（pdfかスループットが0なら終了判定）   
 　　反射屈折によるrayFootprint更新（depth == 0の場合はraygenerationシェーダーですでに計算しているのでスルー）  
@@ -480,8 +480,6 @@ for 反射屈折合計回数をkMaxBounces回するとして（forループ2回�
 　　ミスの場合はhandleMiss()でPathDataのラディアンスに香料追加して終了  
 終わり  
 ここで呼ばれているPathTracer.slangの関数を以下にまとめる  
-
-見ての通り、
 
 - evalDirect() : ライトを選んでシャドウレイとばしてラディアンスの加算  
 まず、generateShadowRay()でライトサンプリングしてとばす位置と方向計算  
@@ -516,11 +514,11 @@ traceScatterRay()を見た感じ、
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNDYyMjk4OCwtMjA5Nzc5MDk4MSwxNj
-A3MzE3Mzc5LC0xNzU5NDExNjY4LDEwMDEzODI1NjYsMTcxMzg0
-MjA5OSwtMTU0NDUyOTUzOCwtNTY3MzMzOTQ1LC0zODc3MTc4Nj
-EsLTEwODU4ODg4NTksOTc5NzIzNDcxLC0xNDc2NDgwMjE3LC0x
-MzkxMDE3MzUzLC0zNTgwMDIxOSw5MjAzMDQzNjYsLTExNTcxOD
-Y3NzAsMTE4MzY2OTc5NCwtMTI1MTk2ODYyNCwtNDgxMTU0NDEx
-XX0=
+eyJoaXN0b3J5IjpbLTE5MTg3MzUwNzUsLTIwOTc3OTA5ODEsMT
+YwNzMxNzM3OSwtMTc1OTQxMTY2OCwxMDAxMzgyNTY2LDE3MTM4
+NDIwOTksLTE1NDQ1Mjk1MzgsLTU2NzMzMzk0NSwtMzg3NzE3OD
+YxLC0xMDg1ODg4ODU5LDk3OTcyMzQ3MSwtMTQ3NjQ4MDIxNywt
+MTM5MTAxNzM1MywtMzU4MDAyMTksOTIwMzA0MzY2LC0xMTU3MT
+g2NzcwLDExODM2Njk3OTQsLTEyNTE5Njg2MjQsLTQ4MTE1NDQx
+MV19
 -->
