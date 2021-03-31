@@ -449,11 +449,14 @@ RtProgram作る用
 raygenerationシェーダーは  
 まず、loadShadingData()によってG or VBufferからShadingData（トライアングルのマテリアル的な情報）とHitInfo（トライアングルの位置情報）を取得し、  
 その情報をもとにPathData（パストレ中に共有されたり更新されたりする情報）を初期化  
-これらの情報を使ってtracePath()をkSamplesPerPixel回実行し、その結果から色をさんｐ
+これらの情報を使ってtracePath()をkSamplesPerPixel回実行し、その結果から色をサンプリングしていく  
 このtracePath()の実装詳細がPathTracer.slangの方にまとまっている  
+最後にoutputに対応する値を入れて終わり  
+
+こんな感で、このシェーダーファイルはCPU側との橋渡し用となっている  
 
 ### PathTracer.slang
-
+tracePath()
 
 - handleHit() : traceScatterRay(()で次のサーフェース点を見つけれた時のPathData  pathとShadingData  sdの更新処理  
 基本的にはその点のsd取得、その点に至ったことによるpath.rayFootprintの更新（反射による角度の変更はここでは行わない）とpath.originとpath.length（lengthは距離ではなく、反射回数。変数名がおかしい気がする）の更新を行う  
@@ -474,9 +477,9 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxODA0OTM5NywxNzEzODQyMDk5LC0xNT
-Q0NTI5NTM4LC01NjczMzM5NDUsLTM4NzcxNzg2MSwtMTA4NTg4
-ODg1OSw5Nzk3MjM0NzEsLTE0NzY0ODAyMTcsLTEzOTEwMTczNT
-MsLTM1ODAwMjE5LDkyMDMwNDM2NiwtMTE1NzE4Njc3MCwxMTgz
-NjY5Nzk0LC0xMjUxOTY4NjI0LC00ODExNTQ0MTFdfQ==
+eyJoaXN0b3J5IjpbNzc0NjIwNjY0LDE3MTM4NDIwOTksLTE1ND
+Q1Mjk1MzgsLTU2NzMzMzk0NSwtMzg3NzE3ODYxLC0xMDg1ODg4
+ODU5LDk3OTcyMzQ3MSwtMTQ3NjQ4MDIxNywtMTM5MTAxNzM1My
+wtMzU4MDAyMTksOTIwMzA0MzY2LC0xMTU3MTg2NzcwLDExODM2
+Njk3OTQsLTEyNTE5Njg2MjQsLTQ4MTE1NDQxMV19
 -->
