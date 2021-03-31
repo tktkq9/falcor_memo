@@ -421,7 +421,7 @@ out : dst、画像を出力、formatは他のパス（or デフォルト処理�
 PathTracerを使ったレイトレパス  
 レイトレアルゴリズム全部入り。みたかんじ重そう。おそらく確認用 　
  
-PathTracer.cppの内容と、それ関連のシェーダーを使い、PathTracer.rt.slangを実行する  
+PathTracerクラスの内容と、それ関連のシェーダーを使い、PathTracer.rt.slangを実行する  
 
 PathTracer.cppや、PathTracer.rt.slangとPathTracer.slangで使われる関数は[レイトレ関連](https://github.com/tktkq9/falcor_memo/blob/master/flacor_memo/%E3%83%AC%E3%82%A4%E3%83%88%E3%83%AC%E9%96%A2%E9%80%A3.md)の方でまとめてある  
 
@@ -486,10 +486,10 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxOTI0OTU4NywxMDAxMzgyNTY2LDE3MT
-M4NDIwOTksLTE1NDQ1Mjk1MzgsLTU2NzMzMzk0NSwtMzg3NzE3
-ODYxLC0xMDg1ODg4ODU5LDk3OTcyMzQ3MSwtMTQ3NjQ4MDIxNy
-wtMTM5MTAxNzM1MywtMzU4MDAyMTksOTIwMzA0MzY2LC0xMTU3
-MTg2NzcwLDExODM2Njk3OTQsLTEyNTE5Njg2MjQsLTQ4MTE1ND
-QxMV19
+eyJoaXN0b3J5IjpbOTA4MzQyMjE5LDEwMDEzODI1NjYsMTcxMz
+g0MjA5OSwtMTU0NDUyOTUzOCwtNTY3MzMzOTQ1LC0zODc3MTc4
+NjEsLTEwODU4ODg4NTksOTc5NzIzNDcxLC0xNDc2NDgwMjE3LC
+0xMzkxMDE3MzUzLC0zNTgwMDIxOSw5MjAzMDQzNjYsLTExNTcx
+ODY3NzAsMTE4MzY2OTc5NCwtMTI1MTk2ODYyNCwtNDgxMTU0ND
+ExXX0=
 -->
