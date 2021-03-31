@@ -484,7 +484,7 @@ for 反射屈折合計回数をkMaxBounces回するとして（forループ2回�
 まず、generateShadowRay()でライトサンプリングしてとばす位置と方向計算  
 traceShadowRay()でその点のビジブル判定  
 見えてたらPathDataのラディアンスにgenerateShadowRay()で計算してたラディアンスを加算  
-- 
+  - traceShadowRay() : kRayTypeShadowの
 - handleHit() : traceScatterRay(()で次のサーフェース点を見つけれた時のPathData  pathとShadingData  sdの更新処理  
 基本的にはその点のsd取得、その点に至ったことによるpath.rayFootprintの更新（反射による角度の変更はここでは行わない）とpath.originとpath.length（lengthは距離ではなく、反射回数。変数名がおかしい気がする）の更新を行う  
 その他処理として、kUseNestedDielectricsnの時はpath,interiorListをもとにスループットpath,thpのvolumeAbsorption処理と、  
@@ -504,7 +504,7 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDIwMzEwNCwtMjA5Nzc5MDk4MSwxNj
+eyJoaXN0b3J5IjpbLTkwNzI4MDAyMSwtMjA5Nzc5MDk4MSwxNj
 A3MzE3Mzc5LC0xNzU5NDExNjY4LDEwMDEzODI1NjYsMTcxMzg0
 MjA5OSwtMTU0NDUyOTUzOCwtNTY3MzMzOTQ1LC0zODc3MTc4Nj
 EsLTEwODU4ODg4NTksOTc5NzIzNDcxLC0xNDc2NDgwMjE3LC0x
