@@ -418,6 +418,8 @@ DOFありの場合は1サンプルしかなくノイズが発生するはずな�
 out : dst、画像を出力、formatは他のパス（or デフォルト処理）でdstに設定したものをそのまま  
 
 ## MegakernelPathTracerプロジェクト
+MegakernelPathTracer/PathTracer.rt.slangを実行するためのパス  
+
 
 ### MegakernelPathTracer.h, cpp
 
@@ -446,9 +448,9 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDQ1Mjk1MzgsLTU2NzMzMzk0NSwtMz
-g3NzE3ODYxLC0xMDg1ODg4ODU5LDk3OTcyMzQ3MSwtMTQ3NjQ4
-MDIxNywtMTM5MTAxNzM1MywtMzU4MDAyMTksOTIwMzA0MzY2LC
-0xMTU3MTg2NzcwLDExODM2Njk3OTQsLTEyNTE5Njg2MjQsLTQ4
-MTE1NDQxMV19
+eyJoaXN0b3J5IjpbLTM4Nzg2MjEyNCwtMTU0NDUyOTUzOCwtNT
+Y3MzMzOTQ1LC0zODc3MTc4NjEsLTEwODU4ODg4NTksOTc5NzIz
+NDcxLC0xNDc2NDgwMjE3LC0xMzkxMDE3MzUzLC0zNTgwMDIxOS
+w5MjAzMDQzNjYsLTExNTcxODY3NzAsMTE4MzY2OTc5NCwtMTI1
+MTk2ODYyNCwtNDgxMTU0NDExXX0=
 -->
