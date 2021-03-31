@@ -419,11 +419,10 @@ out : dst、画像を出力、formatは他のパス（or デフォルト処理�
 
 ## MegakernelPathTracerプロジェクト
 PathTracerを使った、レイトレパス  
-PathTracerの内容と、それ関連のシェーダーを使い、
-MegakernelPathTracer/PathTracer.rt.slangを実行する  
-
+PathTracer.cppの内容と、それ関連のシェーダーを使い、PathTracer.rt.slangを実行する  
 
 ### MegakernelPathTracer.h, cpp
+このクラス自体は、継承元のPathTracerクラスを
 
 ### PathTracer.rt.slang
 
@@ -450,9 +449,9 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA1MDMzNDY5LC0xNTQ0NTI5NTM4LC01Nj
-czMzM5NDUsLTM4NzcxNzg2MSwtMTA4NTg4ODg1OSw5Nzk3MjM0
-NzEsLTE0NzY0ODAyMTcsLTEzOTEwMTczNTMsLTM1ODAwMjE5LD
-kyMDMwNDM2NiwtMTE1NzE4Njc3MCwxMTgzNjY5Nzk0LC0xMjUx
-OTY4NjI0LC00ODExNTQ0MTFdfQ==
+eyJoaXN0b3J5IjpbODcxOTIxNDcsLTE1NDQ1Mjk1MzgsLTU2Nz
+MzMzk0NSwtMzg3NzE3ODYxLC0xMDg1ODg4ODU5LDk3OTcyMzQ3
+MSwtMTQ3NjQ4MDIxNywtMTM5MTAxNzM1MywtMzU4MDAyMTksOT
+IwMzA0MzY2LC0xMTU3MTg2NzcwLDExODM2Njk3OTQsLTEyNTE5
+Njg2MjQsLTQ4MTE1NDQxMV19
 -->
