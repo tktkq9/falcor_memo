@@ -442,7 +442,7 @@ out : gOutputTime、各ピクセルのレイトレ完了までにかかった時
 
 ### PathTracer.rt.slang
 ライトサンプルする際に必要なkRayTypeShadowのmiss、anyhitシェーダー（ライトの場所はサンプリングで決めて、その位置までぶつからないか確認するためだけのシェーダー）と、  
-反射屈折した方向にれい際に次のトライアングルを見つけるする際に必要なkRayTypeScatterのmiss、anyhitシェーダー（）と、  
+反射屈折した方向にレイを飛ばし、次のトライアングルを見つけるためにある、kRayTypeScatterのmiss、anyhit、closesthitシェーダー（こちらはヒットした情報を格納する。ヒットしなかったら）と、  
 
 ### PathTracer.slang
 
@@ -466,9 +466,9 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTkyNDY0MTYsMTcxMzg0MjA5OSwtMT
-U0NDUyOTUzOCwtNTY3MzMzOTQ1LC0zODc3MTc4NjEsLTEwODU4
-ODg4NTksOTc5NzIzNDcxLC0xNDc2NDgwMjE3LC0xMzkxMDE3Mz
-UzLC0zNTgwMDIxOSw5MjAzMDQzNjYsLTExNTcxODY3NzAsMTE4
-MzY2OTc5NCwtMTI1MTk2ODYyNCwtNDgxMTU0NDExXX0=
+eyJoaXN0b3J5IjpbLTE5NTQwNDQzNSwxNzEzODQyMDk5LC0xNT
+Q0NTI5NTM4LC01NjczMzM5NDUsLTM4NzcxNzg2MSwtMTA4NTg4
+ODg1OSw5Nzk3MjM0NzEsLTE0NzY0ODAyMTcsLTEzOTEwMTczNT
+MsLTM1ODAwMjE5LDkyMDMwNDM2NiwtMTE1NzE4Njc3MCwxMTgz
+NjY5Nzk0LC0xMjUxOTY4NjI0LC00ODExNTQ0MTFdfQ==
 -->
