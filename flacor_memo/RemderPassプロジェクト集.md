@@ -473,9 +473,8 @@ for 反射屈折合計回数をkMaxBounces回するとして（forループ2回�
 　　反射屈折によるrayFootprint更新（depth == 0の場合はraygenerationシェーダーですでに計算しているのでスルー）  
 　　透過の場合はレイオリジンをそれ用に更新  
 　　kMaxBouncesかkMaxNonSpecularBouncesを超えてて、NEE and !MIS and isLightSamplableなら最後の反射によるライトヒットが終わっているのでここで終了（別にやってもいい気もするけど）  
-　　あ  
-　　あ  
-　　あ  
+　　kDisableCausticsですでにデフューズ反射していてスペキュラー反射が起こったら終了  
+　　  
 終わり
 
 
@@ -499,10 +498,10 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTE0OTEzNywxNjA3MzE3Mzc5LC0xNz
-U5NDExNjY4LDEwMDEzODI1NjYsMTcxMzg0MjA5OSwtMTU0NDUy
-OTUzOCwtNTY3MzMzOTQ1LC0zODc3MTc4NjEsLTEwODU4ODg4NT
-ksOTc5NzIzNDcxLC0xNDc2NDgwMjE3LC0xMzkxMDE3MzUzLC0z
-NTgwMDIxOSw5MjAzMDQzNjYsLTExNTcxODY3NzAsMTE4MzY2OT
-c5NCwtMTI1MTk2ODYyNCwtNDgxMTU0NDExXX0=
+eyJoaXN0b3J5IjpbLTExNzkyNzY3MTQsMTYwNzMxNzM3OSwtMT
+c1OTQxMTY2OCwxMDAxMzgyNTY2LDE3MTM4NDIwOTksLTE1NDQ1
+Mjk1MzgsLTU2NzMzMzk0NSwtMzg3NzE3ODYxLC0xMDg1ODg4OD
+U5LDk3OTcyMzQ3MSwtMTQ3NjQ4MDIxNywtMTM5MTAxNzM1Mywt
+MzU4MDAyMTksOTIwMzA0MzY2LC0xMTU3MTg2NzcwLDExODM2Nj
+k3OTQsLTEyNTE5Njg2MjQsLTQ4MTE1NDQxMV19
 -->
