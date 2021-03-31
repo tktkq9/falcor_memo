@@ -480,7 +480,7 @@ for 反射屈折合計回数をkMaxBounces回するとして（forループ2回�
 終わり  
 ここで呼ばれているPathTracer.slangの関数を以下にまとめる  
 
-
+- evalDirect() : ライトを選んでシャドウレイとばしてラディアンスの加算  
 - handleHit() : traceScatterRay(()で次のサーフェース点を見つけれた時のPathData  pathとShadingData  sdの更新処理  
 基本的にはその点のsd取得、その点に至ったことによるpath.rayFootprintの更新（反射による角度の変更はここでは行わない）とpath.originとpath.length（lengthは距離ではなく、反射回数。変数名がおかしい気がする）の更新を行う  
 その他処理として、kUseNestedDielectricsnの時はpath,interiorListをもとにスループットpath,thpのvolumeAbsorption処理と、  
@@ -500,10 +500,10 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MTk5NDk5LDE2MDczMTczNzksLTE3NT
-k0MTE2NjgsMTAwMTM4MjU2NiwxNzEzODQyMDk5LC0xNTQ0NTI5
-NTM4LC01NjczMzM5NDUsLTM4NzcxNzg2MSwtMTA4NTg4ODg1OS
-w5Nzk3MjM0NzEsLTE0NzY0ODAyMTcsLTEzOTEwMTczNTMsLTM1
-ODAwMjE5LDkyMDMwNDM2NiwtMTE1NzE4Njc3MCwxMTgzNjY5Nz
-k0LC0xMjUxOTY4NjI0LC00ODExNTQ0MTFdfQ==
+eyJoaXN0b3J5IjpbLTIwNDYyMzMwNTMsMTYwNzMxNzM3OSwtMT
+c1OTQxMTY2OCwxMDAxMzgyNTY2LDE3MTM4NDIwOTksLTE1NDQ1
+Mjk1MzgsLTU2NzMzMzk0NSwtMzg3NzE3ODYxLC0xMDg1ODg4OD
+U5LDk3OTcyMzQ3MSwtMTQ3NjQ4MDIxNywtMTM5MTAxNzM1Mywt
+MzU4MDAyMTksOTIwMzA0MzY2LC0xMTU3MTg2NzcwLDExODM2Nj
+k3OTQsLTEyNTE5Njg2MjQsLTQ4MTE1NDQxMV19
 -->
