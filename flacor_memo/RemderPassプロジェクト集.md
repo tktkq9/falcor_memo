@@ -476,7 +476,7 @@ for 反射屈折合計回数をkMaxBounces回するとして（forループ2回�
 　　kDisableCausticsですでにデフューズ反射していてスペキュラー反射が起こったら終了  
 　　traceScatterRay()で次のレイヒット点を見つける  
 　　ヒットした場合はhandleHit()でPathDataとShadingDataを更新  
-　　ミスの場合はhandleMiss()でPathData
+　　ミスの場合はhandleMiss()でPathDataのラディアンスに香料追加して終了  
 終わり
 
 
@@ -500,10 +500,10 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc0NDk1MzY3LDE2MDczMTczNzksLTE3NT
-k0MTE2NjgsMTAwMTM4MjU2NiwxNzEzODQyMDk5LC0xNTQ0NTI5
-NTM4LC01NjczMzM5NDUsLTM4NzcxNzg2MSwtMTA4NTg4ODg1OS
-w5Nzk3MjM0NzEsLTE0NzY0ODAyMTcsLTEzOTEwMTczNTMsLTM1
-ODAwMjE5LDkyMDMwNDM2NiwtMTE1NzE4Njc3MCwxMTgzNjY5Nz
-k0LC0xMjUxOTY4NjI0LC00ODExNTQ0MTFdfQ==
+eyJoaXN0b3J5IjpbMTM0ODU3ODI5NSwxNjA3MzE3Mzc5LC0xNz
+U5NDExNjY4LDEwMDEzODI1NjYsMTcxMzg0MjA5OSwtMTU0NDUy
+OTUzOCwtNTY3MzMzOTQ1LC0zODc3MTc4NjEsLTEwODU4ODg4NT
+ksOTc5NzIzNDcxLC0xNDc2NDgwMjE3LC0xMzkxMDE3MzUzLC0z
+NTgwMDIxOSw5MjAzMDQzNjYsLTExNTcxODY3NzAsMTE4MzY2OT
+c5NCwtMTI1MTk2ODYyNCwtNDgxMTU0NDExXX0=
 -->
