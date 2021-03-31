@@ -445,9 +445,11 @@ out : gOutputTime、各ピクセルのレイトレ完了までにかかった時
 反射屈折した方向にレイを飛ばし、次のトライアングルを見つけるためにある、kRayTypeScatterのmiss、anyhit、closesthitシェーダー（こちらはヒットした情報HitInfoを格納する。ヒットしなかったらHitInfo::kInvalidIndexになる）と、  
 raygenerationシェーダーを定義しているシェーダーファイル  
 RtProgram作る用  
-実装詳細はPathTracer.slangの方にまとめてある  
+
+raygenerationシェーダーは
 
 
+このtracePath()の実装詳細がPathTracer.slangの方にまとまっている  
 
 ### PathTracer.slang
 
@@ -471,9 +473,9 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDAzMDU5OTUsMTcxMzg0MjA5OSwtMT
-U0NDUyOTUzOCwtNTY3MzMzOTQ1LC0zODc3MTc4NjEsLTEwODU4
-ODg4NTksOTc5NzIzNDcxLC0xNDc2NDgwMjE3LC0xMzkxMDE3Mz
-UzLC0zNTgwMDIxOSw5MjAzMDQzNjYsLTExNTcxODY3NzAsMTE4
-MzY2OTc5NCwtMTI1MTk2ODYyNCwtNDgxMTU0NDExXX0=
+eyJoaXN0b3J5IjpbMjMxMDkwMDQ3LDE3MTM4NDIwOTksLTE1ND
+Q1Mjk1MzgsLTU2NzMzMzk0NSwtMzg3NzE3ODYxLC0xMDg1ODg4
+ODU5LDk3OTcyMzQ3MSwtMTQ3NjQ4MDIxNywtMTM5MTAxNzM1My
+wtMzU4MDAyMTksOTIwMzA0MzY2LC0xMTU3MTg2NzcwLDExODM2
+Njk3OTQsLTEyNTE5Njg2MjQsLTQ4MTE1NDQxMV19
 -->
