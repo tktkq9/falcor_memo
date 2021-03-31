@@ -420,6 +420,7 @@ out : dst、画像を出力、formatは他のパス（or デフォルト処理�
 ## MegakernelPathTracerプロジェクト
 PathTracerを使ったレイトレパス  
 レイトレアルゴリズム全部入り。ぱっと見重そう。おそらく確認用  
+Megaって書いてるけど
 
 PathTracerクラスの内容と、それ関連のシェーダーを使い、PathTracer.rt.slangを実行する  
 
@@ -480,6 +481,8 @@ for 反射屈折合計回数をkMaxBounces回するとして（forループ2回�
 終わり  
 ここで呼ばれているPathTracer.slangの関数を以下にまとめる  
 
+見ての通り、
+
 - evalDirect() : ライトを選んでシャドウレイとばしてラディアンスの加算  
 まず、generateShadowRay()でライトサンプリングしてとばす位置と方向計算  
 traceShadowRay()でその点のビジブル判定  
@@ -513,7 +516,7 @@ traceScatterRay()を見た感じ、
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTMxNDgwNiwtMjA5Nzc5MDk4MSwxNj
+eyJoaXN0b3J5IjpbMTQ1NDUxNzcwMCwtMjA5Nzc5MDk4MSwxNj
 A3MzE3Mzc5LC0xNzU5NDExNjY4LDEwMDEzODI1NjYsMTcxMzg0
 MjA5OSwtMTU0NDUyOTUzOCwtNTY3MzMzOTQ1LC0zODc3MTc4Nj
 EsLTEwODU4ODg4NTksOTc5NzIzNDcxLC0xNDc2NDgwMjE3LC0x
