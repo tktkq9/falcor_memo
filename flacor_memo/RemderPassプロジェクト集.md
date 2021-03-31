@@ -453,8 +453,9 @@ raygenerationシェーダーは
 このtracePath()の実装詳細がPathTracer.slangの方にまとまっている  
 最後にoutputに対応する値を入れて終わり  
 
-こんな感で、このシェーダーファイルはCPU側との橋渡し用となっている  
 raygeneration以外は全部PathTracer.slangの方で実行される  
+
+こんな感で、このシェーダーファイルはCPU側との橋渡し用となっている  
 
 ### PathTracer.slang
 tracePath()とその内部で呼ばれている関数たち  
@@ -483,10 +484,10 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTkwNDY4NDAsMTAwMTM4MjU2NiwxNz
-EzODQyMDk5LC0xNTQ0NTI5NTM4LC01NjczMzM5NDUsLTM4Nzcx
-Nzg2MSwtMTA4NTg4ODg1OSw5Nzk3MjM0NzEsLTE0NzY0ODAyMT
-csLTEzOTEwMTczNTMsLTM1ODAwMjE5LDkyMDMwNDM2NiwtMTE1
-NzE4Njc3MCwxMTgzNjY5Nzk0LC0xMjUxOTY4NjI0LC00ODExNT
-Q0MTFdfQ==
+eyJoaXN0b3J5IjpbMTYxMDU1MzAxNCwxMDAxMzgyNTY2LDE3MT
+M4NDIwOTksLTE1NDQ1Mjk1MzgsLTU2NzMzMzk0NSwtMzg3NzE3
+ODYxLC0xMDg1ODg4ODU5LDk3OTcyMzQ3MSwtMTQ3NjQ4MDIxNy
+wtMTM5MTAxNzM1MywtMzU4MDAyMTksOTIwMzA0MzY2LC0xMTU3
+MTg2NzcwLDExODM2Njk3OTQsLTEyNTE5Njg2MjQsLTQ4MTE1ND
+QxMV19
 -->
