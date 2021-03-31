@@ -469,7 +469,7 @@ tracePath()の流れとしては、
 for 反射屈折合計回数をkMaxBounces回するとして（forループ2回目から反射屈折1回目となる）、  
 　　evalDirect()によってライトサンプリングによるラディアンス加算（NEEする and ボリューム内でなければ）  
 　　ロシアンルーレットで終了判定とスループット更新  
-　　generateScatterRay()でBSDFサンプリングとかによる
+　　generateScatterRay()でBSDFサンプリングとかによる次の反射屈折方向とスループット更新、pdf設定、
 　　あ  
 　　あ  
 　　あ  
@@ -497,7 +497,7 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NTM4NDI3NywtMTc1OTQxMTY2OCwxMD
+eyJoaXN0b3J5IjpbMTc3MzEwODM2NiwtMTc1OTQxMTY2OCwxMD
 AxMzgyNTY2LDE3MTM4NDIwOTksLTE1NDQ1Mjk1MzgsLTU2NzMz
 Mzk0NSwtMzg3NzE3ODYxLC0xMDg1ODg4ODU5LDk3OTcyMzQ3MS
 wtMTQ3NjQ4MDIxNywtMTM5MTAxNzM1MywtMzU4MDAyMTksOTIw
