@@ -446,10 +446,10 @@ out : gOutputTime、各ピクセルのレイトレ完了までにかかった時
 raygenerationシェーダーを定義しているシェーダーファイル  
 RtProgram作る用  
 
-raygenerationシェーダーは
+raygenerationシェーダーは  
 まず、loadShadingData()によってG or VBufferからShadingData（トライアングルのマテリアル的な情報）とHitInfo（トライアングルの位置情報）を取得し、  
 その情報をもとにPathData（パストレ中に共有されたり更新されたりする情報）を初期化  
-
+これらの情報を使ってtracePath()をkSamplesPerPixel回実行し、その結果から色をさんｐ
 このtracePath()の実装詳細がPathTracer.slangの方にまとまっている  
 
 ### PathTracer.slang
@@ -474,9 +474,9 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODU3MjUzMzMsMTcxMzg0MjA5OSwtMT
-U0NDUyOTUzOCwtNTY3MzMzOTQ1LC0zODc3MTc4NjEsLTEwODU4
-ODg4NTksOTc5NzIzNDcxLC0xNDc2NDgwMjE3LC0xMzkxMDE3Mz
-UzLC0zNTgwMDIxOSw5MjAzMDQzNjYsLTExNTcxODY3NzAsMTE4
-MzY2OTc5NCwtMTI1MTk2ODYyNCwtNDgxMTU0NDExXX0=
+eyJoaXN0b3J5IjpbMTcxODA0OTM5NywxNzEzODQyMDk5LC0xNT
+Q0NTI5NTM4LC01NjczMzM5NDUsLTM4NzcxNzg2MSwtMTA4NTg4
+ODg1OSw5Nzk3MjM0NzEsLTE0NzY0ODAyMTcsLTEzOTEwMTczNT
+MsLTM1ODAwMjE5LDkyMDMwNDM2NiwtMTE1NzE4Njc3MCwxMTgz
+NjY5Nzk0LC0xMjUxOTY4NjI0LC00ODExNTQ0MTFdfQ==
 -->
