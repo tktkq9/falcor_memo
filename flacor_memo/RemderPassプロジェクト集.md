@@ -467,6 +467,7 @@ PathTracerParams構造体のレイトレアルゴリズム設定のだいたい�
 
 
 
+
 - handleHit() : traceScatterRay(()で次のサーフェース点を見つけれた時のPathData  pathとShadingData  sdの更新処理  
 基本的にはその点のsd取得、その点に至ったことによるpath.rayFootprintの更新（反射による角度の変更はここでは行わない）とpath.originとpath.length（lengthは距離ではなく、反射回数。変数名がおかしい気がする）の更新を行う  
 その他処理として、kUseNestedDielectricsnの時はpath,interiorListをもとにスループットpath,thpのvolumeAbsorption処理と、  
@@ -486,10 +487,10 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTk0MTE2NjgsMTAwMTM4MjU2NiwxNz
-EzODQyMDk5LC0xNTQ0NTI5NTM4LC01NjczMzM5NDUsLTM4Nzcx
-Nzg2MSwtMTA4NTg4ODg1OSw5Nzk3MjM0NzEsLTE0NzY0ODAyMT
-csLTEzOTEwMTczNTMsLTM1ODAwMjE5LDkyMDMwNDM2NiwtMTE1
-NzE4Njc3MCwxMTgzNjY5Nzk0LC0xMjUxOTY4NjI0LC00ODExNT
-Q0MTFdfQ==
+eyJoaXN0b3J5IjpbMTQ1MDMzOTAzNCwtMTc1OTQxMTY2OCwxMD
+AxMzgyNTY2LDE3MTM4NDIwOTksLTE1NDQ1Mjk1MzgsLTU2NzMz
+Mzk0NSwtMzg3NzE3ODYxLC0xMDg1ODg4ODU5LDk3OTcyMzQ3MS
+wtMTQ3NjQ4MDIxNywtMTM5MTAxNzM1MywtMzU4MDAyMTksOTIw
+MzA0MzY2LC0xMTU3MTg2NzcwLDExODM2Njk3OTQsLTEyNTE5Nj
+g2MjQsLTQ4MTE1NDQxMV19
 -->
