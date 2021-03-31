@@ -426,7 +426,10 @@ PathTracer.cppの内容と、それ関連のシェーダーを使い、PathTrace
 
 excute()も、  
 最初にPathTracerクラスのbeginFrame()を呼び、  
-
+MegakernelPathTracerで新たに定義する必要のあるdefineを行い、  
+PathTracer.rt.slang用のシェーダー変数を割り当て、  
+mpScene->raytrace()を行うだけ  
+最後に
 
 ### PathTracer.rt.slang
 
@@ -453,7 +456,7 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMzA1ODQ4OCwtMTU0NDUyOTUzOCwtNT
+eyJoaXN0b3J5IjpbLTEwMzA3NjgwOCwtMTU0NDUyOTUzOCwtNT
 Y3MzMzOTQ1LC0zODc3MTc4NjEsLTEwODU4ODg4NTksOTc5NzIz
 NDcxLC0xNDc2NDgwMjE3LC0xMzkxMDE3MzUzLC0zNTgwMDIxOS
 w5MjAzMDQzNjYsLTExNTcxODY3NzAsMTE4MzY2OTc5NCwtMTI1
