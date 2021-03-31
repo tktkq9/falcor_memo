@@ -419,7 +419,7 @@ out : dst、画像を出力、formatは他のパス（or デフォルト処理�
 
 ## MegakernelPathTracerプロジェクト
 PathTracerを使ったレイトレパス  
-レイトレアルゴリズム全部入り。みたかんじ重そう。おそらく確認用 　
+レイトレアルゴリズム全部入り。ぱっと見重そう。おそらく確認用  
  
 PathTracerクラスの内容と、それ関連のシェーダーを使い、PathTracer.rt.slangを実行する  
 
@@ -486,7 +486,7 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA4MzQyMjE5LDEwMDEzODI1NjYsMTcxMz
+eyJoaXN0b3J5IjpbNjg5OTk3NDU0LDEwMDEzODI1NjYsMTcxMz
 g0MjA5OSwtMTU0NDUyOTUzOCwtNTY3MzMzOTQ1LC0zODc3MTc4
 NjEsLTEwODU4ODg4NTksOTc5NzIzNDcxLC0xNDc2NDgwMjE3LC
 0xMzkxMDE3MzUzLC0zNTgwMDIxOSw5MjAzMDQzNjYsLTExNTcx
