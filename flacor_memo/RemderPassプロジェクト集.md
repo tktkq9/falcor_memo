@@ -475,7 +475,7 @@ for 反射屈折合計回数をkMaxBounces回するとして（forループ2回�
 　　透過の場合はレイオリジンをそれ用に更新  
 　　kMaxBouncesかkMaxNonSpecularBouncesを超えてて、NEE and !MIS and isLightSamplableなら最後の反射によるライトヒットが終わっているのでここで終了（別にやってもいい気もするけど）  
 　　kDisableCausticsですでにデフューズ反射していてスペキュラー反射が起こったら終了  
-　　traceScatterRay()で次のレイヒット点を見つける  
+　　traceScatterRay()でTraceRay()で次のレイヒット点を見つける  
 　　ヒットした場合はhandleHit()でPathDataとShadingDataを更新  
 　　ミスの場合はhandleMiss()でPathDataのラディアンスに香料追加して終了  
 終わり  
@@ -516,7 +516,7 @@ traceScatterRay()を見た感じ、
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NDUxNzcwMCwtMjA5Nzc5MDk4MSwxNj
+eyJoaXN0b3J5IjpbLTQwMjM1MTU5NywtMjA5Nzc5MDk4MSwxNj
 A3MzE3Mzc5LC0xNzU5NDExNjY4LDEwMDEzODI1NjYsMTcxMzg0
 MjA5OSwtMTU0NDUyOTUzOCwtNTY3MzMzOTQ1LC0zODc3MTc4Nj
 EsLTEwODU4ODg4NTksOTc5NzIzNDcxLC0xNDc2NDgwMjE3LC0x
