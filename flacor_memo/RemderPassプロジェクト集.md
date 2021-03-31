@@ -422,9 +422,11 @@ PathTracerを使った、レイトレパス
 PathTracer.cppの内容と、それ関連のシェーダーを使い、PathTracer.rt.slangを実行する  
 
 ### MegakernelPathTracer.h, cpp
-このクラス自体は、PathTracer.rt.slang用のRtProgramやRtProgramVarsなどを作成し、変数を割り当てるのと、継承元のPathTracerクラスの処理を活用した実行処理のみ  
-処理を呼び出すのみ  
-excute()の最初で
+このクラス自体は、PathTracer.rt.slang用のRtProgramやRtProgramVarsなどを作成し、変数を割り当てるのと、継承元のPathTracerクラスの処理を活用したexcute()処理のみ  
+
+excute()も、  
+最初にPathTracerクラスのbeginFrame()を呼び、  
+
 
 ### PathTracer.rt.slang
 
@@ -451,9 +453,9 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzA1NjA3NTYsLTE1NDQ1Mjk1MzgsLT
-U2NzMzMzk0NSwtMzg3NzE3ODYxLC0xMDg1ODg4ODU5LDk3OTcy
-MzQ3MSwtMTQ3NjQ4MDIxNywtMTM5MTAxNzM1MywtMzU4MDAyMT
-ksOTIwMzA0MzY2LC0xMTU3MTg2NzcwLDExODM2Njk3OTQsLTEy
-NTE5Njg2MjQsLTQ4MTE1NDQxMV19
+eyJoaXN0b3J5IjpbLTcxMzA1ODQ4OCwtMTU0NDUyOTUzOCwtNT
+Y3MzMzOTQ1LC0zODc3MTc4NjEsLTEwODU4ODg4NTksOTc5NzIz
+NDcxLC0xNDc2NDgwMjE3LC0xMzkxMDE3MzUzLC0zNTgwMDIxOS
+w5MjAzMDQzNjYsLTExNTcxODY3NzAsMTE4MzY2OTc5NCwtMTI1
+MTk2ODYyNCwtNDgxMTU0NDExXX0=
 -->
