@@ -458,7 +458,7 @@ raygenerationシェーダーは
 
 raygeneration以外は全部PathTracer.slangの方で実行される  
 
-HitGroup内でのTraceRay()呼び出しによるリカーシブ処理はされておらず、かわりに反射屈折はtracePath()のforループで管理しているのでkMaxRecursionDepth = 1で問題なし  
+HitGroup内でのTraceRay()呼び出しによるリカーシブ処理はされておらず、かわりに反射屈折はtracePath()のforループで行っているのでkMaxRecursionDepth = 1で問題なし  
 
 こんな感で、このシェーダーファイルはCPU側との橋渡し用となっている  
 
@@ -516,11 +516,11 @@ traceScatterRay()を見た感じ、
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwODg5NzEwOCwtMTczNjQwODA2MSwtMj
-A5Nzc5MDk4MSwxNjA3MzE3Mzc5LC0xNzU5NDExNjY4LDEwMDEz
-ODI1NjYsMTcxMzg0MjA5OSwtMTU0NDUyOTUzOCwtNTY3MzMzOT
-Q1LC0zODc3MTc4NjEsLTEwODU4ODg4NTksOTc5NzIzNDcxLC0x
-NDc2NDgwMjE3LC0xMzkxMDE3MzUzLC0zNTgwMDIxOSw5MjAzMD
-QzNjYsLTExNTcxODY3NzAsMTE4MzY2OTc5NCwtMTI1MTk2ODYy
-NCwtNDgxMTU0NDExXX0=
+eyJoaXN0b3J5IjpbMTUwODIwMDI3MSwxMTA4ODk3MTA4LC0xNz
+M2NDA4MDYxLC0yMDk3NzkwOTgxLDE2MDczMTczNzksLTE3NTk0
+MTE2NjgsMTAwMTM4MjU2NiwxNzEzODQyMDk5LC0xNTQ0NTI5NT
+M4LC01NjczMzM5NDUsLTM4NzcxNzg2MSwtMTA4NTg4ODg1OSw5
+Nzk3MjM0NzEsLTE0NzY0ODAyMTcsLTEzOTEwMTczNTMsLTM1OD
+AwMjE5LDkyMDMwNDM2NiwtMTE1NzE4Njc3MCwxMTgzNjY5Nzk0
+LC0xMjUxOTY4NjI0XX0=
 -->
