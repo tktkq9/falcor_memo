@@ -420,7 +420,7 @@ out : dst、画像を出力、formatは他のパス（or デフォルト処理�
 ## MegakernelPathTracerプロジェクト
 PathTracerを使ったレイトレパス  
 レイトレアルゴリズム全部入り  
-おそらく質と早さの両取りをしたい場合用（実際には、これでどのアルゴリズムを選べばいいかを確認し、それ用のパスを新たに作った方がいい）  
+おそらく質と早さの両取りをしたい場合用（実際には設定によっては無駄になる処理も多数あると思われるので、これでどのアルゴリズムを選べばいいかを確認しそれ用のパスを新たに作った方がいい）  
 
 PathTracerクラスの内容と、それ関連のシェーダーを使い、PathTracer.rt.slangを実行する  
 
@@ -520,7 +520,7 @@ traceScatterRay()を見た感じ、
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NDkxNDM5OCwxNDU2NzA5NTU3LDE1MD
+eyJoaXN0b3J5IjpbMTY1MzAyNjQwNSwxNDU2NzA5NTU3LDE1MD
 gyMDAyNzEsMTEwODg5NzEwOCwtMTczNjQwODA2MSwtMjA5Nzc5
 MDk4MSwxNjA3MzE3Mzc5LC0xNzU5NDExNjY4LDEwMDEzODI1Nj
 YsMTcxMzg0MjA5OSwtMTU0NDUyOTUzOCwtNTY3MzMzOTQ1LC0z
