@@ -425,7 +425,8 @@ PathTracerクラスの内容と、それ関連のシェーダーを使い、Path
 
 ちなみにMegaの名を冠しているが、デフォルトは1ピクセル1サンプルのみで、反射屈折回数は3（PathTracerParams.slangで初期化している値）  
 デフォルトはそこまで重くもないし、Megaではない  
-MinimalPathTracerに比べて多機能というのを表現したい感じ？
+MinimalPathTracerに比べて多機能というのを表現したい感じ？  
+
 PathTracer.cppや、PathTracer.rt.slangとPathTracer.slangで使われる関数は[レイトレ関連](https://github.com/tktkq9/falcor_memo/blob/master/flacor_memo/%E3%83%AC%E3%82%A4%E3%83%88%E3%83%AC%E9%96%A2%E9%80%A3.md)の方でまとめてある  
 
 ### MegakernelPathTracer.h, cpp
@@ -518,7 +519,7 @@ traceScatterRay()を見た感じ、
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NjYyNzE4MiwxNTA4MjAwMjcxLDExMD
+eyJoaXN0b3J5IjpbMTA5OTk0NDM1NiwxNTA4MjAwMjcxLDExMD
 g4OTcxMDgsLTE3MzY0MDgwNjEsLTIwOTc3OTA5ODEsMTYwNzMx
 NzM3OSwtMTc1OTQxMTY2OCwxMDAxMzgyNTY2LDE3MTM4NDIwOT
 ksLTE1NDQ1Mjk1MzgsLTU2NzMzMzk0NSwtMzg3NzE3ODYxLC0x
