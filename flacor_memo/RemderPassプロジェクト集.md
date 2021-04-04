@@ -428,6 +428,7 @@ PathTracer.cppや、PathTracer.rt.slangとPathTracer.slangで使われる関数�
 
 ### MegakernelPathTracer.h, cpp
 このクラス自体は、PathTracer.rt.slang用のRtProgramやRtProgramVarsなどを作成し、変数を割り当てるのと、継承元のPathTracerクラスの処理を活用したexcute()処理のみ  
+Megaと書いているが、デフォルトは1ピクセル1サンプルのみで、反射屈折回数は3（）
 
 ライトの構築と設定、各レイトレに関するアルゴリズムの設定、UI表示などは全部PathTracerクラスが担当する  
 
@@ -516,11 +517,11 @@ traceScatterRay()を見た感じ、
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODIwMDI3MSwxMTA4ODk3MTA4LC0xNz
-M2NDA4MDYxLC0yMDk3NzkwOTgxLDE2MDczMTczNzksLTE3NTk0
-MTE2NjgsMTAwMTM4MjU2NiwxNzEzODQyMDk5LC0xNTQ0NTI5NT
-M4LC01NjczMzM5NDUsLTM4NzcxNzg2MSwtMTA4NTg4ODg1OSw5
-Nzk3MjM0NzEsLTE0NzY0ODAyMTcsLTEzOTEwMTczNTMsLTM1OD
-AwMjE5LDkyMDMwNDM2NiwtMTE1NzE4Njc3MCwxMTgzNjY5Nzk0
-LC0xMjUxOTY4NjI0XX0=
+eyJoaXN0b3J5IjpbLTE5NjAzOTk5NzgsMTUwODIwMDI3MSwxMT
+A4ODk3MTA4LC0xNzM2NDA4MDYxLC0yMDk3NzkwOTgxLDE2MDcz
+MTczNzksLTE3NTk0MTE2NjgsMTAwMTM4MjU2NiwxNzEzODQyMD
+k5LC0xNTQ0NTI5NTM4LC01NjczMzM5NDUsLTM4NzcxNzg2MSwt
+MTA4NTg4ODg1OSw5Nzk3MjM0NzEsLTE0NzY0ODAyMTcsLTEzOT
+EwMTczNTMsLTM1ODAwMjE5LDkyMDMwNDM2NiwtMTE1NzE4Njc3
+MCwxMTgzNjY5Nzk0XX0=
 -->
