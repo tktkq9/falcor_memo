@@ -420,7 +420,10 @@ out : dst、画像を出力、formatは他のパス（or デフォルト処理�
 ## MegakernelPathTracerプロジェクト
 PathTracerを使ったレイトレパス  
 レイトレアルゴリズム全部入り。ぱっと見重そう。おそらく確認用  
-Megaって書いてるけど
+
+Megaと書いているが、デフォルトは1ピクセル1サンプルのみで、反射屈折回数は3（PathTracerParams.slangで初期化している値）  
+デフォルトはそこまで重くもないし、Megaではない  
+MinimalPathTracerに比べて多機能というのを表現したい感じ？
 
 PathTracerクラスの内容と、それ関連のシェーダーを使い、PathTracer.rt.slangを実行する  
 
@@ -428,9 +431,6 @@ PathTracer.cppや、PathTracer.rt.slangとPathTracer.slangで使われる関数�
 
 ### MegakernelPathTracer.h, cpp
 このクラス自体は、PathTracer.rt.slang用のRtProgramやRtProgramVarsなどを作成し、変数を割り当てるのと、継承元のPathTracerクラスの処理を活用したexcute()処理のみ  
-Megaと書いているが、デフォルトは1ピクセル1サンプルのみで、反射屈折回数は3（PathTracerParams.slangで初期化している値）  
-デフォルトはそこまで重くもないし、Megaではない  
-MinimalPathTracerに比べて多機能というのを表現したい感じ？
 
 ライトの構築と設定、各レイトレに関するアルゴリズムの設定、UI表示などは全部PathTracerクラスが担当する  
 
@@ -519,7 +519,7 @@ traceScatterRay()を見た感じ、
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDc1MzgzMSwxNTA4MjAwMjcxLDExMD
+eyJoaXN0b3J5IjpbMTE0ODI5NDM4MywxNTA4MjAwMjcxLDExMD
 g4OTcxMDgsLTE3MzY0MDgwNjEsLTIwOTc3OTA5ODEsMTYwNzMx
 NzM3OSwtMTc1OTQxMTY2OCwxMDAxMzgyNTY2LDE3MTM4NDIwOT
 ksLTE1NDQ1Mjk1MzgsLTU2NzMzMzk0NSwtMzg3NzE3ODYxLC0x
