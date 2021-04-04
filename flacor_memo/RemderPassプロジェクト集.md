@@ -423,11 +423,11 @@ PathTracerを使ったレイトレパス
 
 PathTracerクラスの内容と、それ関連のシェーダーを使い、PathTracer.rt.slangを実行する  
 
+PathTracer.cppや、PathTracer.rt.slangとPathTracer.slangで使われる関数は[レイトレ関連](https://github.com/tktkq9/falcor_memo/blob/master/flacor_memo/%E3%83%AC%E3%82%A4%E3%83%88%E3%83%AC%E9%96%A2%E9%80%A3.md)の方でまとめてある  
+
 ちなみにMegaの名を冠しているが、デフォルトは1ピクセル1サンプルのみで、反射屈折回数は3（PathTracerParams.slangで初期化している値）  
 デフォルトはそこまで重くもないし、Megaではない  
 MinimalPathTracerに比べて多機能というのを表現したい感じ？  
-
-PathTracer.cppや、PathTracer.rt.slangとPathTracer.slangで使われる関数は[レイトレ関連](https://github.com/tktkq9/falcor_memo/blob/master/flacor_memo/%E3%83%AC%E3%82%A4%E3%83%88%E3%83%AC%E9%96%A2%E9%80%A3.md)の方でまとめてある  
 
 ### MegakernelPathTracer.h, cpp
 このクラス自体は、PathTracer.rt.slang用のRtProgramやRtProgramVarsなどを作成し、変数を割り当てるのと、継承元のPathTracerクラスの処理を活用したexcute()処理のみ  
@@ -519,11 +519,11 @@ traceScatterRay()を見た感じ、
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTk0NDM1NiwxNTA4MjAwMjcxLDExMD
-g4OTcxMDgsLTE3MzY0MDgwNjEsLTIwOTc3OTA5ODEsMTYwNzMx
-NzM3OSwtMTc1OTQxMTY2OCwxMDAxMzgyNTY2LDE3MTM4NDIwOT
-ksLTE1NDQ1Mjk1MzgsLTU2NzMzMzk0NSwtMzg3NzE3ODYxLC0x
-MDg1ODg4ODU5LDk3OTcyMzQ3MSwtMTQ3NjQ4MDIxNywtMTM5MT
-AxNzM1MywtMzU4MDAyMTksOTIwMzA0MzY2LC0xMTU3MTg2Nzcw
-LDExODM2Njk3OTRdfQ==
+eyJoaXN0b3J5IjpbLTE0NDk4ODU2MjAsMTUwODIwMDI3MSwxMT
+A4ODk3MTA4LC0xNzM2NDA4MDYxLC0yMDk3NzkwOTgxLDE2MDcz
+MTczNzksLTE3NTk0MTE2NjgsMTAwMTM4MjU2NiwxNzEzODQyMD
+k5LC0xNTQ0NTI5NTM4LC01NjczMzM5NDUsLTM4NzcxNzg2MSwt
+MTA4NTg4ODg1OSw5Nzk3MjM0NzEsLTE0NzY0ODAyMTcsLTEzOT
+EwMTczNTMsLTM1ODAwMjE5LDkyMDMwNDM2NiwtMTE1NzE4Njc3
+MCwxMTgzNjY5Nzk0XX0=
 -->
