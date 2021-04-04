@@ -419,14 +419,14 @@ out : dst、画像を出力、formatは他のパス（or デフォルト処理�
 
 ## MegakernelPathTracerプロジェクト
 PathTracerを使ったレイトレパス  
-レイトレアルゴリズム全部入り。リアルタイム用というよりはおそらく確認用  
+レイトレアルゴリズム全部入り  
 
 PathTracerクラスの内容と、それ関連のシェーダーを使い、PathTracer.rt.slangを実行する  
 
 PathTracer.cppや、PathTracer.rt.slangとPathTracer.slangで使われる関数は[レイトレ関連](https://github.com/tktkq9/falcor_memo/blob/master/flacor_memo/%E3%83%AC%E3%82%A4%E3%83%88%E3%83%AC%E9%96%A2%E9%80%A3.md)の方でまとめてある  
 
 ちなみにMegaの名を冠しているが、デフォルトは1ピクセル1サンプルのみで、反射屈折回数は3（PathTracerParams.slangで初期化している値）  
-デフォルトはそこまで重くもないし、Megaではない  
+デフォルトはそこまで重くなさそうだし、Megaではない  
 MinimalPathTracerに比べて多機能というのを表現したい感じ？  
 
 ### MegakernelPathTracer.h, cpp
@@ -519,11 +519,11 @@ traceScatterRay()を見た感じ、
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzNTA5MTc0LDE1MDgyMDAyNzEsMTEwOD
-g5NzEwOCwtMTczNjQwODA2MSwtMjA5Nzc5MDk4MSwxNjA3MzE3
-Mzc5LC0xNzU5NDExNjY4LDEwMDEzODI1NjYsMTcxMzg0MjA5OS
-wtMTU0NDUyOTUzOCwtNTY3MzMzOTQ1LC0zODc3MTc4NjEsLTEw
-ODU4ODg4NTksOTc5NzIzNDcxLC0xNDc2NDgwMjE3LC0xMzkxMD
-E3MzUzLC0zNTgwMDIxOSw5MjAzMDQzNjYsLTExNTcxODY3NzAs
-MTE4MzY2OTc5NF19
+eyJoaXN0b3J5IjpbMTQ1NjcwOTU1NywxNTA4MjAwMjcxLDExMD
+g4OTcxMDgsLTE3MzY0MDgwNjEsLTIwOTc3OTA5ODEsMTYwNzMx
+NzM3OSwtMTc1OTQxMTY2OCwxMDAxMzgyNTY2LDE3MTM4NDIwOT
+ksLTE1NDQ1Mjk1MzgsLTU2NzMzMzk0NSwtMzg3NzE3ODYxLC0x
+MDg1ODg4ODU5LDk3OTcyMzQ3MSwtMTQ3NjQ4MDIxNywtMTM5MT
+AxNzM1MywtMzU4MDAyMTksOTIwMzA0MzY2LC0xMTU3MTg2Nzcw
+LDExODM2Njk3OTRdfQ==
 -->
