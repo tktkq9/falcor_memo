@@ -419,7 +419,7 @@ out : dst、画像を出力、formatは他のパス（or デフォルト処理�
 
 ## MegakernelPathTracerプロジェクト
 PathTracerを使ったレイトレパス  
-レイトレアルゴリズム全部入り。ぱっと見重そう。おそらく確認用  
+レイトレアルゴリズム全部入り。リアルタイム用というよりはおそらく確認用  
 
 PathTracerクラスの内容と、それ関連のシェーダーを使い、PathTracer.rt.slangを実行する  
 
@@ -519,11 +519,11 @@ traceScatterRay()を見た感じ、
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDk4ODU2MjAsMTUwODIwMDI3MSwxMT
-A4ODk3MTA4LC0xNzM2NDA4MDYxLC0yMDk3NzkwOTgxLDE2MDcz
-MTczNzksLTE3NTk0MTE2NjgsMTAwMTM4MjU2NiwxNzEzODQyMD
-k5LC0xNTQ0NTI5NTM4LC01NjczMzM5NDUsLTM4NzcxNzg2MSwt
-MTA4NTg4ODg1OSw5Nzk3MjM0NzEsLTE0NzY0ODAyMTcsLTEzOT
-EwMTczNTMsLTM1ODAwMjE5LDkyMDMwNDM2NiwtMTE1NzE4Njc3
-MCwxMTgzNjY5Nzk0XX0=
+eyJoaXN0b3J5IjpbNjQzNTA5MTc0LDE1MDgyMDAyNzEsMTEwOD
+g5NzEwOCwtMTczNjQwODA2MSwtMjA5Nzc5MDk4MSwxNjA3MzE3
+Mzc5LC0xNzU5NDExNjY4LDEwMDEzODI1NjYsMTcxMzg0MjA5OS
+wtMTU0NDUyOTUzOCwtNTY3MzMzOTQ1LC0zODc3MTc4NjEsLTEw
+ODU4ODg4NTksOTc5NzIzNDcxLC0xNDc2NDgwMjE3LC0xMzkxMD
+E3MzUzLC0zNTgwMDIxOSw5MjAzMDQzNjYsLTExNTcxODY3NzAs
+MTE4MzY2OTc5NF19
 -->
