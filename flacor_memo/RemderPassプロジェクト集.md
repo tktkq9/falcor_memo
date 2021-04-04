@@ -420,6 +420,7 @@ out : dst、画像を出力、formatは他のパス（or デフォルト処理�
 ## MegakernelPathTracerプロジェクト
 PathTracerを使ったレイトレパス  
 レイトレアルゴリズム全部入り  
+質と早さの両取りしたい場合用  
 
 PathTracerクラスの内容と、それ関連のシェーダーを使い、PathTracer.rt.slangを実行する  
 
@@ -519,11 +520,11 @@ traceScatterRay()を見た感じ、
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NjcwOTU1NywxNTA4MjAwMjcxLDExMD
-g4OTcxMDgsLTE3MzY0MDgwNjEsLTIwOTc3OTA5ODEsMTYwNzMx
-NzM3OSwtMTc1OTQxMTY2OCwxMDAxMzgyNTY2LDE3MTM4NDIwOT
-ksLTE1NDQ1Mjk1MzgsLTU2NzMzMzk0NSwtMzg3NzE3ODYxLC0x
-MDg1ODg4ODU5LDk3OTcyMzQ3MSwtMTQ3NjQ4MDIxNywtMTM5MT
-AxNzM1MywtMzU4MDAyMTksOTIwMzA0MzY2LC0xMTU3MTg2Nzcw
-LDExODM2Njk3OTRdfQ==
+eyJoaXN0b3J5IjpbLTMxOTYwNTc5OCwxNDU2NzA5NTU3LDE1MD
+gyMDAyNzEsMTEwODg5NzEwOCwtMTczNjQwODA2MSwtMjA5Nzc5
+MDk4MSwxNjA3MzE3Mzc5LC0xNzU5NDExNjY4LDEwMDEzODI1Nj
+YsMTcxMzg0MjA5OSwtMTU0NDUyOTUzOCwtNTY3MzMzOTQ1LC0z
+ODc3MTc4NjEsLTEwODU4ODg4NTksOTc5NzIzNDcxLC0xNDc2ND
+gwMjE3LC0xMzkxMDE3MzUzLC0zNTgwMDIxOSw5MjAzMDQzNjYs
+LTExNTcxODY3NzBdfQ==
 -->
