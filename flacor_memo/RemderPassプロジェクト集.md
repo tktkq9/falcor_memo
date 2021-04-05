@@ -552,7 +552,8 @@ out : gOutputColor、最終結果、ポスト処理とかしたい場合は他�
 基本Analyticなライト以外は重要度サンプリングしないレイトレ  
 メッシュのエミッシブは適当にぶつかった点のもののみを加算し、環境光はscatterMiss()の時のみ  
 
-うえでもｓ
+上でもちょっと説明したが、コードの流れは  
+GBufferの点でのAnalyticなライト効果（すべてのライトの内一つ、それがエリアライトならその1点）とその点でのエミッシブを加算（kComputeDirect出ない場合は行わない）
 
 #### その他
 traceShadowRay()でRAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCHが設定されているが、  
@@ -561,11 +562,11 @@ shadowAnyHit()のアルファテストはちゃんと働く
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTA5NTU3NzYsODI5NTU5NjA0LDEyNz
-g0NTc0NCwtMTM4MTM3Nzk3OSwtMTI3MjgxMDUzMiwxNzQyNTg2
-MTM5LC03NDAzMzY1MTYsMTkxMTU0MjczMywxNjUzMDI2NDA1LD
-E0NTY3MDk1NTcsMTUwODIwMDI3MSwxMTA4ODk3MTA4LC0xNzM2
-NDA4MDYxLC0yMDk3NzkwOTgxLDE2MDczMTczNzksLTE3NTk0MT
-E2NjgsMTAwMTM4MjU2NiwxNzEzODQyMDk5LC0xNTQ0NTI5NTM4
-LC01NjczMzM5NDVdfQ==
+eyJoaXN0b3J5IjpbMTE5NzY5MzYxMiw4Mjk1NTk2MDQsMTI3OD
+Q1NzQ0LC0xMzgxMzc3OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYx
+MzksLTc0MDMzNjUxNiwxOTExNTQyNzMzLDE2NTMwMjY0MDUsMT
+Q1NjcwOTU1NywxNTA4MjAwMjcxLDExMDg4OTcxMDgsLTE3MzY0
+MDgwNjEsLTIwOTc3OTA5ODEsMTYwNzMxNzM3OSwtMTc1OTQxMT
+Y2OCwxMDAxMzgyNTY2LDE3MTM4NDIwOTksLTE1NDQ1Mjk1Mzgs
+LTU2NzMzMzk0NV19
 -->
