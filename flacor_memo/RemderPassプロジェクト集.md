@@ -542,7 +542,7 @@ MinimalPathTracer.rt.slangを実行する用クラス
 - kMaxRecursionDepth = 2u : スキャッターTraceRay()内でダイレクトライトの計算をするためにシャドウTraceRay()するのでリカーシブは2  
 ただし、反射処理する場合はペイロードに次のレイ情報を入れ、forループによるtraceScatterRay()でどうにかしようとしている  
 - mComputeDirect ( = kComputeDirect) : evalDirectAnalytic()以外に、1回目以降にヒットしたメッシュのエミッシブとmissした際の環境光も考慮するかフラグ  
-Directとか書いているが、オンでもオフでも スループット * とどいた光の強さ をラディアンスに加算していくのは変わらないので変数名が謎  
+Directとか書いているが、オンでもオフでも スループット * とどいた光の強さ をラディアンスに加算していくIndirect計算なので変数名が謎  
 
 ### MinimalPathTracer.rt.slang
 
@@ -553,7 +553,7 @@ shadowAnyHit()のアルファテストはちゃんと働く
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTk1ODEwNTEsODI5NTU5NjA0LDEyNz
+eyJoaXN0b3J5IjpbLTE5MTAyNTE1MzAsODI5NTU5NjA0LDEyNz
 g0NTc0NCwtMTM4MTM3Nzk3OSwtMTI3MjgxMDUzMiwxNzQyNTg2
 MTM5LC03NDAzMzY1MTYsMTkxMTU0MjczMywxNjUzMDI2NDA1LD
 E0NTY3MDk1NTcsMTUwODIwMDI3MSwxMTA4ODk3MTA4LC0xNzM2
