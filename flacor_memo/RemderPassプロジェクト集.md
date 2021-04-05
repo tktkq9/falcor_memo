@@ -516,6 +516,12 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 
+#### その他
+USE_ENV_LIGHTとUSE_ENV_BACKGROUNDの違い  
+USE_ENV_LIGHTはレイトレでのUSE_ENV_BACKGROUNDのダイレクトライトサンプリングするかどうかのフラグ（ただしUSE_ENV_BACKGROUNDをオンにしてなくてもバックグラウンドライトの値で評価する）  
+USE_ENV_BACKGROUNDはレイトレのサンプリング以外全般のバックグラウンドライトを使うかどうかフラグ  
+なので、基本的にはどちらもオン or どちらもオフになっていると思われる    
+
 ## MinimalPathTracerプロジェクト
 
 ヘッダーのコメントにも書いてある通り、  
@@ -539,18 +545,13 @@ traceShadowRay()でRAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCHが設定されてい
 このフラグはIgnoreHit()が呼ばれた場合はちゃんとignoreして次のヒット確認に移る仕様になっているので、  
 shadowAnyHit()のアルファテストはちゃんと働く  
 
-### その他
-USE_ENV_LIGHTとUSE_ENV_BACKGROUNDの違い  
-USE_ENV_LIGHTはレイトレでのUSE_ENV_BACKGROUNDのダイレクトライトサンプリングするかどうかのフラグ（ただしUSE_ENV_BACKGROUNDをオンにしてなくてもバックグラウンドライトの値で評価する）  
-USE_ENV_BACKGROUNDはレイトレのサンプリング以外全般のバックグラウンドライトを使うかどうかフラグ  
-なので、基本的にはどちらもオン or どちらもオフになっていると思われる    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzI4MTA1MzIsMTc0MjU4NjEzOSwtNz
-QwMzM2NTE2LDE5MTE1NDI3MzMsMTY1MzAyNjQwNSwxNDU2NzA5
-NTU3LDE1MDgyMDAyNzEsMTEwODg5NzEwOCwtMTczNjQwODA2MS
-wtMjA5Nzc5MDk4MSwxNjA3MzE3Mzc5LC0xNzU5NDExNjY4LDEw
-MDEzODI1NjYsMTcxMzg0MjA5OSwtMTU0NDUyOTUzOCwtNTY3Mz
-MzOTQ1LC0zODc3MTc4NjEsLTEwODU4ODg4NTksOTc5NzIzNDcx
-LC0xNDc2NDgwMjE3XX0=
+eyJoaXN0b3J5IjpbLTY0NzAyODI0OSwtMTI3MjgxMDUzMiwxNz
+QyNTg2MTM5LC03NDAzMzY1MTYsMTkxMTU0MjczMywxNjUzMDI2
+NDA1LDE0NTY3MDk1NTcsMTUwODIwMDI3MSwxMTA4ODk3MTA4LC
+0xNzM2NDA4MDYxLC0yMDk3NzkwOTgxLDE2MDczMTczNzksLTE3
+NTk0MTE2NjgsMTAwMTM4MjU2NiwxNzEzODQyMDk5LC0xNTQ0NT
+I5NTM4LC01NjczMzM5NDUsLTM4NzcxNzg2MSwtMTA4NTg4ODg1
+OSw5Nzk3MjM0NzFdfQ==
 -->
