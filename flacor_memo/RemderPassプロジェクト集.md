@@ -516,8 +516,7 @@ traceScatterRay()を見た感じ、
 
 このようなことから、球の内部に液体があるとかの場合、球の中が空洞になっていないと、中の液体は完全に無視されるといったことになるのでそこを気を付けたほうがいいかも  
 
-#### その他
-USE_ENV_LIGHTとUSE_ENV_BACKGROUNDの違い  
+#### USE_ENV_LIGHTとUSE_ENV_BACKGROUNDの違い 
 USE_ENV_LIGHTはレイトレでのUSE_ENV_BACKGROUNDのダイレクトライトサンプリングするかどうかのフラグ（ただしUSE_ENV_BACKGROUNDをオンにしてなくてもバックグラウンドライトの値で評価する）  
 USE_ENV_BACKGROUNDはレイトレのサンプリング以外全般のバックグラウンドライトを使うかどうかフラグ  
 なので、基本的にはどちらもオン or どちらもオフになっていると思われる    
@@ -547,11 +546,11 @@ shadowAnyHit()のアルファテストはちゃんと働く
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NzAyODI0OSwtMTI3MjgxMDUzMiwxNz
-QyNTg2MTM5LC03NDAzMzY1MTYsMTkxMTU0MjczMywxNjUzMDI2
-NDA1LDE0NTY3MDk1NTcsMTUwODIwMDI3MSwxMTA4ODk3MTA4LC
-0xNzM2NDA4MDYxLC0yMDk3NzkwOTgxLDE2MDczMTczNzksLTE3
-NTk0MTE2NjgsMTAwMTM4MjU2NiwxNzEzODQyMDk5LC0xNTQ0NT
-I5NTM4LC01NjczMzM5NDUsLTM4NzcxNzg2MSwtMTA4NTg4ODg1
-OSw5Nzk3MjM0NzFdfQ==
+eyJoaXN0b3J5IjpbMTQxMDczODI2LC0xMjcyODEwNTMyLDE3ND
+I1ODYxMzksLTc0MDMzNjUxNiwxOTExNTQyNzMzLDE2NTMwMjY0
+MDUsMTQ1NjcwOTU1NywxNTA4MjAwMjcxLDExMDg4OTcxMDgsLT
+E3MzY0MDgwNjEsLTIwOTc3OTA5ODEsMTYwNzMxNzM3OSwtMTc1
+OTQxMTY2OCwxMDAxMzgyNTY2LDE3MTM4NDIwOTksLTE1NDQ1Mj
+k1MzgsLTU2NzMzMzk0NSwtMzg3NzE3ODYxLC0xMDg1ODg4ODU5
+LDk3OTcyMzQ3MV19
 -->
