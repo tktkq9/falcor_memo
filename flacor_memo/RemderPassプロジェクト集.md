@@ -541,7 +541,7 @@ MinimalPathTracer.rt.slangを実行する用クラス
 このクラス（とMinimalPathTracer.rt.slang）で特徴的なものとして、  
 - kMaxRecursionDepth = 2u : スキャッターTraceRay()内でダイレクトライトの計算をするためにシャドウTraceRay()するのでリカーシブは2  
 ただし、反射処理する場合はペイロードに次のレイ情報を入れ、forループによるtraceScatterRay()でどうにかしようとしている  
-- mComputeDirect ( = kComputeDirect) : 
+- mComputeDirect ( = kComputeDirect) : evalDirectAnalytic()以外に、1回目以降にヒットしたメッシュのエミッシブとmissした際のかんｋ
 
 ### MinimalPathTracer.rt.slang
 
@@ -552,11 +552,11 @@ shadowAnyHit()のアルファテストはちゃんと働く
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxMDc3MjE5LDgyOTU1OTYwNCwxMjc4ND
-U3NDQsLTEzODEzNzc5NzksLTEyNzI4MTA1MzIsMTc0MjU4NjEz
-OSwtNzQwMzM2NTE2LDE5MTE1NDI3MzMsMTY1MzAyNjQwNSwxND
-U2NzA5NTU3LDE1MDgyMDAyNzEsMTEwODg5NzEwOCwtMTczNjQw
-ODA2MSwtMjA5Nzc5MDk4MSwxNjA3MzE3Mzc5LC0xNzU5NDExNj
-Y4LDEwMDEzODI1NjYsMTcxMzg0MjA5OSwtMTU0NDUyOTUzOCwt
-NTY3MzMzOTQ1XX0=
+eyJoaXN0b3J5IjpbLTE3NjY1NzM1Nyw4Mjk1NTk2MDQsMTI3OD
+Q1NzQ0LC0xMzgxMzc3OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYx
+MzksLTc0MDMzNjUxNiwxOTExNTQyNzMzLDE2NTMwMjY0MDUsMT
+Q1NjcwOTU1NywxNTA4MjAwMjcxLDExMDg4OTcxMDgsLTE3MzY0
+MDgwNjEsLTIwOTc3OTA5ODEsMTYwNzMxNzM3OSwtMTc1OTQxMT
+Y2OCwxMDAxMzgyNTY2LDE3MTM4NDIwOTksLTE1NDQ1Mjk1Mzgs
+LTU2NzMzMzk0NV19
 -->
