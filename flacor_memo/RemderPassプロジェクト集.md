@@ -548,7 +548,8 @@ in : GBufferRTの大体のやつ
 out : gOutputColor、最終結果、ポスト処理とかしたい場合は他のパスのやつとか必要  
 
 ### MinimalPathTracer.rt.slang
-基本Analyticなライト以外は重要度さんぷりんぐしない
+基本Analyticなライト以外は重要度サンプリングしないレイトレ  
+
 
 
 #### その他
@@ -558,11 +559,11 @@ shadowAnyHit()のアルファテストはちゃんと働く
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU2NjIxODQxLDgyOTU1OTYwNCwxMjc4ND
-U3NDQsLTEzODEzNzc5NzksLTEyNzI4MTA1MzIsMTc0MjU4NjEz
-OSwtNzQwMzM2NTE2LDE5MTE1NDI3MzMsMTY1MzAyNjQwNSwxND
-U2NzA5NTU3LDE1MDgyMDAyNzEsMTEwODg5NzEwOCwtMTczNjQw
-ODA2MSwtMjA5Nzc5MDk4MSwxNjA3MzE3Mzc5LC0xNzU5NDExNj
-Y4LDEwMDEzODI1NjYsMTcxMzg0MjA5OSwtMTU0NDUyOTUzOCwt
-NTY3MzMzOTQ1XX0=
+eyJoaXN0b3J5IjpbLTEyOTAwMDYwNDUsODI5NTU5NjA0LDEyNz
+g0NTc0NCwtMTM4MTM3Nzk3OSwtMTI3MjgxMDUzMiwxNzQyNTg2
+MTM5LC03NDAzMzY1MTYsMTkxMTU0MjczMywxNjUzMDI2NDA1LD
+E0NTY3MDk1NTcsMTUwODIwMDI3MSwxMTA4ODk3MTA4LC0xNzM2
+NDA4MDYxLC0yMDk3NzkwOTgxLDE2MDczMTczNzksLTE3NTk0MT
+E2NjgsMTAwMTM4MjU2NiwxNzEzODQyMDk5LC0xNTQ0NTI5NTM4
+LC01NjczMzM5NDVdfQ==
 -->
