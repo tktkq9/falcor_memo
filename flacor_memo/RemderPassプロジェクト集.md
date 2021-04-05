@@ -543,7 +543,7 @@ MinimalPathTracer.rt.slangを実行する用クラス
 ただし、反射処理する場合はペイロードに次のレイ情報を入れ、forループによるtraceScatterRay()でどうにかしようとしている  
 - mComputeDirect ( = kComputeDirect) : オフにするとIndirectなものだけ計算される  
 オフで無視されるのは、GBuffer点でのエミッシブとAnalyticなライト、次以降の反射点のエミッシブ、環境光  
-t
+つまり、次以降の反射点でのAnalyticなライトのみ計算される  
 
 in : GBufferRTの大体のやつ  
 out : gOutputColor、最終結果、ポスト処理とかしたい場合は他のパスのやつとか必要  
@@ -560,11 +560,11 @@ shadowAnyHit()のアルファテストはちゃんと働く
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMzU1NjA1NSw4Mjk1NTk2MDQsMTI3OD
-Q1NzQ0LC0xMzgxMzc3OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYx
-MzksLTc0MDMzNjUxNiwxOTExNTQyNzMzLDE2NTMwMjY0MDUsMT
-Q1NjcwOTU1NywxNTA4MjAwMjcxLDExMDg4OTcxMDgsLTE3MzY0
-MDgwNjEsLTIwOTc3OTA5ODEsMTYwNzMxNzM3OSwtMTc1OTQxMT
-Y2OCwxMDAxMzgyNTY2LDE3MTM4NDIwOTksLTE1NDQ1Mjk1Mzgs
-LTU2NzMzMzk0NV19
+eyJoaXN0b3J5IjpbODUxNTE2OCw4Mjk1NTk2MDQsMTI3ODQ1Nz
+Q0LC0xMzgxMzc3OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYxMzks
+LTc0MDMzNjUxNiwxOTExNTQyNzMzLDE2NTMwMjY0MDUsMTQ1Nj
+cwOTU1NywxNTA4MjAwMjcxLDExMDg4OTcxMDgsLTE3MzY0MDgw
+NjEsLTIwOTc3OTA5ODEsMTYwNzMxNzM3OSwtMTc1OTQxMTY2OC
+wxMDAxMzgyNTY2LDE3MTM4NDIwOTksLTE1NDQ1Mjk1MzgsLTU2
+NzMzMzk0NV19
 -->
