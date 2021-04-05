@@ -544,6 +544,7 @@ MinimalPathTracer.rt.slangを実行する用クラス
 - mComputeDirect ( = kComputeDirect) : オフにするとIndirectなものだけ計算される  
 オフで無視されるのは、GBuffer点でのエミッシブとAnalyticなライト、次以降の反射点のエミッシブ、環境光  
 つまり、次以降の反射点でのAnalyticなライトのみ計算される  
+オンにすると
 
 in : GBufferRTの大体のやつ  
 out : gOutputColor、最終結果、ポスト処理とかしたい場合は他のパスのやつとか必要  
@@ -552,8 +553,10 @@ out : gOutputColor、最終結果、ポスト処理とかしたい場合は他�
 基本Analyticなライト以外は重要度サンプリングしないレイトレ  
 メッシュのエミッシブは適当にぶつかった点のもののみを加算し、環境光はscatterMiss()の時のみ  
 
-上でもちょっと説明したが、コードの流れは  
-GBufferの点でのAnalyticなライト効果（すべてのライトの内一つ、それがエリアライトならその1点）とその点でのエミッシブを加算（kComputeDirect出ない場合は行わない）
+上でもちょっと説明したが、コードの流れは、  
+GBufferの点でのAnalyticなライト効果（すべてのライトの内一つ、それがエリアライトならその1点）とその点でのエミッシブを加算（kComputeDirect出ない場合は行わない）  
+for kMaxBounces
+　　traceScatterRay()で反射方向を
 
 #### その他
 traceShadowRay()でRAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCHが設定されているが、  
@@ -562,7 +565,7 @@ shadowAnyHit()のアルファテストはちゃんと働く
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NzY5MzYxMiw4Mjk1NTk2MDQsMTI3OD
+eyJoaXN0b3J5IjpbLTQ1MzMyMzMxNiw4Mjk1NTk2MDQsMTI3OD
 Q1NzQ0LC0xMzgxMzc3OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYx
 MzksLTc0MDMzNjUxNiwxOTExNTQyNzMzLDE2NTMwMjY0MDUsMT
 Q1NjcwOTU1NywxNTA4MjAwMjcxLDExMDg4OTcxMDgsLTE3MzY0
