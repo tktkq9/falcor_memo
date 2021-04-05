@@ -537,7 +537,7 @@ payloadがやたらサイズがでかいので遅いかもしれない
 #### その他
 traceShadowRay()でRAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCHが設定されているが、  
 このフラグはIgnoreHit()が呼ばれた場合はちゃんとignoreして次のヒット確認に移る仕様になっているので、  
-shadowAnyHit()のアルファテストはちゃんとは
+shadowAnyHit()のアルファテストはちゃんと働く  
 
 ### その他
 USE_ENV_LIGHTとUSE_ENV_BACKGROUNDの違い  
@@ -546,11 +546,11 @@ USE_ENV_BACKGROUNDはレイトレのサンプリング以外全般のバック�
 なので、基本的にはどちらもオン or どちらもオフになっていると思われる    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNjg5MDcyMSwxNzQyNTg2MTM5LC03ND
-AzMzY1MTYsMTkxMTU0MjczMywxNjUzMDI2NDA1LDE0NTY3MDk1
-NTcsMTUwODIwMDI3MSwxMTA4ODk3MTA4LC0xNzM2NDA4MDYxLC
-0yMDk3NzkwOTgxLDE2MDczMTczNzksLTE3NTk0MTE2NjgsMTAw
-MTM4MjU2NiwxNzEzODQyMDk5LC0xNTQ0NTI5NTM4LC01NjczMz
-M5NDUsLTM4NzcxNzg2MSwtMTA4NTg4ODg1OSw5Nzk3MjM0NzEs
-LTE0NzY0ODAyMTddfQ==
+eyJoaXN0b3J5IjpbLTEyNzI4MTA1MzIsMTc0MjU4NjEzOSwtNz
+QwMzM2NTE2LDE5MTE1NDI3MzMsMTY1MzAyNjQwNSwxNDU2NzA5
+NTU3LDE1MDgyMDAyNzEsMTEwODg5NzEwOCwtMTczNjQwODA2MS
+wtMjA5Nzc5MDk4MSwxNjA3MzE3Mzc5LC0xNzU5NDExNjY4LDEw
+MDEzODI1NjYsMTcxMzg0MjA5OSwtMTU0NDUyOTUzOCwtNTY3Mz
+MzOTQ1LC0zODc3MTc4NjEsLTEwODU4ODg4NTksOTc5NzIzNDcx
+LC0xNDc2NDgwMjE3XX0=
 -->
