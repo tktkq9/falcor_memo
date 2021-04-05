@@ -544,7 +544,7 @@ MinimalPathTracer.rt.slangを実行する用クラス
 - mComputeDirect ( = kComputeDirect) : オフにするとIndirectなものだけ計算される  
 オフで無視されるのは、GBuffer点でのエミッシブとAnalyticなライト、次以降の反射点のエミッシブ、環境光  
 つまり、次以降の反射点でのAnalyticなライトのみ計算される  
-オンにすると
+オンにするとdirectのみではなく、direct + indirect計算になる  
 
 in : GBufferRTの大体のやつ  
 out : gOutputColor、最終結果、ポスト処理とかしたい場合は他のパスのやつとか必要  
@@ -565,11 +565,11 @@ shadowAnyHit()のアルファテストはちゃんと働く
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MzMyMzMxNiw4Mjk1NTk2MDQsMTI3OD
-Q1NzQ0LC0xMzgxMzc3OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYx
-MzksLTc0MDMzNjUxNiwxOTExNTQyNzMzLDE2NTMwMjY0MDUsMT
-Q1NjcwOTU1NywxNTA4MjAwMjcxLDExMDg4OTcxMDgsLTE3MzY0
-MDgwNjEsLTIwOTc3OTA5ODEsMTYwNzMxNzM3OSwtMTc1OTQxMT
-Y2OCwxMDAxMzgyNTY2LDE3MTM4NDIwOTksLTE1NDQ1Mjk1Mzgs
-LTU2NzMzMzk0NV19
+eyJoaXN0b3J5IjpbMTQ1NzUwMDQ5LDgyOTU1OTYwNCwxMjc4ND
+U3NDQsLTEzODEzNzc5NzksLTEyNzI4MTA1MzIsMTc0MjU4NjEz
+OSwtNzQwMzM2NTE2LDE5MTE1NDI3MzMsMTY1MzAyNjQwNSwxND
+U2NzA5NTU3LDE1MDgyMDAyNzEsMTEwODg5NzEwOCwtMTczNjQw
+ODA2MSwtMjA5Nzc5MDk4MSwxNjA3MzE3Mzc5LC0xNzU5NDExNj
+Y4LDEwMDEzODI1NjYsMTcxMzg0MjA5OSwtMTU0NDUyOTUzOCwt
+NTY3MzMzOTQ1XX0=
 -->
