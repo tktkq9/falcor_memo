@@ -537,7 +537,9 @@ payloadがやたらサイズがでかいので遅いかもしれない
 
 ### MinimalPathTracer.h, cpp
 MinimalPathTracer.rt.slangを実行する用クラス  
-このクラス（とMinimalPathTracer.rt.slang）で特徴
+
+このクラス（とMinimalPathTracer.rt.slang）で特徴的なものとして、  
+- kMaxRecursionDepth = 2u : スキャッターTraceRay()内でダイレクトライトの計算をするためにシャドウTraceRaｙ
 
 ### MinimalPathTracer.rt.slang
 
@@ -548,7 +550,7 @@ shadowAnyHit()のアルファテストはちゃんと働く
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4MzM4ODAxLDgyOTU1OTYwNCwxMjc4ND
+eyJoaXN0b3J5IjpbMTcyMTE5ODk1LDgyOTU1OTYwNCwxMjc4ND
 U3NDQsLTEzODEzNzc5NzksLTEyNzI4MTA1MzIsMTc0MjU4NjEz
 OSwtNzQwMzM2NTE2LDE5MTE1NDI3MzMsMTY1MzAyNjQwNSwxND
 U2NzA5NTU3LDE1MDgyMDAyNzEsMTEwODg5NzEwOCwtMTczNjQw
