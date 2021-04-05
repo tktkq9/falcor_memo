@@ -559,7 +559,10 @@ generateScatterRay()で反射方向を計算（cosサンプリング）
 for kMaxBounces
 　　traceScatterRay()で反射処理用のTraceRay()  
 　　scatterClosestHit()したらその点でのevalDirectAnalytic()、kComputeDirectがオンならメッシュ点のエミッシブも加算  
-　　scatterMiss()したらkComputeDirectがオンなら環境光を加算。、終了  
+　　scatterMiss()したらkComputeDirectがオンなら環境光を加算、break
+done
+加算した色を出力    
+
 
 #### その他
 traceShadowRay()でRAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCHが設定されているが、  
@@ -568,11 +571,11 @@ shadowAnyHit()のアルファテストはちゃんと働く
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NzU5MDc2MSw4Mjk1NTk2MDQsMTI3OD
-Q1NzQ0LC0xMzgxMzc3OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYx
-MzksLTc0MDMzNjUxNiwxOTExNTQyNzMzLDE2NTMwMjY0MDUsMT
-Q1NjcwOTU1NywxNTA4MjAwMjcxLDExMDg4OTcxMDgsLTE3MzY0
-MDgwNjEsLTIwOTc3OTA5ODEsMTYwNzMxNzM3OSwtMTc1OTQxMT
-Y2OCwxMDAxMzgyNTY2LDE3MTM4NDIwOTksLTE1NDQ1Mjk1Mzgs
-LTU2NzMzMzk0NV19
+eyJoaXN0b3J5IjpbOTk3NjAwNTgwLDgyOTU1OTYwNCwxMjc4ND
+U3NDQsLTEzODEzNzc5NzksLTEyNzI4MTA1MzIsMTc0MjU4NjEz
+OSwtNzQwMzM2NTE2LDE5MTE1NDI3MzMsMTY1MzAyNjQwNSwxND
+U2NzA5NTU3LDE1MDgyMDAyNzEsMTEwODg5NzEwOCwtMTczNjQw
+ODA2MSwtMjA5Nzc5MDk4MSwxNjA3MzE3Mzc5LC0xNzU5NDExNj
+Y4LDEwMDEzODI1NjYsMTcxMzg0MjA5OSwtMTU0NDUyOTUzOCwt
+NTY3MzMzOTQ1XX0=
 -->
