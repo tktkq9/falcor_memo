@@ -545,9 +545,11 @@ MinimalPathTracer.rt.slangを実行する用クラス
 Directとか書いているが、オンでもオフでも スループット * とどいた光の強さ をラディアンスに加算していくdirect + Indirect計算なので変数名が謎  
 
 in : GBufferRTの大体のやつ  
-out : レイトレの
+out : gOutputColor、最終結果、ポスト処理とかしたい場合は他のパスのやつとか必要  
 
 ### MinimalPathTracer.rt.slang
+
+
 
 #### その他
 traceShadowRay()でRAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCHが設定されているが、  
@@ -556,11 +558,11 @@ shadowAnyHit()のアルファテストはちゃんと働く
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNDIxNDQzMCw4Mjk1NTk2MDQsMTI3OD
-Q1NzQ0LC0xMzgxMzc3OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYx
-MzksLTc0MDMzNjUxNiwxOTExNTQyNzMzLDE2NTMwMjY0MDUsMT
-Q1NjcwOTU1NywxNTA4MjAwMjcxLDExMDg4OTcxMDgsLTE3MzY0
-MDgwNjEsLTIwOTc3OTA5ODEsMTYwNzMxNzM3OSwtMTc1OTQxMT
-Y2OCwxMDAxMzgyNTY2LDE3MTM4NDIwOTksLTE1NDQ1Mjk1Mzgs
-LTU2NzMzMzk0NV19
+eyJoaXN0b3J5IjpbLTE5NzE4NTEzODIsODI5NTU5NjA0LDEyNz
+g0NTc0NCwtMTM4MTM3Nzk3OSwtMTI3MjgxMDUzMiwxNzQyNTg2
+MTM5LC03NDAzMzY1MTYsMTkxMTU0MjczMywxNjUzMDI2NDA1LD
+E0NTY3MDk1NTcsMTUwODIwMDI3MSwxMTA4ODk3MTA4LC0xNzM2
+NDA4MDYxLC0yMDk3NzkwOTgxLDE2MDczMTczNzksLTE3NTk0MT
+E2NjgsMTAwMTM4MjU2NiwxNzEzODQyMDk5LC0xNTQ0NTI5NTM4
+LC01NjczMzM5NDVdfQ==
 -->
