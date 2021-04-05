@@ -527,6 +527,7 @@ MegakernelPathTracerとは対照的なパス
 inputの内容から、事前にGBufferRTパスを実行している前提のパス  
 
 payloadがやたらサイズがでかいので遅いかもしれない  
+参考 : [### DirectXの話 第166回 DXRのパフォーマンスの話](https://sites.google.com/site/monshonosuana/directxno-hanashi-1/directx-166)
 
 ### MinimalPathTracer.h, cpp
 
@@ -539,11 +540,11 @@ USE_ENV_BACKGROUNDはレイトレのサンプリング以外全般のバック�
 なので、基本的にはどちらもオン or どちらもオフになっていると思われる    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDMzNjUxNiwxOTExNTQyNzMzLDE2NT
-MwMjY0MDUsMTQ1NjcwOTU1NywxNTA4MjAwMjcxLDExMDg4OTcx
-MDgsLTE3MzY0MDgwNjEsLTIwOTc3OTA5ODEsMTYwNzMxNzM3OS
-wtMTc1OTQxMTY2OCwxMDAxMzgyNTY2LDE3MTM4NDIwOTksLTE1
-NDQ1Mjk1MzgsLTU2NzMzMzk0NSwtMzg3NzE3ODYxLC0xMDg1OD
-g4ODU5LDk3OTcyMzQ3MSwtMTQ3NjQ4MDIxNywtMTM5MTAxNzM1
-MywtMzU4MDAyMTldfQ==
+eyJoaXN0b3J5IjpbMTc0MjU4NjEzOSwtNzQwMzM2NTE2LDE5MT
+E1NDI3MzMsMTY1MzAyNjQwNSwxNDU2NzA5NTU3LDE1MDgyMDAy
+NzEsMTEwODg5NzEwOCwtMTczNjQwODA2MSwtMjA5Nzc5MDk4MS
+wxNjA3MzE3Mzc5LC0xNzU5NDExNjY4LDEwMDEzODI1NjYsMTcx
+Mzg0MjA5OSwtMTU0NDUyOTUzOCwtNTY3MzMzOTQ1LC0zODc3MT
+c4NjEsLTEwODU4ODg4NTksOTc5NzIzNDcxLC0xNDc2NDgwMjE3
+LC0xMzkxMDE3MzUzXX0=
 -->
