@@ -561,10 +561,9 @@ for kMaxBounces
 　　scatterClosestHit()したらその点でのevalDirectAnalytic()、kComputeDirectがオンならメッシュ点のエミッシブも加算  
 　　scatterMiss()したらkComputeDirectがオンなら環境光を加算、break
 done
-加算した色を出力    
+加算した色を出力して終わり  
 
 あと、シャドウレイはevalDirectAnalytic()で使われるのでtraceScatterRay()の時用にリカーシブ設定が必要  
-
 
 #### その他
 traceShadowRay()でRAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCHが設定されているが、  
@@ -573,7 +572,7 @@ shadowAnyHit()のアルファテストはちゃんと働く
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NDkzMjgzMSw4Mjk1NTk2MDQsMTI3OD
+eyJoaXN0b3J5IjpbMTY0MTQyNDc3MSw4Mjk1NTk2MDQsMTI3OD
 Q1NzQ0LC0xMzgxMzc3OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYx
 MzksLTc0MDMzNjUxNiwxOTExNTQyNzMzLDE2NTMwMjY0MDUsMT
 Q1NjcwOTU1NywxNTA4MjAwMjcxLDExMDg4OTcxMDgsLTE3MzY0
