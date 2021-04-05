@@ -536,7 +536,8 @@ payloadがやたらサイズがでかいので遅いかもしれない
 
 #### その他
 traceShadowRay()でRAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCHが設定されているが、  
-
+このフラグはIgnoreHit()が呼ばれた場合はちゃんとignoreして次のヒット確認に移る仕様になっているので、  
+shadowAnyHit()のアルファテストはちゃんとは
 
 ### その他
 USE_ENV_LIGHTとUSE_ENV_BACKGROUNDの違い  
@@ -545,7 +546,7 @@ USE_ENV_BACKGROUNDはレイトレのサンプリング以外全般のバック�
 なので、基本的にはどちらもオン or どちらもオフになっていると思われる    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1OTgwMDczNiwxNzQyNTg2MTM5LC03ND
+eyJoaXN0b3J5IjpbMTgwNjg5MDcyMSwxNzQyNTg2MTM5LC03ND
 AzMzY1MTYsMTkxMTU0MjczMywxNjUzMDI2NDA1LDE0NTY3MDk1
 NTcsMTUwODIwMDI3MSwxMTA4ODk3MTA4LC0xNzM2NDA4MDYxLC
 0yMDk3NzkwOTgxLDE2MDczMTczNzksLTE3NTk0MTE2NjgsMTAw
