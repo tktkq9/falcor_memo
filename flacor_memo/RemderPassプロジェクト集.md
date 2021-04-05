@@ -539,8 +539,8 @@ payloadがやたらサイズがでかいので遅いかもしれない
 MinimalPathTracer.rt.slangを実行する用クラス  
 
 このクラス（とMinimalPathTracer.rt.slang）で特徴的なものとして、  
-- kMaxRecursionDepth = 2u : スキャッターTraceRay()内でダイレクトライトの計算をするためにシャドウTraceRay()するのでリカーシブ2  
-ただし、反射処理する場合は
+- kMaxRecursionDepth = 2u : スキャッターTraceRay()内でダイレクトライトの計算をするためにシャドウTraceRay()するのでリカーシブは2  
+ただし、反射処理する場合はペイロードに次のレイ情報を入れ、forループによるtraceScatterRay()でどうにかしようとしている  
 
 ### MinimalPathTracer.rt.slang
 
@@ -551,11 +551,11 @@ shadowAnyHit()のアルファテストはちゃんと働く
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTM0NjY2MDMsODI5NTU5NjA0LDEyNz
-g0NTc0NCwtMTM4MTM3Nzk3OSwtMTI3MjgxMDUzMiwxNzQyNTg2
-MTM5LC03NDAzMzY1MTYsMTkxMTU0MjczMywxNjUzMDI2NDA1LD
-E0NTY3MDk1NTcsMTUwODIwMDI3MSwxMTA4ODk3MTA4LC0xNzM2
-NDA4MDYxLC0yMDk3NzkwOTgxLDE2MDczMTczNzksLTE3NTk0MT
-E2NjgsMTAwMTM4MjU2NiwxNzEzODQyMDk5LC0xNTQ0NTI5NTM4
-LC01NjczMzM5NDVdfQ==
+eyJoaXN0b3J5IjpbOTcwNDcxMjIsODI5NTU5NjA0LDEyNzg0NT
+c0NCwtMTM4MTM3Nzk3OSwtMTI3MjgxMDUzMiwxNzQyNTg2MTM5
+LC03NDAzMzY1MTYsMTkxMTU0MjczMywxNjUzMDI2NDA1LDE0NT
+Y3MDk1NTcsMTUwODIwMDI3MSwxMTA4ODk3MTA4LC0xNzM2NDA4
+MDYxLC0yMDk3NzkwOTgxLDE2MDczMTczNzksLTE3NTk0MTE2Nj
+gsMTAwMTM4MjU2NiwxNzEzODQyMDk5LC0xNTQ0NTI5NTM4LC01
+NjczMzM5NDVdfQ==
 -->
