@@ -526,7 +526,7 @@ USE_ENV_BACKGROUNDはレイトレのサンプリング以外全般のバック�
 ヘッダーのコメントにも書いてある通り、  
 様々なアルゴリズムを取り除いた単純な（機能がMinimalな）レイトレ用パス  
 MegakernelPathTracerとは対照的なパス  
-単純なレイトレなのでバイアスがかかっておらず、おそらく確認用に使われるであろうもの  
+単純なレイトレなのでバイアスがかかっておらず（ただしsample_cosine_hemisphere_concentric(()による散乱サンプリングはされている）、おそらく確認用に使われるであろうもの  
 ただし収束させるにはかなりの数のサンプルを取らないといけない  
 
 inputの内容から、事前にGBufferRTパスを実行している前提のパス  
@@ -546,11 +546,11 @@ shadowAnyHit()のアルファテストはちゃんと働く
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3ODQ1NzQ0LC0xMzgxMzc3OTc5LC0xMj
-cyODEwNTMyLDE3NDI1ODYxMzksLTc0MDMzNjUxNiwxOTExNTQy
-NzMzLDE2NTMwMjY0MDUsMTQ1NjcwOTU1NywxNTA4MjAwMjcxLD
-ExMDg4OTcxMDgsLTE3MzY0MDgwNjEsLTIwOTc3OTA5ODEsMTYw
-NzMxNzM3OSwtMTc1OTQxMTY2OCwxMDAxMzgyNTY2LDE3MTM4ND
-IwOTksLTE1NDQ1Mjk1MzgsLTU2NzMzMzk0NSwtMzg3NzE3ODYx
-LC0xMDg1ODg4ODU5XX0=
+eyJoaXN0b3J5IjpbLTE3MzcxNzk5NSwxMjc4NDU3NDQsLTEzOD
+EzNzc5NzksLTEyNzI4MTA1MzIsMTc0MjU4NjEzOSwtNzQwMzM2
+NTE2LDE5MTE1NDI3MzMsMTY1MzAyNjQwNSwxNDU2NzA5NTU3LD
+E1MDgyMDAyNzEsMTEwODg5NzEwOCwtMTczNjQwODA2MSwtMjA5
+Nzc5MDk4MSwxNjA3MzE3Mzc5LC0xNzU5NDExNjY4LDEwMDEzOD
+I1NjYsMTcxMzg0MjA5OSwtMTU0NDUyOTUzOCwtNTY3MzMzOTQ1
+LC0zODc3MTc4NjFdfQ==
 -->
