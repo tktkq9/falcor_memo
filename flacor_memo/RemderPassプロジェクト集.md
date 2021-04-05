@@ -536,7 +536,8 @@ payloadがやたらサイズがでかいので遅いかもしれない
 参考 : [### DirectXの話 第166回 DXRのパフォーマンスの話](https://sites.google.com/site/monshonosuana/directxno-hanashi-1/directx-166)
 
 ### MinimalPathTracer.h, cpp
-
+MinimalPathTracer.rt.slangを実行する用クラス  
+このクラス（とMinimalPathTracer.rt.slang）で特徴
 
 ### MinimalPathTracer.rt.slang
 
@@ -547,11 +548,11 @@ shadowAnyHit()のアルファテストはちゃんと働く
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI5NTU5NjA0LDEyNzg0NTc0NCwtMTM4MT
-M3Nzk3OSwtMTI3MjgxMDUzMiwxNzQyNTg2MTM5LC03NDAzMzY1
-MTYsMTkxMTU0MjczMywxNjUzMDI2NDA1LDE0NTY3MDk1NTcsMT
-UwODIwMDI3MSwxMTA4ODk3MTA4LC0xNzM2NDA4MDYxLC0yMDk3
-NzkwOTgxLDE2MDczMTczNzksLTE3NTk0MTE2NjgsMTAwMTM4Mj
-U2NiwxNzEzODQyMDk5LC0xNTQ0NTI5NTM4LC01NjczMzM5NDUs
-LTM4NzcxNzg2MV19
+eyJoaXN0b3J5IjpbMzE4MzM4ODAxLDgyOTU1OTYwNCwxMjc4ND
+U3NDQsLTEzODEzNzc5NzksLTEyNzI4MTA1MzIsMTc0MjU4NjEz
+OSwtNzQwMzM2NTE2LDE5MTE1NDI3MzMsMTY1MzAyNjQwNSwxND
+U2NzA5NTU3LDE1MDgyMDAyNzEsMTEwODg5NzEwOCwtMTczNjQw
+ODA2MSwtMjA5Nzc5MDk4MSwxNjA3MzE3Mzc5LC0xNzU5NDExNj
+Y4LDEwMDEzODI1NjYsMTcxMzg0MjA5OSwtMTU0NDUyOTUzOCwt
+NTY3MzMzOTQ1XX0=
 -->
