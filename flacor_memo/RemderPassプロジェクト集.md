@@ -555,8 +555,10 @@ out : gOutputColor、最終結果、ポスト処理とかしたい場合は他�
 
 上でもちょっと説明したが、コードの流れは、  
 GBufferの点でのAnalyticなライト効果のサンプルevalDirectAnalytic()（すべてのライトの内一つ、それがエリアライトならその1点）とその点でのエミッシブを加算（kComputeDirectがオフならどちらも行わない）  
+generateScatterRay()で反射方向を計算（cosサンプリング）  
 for kMaxBounces
-　　traceScatterRay()で反射方向を
+　　traceScatterRay()で反射処理用の  
+　　scatterClosestHit
 
 #### その他
 traceShadowRay()でRAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCHが設定されているが、  
@@ -565,11 +567,11 @@ shadowAnyHit()のアルファテストはちゃんと働く
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk3MjQ4OTQsODI5NTU5NjA0LDEyNzg0NT
-c0NCwtMTM4MTM3Nzk3OSwtMTI3MjgxMDUzMiwxNzQyNTg2MTM5
-LC03NDAzMzY1MTYsMTkxMTU0MjczMywxNjUzMDI2NDA1LDE0NT
-Y3MDk1NTcsMTUwODIwMDI3MSwxMTA4ODk3MTA4LC0xNzM2NDA4
-MDYxLC0yMDk3NzkwOTgxLDE2MDczMTczNzksLTE3NTk0MTE2Nj
-gsMTAwMTM4MjU2NiwxNzEzODQyMDk5LC0xNTQ0NTI5NTM4LC01
-NjczMzM5NDVdfQ==
+eyJoaXN0b3J5IjpbLTE0NDUwNDg5MSw4Mjk1NTk2MDQsMTI3OD
+Q1NzQ0LC0xMzgxMzc3OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYx
+MzksLTc0MDMzNjUxNiwxOTExNTQyNzMzLDE2NTMwMjY0MDUsMT
+Q1NjcwOTU1NywxNTA4MjAwMjcxLDExMDg4OTcxMDgsLTE3MzY0
+MDgwNjEsLTIwOTc3OTA5ODEsMTYwNzMxNzM3OSwtMTc1OTQxMT
+Y2OCwxMDAxMzgyNTY2LDE3MTM4NDIwOTksLTE1NDQ1Mjk1Mzgs
+LTU2NzMzMzk0NV19
 -->
