@@ -518,7 +518,6 @@ traceScatterRay()を見た感じ、
 
 ## MinimalPathTracerプロジェクト
 
-## MinimalPathTracerプロジェクト
 ヘッダーのコメントにも書いてある通り、  
 様々なアルゴリズムを取り除いた単純な（機能がMinimalな）レイトレ用パス  
 MegakernelPathTracerとは対照的なパス  
@@ -538,7 +537,7 @@ USE_ENV_BACKGROUNDはレイトレのサンプリング以外全般のバック�
 なので、基本的にはどちらもオン or どちらもオフになっていると思われる    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NzY4Mzc2MCwxNjUzMDI2NDA1LDE0NT
+eyJoaXN0b3J5IjpbMTkxMTU0MjczMywxNjUzMDI2NDA1LDE0NT
 Y3MDk1NTcsMTUwODIwMDI3MSwxMTA4ODk3MTA4LC0xNzM2NDA4
 MDYxLC0yMDk3NzkwOTgxLDE2MDczMTczNzksLTE3NTk0MTE2Nj
 gsMTAwMTM4MjU2NiwxNzEzODQyMDk5LC0xNTQ0NTI5NTM4LC01
