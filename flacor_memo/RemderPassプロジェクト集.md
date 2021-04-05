@@ -519,7 +519,7 @@ traceScatterRay()を見た感じ、
 #### USE_ENV_LIGHTとUSE_ENV_BACKGROUNDの違い
 USE_ENV_LIGHTはレイトレでのUSE_ENV_BACKGROUNDのダイレクトライトサンプリングするかどうかのフラグ（ただしUSE_ENV_BACKGROUNDをオンにしてなくてもバックグラウンドライトの値で評価する）  
 USE_ENV_BACKGROUNDはレイトレのサンプリング以外全般のバックグラウンドライトを使うかどうかフラグ  
-なので、基本的にはどちらもオン or どちらもオフになっていると思われる    
+なので、基本的にはどちらもオン or どちらもオフになっていると思われる  
 
 ## MinimalPathTracerプロジェクト
 
@@ -546,11 +546,11 @@ shadowAnyHit()のアルファテストはちゃんと働く
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDI3ODE5MiwtMTM4MTM3Nzk3OSwtMT
-I3MjgxMDUzMiwxNzQyNTg2MTM5LC03NDAzMzY1MTYsMTkxMTU0
-MjczMywxNjUzMDI2NDA1LDE0NTY3MDk1NTcsMTUwODIwMDI3MS
-wxMTA4ODk3MTA4LC0xNzM2NDA4MDYxLC0yMDk3NzkwOTgxLDE2
-MDczMTczNzksLTE3NTk0MTE2NjgsMTAwMTM4MjU2NiwxNzEzOD
-QyMDk5LC0xNTQ0NTI5NTM4LC01NjczMzM5NDUsLTM4NzcxNzg2
-MSwtMTA4NTg4ODg1OV19
+eyJoaXN0b3J5IjpbMTI3ODQ1NzQ0LC0xMzgxMzc3OTc5LC0xMj
+cyODEwNTMyLDE3NDI1ODYxMzksLTc0MDMzNjUxNiwxOTExNTQy
+NzMzLDE2NTMwMjY0MDUsMTQ1NjcwOTU1NywxNTA4MjAwMjcxLD
+ExMDg4OTcxMDgsLTE3MzY0MDgwNjEsLTIwOTc3OTA5ODEsMTYw
+NzMxNzM3OSwtMTc1OTQxMTY2OCwxMDAxMzgyNTY2LDE3MTM4ND
+IwOTksLTE1NDQ1Mjk1MzgsLTU2NzMzMzk0NSwtMzg3NzE3ODYx
+LC0xMDg1ODg4ODU5XX0=
 -->
