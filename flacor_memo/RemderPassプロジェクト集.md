@@ -570,9 +570,11 @@ traceShadowRay()でRAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCHが設定されてい
 このフラグはIgnoreHit()が呼ばれた場合はちゃんとignoreして次のヒット確認に移る仕様になっているので、  
 shadowAnyHit()のアルファテストはちゃんと働く  
 
+## RenderPassTemplateプロジェクト
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MTQyNDc3MSw4Mjk1NTk2MDQsMTI3OD
+eyJoaXN0b3J5IjpbMTExMjU2Mzk4Miw4Mjk1NTk2MDQsMTI3OD
 Q1NzQ0LC0xMzgxMzc3OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYx
 MzksLTc0MDMzNjUxNiwxOTExNTQyNzMzLDE2NTMwMjY0MDUsMT
 Q1NjcwOTU1NywxNTA4MjAwMjcxLDExMDg4OTcxMDgsLTE3MzY0
