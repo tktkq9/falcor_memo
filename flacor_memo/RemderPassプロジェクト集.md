@@ -527,7 +527,7 @@ USE_ENV_BACKGROUNDはレイトレのサンプリング以外全般のバック�
 様々なアルゴリズムを取り除いた単純な（機能がMinimalな）レイトレ用パス  
 MegakernelPathTracerとは対照的なパス  
 単純なレイトレなのでバイアスがかかっておらず、おそらく確認用に使われるであろうもの  
-（ちなみに散乱方向のサンプリングはsample_cosine_hemisphere_concentric()でサンプルされているので微妙にバイアスを取り除けていないように見える）  
+（ちなみに散乱方向のサンプリングはsample_cosine_hemisphere_concentric()でサンプルされているので微妙にバイアスを取り除けていないように見える。さらに透過屈折は考慮されていない）  
 ただし、収束させるにはかなりの数のサンプルを取らないといけない  
 
 inputの内容から、事前にGBufferRTパスを実行している前提のパス  
@@ -539,7 +539,8 @@ payloadがやたらサイズがでかいので遅いかもしれない
 MinimalPathTracer.rt.slangを実行する用クラス  
 
 このクラス（とMinimalPathTracer.rt.slang）で特徴的なものとして、  
-- kMaxRecursionDepth = 2u : スキャッターTraceRay()内でダイレクトライトの計算をするためにシャドウTraceRaｙ
+- kMaxRecursionDepth = 2u : スキャッターTraceRay()内でダイレクトライトの計算をするためにシャドウTraceRay()するのでリカーシブ2  
+ただし、反射処理する場合は
 
 ### MinimalPathTracer.rt.slang
 
@@ -550,11 +551,11 @@ shadowAnyHit()のアルファテストはちゃんと働く
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTE5ODk1LDgyOTU1OTYwNCwxMjc4ND
-U3NDQsLTEzODEzNzc5NzksLTEyNzI4MTA1MzIsMTc0MjU4NjEz
-OSwtNzQwMzM2NTE2LDE5MTE1NDI3MzMsMTY1MzAyNjQwNSwxND
-U2NzA5NTU3LDE1MDgyMDAyNzEsMTEwODg5NzEwOCwtMTczNjQw
-ODA2MSwtMjA5Nzc5MDk4MSwxNjA3MzE3Mzc5LC0xNzU5NDExNj
-Y4LDEwMDEzODI1NjYsMTcxMzg0MjA5OSwtMTU0NDUyOTUzOCwt
-NTY3MzMzOTQ1XX0=
+eyJoaXN0b3J5IjpbLTE0OTM0NjY2MDMsODI5NTU5NjA0LDEyNz
+g0NTc0NCwtMTM4MTM3Nzk3OSwtMTI3MjgxMDUzMiwxNzQyNTg2
+MTM5LC03NDAzMzY1MTYsMTkxMTU0MjczMywxNjUzMDI2NDA1LD
+E0NTY3MDk1NTcsMTUwODIwMDI3MSwxMTA4ODk3MTA4LC0xNzM2
+NDA4MDYxLC0yMDk3NzkwOTgxLDE2MDczMTczNzksLTE3NTk0MT
+E2NjgsMTAwMTM4MjU2NiwxNzEzODQyMDk5LC0xNTQ0NTI5NTM4
+LC01NjczMzM5NDVdfQ==
 -->
