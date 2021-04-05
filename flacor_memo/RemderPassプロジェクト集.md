@@ -518,13 +518,31 @@ traceScatterRay()を見た感じ、
 
 ## MinimalPathTracerプロジェクト
 
+## MinimalPathTracerプロジェクト
+ヘッダーのコメントにも書いてある通り、  
+様々なアルゴリズムを取り除いた単純な（機能がMinimalな）レイトレ用パス  
+MegakernelPathTracerとは対照的なパス  
+単純なレイトレなのでバイアスがかかっておらず、おそらく確認用に使われるであろうもの  
+ただし収束させるにはかなりの数のサンプルを取らないといけない  
+
+inputの内容から、事前にGBufferRTパスを実行している前提のパス  
+
+### MinimalPathTracer.h, cpp
+
+
+
+### その他
+USE_ENV_LIGHTとUSE_ENV_BACKGROUNDの違い  
+USE_ENV_LIGHTはレイトレでのUSE_ENV_BACKGROUNDのダイレクトライトサンプリングするかどうかのフラグ（ただしUSE_ENV_BACKGROUNDをオンにしてなくてもバックグラウンドライトの値で評価する）  
+USE_ENV_BACKGROUNDはレイトレのサンプリング以外全般のバックグラウンドライトを使うかどうかフラグ  
+なので、基本的にはどちらもオン or どちらもオフになっていると思われる    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MzAyNjQwNSwxNDU2NzA5NTU3LDE1MD
-gyMDAyNzEsMTEwODg5NzEwOCwtMTczNjQwODA2MSwtMjA5Nzc5
-MDk4MSwxNjA3MzE3Mzc5LC0xNzU5NDExNjY4LDEwMDEzODI1Nj
-YsMTcxMzg0MjA5OSwtMTU0NDUyOTUzOCwtNTY3MzMzOTQ1LC0z
-ODc3MTc4NjEsLTEwODU4ODg4NTksOTc5NzIzNDcxLC0xNDc2ND
-gwMjE3LC0xMzkxMDE3MzUzLC0zNTgwMDIxOSw5MjAzMDQzNjYs
-LTExNTcxODY3NzBdfQ==
+eyJoaXN0b3J5IjpbMTU2NzY4Mzc2MCwxNjUzMDI2NDA1LDE0NT
+Y3MDk1NTcsMTUwODIwMDI3MSwxMTA4ODk3MTA4LC0xNzM2NDA4
+MDYxLC0yMDk3NzkwOTgxLDE2MDczMTczNzksLTE3NTk0MTE2Nj
+gsMTAwMTM4MjU2NiwxNzEzODQyMDk5LC0xNTQ0NTI5NTM4LC01
+NjczMzM5NDUsLTM4NzcxNzg2MSwtMTA4NTg4ODg1OSw5Nzk3Mj
+M0NzEsLTE0NzY0ODAyMTcsLTEzOTEwMTczNTMsLTM1ODAwMjE5
+LDkyMDMwNDM2Nl19
 -->
