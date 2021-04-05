@@ -554,7 +554,7 @@ out : gOutputColor、最終結果、ポスト処理とかしたい場合は他�
 メッシュのエミッシブは適当にぶつかった点のもののみを加算し、環境光はscatterMiss()の時のみ  
 
 上でもちょっと説明したが、コードの流れは、  
-GBufferの点でのAnalyticなライト効果（すべてのライトの内一つ、それがエリアライトならその1点）とその点でのエミッシブを加算（kComputeDirect出ない場合は行わない）  
+GBufferの点でのAnalyticなライト効果のサンプルevalDirectAnalytic()（すべてのライトの内一つ、それがエリアライトならその1点）とその点でのエミッシブを加算（kComputeDirectがオフならどちらも行わない）  
 for kMaxBounces
 　　traceScatterRay()で反射方向を
 
@@ -565,11 +565,11 @@ shadowAnyHit()のアルファテストはちゃんと働く
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NzUwMDQ5LDgyOTU1OTYwNCwxMjc4ND
-U3NDQsLTEzODEzNzc5NzksLTEyNzI4MTA1MzIsMTc0MjU4NjEz
-OSwtNzQwMzM2NTE2LDE5MTE1NDI3MzMsMTY1MzAyNjQwNSwxND
-U2NzA5NTU3LDE1MDgyMDAyNzEsMTEwODg5NzEwOCwtMTczNjQw
-ODA2MSwtMjA5Nzc5MDk4MSwxNjA3MzE3Mzc5LC0xNzU5NDExNj
-Y4LDEwMDEzODI1NjYsMTcxMzg0MjA5OSwtMTU0NDUyOTUzOCwt
-NTY3MzMzOTQ1XX0=
+eyJoaXN0b3J5IjpbNzk3MjQ4OTQsODI5NTU5NjA0LDEyNzg0NT
+c0NCwtMTM4MTM3Nzk3OSwtMTI3MjgxMDUzMiwxNzQyNTg2MTM5
+LC03NDAzMzY1MTYsMTkxMTU0MjczMywxNjUzMDI2NDA1LDE0NT
+Y3MDk1NTcsMTUwODIwMDI3MSwxMTA4ODk3MTA4LC0xNzM2NDA4
+MDYxLC0yMDk3NzkwOTgxLDE2MDczMTczNzksLTE3NTk0MTE2Nj
+gsMTAwMTM4MjU2NiwxNzEzODQyMDk5LC0xNTQ0NTI5NTM4LC01
+NjczMzM5NDVdfQ==
 -->
