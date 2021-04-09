@@ -574,15 +574,16 @@ shadowAnyHit()のアルファテストはちゃんと働く
 ## PassLibraryTemplateプロジェクト
 Falcorのドキュメント[To create a Render Pass Project:](https://github.com/NVIDIAGameWorks/Falcor/blob/4.2-release/Docs/Getting-Started.md#to-create-a-render-pass-project)に書いてあるように、  
 新たなパスをmake_new_pass_project.batで作るときにコピーされるプロジェクト  
-make_new_pass_project.bat -> make_new_pass_project.pyでコピーされるプロジェクト  
+
+make_new_pass_project.batで呼び出されるmake_new_pass_project.pyにコピー処理が書いてある  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE0MjY1NzMxLC0xOTM4ODQwOTcwLDgyOT
-U1OTYwNCwxMjc4NDU3NDQsLTEzODEzNzc5NzksLTEyNzI4MTA1
-MzIsMTc0MjU4NjEzOSwtNzQwMzM2NTE2LDE5MTE1NDI3MzMsMT
-Y1MzAyNjQwNSwxNDU2NzA5NTU3LDE1MDgyMDAyNzEsMTEwODg5
-NzEwOCwtMTczNjQwODA2MSwtMjA5Nzc5MDk4MSwxNjA3MzE3Mz
-c5LC0xNzU5NDExNjY4LDEwMDEzODI1NjYsMTcxMzg0MjA5OSwt
-MTU0NDUyOTUzOF19
+eyJoaXN0b3J5IjpbLTU5NzA0MzgzMSwtMTkzODg0MDk3MCw4Mj
+k1NTk2MDQsMTI3ODQ1NzQ0LC0xMzgxMzc3OTc5LC0xMjcyODEw
+NTMyLDE3NDI1ODYxMzksLTc0MDMzNjUxNiwxOTExNTQyNzMzLD
+E2NTMwMjY0MDUsMTQ1NjcwOTU1NywxNTA4MjAwMjcxLDExMDg4
+OTcxMDgsLTE3MzY0MDgwNjEsLTIwOTc3OTA5ODEsMTYwNzMxNz
+M3OSwtMTc1OTQxMTY2OCwxMDAxMzgyNTY2LDE3MTM4NDIwOTks
+LTE1NDQ1Mjk1MzhdfQ==
 -->
