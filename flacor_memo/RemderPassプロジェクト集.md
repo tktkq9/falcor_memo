@@ -572,10 +572,12 @@ traceShadowRay()でRAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCHが設定されてい
 shadowAnyHit()のアルファテストはちゃんと働く  
 
 ## PassLibraryTemplateプロジェクト
-make_new_pass_project.bat -> make_new_pass_project.pyで
+[## To create a Render Pass Project:](https://github.com/NVIDIAGameWorks/Falcor/blob/4.2-release/Docs/Getting-Started.md#to-create-a-render-pass-project)
+make_new_pass_project.bat -> make_new_pass_project.pyでコピーされるプロジェクト  
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk4MDk0NTU1LC0xOTM4ODQwOTcwLDgyOT
+eyJoaXN0b3J5IjpbNDQxNTUwNzUxLC0xOTM4ODQwOTcwLDgyOT
 U1OTYwNCwxMjc4NDU3NDQsLTEzODEzNzc5NzksLTEyNzI4MTA1
 MzIsMTc0MjU4NjEzOSwtNzQwMzM2NTE2LDE5MTE1NDI3MzMsMT
 Y1MzAyNjQwNSwxNDU2NzA5NTU3LDE1MDgyMDAyNzEsMTEwODg5
