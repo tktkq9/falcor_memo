@@ -593,13 +593,15 @@ PixelInspectorData.cs.slangのComputeProgramやVarsなどを作成し、
 インプットに設定したテクスチャーとマウスで選択している場所（テクスチャーの解像度に合わせてスケールされたtex座標）をそのシェーダーに設定し実行する  
 そして、その実行結果PixelDataを読み戻し、UIにその情報を表示するためのパス  
 
-全てのinputにテクスチャーを設定する必要はなく、設定されていない部分は初
+全てのinputにテクスチャーを設定する必要はなく、設定されていない部分は無効な値が自動的に設定される  
+
+
 
 ### PixelInspectorData.slang
 
 ### PixelInspectorData.cs.slang
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQ1OTAwNDcsMTQ0ODY5MTU4NSwtMT
+eyJoaXN0b3J5IjpbLTE4NDU4NTY2MDUsMTQ0ODY5MTU4NSwtMT
 kzODg0MDk3MCw4Mjk1NTk2MDQsMTI3ODQ1NzQ0LC0xMzgxMzc3
 OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYxMzksLTc0MDMzNjUxNi
 wxOTExNTQyNzMzLDE2NTMwMjY0MDUsMTQ1NjcwOTU1NywxNTA4
