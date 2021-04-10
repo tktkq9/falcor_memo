@@ -591,7 +591,7 @@ GBuffer系列の共通部分 + tone mapping前後の色を入力として、
 ### PixelInspectorPass.h, cpp
 PixelInspectorData.cs.slangのComputeProgramやVarsなどを作成し、  
 インプットに設定したテクスチャーとマウスで選択している場所（テクスチャーの解像度に合わせてスケールされたtex座標）をそのシェーダーに設定し実行する  
-そして、その実行結果PixelDataを読み戻し、UIにその情報を表示するためのパス  
+そして、その実行結果PixelDataを読み戻し、UIにその情報を表示するためのコンピュートパス   
 
 全てのinputにテクスチャーを設定する必要はなく、設定されていない部分は無効な値（だいたいは0）が自動的に設定される  
 
@@ -607,11 +607,11 @@ meshInstanceIDとtriangleIndexの初期値はkInvalidIndex = 0xffffffff
 
 ### PixelInspectorData.cs.slang
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NDkyNTA3MSwxNDQ4NjkxNTg1LC0xOT
-M4ODQwOTcwLDgyOTU1OTYwNCwxMjc4NDU3NDQsLTEzODEzNzc5
-NzksLTEyNzI4MTA1MzIsMTc0MjU4NjEzOSwtNzQwMzM2NTE2LD
-E5MTE1NDI3MzMsMTY1MzAyNjQwNSwxNDU2NzA5NTU3LDE1MDgy
-MDAyNzEsMTEwODg5NzEwOCwtMTczNjQwODA2MSwtMjA5Nzc5MD
-k4MSwxNjA3MzE3Mzc5LC0xNzU5NDExNjY4LDEwMDEzODI1NjYs
-MTcxMzg0MjA5OV19
+eyJoaXN0b3J5IjpbNDE3OTQ3MDg4LDE0NDg2OTE1ODUsLTE5Mz
+g4NDA5NzAsODI5NTU5NjA0LDEyNzg0NTc0NCwtMTM4MTM3Nzk3
+OSwtMTI3MjgxMDUzMiwxNzQyNTg2MTM5LC03NDAzMzY1MTYsMT
+kxMTU0MjczMywxNjUzMDI2NDA1LDE0NTY3MDk1NTcsMTUwODIw
+MDI3MSwxMTA4ODk3MTA4LC0xNzM2NDA4MDYxLC0yMDk3NzkwOT
+gxLDE2MDczMTczNzksLTE3NTk0MTE2NjgsMTAwMTM4MjU2Niwx
+NzEzODQyMDk5XX0=
 -->
