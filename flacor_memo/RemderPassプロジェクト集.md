@@ -601,14 +601,14 @@ input : GBuffer系列の共通部分 + tone mapping前後の色
 
 ### PixelInspectorData.slang
 UIに表示するための情報であるPixelData構造体の定義用ファイル  
-CPU、GPU両対応（BEGIN_NAMESPACE_FALCORのやつ）  
+CPU、GPU両対応（HostDeviceShared.slanghのやつ）  
 
 meshInstanceIDとtriangleIndexの初期値はkInvalidIndex = 0xffffffff  
 その他の初期値は0に設定される  
 
 ### PixelInspector.cs.slang
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MDQwMDMxNiwxNDQ4NjkxNTg1LC0xOT
+eyJoaXN0b3J5IjpbMTkzMjE3NDU1OSwxNDQ4NjkxNTg1LC0xOT
 M4ODQwOTcwLDgyOTU1OTYwNCwxMjc4NDU3NDQsLTEzODEzNzc5
 NzksLTEyNzI4MTA1MzIsMTc0MjU4NjEzOSwtNzQwMzM2NTE2LD
 E5MTE1NDI3MzMsMTY1MzAyNjQwNSwxNDU2NzA5NTU3LDE1MDgy
