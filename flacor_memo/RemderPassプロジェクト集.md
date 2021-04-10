@@ -589,18 +589,19 @@ GBuffer系列の共通部分 + tone mapping前後の色を入力として、
 より詳しく見たい場合はこちらを使う感じ？  
 
 ### PixelInspectorPass.h, cpp
-PixelInspectorData.cs.slangにインプットに設定したテクスチャーとマウスで選択しているそれぞれおの
+PixelInspectorData.cs.slangのComputeProgramやVarsなどを作成し、  
+インプットに設定したテクスチャーとマウスで選択している場所（テクスチャーの解像度に合わせてスケールされたtex座標）をそのシェーダーに設定し実行するパス  
 
 
 ### PixelInspectorData.slang
 
 ### PixelInspectorData.cs.slang
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMjEyNDcwMSwxNDQ4NjkxNTg1LC0xOT
-M4ODQwOTcwLDgyOTU1OTYwNCwxMjc4NDU3NDQsLTEzODEzNzc5
-NzksLTEyNzI4MTA1MzIsMTc0MjU4NjEzOSwtNzQwMzM2NTE2LD
-E5MTE1NDI3MzMsMTY1MzAyNjQwNSwxNDU2NzA5NTU3LDE1MDgy
-MDAyNzEsMTEwODg5NzEwOCwtMTczNjQwODA2MSwtMjA5Nzc5MD
-k4MSwxNjA3MzE3Mzc5LC0xNzU5NDExNjY4LDEwMDEzODI1NjYs
-MTcxMzg0MjA5OV19
+eyJoaXN0b3J5IjpbMTQ0NzQxNTAyLDE0NDg2OTE1ODUsLTE5Mz
+g4NDA5NzAsODI5NTU5NjA0LDEyNzg0NTc0NCwtMTM4MTM3Nzk3
+OSwtMTI3MjgxMDUzMiwxNzQyNTg2MTM5LC03NDAzMzY1MTYsMT
+kxMTU0MjczMywxNjUzMDI2NDA1LDE0NTY3MDk1NTcsMTUwODIw
+MDI3MSwxMTA4ODk3MTA4LC0xNzM2NDA4MDYxLC0yMDk3NzkwOT
+gxLDE2MDczMTczNzksLTE3NTk0MTE2NjgsMTAwMTM4MjU2Niwx
+NzEzODQyMDk5XX0=
 -->
