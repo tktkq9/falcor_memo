@@ -584,14 +584,15 @@ GBuffer系列のアウトプット + tone mapping前後の色を入力として�
 その画像をマウスで選択した場所の情報をUIに表示するためのパスプロジェクト  
 デバッグ用  
 
-似たようなクラスとしてPixelDebug.cppがあるが、あっちはパスではなく任意のパスの付属品みたいなもの、機能も簡易版みたいなものなので  
+似たようなクラスとしてPixelDebug.cppがあるが、  
+あっちはパスではなく任意のパスの付属品みたいなものであり、さらに機能も簡易版みたいなものなので、  
 より詳しく見たい場合はこちらを使う感じ？
 
 ### PixelInspectorPass
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzc0NjkxMjcsMTQ0ODY5MTU4NSwtMT
+eyJoaXN0b3J5IjpbLTEwMjMxMDk2NTQsMTQ0ODY5MTU4NSwtMT
 kzODg0MDk3MCw4Mjk1NTk2MDQsMTI3ODQ1NzQ0LC0xMzgxMzc3
 OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYxMzksLTc0MDMzNjUxNi
 wxOTExNTQyNzMzLDE2NTMwMjY0MDUsMTQ1NjcwOTU1NywxNTA4
