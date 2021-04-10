@@ -580,7 +580,7 @@ make_new_pass_project.batで呼び出されるmake_new_pass_project.pyにコピ�
 中身は一通りの必要な関数が定義されているが、それらは何もしない関数となっている  
 
 ## PixelInspectorPassプロジェクト
-GBuffer系列のアウトプット + tone mapping前後の色を入力として、  
+GBuffer系列の共通部分 + tone mapping前後の色を入力として、  
 その画像をマウスで選択した場所の情報をUIに表示するためのパスプロジェクト  
 デバッグ用  
 
@@ -593,11 +593,11 @@ GBuffer系列のアウトプット + tone mapping前後の色を入力として�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODM4MDIyOSwxNDQ4NjkxNTg1LC0xOT
-M4ODQwOTcwLDgyOTU1OTYwNCwxMjc4NDU3NDQsLTEzODEzNzc5
-NzksLTEyNzI4MTA1MzIsMTc0MjU4NjEzOSwtNzQwMzM2NTE2LD
-E5MTE1NDI3MzMsMTY1MzAyNjQwNSwxNDU2NzA5NTU3LDE1MDgy
-MDAyNzEsMTEwODg5NzEwOCwtMTczNjQwODA2MSwtMjA5Nzc5MD
-k4MSwxNjA3MzE3Mzc5LC0xNzU5NDExNjY4LDEwMDEzODI1NjYs
-MTcxMzg0MjA5OV19
+eyJoaXN0b3J5IjpbLTIwMjA0ODA0NzAsMTQ0ODY5MTU4NSwtMT
+kzODg0MDk3MCw4Mjk1NTk2MDQsMTI3ODQ1NzQ0LC0xMzgxMzc3
+OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYxMzksLTc0MDMzNjUxNi
+wxOTExNTQyNzMzLDE2NTMwMjY0MDUsMTQ1NjcwOTU1NywxNTA4
+MjAwMjcxLDExMDg4OTcxMDgsLTE3MzY0MDgwNjEsLTIwOTc3OT
+A5ODEsMTYwNzMxNzM3OSwtMTc1OTQxMTY2OCwxMDAxMzgyNTY2
+LDE3MTM4NDIwOTldfQ==
 -->
