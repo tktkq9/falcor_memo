@@ -586,17 +586,18 @@ GBuffer系列のアウトプット + tone mapping前後の色を入力として�
 
 似たようなクラスとしてPixelDebug.cppがあるが、  
 あっちはパスではなく任意のパスの付属品みたいなものであり、さらに機能も簡易版みたいなものなので、  
-より詳しく見たい場合はこちらを使う感じ？
+より詳しく見たい場合はこちらを使う感じ？  
 
-### PixelInspectorPass
+### PixelInspectorPass.h, cpp
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjMxMDk2NTQsMTQ0ODY5MTU4NSwtMT
-kzODg0MDk3MCw4Mjk1NTk2MDQsMTI3ODQ1NzQ0LC0xMzgxMzc3
-OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYxMzksLTc0MDMzNjUxNi
-wxOTExNTQyNzMzLDE2NTMwMjY0MDUsMTQ1NjcwOTU1NywxNTA4
-MjAwMjcxLDExMDg4OTcxMDgsLTE3MzY0MDgwNjEsLTIwOTc3OT
-A5ODEsMTYwNzMxNzM3OSwtMTc1OTQxMTY2OCwxMDAxMzgyNTY2
-LDE3MTM4NDIwOTldfQ==
+eyJoaXN0b3J5IjpbLTgzODM4MDIyOSwxNDQ4NjkxNTg1LC0xOT
+M4ODQwOTcwLDgyOTU1OTYwNCwxMjc4NDU3NDQsLTEzODEzNzc5
+NzksLTEyNzI4MTA1MzIsMTc0MjU4NjEzOSwtNzQwMzM2NTE2LD
+E5MTE1NDI3MzMsMTY1MzAyNjQwNSwxNDU2NzA5NTU3LDE1MDgy
+MDAyNzEsMTEwODg5NzEwOCwtMTczNjQwODA2MSwtMjA5Nzc5MD
+k4MSwxNjA3MzE3Mzc5LC0xNzU5NDExNjY4LDEwMDEzODI1NjYs
+MTcxMzg0MjA5OV19
 -->
