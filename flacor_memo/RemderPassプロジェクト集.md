@@ -629,17 +629,17 @@ cube.objを読み込み、SkyBox.slangのGraphicsProgramを作成し、
 cube.objが元のシーンを覆うようになっている想定っぽいのでフロントカル設定されている  
 インプットによるdepthで元のシーンの内バックグラウンドが見えているとこだけ描画する  
 
-input : depth、合成判定用  
-output : depth、inputに対しcube.objも描画した後のdepth  
+in : depth、合成判定用  
+out : depth、inputに対しcube.objも描画した後のdepth  
 out : target、cube.objによるSkyBoxの描画結果、depth通過した部分だけ描画されている  
 
 ### SkyBox.slang
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5ODI2MTc2NiwtMTYxMjI5NjMwNiwxMD
-A2MTE1NDk3LC0xMDM4MTY4NTY0LC05MDkzMzcxNTYsMTA1Mjcy
-OTQ2MCwxMjg4MjgzMDMyLC0xMzA1Mzk4MjEzLDE0NDg2OTE1OD
-UsLTE5Mzg4NDA5NzAsODI5NTU5NjA0LDEyNzg0NTc0NCwtMTM4
-MTM3Nzk3OSwtMTI3MjgxMDUzMiwxNzQyNTg2MTM5LC03NDAzMz
-Y1MTYsMTkxMTU0MjczMywxNjUzMDI2NDA1LDE0NTY3MDk1NTcs
-MTUwODIwMDI3MV19
+eyJoaXN0b3J5IjpbLTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYsMT
+AwNjExNTQ5NywtMTAzODE2ODU2NCwtOTA5MzM3MTU2LDEwNTI3
+Mjk0NjAsMTI4ODI4MzAzMiwtMTMwNTM5ODIxMywxNDQ4NjkxNT
+g1LC0xOTM4ODQwOTcwLDgyOTU1OTYwNCwxMjc4NDU3NDQsLTEz
+ODEzNzc5NzksLTEyNzI4MTA1MzIsMTc0MjU4NjEzOSwtNzQwMz
+M2NTE2LDE5MTE1NDI3MzMsMTY1MzAyNjQwNSwxNDU2NzA5NTU3
+LDE1MDgyMDAyNzFdfQ==
 -->
