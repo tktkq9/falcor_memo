@@ -616,6 +616,8 @@ meshInstanceIDとtriangleIndexの初期値はkInvalidIndex = 0xffffffff
 コンピュートシェーダーだがこのような処理なので1スレッドで1回処理のみ  
 
 ## SkyBoxプロジェクト
+スカイボックス表示用パス  
+cube.objがある前提  
 
 
 
@@ -623,7 +625,7 @@ meshInstanceIDとtriangleIndexの初期値はkInvalidIndex = 0xffffffff
 
 ### SkyBox.slang
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MjMzNzQ1OSwxMDA2MTE1NDk3LC0xMD
+eyJoaXN0b3J5IjpbLTMyNjI5NDU5OCwxMDA2MTE1NDk3LC0xMD
 M4MTY4NTY0LC05MDkzMzcxNTYsMTA1MjcyOTQ2MCwxMjg4Mjgz
 MDMyLC0xMzA1Mzk4MjEzLDE0NDg2OTE1ODUsLTE5Mzg4NDA5Nz
 AsODI5NTU5NjA0LDEyNzg0NTc0NCwtMTM4MTM3Nzk3OSwtMTI3
