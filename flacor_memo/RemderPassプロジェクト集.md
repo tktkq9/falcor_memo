@@ -666,8 +666,10 @@ Hammersleyサンプリング自体はlow discrepancyなサンプリングで、�
 SSAOを実行し、AOマップを作るためのシェーダー  
 画像処理なのでピクセルシェーダーのみ  
 
-ノイズテクスチャーでピクセルごとのランダム方向を決定し、  
-SampleDistributionの設定により設定され、CPU側で事前に計算されたランダム値（Random以外ならサンプル値）の配列分だけAO
+ノイズテクスチャーでピクセルごとのランダムな回転方向を決定し、  
+SampleDistributionの設定により設定され、CPU側で事前に計算されたランダム値（Random以外ならサンプル値）の配列分だけAOのためのベクトルを計算、  
+そのベクトルに回転をかけ、そのピクセルのワールド位置からベクトル分移動した先のdepthを計算し、    
+
 
 ### SSAOData.slang
 SSAO.ps.slangで使われるAOマップ作製の設定をまとめた構造体  
@@ -681,7 +683,7 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzQ5MzE2MjcsLTEwMzQ0MzgzNTYsLT
+eyJoaXN0b3J5IjpbLTEyMzQwNzgwMDcsLTEwMzQ0MzgzNTYsLT
 EwMzQ0MzgzNTYsMTE4MTY0MjU0NSwtODI5OTE1NDI4LDIxNDU5
 Nzk1MzksLTE5Nzc0OTMyMTQsLTMwNTA1MTkyMywxMDMwMTk4Mz
 c2LC0xNzcwMDUyMzMyLC0xNjEyMjk2MzA2LDEwMDYxMTU0OTcs
