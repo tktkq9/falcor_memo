@@ -650,11 +650,13 @@ _SPHERICAL_MAPへのuv変換 or TextureCubeをサンプルするための方向�
 複数のパスやグラフが実行される（ただしCPUへの読み戻しは行わないので遅くなるわけではない）  
 
 サンプリングとして、Random、UniformHammersley、CosineHammersleyがあるが、  
-UniformHammersleyとCosineHammersleyはHammersleyサンプリングによって得られた2Dサンプル値に対し、  
+RandomはただのlinearRandだが、  
+UniformHammersleyとCosineHammersleyは、Hammersleyサンプリングによって得られた2Dサンプル値に対し、  
 Uniform[13.6.1 Uniformly Sampling a Hemisphere](http://www.pbr-book.org/3ed-2018/Monte_Carlo_Integration/2D_Sampling_with_Multidimensional_Transformations.html#UniformlySamplingaHemisphere)、  
 または、Cosine[13.6.2 Sampling a Unit Disk](http://www.pbr-book.org/3ed-2018/Monte_Carlo_Integration/2D_Sampling_with_Multidimensional_Transformations.html#SamplingaUnitDisk)  
 にサンプリングされるといった違いとなっている  
-RandomはただのlinearRand()  
+Hammersleyサンプリングについては[7.4.1 Hammersley and Halton Sequences](http://www.pbr-book.org/3ed-2018/Sampling_and_Reconstruction/The_Halton_Sampler.html#HammersleyandHaltonSequences)
+
 
 ### SSAO.h, cpp
 
@@ -676,11 +678,11 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTU1MzAzOTcsLTE5Nzc0OTMyMTQsLT
-MwNTA1MTkyMywxMDMwMTk4Mzc2LC0xNzcwMDUyMzMyLC0xNjEy
-Mjk2MzA2LDEwMDYxMTU0OTcsLTEwMzgxNjg1NjQsLTkwOTMzNz
-E1NiwxMDUyNzI5NDYwLDEyODgyODMwMzIsLTEzMDUzOTgyMTMs
-MTQ0ODY5MTU4NSwtMTkzODg0MDk3MCw4Mjk1NTk2MDQsMTI3OD
-Q1NzQ0LC0xMzgxMzc3OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYx
-MzksLTc0MDMzNjUxNl19
+eyJoaXN0b3J5IjpbMTI0NjMzOTgwOSwtMTk3NzQ5MzIxNCwtMz
+A1MDUxOTIzLDEwMzAxOTgzNzYsLTE3NzAwNTIzMzIsLTE2MTIy
+OTYzMDYsMTAwNjExNTQ5NywtMTAzODE2ODU2NCwtOTA5MzM3MT
+U2LDEwNTI3Mjk0NjAsMTI4ODI4MzAzMiwtMTMwNTM5ODIxMywx
+NDQ4NjkxNTg1LC0xOTM4ODQwOTcwLDgyOTU1OTYwNCwxMjc4ND
+U3NDQsLTEzODEzNzc5NzksLTEyNzI4MTA1MzIsMTc0MjU4NjEz
+OSwtNzQwMzM2NTE2XX0=
 -->
