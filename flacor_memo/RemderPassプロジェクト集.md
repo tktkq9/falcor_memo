@@ -595,7 +595,7 @@ PixelInspector.cs.slangのComputeProgramやVarsなどを作成し、
 （読み戻ししているのでmpPixelDataBuffer->map(Buffer::MapType::Read)でflush()が呼ばれることに注意）  
 
 全てのinputにテクスチャーを設定する必要はなく、設定されていない部分は無効な値（だいたいは0）が自動的に設定され、  
-CPU側ではmAvailableInputsやmIsInputInBoundsでimguiの表示非表示を
+CPU側ではmAvailableInputsやmIsInputInBoundsでimguiの表示非表示を制御する  
 
 imguiによる確認が目的のパスなので入力のみ  
 input : GBuffer系列の共通部分 + tone mapping前後の色
@@ -614,7 +614,7 @@ meshInstanceIDとtriangleIndexの初期値はkInvalidIndex = 0xffffffff
 コンピュートシェーダーだがこのような処理なので1スレッドで1回処理のみ  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTAyNDkyNjUsLTkwOTMzNzE1NiwxMD
+eyJoaXN0b3J5IjpbLTEwMzgxNjg1NjQsLTkwOTMzNzE1NiwxMD
 UyNzI5NDYwLDEyODgyODMwMzIsLTEzMDUzOTgyMTMsMTQ0ODY5
 MTU4NSwtMTkzODg0MDk3MCw4Mjk1NTk2MDQsMTI3ODQ1NzQ0LC
 0xMzgxMzc3OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYxMzksLTc0
