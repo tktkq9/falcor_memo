@@ -658,11 +658,14 @@ SSAO.ps.slangで使われるAOマップ作製の設定をまとめた構造体
 CPU側で設定され、SSAO.ps.slangのStaticCB.gDataに割り当てられる  
 
 ### ApplyAO.ps.slang
-SSAO.ps.slangで作った（そして設定されていればブラーもかけられた）AOマップをcolorInにじょう
+SSAO.ps.slangで作った（そして設定されていればブラーもかけられた）AOマップをcolorInに蒸散するためのシェーダー  
+画像処理するだけなのでピクセルシェーダーのみ  
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxODgwOTI4MSwtMzA1MDUxOTIzLDEwMz
+eyJoaXN0b3J5IjpbLTg4OTU0OTk3OSwtMzA1MDUxOTIzLDEwMz
 AxOTgzNzYsLTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYsMTAwNjEx
 NTQ5NywtMTAzODE2ODU2NCwtOTA5MzM3MTU2LDEwNTI3Mjk0Nj
 AsMTI4ODI4MzAzMiwtMTMwNTM5ODIxMywxNDQ4NjkxNTg1LC0x
