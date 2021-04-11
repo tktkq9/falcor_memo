@@ -651,7 +651,7 @@ _SPHERICAL_MAPへのuv変換 or TextureCubeをサンプルするための方向�
 
 AOを計算する際の位置サンプリングとして、Random、UniformHammersley、CosineHammersleyがあり、  
 RandomはただのlinearRandだが、  
-UniformHammersleyとCosineHammersleyは、Hammersleyサンプリングによって得られた2Dまでのサンプルに対し、  
+UniformHammersleyとCosineHammersleyは、Hammersleyサンプリングによって得られた2Dまでの### Sequencesに対し、  
 Uniform[13.6.1 Uniformly Sampling a Hemisphere](http://www.pbr-book.org/3ed-2018/Monte_Carlo_Integration/2D_Sampling_with_Multidimensional_Transformations.html#UniformlySamplingaHemisphere)、  
 または、Cosine[13.6.2 Sampling a Unit Disk](http://www.pbr-book.org/3ed-2018/Monte_Carlo_Integration/2D_Sampling_with_Multidimensional_Transformations.html#SamplingaUnitDisk)  
 にサンプリングされるといった違いとなっている  
@@ -680,11 +680,11 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzQ0MzgzNTYsMTE4MTY0MjU0NSwtOD
-I5OTE1NDI4LDIxNDU5Nzk1MzksLTE5Nzc0OTMyMTQsLTMwNTA1
-MTkyMywxMDMwMTk4Mzc2LC0xNzcwMDUyMzMyLC0xNjEyMjk2Mz
-A2LDEwMDYxMTU0OTcsLTEwMzgxNjg1NjQsLTkwOTMzNzE1Niwx
-MDUyNzI5NDYwLDEyODgyODMwMzIsLTEzMDUzOTgyMTMsMTQ0OD
-Y5MTU4NSwtMTkzODg0MDk3MCw4Mjk1NTk2MDQsMTI3ODQ1NzQ0
-LC0xMzgxMzc3OTc5XX0=
+eyJoaXN0b3J5IjpbMzczNTAzMTU3LDExODE2NDI1NDUsLTgyOT
+kxNTQyOCwyMTQ1OTc5NTM5LC0xOTc3NDkzMjE0LC0zMDUwNTE5
+MjMsMTAzMDE5ODM3NiwtMTc3MDA1MjMzMiwtMTYxMjI5NjMwNi
+wxMDA2MTE1NDk3LC0xMDM4MTY4NTY0LC05MDkzMzcxNTYsMTA1
+MjcyOTQ2MCwxMjg4MjgzMDMyLC0xMzA1Mzk4MjEzLDE0NDg2OT
+E1ODUsLTE5Mzg4NDA5NzAsODI5NTU5NjA0LDEyNzg0NTc0NCwt
+MTM4MTM3Nzk3OV19
 -->
