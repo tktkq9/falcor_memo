@@ -619,14 +619,15 @@ meshInstanceIDとtriangleIndexの初期値はkInvalidIndex = 0xffffffff
 スカイボックス表示用パス  
 cube.objがある前提  
 
-シェーダーを見る感じ、ｋ
+シェーダーとクラスの処理を見る感じ、cube.obj
+そのためcube.obは大きい球体である想定の実装っぽい  
 
 
 ### SkyBox.h, cpp
 
 ### SkyBox.slang
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzNTE5ODk3LDEwMDYxMTU0OTcsLTEwMz
+eyJoaXN0b3J5IjpbOTgwMzU0MDA2LDEwMDYxMTU0OTcsLTEwMz
 gxNjg1NjQsLTkwOTMzNzE1NiwxMDUyNzI5NDYwLDEyODgyODMw
 MzIsLTEzMDUzOTgyMTMsMTQ0ODY5MTU4NSwtMTkzODg0MDk3MC
 w4Mjk1NTk2MDQsMTI3ODQ1NzQ0LC0xMzgxMzc3OTc5LC0xMjcy
