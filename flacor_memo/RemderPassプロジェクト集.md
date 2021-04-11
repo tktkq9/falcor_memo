@@ -623,6 +623,8 @@ cube.objがある前提
 cube.objをフロントカルで描画し、そのcube.objのローカル位置 = スカイボックスへの方向 = テクスチャーの位置として処理している  
 そのためcube.obはシーン全体を覆う、大きい球体である想定の実装っぽい  
 
+TextureCubeと_SPHERICAL_MAPのどちらも対応している  
+
 ### SkyBox.h, cpp
 cube.objを読み込み、SkyBox.slangのGraphicsProgramを作成し、  
 そのシェーダーを使ってcube.objを描画するためのパス  
@@ -641,11 +643,11 @@ _SPHERICAL_MAPへのuv変換 or TextureCubeをサンプルするための方向�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDc1MjcyLC0xNzcwMDUyMzMyLC0xNj
-EyMjk2MzA2LDEwMDYxMTU0OTcsLTEwMzgxNjg1NjQsLTkwOTMz
-NzE1NiwxMDUyNzI5NDYwLDEyODgyODMwMzIsLTEzMDUzOTgyMT
-MsMTQ0ODY5MTU4NSwtMTkzODg0MDk3MCw4Mjk1NTk2MDQsMTI3
-ODQ1NzQ0LC0xMzgxMzc3OTc5LC0xMjcyODEwNTMyLDE3NDI1OD
-YxMzksLTc0MDMzNjUxNiwxOTExNTQyNzMzLDE2NTMwMjY0MDUs
-MTQ1NjcwOTU1N119
+eyJoaXN0b3J5IjpbMTAzMDE5ODM3NiwtMTc3MDA1MjMzMiwtMT
+YxMjI5NjMwNiwxMDA2MTE1NDk3LC0xMDM4MTY4NTY0LC05MDkz
+MzcxNTYsMTA1MjcyOTQ2MCwxMjg4MjgzMDMyLC0xMzA1Mzk4Mj
+EzLDE0NDg2OTE1ODUsLTE5Mzg4NDA5NzAsODI5NTU5NjA0LDEy
+Nzg0NTc0NCwtMTM4MTM3Nzk3OSwtMTI3MjgxMDUzMiwxNzQyNT
+g2MTM5LC03NDAzMzY1MTYsMTkxMTU0MjczMywxNjUzMDI2NDA1
+LDE0NTY3MDk1NTddfQ==
 -->
