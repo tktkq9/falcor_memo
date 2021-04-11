@@ -653,6 +653,7 @@ _SPHERICAL_MAPへのuv変換 or TextureCubeをサンプルするための方向�
 
 ### SSAO.ps.slang
 SSAOを実行し、AOマップを作るためのシェーダー  
+画像処理なのでピクセルシェーダーオンリー  
 
 
 ### SSAOData.slang
@@ -667,7 +668,7 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjQzMDQzMjEsLTMwNTA1MTkyMywxMD
+eyJoaXN0b3J5IjpbLTEzMDExMDY2NjIsLTMwNTA1MTkyMywxMD
 MwMTk4Mzc2LC0xNzcwMDUyMzMyLC0xNjEyMjk2MzA2LDEwMDYx
 MTU0OTcsLTEwMzgxNjg1NjQsLTkwOTMzNzE1NiwxMDUyNzI5ND
 YwLDEyODgyODMwMzIsLTEzMDUzOTgyMTMsMTQ0ODY5MTU4NSwt
