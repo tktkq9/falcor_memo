@@ -667,7 +667,7 @@ SSAOを実行し、AOマップを作るためのシェーダー
 画像処理なのでピクセルシェーダーのみ  
 
 ノイズテクスチャーでピクセルごとのランダム方向を決定し、  
-SampleDistributionの設定により設定され、CPU側で事前に計算されたランダム値（Random以外ならサンプル値）の配列分だけ
+SampleDistributionの設定により設定され、CPU側で事前に計算されたランダム値（Random以外ならサンプル値）の配列分だけAO
 
 ### SSAOData.slang
 SSAO.ps.slangで使われるAOマップ作製の設定をまとめた構造体  
@@ -681,7 +681,7 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTg5OTE2NDEsLTEwMzQ0MzgzNTYsLT
+eyJoaXN0b3J5IjpbLTE4MzQ5MzE2MjcsLTEwMzQ0MzgzNTYsLT
 EwMzQ0MzgzNTYsMTE4MTY0MjU0NSwtODI5OTE1NDI4LDIxNDU5
 Nzk1MzksLTE5Nzc0OTMyMTQsLTMwNTA1MTkyMywxMDMwMTk4Mz
 c2LC0xNzcwMDUyMzMyLC0xNjEyMjk2MzA2LDEwMDYxMTU0OTcs
