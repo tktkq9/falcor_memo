@@ -721,7 +721,7 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 ### SVGFReproject.ps.slang
 
 ### その他
-ちなみに発展形として時間変化も考慮したA-SVGF[https://shikihuiku.wordpress.com/2019/06/27/%E3%83%A1%E3%83%A2a-svgf%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/]があるがこちらは未実装？  
+ちなみに発展形として時間変化も考慮したA-SVGF[https://shikihuiku.wordpress.com/2019/06/27/%E3%83%A1%E3%83%A2a-svgf%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/]があるがこちらは未実装（？）  
 ただし論文にもあるようにSVGFより重い  
 
 
@@ -730,7 +730,7 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM4NDk5OTA1LC0xMDYxMzE5NzkzLDE0OT
+eyJoaXN0b3J5IjpbMzkxNTgzMzQyLC0xMDYxMzE5NzkzLDE0OT
 kzNjAzNzgsLTIwNDQzMzQ0NzcsLTEwMzQ0MzgzNTYsLTEwMzQ0
 MzgzNTYsMTE4MTY0MjU0NSwtODI5OTE1NDI4LDIxNDU5Nzk1Mz
 ksLTE5Nzc0OTMyMTQsLTMwNTA1MTkyMywxMDMwMTk4Mzc2LC0x
