@@ -654,18 +654,19 @@ _SPHERICAL_MAPへのuv変換 or TextureCubeをサンプルするための方向�
 ### SSAO.ps.slang
 
 ### SSAOData.slang
-SSAO.ps.slangで使われるAOま
+SSAO.ps.slangで使われるAOマップ作製の設定をまとめた構造体  
+CPU側で設定され、SSAO.ps.slangのStaticCB.gDataに割り当てられる  
 
 ### ApplyAO.ps.slang
-
+SSAO.ps.slangで作った（そして設定されていればブラーもかけられた）AOマップをcolorInにじょう
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTA3MDg3NzgsLTMwNTA1MTkyMywxMD
-MwMTk4Mzc2LC0xNzcwMDUyMzMyLC0xNjEyMjk2MzA2LDEwMDYx
-MTU0OTcsLTEwMzgxNjg1NjQsLTkwOTMzNzE1NiwxMDUyNzI5ND
-YwLDEyODgyODMwMzIsLTEzMDUzOTgyMTMsMTQ0ODY5MTU4NSwt
-MTkzODg0MDk3MCw4Mjk1NTk2MDQsMTI3ODQ1NzQ0LC0xMzgxMz
-c3OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYxMzksLTc0MDMzNjUx
-NiwxOTExNTQyNzMzXX0=
+eyJoaXN0b3J5IjpbLTUxODgwOTI4MSwtMzA1MDUxOTIzLDEwMz
+AxOTgzNzYsLTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYsMTAwNjEx
+NTQ5NywtMTAzODE2ODU2NCwtOTA5MzM3MTU2LDEwNTI3Mjk0Nj
+AsMTI4ODI4MzAzMiwtMTMwNTM5ODIxMywxNDQ4NjkxNTg1LC0x
+OTM4ODQwOTcwLDgyOTU1OTYwNCwxMjc4NDU3NDQsLTEzODEzNz
+c5NzksLTEyNzI4MTA1MzIsMTc0MjU4NjEzOSwtNzQwMzM2NTE2
+LDE5MTE1NDI3MzNdfQ==
 -->
