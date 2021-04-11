@@ -615,8 +615,13 @@ meshInstanceIDとtriangleIndexの初期値はkInvalidIndex = 0xffffffff
 
 コンピュートシェーダーだがこのような処理なので1スレッドで1回処理のみ  
 
+## SkyBoxプロジェクト
+
+### SkyBox.h, cpp
+
+### SkyBox.slang
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNzg4ODE1NSwtMTAzODE2ODU2NCwtOT
+eyJoaXN0b3J5IjpbMTAwNjExNTQ5NywtMTAzODE2ODU2NCwtOT
 A5MzM3MTU2LDEwNTI3Mjk0NjAsMTI4ODI4MzAzMiwtMTMwNTM5
 ODIxMywxNDQ4NjkxNTg1LC0xOTM4ODQwOTcwLDgyOTU1OTYwNC
 wxMjc4NDU3NDQsLTEzODEzNzc5NzksLTEyNzI4MTA1MzIsMTc0
