@@ -721,7 +721,7 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 ### SVGFReproject.ps.slang
 
 ### その他
-ちなみに発展形として時間変化も考慮したA-SVGF[https://shikihuiku.wordpress.com/2019/06/27/%E3%83%A1%E3%83%A2a-svgf%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/]がある  
+ちなみに発展形として時間変化も考慮したA-SVGF[https://shikihuiku.wordpress.com/2019/06/27/%E3%83%A1%E3%83%A2a-svgf%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/]があるがこちらは未実装？  
 ただし論文にもあるようにSVGFより重い  
 
 
@@ -730,11 +730,11 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDQ3NTA0NiwtMTA2MTMxOTc5MywxND
-k5MzYwMzc4LC0yMDQ0MzM0NDc3LC0xMDM0NDM4MzU2LC0xMDM0
-NDM4MzU2LDExODE2NDI1NDUsLTgyOTkxNTQyOCwyMTQ1OTc5NT
-M5LC0xOTc3NDkzMjE0LC0zMDUwNTE5MjMsMTAzMDE5ODM3Niwt
-MTc3MDA1MjMzMiwtMTYxMjI5NjMwNiwxMDA2MTE1NDk3LC0xMD
-M4MTY4NTY0LC05MDkzMzcxNTYsMTA1MjcyOTQ2MCwxMjg4Mjgz
-MDMyLC0xMzA1Mzk4MjEzXX0=
+eyJoaXN0b3J5IjpbNzM4NDk5OTA1LC0xMDYxMzE5NzkzLDE0OT
+kzNjAzNzgsLTIwNDQzMzQ0NzcsLTEwMzQ0MzgzNTYsLTEwMzQ0
+MzgzNTYsMTE4MTY0MjU0NSwtODI5OTE1NDI4LDIxNDU5Nzk1Mz
+ksLTE5Nzc0OTMyMTQsLTMwNTA1MTkyMywxMDMwMTk4Mzc2LC0x
+NzcwMDUyMzMyLC0xNjEyMjk2MzA2LDEwMDYxMTU0OTcsLTEwMz
+gxNjg1NjQsLTkwOTMzNzE1NiwxMDUyNzI5NDYwLDEyODgyODMw
+MzIsLTEzMDUzOTgyMTNdfQ==
 -->
