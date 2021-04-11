@@ -683,7 +683,7 @@ in : colorIn、ApplyAO.ps.slangでAOマップを適用する対象
 out : colorOut、ApplyAO.ps.slangでAOマップを適用したもの  
 in : depth : SSAO.ps.slangでワールド位置の計算用＋AO計算のための遮蔽判定用  
 in : normals、SSAO.ps.slangでノイズテクスチャーによる回転を求める際に使用  
-internal : AoMap、このパス内で計算しているAOマップ  
+internal : AoMap、このパス内で計算しているAOマップ、これを蒸散したものを出力するのでこれは出力しない  
 
 ### SSAO.ps.slang
 SSAOを実行し、AOマップを作るためのシェーダー  
@@ -709,7 +709,7 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MjI2NDEzOSwtMjA0NDMzNDQ3NywtMT
+eyJoaXN0b3J5IjpbMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3NywtMT
 AzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5
 MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MDUxOT
 IzLDEwMzAxOTgzNzYsLTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYs
