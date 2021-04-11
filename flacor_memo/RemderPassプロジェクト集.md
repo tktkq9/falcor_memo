@@ -629,15 +629,17 @@ cube.objを読み込み、SkyBox.slangのGraphicsProgramを作成し、
 cube.objが元のシーンを覆うようになっている想定っぽいのでフロントカル設定されている  
 その描画結果とインプットの描画結果を合成するような実装となっている  
 
-input : target、この
+input : target、これにSkyBoxの描画結果をdepth判定により合成する  
+input : depth、合成判定用  
+out : 合成結果
 
 ### SkyBox.slang
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTU1MjI2MCwtMTYxMjI5NjMwNiwxMD
-A2MTE1NDk3LC0xMDM4MTY4NTY0LC05MDkzMzcxNTYsMTA1Mjcy
-OTQ2MCwxMjg4MjgzMDMyLC0xMzA1Mzk4MjEzLDE0NDg2OTE1OD
-UsLTE5Mzg4NDA5NzAsODI5NTU5NjA0LDEyNzg0NTc0NCwtMTM4
-MTM3Nzk3OSwtMTI3MjgxMDUzMiwxNzQyNTg2MTM5LC03NDAzMz
-Y1MTYsMTkxMTU0MjczMywxNjUzMDI2NDA1LDE0NTY3MDk1NTcs
-MTUwODIwMDI3MV19
+eyJoaXN0b3J5IjpbNjE2NjU5MDAxLC0xNjEyMjk2MzA2LDEwMD
+YxMTU0OTcsLTEwMzgxNjg1NjQsLTkwOTMzNzE1NiwxMDUyNzI5
+NDYwLDEyODgyODMwMzIsLTEzMDUzOTgyMTMsMTQ0ODY5MTU4NS
+wtMTkzODg0MDk3MCw4Mjk1NTk2MDQsMTI3ODQ1NzQ0LC0xMzgx
+Mzc3OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYxMzksLTc0MDMzNj
+UxNiwxOTExNTQyNzMzLDE2NTMwMjY0MDUsMTQ1NjcwOTU1Nywx
+NTA4MjAwMjcxXX0=
 -->
