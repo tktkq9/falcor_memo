@@ -675,7 +675,8 @@ SampleDistributionの方ではAOサンプル回数分だけSampleDistributionに
 
 実行の流れとしては、  
 内部でAOを作るパスの実行  
-mApplyBlurがオンなら作ったAOマップに対し
+mApplyBlurがオンなら作ったAOマップに対しGaussianBlurクラスによるブラー処理適用  
+AOマップを合成するパスを実行し、AOマップをcolorInに蒸散した
 
 
 
@@ -703,7 +704,7 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMjcwMDc5MywtMTAzNDQzODM1NiwtMT
+eyJoaXN0b3J5IjpbLTQ1MTU4MTk4OSwtMTAzNDQzODM1NiwtMT
 AzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5MTU0MjgsMjE0NTk3
 OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MDUxOTIzLDEwMzAxOTgzNz
 YsLTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYsMTAwNjExNTQ5Nywt
