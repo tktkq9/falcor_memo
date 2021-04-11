@@ -679,8 +679,8 @@ mApplyBlurがオンなら作ったAOマップに対しGaussianBlurクラスに�
 AOマップを合成するパスを実行し、AOマップをcolorInに乗算したものをcolorOutに出力  
 となっている  
 
-in : colorIn、ApplyAO.ps.slangでAOマップを適用するためのもの  
-out : colorOut、ApplyAO.ps.slangでAOマップ
+in : colorIn、ApplyAO.ps.slangでAOマップを適用する対象  
+out : colorOut、ApplyAO.ps.slangでAOマップを適用したもの  
 in : depth
 
 ### SSAO.ps.slang
@@ -707,11 +707,11 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDI2MTY1OSwtMTAzNDQzODM1NiwtMT
-AzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5MTU0MjgsMjE0NTk3
-OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MDUxOTIzLDEwMzAxOTgzNz
-YsLTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYsMTAwNjExNTQ5Nywt
-MTAzODE2ODU2NCwtOTA5MzM3MTU2LDEwNTI3Mjk0NjAsMTI4OD
-I4MzAzMiwtMTMwNTM5ODIxMywxNDQ4NjkxNTg1LC0xOTM4ODQw
-OTcwLDgyOTU1OTYwNF19
+eyJoaXN0b3J5IjpbODkyODA1NjAzLC0xMDM0NDM4MzU2LC0xMD
+M0NDM4MzU2LDExODE2NDI1NDUsLTgyOTkxNTQyOCwyMTQ1OTc5
+NTM5LC0xOTc3NDkzMjE0LC0zMDUwNTE5MjMsMTAzMDE5ODM3Ni
+wtMTc3MDA1MjMzMiwtMTYxMjI5NjMwNiwxMDA2MTE1NDk3LC0x
+MDM4MTY4NTY0LC05MDkzMzcxNTYsMTA1MjcyOTQ2MCwxMjg4Mj
+gzMDMyLC0xMzA1Mzk4MjEzLDE0NDg2OTE1ODUsLTE5Mzg4NDA5
+NzAsODI5NTU5NjA0XX0=
 -->
