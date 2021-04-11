@@ -591,12 +591,11 @@ GBuffer系列の共通部分 + tone mapping前後の色を入力として、
 ### PixelInspectorPass.h, cpp
 PixelInspector.cs.slangのComputeProgramやVarsなどを作成し、  
 インプットに設定したテクスチャーとマウスで選択している場所（テクスチャーの解像度に合わせてスケールされたtex座標）をそのシェーダーに設定し実行する  
-そして、その実行結果PixelDataを読み戻し、UIにその情報を表示するためのコンピュートパス   
+そして、その実行結果PixelDataを読み戻し、imguiにその情報を表示するためのコンピュートパス   
 （読み戻ししているのでmpPixelDataBuffer->map(Buffer::MapType::Read)でflush()が呼ばれることに注意）  
 
-
-
-全てのinputにテクスチャーを設定する必要はなく、設定されていない部分は無効な値（だいたいは0）が自動的に設定される  
+全てのinputにテクスチャーを設定する必要はなく、設定されていない部分は無効な値（だいたいは0）が自動的に設定され、  
+CPU側ではmAvailableInputsやmIsInputInBoundsでUIの表示非表示を
 
 UIによる確認が目的のパスなので入力のみ  
 input : GBuffer系列の共通部分 + tone mapping前後の色
@@ -615,11 +614,11 @@ meshInstanceIDとtriangleIndexの初期値はkInvalidIndex = 0xffffffff
 コンピュートシェーダーだがこのような処理なので1スレッドで1回処理のみ  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTMzNzE1NiwxMDUyNzI5NDYwLDEyOD
-gyODMwMzIsLTEzMDUzOTgyMTMsMTQ0ODY5MTU4NSwtMTkzODg0
-MDk3MCw4Mjk1NTk2MDQsMTI3ODQ1NzQ0LC0xMzgxMzc3OTc5LC
-0xMjcyODEwNTMyLDE3NDI1ODYxMzksLTc0MDMzNjUxNiwxOTEx
-NTQyNzMzLDE2NTMwMjY0MDUsMTQ1NjcwOTU1NywxNTA4MjAwMj
-cxLDExMDg4OTcxMDgsLTE3MzY0MDgwNjEsLTIwOTc3OTA5ODEs
-MTYwNzMxNzM3OV19
+eyJoaXN0b3J5IjpbLTc0MjA3NTQ5MiwtOTA5MzM3MTU2LDEwNT
+I3Mjk0NjAsMTI4ODI4MzAzMiwtMTMwNTM5ODIxMywxNDQ4Njkx
+NTg1LC0xOTM4ODQwOTcwLDgyOTU1OTYwNCwxMjc4NDU3NDQsLT
+EzODEzNzc5NzksLTEyNzI4MTA1MzIsMTc0MjU4NjEzOSwtNzQw
+MzM2NTE2LDE5MTE1NDI3MzMsMTY1MzAyNjQwNSwxNDU2NzA5NT
+U3LDE1MDgyMDAyNzEsMTEwODg5NzEwOCwtMTczNjQwODA2MSwt
+MjA5Nzc5MDk4MV19
 -->
