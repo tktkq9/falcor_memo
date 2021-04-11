@@ -664,8 +664,13 @@ Hammersleyサンプリング自体はlow discrepancyなサンプリングで、�
 内部でAOを作るパス（SSAO.ps.slang）、ブラーをかけるグラフ（複数のパス）、AOマップを合成するパス（ApplyAO.ps.slang）を作成と設定をし、順次実行していくためのクラス  
 
 SSAO.ps.slangのため、SampleDistributionによるランダム配列とノイズテクスチャーの生成も行われる  
-SampleDistributionの方ではAOサンプル回数分だけSampleDistributionによるランダム値の計算（さらに、）  
+SampleDistributionの方ではAOサンプル回数分だけSampleDistributionによるランダム値の計算（さらに、  
+        float dist = (float)i / (float)mData.kernelSize;
+        dist = glm::mix(0.1f, 1.0f, dist * dist);
+        mData.sampleKernel[i] *= dist;
 
+による距離変化もかける）  
+の
 
 ### SSAO.ps.slang
 SSAOを実行し、AOマップを作るためのシェーダー  
@@ -691,7 +696,7 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMzk5MjE2MiwtMTAzNDQzODM1NiwtMT
+eyJoaXN0b3J5IjpbLTUxMTYyMDk5NiwtMTAzNDQzODM1NiwtMT
 AzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5MTU0MjgsMjE0NTk3
 OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MDUxOTIzLDEwMzAxOTgzNz
 YsLTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYsMTAwNjExNTQ5Nywt
