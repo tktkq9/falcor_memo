@@ -581,7 +581,7 @@ make_new_pass_project.batで呼び出されるmake_new_pass_project.pyにコピ�
 
 ## PixelInspectorPassプロジェクト
 GBuffer系列の共通部分 + tone mapping前後の色を入力として、  
-その画像をマウスで選択した場所の情報をUIに表示するためのパスプロジェクト  
+その画像をマウスで選択した場所の情報をimguiに表示するためのパスプロジェクト  
 デバッグ用  
 
 似たようなクラスとしてPixelDebug.cppがあるが、  
@@ -614,11 +614,11 @@ meshInstanceIDとtriangleIndexの初期値はkInvalidIndex = 0xffffffff
 コンピュートシェーダーだがこのような処理なので1スレッドで1回処理のみ  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzgxNjg1NjQsLTkwOTMzNzE1NiwxMD
-UyNzI5NDYwLDEyODgyODMwMzIsLTEzMDUzOTgyMTMsMTQ0ODY5
-MTU4NSwtMTkzODg0MDk3MCw4Mjk1NTk2MDQsMTI3ODQ1NzQ0LC
-0xMzgxMzc3OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYxMzksLTc0
-MDMzNjUxNiwxOTExNTQyNzMzLDE2NTMwMjY0MDUsMTQ1NjcwOT
-U1NywxNTA4MjAwMjcxLDExMDg4OTcxMDgsLTE3MzY0MDgwNjEs
-LTIwOTc3OTA5ODFdfQ==
+eyJoaXN0b3J5IjpbNDk2MTk0NDE5LC0xMDM4MTY4NTY0LC05MD
+kzMzcxNTYsMTA1MjcyOTQ2MCwxMjg4MjgzMDMyLC0xMzA1Mzk4
+MjEzLDE0NDg2OTE1ODUsLTE5Mzg4NDA5NzAsODI5NTU5NjA0LD
+EyNzg0NTc0NCwtMTM4MTM3Nzk3OSwtMTI3MjgxMDUzMiwxNzQy
+NTg2MTM5LC03NDAzMzY1MTYsMTkxMTU0MjczMywxNjUzMDI2ND
+A1LDE0NTY3MDk1NTcsMTUwODIwMDI3MSwxMTA4ODk3MTA4LC0x
+NzM2NDA4MDYxXX0=
 -->
