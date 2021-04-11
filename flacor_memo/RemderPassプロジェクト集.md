@@ -620,7 +620,7 @@ meshInstanceIDとtriangleIndexの初期値はkInvalidIndex = 0xffffffff
 cube.objがある前提  
 
 シェーダーとクラスの処理を見る感じ、  
-cube.objをフロントカル、デプス判定、描画し、その位置 = スカイボックスへの方向となっている
+cube.objをフロントカル、デプス判定、描画し、その位置 = スカイボックスへの方向となっている　　
 そのためcube.obは大きい球体である想定の実装っぽい  
 
 
@@ -628,7 +628,7 @@ cube.objをフロントカル、デプス判定、描画し、その位置 = ス
 
 ### SkyBox.slang
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTk3MTA4OTgsMTAwNjExNTQ5NywtMT
+eyJoaXN0b3J5IjpbLTE2MTIyOTYzMDYsMTAwNjExNTQ5NywtMT
 AzODE2ODU2NCwtOTA5MzM3MTU2LDEwNTI3Mjk0NjAsMTI4ODI4
 MzAzMiwtMTMwNTM5ODIxMywxNDQ4NjkxNTg1LC0xOTM4ODQwOT
 cwLDgyOTU1OTYwNCwxMjc4NDU3NDQsLTEzODEzNzc5NzksLTEy
