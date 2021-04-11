@@ -652,7 +652,7 @@ _SPHERICAL_MAPへのuv変換 or TextureCubeをサンプルするための方向�
 サンプリングとして、ランダム、  
 があるが、
 Uniformは[13.6.1 Uniformly Sampling a Hemisphere](http://www.pbr-book.org/3ed-2018/Monte_Carlo_Integration/2D_Sampling_with_Multidimensional_Transformations.html#UniformlySamplingaHemisphere)。  
-Cosineは[]
+Cosineは[### 13.6.2 Sampling a Unit Disk](http://www.pbr-book.org/3ed-2018/Monte_Carlo_Integration/2D_Sampling_with_Multidimensional_Transformations.html#SamplingaUnitDisk)
 
 ### SSAO.h, cpp
 
@@ -674,11 +674,11 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE5OTYwNDc3LC0xOTc3NDkzMjE0LC0zMD
-UwNTE5MjMsMTAzMDE5ODM3NiwtMTc3MDA1MjMzMiwtMTYxMjI5
-NjMwNiwxMDA2MTE1NDk3LC0xMDM4MTY4NTY0LC05MDkzMzcxNT
-YsMTA1MjcyOTQ2MCwxMjg4MjgzMDMyLC0xMzA1Mzk4MjEzLDE0
-NDg2OTE1ODUsLTE5Mzg4NDA5NzAsODI5NTU5NjA0LDEyNzg0NT
-c0NCwtMTM4MTM3Nzk3OSwtMTI3MjgxMDUzMiwxNzQyNTg2MTM5
-LC03NDAzMzY1MTZdfQ==
+eyJoaXN0b3J5IjpbLTIxMzM3MTI4ODYsLTE5Nzc0OTMyMTQsLT
+MwNTA1MTkyMywxMDMwMTk4Mzc2LC0xNzcwMDUyMzMyLC0xNjEy
+Mjk2MzA2LDEwMDYxMTU0OTcsLTEwMzgxNjg1NjQsLTkwOTMzNz
+E1NiwxMDUyNzI5NDYwLDEyODgyODMwMzIsLTEzMDUzOTgyMTMs
+MTQ0ODY5MTU4NSwtMTkzODg0MDk3MCw4Mjk1NTk2MDQsMTI3OD
+Q1NzQ0LC0xMzgxMzc3OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYx
+MzksLTc0MDMzNjUxNl19
 -->
