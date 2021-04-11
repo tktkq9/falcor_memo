@@ -619,7 +619,8 @@ meshInstanceIDとtriangleIndexの初期値はkInvalidIndex = 0xffffffff
 スカイボックス表示用パス  
 cube.objがある前提  
 
-シェーダーとクラスの処理を見る感じ、cube.obj
+シェーダーとクラスの処理を見る感じ、  
+cube.objをフロントカル、デプス判定、描画し、その位置 = スカイボックスへの方向となっている
 そのためcube.obは大きい球体である想定の実装っぽい  
 
 
@@ -627,11 +628,11 @@ cube.objがある前提
 
 ### SkyBox.slang
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwMzU0MDA2LDEwMDYxMTU0OTcsLTEwMz
-gxNjg1NjQsLTkwOTMzNzE1NiwxMDUyNzI5NDYwLDEyODgyODMw
-MzIsLTEzMDUzOTgyMTMsMTQ0ODY5MTU4NSwtMTkzODg0MDk3MC
-w4Mjk1NTk2MDQsMTI3ODQ1NzQ0LC0xMzgxMzc3OTc5LC0xMjcy
-ODEwNTMyLDE3NDI1ODYxMzksLTc0MDMzNjUxNiwxOTExNTQyNz
-MzLDE2NTMwMjY0MDUsMTQ1NjcwOTU1NywxNTA4MjAwMjcxLDEx
-MDg4OTcxMDhdfQ==
+eyJoaXN0b3J5IjpbLTIwMTk3MTA4OTgsMTAwNjExNTQ5NywtMT
+AzODE2ODU2NCwtOTA5MzM3MTU2LDEwNTI3Mjk0NjAsMTI4ODI4
+MzAzMiwtMTMwNTM5ODIxMywxNDQ4NjkxNTg1LC0xOTM4ODQwOT
+cwLDgyOTU1OTYwNCwxMjc4NDU3NDQsLTEzODEzNzc5NzksLTEy
+NzI4MTA1MzIsMTc0MjU4NjEzOSwtNzQwMzM2NTE2LDE5MTE1ND
+I3MzMsMTY1MzAyNjQwNSwxNDU2NzA5NTU3LDE1MDgyMDAyNzEs
+MTEwODg5NzEwOF19
 -->
