@@ -663,7 +663,8 @@ Hammersleyサンプリング自体はlow discrepancyなサンプリングで、�
 ### SSAO.h, cpp
 内部でAOを作るパス（SSAO.ps.slang）、ブラーをかけるグラフ（複数のパス）、AOマップを合成するパス（ApplyAO.ps.slang）を作成と設定をし、順次実行していくためのクラス  
 
-SSAO.ps.slangの変数のため、  
+SSAO.ps.slangのため、SampleDistributionによるランダム配列とノイズテクスチャーの生成も行われる  
+SampleDistributionの方ではAOサンプル回数分だけSampleDistributionによるランダム値の計算（さらに、）  
 
 
 ### SSAO.ps.slang
@@ -690,11 +691,11 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk1ODQ2ODYsLTEwMzQ0MzgzNTYsLTEwMz
-Q0MzgzNTYsMTE4MTY0MjU0NSwtODI5OTE1NDI4LDIxNDU5Nzk1
-MzksLTE5Nzc0OTMyMTQsLTMwNTA1MTkyMywxMDMwMTk4Mzc2LC
-0xNzcwMDUyMzMyLC0xNjEyMjk2MzA2LDEwMDYxMTU0OTcsLTEw
-MzgxNjg1NjQsLTkwOTMzNzE1NiwxMDUyNzI5NDYwLDEyODgyOD
-MwMzIsLTEzMDUzOTgyMTMsMTQ0ODY5MTU4NSwtMTkzODg0MDk3
-MCw4Mjk1NTk2MDRdfQ==
+eyJoaXN0b3J5IjpbLTMzMzk5MjE2MiwtMTAzNDQzODM1NiwtMT
+AzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5MTU0MjgsMjE0NTk3
+OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MDUxOTIzLDEwMzAxOTgzNz
+YsLTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYsMTAwNjExNTQ5Nywt
+MTAzODE2ODU2NCwtOTA5MzM3MTU2LDEwNTI3Mjk0NjAsMTI4OD
+I4MzAzMiwtMTMwNTM5ODIxMywxNDQ4NjkxNTg1LC0xOTM4ODQw
+OTcwLDgyOTU1OTYwNF19
 -->
