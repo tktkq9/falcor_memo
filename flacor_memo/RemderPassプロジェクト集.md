@@ -682,7 +682,8 @@ AOマップを合成するパスを実行し、AOマップをcolorInに乗算し
 in : colorIn、ApplyAO.ps.slangでAOマップを適用する対象  
 out : colorOut、ApplyAO.ps.slangでAOマップを適用したもの  
 in : depth : SSAO.ps.slangでワールド位置の計算用＋AO計算のための遮蔽判定用  
-in : normals、
+in : normals、SSAO.ps.slangでノイズテクスチャーによる回転を求める際に使用  
+internal : AoMap、このパス内で計算しているAOマップ  
 
 ### SSAO.ps.slang
 SSAOを実行し、AOマップを作るためのシェーダー  
@@ -708,11 +709,11 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDQzMzQ0NzcsLTEwMzQ0MzgzNTYsLT
-EwMzQ0MzgzNTYsMTE4MTY0MjU0NSwtODI5OTE1NDI4LDIxNDU5
-Nzk1MzksLTE5Nzc0OTMyMTQsLTMwNTA1MTkyMywxMDMwMTk4Mz
-c2LC0xNzcwMDUyMzMyLC0xNjEyMjk2MzA2LDEwMDYxMTU0OTcs
-LTEwMzgxNjg1NjQsLTkwOTMzNzE1NiwxMDUyNzI5NDYwLDEyOD
-gyODMwMzIsLTEzMDUzOTgyMTMsMTQ0ODY5MTU4NSwtMTkzODg0
-MDk3MCw4Mjk1NTk2MDRdfQ==
+eyJoaXN0b3J5IjpbMTE0MjI2NDEzOSwtMjA0NDMzNDQ3NywtMT
+AzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5
+MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MDUxOT
+IzLDEwMzAxOTgzNzYsLTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYs
+MTAwNjExNTQ5NywtMTAzODE2ODU2NCwtOTA5MzM3MTU2LDEwNT
+I3Mjk0NjAsMTI4ODI4MzAzMiwtMTMwNTM5ODIxMywxNDQ4Njkx
+NTg1LC0xOTM4ODQwOTcwXX0=
 -->
