@@ -595,14 +595,14 @@ PixelInspector.cs.slangのComputeProgramやVarsなどを作成し、
 （読み戻ししているのでmpPixelDataBuffer->map(Buffer::MapType::Read)でflush()が呼ばれることに注意）  
 
 全てのinputにテクスチャーを設定する必要はなく、設定されていない部分は無効な値（だいたいは0）が自動的に設定され、  
-CPU側ではmAvailableInputsやmIsInputInBoundsでUIの表示非表示を
+CPU側ではmAvailableInputsやmIsInputInBoundsでimguiの表示非表示を
 
-UIによる確認が目的のパスなので入力のみ  
+imguiによる確認が目的のパスなので入力のみ  
 input : GBuffer系列の共通部分 + tone mapping前後の色
 
 
 ### PixelInspectorData.slang
-UIに表示するための情報であるPixelData構造体の定義用ファイル  
+imguiに表示するための情報であるPixelData構造体の定義用ファイル  
 CPU、GPU両対応（HostDeviceShared.slanghのやつ）  
 
 meshInstanceIDとtriangleIndexの初期値はkInvalidIndex = 0xffffffff  
@@ -614,11 +614,11 @@ meshInstanceIDとtriangleIndexの初期値はkInvalidIndex = 0xffffffff
 コンピュートシェーダーだがこのような処理なので1スレッドで1回処理のみ  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MjA3NTQ5MiwtOTA5MzM3MTU2LDEwNT
-I3Mjk0NjAsMTI4ODI4MzAzMiwtMTMwNTM5ODIxMywxNDQ4Njkx
-NTg1LC0xOTM4ODQwOTcwLDgyOTU1OTYwNCwxMjc4NDU3NDQsLT
-EzODEzNzc5NzksLTEyNzI4MTA1MzIsMTc0MjU4NjEzOSwtNzQw
-MzM2NTE2LDE5MTE1NDI3MzMsMTY1MzAyNjQwNSwxNDU2NzA5NT
-U3LDE1MDgyMDAyNzEsMTEwODg5NzEwOCwtMTczNjQwODA2MSwt
-MjA5Nzc5MDk4MV19
+eyJoaXN0b3J5IjpbLTEzNTAyNDkyNjUsLTkwOTMzNzE1NiwxMD
+UyNzI5NDYwLDEyODgyODMwMzIsLTEzMDUzOTgyMTMsMTQ0ODY5
+MTU4NSwtMTkzODg0MDk3MCw4Mjk1NTk2MDQsMTI3ODQ1NzQ0LC
+0xMzgxMzc3OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYxMzksLTc0
+MDMzNjUxNiwxOTExNTQyNzMzLDE2NTMwMjY0MDUsMTQ1NjcwOT
+U1NywxNTA4MjAwMjcxLDExMDg4OTcxMDgsLTE3MzY0MDgwNjEs
+LTIwOTc3OTA5ODFdfQ==
 -->
