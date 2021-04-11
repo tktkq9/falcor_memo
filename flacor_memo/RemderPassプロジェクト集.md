@@ -661,7 +661,7 @@ Hammersleyサンプリング自体はlow discrepancyなサンプリングで、�
 
 
 ### SSAO.h, cpp
-内部でAOを作るパス（RenderPasses/SSAO/SSAO.ps.slang）、ブラーをかけるグラフ（複数のパス）、AOマップを合成するパス
+内部でAOを作るパス（SSAO.ps.slang）、ブラーをかけるグラフ（複数のパス）、AOマップを合成するパス
 
 ### SSAO.ps.slang
 SSAOを実行し、AOマップを作るためのシェーダー  
@@ -687,11 +687,11 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc2NjU2NzU5LC0xMDM0NDM4MzU2LC0xMD
-M0NDM4MzU2LDExODE2NDI1NDUsLTgyOTkxNTQyOCwyMTQ1OTc5
-NTM5LC0xOTc3NDkzMjE0LC0zMDUwNTE5MjMsMTAzMDE5ODM3Ni
-wtMTc3MDA1MjMzMiwtMTYxMjI5NjMwNiwxMDA2MTE1NDk3LC0x
-MDM4MTY4NTY0LC05MDkzMzcxNTYsMTA1MjcyOTQ2MCwxMjg4Mj
-gzMDMyLC0xMzA1Mzk4MjEzLDE0NDg2OTE1ODUsLTE5Mzg4NDA5
-NzAsODI5NTU5NjA0XX0=
+eyJoaXN0b3J5IjpbLTE0MjE2OTc0NzQsLTEwMzQ0MzgzNTYsLT
+EwMzQ0MzgzNTYsMTE4MTY0MjU0NSwtODI5OTE1NDI4LDIxNDU5
+Nzk1MzksLTE5Nzc0OTMyMTQsLTMwNTA1MTkyMywxMDMwMTk4Mz
+c2LC0xNzcwMDUyMzMyLC0xNjEyMjk2MzA2LDEwMDYxMTU0OTcs
+LTEwMzgxNjg1NjQsLTkwOTMzNzE1NiwxMDUyNzI5NDYwLDEyOD
+gyODMwMzIsLTEzMDUzOTgyMTMsMTQ0ODY5MTU4NSwtMTkzODg0
+MDk3MCw4Mjk1NTk2MDRdfQ==
 -->
