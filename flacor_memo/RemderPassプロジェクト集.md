@@ -637,10 +637,11 @@ out : target、cube.objによるSkyBoxの描画結果、depth通過した部分�
 cube.objを描画するためのシェーダー  
 球体を描画しつつ、その球体のローカルポジション = スカイボックスへの方向を、  
 _SPHERICAL_MAPへのuv変換 or TextureCubeをサンプルするための方向と扱うことによって、  
+スカイボックス描画を行っている  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA5MjU2Mjc1LC0xNzcwMDUyMzMyLC0xNj
+eyJoaXN0b3J5IjpbLTcyMDc1MjcyLC0xNzcwMDUyMzMyLC0xNj
 EyMjk2MzA2LDEwMDYxMTU0OTcsLTEwMzgxNjg1NjQsLTkwOTMz
 NzE1NiwxMDUyNzI5NDYwLDEyODgyODMwMzIsLTEzMDUzOTgyMT
 MsMTQ0ODY5MTU4NSwtMTkzODg0MDk3MCw4Mjk1NTk2MDQsMTI3
