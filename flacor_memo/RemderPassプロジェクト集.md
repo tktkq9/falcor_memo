@@ -635,9 +635,12 @@ out : target、cube.objによるSkyBoxの描画結果、depth通過した部分�
 
 ### SkyBox.slang
 cube.objを描画するためのシェーダー  
-球体を描画しつつ、その球体のローカルポジション = スカイボックスへの方向 = TextureCubeの
+球体を描画しつつ、その球体のローカルポジション = スカイボックスへの方向を、  
+_SPHERICAL_MAPへのuv変換 or TextureCubeをサンプルするための方向と扱うことによって、  
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUyNDkyMDMzLC0xNzcwMDUyMzMyLC0xNj
+eyJoaXN0b3J5IjpbMzA5MjU2Mjc1LC0xNzcwMDUyMzMyLC0xNj
 EyMjk2MzA2LDEwMDYxMTU0OTcsLTEwMzgxNjg1NjQsLTkwOTMz
 NzE1NiwxMDUyNzI5NDYwLDEyODgyODMwMzIsLTEzMDUzOTgyMT
 MsMTQ0ODY5MTU4NSwtMTkzODg0MDk3MCw4Mjk1NTk2MDQsMTI3
