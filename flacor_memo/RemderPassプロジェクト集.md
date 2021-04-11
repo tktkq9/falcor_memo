@@ -642,9 +642,11 @@ _SPHERICAL_MAPへのuv変換 or TextureCubeをサンプルするための方向�
 スカイボックス描画を行っている  
 
 ## SSAOプロジェクト
-インプットのdepthやnor
+インプットのdepthやnormalテクスチャーからAOマップをSSAOによって計算し、  
+（そして設定によってはブラー処理をし）  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MzQyNTEyNCwtMzA1MDUxOTIzLDEwMz
+eyJoaXN0b3J5IjpbLTEzNjIzMjEzNiwtMzA1MDUxOTIzLDEwMz
 AxOTgzNzYsLTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYsMTAwNjEx
 NTQ5NywtMTAzODE2ODU2NCwtOTA5MzM3MTU2LDEwNTI3Mjk0Nj
 AsMTI4ODI4MzAzMiwtMTMwNTM5ODIxMywxNDQ4NjkxNTg1LC0x
