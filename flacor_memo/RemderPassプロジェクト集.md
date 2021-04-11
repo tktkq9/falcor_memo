@@ -649,6 +649,11 @@ _SPHERICAL_MAPへのuv変換 or TextureCubeをサンプルするための方向�
 内部でAOを作るパス、ブラーをかけるグラフ（複数のパス）、AOマップを合成するパスといったように、  
 複数のパスやグラフが実行される（ただしCPUへの読み戻しは行わないので遅くなるわけではない）  
 
+サンプリングとして、ランダム、  
+があるが、
+Uniformは[13.6.1 Uniformly Sampling a Hemisphere](http://www.pbr-book.org/3ed-2018/Monte_Carlo_Integration/2D_Sampling_with_Multidimensional_Transformations.html#UniformlySamplingaHemisphere)。  
+Cosineは[]
+
 ### SSAO.h, cpp
 
 ### SSAO.ps.slang
@@ -669,11 +674,11 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzc0OTMyMTQsLTMwNTA1MTkyMywxMD
-MwMTk4Mzc2LC0xNzcwMDUyMzMyLC0xNjEyMjk2MzA2LDEwMDYx
-MTU0OTcsLTEwMzgxNjg1NjQsLTkwOTMzNzE1NiwxMDUyNzI5ND
-YwLDEyODgyODMwMzIsLTEzMDUzOTgyMTMsMTQ0ODY5MTU4NSwt
-MTkzODg0MDk3MCw4Mjk1NTk2MDQsMTI3ODQ1NzQ0LC0xMzgxMz
-c3OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYxMzksLTc0MDMzNjUx
-NiwxOTExNTQyNzMzXX0=
+eyJoaXN0b3J5IjpbMjE5OTYwNDc3LC0xOTc3NDkzMjE0LC0zMD
+UwNTE5MjMsMTAzMDE5ODM3NiwtMTc3MDA1MjMzMiwtMTYxMjI5
+NjMwNiwxMDA2MTE1NDk3LC0xMDM4MTY4NTY0LC05MDkzMzcxNT
+YsMTA1MjcyOTQ2MCwxMjg4MjgzMDMyLC0xMzA1Mzk4MjEzLDE0
+NDg2OTE1ODUsLTE5Mzg4NDA5NzAsODI5NTU5NjA0LDEyNzg0NT
+c0NCwtMTM4MTM3Nzk3OSwtMTI3MjgxMDUzMiwxNzQyNTg2MTM5
+LC03NDAzMzY1MTZdfQ==
 -->
