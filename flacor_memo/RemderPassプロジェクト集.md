@@ -707,16 +707,20 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 ## SVGFPassプロジェクト
+[Spatiotemporal Variance-Guided Filtering: Real-Time Reconstruction for Path-Traced Global Illumination](https://research.nvidia.com/publication/2017-07_Spatiotemporal-Variance-Guided-Filtering%3A)  
+の実装、レイトレ用  
+レイトレのノイズを減らすフィルターパス  
+は
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMj
-A0NDMzNDQ3NywtMTAzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgx
-NjQyNTQ1LC04Mjk5MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5Mz
-IxNCwtMzA1MDUxOTIzLDEwMzAxOTgzNzYsLTE3NzAwNTIzMzIs
-LTE2MTIyOTYzMDYsMTAwNjExNTQ5NywtMTAzODE2ODU2NCwtOT
-A5MzM3MTU2LDEwNTI3Mjk0NjAsMTI4ODI4MzAzMiwtMTMwNTM5
-ODIxMywxNDQ4NjkxNTg1XX0=
+eyJoaXN0b3J5IjpbMTQyNDIwMDA5NSwtMTA2MTMxOTc5MywxND
+k5MzYwMzc4LC0yMDQ0MzM0NDc3LC0xMDM0NDM4MzU2LC0xMDM0
+NDM4MzU2LDExODE2NDI1NDUsLTgyOTkxNTQyOCwyMTQ1OTc5NT
+M5LC0xOTc3NDkzMjE0LC0zMDUwNTE5MjMsMTAzMDE5ODM3Niwt
+MTc3MDA1MjMzMiwtMTYxMjI5NjMwNiwxMDA2MTE1NDk3LC0xMD
+M4MTY4NTY0LC05MDkzMzcxNTYsMTA1MjcyOTQ2MCwxMjg4Mjgz
+MDMyLC0xMzA1Mzk4MjEzXX0=
 -->
