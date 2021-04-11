@@ -712,7 +712,9 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 レイトレのノイズを減らすフィルターパス  
 
 
-（ちなみに発展形として時間変化も考慮したA-SVGF[https://shikihuiku.wordpress.com/2019/06/27/%E3%83%A1%E3%83%A2a-svgf%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/]があり、こちらは未実装？ただし論文にもあるようにSVGFより重い）  
+### その他
+ちなみに発展形として時間変化も考慮したA-SVGF[https://shikihuiku.wordpress.com/2019/06/27/%E3%83%A1%E3%83%A2a-svgf%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/]がある  
+ただし論文にもあるようにSVGFより重い  
 
 
 
@@ -720,11 +722,11 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTA3NTQ1OSwtMTA2MTMxOTc5MywxND
-k5MzYwMzc4LC0yMDQ0MzM0NDc3LC0xMDM0NDM4MzU2LC0xMDM0
-NDM4MzU2LDExODE2NDI1NDUsLTgyOTkxNTQyOCwyMTQ1OTc5NT
-M5LC0xOTc3NDkzMjE0LC0zMDUwNTE5MjMsMTAzMDE5ODM3Niwt
-MTc3MDA1MjMzMiwtMTYxMjI5NjMwNiwxMDA2MTE1NDk3LC0xMD
-M4MTY4NTY0LC05MDkzMzcxNTYsMTA1MjcyOTQ2MCwxMjg4Mjgz
-MDMyLC0xMzA1Mzk4MjEzXX0=
+eyJoaXN0b3J5IjpbLTE2MzY3MTQ5NzcsLTEwNjEzMTk3OTMsMT
+Q5OTM2MDM3OCwtMjA0NDMzNDQ3NywtMTAzNDQzODM1NiwtMTAz
+NDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5MTU0MjgsMjE0NTk3OT
+UzOSwtMTk3NzQ5MzIxNCwtMzA1MDUxOTIzLDEwMzAxOTgzNzYs
+LTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYsMTAwNjExNTQ5NywtMT
+AzODE2ODU2NCwtOTA5MzM3MTU2LDEwNTI3Mjk0NjAsMTI4ODI4
+MzAzMiwtMTMwNTM5ODIxM119
 -->
