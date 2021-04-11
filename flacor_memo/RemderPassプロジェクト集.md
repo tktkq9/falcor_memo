@@ -623,12 +623,12 @@ cube.objがある前提
 cube.objをフロントカルで描画し、そのcube.objのローカル位置 = スカイボックスへの方向 = テクスチャーの位置として処理している  
 そのためcube.obは大きい球体である想定の実装っぽい  
 
-
 ### SkyBox.h, cpp
+cube.objを読み込み、SkyBox.slangのGraphicsProgramを作成し、
 
 ### SkyBox.slang
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NzUyOTIzNiwtMTYxMjI5NjMwNiwxMD
+eyJoaXN0b3J5IjpbLTkxNTIyNjQwOCwtMTYxMjI5NjMwNiwxMD
 A2MTE1NDk3LC0xMDM4MTY4NTY0LC05MDkzMzcxNTYsMTA1Mjcy
 OTQ2MCwxMjg4MjgzMDMyLC0xMzA1Mzk4MjEzLDE0NDg2OTE1OD
 UsLTE5Mzg4NDA5NzAsODI5NTU5NjA0LDEyNzg0NTc0NCwtMTM4
