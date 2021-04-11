@@ -647,13 +647,25 @@ _SPHERICAL_MAPへのuv変換 or TextureCubeをサンプルするための方向�
 インプットcolorInにこのAOマップを蒸散しcolorOutに出力するパス  
 
 内部でAOを作るパス、ブラーをかけるグラフ（複数のパス）、AOマップを合成するパスといったように、  
-複数のパスやグラフが実行される（ただしCPUへのよみｍ）  
+複数のパスやグラフが実行される（ただしCPUへの読み戻しは行わないので遅くなるわけではない）  
+
+### SSAO.h, cpp
+
+### SSAO.ps.slang
+
+### SSAOData.slang
+SSAO.ps.slangで使われるAOま
+
+### ApplyAO.ps.slang
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjk0ODM5NiwtMzA1MDUxOTIzLDEwMz
-AxOTgzNzYsLTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYsMTAwNjEx
-NTQ5NywtMTAzODE2ODU2NCwtOTA5MzM3MTU2LDEwNTI3Mjk0Nj
-AsMTI4ODI4MzAzMiwtMTMwNTM5ODIxMywxNDQ4NjkxNTg1LC0x
-OTM4ODQwOTcwLDgyOTU1OTYwNCwxMjc4NDU3NDQsLTEzODEzNz
-c5NzksLTEyNzI4MTA1MzIsMTc0MjU4NjEzOSwtNzQwMzM2NTE2
-LDE5MTE1NDI3MzNdfQ==
+eyJoaXN0b3J5IjpbLTEyNTA3MDg3NzgsLTMwNTA1MTkyMywxMD
+MwMTk4Mzc2LC0xNzcwMDUyMzMyLC0xNjEyMjk2MzA2LDEwMDYx
+MTU0OTcsLTEwMzgxNjg1NjQsLTkwOTMzNzE1NiwxMDUyNzI5ND
+YwLDEyODgyODMwMzIsLTEzMDUzOTgyMTMsMTQ0ODY5MTU4NSwt
+MTkzODg0MDk3MCw4Mjk1NTk2MDQsMTI3ODQ1NzQ0LC0xMzgxMz
+c3OTc5LC0xMjcyODEwNTMyLDE3NDI1ODYxMzksLTc0MDMzNjUx
+NiwxOTExNTQyNzMzXX0=
 -->
