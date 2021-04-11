@@ -668,8 +668,8 @@ SSAOを実行し、AOマップを作るためのシェーダー
 
 ノイズテクスチャーでピクセルごとのランダムな回転方向を決定し、  
 SampleDistributionの設定により設定され、CPU側で事前に計算されたランダム値（Random以外ならサンプル値）の配列分だけAOのためのベクトルを計算、  
-そのベクトルに回転をかけ、そのピクセルのワールド位置からベクトル + radiusの距離レイを飛ばした先のdepthを計算、    
-それにより遮蔽されているかどうか計算しAOを求める  
+そのベクトルに回転をかけ、そのピクセルのワールド位置からベクトル + radiusの距離レイを飛ばした先のdepthを計算   
+それと元画像のdepthを比較し、遮蔽されているかどうか計算しAOを求める  
 
 ### SSAOData.slang
 SSAO.ps.slangで使われるAOマップ作製の設定をまとめた構造体  
@@ -683,11 +683,11 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjkwMzgzMzUsLTEwMzQ0MzgzNTYsLT
-EwMzQ0MzgzNTYsMTE4MTY0MjU0NSwtODI5OTE1NDI4LDIxNDU5
-Nzk1MzksLTE5Nzc0OTMyMTQsLTMwNTA1MTkyMywxMDMwMTk4Mz
-c2LC0xNzcwMDUyMzMyLC0xNjEyMjk2MzA2LDEwMDYxMTU0OTcs
-LTEwMzgxNjg1NjQsLTkwOTMzNzE1NiwxMDUyNzI5NDYwLDEyOD
-gyODMwMzIsLTEzMDUzOTgyMTMsMTQ0ODY5MTU4NSwtMTkzODg0
-MDk3MCw4Mjk1NTk2MDRdfQ==
+eyJoaXN0b3J5IjpbMTgwMDEyMTY2MCwtMTAzNDQzODM1NiwtMT
+AzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5MTU0MjgsMjE0NTk3
+OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MDUxOTIzLDEwMzAxOTgzNz
+YsLTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYsMTAwNjExNTQ5Nywt
+MTAzODE2ODU2NCwtOTA5MzM3MTU2LDEwNTI3Mjk0NjAsMTI4OD
+I4MzAzMiwtMTMwNTM5ODIxMywxNDQ4NjkxNTg1LC0xOTM4ODQw
+OTcwLDgyOTU1OTYwNF19
 -->
