@@ -667,9 +667,10 @@ SSAOを実行し、AOマップを作るためのシェーダー
 画像処理なのでピクセルシェーダーのみ  
 
 ノイズテクスチャーでピクセルごとのランダムな回転方向を決定し、  
-SampleDistributionの設定により設定され、CPU側で事前に計算されたランダム値（Random以外ならサンプル値）の配列分だけAOのためのベクトルを計算  
+SampleDistributionの設定により設定され、CPU側で事前に計算されたランダム値（Random以外ならサンプル値）のレイベクトルを取得  
 そのベクトルにノイズテクスチャーの回転をかけ、そのピクセルのワールド位置からベクトル + radiusの距離レイを飛ばした先のdepthを計算    
-それと元画像のdepthを比較し、遮蔽されているかどうか計算しAOを求める  
+それと元画像のdepthを比較し、遮蔽されているかどうか計算  
+これをkernelSize下位しAOを求める  
 
 このようにランダム値によってAOの計算を行うのでブラーが必要になる可能性がある  
 
@@ -685,7 +686,7 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTk0MjU1NCwtMTAzNDQzODM1NiwtMT
+eyJoaXN0b3J5IjpbMTY4NTM4Nzk4MCwtMTAzNDQzODM1NiwtMT
 AzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5MTU0MjgsMjE0NTk3
 OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MDUxOTIzLDEwMzAxOTgzNz
 YsLTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYsMTAwNjExNTQ5Nywt
