@@ -657,7 +657,7 @@ Uniform[13.6.1 Uniformly Sampling a Hemisphere](http://www.pbr-book.org/3ed-2018
 にサンプリングされるといった違いとなっている  
 
 Hammersleyサンプリング自体はlow discrepancyなサンプリングで、ざっくりいうとHaltonサンプリングの違うバージョン    
-[7.4.1 Hammersley and Halton Sequences](http://www.pbr-book.org/3ed-2018/Sampling_and_Reconstruction/The_Halton_Sampler.html#HammersleyandHaltonSequences)や、[## 20.3 Quasirandom Low-Discrepancy Sequences](https://developer.nvidia.com/gpugems/gpugems3/part-iii-rendering/chapter-20-gpu-based-importance-sampling)参照　　
+[7.4.1 Hammersley and Halton Sequences](http://www.pbr-book.org/3ed-2018/Sampling_and_Reconstruction/The_Halton_Sampler.html#HammersleyandHaltonSequences)や、[## 20.3 Quasirandom Low-Discrepancy Sequences](https://developer.nvidia.com/gpugems/gpugems3/part-iii-rendering/chapter-20-gpu-based-importance-sampling)参照  
 
 
 ### SSAO.h, cpp
@@ -680,7 +680,7 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1OTYyNDU1NywtMTk3NzQ5MzIxNCwtMz
+eyJoaXN0b3J5IjpbMjE0NTk3OTUzOSwtMTk3NzQ5MzIxNCwtMz
 A1MDUxOTIzLDEwMzAxOTgzNzYsLTE3NzAwNTIzMzIsLTE2MTIy
 OTYzMDYsMTAwNjExNTQ5NywtMTAzODE2ODU2NCwtOTA5MzM3MT
 U2LDEwNTI3Mjk0NjAsMTI4ODI4MzAzMiwtMTMwNTM5ODIxMywx
