@@ -636,18 +636,18 @@ out : depth、inputに対しcube.objも描画した後のdepth
 out : target、cube.objによるSkyBoxの描画結果、depth通過した部分だけ描画されている  
 
 ### SkyBox.slang
-cube.objを描画するためのシェーダー  
+cube.objniを描画するためのシェーダー  
 球体を描画しつつ、その球体のローカルポジション = スカイボックスへの方向を、  
 _SPHERICAL_MAPへのuv変換 or TextureCubeをサンプルするための方向と扱うことによって、  
 スカイボックス描画を行っている  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDE5ODM3NiwtMTc3MDA1MjMzMiwtMT
-YxMjI5NjMwNiwxMDA2MTE1NDk3LC0xMDM4MTY4NTY0LC05MDkz
-MzcxNTYsMTA1MjcyOTQ2MCwxMjg4MjgzMDMyLC0xMzA1Mzk4Mj
-EzLDE0NDg2OTE1ODUsLTE5Mzg4NDA5NzAsODI5NTU5NjA0LDEy
-Nzg0NTc0NCwtMTM4MTM3Nzk3OSwtMTI3MjgxMDUzMiwxNzQyNT
-g2MTM5LC03NDAzMzY1MTYsMTkxMTU0MjczMywxNjUzMDI2NDA1
-LDE0NTY3MDk1NTddfQ==
+eyJoaXN0b3J5IjpbLTEyOTU2MjE2MywxMDMwMTk4Mzc2LC0xNz
+cwMDUyMzMyLC0xNjEyMjk2MzA2LDEwMDYxMTU0OTcsLTEwMzgx
+Njg1NjQsLTkwOTMzNzE1NiwxMDUyNzI5NDYwLDEyODgyODMwMz
+IsLTEzMDUzOTgyMTMsMTQ0ODY5MTU4NSwtMTkzODg0MDk3MCw4
+Mjk1NTk2MDQsMTI3ODQ1NzQ0LC0xMzgxMzc3OTc5LC0xMjcyOD
+EwNTMyLDE3NDI1ODYxMzksLTc0MDMzNjUxNiwxOTExNTQyNzMz
+LDE2NTMwMjY0MDVdfQ==
 -->
