@@ -666,7 +666,8 @@ Hammersleyサンプリング自体はlow discrepancyなサンプリングで、�
 SSAOを実行し、AOマップを作るためのシェーダー  
 画像処理なのでピクセルシェーダーのみ  
 
-
+ノイズテクスチャーでピクセルごとのランダム方向を決定し、  
+SampleDistributionの設定により設定され、CPU側で事前に計算されたランダムあｔ
 
 ### SSAOData.slang
 SSAO.ps.slangで使われるAOマップ作製の設定をまとめた構造体  
@@ -680,11 +681,11 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzQ0MzgzNTYsLTEwMzQ0MzgzNTYsMT
-E4MTY0MjU0NSwtODI5OTE1NDI4LDIxNDU5Nzk1MzksLTE5Nzc0
-OTMyMTQsLTMwNTA1MTkyMywxMDMwMTk4Mzc2LC0xNzcwMDUyMz
-MyLC0xNjEyMjk2MzA2LDEwMDYxMTU0OTcsLTEwMzgxNjg1NjQs
-LTkwOTMzNzE1NiwxMDUyNzI5NDYwLDEyODgyODMwMzIsLTEzMD
-UzOTgyMTMsMTQ0ODY5MTU4NSwtMTkzODg0MDk3MCw4Mjk1NTk2
-MDQsMTI3ODQ1NzQ0XX0=
+eyJoaXN0b3J5IjpbMTgwNjUwMDMzMiwtMTAzNDQzODM1NiwtMT
+AzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5MTU0MjgsMjE0NTk3
+OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MDUxOTIzLDEwMzAxOTgzNz
+YsLTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYsMTAwNjExNTQ5Nywt
+MTAzODE2ODU2NCwtOTA5MzM3MTU2LDEwNTI3Mjk0NjAsMTI4OD
+I4MzAzMiwtMTMwNTM5ODIxMywxNDQ4NjkxNTg1LC0xOTM4ODQw
+OTcwLDgyOTU1OTYwNF19
 -->
