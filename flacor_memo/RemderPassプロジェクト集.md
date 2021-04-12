@@ -330,7 +330,7 @@ GBufferのサブクラスで、レイトレでGBufferを作成するパス
 DXRで書かれたGBufferRT.rt.slangを実行し、  
 それによるカメラからのレイトレを行い、  
 ヒット情報からGBufferのkGBufferChannelsと以下のkGBufferExtraChannelsを計算し、  
-それらすべてをRWTexture2Dに格納して出力するパス  
+それらすべてをRWTexture2Dに格納して出力する  
 
     // Additional output channels.
     const ChannelList kGBufferExtraChannels =
@@ -749,11 +749,11 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDI1NTQ1MjUsLTE2MzUyMzc1MDksLT
-IxMzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4MzM0MiwtMTA2MTMx
-OTc5MywxNDk5MzYwMzc4LC0yMDQ0MzM0NDc3LC0xMDM0NDM4Mz
-U2LC0xMDM0NDM4MzU2LDExODE2NDI1NDUsLTgyOTkxNTQyOCwy
-MTQ1OTc5NTM5LC0xOTc3NDkzMjE0LC0zMDUwNTE5MjMsMTAzMD
-E5ODM3NiwtMTc3MDA1MjMzMiwtMTYxMjI5NjMwNiwxMDA2MTE1
-NDk3LC0xMDM4MTY4NTY0XX0=
+eyJoaXN0b3J5IjpbMzc0NzA3MDk5LC0xNjM1MjM3NTA5LC0yMT
+M5MDc3MDY3LDYzNjA2ODQzNSwzOTE1ODMzNDIsLTEwNjEzMTk3
+OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3NywtMTAzNDQzODM1Ni
+wtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5MTU0MjgsMjE0
+NTk3OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MDUxOTIzLDEwMzAxOT
+gzNzYsLTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYsMTAwNjExNTQ5
+NywtMTAzODE2ODU2NF19
 -->
