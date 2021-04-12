@@ -717,7 +717,8 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 1. mpPackLinearZAndNormalによりSVGFPackLinearZAndNormal.ps.slangを実行、  
 2. mpReprojectionによりSVGFReproject.ps.slangを実行、  
 3. mpFilterMomentsによりSVGFFilterMoments.ps.slangを実行、  
-4. 
+4. mFilterIterations回mpAtrousによりVGFAtrous.ps.slangを実行、  
+5. 
 
 
 ### SVGFPackLinearZAndNormal.ps.slang
@@ -738,11 +739,11 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzA4NzE0MzIsNjM2MDY4NDM1LDM5MT
-U4MzM0MiwtMTA2MTMxOTc5MywxNDk5MzYwMzc4LC0yMDQ0MzM0
-NDc3LC0xMDM0NDM4MzU2LC0xMDM0NDM4MzU2LDExODE2NDI1ND
-UsLTgyOTkxNTQyOCwyMTQ1OTc5NTM5LC0xOTc3NDkzMjE0LC0z
-MDUwNTE5MjMsMTAzMDE5ODM3NiwtMTc3MDA1MjMzMiwtMTYxMj
-I5NjMwNiwxMDA2MTE1NDk3LC0xMDM4MTY4NTY0LC05MDkzMzcx
-NTYsMTA1MjcyOTQ2MF19
+eyJoaXN0b3J5IjpbMTI0MDkxNjQ2NSw2MzYwNjg0MzUsMzkxNT
+gzMzQyLC0xMDYxMzE5NzkzLDE0OTkzNjAzNzgsLTIwNDQzMzQ0
+NzcsLTEwMzQ0MzgzNTYsLTEwMzQ0MzgzNTYsMTE4MTY0MjU0NS
+wtODI5OTE1NDI4LDIxNDU5Nzk1MzksLTE5Nzc0OTMyMTQsLTMw
+NTA1MTkyMywxMDMwMTk4Mzc2LC0xNzcwMDUyMzMyLC0xNjEyMj
+k2MzA2LDEwMDYxMTU0OTcsLTEwMzgxNjg1NjQsLTkwOTMzNzE1
+NiwxMDUyNzI5NDYwXX0=
 -->
