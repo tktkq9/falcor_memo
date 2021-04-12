@@ -718,7 +718,7 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 2. mpReprojectionによりSVGFReproject.ps.slangを実行、  
 3. mpFilterMomentsによりSVGFFilterMoments.ps.slangを実行、  
 4. mFilterIterations回mpAtrousによりVGFAtrous.ps.slangを実行、  
-5. 
+5. mpFinalModulateによりSVGFFinalModulate.ps.slangを実行、  
 
 
 ### SVGFPackLinearZAndNormal.ps.slang
@@ -739,7 +739,7 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MDkxNjQ2NSw2MzYwNjg0MzUsMzkxNT
+eyJoaXN0b3J5IjpbMTA5OTQ2NTA5OSw2MzYwNjg0MzUsMzkxNT
 gzMzQyLC0xMDYxMzE5NzkzLDE0OTkzNjAzNzgsLTIwNDQzMzQ0
 NzcsLTEwMzQ0MzgzNTYsLTEwMzQ0MzgzNTYsMTE4MTY0MjU0NS
 wtODI5OTE1NDI4LDIxNDU5Nzk1MzksLTE5Nzc0OTMyMTQsLTMw
