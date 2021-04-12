@@ -712,6 +712,8 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 の実装、レイトレ用  
 レイトレのノイズを減らすフィルターパス  
 
+linearZを使っているので、それを出力しているGBufferRasterがある前提のパス  
+ちなみに、GBufferRTの方はlinearZがないので使えない。GBufferRTはおそらくお試し実装
 ### SVGFPass.h, cpp
 
 1. mpPackLinearZAndNormalによりSVGFPackLinearZAndNormal.ps.slangを実行、  
@@ -749,7 +751,7 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc0NzA3MDk5LC0xNjM1MjM3NTA5LC0yMT
+eyJoaXN0b3J5IjpbNjM5OTI3Mzk5LC0xNjM1MjM3NTA5LC0yMT
 M5MDc3MDY3LDYzNjA2ODQzNSwzOTE1ODMzNDIsLTEwNjEzMTk3
 OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3NywtMTAzNDQzODM1Ni
 wtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5MTU0MjgsMjE0
