@@ -728,6 +728,7 @@ linearZを使っているので、それを出力しているGBufferRasterがあ
 linearZテクスチャーとノーマルテクスチャーを一つのテクスチャーにパックしたものを出力するためのシェーダー  
 出力されたものはSVGFReproject.ps.slangでgLinearZAndNormalとして扱われる  
 
+出力はxyがlinearZ、zwがパックされたノーマルとなっている  
 ちなみにこのlinearZは、GBufferRasterに書いてあるように、xがlinear zで、yはその微分値となっている  
 
 ### SVGFReproject.ps.slang
@@ -752,11 +753,11 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NDczMzQ4NiwtMTYzNTIzNzUwOSwtMj
-EzOTA3NzA2Nyw2MzYwNjg0MzUsMzkxNTgzMzQyLC0xMDYxMzE5
-NzkzLDE0OTkzNjAzNzgsLTIwNDQzMzQ0NzcsLTEwMzQ0MzgzNT
-YsLTEwMzQ0MzgzNTYsMTE4MTY0MjU0NSwtODI5OTE1NDI4LDIx
-NDU5Nzk1MzksLTE5Nzc0OTMyMTQsLTMwNTA1MTkyMywxMDMwMT
-k4Mzc2LC0xNzcwMDUyMzMyLC0xNjEyMjk2MzA2LDEwMDYxMTU0
-OTcsLTEwMzgxNjg1NjRdfQ==
+eyJoaXN0b3J5IjpbLTE4OTgzOTY4ODIsLTE2MzUyMzc1MDksLT
+IxMzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4MzM0MiwtMTA2MTMx
+OTc5MywxNDk5MzYwMzc4LC0yMDQ0MzM0NDc3LC0xMDM0NDM4Mz
+U2LC0xMDM0NDM4MzU2LDExODE2NDI1NDUsLTgyOTkxNTQyOCwy
+MTQ1OTc5NTM5LC0xOTc3NDkzMjE0LC0zMDUwNTE5MjMsMTAzMD
+E5ODM3NiwtMTc3MDA1MjMzMiwtMTYxMjI5NjMwNiwxMDA2MTE1
+NDk3LC0xMDM4MTY4NTY0XX0=
 -->
