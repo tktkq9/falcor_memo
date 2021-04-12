@@ -717,11 +717,12 @@ linearZを使っているので、それを出力しているGBufferRasterがあ
 
 ### SVGFPass.h, cpp
 
-1. mpPackLinearZAndNormalによりSVGFPackLinearZAndNormal.ps.slangを実行、  
-2. mpReprojectionによりSVGFReproject.ps.slangを実行、  
-3. mpFilterMomentsによりSVGFFilterMoments.ps.slangを実行、  
-4. mFilterIterations回mpAtrousによりVGFAtrous.ps.slangを実行、  
-5. mpFinalModulateによりSVGFFinalModulate.ps.slangを実行、  
+1. mpPackLinearZAndNormalによりSVGFPackLinearZAndNormal.ps.slangを実行し、  
+gLinearZAndNormalを作成してSVGFReproject.ps.slangに渡す  
+3. mpReprojectionによりSVGFReproject.ps.slangを実行し、  
+4. mpFilterMomentsによりSVGFFilterMoments.ps.slangを実行、  
+5. mFilterIterations回mpAtrousによりVGFAtrous.ps.slangを実行、  
+6. mpFinalModulateによりSVGFFinalModulate.ps.slangを実行、  
 
 
 ### SVGFPackLinearZAndNormal.ps.slang
@@ -755,11 +756,11 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDk1OTkyNiwtMTYzNTIzNzUwOSwtMj
-EzOTA3NzA2Nyw2MzYwNjg0MzUsMzkxNTgzMzQyLC0xMDYxMzE5
-NzkzLDE0OTkzNjAzNzgsLTIwNDQzMzQ0NzcsLTEwMzQ0MzgzNT
-YsLTEwMzQ0MzgzNTYsMTE4MTY0MjU0NSwtODI5OTE1NDI4LDIx
-NDU5Nzk1MzksLTE5Nzc0OTMyMTQsLTMwNTA1MTkyMywxMDMwMT
-k4Mzc2LC0xNzcwMDUyMzMyLC0xNjEyMjk2MzA2LDEwMDYxMTU0
-OTcsLTEwMzgxNjg1NjRdfQ==
+eyJoaXN0b3J5IjpbLTQ1MjYwODcwLC0xNjM1MjM3NTA5LC0yMT
+M5MDc3MDY3LDYzNjA2ODQzNSwzOTE1ODMzNDIsLTEwNjEzMTk3
+OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3NywtMTAzNDQzODM1Ni
+wtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5MTU0MjgsMjE0
+NTk3OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MDUxOTIzLDEwMzAxOT
+gzNzYsLTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYsMTAwNjExNTQ5
+NywtMTAzODE2ODU2NF19
 -->
