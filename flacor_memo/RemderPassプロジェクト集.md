@@ -722,7 +722,8 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 ### SVGFPackLinearZAndNormal.ps.slang
-linearZ
+linearZテクスチャーとノーマルテクスチャーを一つのテクスチャーにパックするためのシェーダー  
+
 ### SVGFReproject.ps.slang
 
 ### SVGFFilterMoments.ps.slang
@@ -745,7 +746,7 @@ linearZ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDIyMDM5MCwtMTYzNTIzNzUwOSwtMj
+eyJoaXN0b3J5IjpbMjAyNTkzMTAzNywtMTYzNTIzNzUwOSwtMj
 EzOTA3NzA2Nyw2MzYwNjg0MzUsMzkxNTgzMzQyLC0xMDYxMzE5
 NzkzLDE0OTkzNjAzNzgsLTIwNDQzMzQ0NzcsLTEwMzQ0MzgzNT
 YsLTEwMzQ0MzgzNTYsMTE4MTY0MjU0NSwtODI5OTE1NDI4LDIx
