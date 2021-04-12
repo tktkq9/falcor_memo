@@ -677,6 +677,7 @@ SampleDistributionの方ではAOサンプル回数分だけSampleDistributionに
 1. 内部でAOを作るパスの実行  
 2. mApplyBlurがオンなら作ったAOマップに対しGaussianBlurクラスによるブラー処理適用  
 3. AOマップを合成するパスを実行し、AOマップをcolorInに乗算したものをcolorOutに出力  
+4. 
 となっている  
 
 in : colorIn、ApplyAO.ps.slangでAOマップを適用する対象  
@@ -734,11 +735,11 @@ SVGFPackLinearZAndNormal.ps.slangを実行し、
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxNzkxMDk3LDM5MTU4MzM0MiwtMTA2MT
-MxOTc5MywxNDk5MzYwMzc4LC0yMDQ0MzM0NDc3LC0xMDM0NDM4
-MzU2LC0xMDM0NDM4MzU2LDExODE2NDI1NDUsLTgyOTkxNTQyOC
-wyMTQ1OTc5NTM5LC0xOTc3NDkzMjE0LC0zMDUwNTE5MjMsMTAz
-MDE5ODM3NiwtMTc3MDA1MjMzMiwtMTYxMjI5NjMwNiwxMDA2MT
-E1NDk3LC0xMDM4MTY4NTY0LC05MDkzMzcxNTYsMTA1MjcyOTQ2
-MCwxMjg4MjgzMDMyXX0=
+eyJoaXN0b3J5IjpbMTUzOTEyMjI4MywzOTE1ODMzNDIsLTEwNj
+EzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3NywtMTAzNDQz
+ODM1NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5MTU0Mj
+gsMjE0NTk3OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MDUxOTIzLDEw
+MzAxOTgzNzYsLTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYsMTAwNj
+ExNTQ5NywtMTAzODE2ODU2NCwtOTA5MzM3MTU2LDEwNTI3Mjk0
+NjAsMTI4ODI4MzAzMl19
 -->
