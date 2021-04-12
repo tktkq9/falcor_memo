@@ -731,7 +731,7 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 出力はxyがlinearZ、zwがパックされたノーマルとなっている  
 ちなみにこのlinearZは、GBufferRasterに書いてあるように、xがlinear zで、yはその微分値となっている  
 
-このおうに、このシェーダーは直接アルゴリズムと関係ある処理ではなく、テクスチャー減らしようシェーダー  
+このおうに、このシェーダーは直接アルゴリズムと関係ある処理ではなく、テクスチャー減らしのための最適化用シェーダー  
 
 ### SVGFReproject.ps.slang
 
@@ -755,11 +755,11 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyMzExMjY5LC0xNjM1MjM3NTA5LC0yMT
-M5MDc3MDY3LDYzNjA2ODQzNSwzOTE1ODMzNDIsLTEwNjEzMTk3
-OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3NywtMTAzNDQzODM1Ni
-wtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5MTU0MjgsMjE0
-NTk3OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MDUxOTIzLDEwMzAxOT
-gzNzYsLTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYsMTAwNjExNTQ5
-NywtMTAzODE2ODU2NF19
+eyJoaXN0b3J5IjpbLTgyNDk1OTkyNiwtMTYzNTIzNzUwOSwtMj
+EzOTA3NzA2Nyw2MzYwNjg0MzUsMzkxNTgzMzQyLC0xMDYxMzE5
+NzkzLDE0OTkzNjAzNzgsLTIwNDQzMzQ0NzcsLTEwMzQ0MzgzNT
+YsLTEwMzQ0MzgzNTYsMTE4MTY0MjU0NSwtODI5OTE1NDI4LDIx
+NDU5Nzk1MzksLTE5Nzc0OTMyMTQsLTMwNTA1MTkyMywxMDMwMT
+k4Mzc2LC0xNzcwMDUyMzMyLC0xNjEyMjk2MzA2LDEwMDYxMTU0
+OTcsLTEwMzgxNjg1NjRdfQ==
 -->
