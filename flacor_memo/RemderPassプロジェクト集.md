@@ -722,12 +722,13 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 ### SVGFPackLinearZAndNormal.ps.slang
-### SVGFAtrous.ps.slang
-### SVGFCommon.slang
+### SVGFReproject.ps.slang
 ### SVGFFilterMoments.ps.slang
+### SVGFAtrous.ps.slang
+
 ### SVGFFinalModulate.ps.slang
 
-### SVGFReproject.ps.slang
+### SVGFCommon.slang
 
 ### その他
 ちなみに発展形として時間変化も考慮したA-SVGF[https://shikihuiku.wordpress.com/2019/06/27/%E3%83%A1%E3%83%A2a-svgf%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/]があるがこちらは未実装（？）  
@@ -739,7 +740,7 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTQ2NTA5OSw2MzYwNjg0MzUsMzkxNT
+eyJoaXN0b3J5IjpbMTE1MzczNzgzNSw2MzYwNjg0MzUsMzkxNT
 gzMzQyLC0xMDYxMzE5NzkzLDE0OTkzNjAzNzgsLTIwNDQzMzQ0
 NzcsLTEwMzQ0MzgzNTYsLTEwMzQ0MzgzNTYsMTE4MTY0MjU0NS
 wtODI5OTE1NDI4LDIxNDU5Nzk1MzksLTE5Nzc0OTMyMTQsLTMw
