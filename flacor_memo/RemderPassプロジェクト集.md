@@ -722,7 +722,10 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 
 ### SVGFPackLinearZAndNormal.ps.slang
-linearZテクスチャーとノーマルテクスチャーを一つのテクスチャーにパックするためのシェーダー  
+linearZテクスチャーとノーマルテクスチャーを一つのテクスチャーにパックしたものを出力するためのシェーダー  
+出力されたものはSVGFReproject.ps.slangでgLinearZAndNormalとして扱われる  
+
+ちなみにこのlinearZは
 
 ### SVGFReproject.ps.slang
 
@@ -746,11 +749,11 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTkzMTAzNywtMTYzNTIzNzUwOSwtMj
-EzOTA3NzA2Nyw2MzYwNjg0MzUsMzkxNTgzMzQyLC0xMDYxMzE5
-NzkzLDE0OTkzNjAzNzgsLTIwNDQzMzQ0NzcsLTEwMzQ0MzgzNT
-YsLTEwMzQ0MzgzNTYsMTE4MTY0MjU0NSwtODI5OTE1NDI4LDIx
-NDU5Nzk1MzksLTE5Nzc0OTMyMTQsLTMwNTA1MTkyMywxMDMwMT
-k4Mzc2LC0xNzcwMDUyMzMyLC0xNjEyMjk2MzA2LDEwMDYxMTU0
-OTcsLTEwMzgxNjg1NjRdfQ==
+eyJoaXN0b3J5IjpbLTM1NjkxOTg3LC0xNjM1MjM3NTA5LC0yMT
+M5MDc3MDY3LDYzNjA2ODQzNSwzOTE1ODMzNDIsLTEwNjEzMTk3
+OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3NywtMTAzNDQzODM1Ni
+wtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5MTU0MjgsMjE0
+NTk3OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MDUxOTIzLDEwMzAxOT
+gzNzYsLTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYsMTAwNjExNTQ5
+NywtMTAzODE2ODU2NF19
 -->
