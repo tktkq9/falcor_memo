@@ -714,7 +714,8 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 
 ### SVGFPass.h, cpp
 
-SVGFPackLinearZAndNormal.ps.slangを実行し、  
+1. SVGFPackLinearZAndNormal.ps.slangを実行し、  
+2. 
 
 
 ### SVGFPackLinearZAndNormal.ps.slang
@@ -735,7 +736,7 @@ SVGFPackLinearZAndNormal.ps.slangを実行し、
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NjU5Mjg3MSwzOTE1ODMzNDIsLTEwNj
+eyJoaXN0b3J5IjpbMTIxNDI4NzU1NiwzOTE1ODMzNDIsLTEwNj
 EzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3NywtMTAzNDQz
 ODM1NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5MTU0Mj
 gsMjE0NTk3OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MDUxOTIzLDEw
