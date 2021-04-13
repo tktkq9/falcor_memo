@@ -741,8 +741,8 @@ illuminationを抽出し、以前フレームでの情報をもとにilluminatio
 まずilluminationは (gColor - gEmission) / max(gAlbedo) によって抽出される  
 TODO : この計算の根拠調査、素材の色 * そこにあたる光の強さが描画結果になると思われるのでmaxの部分以外は感覚でわかる感じもなくはない  
 
-次にgMotionをもとに、現在のピクセルに対応する以前のピクセルが同じ場所かを
-gPrevIllum、gPrevMoments、gPrevLinearZAndNormal、gPrevHistoryLengthのピクセル
+次にgMotionをもとに、現在のピクセルに対応する以前のピクセルが同じ場所かをgPrevLinearZAndNormalによるdepthとnormalから判定し、  
+変化がない場合はgPrevIllum、gPrevMoments、gPrevLinearZAndNormal、gPrevHistoryLengthのピクセル
 それが現在の
 
 
@@ -779,11 +779,11 @@ SVGFReproject.ps.slangから得られた出力をもとに式（3）w_z、式（
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDcwOTUxMDIsODQzMDA4NzEyLDM4Mz
-g1MTMsMjcwOTcwMjQ3LC00NTI2MDg3MCwtMTYzNTIzNzUwOSwt
-MjEzOTA3NzA2Nyw2MzYwNjg0MzUsMzkxNTgzMzQyLC0xMDYxMz
-E5NzkzLDE0OTkzNjAzNzgsLTIwNDQzMzQ0NzcsLTEwMzQ0Mzgz
-NTYsLTEwMzQ0MzgzNTYsMTE4MTY0MjU0NSwtODI5OTE1NDI4LD
-IxNDU5Nzk1MzksLTE5Nzc0OTMyMTQsLTMwNTA1MTkyMywxMDMw
-MTk4Mzc2XX0=
+eyJoaXN0b3J5IjpbMzE5MDU3OTQ1LDg0MzAwODcxMiwzODM4NT
+EzLDI3MDk3MDI0NywtNDUyNjA4NzAsLTE2MzUyMzc1MDksLTIx
+MzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4MzM0MiwtMTA2MTMxOT
+c5MywxNDk5MzYwMzc4LC0yMDQ0MzM0NDc3LC0xMDM0NDM4MzU2
+LC0xMDM0NDM4MzU2LDExODE2NDI1NDUsLTgyOTkxNTQyOCwyMT
+Q1OTc5NTM5LC0xOTc3NDkzMjE0LC0zMDUwNTE5MjMsMTAzMDE5
+ODM3Nl19
 -->
