@@ -719,8 +719,9 @@ linearZを使っているので、それを出力しているGBufferRasterがあ
 
 1. mpPackLinearZAndNormalによりSVGFPackLinearZAndNormal.ps.slangを実行し、  
 gLinearZAndNormalを作成してSVGFReproject.ps.slangに渡す  
-3. mpReprojectionによりSVGFReproject.ps.slangを実行し、  
-4. mpFilterMomentsによりSVGFFilterMoments.ps.slangを実行、  
+2. mpReprojectionによりSVGFReproject.ps.slangを実行し、  
+3. mpFilterMomentsによりSVGFFilterMoments.ps.slangを実行し、  
+蓄積フレームが少ないところは4.2 Variance estimationの後半に書いてある  
 5. mFilterIterations回mpAtrousによりVGFAtrous.ps.slangを実行、  
 6. mpFinalModulateによりSVGFFinalModulate.ps.slangを実行、  
 
@@ -768,11 +769,11 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTg3MDQxOTgsLTQ1MjYwODcwLC0xNj
-M1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQzNSwzOTE1ODMz
-NDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3Ny
-wtMTAzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04
-Mjk5MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MD
-UxOTIzLDEwMzAxOTgzNzYsLTE3NzAwNTIzMzIsLTE2MTIyOTYz
-MDYsMTAwNjExNTQ5N119
+eyJoaXN0b3J5IjpbMTgyODE4NTM1MSwtNDUyNjA4NzAsLTE2Mz
+UyMzc1MDksLTIxMzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4MzM0
+MiwtMTA2MTMxOTc5MywxNDk5MzYwMzc4LC0yMDQ0MzM0NDc3LC
+0xMDM0NDM4MzU2LC0xMDM0NDM4MzU2LDExODE2NDI1NDUsLTgy
+OTkxNTQyOCwyMTQ1OTc5NTM5LC0xOTc3NDkzMjE0LC0zMDUwNT
+E5MjMsMTAzMDE5ODM3NiwtMTc3MDA1MjMzMiwtMTYxMjI5NjMw
+NiwxMDA2MTE1NDk3XX0=
 -->
