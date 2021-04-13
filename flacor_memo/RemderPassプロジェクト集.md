@@ -742,13 +742,13 @@ illuminationを抽出し、以前フレームでの情報をもとにilluminatio
 まずilluminationは (gColor - gEmission) / max(gAlbedo) によって抽出される  
 TODO : この計算の根拠調査、素材の色 * そこにあたる光の強さが描画結果になると思われるのでmaxの部分以外は感覚でわかる感じもなくはない  
 
-次にgMotionをもとに、現在のピクセルに対応する以前のピクセルが同じ場所かをgPrevLinearZAndNormalによるdepthとnormalから判定し、  
+次にgMotionをもとに、現在のピクセルに対応する以前のピクセルが同じ場所かをgPrevLinearZAndNormalによるdepthとnormalからisReprjValid()関数で判定し、  
 変化がない場合はgPrevIllum、gPrevMoments、gPrevHistoryLengthのピクセル
 それが現在の
 
 また、4.1 Temporal filteringの最後の段落に書いてあるように、  
-中心点を2*2 tap bilinearによるサンプリングを行い、  
-もし
+中心点から半ピクセルずらした2*2 tap bilinearによるサンプリングを試み、  
+もし現在のピクセルとピクセルが無い場合は
 
 ### SVGFFilterMoments.ps.slang
 4.2 Variance estimationの後半に書いてある、蓄積フレームが4未満の場合にluminanceとそのvarianceに7×7 bilateral filterをするためのシェーダー  
@@ -783,11 +783,11 @@ SVGFReproject.ps.slangから得られた出力をもとに式（3）w_z、式（
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MzA3NTc1LDEwMjExNjA1MDYsODQzMD
-A4NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3LC00NTI2MDg3MCwtMTYz
-NTIzNzUwOSwtMjEzOTA3NzA2Nyw2MzYwNjg0MzUsMzkxNTgzMz
-QyLC0xMDYxMzE5NzkzLDE0OTkzNjAzNzgsLTIwNDQzMzQ0Nzcs
-LTEwMzQ0MzgzNTYsLTEwMzQ0MzgzNTYsMTE4MTY0MjU0NSwtOD
-I5OTE1NDI4LDIxNDU5Nzk1MzksLTE5Nzc0OTMyMTQsLTMwNTA1
-MTkyM119
+eyJoaXN0b3J5IjpbLTEzMjQwODgzMzksMTAyMTE2MDUwNiw4ND
+MwMDg3MTIsMzgzODUxMywyNzA5NzAyNDcsLTQ1MjYwODcwLC0x
+NjM1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQzNSwzOTE1OD
+MzNDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3
+NywtMTAzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC
+04Mjk5MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5MzIxNCwtMzA1
+MDUxOTIzXX0=
 -->
