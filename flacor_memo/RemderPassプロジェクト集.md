@@ -711,6 +711,7 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 [Spatiotemporal Variance-Guided Filtering: Real-Time Reconstruction for Path-Traced Global Illumination](https://research.nvidia.com/publication/2017-07_Spatiotemporal-Variance-Guided-Filtering%3A)  
 の実装、レイトレ用  
 レイトレのノイズを減らすフィルターパス  
+カラーからilluminationを抽出し、
 
 linearZを使っているので、それを出力しているGBufferRasterがある前提のパス  
 ちなみに、GBufferRTの方はlinearZがないので使えない。このことから多分GBufferRTは実用ではなくお試し実装しただけのやつっぽい  
@@ -737,7 +738,7 @@ SVGFReproject.ps.slangのillumination計算の逆変換を行いgColorを出力�
 
 in : Albedo   
 in : Color   
-in : Emission   
+in : Emission、  
 in : WorldPosition、実は使われてないのでいらない  
 in : WorldNormal、w_nの計算や、前フレームと同じ状態かの判定に使用される  
 in : PositionNormalFwidth、前フレームと同じ状態かのnormal判定で使用される（これで割ってノーマルの差異をスケールする）  
@@ -828,7 +829,7 @@ gHistoryLengthは使われてないし、gAlbedoもサイズ取得のみでし�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjM3MjAxMjEsLTkxODIwMjc3MCwtMT
+eyJoaXN0b3J5IjpbLTE0MzUwMDg0NDAsLTkxODIwMjc3MCwtMT
 gyMzMyMTY3MSwyMDMyMjU3NjYwLDEwMjExNjA1MDYsODQzMDA4
 NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3LC00NTI2MDg3MCwtMTYzNT
 IzNzUwOSwtMjEzOTA3NzA2Nyw2MzYwNjg0MzUsMzkxNTgzMzQy
