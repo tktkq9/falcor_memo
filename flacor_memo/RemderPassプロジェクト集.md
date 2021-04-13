@@ -774,7 +774,7 @@ SVGFReproject.ps.slangから得られた出力をもとに式（3）w_z、式（
 
 ### SVGFAtrous.ps.slang
 gIlluminationに対するエッジ検出フィルター処理  
-4.4 Edge-stopping functionsによる重み計算によって、4.3 Edge-avoiding a-trous wavelet transformによるIllumination計算を行うためのシェーダー    
+つまり、4.4 Edge-stopping functionsによる重み計算によって、4.3 Edge-avoiding a-trous wavelet transformによるIllumination計算を行うためのシェーダー    
 これ自体はa-trous wavelet transform1回分の処理となっており、gStepSizeを変えつつ複数回このシェーダーを実行することによってイテレーションを回す  
 
 computeVarianceCenter
@@ -800,7 +800,7 @@ computeVarianceCenter
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MjQyNjQxMSwxMDIxMTYwNTA2LDg0Mz
+eyJoaXN0b3J5IjpbMjAzMjI1NzY2MCwxMDIxMTYwNTA2LDg0Mz
 AwODcxMiwzODM4NTEzLDI3MDk3MDI0NywtNDUyNjA4NzAsLTE2
 MzUyMzc1MDksLTIxMzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4Mz
 M0MiwtMTA2MTMxOTc5MywxNDk5MzYwMzc4LC0yMDQ0MzM0NDc3
