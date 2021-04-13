@@ -718,6 +718,7 @@ linearZを使っているので、それを出力しているGBufferRasterがあ
 ### SVGFPass.h, cpp
 SVGF用のテクスチャー作成やシェーダーのためのFullScreenPass作成と実行、前フレームのテクスチャーへの割り当てと管理を行う  
 
+以下に、複数のシェーダー実行の流れをまとめる  
 1. mpPackLinearZAndNormalによりSVGFPackLinearZAndNormal.ps.slangを実行し、  
 gLinearZAndNormalを作成してSVGFReproject.ps.slangに渡す  
 2. mpReprojectionによりSVGFReproject.ps.slangを実行し、gColorとgEmissionとgAlbedoからilluminationとそのvarianceを計算、  
@@ -734,7 +735,12 @@ gMotionとgLinearZAndNormalと前フレームのgLinearZAndNormalで以前と現
 SVGFReproject.ps.slangのillumination計算の逆変換を行いgColorを出力、pOutputTextureにそれをコピー  
 あと、pPrevLinearZAndNormalTextureとmpPrevReprojFbo（gPrevMomentsとgPrevHistoryLength）を更新  
 
+in :   
+
+#### その他
 mVarainceEpsilonは使われてないっぽい  
+
+σ_zがないのは論文奨励値の1で固定されているから  
 
 ### SVGFPackLinearZAndNormal.ps.slang
 linearZテクスチャーとノーマルテクスチャーを一つのテクスチャーにパックしたものを出力するためのシェーダー  
@@ -811,7 +817,7 @@ gHistoryLengthは使われてないし、gAlbedoもサイズ取得のみでし�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODgxNTI4LC05MTgyMDI3NzAsLTE4Mj
+eyJoaXN0b3J5IjpbMTQzNDA4NDM0LC05MTgyMDI3NzAsLTE4Mj
 MzMjE2NzEsMjAzMjI1NzY2MCwxMDIxMTYwNTA2LDg0MzAwODcx
 MiwzODM4NTEzLDI3MDk3MDI0NywtNDUyNjA4NzAsLTE2MzUyMz
 c1MDksLTIxMzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4MzM0Miwt
