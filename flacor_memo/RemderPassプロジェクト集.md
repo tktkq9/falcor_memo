@@ -740,8 +740,8 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 ### SVGFFilterMoments.ps.slang
 4.2 Variance estimationの後半に書いてある、7×7 bilateral filterによるluminanceとそのvarianceの計算用シェーダー  
   
-テンポラルな蓄積が4フレーム未満の場合は、luminanceとそのvarianceは蓄積したものではなく、  
-現在のSVGFReproject.ps.slangから得られた出力をもとに式（3）w_z、式（4）w_n、式（5）w_l（ただし、w_lの分母はσ_lのみとなっている）による重みを計算し、  
+テンポラルな蓄積が4フレーム未満の場合は、luminanceとそのvarianceは蓄積したものだけではなく、  
+SVGFReproject.ps.slangから得られた出力をもとに式（3）w_z、式（4）w_n、式（5）w_l（ただし、w_lの分母はσ_lのみとなっている）による重みを計算し、  
 その重みと現在のluminance（moment）で7×7サンプリングし、新しいluminance（variance）を計算して返す  
 また、varianceの方は 4 / 蓄積frame数 の補正をかける  
 
@@ -770,7 +770,7 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MzYyNzAxMywyNzA5NzAyNDcsLTQ1Mj
+eyJoaXN0b3J5IjpbMTc0Nzc5OTA4MCwyNzA5NzAyNDcsLTQ1Mj
 YwODcwLC0xNjM1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQz
 NSwzOTE1ODMzNDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMj
 A0NDMzNDQ3NywtMTAzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgx
