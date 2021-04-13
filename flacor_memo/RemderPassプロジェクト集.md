@@ -736,7 +736,11 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 このように、このシェーダーは直接アルゴリズムと関係ある処理ではなく、テクスチャー減らしのための最適化用シェーダー  
 
 ### SVGFReproject.ps.slang
-illuminationを抽出し、以前フレームでの情報をもとにillumination（とmomentと蓄積カウント）のちくせきしょｒ
+illuminationを抽出し、以前フレームでの情報をもとにillumination（とmomentと蓄積カウント）の蓄積処理をするシェーダー  
+
+まずilluminationは (gColor - gEmission) / max(gAlbedo) によって抽出される  
+TODO : このけいさｎ
+
 以前の
 
 
@@ -773,7 +777,7 @@ SVGFReproject.ps.slangから得られた出力をもとに式（3）w_z、式（
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NzI1MTQyMywzODM4NTEzLDI3MDk3MD
+eyJoaXN0b3J5IjpbMTIyNjQ0MTIzMiwzODM4NTEzLDI3MDk3MD
 I0NywtNDUyNjA4NzAsLTE2MzUyMzc1MDksLTIxMzkwNzcwNjcs
 NjM2MDY4NDM1LDM5MTU4MzM0MiwtMTA2MTMxOTc5MywxNDk5Mz
 YwMzc4LC0yMDQ0MzM0NDc3LC0xMDM0NDM4MzU2LC0xMDM0NDM4
