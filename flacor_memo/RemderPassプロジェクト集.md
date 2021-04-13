@@ -749,7 +749,7 @@ illuminationを抽出し、以前フレームでの情報をもとにilluminatio
 4.1 Temporal filteringの部分、ただし論文に書いてあるmesh IDによる判定は行っていない  
 
 まずilluminationは (gColor - gEmission) / max(gAlbedo) によって抽出される  
-TODO : この計算の根拠調査、素材の色 * そこにあたる光の強さが描画結果になると思われるのでmaxの部分以外は感覚でわかる感じもなくはない  
+TODO : この計算の根拠調査、素材の色 * そこにあたる光の強さが描画結果になると思われるので多分そんな感じ  
 
 次にgMotionをもとに、現在のピクセルに対応する以前のピクセルが同じ場所かをgPrevLinearZAndNormalによるdepthとnormalからisReprjValid()関数で判定し、  
 変化がない場合はgPrevIllum、gPrevMoments、gPrevHistoryLengthのピクセルにより以前のデータの読み込みを試みる  
@@ -810,7 +810,7 @@ gHistoryLengthは使われてないし、gAlbedoもサイズ取得のみでし�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDgyMjY1ODYsMjAzMjI1NzY2MCwxMD
+eyJoaXN0b3J5IjpbLTE4MjMzMjE2NzEsMjAzMjI1NzY2MCwxMD
 IxMTYwNTA2LDg0MzAwODcxMiwzODM4NTEzLDI3MDk3MDI0Nywt
 NDUyNjA4NzAsLTE2MzUyMzc1MDksLTIxMzkwNzcwNjcsNjM2MD
 Y4NDM1LDM5MTU4MzM0MiwtMTA2MTMxOTc5MywxNDk5MzYwMzc4
