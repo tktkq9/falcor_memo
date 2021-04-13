@@ -719,7 +719,7 @@ linearZを使っているので、それを出力しているGBufferRasterがあ
 
 1. mpPackLinearZAndNormalによりSVGFPackLinearZAndNormal.ps.slangを実行し、  
 gLinearZAndNormalを作成してSVGFReproject.ps.slangに渡す  
-2. mpReprojectionによりSVGFReproject.ps.slangを実行し、illuminationとそのvarianceを計算、  
+2. mpReprojectionによりSVGFReproject.ps.slangを実行し、gColorとgEmissionとgAlbedoからilluminationとそのvarianceを計算、  
 gMotionとgLinearZAndNormalと前フレームのgLinearZAndNormalで以前と現在のピクセルが同じか判定し、  
 テンポラル蓄積された（同じじゃなかったら蓄積無しの現在の）gIllumination（a値がvariance）とgHistoryLengthとgMoments（illuminationのmoment、SVGFFilterMoments.ps.slang用）を出力  
 3. mpFilterMomentsによりSVGFFilterMoments.ps.slangを実行し、  
@@ -730,7 +730,7 @@ gMotionとgLinearZAndNormalと前フレームのgLinearZAndNormalで以前と現
 論文では5回やっているが、こちらのデフォルト値は4回となっている  
 論文に書いてあるように、イテレーション1回目の出力をgPrevIllumに割り当てている  
 5. mpFinalModulateによりSVGFFinalModulate.ps.slangを実行、  
-SVGFReproject.ps.slangのillumination計算の逆変換を行い、  
+SVGFReproject.ps.slangのillumination計算の逆変換を行い、pOutputTexture  
 
 
 mVarainceEpsilonは使われてない  
@@ -810,11 +810,11 @@ gHistoryLengthは使われてないし、gAlbedoもサイズ取得のみでし�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMjMzNjUyLDIwMzIyNTc2NjAsMTAyMT
-E2MDUwNiw4NDMwMDg3MTIsMzgzODUxMywyNzA5NzAyNDcsLTQ1
-MjYwODcwLC0xNjM1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNjA2OD
-QzNSwzOTE1ODMzNDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwt
-MjA0NDMzNDQ3NywtMTAzNDQzODM1NiwtMTAzNDQzODM1NiwxMT
-gxNjQyNTQ1LC04Mjk5MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5
-MzIxNF19
+eyJoaXN0b3J5IjpbLTEzNDgyMjY1ODYsMjAzMjI1NzY2MCwxMD
+IxMTYwNTA2LDg0MzAwODcxMiwzODM4NTEzLDI3MDk3MDI0Nywt
+NDUyNjA4NzAsLTE2MzUyMzc1MDksLTIxMzkwNzcwNjcsNjM2MD
+Y4NDM1LDM5MTU4MzM0MiwtMTA2MTMxOTc5MywxNDk5MzYwMzc4
+LC0yMDQ0MzM0NDc3LC0xMDM0NDM4MzU2LC0xMDM0NDM4MzU2LD
+ExODE2NDI1NDUsLTgyOTkxNTQyOCwyMTQ1OTc5NTM5LC0xOTc3
+NDkzMjE0XX0=
 -->
