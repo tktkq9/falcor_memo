@@ -740,8 +740,8 @@ in : Color
 in : Emission   
 in : WorldPosition   
 in : WorldNormal  
-in : PositionNormalFwidth  
-in : LinearZ、linear depthとその微分値、
+in : PositionNormalFwidth、前フレームと同じ状態かのnormal判定で使用される（これで割ってスケールする）  
+in : LinearZ、linear depthとその微分値、w_zの計算や、前フレームと同じ状態かの判定に使用される  
 in : MotionVec、前フレームのピクセル値を得るため用  
 internal : Previous Linear Z and Packed Normal、前フレームのLinearZとWorldNormalをパックしたもの  
 internal : Previous Lighting、使われていない、なにこれ  
@@ -828,11 +828,11 @@ gHistoryLengthは使われてないし、gAlbedoもサイズ取得のみでし�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwNDY1ODc5LC05MTgyMDI3NzAsLTE4Mj
-MzMjE2NzEsMjAzMjI1NzY2MCwxMDIxMTYwNTA2LDg0MzAwODcx
-MiwzODM4NTEzLDI3MDk3MDI0NywtNDUyNjA4NzAsLTE2MzUyMz
-c1MDksLTIxMzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4MzM0Miwt
-MTA2MTMxOTc5MywxNDk5MzYwMzc4LC0yMDQ0MzM0NDc3LC0xMD
-M0NDM4MzU2LC0xMDM0NDM4MzU2LDExODE2NDI1NDUsLTgyOTkx
-NTQyOF19
+eyJoaXN0b3J5IjpbMTk3MjgxNjk5OCwtOTE4MjAyNzcwLC0xOD
+IzMzIxNjcxLDIwMzIyNTc2NjAsMTAyMTE2MDUwNiw4NDMwMDg3
+MTIsMzgzODUxMywyNzA5NzAyNDcsLTQ1MjYwODcwLC0xNjM1Mj
+M3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQzNSwzOTE1ODMzNDIs
+LTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3NywtMT
+AzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5
+MTU0MjhdfQ==
 -->
