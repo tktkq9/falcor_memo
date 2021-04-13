@@ -741,9 +741,9 @@ in : Emission
 in : WorldPosition   
 in : WorldNormal  
 in : PositionNormalFwidth  
-in : LinearZ
-in : MotionVec
-internal : Previous Linear Z and Packed Normal、
+in : LinearZ、linear depthとその微分値、
+in : MotionVec、前フレームのピクセル値を得るため用  
+internal : Previous Linear Z and Packed Normal、前フレームのLinearZとWorldNormalをパックしたもの  
 internal : Previous Lighting、使われていない、なにこれ  
 internal : Previous Moments、SVGFFilterMoments.ps.slangで使う蓄積フレームが足りてないときのvariance計算に使われるもの  
 out : Filtered image、フィルターかけた後のColor  
@@ -828,7 +828,7 @@ gHistoryLengthは使われてないし、gAlbedoもサイズ取得のみでし�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMzI2NTExLC05MTgyMDI3NzAsLTE4Mj
+eyJoaXN0b3J5IjpbNTEwNDY1ODc5LC05MTgyMDI3NzAsLTE4Mj
 MzMjE2NzEsMjAzMjI1NzY2MCwxMDIxMTYwNTA2LDg0MzAwODcx
 MiwzODM4NTEzLDI3MDk3MDI0NywtNDUyNjA4NzAsLTE2MzUyMz
 c1MDksLTIxMzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4MzM0Miwt
