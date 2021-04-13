@@ -716,7 +716,7 @@ linearZを使っているので、それを出力しているGBufferRasterがあ
 ちなみに、GBufferRTの方はlinearZがないので使えない。このことから多分GBufferRTは実用ではなくお試し実装しただけのやつっぽい  
 
 ### SVGFPass.h, cpp
-SVGF用のテクスチャー作成やシェーダーの
+SVGF用のテクスチャー作成やシェーダーのためのFullScreenPass作成と実行、前フレームのテクスチャーへの割り当てと管理を行う  
 
 1. mpPackLinearZAndNormalによりSVGFPackLinearZAndNormal.ps.slangを実行し、  
 gLinearZAndNormalを作成してSVGFReproject.ps.slangに渡す  
@@ -811,7 +811,7 @@ gHistoryLengthは使われてないし、gAlbedoもサイズ取得のみでし�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk5MDc1MDU4LC05MTgyMDI3NzAsLTE4Mj
+eyJoaXN0b3J5IjpbLTcwODgxNTI4LC05MTgyMDI3NzAsLTE4Mj
 MzMjE2NzEsMjAzMjI1NzY2MCwxMDIxMTYwNTA2LDg0MzAwODcx
 MiwzODM4NTEzLDI3MDk3MDI0NywtNDUyNjA4NzAsLTE2MzUyMz
 c1MDksLTIxMzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4MzM0Miwt
