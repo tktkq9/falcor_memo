@@ -739,7 +739,7 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 illuminationを抽出し、以前フレームでの情報をもとにillumination（とmomentと蓄積カウント）の蓄積処理をするシェーダー  
 
 まずilluminationは (gColor - gEmission) / max(gAlbedo) によって抽出される  
-TODO : このけいさｎ
+TODO : この計算の根拠調査  
 
 以前の
 
@@ -777,11 +777,11 @@ SVGFReproject.ps.slangから得られた出力をもとに式（3）w_z、式（
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjQ0MTIzMiwzODM4NTEzLDI3MDk3MD
-I0NywtNDUyNjA4NzAsLTE2MzUyMzc1MDksLTIxMzkwNzcwNjcs
-NjM2MDY4NDM1LDM5MTU4MzM0MiwtMTA2MTMxOTc5MywxNDk5Mz
-YwMzc4LC0yMDQ0MzM0NDc3LC0xMDM0NDM4MzU2LC0xMDM0NDM4
-MzU2LDExODE2NDI1NDUsLTgyOTkxNTQyOCwyMTQ1OTc5NTM5LC
-0xOTc3NDkzMjE0LC0zMDUwNTE5MjMsMTAzMDE5ODM3NiwtMTc3
-MDA1MjMzMl19
+eyJoaXN0b3J5IjpbODQzMDA4NzEyLDM4Mzg1MTMsMjcwOTcwMj
+Q3LC00NTI2MDg3MCwtMTYzNTIzNzUwOSwtMjEzOTA3NzA2Nyw2
+MzYwNjg0MzUsMzkxNTgzMzQyLC0xMDYxMzE5NzkzLDE0OTkzNj
+AzNzgsLTIwNDQzMzQ0NzcsLTEwMzQ0MzgzNTYsLTEwMzQ0Mzgz
+NTYsMTE4MTY0MjU0NSwtODI5OTE1NDI4LDIxNDU5Nzk1MzksLT
+E5Nzc0OTMyMTQsLTMwNTA1MTkyMywxMDMwMTk4Mzc2LC0xNzcw
+MDUyMzMyXX0=
 -->
