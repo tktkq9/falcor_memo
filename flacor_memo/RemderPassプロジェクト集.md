@@ -736,9 +736,11 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 このように、このシェーダーは直接アルゴリズムと関係ある処理ではなく、テクスチャー減らしのための最適化用シェーダー  
 
 ### SVGFReproject.ps.slang
+以前の
+
 
 ### SVGFFilterMoments.ps.slang
-4.2 Variance estimationの後半に書いてある、7×7 bilateral filterによるluminanceとそのvarianceの計算用シェーダー  
+4.2 Variance estimationの後半に書いてある、蓄積フレームが4未満の場合にluminanceとそのvarianceに7×7 bilateral filterをするためのシェーダー  
   
 テンポラルな蓄積が4フレーム未満の場合は、luminanceとそのvarianceはSVGFReproject.ps.slangで蓄積するだけではなく、  
 SVGFReproject.ps.slangから得られた出力をもとに式（3）w_z、式（4）w_n、式（5）w_l（ただし、w_lの分母はσ_lのみとなっている）による重みを計算し、  
@@ -770,11 +772,11 @@ SVGFReproject.ps.slangから得られた出力をもとに式（3）w_z、式（
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NDAzMjAwOCwyNzA5NzAyNDcsLTQ1Mj
-YwODcwLC0xNjM1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQz
-NSwzOTE1ODMzNDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMj
-A0NDMzNDQ3NywtMTAzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgx
-NjQyNTQ1LC04Mjk5MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5Mz
-IxNCwtMzA1MDUxOTIzLDEwMzAxOTgzNzYsLTE3NzAwNTIzMzIs
-LTE2MTIyOTYzMDZdfQ==
+eyJoaXN0b3J5IjpbMzgzODUxMywyNzA5NzAyNDcsLTQ1MjYwOD
+cwLC0xNjM1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQzNSwz
+OTE1ODMzNDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0ND
+MzNDQ3NywtMTAzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgxNjQy
+NTQ1LC04Mjk5MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5MzIxNC
+wtMzA1MDUxOTIzLDEwMzAxOTgzNzYsLTE3NzAwNTIzMzIsLTE2
+MTIyOTYzMDZdfQ==
 -->
