@@ -741,8 +741,12 @@ in : Emission
 in : WorldPosition   
 in : WorldNormal  
 in : PositionNormalFwidth  
-in : PositionNormalFwidth  
-in : PositionNormalFwidth  
+in : LinearZ
+in : MotionVec
+internal : Previous Linear Z and Packed Normal
+internal : Previous Lighting
+internal : Previous Moments、
+out : Filtered image、フィルターかけた後のColor  
 
 #### その他
 mVarainceEpsilonは使われてないっぽい  
@@ -824,11 +828,11 @@ gHistoryLengthは使われてないし、gAlbedoもサイズ取得のみでし�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0Mjc0NjQ2MiwtOTE4MjAyNzcwLC0xOD
-IzMzIxNjcxLDIwMzIyNTc2NjAsMTAyMTE2MDUwNiw4NDMwMDg3
-MTIsMzgzODUxMywyNzA5NzAyNDcsLTQ1MjYwODcwLC0xNjM1Mj
-M3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQzNSwzOTE1ODMzNDIs
-LTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3NywtMT
-AzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5
-MTU0MjhdfQ==
+eyJoaXN0b3J5IjpbLTE3NDU1MDk3ODMsLTkxODIwMjc3MCwtMT
+gyMzMyMTY3MSwyMDMyMjU3NjYwLDEwMjExNjA1MDYsODQzMDA4
+NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3LC00NTI2MDg3MCwtMTYzNT
+IzNzUwOSwtMjEzOTA3NzA2Nyw2MzYwNjg0MzUsMzkxNTgzMzQy
+LC0xMDYxMzE5NzkzLDE0OTkzNjAzNzgsLTIwNDQzMzQ0NzcsLT
+EwMzQ0MzgzNTYsLTEwMzQ0MzgzNTYsMTE4MTY0MjU0NSwtODI5
+OTE1NDI4XX0=
 -->
