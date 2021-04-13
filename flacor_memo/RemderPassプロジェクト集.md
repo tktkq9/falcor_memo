@@ -717,8 +717,9 @@ linearZを使っているので、それを出力しているGBufferRasterがあ
 ちなみに、GBufferRTの方はlinearZがないので使えない。このことから多分GBufferRTは実用ではなくお試し実装しただけのやつっぽい  
 
 だいたいは論文の実装のままだが、  
-σ_lの値、alphaの計算方法とあ
-mesh IDによる前フレームとのピクセル判定も行っているが、これだけやっていない  
+σ_lの値、alphaの計算方法と値、  
+あと、mesh IDによる前フレームとのピクセル判定も行っているが、これだけやっていないという違いはある  
+（ほかにもあるかも）  
 
 ### SVGFPass.h, cpp
 SVGF用のテクスチャー作成やシェーダーのためのFullScreenPass作成と実行、前フレームのテクスチャーへの割り当てと管理を行う  
@@ -833,11 +834,11 @@ gHistoryLengthは使われてないし、gAlbedoもサイズ取得のみでし�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MTQ1MjAwOCwtOTE4MjAyNzcwLC0xOD
-IzMzIxNjcxLDIwMzIyNTc2NjAsMTAyMTE2MDUwNiw4NDMwMDg3
-MTIsMzgzODUxMywyNzA5NzAyNDcsLTQ1MjYwODcwLC0xNjM1Mj
-M3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQzNSwzOTE1ODMzNDIs
-LTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3NywtMT
-AzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5
-MTU0MjhdfQ==
+eyJoaXN0b3J5IjpbNTc0MDcwODQzLC05MTgyMDI3NzAsLTE4Mj
+MzMjE2NzEsMjAzMjI1NzY2MCwxMDIxMTYwNTA2LDg0MzAwODcx
+MiwzODM4NTEzLDI3MDk3MDI0NywtNDUyNjA4NzAsLTE2MzUyMz
+c1MDksLTIxMzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4MzM0Miwt
+MTA2MTMxOTc5MywxNDk5MzYwMzc4LC0yMDQ0MzM0NDc3LC0xMD
+M0NDM4MzU2LC0xMDM0NDM4MzU2LDExODE2NDI1NDUsLTgyOTkx
+NTQyOF19
 -->
