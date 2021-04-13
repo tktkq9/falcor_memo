@@ -737,6 +737,8 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 ### SVGFReproject.ps.slang
 
 ### SVGFFilterMoments.ps.slang
+4.2 Variance estimationに書いてある、  
+テンポラルな蓄積が4フレーム未満の場合は
 
 ### SVGFAtrous.ps.slang
 
@@ -744,6 +746,8 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 
 ### SVGFCommon.slang
 上記5つのシェーダーで共通で使用されるなんやかんや  
+
+特徴的なのはcomputeWeight()で、  
 
 
 ### その他
@@ -756,11 +760,11 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MjYwODcwLC0xNjM1MjM3NTA5LC0yMT
-M5MDc3MDY3LDYzNjA2ODQzNSwzOTE1ODMzNDIsLTEwNjEzMTk3
-OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3NywtMTAzNDQzODM1Ni
-wtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5MTU0MjgsMjE0
-NTk3OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MDUxOTIzLDEwMzAxOT
-gzNzYsLTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYsMTAwNjExNTQ5
-NywtMTAzODE2ODU2NF19
+eyJoaXN0b3J5IjpbLTEzMzM2MjYyNiwtNDUyNjA4NzAsLTE2Mz
+UyMzc1MDksLTIxMzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4MzM0
+MiwtMTA2MTMxOTc5MywxNDk5MzYwMzc4LC0yMDQ0MzM0NDc3LC
+0xMDM0NDM4MzU2LC0xMDM0NDM4MzU2LDExODE2NDI1NDUsLTgy
+OTkxNTQyOCwyMTQ1OTc5NTM5LC0xOTc3NDkzMjE0LC0zMDUwNT
+E5MjMsMTAzMDE5ODM3NiwtMTc3MDA1MjMzMiwtMTYxMjI5NjMw
+NiwxMDA2MTE1NDk3XX0=
 -->
