@@ -771,6 +771,9 @@ SVGFReproject.ps.slangから得られた出力をもとに式（3）w_z、式（
 4フレーム以降の場合はSVGFReproject.ps.slangのluminanceをそのまま返す  
 
 ### SVGFAtrous.ps.slang
+4.3 Edge-avoiding a-trous wavelet transformにより、
+4.4 Edge-stopping functionsによる重み計算によって
+computeVarianceCenter
 
 ### SVGFFinalModulate.ps.slang
 
@@ -793,7 +796,7 @@ SVGFReproject.ps.slangから得られた出力をもとに式（3）w_z、式（
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDQzMDY4NiwxMDIxMTYwNTA2LDg0Mz
+eyJoaXN0b3J5IjpbMTE0Njk3MjE5NiwxMDIxMTYwNTA2LDg0Mz
 AwODcxMiwzODM4NTEzLDI3MDk3MDI0NywtNDUyNjA4NzAsLTE2
 MzUyMzc1MDksLTIxMzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4Mz
 M0MiwtMTA2MTMxOTc5MywxNDk5MzYwMzc4LC0yMDQ0MzM0NDc3
