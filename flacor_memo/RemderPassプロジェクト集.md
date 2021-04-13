@@ -733,7 +733,7 @@ gMotionとgLinearZAndNormalと前フレームのgLinearZAndNormalで以前と現
 SVGFReproject.ps.slangのillumination計算の逆変換を行いgColorを出力、pOutputTextureにそれをコピー  
 あと、pPrevLinearZAndNormalTextureとか更新  
 
-mVarainceEpsilonは使われてない  
+mVarainceEpsilonは使われてないっぽい  
 
 ### SVGFPackLinearZAndNormal.ps.slang
 linearZテクスチャーとノーマルテクスチャーを一つのテクスチャーにパックしたものを出力するためのシェーダー  
@@ -810,11 +810,11 @@ gHistoryLengthは使われてないし、gAlbedoもサイズ取得のみでし�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxODIwMjc3MCwtMTgyMzMyMTY3MSwyMD
-MyMjU3NjYwLDEwMjExNjA1MDYsODQzMDA4NzEyLDM4Mzg1MTMs
-MjcwOTcwMjQ3LC00NTI2MDg3MCwtMTYzNTIzNzUwOSwtMjEzOT
-A3NzA2Nyw2MzYwNjg0MzUsMzkxNTgzMzQyLC0xMDYxMzE5Nzkz
-LDE0OTkzNjAzNzgsLTIwNDQzMzQ0NzcsLTEwMzQ0MzgzNTYsLT
-EwMzQ0MzgzNTYsMTE4MTY0MjU0NSwtODI5OTE1NDI4LDIxNDU5
-Nzk1MzldfQ==
+eyJoaXN0b3J5IjpbLTEyMzM0MDMwNTYsLTkxODIwMjc3MCwtMT
+gyMzMyMTY3MSwyMDMyMjU3NjYwLDEwMjExNjA1MDYsODQzMDA4
+NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3LC00NTI2MDg3MCwtMTYzNT
+IzNzUwOSwtMjEzOTA3NzA2Nyw2MzYwNjg0MzUsMzkxNTgzMzQy
+LC0xMDYxMzE5NzkzLDE0OTkzNjAzNzgsLTIwNDQzMzQ0NzcsLT
+EwMzQ0MzgzNTYsLTEwMzQ0MzgzNTYsMTE4MTY0MjU0NSwtODI5
+OTE1NDI4XX0=
 -->
