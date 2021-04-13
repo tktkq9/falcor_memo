@@ -741,7 +741,7 @@ illuminationを抽出し、以前フレームでの情報をもとにilluminatio
 まずilluminationは (gColor - gEmission) / max(gAlbedo) によって抽出される  
 TODO : この計算の根拠調査、素材の色 * そこにあたる光の強さが描画結果になると思われるのでmaxの部分以外は感覚でわかる感じもなくはない  
 
-以前の
+次にgMotionをもとに、現在のピクセルに対応する以前のgPrevIllum、gPrevMoments、gPrevLinearZAndNormal、gPrevHistoryLength
 
 
 ### SVGFFilterMoments.ps.slang
@@ -777,11 +777,11 @@ SVGFReproject.ps.slangから得られた出力をもとに式（3）w_z、式（
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MjAyMjQxNSw4NDMwMDg3MTIsMzgzOD
-UxMywyNzA5NzAyNDcsLTQ1MjYwODcwLC0xNjM1MjM3NTA5LC0y
-MTM5MDc3MDY3LDYzNjA2ODQzNSwzOTE1ODMzNDIsLTEwNjEzMT
-k3OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3NywtMTAzNDQzODM1
-NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5MTU0MjgsMj
-E0NTk3OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MDUxOTIzLDEwMzAx
-OTgzNzZdfQ==
+eyJoaXN0b3J5IjpbODI2ODYyMTU0LDg0MzAwODcxMiwzODM4NT
+EzLDI3MDk3MDI0NywtNDUyNjA4NzAsLTE2MzUyMzc1MDksLTIx
+MzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4MzM0MiwtMTA2MTMxOT
+c5MywxNDk5MzYwMzc4LC0yMDQ0MzM0NDc3LC0xMDM0NDM4MzU2
+LC0xMDM0NDM4MzU2LDExODE2NDI1NDUsLTgyOTkxNTQyOCwyMT
+Q1OTc5NTM5LC0xOTc3NDkzMjE0LC0zMDUwNTE5MjMsMTAzMDE5
+ODM3Nl19
 -->
