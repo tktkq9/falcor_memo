@@ -738,9 +738,9 @@ SVGFReproject.ps.slangのillumination計算の逆変換を行いgColorを出力�
 in : Albedo   
 in : Color   
 in : Emission   
-in : WorldPosition   
-in : WorldNormal  
-in : PositionNormalFwidth、前フレームと同じ状態かのnormal判定で使用される（これで割ってスケールする）  
+in : WorldPosition、実は使われてないのでいらない  
+in : WorldNormal、w_nの計算や、前フレームと同じ状態かの判定に使用される  
+in : PositionNormalFwidth、前フレームと同じ状態かのnormal判定で使用される（これで割ってノーマルの差異をスケールする）  
 in : LinearZ、linear depthとその微分値、w_zの計算や、前フレームと同じ状態かの判定に使用される  
 in : MotionVec、前フレームのピクセル値を得るため用  
 internal : Previous Linear Z and Packed Normal、前フレームのLinearZとWorldNormalをパックしたもの  
@@ -828,11 +828,11 @@ gHistoryLengthは使われてないし、gAlbedoもサイズ取得のみでし�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MjgxNjk5OCwtOTE4MjAyNzcwLC0xOD
-IzMzIxNjcxLDIwMzIyNTc2NjAsMTAyMTE2MDUwNiw4NDMwMDg3
-MTIsMzgzODUxMywyNzA5NzAyNDcsLTQ1MjYwODcwLC0xNjM1Mj
-M3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQzNSwzOTE1ODMzNDIs
-LTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3NywtMT
-AzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5
-MTU0MjhdfQ==
+eyJoaXN0b3J5IjpbLTE2NjM3MjAxMjEsLTkxODIwMjc3MCwtMT
+gyMzMyMTY3MSwyMDMyMjU3NjYwLDEwMjExNjA1MDYsODQzMDA4
+NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3LC00NTI2MDg3MCwtMTYzNT
+IzNzUwOSwtMjEzOTA3NzA2Nyw2MzYwNjg0MzUsMzkxNTgzMzQy
+LC0xMDYxMzE5NzkzLDE0OTkzNjAzNzgsLTIwNDQzMzQ0NzcsLT
+EwMzQ0MzgzNTYsLTEwMzQ0MzgzNTYsMTE4MTY0MjU0NSwtODI5
+OTE1NDI4XX0=
 -->
