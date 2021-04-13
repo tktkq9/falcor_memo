@@ -721,9 +721,10 @@ linearZを使っているので、それを出力しているGBufferRasterがあ
 gLinearZAndNormalを作成してSVGFReproject.ps.slangに渡す  
 2. mpReprojectionによりSVGFReproject.ps.slangを実行し、illuminationとそのvarianceを計算、  
 gMotionとgLinearZAndNormalと前フレームのgLinearZAndNormalで以前と現在のピクセルが同じか判定し、  
- 
+
 4. mpFilterMomentsによりSVGFFilterMoments.ps.slangを実行し、  
 蓄積フレームが少ないところは4.2 Variance estimationの後半に書いてある、現在の計算結果からluminanceとvarianceの計算を行う  
+4フレーム以降の場合はなにもしない  
 5. mFilterIterations回mpAtrousによりVGFAtrous.ps.slangを実行、  
 6. mpFinalModulateによりSVGFFinalModulate.ps.slangを実行、  
 
@@ -791,11 +792,11 @@ SVGFReproject.ps.slangから得られた出力をもとに式（3）w_z、式（
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTI2ODYyMDQsMTAyMTE2MDUwNiw4ND
-MwMDg3MTIsMzgzODUxMywyNzA5NzAyNDcsLTQ1MjYwODcwLC0x
-NjM1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQzNSwzOTE1OD
-MzNDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3
-NywtMTAzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC
-04Mjk5MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5MzIxNCwtMzA1
-MDUxOTIzXX0=
+eyJoaXN0b3J5IjpbNDMxODA2Mjg0LDEwMjExNjA1MDYsODQzMD
+A4NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3LC00NTI2MDg3MCwtMTYz
+NTIzNzUwOSwtMjEzOTA3NzA2Nyw2MzYwNjg0MzUsMzkxNTgzMz
+QyLC0xMDYxMzE5NzkzLDE0OTkzNjAzNzgsLTIwNDQzMzQ0Nzcs
+LTEwMzQ0MzgzNTYsLTEwMzQ0MzgzNTYsMTE4MTY0MjU0NSwtOD
+I5OTE1NDI4LDIxNDU5Nzk1MzksLTE5Nzc0OTMyMTQsLTMwNTA1
+MTkyM119
 -->
