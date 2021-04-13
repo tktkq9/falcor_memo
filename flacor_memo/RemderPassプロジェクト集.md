@@ -737,6 +737,7 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 
 ### SVGFReproject.ps.slang
 illuminationを抽出し、以前フレームでの情報をもとにillumination（とmomentと蓄積カウント）の蓄積処理をするシェーダー  
+4.1 Temporal €ltering部分  
 
 まずilluminationは (gColor - gEmission) / max(gAlbedo) によって抽出される  
 TODO : この計算の根拠調査、素材の色 * そこにあたる光の強さが描画結果になると思われるのでmaxの部分以外は感覚でわかる感じもなくはない  
@@ -745,6 +746,8 @@ TODO : この計算の根拠調査、素材の色 * そこにあたる光の強�
 変化がない場合はgPrevIllum、gPrevMoments、gPrevLinearZAndNormal、gPrevHistoryLengthのピクセル
 それが現在の
 
+また、4.1 Temporal €lteringの最後の段落に書いてあるように、  
+2*2 tap bilinearによる
 
 ### SVGFFilterMoments.ps.slang
 4.2 Variance estimationの後半に書いてある、蓄積フレームが4未満の場合にluminanceとそのvarianceに7×7 bilateral filterをするためのシェーダー  
@@ -779,11 +782,11 @@ SVGFReproject.ps.slangから得られた出力をもとに式（3）w_z、式（
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE5MDU3OTQ1LDg0MzAwODcxMiwzODM4NT
-EzLDI3MDk3MDI0NywtNDUyNjA4NzAsLTE2MzUyMzc1MDksLTIx
-MzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4MzM0MiwtMTA2MTMxOT
-c5MywxNDk5MzYwMzc4LC0yMDQ0MzM0NDc3LC0xMDM0NDM4MzU2
-LC0xMDM0NDM4MzU2LDExODE2NDI1NDUsLTgyOTkxNTQyOCwyMT
-Q1OTc5NTM5LC0xOTc3NDkzMjE0LC0zMDUwNTE5MjMsMTAzMDE5
-ODM3Nl19
+eyJoaXN0b3J5IjpbMTIxODk3NDY1Miw4NDMwMDg3MTIsMzgzOD
+UxMywyNzA5NzAyNDcsLTQ1MjYwODcwLC0xNjM1MjM3NTA5LC0y
+MTM5MDc3MDY3LDYzNjA2ODQzNSwzOTE1ODMzNDIsLTEwNjEzMT
+k3OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3NywtMTAzNDQzODM1
+NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5MTU0MjgsMj
+E0NTk3OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MDUxOTIzLDEwMzAx
+OTgzNzZdfQ==
 -->
