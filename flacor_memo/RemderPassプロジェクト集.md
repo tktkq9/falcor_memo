@@ -747,7 +747,8 @@ TODO : この計算の根拠調査、素材の色 * そこにあたる光の強�
 それが現在の
 
 また、4.1 Temporal filteringの最後の段落に書いてあるように、  
-2*2 tap bilinearによる
+中心点を2*2 tap bilinearによるサンプリングを行い、  
+もし
 
 ### SVGFFilterMoments.ps.slang
 4.2 Variance estimationの後半に書いてある、蓄積フレームが4未満の場合にluminanceとそのvarianceに7×7 bilateral filterをするためのシェーダー  
@@ -782,7 +783,7 @@ SVGFReproject.ps.slangから得られた出力をもとに式（3）w_z、式（
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAxOTY4OTE2LDEwMjExNjA1MDYsODQzMD
+eyJoaXN0b3J5IjpbMTU3MzA3NTc1LDEwMjExNjA1MDYsODQzMD
 A4NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3LC00NTI2MDg3MCwtMTYz
 NTIzNzUwOSwtMjEzOTA3NzA2Nyw2MzYwNjg0MzUsMzkxNTgzMz
 QyLC0xMDYxMzE5NzkzLDE0OTkzNjAzNzgsLTIwNDQzMzQ0Nzcs
