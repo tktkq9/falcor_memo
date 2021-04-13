@@ -772,7 +772,7 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 illuminationを抽出し、以前フレームでの情報をもとにillumination（とmomentと蓄積カウント）の蓄積処理をするシェーダー  
 4.1 Temporal filteringの部分、ただし論文に書いてあるmesh IDによる判定は行っていない  
 
-まずilluminationは (gColor - gEmission) / max(gAlbedo) によって抽出される  
+まずilluminationは (gColor - gEmission) / gAlbedo によって抽出される  
 TODO : この計算の根拠調査、素材の色 * そこにあたる光の強さが描画結果になると思われるので多分そんな感じ  
 
 次にgMotionをもとに、現在のピクセルに対応する以前のピクセルが同じ場所かをgPrevLinearZAndNormalによるdepthとnormalからisReprjValid()関数で判定し、  
@@ -814,7 +814,7 @@ computeVarianceCenter()はw_lの分母にあるg_3x3(Var)のためのガウシ�
 gHistoryLengthは使われてないし、gAlbedoもサイズ取得のみでしか使われておらず他のテクスチャーでそれやればよくね？って感じなのでこの2つは多分いらない  
 
 ### SVGFFinalModulate.ps.slang
-
+SVGFReproject.ps.slangの
 
 ### SVGFCommon.slang
 上記5つのシェーダーで共通で使用されるなんやかんや  
@@ -834,11 +834,11 @@ gHistoryLengthは使われてないし、gAlbedoもサイズ取得のみでし�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwOTMxNzIwLC05MTgyMDI3NzAsLTE4Mj
-MzMjE2NzEsMjAzMjI1NzY2MCwxMDIxMTYwNTA2LDg0MzAwODcx
-MiwzODM4NTEzLDI3MDk3MDI0NywtNDUyNjA4NzAsLTE2MzUyMz
-c1MDksLTIxMzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4MzM0Miwt
-MTA2MTMxOTc5MywxNDk5MzYwMzc4LC0yMDQ0MzM0NDc3LC0xMD
-M0NDM4MzU2LC0xMDM0NDM4MzU2LDExODE2NDI1NDUsLTgyOTkx
-NTQyOF19
+eyJoaXN0b3J5IjpbLTEwODgyMTgzNSwtOTE4MjAyNzcwLC0xOD
+IzMzIxNjcxLDIwMzIyNTc2NjAsMTAyMTE2MDUwNiw4NDMwMDg3
+MTIsMzgzODUxMywyNzA5NzAyNDcsLTQ1MjYwODcwLC0xNjM1Mj
+M3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQzNSwzOTE1ODMzNDIs
+LTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3NywtMT
+AzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5
+MTU0MjhdfQ==
 -->
