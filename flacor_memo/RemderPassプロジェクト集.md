@@ -778,6 +778,7 @@ gIlluminationに対するエッジ検出フィルター処理
 つまり、4.4 Edge-stopping functionsによる重み計算によって、4.3 Edge-avoiding a-trous wavelet transformによるIllumination計算を行うためのシェーダー    
 これ自体はa-trous wavelet transform1回分の処理となっており、gStepSizeを変えつつ複数回このシェーダーを実行することによってイテレーションを回す  
 
+gLinearZAndNormalとgIlluminationとgPhiNormalと
 シェーダー内容自体は式（1- 5）をやっているだけ  
 
 computeVarianceCenter()はw_lの分母にあるg_3x3(Var)のためのガウシアンフィルター関数  
@@ -805,11 +806,11 @@ gHistoryLengthは使われてないし、gAlbedoもサイズ取得のみでし�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1NDUzMjMxLDIwMzIyNTc2NjAsMTAyMT
-E2MDUwNiw4NDMwMDg3MTIsMzgzODUxMywyNzA5NzAyNDcsLTQ1
-MjYwODcwLC0xNjM1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNjA2OD
-QzNSwzOTE1ODMzNDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwt
-MjA0NDMzNDQ3NywtMTAzNDQzODM1NiwtMTAzNDQzODM1NiwxMT
-gxNjQyNTQ1LC04Mjk5MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5
-MzIxNF19
+eyJoaXN0b3J5IjpbMTU3NTQ2Mjg5OCwyMDMyMjU3NjYwLDEwMj
+ExNjA1MDYsODQzMDA4NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3LC00
+NTI2MDg3MCwtMTYzNTIzNzUwOSwtMjEzOTA3NzA2Nyw2MzYwNj
+g0MzUsMzkxNTgzMzQyLC0xMDYxMzE5NzkzLDE0OTkzNjAzNzgs
+LTIwNDQzMzQ0NzcsLTEwMzQ0MzgzNTYsLTEwMzQ0MzgzNTYsMT
+E4MTY0MjU0NSwtODI5OTE1NDI4LDIxNDU5Nzk1MzksLTE5Nzc0
+OTMyMTRdfQ==
 -->
