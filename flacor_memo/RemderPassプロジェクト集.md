@@ -744,7 +744,7 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 その重みと現在のluminance（moment）で7×7サンプリングし、新しいluminance（variance）を計算して返す  
 また、varianceの方は 4 / 蓄積frame数 の補正をかける  
 
-4フレーム以降の場合はそのまま
+4フレーム以降の場合はSVGFReproject.ps.slangのluminanceをそのまま返す  
 
 ### SVGFAtrous.ps.slang
 
@@ -768,11 +768,11 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTk5MzI0NzcsLTQ1MjYwODcwLC0xNj
-M1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQzNSwzOTE1ODMz
-NDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3Ny
-wtMTAzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04
-Mjk5MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MD
-UxOTIzLDEwMzAxOTgzNzYsLTE3NzAwNTIzMzIsLTE2MTIyOTYz
-MDYsMTAwNjExNTQ5N119
+eyJoaXN0b3J5IjpbLTU3MzkwNjI0MCwtNDUyNjA4NzAsLTE2Mz
+UyMzc1MDksLTIxMzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4MzM0
+MiwtMTA2MTMxOTc5MywxNDk5MzYwMzc4LC0yMDQ0MzM0NDc3LC
+0xMDM0NDM4MzU2LC0xMDM0NDM4MzU2LDExODE2NDI1NDUsLTgy
+OTkxNTQyOCwyMTQ1OTc5NTM5LC0xOTc3NDkzMjE0LC0zMDUwNT
+E5MjMsMTAzMDE5ODM3NiwtMTc3MDA1MjMzMiwtMTYxMjI5NjMw
+NiwxMDA2MTE1NDk3XX0=
 -->
