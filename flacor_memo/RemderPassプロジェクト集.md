@@ -726,10 +726,11 @@ gMotionとgLinearZAndNormalと前フレームのgLinearZAndNormalで以前と現
 蓄積フレームが少ないところは4.2 Variance estimationの後半に書いてある、現在の計算結果からluminanceとvarianceの計算を行いgIlluminationを更新  
 4フレーム以降の場合はなにもせず、gIlluminationをそのまま出力  
 4. mFilterIterations回mpAtrousによりVGFAtrous.ps.slangを実行し4.3 Edge-avoiding a-trous wavelet transformを行う  
-2つのバッファーを交換しながら、gStepSizeを増やしてVGFAtrous.ps.slangを繰り返すことによってgIlluminationの
+2つのバッファーを交換しながら、gStepSizeを増やしてVGFAtrous.ps.slangを繰り返すことによってgIlluminationのエッジ検出フィルターを行う  
 論文では5回やっているが、こちらのデフォルト値は4回となっている  
 論文に書いてあるように、イテレーション1回目の出力をgPrevIllumに割り当てている  
-6. mpFinalModulateによりSVGFFinalModulate.ps.slangを実行、  
+5. mpFinalModulateによりSVGFFinalModulate.ps.slangを実行、  
+
 
 
 ### SVGFPackLinearZAndNormal.ps.slang
@@ -800,11 +801,11 @@ computeVarianceCenter
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAwMDkzNTE4LDIwMzIyNTc2NjAsMTAyMT
-E2MDUwNiw4NDMwMDg3MTIsMzgzODUxMywyNzA5NzAyNDcsLTQ1
-MjYwODcwLC0xNjM1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNjA2OD
-QzNSwzOTE1ODMzNDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwt
-MjA0NDMzNDQ3NywtMTAzNDQzODM1NiwtMTAzNDQzODM1NiwxMT
-gxNjQyNTQ1LC04Mjk5MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5
-MzIxNF19
+eyJoaXN0b3J5IjpbMTk1Mjk1ODI4MiwyMDMyMjU3NjYwLDEwMj
+ExNjA1MDYsODQzMDA4NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3LC00
+NTI2MDg3MCwtMTYzNTIzNzUwOSwtMjEzOTA3NzA2Nyw2MzYwNj
+g0MzUsMzkxNTgzMzQyLC0xMDYxMzE5NzkzLDE0OTkzNjAzNzgs
+LTIwNDQzMzQ0NzcsLTEwMzQ0MzgzNTYsLTEwMzQ0MzgzNTYsMT
+E4MTY0MjU0NSwtODI5OTE1NDI4LDIxNDU5Nzk1MzksLTE5Nzc0
+OTMyMTRdfQ==
 -->
