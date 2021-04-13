@@ -743,9 +743,9 @@ in : WorldNormal
 in : PositionNormalFwidth  
 in : LinearZ
 in : MotionVec
-internal : Previous Linear Z and Packed Normal
-internal : Previous Lighting
-internal : Previous Moments、
+internal : Previous Linear Z and Packed Normal、
+internal : Previous Lighting、使われていない、なにこれ  
+internal : Previous Moments、SVGFFilterMoments.ps.slangで使う蓄積フレームが足りてないときのvariance計算に使われるもの  
 out : Filtered image、フィルターかけた後のColor  
 
 #### その他
@@ -828,11 +828,11 @@ gHistoryLengthは使われてないし、gAlbedoもサイズ取得のみでし�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDU1MDk3ODMsLTkxODIwMjc3MCwtMT
-gyMzMyMTY3MSwyMDMyMjU3NjYwLDEwMjExNjA1MDYsODQzMDA4
-NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3LC00NTI2MDg3MCwtMTYzNT
-IzNzUwOSwtMjEzOTA3NzA2Nyw2MzYwNjg0MzUsMzkxNTgzMzQy
-LC0xMDYxMzE5NzkzLDE0OTkzNjAzNzgsLTIwNDQzMzQ0NzcsLT
-EwMzQ0MzgzNTYsLTEwMzQ0MzgzNTYsMTE4MTY0MjU0NSwtODI5
-OTE1NDI4XX0=
+eyJoaXN0b3J5IjpbLTkzMzI2NTExLC05MTgyMDI3NzAsLTE4Mj
+MzMjE2NzEsMjAzMjI1NzY2MCwxMDIxMTYwNTA2LDg0MzAwODcx
+MiwzODM4NTEzLDI3MDk3MDI0NywtNDUyNjA4NzAsLTE2MzUyMz
+c1MDksLTIxMzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4MzM0Miwt
+MTA2MTMxOTc5MywxNDk5MzYwMzc4LC0yMDQ0MzM0NDc3LC0xMD
+M0NDM4MzU2LC0xMDM0NDM4MzU2LDExODE2NDI1NDUsLTgyOTkx
+NTQyOF19
 -->
