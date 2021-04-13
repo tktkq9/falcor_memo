@@ -711,10 +711,14 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 [Spatiotemporal Variance-Guided Filtering: Real-Time Reconstruction for Path-Traced Global Illumination](https://research.nvidia.com/publication/2017-07_Spatiotemporal-Variance-Guided-Filtering%3A)  
 の実装、レイトレ用  
 レイトレのノイズを減らすフィルターパス  
-論文に書いてあるようにカラーからilluminationを抽出し、それにフィルターをかけて、元に戻す
+論文に書いてあるようにカラーからilluminationを抽出し、それにフィルターをかけて、元に戻すという処理を行っている  
 
 linearZを使っているので、それを出力しているGBufferRasterがある前提のパス  
 ちなみに、GBufferRTの方はlinearZがないので使えない。このことから多分GBufferRTは実用ではなくお試し実装しただけのやつっぽい  
+
+だいたいは論文の実装のままだが、  
+σ_lの値、alphaの計算方法とあ
+mesh IDによる前フレームとのピクセル判定も行っているが、これだけやっていない  
 
 ### SVGFPass.h, cpp
 SVGF用のテクスチャー作成やシェーダーのためのFullScreenPass作成と実行、前フレームのテクスチャーへの割り当てと管理を行う  
@@ -829,11 +833,11 @@ gHistoryLengthは使われてないし、gAlbedoもサイズ取得のみでし�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQ1ODM2MDMsLTkxODIwMjc3MCwtMT
-gyMzMyMTY3MSwyMDMyMjU3NjYwLDEwMjExNjA1MDYsODQzMDA4
-NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3LC00NTI2MDg3MCwtMTYzNT
-IzNzUwOSwtMjEzOTA3NzA2Nyw2MzYwNjg0MzUsMzkxNTgzMzQy
-LC0xMDYxMzE5NzkzLDE0OTkzNjAzNzgsLTIwNDQzMzQ0NzcsLT
-EwMzQ0MzgzNTYsLTEwMzQ0MzgzNTYsMTE4MTY0MjU0NSwtODI5
-OTE1NDI4XX0=
+eyJoaXN0b3J5IjpbMTQ5MTQ1MjAwOCwtOTE4MjAyNzcwLC0xOD
+IzMzIxNjcxLDIwMzIyNTc2NjAsMTAyMTE2MDUwNiw4NDMwMDg3
+MTIsMzgzODUxMywyNzA5NzAyNDcsLTQ1MjYwODcwLC0xNjM1Mj
+M3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQzNSwzOTE1ODMzNDIs
+LTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3NywtMT
+AzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5
+MTU0MjhdfQ==
 -->
