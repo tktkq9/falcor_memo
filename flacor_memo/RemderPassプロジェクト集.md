@@ -736,6 +736,7 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 このように、このシェーダーは直接アルゴリズムと関係ある処理ではなく、テクスチャー減らしのための最適化用シェーダー  
 
 ### SVGFReproject.ps.slang
+illuminationを抽出し、以前のde
 以前の
 
 
@@ -772,11 +773,11 @@ SVGFReproject.ps.slangから得られた出力をもとに式（3）w_z、式（
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgzODUxMywyNzA5NzAyNDcsLTQ1MjYwOD
-cwLC0xNjM1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQzNSwz
-OTE1ODMzNDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0ND
-MzNDQ3NywtMTAzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgxNjQy
-NTQ1LC04Mjk5MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5MzIxNC
-wtMzA1MDUxOTIzLDEwMzAxOTgzNzYsLTE3NzAwNTIzMzIsLTE2
-MTIyOTYzMDZdfQ==
+eyJoaXN0b3J5IjpbLTEwMzQ1NjMxMDQsMzgzODUxMywyNzA5Nz
+AyNDcsLTQ1MjYwODcwLC0xNjM1MjM3NTA5LC0yMTM5MDc3MDY3
+LDYzNjA2ODQzNSwzOTE1ODMzNDIsLTEwNjEzMTk3OTMsMTQ5OT
+M2MDM3OCwtMjA0NDMzNDQ3NywtMTAzNDQzODM1NiwtMTAzNDQz
+ODM1NiwxMTgxNjQyNTQ1LC04Mjk5MTU0MjgsMjE0NTk3OTUzOS
+wtMTk3NzQ5MzIxNCwtMzA1MDUxOTIzLDEwMzAxOTgzNzYsLTE3
+NzAwNTIzMzJdfQ==
 -->
