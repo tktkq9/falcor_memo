@@ -738,7 +738,7 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 
 ### SVGFFilterMoments.ps.slang
 4.2 Variance estimationに書いてある、  
-テンポラルな蓄積が4フレーム未満の場合は
+テンポラルな蓄積が4フレーム未満の場合は、蓄積するのではなく
 
 ### SVGFAtrous.ps.slang
 
@@ -762,7 +762,7 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTMwMTQ3NzMsLTQ1MjYwODcwLC0xNj
+eyJoaXN0b3J5IjpbLTE3MTUyMzcwMTQsLTQ1MjYwODcwLC0xNj
 M1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQzNSwzOTE1ODMz
 NDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3Ny
 wtMTAzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04
