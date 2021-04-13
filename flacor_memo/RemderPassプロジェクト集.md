@@ -758,7 +758,7 @@ moments（4フレーム未満の時にVGFFilterMoments.ps.slangでvarianceを計
 exponential moving averageによって蓄積する  
 （ない場合はOutHistoryLengthをリセットし現在計算されたものだけを出力）  
 
-ちなみに、4.1 Temporal filteringの最後の段落に書いてあるように、  
+gPrevIllum、gPrevMoments、gPrevHistoryLengthのピクセルにより以前のデータの読み込みについての詳細として、4.1 Temporal filteringの最後の段落に書いてあるように、  
 以前のデータの取得にはサンプリング処理が行われ、  
 中心点から半ピクセルずらした2*2 tap bilinearによるサンプリングを試み、  
 もし（isReprjValid()でない、または重みが小さすぎる理由で）ピクセルが無い場合は中心点を含む3*3ピクセルのうちisReprjValid()を満たすピクセルによる平均を求める  
@@ -807,11 +807,11 @@ gHistoryLengthは使われてないし、gAlbedoもサイズ取得のみでし�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0MjAyODgxLDIwMzIyNTc2NjAsMTAyMT
-E2MDUwNiw4NDMwMDg3MTIsMzgzODUxMywyNzA5NzAyNDcsLTQ1
-MjYwODcwLC0xNjM1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNjA2OD
-QzNSwzOTE1ODMzNDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwt
-MjA0NDMzNDQ3NywtMTAzNDQzODM1NiwtMTAzNDQzODM1NiwxMT
-gxNjQyNTQ1LC04Mjk5MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5
-MzIxNF19
+eyJoaXN0b3J5IjpbLTE5ODU5MzY0NzAsMjAzMjI1NzY2MCwxMD
+IxMTYwNTA2LDg0MzAwODcxMiwzODM4NTEzLDI3MDk3MDI0Nywt
+NDUyNjA4NzAsLTE2MzUyMzc1MDksLTIxMzkwNzcwNjcsNjM2MD
+Y4NDM1LDM5MTU4MzM0MiwtMTA2MTMxOTc5MywxNDk5MzYwMzc4
+LC0yMDQ0MzM0NDc3LC0xMDM0NDM4MzU2LC0xMDM0NDM4MzU2LD
+ExODE2NDI1NDUsLTgyOTkxNTQyOCwyMTQ1OTc5NTM5LC0xOTc3
+NDkzMjE0XX0=
 -->
