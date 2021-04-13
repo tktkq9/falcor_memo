@@ -743,7 +743,7 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 テンポラルな蓄積が4フレーム未満の場合は、luminanceとそのvarianceは蓄積したものだけではなく、  
 SVGFReproject.ps.slangから得られた出力をもとに式（3）w_z、式（4）w_n、式（5）w_l（ただし、w_lの分母はσ_lのみとなっている）による重みを計算し、  
 その重みと現在のluminance（moment）で7×7サンプリングし、新しいluminance（variance）を計算して返す  
-また、varianceの方は 4 / 蓄積frame数 の補正をかける  
+また、varianceは 4 / 蓄積frame数 の補正をかける  
 
 4フレーム以降の場合はSVGFReproject.ps.slangのluminanceをそのまま返す  
 
@@ -770,11 +770,11 @@ SVGFReproject.ps.slangから得られた出力をもとに式（3）w_z、式（
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0Nzc5OTA4MCwyNzA5NzAyNDcsLTQ1Mj
-YwODcwLC0xNjM1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQz
-NSwzOTE1ODMzNDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMj
-A0NDMzNDQ3NywtMTAzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgx
-NjQyNTQ1LC04Mjk5MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5Mz
-IxNCwtMzA1MDUxOTIzLDEwMzAxOTgzNzYsLTE3NzAwNTIzMzIs
-LTE2MTIyOTYzMDZdfQ==
+eyJoaXN0b3J5IjpbNTI3MDM0OTA5LDI3MDk3MDI0NywtNDUyNj
+A4NzAsLTE2MzUyMzc1MDksLTIxMzkwNzcwNjcsNjM2MDY4NDM1
+LDM5MTU4MzM0MiwtMTA2MTMxOTc5MywxNDk5MzYwMzc4LC0yMD
+Q0MzM0NDc3LC0xMDM0NDM4MzU2LC0xMDM0NDM4MzU2LDExODE2
+NDI1NDUsLTgyOTkxNTQyOCwyMTQ1OTc5NTM5LC0xOTc3NDkzMj
+E0LC0zMDUwNTE5MjMsMTAzMDE5ODM3NiwtMTc3MDA1MjMzMiwt
+MTYxMjI5NjMwNl19
 -->
