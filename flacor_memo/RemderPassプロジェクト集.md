@@ -726,7 +726,7 @@ gMotionとgLinearZAndNormalと前フレームのgLinearZAndNormalで以前と現
 蓄積フレームが少ないところは4.2 Variance estimationの後半に書いてある、現在の計算結果からluminanceとvarianceの計算を行いgIlluminationを更新  
 4フレーム以降の場合はなにもせず、gIlluminationをそのまま出力  
 4. mFilterIterations回mpAtrousによりVGFAtrous.ps.slangを実行し4.3 Edge-avoiding a-trous wavelet transformを行う  
-2つのバッファーをこしながら、gStepSize
+2つのバッファーを交換しながら、gStepSizeを増やしてVGFAtrous.ps.slangを繰り返すことによってgIlluminationの
 論文では5回やっているが、こちらのデフォルト値は4回となっている  
 
 6. mpFinalModulateによりSVGFFinalModulate.ps.slangを実行、  
@@ -773,6 +773,7 @@ SVGFReproject.ps.slangから得られた出力をもとに式（3）w_z、式（
 4フレーム以降の場合はSVGFReproject.ps.slangのluminanceをそのまま返す  
 
 ### SVGFAtrous.ps.slang
+gIlluminationに対するエッジ検出フィルター処理  
 4.4 Edge-stopping functionsによる重み計算によって、4.3 Edge-avoiding a-trous wavelet transformによるIllumination計算を行うためのシェーダー    
 これ自体はa-trous wavelet transform1回分の処理となっており、gStepSizeを変えつつ複数回このシェーダーを実行することによってイテレーションを回す  
 
@@ -799,7 +800,7 @@ computeVarianceCenter
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjE4ODM0MiwxMDIxMTYwNTA2LDg0Mz
+eyJoaXN0b3J5IjpbMTc1MjQyNjQxMSwxMDIxMTYwNTA2LDg0Mz
 AwODcxMiwzODM4NTEzLDI3MDk3MDI0NywtNDUyNjA4NzAsLTE2
 MzUyMzc1MDksLTIxMzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4Mz
 M0MiwtMTA2MTMxOTc5MywxNDk5MzYwMzc4LC0yMDQ0MzM0NDc3
