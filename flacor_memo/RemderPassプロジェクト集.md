@@ -730,8 +730,8 @@ gMotionとgLinearZAndNormalと前フレームのgLinearZAndNormalで以前と現
 論文では5回やっているが、こちらのデフォルト値は4回となっている  
 論文に書いてあるように、イテレーション1回目の出力をgPrevIllumに割り当てている  
 5. mpFinalModulateによりSVGFFinalModulate.ps.slangを実行、  
-SVGFReproject.ps.slangのillumination計算の逆変換を行い、pOutputTexture  
-
+SVGFReproject.ps.slangのillumination計算の逆変換を行いgColorを出力、pOutputTextureにそれをコピー  
+あと、pPrevLinearZAndNormalTextureとか更新  
 
 mVarainceEpsilonは使われてない  
 
@@ -810,11 +810,11 @@ gHistoryLengthは使われてないし、gAlbedoもサイズ取得のみでし�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjMzMjE2NzEsMjAzMjI1NzY2MCwxMD
-IxMTYwNTA2LDg0MzAwODcxMiwzODM4NTEzLDI3MDk3MDI0Nywt
-NDUyNjA4NzAsLTE2MzUyMzc1MDksLTIxMzkwNzcwNjcsNjM2MD
-Y4NDM1LDM5MTU4MzM0MiwtMTA2MTMxOTc5MywxNDk5MzYwMzc4
-LC0yMDQ0MzM0NDc3LC0xMDM0NDM4MzU2LC0xMDM0NDM4MzU2LD
-ExODE2NDI1NDUsLTgyOTkxNTQyOCwyMTQ1OTc5NTM5LC0xOTc3
-NDkzMjE0XX0=
+eyJoaXN0b3J5IjpbLTkxODIwMjc3MCwtMTgyMzMyMTY3MSwyMD
+MyMjU3NjYwLDEwMjExNjA1MDYsODQzMDA4NzEyLDM4Mzg1MTMs
+MjcwOTcwMjQ3LC00NTI2MDg3MCwtMTYzNTIzNzUwOSwtMjEzOT
+A3NzA2Nyw2MzYwNjg0MzUsMzkxNTgzMzQyLC0xMDYxMzE5Nzkz
+LDE0OTkzNjAzNzgsLTIwNDQzMzQ0NzcsLTEwMzQ0MzgzNTYsLT
+EwMzQ0MzgzNTYsMTE4MTY0MjU0NSwtODI5OTE1NDI4LDIxNDU5
+Nzk1MzldfQ==
 -->
