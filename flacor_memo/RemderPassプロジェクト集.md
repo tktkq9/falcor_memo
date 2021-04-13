@@ -757,7 +757,7 @@ illuminationをalpha = max(gAlpha, 1.0 / historyLength) 、
 moments（4フレーム未満の時にVGFFilterMoments.ps.slangでvarianceを計算するためのμ）をalpha = max(gMomentsAlpha, 1.0 / historyLength) で  
 exponential moving averageによって蓄積する  
 （ない場合はOutHistoryLengthをリセットし現在計算されたものだけを出力）  
-ちなみに論文ではlpha = 0.2が適正となっているが、こちらではalphaの計算が特殊なうえに、gAlphaの方は0.0
+ちなみに論文ではlpha = 0.2が適正となっているが、こちらではalphaの計算が特殊なうえに、gAlphaの方は0.05で設定されてある  
 
 以前のデータの読み込みについての詳細は、4.1 Temporal filteringの最後の段落に書いてあるように、  
 以前のデータの取得にはサンプリング処理が行われ、  
@@ -808,7 +808,7 @@ gHistoryLengthは使われてないし、gAlbedoもサイズ取得のみでし�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzY1NTU5MDEsMjAzMjI1NzY2MCwxMD
+eyJoaXN0b3J5IjpbLTEzNTU3NDkxMTQsMjAzMjI1NzY2MCwxMD
 IxMTYwNTA2LDg0MzAwODcxMiwzODM4NTEzLDI3MDk3MDI0Nywt
 NDUyNjA4NzAsLTE2MzUyMzc1MDksLTIxMzkwNzcwNjcsNjM2MD
 Y4NDM1LDM5MTU4MzM0MiwtMTA2MTMxOTc5MywxNDk5MzYwMzc4
