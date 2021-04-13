@@ -744,7 +744,10 @@ TODO : この計算の根拠調査、素材の色 * そこにあたる光の強�
 
 次にgMotionをもとに、現在のピクセルに対応する以前のピクセルが同じ場所かをgPrevLinearZAndNormalによるdepthとnormalからisReprjValid()関数で判定し、  
 変化がない場合はgPrevIllum、gPrevMoments、gPrevHistoryLengthのピクセルにより以前のデータの読み込みを試みる  
-読み込めた場合はilluminationとmomentsとOutHistoryLengthをexponential moving average
+読み込めた場合は、  
+illuminationをalpha = max(gAlpha, 1.0 / historyLength) で、  
+illuminationをalpha = max(gAlpha, 1.0 / historyLength) で、  
+momentsexponential moving averageによって蓄積する（）  
 
 ちなみに、4.1 Temporal filteringの最後の段落に書いてあるように、  
 以前のデータの取得にはサンプリング処理が行われ、  
@@ -785,11 +788,11 @@ SVGFReproject.ps.slangから得られた出力をもとに式（3）w_z、式（
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjY4NTc4NjUsMTAyMTE2MDUwNiw4ND
-MwMDg3MTIsMzgzODUxMywyNzA5NzAyNDcsLTQ1MjYwODcwLC0x
-NjM1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQzNSwzOTE1OD
-MzNDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3
-NywtMTAzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC
-04Mjk5MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5MzIxNCwtMzA1
-MDUxOTIzXX0=
+eyJoaXN0b3J5IjpbMTAwMTU5NDA1MSwxMDIxMTYwNTA2LDg0Mz
+AwODcxMiwzODM4NTEzLDI3MDk3MDI0NywtNDUyNjA4NzAsLTE2
+MzUyMzc1MDksLTIxMzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4Mz
+M0MiwtMTA2MTMxOTc5MywxNDk5MzYwMzc4LC0yMDQ0MzM0NDc3
+LC0xMDM0NDM4MzU2LC0xMDM0NDM4MzU2LDExODE2NDI1NDUsLT
+gyOTkxNTQyOCwyMTQ1OTc5NTM5LC0xOTc3NDkzMjE0LC0zMDUw
+NTE5MjNdfQ==
 -->
