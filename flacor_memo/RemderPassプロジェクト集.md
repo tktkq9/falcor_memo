@@ -757,7 +757,8 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 
 特徴的なのはcomputeWeight()で、  
 式（3）w_z、式（4）w_n、式（5）w_lを計算して返す関数  
-この関数では計算されていないw_zとw_lの分母部分は、引数のphiDepthとphiIllumで事前に計算されている前提となっている（これは、この関数が使われているSVGFFilterMoments.ps.slangと、SVGFAtrous.ps.slangのイテレーションごとで計算が違うため）  
+この関数では計算されていないw_zとw_lの分母部分は、引数のphiDepthとphiIllumで事前に計算されている前提となっている  
+（これは、この関数が使われているSVGFFilterMoments.ps.slangと、SVGFAtrous.ps.slangのイテレーションごとで計算が違うため）  
 
 ### その他
 ちなみに発展形として時間変化も考慮したA-SVGF[https://shikihuiku.wordpress.com/2019/06/27/%E3%83%A1%E3%83%A2a-svgf%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/]があるがこちらは未実装（？）  
@@ -769,11 +770,11 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTUxNTA1MSwyNzA5NzAyNDcsLTQ1Mj
-YwODcwLC0xNjM1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQz
-NSwzOTE1ODMzNDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMj
-A0NDMzNDQ3NywtMTAzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgx
-NjQyNTQ1LC04Mjk5MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5Mz
-IxNCwtMzA1MDUxOTIzLDEwMzAxOTgzNzYsLTE3NzAwNTIzMzIs
-LTE2MTIyOTYzMDZdfQ==
+eyJoaXN0b3J5IjpbMzE1NzY5MDIxLDI3MDk3MDI0NywtNDUyNj
+A4NzAsLTE2MzUyMzc1MDksLTIxMzkwNzcwNjcsNjM2MDY4NDM1
+LDM5MTU4MzM0MiwtMTA2MTMxOTc5MywxNDk5MzYwMzc4LC0yMD
+Q0MzM0NDc3LC0xMDM0NDM4MzU2LC0xMDM0NDM4MzU2LDExODE2
+NDI1NDUsLTgyOTkxNTQyOCwyMTQ1OTc5NTM5LC0xOTc3NDkzMj
+E0LC0zMDUwNTE5MjMsMTAzMDE5ODM3NiwtMTc3MDA1MjMzMiwt
+MTYxMjI5NjMwNl19
 -->
