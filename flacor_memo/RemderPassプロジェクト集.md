@@ -743,7 +743,7 @@ illuminationを抽出し、以前フレームでの情報をもとにilluminatio
 TODO : この計算の根拠調査、素材の色 * そこにあたる光の強さが描画結果になると思われるのでmaxの部分以外は感覚でわかる感じもなくはない  
 
 次にgMotionをもとに、現在のピクセルに対応する以前のピクセルが同じ場所かをgPrevLinearZAndNormalによるdepthとnormalから判定し、  
-変化がない場合はgPrevIllum、gPrevMoments、gPrevLinearZAndNormal、gPrevHistoryLengthのピクセル
+変化がない場合はgPrevIllum、gPrevMoments、gPrevHistoryLengthのピクセル
 それが現在の
 
 また、4.1 Temporal €lteringの最後の段落に書いてあるように、  
@@ -782,7 +782,7 @@ SVGFReproject.ps.slangから得られた出力をもとに式（3）w_z、式（
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxODk3NDY1Miw4NDMwMDg3MTIsMzgzOD
+eyJoaXN0b3J5IjpbMTAyMTE2MDUwNiw4NDMwMDg3MTIsMzgzOD
 UxMywyNzA5NzAyNDcsLTQ1MjYwODcwLC0xNjM1MjM3NTA5LC0y
 MTM5MDc3MDY3LDYzNjA2ODQzNSwzOTE1ODMzNDIsLTEwNjEzMT
 k3OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3NywtMTAzNDQzODM1
