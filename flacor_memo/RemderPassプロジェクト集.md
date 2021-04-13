@@ -711,7 +711,7 @@ SSAO.ps.slangで作った（そして設定されていればブラーもかけ�
 [Spatiotemporal Variance-Guided Filtering: Real-Time Reconstruction for Path-Traced Global Illumination](https://research.nvidia.com/publication/2017-07_Spatiotemporal-Variance-Guided-Filtering%3A)  
 の実装、レイトレ用  
 レイトレのノイズを減らすフィルターパス  
-カラーからilluminationを抽出し、
+論文に書いてあるようにカラーからilluminationを抽出し、それにフィルターをかけて、元に戻す
 
 linearZを使っているので、それを出力しているGBufferRasterがある前提のパス  
 ちなみに、GBufferRTの方はlinearZがないので使えない。このことから多分GBufferRTは実用ではなくお試し実装しただけのやつっぽい  
@@ -829,7 +829,7 @@ gHistoryLengthは使われてないし、gAlbedoもサイズ取得のみでし�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzUwMDg0NDAsLTkxODIwMjc3MCwtMT
+eyJoaXN0b3J5IjpbLTE5OTQ1ODM2MDMsLTkxODIwMjc3MCwtMT
 gyMzMyMTY3MSwyMDMyMjU3NjYwLDEwMjExNjA1MDYsODQzMDA4
 NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3LC00NTI2MDg3MCwtMTYzNT
 IzNzUwOSwtMjEzOTA3NzA2Nyw2MzYwNjg0MzUsMzkxNTgzMzQy
