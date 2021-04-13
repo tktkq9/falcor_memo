@@ -728,7 +728,7 @@ gMotionとgLinearZAndNormalと前フレームのgLinearZAndNormalで以前と現
 4. mFilterIterations回mpAtrousによりVGFAtrous.ps.slangを実行し4.3 Edge-avoiding a-trous wavelet transformを行う  
 2つのバッファーを交換しながら、gStepSizeを増やしてVGFAtrous.ps.slangを繰り返すことによってgIlluminationの
 論文では5回やっているが、こちらのデフォルト値は4回となっている  
-
+論文に書いてあるように、イテレーション1回目の出力をgPrevIllumに割り当てている  
 6. mpFinalModulateによりSVGFFinalModulate.ps.slangを実行、  
 
 
@@ -800,11 +800,11 @@ computeVarianceCenter
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMjI1NzY2MCwxMDIxMTYwNTA2LDg0Mz
-AwODcxMiwzODM4NTEzLDI3MDk3MDI0NywtNDUyNjA4NzAsLTE2
-MzUyMzc1MDksLTIxMzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4Mz
-M0MiwtMTA2MTMxOTc5MywxNDk5MzYwMzc4LC0yMDQ0MzM0NDc3
-LC0xMDM0NDM4MzU2LC0xMDM0NDM4MzU2LDExODE2NDI1NDUsLT
-gyOTkxNTQyOCwyMTQ1OTc5NTM5LC0xOTc3NDkzMjE0LC0zMDUw
-NTE5MjNdfQ==
+eyJoaXN0b3J5IjpbMzAwMDkzNTE4LDIwMzIyNTc2NjAsMTAyMT
+E2MDUwNiw4NDMwMDg3MTIsMzgzODUxMywyNzA5NzAyNDcsLTQ1
+MjYwODcwLC0xNjM1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNjA2OD
+QzNSwzOTE1ODMzNDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwt
+MjA0NDMzNDQ3NywtMTAzNDQzODM1NiwtMTAzNDQzODM1NiwxMT
+gxNjQyNTQ1LC04Mjk5MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5
+MzIxNF19
 -->
