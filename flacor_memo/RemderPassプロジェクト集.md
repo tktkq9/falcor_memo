@@ -737,7 +737,7 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 ### SVGFReproject.ps.slang
 
 ### SVGFFilterMoments.ps.slang
-4.2 Variance estimationの後半に書いてある、momentを使った7×7 bilateral filterによるluminanceとそのvarianceの計算用シェーダー  
+4.2 Variance estimationの後半に書いてある、momentと式（3）のw_z、式（4）のw_n、式（5）のw_lによる7×7 bilateral filterによるluminanceとそのvarianceの計算用シェーダー  
   
 テンポラルな蓄積が4フレーム未満の場合は、
 luminanceとそのvarianceは蓄積したものではなく、
@@ -764,11 +764,11 @@ luminanceとそのvarianceは蓄積したものではなく、
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDU1ODcyNDEsLTQ1MjYwODcwLC0xNj
-M1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQzNSwzOTE1ODMz
-NDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3Ny
-wtMTAzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04
-Mjk5MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MD
-UxOTIzLDEwMzAxOTgzNzYsLTE3NzAwNTIzMzIsLTE2MTIyOTYz
-MDYsMTAwNjExNTQ5N119
+eyJoaXN0b3J5IjpbNjY3MDYxODYsLTQ1MjYwODcwLC0xNjM1Mj
+M3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQzNSwzOTE1ODMzNDIs
+LTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3NywtMT
+AzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5
+MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MDUxOT
+IzLDEwMzAxOTgzNzYsLTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYs
+MTAwNjExNTQ5N119
 -->
