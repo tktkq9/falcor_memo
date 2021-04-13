@@ -778,7 +778,9 @@ gIlluminationに対するエッジ検出フィルター処理
 つまり、4.4 Edge-stopping functionsによる重み計算によって、4.3 Edge-avoiding a-trous wavelet transformによるIllumination計算を行うためのシェーダー    
 これ自体はa-trous wavelet transform1回分の処理となっており、gStepSizeを変えつつ複数回このシェーダーを実行することによってイテレーションを回す  
 
-computeVarianceCenter
+
+
+computeVarianceCenter()はw_lの分母にあるg_3x3(Var)のためのガウシアンフィルター関数  
 
 ### SVGFFinalModulate.ps.slang
 
@@ -801,11 +803,11 @@ computeVarianceCenter
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1Mjk1ODI4MiwyMDMyMjU3NjYwLDEwMj
-ExNjA1MDYsODQzMDA4NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3LC00
-NTI2MDg3MCwtMTYzNTIzNzUwOSwtMjEzOTA3NzA2Nyw2MzYwNj
-g0MzUsMzkxNTgzMzQyLC0xMDYxMzE5NzkzLDE0OTkzNjAzNzgs
-LTIwNDQzMzQ0NzcsLTEwMzQ0MzgzNTYsLTEwMzQ0MzgzNTYsMT
-E4MTY0MjU0NSwtODI5OTE1NDI4LDIxNDU5Nzk1MzksLTE5Nzc0
-OTMyMTRdfQ==
+eyJoaXN0b3J5IjpbLTIwODY1NzQ3MzksMjAzMjI1NzY2MCwxMD
+IxMTYwNTA2LDg0MzAwODcxMiwzODM4NTEzLDI3MDk3MDI0Nywt
+NDUyNjA4NzAsLTE2MzUyMzc1MDksLTIxMzkwNzcwNjcsNjM2MD
+Y4NDM1LDM5MTU4MzM0MiwtMTA2MTMxOTc5MywxNDk5MzYwMzc4
+LC0yMDQ0MzM0NDc3LC0xMDM0NDM4MzU2LC0xMDM0NDM4MzU2LD
+ExODE2NDI1NDUsLTgyOTkxNTQyOCwyMTQ1OTc5NTM5LC0xOTc3
+NDkzMjE0XX0=
 -->
