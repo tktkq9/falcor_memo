@@ -741,9 +741,9 @@ gMotionとgLinearZAndNormalと前フレームのgLinearZAndNormalで以前と現
 SVGFReproject.ps.slangのillumination計算の逆変換を行いgColorを出力、pOutputTextureにそれをコピー  
 あと、pPrevLinearZAndNormalTextureとmpPrevReprojFbo（gPrevMomentsとgPrevHistoryLength）を更新  
 
-in : Albedo   
-in : Color   
-in : Emission、  
+in : Albedo、illumination計算用その1  
+in : Color、illumination計算用その2   
+in : Emission、illumination計算用その3  
 in : WorldPosition、実は使われてないのでいらない  
 in : WorldNormal、w_nの計算や、前フレームと同じ状態かの判定に使用される  
 in : PositionNormalFwidth、前フレームと同じ状態かのnormal判定で使用される（これで割ってノーマルの差異をスケールする）  
@@ -834,7 +834,7 @@ gHistoryLengthは使われてないし、gAlbedoもサイズ取得のみでし�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc0MDcwODQzLC05MTgyMDI3NzAsLTE4Mj
+eyJoaXN0b3J5IjpbMjAwOTMxNzIwLC05MTgyMDI3NzAsLTE4Mj
 MzMjE2NzEsMjAzMjI1NzY2MCwxMDIxMTYwNTA2LDg0MzAwODcx
 MiwzODM4NTEzLDI3MDk3MDI0NywtNDUyNjA4NzAsLTE2MzUyMz
 c1MDksLTIxMzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4MzM0Miwt
