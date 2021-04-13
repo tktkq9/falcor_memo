@@ -740,7 +740,7 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 4.2 Variance estimationの後半に書いてある、7×7 bilateral filterによるluminanceとそのvarianceの計算用シェーダー  
   
 テンポラルな蓄積が4フレーム未満の場合は、luminanceとそのvarianceは蓄積したものではなく、  
-今の描画結果をもとに式（3）のw_z、式（4）のw_n、式（5）のw_lの重みを計算し、  
+現在のSVGFReproject.ps.slangの結果をもとに式（3）のw_z、式（4）のw_n、式（5）のw_lの重みを計算し、  
 その重みと現在のluminance（moment）で7×7サンプリングし、新しいluminance（variance）を計算して返す  
 また、varianceの方は 4 / 蓄積frame数 の補正をかける  
 
@@ -768,11 +768,11 @@ linearZテクスチャーとノーマルテクスチャーを一つのテクス�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE5MjM1OTMsLTQ1MjYwODcwLC0xNjM1Mj
-M3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQzNSwzOTE1ODMzNDIs
-LTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3NywtMT
-AzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04Mjk5
-MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MDUxOT
-IzLDEwMzAxOTgzNzYsLTE3NzAwNTIzMzIsLTE2MTIyOTYzMDYs
-MTAwNjExNTQ5N119
+eyJoaXN0b3J5IjpbLTE2NTk5MzI0NzcsLTQ1MjYwODcwLC0xNj
+M1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQzNSwzOTE1ODMz
+NDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3Ny
+wtMTAzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC04
+Mjk5MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5MzIxNCwtMzA1MD
+UxOTIzLDEwMzAxOTgzNzYsLTE3NzAwNTIzMzIsLTE2MTIyOTYz
+MDYsMTAwNjExNTQ5N119
 -->
