@@ -720,7 +720,8 @@ linearZを使っているので、それを出力しているGBufferRasterがあ
 1. mpPackLinearZAndNormalによりSVGFPackLinearZAndNormal.ps.slangを実行し、  
 gLinearZAndNormalを作成してSVGFReproject.ps.slangに渡す  
 2. mpReprojectionによりSVGFReproject.ps.slangを実行し、  
-3. mpFilterMomentsによりSVGFFilterMoments.ps.slangを実行し、  
+gLinearZAndNormalと前フレームのgLinearZAndNormalで依然と現在のぴくせ  
+4. mpFilterMomentsによりSVGFFilterMoments.ps.slangを実行し、  
 蓄積フレームが少ないところは4.2 Variance estimationの後半に書いてある、現在の計算結果からluminanceとvarianceの計算を行う  
 5. mFilterIterations回mpAtrousによりVGFAtrous.ps.slangを実行、  
 6. mpFinalModulateによりSVGFFinalModulate.ps.slangを実行、  
@@ -789,11 +790,11 @@ SVGFReproject.ps.slangから得られた出力をもとに式（3）w_z、式（
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MDg3MDMwNiwxMDIxMTYwNTA2LDg0Mz
-AwODcxMiwzODM4NTEzLDI3MDk3MDI0NywtNDUyNjA4NzAsLTE2
-MzUyMzc1MDksLTIxMzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4Mz
-M0MiwtMTA2MTMxOTc5MywxNDk5MzYwMzc4LC0yMDQ0MzM0NDc3
-LC0xMDM0NDM4MzU2LC0xMDM0NDM4MzU2LDExODE2NDI1NDUsLT
-gyOTkxNTQyOCwyMTQ1OTc5NTM5LC0xOTc3NDkzMjE0LC0zMDUw
-NTE5MjNdfQ==
+eyJoaXN0b3J5IjpbLTEwOTIxMjIzNzcsMTAyMTE2MDUwNiw4ND
+MwMDg3MTIsMzgzODUxMywyNzA5NzAyNDcsLTQ1MjYwODcwLC0x
+NjM1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQzNSwzOTE1OD
+MzNDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0NDMzNDQ3
+NywtMTAzNDQzODM1NiwtMTAzNDQzODM1NiwxMTgxNjQyNTQ1LC
+04Mjk5MTU0MjgsMjE0NTk3OTUzOSwtMTk3NzQ5MzIxNCwtMzA1
+MDUxOTIzXX0=
 -->
