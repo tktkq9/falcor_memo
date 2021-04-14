@@ -918,9 +918,10 @@ scaleA、scaleBによるA、Bそれぞれのスケールもできるようにな
 シェーダーは1Dにガウス重み足し合わせで、横方向にかける -> この結果に対し縦方向にかける、といった感じで計算回数を節約している  
 kernelWidthがn x nフィルターのnの部分、中心を必ず含まなければいけないので、自動的に奇数に設定される  
 mSigmaがガウス分布関数にあるσ  
-これらからガウス重みをCP
+これらからガウス重みをCPU側で事前計算し、その配列をシェーダーに渡すといった感じ  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzQyMjE1Miw1NjA0NTYxOTIsLTI4OD
+eyJoaXN0b3J5IjpbLTUyODAyMDY2Niw1NjA0NTYxOTIsLTI4OD
 IxNjQ2NSwtNTE0OTQ0NjU4LC0xMDE2NjY2MjgwLC0xMjg0NjM3
 MDQzLDEyMDIxNDcwODAsMTI2Mjc4NTU2LC05MTgyMDI3NzAsLT
 E4MjMzMjE2NzEsMjAzMjI1NzY2MCwxMDIxMTYwNTA2LDg0MzAw
