@@ -876,13 +876,15 @@ luminanceを出力した後mipmapを作成し、luminance平均を求める
 mAutoExposureがfalseの時はluminance平均による補正は行われず、  
 かわりに、シャッタースピード or 露光、f値による計算が行われる  
 
+これらの補正＋mWhitePointによる色温度補正が考慮され、  
+色補正行列mColorTransformが計算されシェーダーで
 
 
 ### ToneMapperParams.slang
 ToneMapperOperatorというenumの定義と、トーンマップシェーダーで使うパラメーターToneMapperParamsを定義しているだけ  
 HostDeviceShared.slanghを使っているのでGPU、CPU双方でこれを共有している  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1ODI1MDk2NiwtNTE0OTQ0NjU4LC0xMD
+eyJoaXN0b3J5IjpbLTc4NzQ1NzY1NCwtNTE0OTQ0NjU4LC0xMD
 E2NjY2MjgwLC0xMjg0NjM3MDQzLDEyMDIxNDcwODAsMTI2Mjc4
 NTU2LC05MTgyMDI3NzAsLTE4MjMzMjE2NzEsMjAzMjI1NzY2MC
 wxMDIxMTYwNTA2LDg0MzAwODcxMiwzODM4NTEzLDI3MDk3MDI0
