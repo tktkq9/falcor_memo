@@ -906,16 +906,16 @@ _TONE_MAPPER_CLAMPが設定されていたらsaturate()も行われて終わり
 ### Utils.cpp
 2つのパスをpybind11する処理のみ  
 
-### Composite.h, cpp
+### Composite.h, cppとシェーダー
 入力A、Bを足し算 or 掛け算するだけのパス  
 CompositeMode.slanghは足し算掛け算のどちらをするかのdefineを定義しているだけ  
 Composite.cs.slangはその足し算掛け算するだけコンピュートシェーダー  
 このシェーダーのComputePassを作って実行するだけ  
 scaleA、scaleBによるA、Bそれぞれのスケールもできるようになっている  
 
-
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4Njk0MDIxMiwtNTE0OTQ0NjU4LC0xMD
+eyJoaXN0b3J5IjpbLTI4ODIxNjQ2NSwtNTE0OTQ0NjU4LC0xMD
 E2NjY2MjgwLC0xMjg0NjM3MDQzLDEyMDIxNDcwODAsMTI2Mjc4
 NTU2LC05MTgyMDI3NzAsLTE4MjMzMjE2NzEsMjAzMjI1NzY2MC
 wxMDIxMTYwNTA2LDg0MzAwODcxMiwzODM4NTEzLDI3MDk3MDI0
