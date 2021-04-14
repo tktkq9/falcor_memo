@@ -913,9 +913,10 @@ Composite.cs.slangはその足し算掛け算するだけコンピュートシ�
 このシェーダーのComputePassを作って実行するだけ  
 scaleA、scaleBによるA、Bそれぞれのスケールもできるようになっている  
 
-### GaussianBlur
+### GaussianBlur.h, cppとシェーダー
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM0NzA1Njc3LC0yODgyMTY0NjUsLTUxND
+eyJoaXN0b3J5IjpbNTYwNDU2MTkyLC0yODgyMTY0NjUsLTUxND
 k0NDY1OCwtMTAxNjY2NjI4MCwtMTI4NDYzNzA0MywxMjAyMTQ3
 MDgwLDEyNjI3ODU1NiwtOTE4MjAyNzcwLC0xODIzMzIxNjcxLD
 IwMzIyNTc2NjAsMTAyMTE2MDUwNiw4NDMwMDg3MTIsMzgzODUx
