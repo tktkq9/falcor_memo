@@ -915,12 +915,12 @@ scaleA、scaleBによるA、Bそれぞれのスケールもできるようにな
 
 ### GaussianBlur.h, cppとシェーダー
 ガウシアンブラーをかけるパス  
-シェーダーは1Dにガウス重み足し合わせで、縦方向
+シェーダーは1Dにガウス重み足し合わせで、横方向にかける -> この結果に対し縦方向にかける、といった感じで計算回数を節約している  
 kernelWidthがn x nフィルターのnの部分、中心を必ず含まなければいけないので、自動的に奇数に設定される  
 mSigmaがガウス分布関数にあるσ  
-これらから
+これらからガウス重みをCP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzUwODA5Miw1NjA0NTYxOTIsLTI4OD
+eyJoaXN0b3J5IjpbLTE2MzQyMjE1Miw1NjA0NTYxOTIsLTI4OD
 IxNjQ2NSwtNTE0OTQ0NjU4LC0xMDE2NjY2MjgwLC0xMjg0NjM3
 MDQzLDEyMDIxNDcwODAsMTI2Mjc4NTU2LC05MTgyMDI3NzAsLT
 E4MjMzMjE2NzEsMjAzMjI1NzY2MCwxMDIxMTYwNTA2LDg0MzAw
