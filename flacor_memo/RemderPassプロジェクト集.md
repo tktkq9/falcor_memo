@@ -856,11 +856,13 @@ imguiによりシャッタースピード or 露光、f値（mAutoExposureがtru
 ( 1 + luminance )^2がかけられている。ミス？
 - HejiHableAlu : John Hable's ALU approximation of Jim Heji's operator、リンク切れしているのでどんなのかなぞ、多分[Hable John Uncharted2 Hdr Lighting](https://www.slideshare.net/ozlael/hable-john-uncharted2-hdr-lighting)142ページあたり  
 実装を見るにHableUc2の亜種  
-- HableUc2 : アンチャーテッド2で使われているやつ、[Hable John Uncharted2 Hdr Lighting](https://www.slideshare.net/ozlael/hable-john-uncharted2-hdr-lighting)142ページあたり  
+- HableUc2 : アンチャーテッド2で使われているやつ、同じくコードに書いてある奴はリンク切れ  
+参考文献は[Hable John Uncharted2 Hdr Lighting](https://www.slideshare.net/ozlael/hable-john-uncharted2-hdr-lighting)142ページあたり  
 
-大体の関数とその結果は[[Tone Mapping](https://64.github.io/tonemapping/)](https://64.github.io/tonemapping/)参照
+大体の関数とその結果は[[Tone Mapping](https://64.github.io/tonemapping/)](https://64.github.io/tonemapping/)の方にもまとまっている  
+ただしアンチャーテッド2のパラメーター設定がちょっと違う  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NTU0NzU1NCwtNTE0OTQ0NjU4LC0xMD
+eyJoaXN0b3J5IjpbMTk1NjY5MDA4MywtNTE0OTQ0NjU4LC0xMD
 E2NjY2MjgwLC0xMjg0NjM3MDQzLDEyMDIxNDcwODAsMTI2Mjc4
 NTU2LC05MTgyMDI3NzAsLTE4MjMzMjE2NzEsMjAzMjI1NzY2MC
 wxMDIxMTYwNTA2LDg0MzAwODcxMiwzODM4NTEzLDI3MDk3MDI0
