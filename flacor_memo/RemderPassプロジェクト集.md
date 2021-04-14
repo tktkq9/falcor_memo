@@ -852,15 +852,15 @@ imguiによりシャッタースピード or 露光、f値（mAutoExposureがtru
 また、トーンマップ関数は  
 - Linear : そのまま出力
 - Reinhard : Reinhard関数、color / (luminance + 1)
-- ReinhardModified : [Extended Reinhard](https://64.github.io/tonemapping/#extended-reinhard)、color * (1 + luminance / whiteMaxLuminance^2) / 
+- ReinhardModified : [Extended Reinhard](https://64.github.io/tonemapping/#extended-reinhard)、color * (1 + luminance / whiteMaxLuminance^2) / ( 1 + luminance)のはずなんだが、
 
 大体の関数とその結果は[[Tone Mapping](https://64.github.io/tonemapping/)](https://64.github.io/tonemapping/)参照
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjM3NzEzODEsLTEwMTY2NjYyODAsLT
-EyODQ2MzcwNDMsMTIwMjE0NzA4MCwxMjYyNzg1NTYsLTkxODIw
-Mjc3MCwtMTgyMzMyMTY3MSwyMDMyMjU3NjYwLDEwMjExNjA1MD
-YsODQzMDA4NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3LC00NTI2MDg3
-MCwtMTYzNTIzNzUwOSwtMjEzOTA3NzA2Nyw2MzYwNjg0MzUsMz
-kxNTgzMzQyLC0xMDYxMzE5NzkzLDE0OTkzNjAzNzgsLTIwNDQz
-MzQ0NzddfQ==
+eyJoaXN0b3J5IjpbMTgwMDE1NTQ2NywtMTAxNjY2NjI4MCwtMT
+I4NDYzNzA0MywxMjAyMTQ3MDgwLDEyNjI3ODU1NiwtOTE4MjAy
+NzcwLC0xODIzMzIxNjcxLDIwMzIyNTc2NjAsMTAyMTE2MDUwNi
+w4NDMwMDg3MTIsMzgzODUxMywyNzA5NzAyNDcsLTQ1MjYwODcw
+LC0xNjM1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQzNSwzOT
+E1ODMzNDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0NDMz
+NDQ3N119
 -->
