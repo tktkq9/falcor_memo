@@ -849,7 +849,7 @@ out : maxDelay、mDelay前のsrc
 imguiによりシャッタースピード or 露光、f値（mAutoExposureがtrueの場合はシェーダー側でLuminanceの平均を計算して自動調整）と  
 色温度で画像の明るさ基準を設定できる  
 
-また、トーンマップ関数は以下の5種類の中から選べる    
+また、トーンマップ関数はToneMapperOperatorというenumによって以下の5種類の中から選べる    
 - Linear : そのまま出力
 - Reinhard : Reinhard関数、color / (luminance + 1)
 - ReinhardModified : [Extended Reinhard](https://64.github.io/tonemapping/#extended-reinhard)、color * (1 + luminance / whiteMaxLuminance^2 ) / ( 1 + luminance )のはずなんだが、  
@@ -893,12 +893,16 @@ mAutoExposureがtrueの場合にのみ実行されるcolorをluminanceに変換�
 ### ToneMapping.ps.slang
 トーンマップ用シェーダー  
 
+srcのcolorに対し  
+設定されていたらluminance平均処理を行い、  
+colorTransform
+ToneMapperOperator
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MDc0NTcsLTUxNDk0NDY1OCwtMTAxNj
-Y2NjI4MCwtMTI4NDYzNzA0MywxMjAyMTQ3MDgwLDEyNjI3ODU1
-NiwtOTE4MjAyNzcwLC0xODIzMzIxNjcxLDIwMzIyNTc2NjAsMT
-AyMTE2MDUwNiw4NDMwMDg3MTIsMzgzODUxMywyNzA5NzAyNDcs
-LTQ1MjYwODcwLC0xNjM1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNj
-A2ODQzNSwzOTE1ODMzNDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3
-OF19
+eyJoaXN0b3J5IjpbLTE1MTE5MjE3ODcsLTUxNDk0NDY1OCwtMT
+AxNjY2NjI4MCwtMTI4NDYzNzA0MywxMjAyMTQ3MDgwLDEyNjI3
+ODU1NiwtOTE4MjAyNzcwLC0xODIzMzIxNjcxLDIwMzIyNTc2Nj
+AsMTAyMTE2MDUwNiw4NDMwMDg3MTIsMzgzODUxMywyNzA5NzAy
+NDcsLTQ1MjYwODcwLC0xNjM1MjM3NTA5LC0yMTM5MDc3MDY3LD
+YzNjA2ODQzNSwzOTE1ODMzNDIsLTEwNjEzMTk3OTMsMTQ5OTM2
+MDM3OF19
 -->
