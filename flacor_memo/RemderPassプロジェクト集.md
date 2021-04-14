@@ -834,18 +834,22 @@ SVGFReproject.ps.slangのillumination計算の逆処理によって、
 この処理のために、フレーム数分そのままcopyResource()でコピーしていくだけ  
 
 ### TemporalDelayPass.h, cpp
-imguiで設定したmDelayだけ、それ用のrenderData
+imguiで設定したmDelayだけ、それ用のrenderDataを作り、  
+execute()ではそのrenderDataをそのままcopyResource()でコピーしていくだけの処理  
+シェーダーいらず  
+
+in : src、コピー元  
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTA2NjQwOTAsMTIwMjE0NzA4MCwxMj
-YyNzg1NTYsLTkxODIwMjc3MCwtMTgyMzMyMTY3MSwyMDMyMjU3
-NjYwLDEwMjExNjA1MDYsODQzMDA4NzEyLDM4Mzg1MTMsMjcwOT
-cwMjQ3LC00NTI2MDg3MCwtMTYzNTIzNzUwOSwtMjEzOTA3NzA2
-Nyw2MzYwNjg0MzUsMzkxNTgzMzQyLC0xMDYxMzE5NzkzLDE0OT
-kzNjAzNzgsLTIwNDQzMzQ0NzcsLTEwMzQ0MzgzNTYsLTEwMzQ0
-MzgzNTZdfQ==
+eyJoaXN0b3J5IjpbMTcwNTgwMjkxOSwxMjAyMTQ3MDgwLDEyNj
+I3ODU1NiwtOTE4MjAyNzcwLC0xODIzMzIxNjcxLDIwMzIyNTc2
+NjAsMTAyMTE2MDUwNiw4NDMwMDg3MTIsMzgzODUxMywyNzA5Nz
+AyNDcsLTQ1MjYwODcwLC0xNjM1MjM3NTA5LC0yMTM5MDc3MDY3
+LDYzNjA2ODQzNSwzOTE1ODMzNDIsLTEwNjEzMTk3OTMsMTQ5OT
+M2MDM3OCwtMjA0NDMzNDQ3NywtMTAzNDQzODM1NiwtMTAzNDQz
+ODM1Nl19
 -->
