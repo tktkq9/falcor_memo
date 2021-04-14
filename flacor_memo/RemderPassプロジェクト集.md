@@ -846,10 +846,11 @@ out : maxDelay、mDelay前のsrc
 ## ToneMapperプロジェクト
 トーンマッピングパス  
 
-シャッタースピード or 露光、f値、色温度
+シャッタースピード or 露光、f値で光量
+色温度
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMwNDc5OTEzLC0xMDE2NjY2MjgwLC0xMj
+eyJoaXN0b3J5IjpbMjA5NTYxMjg3LC0xMDE2NjY2MjgwLC0xMj
 g0NjM3MDQzLDEyMDIxNDcwODAsMTI2Mjc4NTU2LC05MTgyMDI3
 NzAsLTE4MjMzMjE2NzEsMjAzMjI1NzY2MCwxMDIxMTYwNTA2LD
 g0MzAwODcxMiwzODM4NTEzLDI3MDk3MDI0NywtNDUyNjA4NzAs
