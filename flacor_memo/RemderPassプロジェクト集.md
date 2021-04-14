@@ -849,7 +849,7 @@ out : maxDelay、mDelay前のsrc
 imguiによりシャッタースピード or 露光、f値（mAutoExposureがtrueの場合はシェーダー側でLuminanceの平均を計算して自動調整）と  
 色温度で画像の明るさ基準を設定できる  
 
-また、トーンマップ関数は  
+また、トーンマップ関数は以下の5種類の中から選べる    
 - Linear : そのまま出力
 - Reinhard : Reinhard関数、color / (luminance + 1)
 - ReinhardModified : [Extended Reinhard](https://64.github.io/tonemapping/#extended-reinhard)、color * (1 + luminance / whiteMaxLuminance^2 ) / ( 1 + luminance )のはずなんだが、  
@@ -864,7 +864,7 @@ TODO : ちゃんと探す
 参考として、これらの説明とその結果は[[Tone Mapping](https://64.github.io/tonemapping/)](https://64.github.io/tonemapping/)の方にも大体まとまっている  
 ただしアンチャーテッド2のパラメーター設定がちょっと違う  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIzMDY2OTQzLC01MTQ5NDQ2NTgsLTEwMT
+eyJoaXN0b3J5IjpbMjYzMzUxODY1LC01MTQ5NDQ2NTgsLTEwMT
 Y2NjYyODAsLTEyODQ2MzcwNDMsMTIwMjE0NzA4MCwxMjYyNzg1
 NTYsLTkxODIwMjc3MCwtMTgyMzMyMTY3MSwyMDMyMjU3NjYwLD
 EwMjExNjA1MDYsODQzMDA4NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3
