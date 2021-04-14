@@ -851,8 +851,10 @@ imguiによりシャッタースピード or 露光、f値（mAutoExposureがtru
 
 また、トーンマップ関数は  
 - Linear : そのまま出力
+- Reinhard : Reinhard関数、color / (luminance + 1)
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzQ3MzMwNjUsLTEwMTY2NjYyODAsLT
+eyJoaXN0b3J5IjpbLTIwMDU5NjU0NDUsLTEwMTY2NjYyODAsLT
 EyODQ2MzcwNDMsMTIwMjE0NzA4MCwxMjYyNzg1NTYsLTkxODIw
 Mjc3MCwtMTgyMzMyMTY3MSwyMDMyMjU3NjYwLDEwMjExNjA1MD
 YsODQzMDA4NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3LC00NTI2MDg3
