@@ -923,9 +923,11 @@ mSigmaがガウス分布関数にあるσ
 これらからガウス重みをCPU側で事前計算し、その配列をシェーダーに渡すといった感じ  
 
 ## WhittedRayTraceプロジェクト
-MegakernelPathTracer、
+MegakernelPathTracer、MinimalPathTracerに続き、3つ目のパストレーサーパス  
+このパスもMinimalPathTracerに近いが、  
+反射レイの方向がBSDFサンプルしない
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzAwNzM1Miw1NjA0NTYxOTIsLTI4OD
+eyJoaXN0b3J5IjpbLTU1MTIxMzU0NCw1NjA0NTYxOTIsLTI4OD
 IxNjQ2NSwtNTE0OTQ0NjU4LC0xMDE2NjY2MjgwLC0xMjg0NjM3
 MDQzLDEyMDIxNDcwODAsMTI2Mjc4NTU2LC05MTgyMDI3NzAsLT
 E4MjMzMjE2NzEsMjAzMjI1NzY2MCwxMDIxMTYwNTA2LDg0MzAw
