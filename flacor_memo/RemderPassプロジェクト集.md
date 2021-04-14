@@ -915,9 +915,10 @@ scaleA、scaleBによるA、Bそれぞれのスケールもできるようにな
 
 ### GaussianBlur.h, cppとシェーダー
 ガウシアンブラーをかけるパス  
-kernelWidthが
+kernelWidthがn x nフィルターのnの部分、中心を必ず含まなければいけないので、自動的に奇数に設定される  
+mSigmaがガウス分布関数にあるｓ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMTIwNzg1MSw1NjA0NTYxOTIsLTI4OD
+eyJoaXN0b3J5IjpbMTUzMDU3MDQ3NCw1NjA0NTYxOTIsLTI4OD
 IxNjQ2NSwtNTE0OTQ0NjU4LC0xMDE2NjY2MjgwLC0xMjg0NjM3
 MDQzLDEyMDIxNDcwODAsMTI2Mjc4NTU2LC05MTgyMDI3NzAsLT
 E4MjMzMjE2NzEsMjAzMjI1NzY2MCwxMDIxMTYwNTA2LDg0MzAw
