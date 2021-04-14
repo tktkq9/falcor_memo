@@ -897,9 +897,16 @@ srcのcolorに対し
 設定されていたらluminance平均処理を行い、  
 シャッタースピード or 露光、f値、色温度による補正行列colorTransformをcolorにかけ、  
 設定されたToneMapperOperatorによる関数によってトーンマップされる  
-_TONE_MAPPER_CLAMPが設定されていたらsaturate()も行われる  
+_TONE_MAPPER_CLAMPが設定されていたらsaturate()も行われて終わり  
+
+## Utilsプロジェクト
+小道具パス集  
+足し算掛け算パスとガウシアンブラーパスの2つだけ  
+
+### Utils.cpp
+2つのパスをpybind11する処理のみ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzYwNDU1MCwtNTE0OTQ0NjU4LC0xMD
+eyJoaXN0b3J5IjpbMTM3NTAzMTA5NiwtNTE0OTQ0NjU4LC0xMD
 E2NjY2MjgwLC0xMjg0NjM3MDQzLDEyMDIxNDcwODAsMTI2Mjc4
 NTU2LC05MTgyMDI3NzAsLTE4MjMzMjE2NzEsMjAzMjI1NzY2MC
 wxMDIxMTYwNTA2LDg0MzAwODcxMiwzODM4NTEzLDI3MDk3MDI0
