@@ -927,9 +927,13 @@ MegakernelPathTracer、MinimalPathTracerに続き、3つ目のパストレーサ
 このパスもMinimalPathTracerに近いが、  
 反射レイの方向がBSDFサンプルせず鏡面反射のみであるということと、  
 RayCone、RayDiffによるLOD処理をすることと、  
-evalDirectAnalytic()で1回ではなく、lightCount回
+evalDirectAnalytic()で複数のライトから1つサンプルするのではなく、すべてのライトに対して1回サンプルする  
+あと
+という点が異なる  
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTQ0NTQ2NzMsNTYwNDU2MTkyLC0yOD
+eyJoaXN0b3J5IjpbLTEyMzc2NDAwMTYsNTYwNDU2MTkyLC0yOD
 gyMTY0NjUsLTUxNDk0NDY1OCwtMTAxNjY2NjI4MCwtMTI4NDYz
 NzA0MywxMjAyMTQ3MDgwLDEyNjI3ODU1NiwtOTE4MjAyNzcwLC
 0xODIzMzIxNjcxLDIwMzIyNTc2NjAsMTAyMTE2MDUwNiw4NDMw
