@@ -863,12 +863,17 @@ TODO : ちゃんと探す
 
 参考として、これらの説明とその結果は[[Tone Mapping](https://64.github.io/tonemapping/)](https://64.github.io/tonemapping/)の方にも大体まとまっている  
 ただしアンチャーテッド2のパラメーター設定がちょっと違う  
+
+### ToneMapper.h, cpp
+
+### ToneMapperParams.slang
+ToneMapperOperatorというenumの定義と、トーンマップシェーダーで使うパラメーターToneMapperParamsを定義しているだ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYzMzUxODY1LC01MTQ5NDQ2NTgsLTEwMT
-Y2NjYyODAsLTEyODQ2MzcwNDMsMTIwMjE0NzA4MCwxMjYyNzg1
-NTYsLTkxODIwMjc3MCwtMTgyMzMyMTY3MSwyMDMyMjU3NjYwLD
-EwMjExNjA1MDYsODQzMDA4NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3
-LC00NTI2MDg3MCwtMTYzNTIzNzUwOSwtMjEzOTA3NzA2Nyw2Mz
-YwNjg0MzUsMzkxNTgzMzQyLC0xMDYxMzE5NzkzLDE0OTkzNjAz
-NzhdfQ==
+eyJoaXN0b3J5IjpbMTc1MjQxNTI0NiwtNTE0OTQ0NjU4LC0xMD
+E2NjY2MjgwLC0xMjg0NjM3MDQzLDEyMDIxNDcwODAsMTI2Mjc4
+NTU2LC05MTgyMDI3NzAsLTE4MjMzMjE2NzEsMjAzMjI1NzY2MC
+wxMDIxMTYwNTA2LDg0MzAwODcxMiwzODM4NTEzLDI3MDk3MDI0
+NywtNDUyNjA4NzAsLTE2MzUyMzc1MDksLTIxMzkwNzcwNjcsNj
+M2MDY4NDM1LDM5MTU4MzM0MiwtMTA2MTMxOTc5MywxNDk5MzYw
+Mzc4XX0=
 -->
