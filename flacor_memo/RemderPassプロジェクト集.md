@@ -938,14 +938,16 @@ RayCone、RayDiffの部分はRayFootprint.slangやMegakernelPathTracerの処理�
 
 インプットはGBufferRaster、GBufferRTのどちらも対応している  
 GBufferRasterにのみあるgSurfaceSpreadAngleはRayConeMode::RayTracingGems1の設定の時のみ使われるが、  
-scatterClosestHit()の時にRayTracingGems1では追加するsurfaceSpreadAngleが0のままでいっているので多分ｋ
+scatterClosestHit()の時にRayTracingGems1では追加するsurfaceSpreadAngleが0のままでいっているので多分このモード含め使用しなさそう  
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMDMwOTEwLC00NTI0NjY2NDUsMTMxND
-MxOTgwMiw1NjA0NTYxOTIsLTI4ODIxNjQ2NSwtNTE0OTQ0NjU4
-LC0xMDE2NjY2MjgwLC0xMjg0NjM3MDQzLDEyMDIxNDcwODAsMT
-I2Mjc4NTU2LC05MTgyMDI3NzAsLTE4MjMzMjE2NzEsMjAzMjI1
-NzY2MCwxMDIxMTYwNTA2LDg0MzAwODcxMiwzODM4NTEzLDI3MD
-k3MDI0NywtNDUyNjA4NzAsLTE2MzUyMzc1MDksLTIxMzkwNzcw
-NjddfQ==
+eyJoaXN0b3J5IjpbMTg2NTU3NzU3OSwtNDUyNDY2NjQ1LDEzMT
+QzMTk4MDIsNTYwNDU2MTkyLC0yODgyMTY0NjUsLTUxNDk0NDY1
+OCwtMTAxNjY2NjI4MCwtMTI4NDYzNzA0MywxMjAyMTQ3MDgwLD
+EyNjI3ODU1NiwtOTE4MjAyNzcwLC0xODIzMzIxNjcxLDIwMzIy
+NTc2NjAsMTAyMTE2MDUwNiw4NDMwMDg3MTIsMzgzODUxMywyNz
+A5NzAyNDcsLTQ1MjYwODcwLC0xNjM1MjM3NTA5LC0yMTM5MDc3
+MDY3XX0=
 -->
