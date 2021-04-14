@@ -839,17 +839,19 @@ execute()ではそのrenderDataをそのままcopyResource()でコピーして�
 シェーダーいらず  
 
 in : src、コピー元  
-internal : maxDelay-i、iは
+internal : maxDelay-i、iは内部で保存されている指定以外のフレーム数  
+out : maxDelay、mDelay前のsrc  
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjU1MTc4NTIsMTIwMjE0NzA4MCwxMj
-YyNzg1NTYsLTkxODIwMjc3MCwtMTgyMzMyMTY3MSwyMDMyMjU3
-NjYwLDEwMjExNjA1MDYsODQzMDA4NzEyLDM4Mzg1MTMsMjcwOT
-cwMjQ3LC00NTI2MDg3MCwtMTYzNTIzNzUwOSwtMjEzOTA3NzA2
-Nyw2MzYwNjg0MzUsMzkxNTgzMzQyLC0xMDYxMzE5NzkzLDE0OT
-kzNjAzNzgsLTIwNDQzMzQ0NzcsLTEwMzQ0MzgzNTYsLTEwMzQ0
-MzgzNTZdfQ==
+eyJoaXN0b3J5IjpbNDg5NTYzMTYzLDEyMDIxNDcwODAsMTI2Mj
+c4NTU2LC05MTgyMDI3NzAsLTE4MjMzMjE2NzEsMjAzMjI1NzY2
+MCwxMDIxMTYwNTA2LDg0MzAwODcxMiwzODM4NTEzLDI3MDk3MD
+I0NywtNDUyNjA4NzAsLTE2MzUyMzc1MDksLTIxMzkwNzcwNjcs
+NjM2MDY4NDM1LDM5MTU4MzM0MiwtMTA2MTMxOTc5MywxNDk5Mz
+YwMzc4LC0yMDQ0MzM0NDc3LC0xMDM0NDM4MzU2LC0xMDM0NDM4
+MzU2XX0=
 -->
