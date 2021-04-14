@@ -854,15 +854,16 @@ imguiによりシャッタースピード or 露光、f値（mAutoExposureがtru
 - Reinhard : Reinhard関数、color / (luminance + 1)
 - ReinhardModified : [Extended Reinhard](https://64.github.io/tonemapping/#extended-reinhard)、color * (1 + luminance / whiteMaxLuminance^2 ) / ( 1 + luminance )のはずなんだが、  
 ( 1 + luminance )^2がかけられている。ミス？
-- HejiHableAlu : 
+- HejiHableAlu : John Hable's ALU approximation of Jim Heji's operator、リンク切れしているのでどんなのかなぞ  
+
 
 大体の関数とその結果は[[Tone Mapping](https://64.github.io/tonemapping/)](https://64.github.io/tonemapping/)参照
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNDk0NDY1OCwtMTAxNjY2NjI4MCwtMT
-I4NDYzNzA0MywxMjAyMTQ3MDgwLDEyNjI3ODU1NiwtOTE4MjAy
-NzcwLC0xODIzMzIxNjcxLDIwMzIyNTc2NjAsMTAyMTE2MDUwNi
-w4NDMwMDg3MTIsMzgzODUxMywyNzA5NzAyNDcsLTQ1MjYwODcw
-LC0xNjM1MjM3NTA5LC0yMTM5MDc3MDY3LDYzNjA2ODQzNSwzOT
-E1ODMzNDIsLTEwNjEzMTk3OTMsMTQ5OTM2MDM3OCwtMjA0NDMz
-NDQ3N119
+eyJoaXN0b3J5IjpbLTE5MjM4Mjc5OSwtNTE0OTQ0NjU4LC0xMD
+E2NjY2MjgwLC0xMjg0NjM3MDQzLDEyMDIxNDcwODAsMTI2Mjc4
+NTU2LC05MTgyMDI3NzAsLTE4MjMzMjE2NzEsMjAzMjI1NzY2MC
+wxMDIxMTYwNTA2LDg0MzAwODcxMiwzODM4NTEzLDI3MDk3MDI0
+NywtNDUyNjA4NzAsLTE2MzUyMzc1MDksLTIxMzkwNzcwNjcsNj
+M2MDY4NDM1LDM5MTU4MzM0MiwtMTA2MTMxOTc5MywxNDk5MzYw
+Mzc4XX0=
 -->
