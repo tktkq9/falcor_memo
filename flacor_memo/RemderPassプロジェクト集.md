@@ -869,7 +869,7 @@ TODO : ちゃんと探す
 Luminance.ps.slangとToneMapping.ps.slangシェーダーのFullScreenPassを作成、設定に合わせて変数計算と割り当てと実行を行うクラス  
 ToneMapping.ps.slangがトーンマップ用で、Luminance.ps.slangがmAutoExposureがtrueの時のluminance平均計算用  
 
-mAutoExposureがtrueの場合はLuminance.ps.slangのFullScreenPassがｊ行され、  
+mAutoExposureがtrueの場合はLuminance.ps.slangのFullScreenPassが実行され、  
 luminanceを出力した後mipmapを作成し、luminance平均を求める  
 この値を使って、[トーンマップいろいろ](http://hikita12312.hatenablog.com/entry/2017/08/27/002859)とかに書いてある、y = f(k / bar{L}) x)の調整を行う（このシェーダーではk = 0.042）  
 
@@ -882,7 +882,7 @@ mAutoExposureがfalseの時はluminance平均による補正は行われず、
 ToneMapperOperatorというenumの定義と、トーンマップシェーダーで使うパラメーターToneMapperParamsを定義しているだけ  
 HostDeviceShared.slanghを使っているのでGPU、CPU双方でこれを共有している  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDczMDU0MjUwLC01MTQ5NDQ2NTgsLTEwMT
+eyJoaXN0b3J5IjpbOTY4MTExNzQzLC01MTQ5NDQ2NTgsLTEwMT
 Y2NjYyODAsLTEyODQ2MzcwNDMsMTIwMjE0NzA4MCwxMjYyNzg1
 NTYsLTkxODIwMjc3MCwtMTgyMzMyMTY3MSwyMDMyMjU3NjYwLD
 EwMjExNjA1MDYsODQzMDA4NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3
