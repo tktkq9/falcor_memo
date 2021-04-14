@@ -853,8 +853,10 @@ imguiによりシャッタースピード or 露光、f値（mAutoExposureがtru
 - Linear : そのまま出力
 - Reinhard : Reinhard関数、color / (luminance + 1)
 - ReinhardModified : 
+
+大体の関数とその結果は[[Tone Mapping](https://64.github.io/tonemapping/)](https://64.github.io/tonemapping/)参照
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDIyMTgxMTMsLTEwMTY2NjYyODAsLT
+eyJoaXN0b3J5IjpbLTEwNDI1NTA5ODYsLTEwMTY2NjYyODAsLT
 EyODQ2MzcwNDMsMTIwMjE0NzA4MCwxMjYyNzg1NTYsLTkxODIw
 Mjc3MCwtMTgyMzMyMTY3MSwyMDMyMjU3NjYwLDEwMjExNjA1MD
 YsODQzMDA4NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3LC00NTI2MDg3
