@@ -933,11 +933,13 @@ MegakernelPathTracer、MinimalPathTracerに続き、3つ目のパストレーサ
 という点が異なる  
 こんな感じでMinimalPathTracerと比較しようにもちょっと微妙な感じなので何用なのかちょっとわからん  
 
-上の差異を除いてだいたいはMinimalPathTracerと同じで、RayCone、RayDiff
+上の差異を除いてだいたいはMinimalPathTracerと同じで、  
+RayCone、RayDiffの部分はRayFootprint.slangやMegakernelPathTracerの処理とだいたい同じ  
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MTA0NzQ1MSw1NjA0NTYxOTIsLTI4OD
+eyJoaXN0b3J5IjpbMTMxNDMxOTgwMiw1NjA0NTYxOTIsLTI4OD
 IxNjQ2NSwtNTE0OTQ0NjU4LC0xMDE2NjY2MjgwLC0xMjg0NjM3
 MDQzLDEyMDIxNDcwODAsMTI2Mjc4NTU2LC05MTgyMDI3NzAsLT
 E4MjMzMjE2NzEsMjAzMjI1NzY2MCwxMDIxMTYwNTA2LDg0MzAw
