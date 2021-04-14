@@ -831,7 +831,7 @@ SVGFReproject.ps.slangのillumination計算の逆処理によって、
 
 ## TemporalDelayPassプロジェクト
 接続したインプットのコピーを指定したフレーム分保存するパス  
-フレームsu
+フレーム数分そのままcopyResource()でコピーしていくだけ  
 
 ### TemporalDelayPass.h, cpp
 
@@ -841,11 +841,11 @@ SVGFReproject.ps.slangのillumination計算の逆処理によって、
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjMwODAxMSwxMjYyNzg1NTYsLTkxOD
-IwMjc3MCwtMTgyMzMyMTY3MSwyMDMyMjU3NjYwLDEwMjExNjA1
-MDYsODQzMDA4NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3LC00NTI2MD
-g3MCwtMTYzNTIzNzUwOSwtMjEzOTA3NzA2Nyw2MzYwNjg0MzUs
-MzkxNTgzMzQyLC0xMDYxMzE5NzkzLDE0OTkzNjAzNzgsLTIwND
-QzMzQ0NzcsLTEwMzQ0MzgzNTYsLTEwMzQ0MzgzNTYsMTE4MTY0
-MjU0NV19
+eyJoaXN0b3J5IjpbLTE2MTY4ODQxODksMTI2Mjc4NTU2LC05MT
+gyMDI3NzAsLTE4MjMzMjE2NzEsMjAzMjI1NzY2MCwxMDIxMTYw
+NTA2LDg0MzAwODcxMiwzODM4NTEzLDI3MDk3MDI0NywtNDUyNj
+A4NzAsLTE2MzUyMzc1MDksLTIxMzkwNzcwNjcsNjM2MDY4NDM1
+LDM5MTU4MzM0MiwtMTA2MTMxOTc5MywxNDk5MzYwMzc4LC0yMD
+Q0MzM0NDc3LC0xMDM0NDM4MzU2LC0xMDM0NDM4MzU2LDExODE2
+NDI1NDVdfQ==
 -->
