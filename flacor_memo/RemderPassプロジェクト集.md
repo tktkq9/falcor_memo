@@ -830,7 +830,7 @@ SVGFReproject.ps.slangのillumination計算の逆処理によって、
 ただし論文にもあるようにSVGFより重い  
 
 ## TemporalDelayPassプロジェクト
-接続したインプットに対し、指定したフレーム前のインプットを出力するパス  
+接続したインプットに対し、指定したフレーム前のインプット内容を出力するパス  
 この処理のために、フレーム数分そのままcopyResource()でコピーしていくだけ  
 
 ### TemporalDelayPass.h, cpp
@@ -847,11 +847,11 @@ out : maxDelay、mDelay前のsrc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NjQ0ODA1OCwxMjAyMTQ3MDgwLDEyNj
-I3ODU1NiwtOTE4MjAyNzcwLC0xODIzMzIxNjcxLDIwMzIyNTc2
-NjAsMTAyMTE2MDUwNiw4NDMwMDg3MTIsMzgzODUxMywyNzA5Nz
-AyNDcsLTQ1MjYwODcwLC0xNjM1MjM3NTA5LC0yMTM5MDc3MDY3
-LDYzNjA2ODQzNSwzOTE1ODMzNDIsLTEwNjEzMTk3OTMsMTQ5OT
-M2MDM3OCwtMjA0NDMzNDQ3NywtMTAzNDQzODM1NiwtMTAzNDQz
-ODM1Nl19
+eyJoaXN0b3J5IjpbLTEwMDYzNDE1OTQsMTIwMjE0NzA4MCwxMj
+YyNzg1NTYsLTkxODIwMjc3MCwtMTgyMzMyMTY3MSwyMDMyMjU3
+NjYwLDEwMjExNjA1MDYsODQzMDA4NzEyLDM4Mzg1MTMsMjcwOT
+cwMjQ3LC00NTI2MDg3MCwtMTYzNTIzNzUwOSwtMjEzOTA3NzA2
+Nyw2MzYwNjg0MzUsMzkxNTgzMzQyLC0xMDYxMzE5NzkzLDE0OT
+kzNjAzNzgsLTIwNDQzMzQ0NzcsLTEwMzQ0MzgzNTYsLTEwMzQ0
+MzgzNTZdfQ==
 -->
