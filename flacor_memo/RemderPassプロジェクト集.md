@@ -846,15 +846,17 @@ out : maxDelay、mDelay前のsrc
 ## ToneMapperプロジェクト
 トーンマッピングパス  
 
-imguiによりシャッタースピード or 露光、f値（mAutoExposureがtrueの場合はシェーダー側でるみナンスの）と色温度で画像の明るさ基準を設定できる  
+imguiによりシャッタースピード or 露光、f値（mAutoExposureがtrueの場合はシェーダー側でLuminanceの平均を計算して自動調整）と  
+色温度で画像の明るさ基準を設定できる  
 
-
+また、トーンマップ関数は  
+- Linear : そのまま出力
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4MTM5NzUsLTEwMTY2NjYyODAsLTEyOD
-Q2MzcwNDMsMTIwMjE0NzA4MCwxMjYyNzg1NTYsLTkxODIwMjc3
-MCwtMTgyMzMyMTY3MSwyMDMyMjU3NjYwLDEwMjExNjA1MDYsOD
-QzMDA4NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3LC00NTI2MDg3MCwt
-MTYzNTIzNzUwOSwtMjEzOTA3NzA2Nyw2MzYwNjg0MzUsMzkxNT
-gzMzQyLC0xMDYxMzE5NzkzLDE0OTkzNjAzNzgsLTIwNDQzMzQ0
-NzddfQ==
+eyJoaXN0b3J5IjpbLTE0NzQ3MzMwNjUsLTEwMTY2NjYyODAsLT
+EyODQ2MzcwNDMsMTIwMjE0NzA4MCwxMjYyNzg1NTYsLTkxODIw
+Mjc3MCwtMTgyMzMyMTY3MSwyMDMyMjU3NjYwLDEwMjExNjA1MD
+YsODQzMDA4NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3LC00NTI2MDg3
+MCwtMTYzNTIzNzUwOSwtMjEzOTA3NzA2Nyw2MzYwNjg0MzUsMz
+kxNTgzMzQyLC0xMDYxMzE5NzkzLDE0OTkzNjAzNzgsLTIwNDQz
+MzQ0NzddfQ==
 -->
