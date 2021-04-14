@@ -871,17 +871,17 @@ ToneMapping.ps.slangがトーンマップ用で、Luminance.ps.slangがmAutoExpo
 
 Luminance.ps.slangのFullScreenPassはmAutoExposureがtrueの場合のみ実行され、  
 luminanceを出力した後mipmapを作成し、luminance平均を求める  
-この値を使って、[トーンマップいろいろ](http://hikita12312.hatenablog.com/entry/2017/08/27/002859)とかに書いてある、y = f(
+この値を使って、[トーンマップいろいろ](http://hikita12312.hatenablog.com/entry/2017/08/27/002859)とかに書いてある、y = f(k / bar{L}) x)の調整を行う（このシェーダーではk = 0.）  
 
 ### ToneMapperParams.slang
 ToneMapperOperatorというenumの定義と、トーンマップシェーダーで使うパラメーターToneMapperParamsを定義しているだけ  
 HostDeviceShared.slanghを使っているのでGPU、CPU双方でこれを共有している  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ1NjQyMzYxLC01MTQ5NDQ2NTgsLTEwMT
-Y2NjYyODAsLTEyODQ2MzcwNDMsMTIwMjE0NzA4MCwxMjYyNzg1
-NTYsLTkxODIwMjc3MCwtMTgyMzMyMTY3MSwyMDMyMjU3NjYwLD
-EwMjExNjA1MDYsODQzMDA4NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3
-LC00NTI2MDg3MCwtMTYzNTIzNzUwOSwtMjEzOTA3NzA2Nyw2Mz
-YwNjg0MzUsMzkxNTgzMzQyLC0xMDYxMzE5NzkzLDE0OTkzNjAz
-NzhdfQ==
+eyJoaXN0b3J5IjpbLTM2Nzg0Njc3NywtNTE0OTQ0NjU4LC0xMD
+E2NjY2MjgwLC0xMjg0NjM3MDQzLDEyMDIxNDcwODAsMTI2Mjc4
+NTU2LC05MTgyMDI3NzAsLTE4MjMzMjE2NzEsMjAzMjI1NzY2MC
+wxMDIxMTYwNTA2LDg0MzAwODcxMiwzODM4NTEzLDI3MDk3MDI0
+NywtNDUyNjA4NzAsLTE2MzUyMzc1MDksLTIxMzkwNzcwNjcsNj
+M2MDY4NDM1LDM5MTU4MzM0MiwtMTA2MTMxOTc5MywxNDk5MzYw
+Mzc4XX0=
 -->
