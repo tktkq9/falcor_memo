@@ -879,11 +879,14 @@ mAutoExposureがfalseの時はluminance平均による補正は行われず、
 これらの補正＋mWhitePointによる色温度補正が考慮され、  
 色補正行列mColorTransformが計算されシェーダーで適用される（luminance平均は別処理で行われる）  
 
+in : src、トーンマップする前  
+out : dst、トーンマップした後  
+
 ### ToneMapperParams.slang
 ToneMapperOperatorというenumの定義と、トーンマップシェーダーで使うパラメーターToneMapperParamsを定義しているだけ  
 HostDeviceShared.slanghを使っているのでGPU、CPU双方でこれを共有している  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk4MjM0NjI1LC01MTQ5NDQ2NTgsLTEwMT
+eyJoaXN0b3J5IjpbNzkyMzYxMTkwLC01MTQ5NDQ2NTgsLTEwMT
 Y2NjYyODAsLTEyODQ2MzcwNDMsMTIwMjE0NzA4MCwxMjYyNzg1
 NTYsLTkxODIwMjc3MCwtMTgyMzMyMTY3MSwyMDMyMjU3NjYwLD
 EwMjExNjA1MDYsODQzMDA4NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3
