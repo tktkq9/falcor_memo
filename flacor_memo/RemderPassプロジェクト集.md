@@ -916,16 +916,17 @@ scaleA、scaleBによるA、Bそれぞれのスケールもできるようにな
 ### GaussianBlur.h, cppとシェーダー
 ガウシアンブラーをかけるパス  
 シェーダーは1Dにガウス重み足し合わせで、横方向にかける -> この結果に対し縦方向にかける、といった感じで計算回数を節約している  
+
 kernelWidthがn x nフィルターのnの部分、中心を必ず含まなければいけないので、自動的に奇数に設定される  
 mSigmaがガウス分布関数にあるσ  
 これらからガウス重みをCPU側で事前計算し、その配列をシェーダーに渡すといった感じ  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyODAyMDY2Niw1NjA0NTYxOTIsLTI4OD
-IxNjQ2NSwtNTE0OTQ0NjU4LC0xMDE2NjY2MjgwLC0xMjg0NjM3
-MDQzLDEyMDIxNDcwODAsMTI2Mjc4NTU2LC05MTgyMDI3NzAsLT
-E4MjMzMjE2NzEsMjAzMjI1NzY2MCwxMDIxMTYwNTA2LDg0MzAw
-ODcxMiwzODM4NTEzLDI3MDk3MDI0NywtNDUyNjA4NzAsLTE2Mz
-UyMzc1MDksLTIxMzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4MzM0
-Ml19
+eyJoaXN0b3J5IjpbNzMxOTYxMDQ4LDU2MDQ1NjE5MiwtMjg4Mj
+E2NDY1LC01MTQ5NDQ2NTgsLTEwMTY2NjYyODAsLTEyODQ2Mzcw
+NDMsMTIwMjE0NzA4MCwxMjYyNzg1NTYsLTkxODIwMjc3MCwtMT
+gyMzMyMTY3MSwyMDMyMjU3NjYwLDEwMjExNjA1MDYsODQzMDA4
+NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3LC00NTI2MDg3MCwtMTYzNT
+IzNzUwOSwtMjEzOTA3NzA2Nyw2MzYwNjg0MzUsMzkxNTgzMzQy
+XX0=
 -->
