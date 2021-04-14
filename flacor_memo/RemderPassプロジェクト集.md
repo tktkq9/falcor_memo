@@ -925,19 +925,21 @@ mSigmaがガウス分布関数にあるσ
 ## WhittedRayTraceプロジェクト
 MegakernelPathTracer、MinimalPathTracerに続き、3つ目のパストレーサーパス  
 このパスもMinimalPathTracerに近いが、  
-反射レイの方向がBSDFサンプルせず鏡面反射のみであるということと、  
-RayCone、RayDiffによるLOD処理をすることと、  
-evalDirectAnalytic()で複数のライトから1つサンプルするのではなく、すべてのライトに対して1回サンプルする  
-あとダイレクトとインダイレクトを分けることはｄけいない  
+- 反射レイの方向がBSDFサンプルせず鏡面反射のみであるということと、  
+- RayCone、RayDiffによるLOD処理をすることと、  
+- evalDirectAnalytic()で複数のライトから1つサンプルするのではなく、すべてのライトに対して1回サンプルする  
+- あとダイレクトとインダイレクトを分けることはｄけいない  
+
 という点が異なる  
+何用なんだろうか  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTk0MDgwMCw1NjA0NTYxOTIsLTI4OD
-IxNjQ2NSwtNTE0OTQ0NjU4LC0xMDE2NjY2MjgwLC0xMjg0NjM3
-MDQzLDEyMDIxNDcwODAsMTI2Mjc4NTU2LC05MTgyMDI3NzAsLT
-E4MjMzMjE2NzEsMjAzMjI1NzY2MCwxMDIxMTYwNTA2LDg0MzAw
-ODcxMiwzODM4NTEzLDI3MDk3MDI0NywtNDUyNjA4NzAsLTE2Mz
-UyMzc1MDksLTIxMzkwNzcwNjcsNjM2MDY4NDM1LDM5MTU4MzM0
-Ml19
+eyJoaXN0b3J5IjpbNzU4MjcyNzk0LDU2MDQ1NjE5MiwtMjg4Mj
+E2NDY1LC01MTQ5NDQ2NTgsLTEwMTY2NjYyODAsLTEyODQ2Mzcw
+NDMsMTIwMjE0NzA4MCwxMjYyNzg1NTYsLTkxODIwMjc3MCwtMT
+gyMzMyMTY3MSwyMDMyMjU3NjYwLDEwMjExNjA1MDYsODQzMDA4
+NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3LC00NTI2MDg3MCwtMTYzNT
+IzNzUwOSwtMjEzOTA3NzA2Nyw2MzYwNjg0MzUsMzkxNTgzMzQy
+XX0=
 -->
