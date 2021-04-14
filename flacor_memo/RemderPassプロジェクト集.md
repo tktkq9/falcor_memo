@@ -867,7 +867,7 @@ TODO : ちゃんと探す
 ### ToneMapper.h, cpp
 上に書いたトーンマップ設定をimguiで設定できるようにし、  
 Luminance.ps.slangとToneMapping.ps.slangシェーダーのFullScreenPassを作成、設定に合わせて変数計算と割り当てと実行を行うクラス  
-ToneMapping.ps.slangがトーンマップ用で、Luminance.ps.slangがmAutoExposureがtrueの時のluminance平均計算用  
+ToneMapping.ps.slangがトーンマップ用で、Luminance.ps.slangがluminance平均計算用  
 
 mAutoExposureがtrueの場合はLuminance.ps.slangのFullScreenPassが実行され、  
 luminanceを出力した後mipmapを作成し、luminance平均を求める  
@@ -882,11 +882,11 @@ mAutoExposureがfalseの時はluminance平均による補正は行われず、
 ToneMapperOperatorというenumの定義と、トーンマップシェーダーで使うパラメーターToneMapperParamsを定義しているだけ  
 HostDeviceShared.slanghを使っているのでGPU、CPU双方でこれを共有している  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY4MTExNzQzLC01MTQ5NDQ2NTgsLTEwMT
-Y2NjYyODAsLTEyODQ2MzcwNDMsMTIwMjE0NzA4MCwxMjYyNzg1
-NTYsLTkxODIwMjc3MCwtMTgyMzMyMTY3MSwyMDMyMjU3NjYwLD
-EwMjExNjA1MDYsODQzMDA4NzEyLDM4Mzg1MTMsMjcwOTcwMjQ3
-LC00NTI2MDg3MCwtMTYzNTIzNzUwOSwtMjEzOTA3NzA2Nyw2Mz
-YwNjg0MzUsMzkxNTgzMzQyLC0xMDYxMzE5NzkzLDE0OTkzNjAz
-NzhdfQ==
+eyJoaXN0b3J5IjpbMTU1ODI1MDk2NiwtNTE0OTQ0NjU4LC0xMD
+E2NjY2MjgwLC0xMjg0NjM3MDQzLDEyMDIxNDcwODAsMTI2Mjc4
+NTU2LC05MTgyMDI3NzAsLTE4MjMzMjE2NzEsMjAzMjI1NzY2MC
+wxMDIxMTYwNTA2LDg0MzAwODcxMiwzODM4NTEzLDI3MDk3MDI0
+NywtNDUyNjA4NzAsLTE2MzUyMzc1MDksLTIxMzkwNzcwNjcsNj
+M2MDY4NDM1LDM5MTU4MzM0MiwtMTA2MTMxOTc5MywxNDk5MzYw
+Mzc4XX0=
 -->
