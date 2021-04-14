@@ -860,15 +860,14 @@ TODO : ちゃんと探す
 - HableUc2 : アンチャーテッド2で使われているやつ、同じくコードに書いてある奴はリンク切れ  
 参考文献は[Hable John Uncharted2 Hdr Lighting](https://www.slideshare.net/ozlael/hable-john-uncharted2-hdr-lighting)142ページあたり  
 - Aces  [ACES Filmic Tone Mapping Curve](https://knarkowicz.wordpress.com/2016/01/06/aces-filmic-tone-mapping-curve/)
-
-大体の関数とその結果は[[Tone Mapping](https://64.github.io/tonemapping/)](https://64.github.io/tonemapping/)の方にもまとまっている  
+参考として、これらの説明とその結果は[[Tone Mapping](https://64.github.io/tonemapping/)](https://64.github.io/tonemapping/)の方にも大体まとまっている  
 ただしアンチャーテッド2のパラメーター設定がちょっと違う  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NzQ2MzY1MiwtNTE0OTQ0NjU4LC0xMD
-E2NjY2MjgwLC0xMjg0NjM3MDQzLDEyMDIxNDcwODAsMTI2Mjc4
-NTU2LC05MTgyMDI3NzAsLTE4MjMzMjE2NzEsMjAzMjI1NzY2MC
-wxMDIxMTYwNTA2LDg0MzAwODcxMiwzODM4NTEzLDI3MDk3MDI0
-NywtNDUyNjA4NzAsLTE2MzUyMzc1MDksLTIxMzkwNzcwNjcsNj
-M2MDY4NDM1LDM5MTU4MzM0MiwtMTA2MTMxOTc5MywxNDk5MzYw
-Mzc4XX0=
+eyJoaXN0b3J5IjpbLTE3MDgwOTMzMTEsLTUxNDk0NDY1OCwtMT
+AxNjY2NjI4MCwtMTI4NDYzNzA0MywxMjAyMTQ3MDgwLDEyNjI3
+ODU1NiwtOTE4MjAyNzcwLC0xODIzMzIxNjcxLDIwMzIyNTc2Nj
+AsMTAyMTE2MDUwNiw4NDMwMDg3MTIsMzgzODUxMywyNzA5NzAy
+NDcsLTQ1MjYwODcwLC0xNjM1MjM3NTA5LC0yMTM5MDc3MDY3LD
+YzNjA2ODQzNSwzOTE1ODMzNDIsLTEwNjEzMTk3OTMsMTQ5OTM2
+MDM3OF19
 -->
