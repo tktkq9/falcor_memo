@@ -865,11 +865,13 @@ TODO : ちゃんと探す
 ただしアンチャーテッド2のパラメーター設定がちょっと違う  
 
 ### ToneMapper.h, cpp
+上に書いたトーンマップ設定をimguiで設定できるようにし、それようのシェーダー
 
 ### ToneMapperParams.slang
-ToneMapperOperatorというenumの定義と、トーンマップシェーダーで使うパラメーターToneMapperParamsを定義しているだ
+ToneMapperOperatorというenumの定義と、トーンマップシェーダーで使うパラメーターToneMapperParamsを定義しているだけ  
+HostDeviceShared.slanghを使っているのでGPU、CPU双方でこれを共有している  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MjQxNTI0NiwtNTE0OTQ0NjU4LC0xMD
+eyJoaXN0b3J5IjpbMTA0NTg4MTY3NywtNTE0OTQ0NjU4LC0xMD
 E2NjY2MjgwLC0xMjg0NjM3MDQzLDEyMDIxNDcwODAsMTI2Mjc4
 NTU2LC05MTgyMDI3NzAsLTE4MjMzMjE2NzEsMjAzMjI1NzY2MC
 wxMDIxMTYwNTA2LDg0MzAwODcxMiwzODM4NTEzLDI3MDk3MDI0
