@@ -855,11 +855,12 @@ imguiによりシャッタースピード or 露光、f値（mAutoExposureがtru
 - ReinhardModified : [Extended Reinhard](https://64.github.io/tonemapping/#extended-reinhard)、color * (1 + luminance / whiteMaxLuminance^2 ) / ( 1 + luminance )のはずなんだが、  
 ( 1 + luminance )^2がかけられている。ミス？
 - HejiHableAlu : John Hable's ALU approximation of Jim Heji's operator、リンク切れしているのでどんなのかなぞ  
-
+実装を見るにHableUc2の亜種  
+- HableUc2 : 
 
 大体の関数とその結果は[[Tone Mapping](https://64.github.io/tonemapping/)](https://64.github.io/tonemapping/)参照
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjM4Mjc5OSwtNTE0OTQ0NjU4LC0xMD
+eyJoaXN0b3J5IjpbMTM5ODk4MTY4MSwtNTE0OTQ0NjU4LC0xMD
 E2NjY2MjgwLC0xMjg0NjM3MDQzLDEyMDIxNDcwODAsMTI2Mjc4
 NTU2LC05MTgyMDI3NzAsLTE4MjMzMjE2NzEsMjAzMjI1NzY2MC
 wxMDIxMTYwNTA2LDg0MzAwODcxMiwzODM4NTEzLDI3MDk3MDI0
