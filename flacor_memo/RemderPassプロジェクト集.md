@@ -859,11 +859,11 @@ TODO : ちゃんと探す
 実装を見るにHableUc2の亜種  
 - HableUc2 : アンチャーテッド2で使われているやつ、同じくコードに書いてある奴はリンク切れ  
 参考文献は[Hable John Uncharted2 Hdr Lighting](https://www.slideshare.net/ozlael/hable-john-uncharted2-hdr-lighting)142ページあたり  
-- Aces  [ACES Filmic Tone Mapping Curve](https://knarkowicz.wordpress.com/2016/01/06/aces-filmic-tone-mapping-curve/)
+- Aces : [ACES Filmic Tone Mapping Curve](https://knarkowicz.wordpress.com/2016/01/06/aces-filmic-tone-mapping-curve/)の内容  
 参考として、これらの説明とその結果は[[Tone Mapping](https://64.github.io/tonemapping/)](https://64.github.io/tonemapping/)の方にも大体まとまっている  
 ただしアンチャーテッド2のパラメーター設定がちょっと違う  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDgwOTMzMTEsLTUxNDk0NDY1OCwtMT
+eyJoaXN0b3J5IjpbLTIxMTMyMDA1OTUsLTUxNDk0NDY1OCwtMT
 AxNjY2NjI4MCwtMTI4NDYzNzA0MywxMjAyMTQ3MDgwLDEyNjI3
 ODU1NiwtOTE4MjAyNzcwLC0xODIzMzIxNjcxLDIwMzIyNTc2Nj
 AsMTAyMTE2MDUwNiw4NDMwMDg3MTIsMzgzODUxMywyNzA5NzAy
