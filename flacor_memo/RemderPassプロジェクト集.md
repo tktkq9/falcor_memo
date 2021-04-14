@@ -844,11 +844,12 @@ out : maxDelay、mDelay前のsrc
 
 
 ## ToneMapperプロジェクト
-トーンマッピング
+トーンマッピングパス  
 
+シャッタースピード、露光、
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MzM2OTUwNCwtMTI4NDYzNzA0MywxMj
+eyJoaXN0b3J5IjpbLTQxODAzMjQ0MywtMTI4NDYzNzA0MywxMj
 AyMTQ3MDgwLDEyNjI3ODU1NiwtOTE4MjAyNzcwLC0xODIzMzIx
 NjcxLDIwMzIyNTc2NjAsMTAyMTE2MDUwNiw4NDMwMDg3MTIsMz
 gzODUxMywyNzA5NzAyNDcsLTQ1MjYwODcwLC0xNjM1MjM3NTA5
