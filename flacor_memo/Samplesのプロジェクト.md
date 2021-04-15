@@ -2,7 +2,7 @@
 
 
 IRendererを継承したクラス（と使うシェーダー）のみを作成し、Sampleクラスに渡して描画するタイプの実装サンプル  
-このクラス単体で描画できるが、Mogwaiでは使えない（Mogwai用のサンプル実装はRenderPassesのプロジェクトを参照）  
+このクラス単体で描画できるが、Mogwaiとかで使っているレンダーパスでは使えない（レンダーパス実装はRenderPassesのプロジェクトを参照）  
 
 新しくこれ用のプロジェクトを作りたい場合は、Source/Samples/make_new_project.batを実行  
 
@@ -61,5 +61,5 @@ onFrameRender()ではmpMainPassを使って描画
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjk3NTEwNTJdfQ==
+eyJoaXN0b3J5IjpbLTIxMTg2NzMzMzNdfQ==
 -->
